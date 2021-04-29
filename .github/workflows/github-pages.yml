@@ -1,0 +1,16 @@
+name: Github Pages[Deploy Core Docs generated with phpDocumentor]
+on:
+  push:
+    branches:
+      - master  # Set a branch name to trigger deployment
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deploy phplist/core docs on Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
