@@ -8,12 +8,16 @@
     <link rel="icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
-            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -48,16 +52,23 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
-    
-    <section class="phpdocumentor-sidebar__category">
-        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phplist.html"><abbr title="\PhpList">PhpList</abbr></a></h4>
-                <ul class="phpdocumentor-list">
-                                            <li><a href="namespaces/phplist-core.html"><abbr title="\PhpList\Core">Core</abbr></a></li>
-                                    </ul>
-                        </section>
+                    <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phplist.html">PhpList</a></h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/phplist-core.html">Core</a>
+                
+            </li>
+            </ul>
 
-    
+                        </section>
+                <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
+
+                        </section>
+            
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
@@ -88,6 +99,12 @@
         extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
     </span>
     
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
     
     
     </h2>
@@ -96,11 +113,11 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">19</span>
-</aside>
+
+    </aside>
 
             <p class="phpdocumentor-summary">Testcase.</p>
 
-    <section class="phpdocumentor-description"></section>
 
 
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -381,7 +398,8 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">24</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -392,8 +410,8 @@
 </code>
 
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -422,7 +440,8 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">34</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -431,8 +450,8 @@
     <span class="phpdocumentor-signature__name">$packageRepositoryProphecy</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -453,7 +472,8 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">29</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -462,8 +482,8 @@
     <span class="phpdocumentor-signature__name">$subject</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -488,15 +508,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">269</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">createBundleConfigurationYamlForNoModulesReturnsCommentOnly</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -509,16 +529,14 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -535,15 +553,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">284</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">createBundleConfigurationYamlReturnsYamlForBundles</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bundles</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -551,16 +569,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$bundles</span>
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -575,8 +591,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -592,8 +607,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -610,15 +624,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">674</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">createGeneralConfigurationYamlForNoModulesReturnsCommentOnly</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -631,16 +645,14 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -657,15 +669,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">689</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">createGeneralConfigurationYamlReturnsYamlForConfiguration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$routes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -673,16 +685,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$routes</span>
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -697,8 +707,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -714,8 +723,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -732,15 +740,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">498</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">createRouteConfigurationYamlForNoModulesReturnsCommentOnly</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -753,16 +761,14 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -779,15 +785,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">513</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">createRouteConfigurationYamlReturnsYamlForRoutes</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$routes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -795,16 +801,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$routes</span>
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -819,8 +823,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -836,8 +839,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -854,15 +856,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">255</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">findBundleClassesForModulesWithBundlesReturnsBundleClassNames</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, string&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expectedBundles</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -870,16 +872,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$expectedBundles</span>
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, string&gt;&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -894,8 +894,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -911,8 +910,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -929,15 +927,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">168</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">findBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -945,8 +943,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -961,8 +958,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -978,8 +974,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -996,15 +991,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">129</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">findBundleClassesForModulesWithoutBundlesReturnsEmptyArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1012,8 +1007,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1028,8 +1022,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -1045,8 +1038,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1063,15 +1055,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">50</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">findBundleClassesForNoModulesReturnsEmptyArray</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -1084,16 +1076,14 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1110,15 +1100,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">660</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">findGeneralConfigurationForModulesWithConfigurationReturnsConfiguration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expectedConfiguration</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1126,16 +1116,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$expectedConfiguration</span>
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1150,8 +1138,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -1167,8 +1154,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1185,15 +1171,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">577</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">findGeneralConfigurationForModulesWithInvalidConfigurationThrowsException</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1201,8 +1187,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1217,8 +1202,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -1234,8 +1218,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1252,15 +1235,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">543</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">findGeneralConfigurationForModulesWithoutConfigurationReturnsEmptyArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1268,8 +1251,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1284,8 +1266,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -1301,8 +1282,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1319,15 +1299,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">353</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">findRoutesClassesForModulesWithInvalidRoutesConfigurationThrowsException</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1335,8 +1315,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1351,8 +1330,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -1368,8 +1346,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1386,15 +1363,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">314</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">findRoutesForModulesWithoutRoutesReturnsEmptyArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1402,8 +1379,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1418,8 +1394,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -1435,8 +1410,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1453,15 +1427,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">486</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">findRoutesForModulesWithRoutesReturnsRoutes</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expectedRoutes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1469,16 +1443,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$expectedRoutes</span>
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1493,8 +1465,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">dataProvider</span>
@@ -1510,8 +1481,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1528,23 +1498,22 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">180</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">modulesWithBundlesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1561,23 +1530,22 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">589</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">modulesWithConfigurationDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1594,23 +1562,22 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">141</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">modulesWithInvalidBundlesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1627,23 +1594,22 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">555</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">modulesWithInvalidConfigurationDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1660,23 +1626,22 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">326</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">modulesWithInvalidRoutesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1693,23 +1658,22 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">62</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">modulesWithoutBundlesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1726,23 +1690,22 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">525</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">modulesWithoutConfigurationDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1759,23 +1722,22 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">296</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">modulesWithoutRoutesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1792,23 +1754,22 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">365</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">modulesWithRoutesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1825,22 +1786,23 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">36</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1857,15 +1819,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">80</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
                 <span class="phpdocumentor-signature__name">buildMockPackagesWithModuleConfiguration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extrasSets</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1873,8 +1835,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1883,8 +1844,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1901,15 +1861,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">461</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
                 <span class="phpdocumentor-signature__name">buildModuleSets</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dataSets</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1917,8 +1877,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1927,8 +1886,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1945,15 +1903,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">114</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
                 <span class="phpdocumentor-signature__name">buildPackageProphecyWithExtras</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extras</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$packageName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Prophecy\Prophecy\ProphecySubjectInterface">ProphecySubjectInterface</abbr></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1961,16 +1919,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$packageName</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1979,8 +1935,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><abbr title="\Prophecy\Prophecy\ProphecySubjectInterface">ProphecySubjectInterface</abbr></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1997,15 +1952,15 @@
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">97</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
                 <span class="phpdocumentor-signature__name">buildSingleMockPackageWithModuleConfiguration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extrasSet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2013,8 +1968,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -2023,11 +1977,72 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
             </section>
+
+        
+    <script type="text/javascript">
+        function loadExternalCodeSnippets(line) {
+            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
+                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
+                var language = 'php';
+
+                var code = document.createElement('code');
+                code.className = 'language-' + language;
+
+                pre.textContent = '';
+
+                pre.setAttribute('data-line', line)
+                code.textContent = 'Loading…';
+
+                pre.appendChild(code);
+
+                var xhr = new XMLHttpRequest();
+
+                xhr.open('GET', src, true);
+
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4) {
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+
+                            Prism.highlightElement(code);
+                        }
+                        else if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                        }
+                        else {
+                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
+                        }
+                    }
+                };
+
+                xhr.send(null);
+            });
+        }
+
+        var modals = document.querySelectorAll("[data-modal]");
+
+        modals.forEach(function (trigger) {
+            trigger.addEventListener("click", function (event) {
+                //event.preventDefault();
+                const modal = document.getElementById(trigger.dataset.modal);
+                modal.classList.add("phpdocumentor-modal__open");
+                loadExternalCodeSnippets(trigger.dataset.line)
+                const exits = modal.querySelectorAll("[data-exit-button]");
+                exits.forEach(function (exit) {
+                    exit.addEventListener("click", function (event) {
+                        event.preventDefault();
+                        modal.classList.remove("phpdocumentor-modal__open");
+                    });
+                });
+            });
+        });
+    </script>
 
     </article>
                 <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
@@ -2050,5 +2065,9 @@
     <script>
         cssVars({});
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
 </body>
 </html>

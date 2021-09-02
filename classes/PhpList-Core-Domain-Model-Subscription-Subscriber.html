@@ -8,12 +8,16 @@
     <link rel="icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
-            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -48,16 +52,23 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
-    
-    <section class="phpdocumentor-sidebar__category">
-        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phplist.html"><abbr title="\PhpList">PhpList</abbr></a></h4>
-                <ul class="phpdocumentor-list">
-                                            <li><a href="namespaces/phplist-core.html"><abbr title="\PhpList\Core">Core</abbr></a></li>
-                                    </ul>
-                        </section>
+                    <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phplist.html">PhpList</a></h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/phplist-core.html">Core</a>
+                
+            </li>
+            </ul>
 
-    
+                        </section>
+                <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
+
+                        </section>
+            
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
@@ -85,6 +96,12 @@
     Subscriber
 
     
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
     
             <span class="phpdocumentor-element__implements">
             implements
@@ -99,12 +116,12 @@
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">31</span>
-</aside>
+
+    </aside>
 
             <p class="phpdocumentor-summary">This class represents asubscriber who can subscribe to multiple subscriber lists and can receive email messages from
 campaigns for those subscriber lists.</p>
 
-    <section class="phpdocumentor-description"></section>
 
 
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -135,8 +152,7 @@ campaigns for those subscriber lists.</p>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">ExclusionPolicy</span>
@@ -517,7 +533,8 @@ not the Doctrine-generated one.</dd>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">42</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -526,8 +543,8 @@ not the Doctrine-generated one.</dd>
     <span class="phpdocumentor-signature__name">$creationDate</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -548,8 +565,7 @@ not the Doctrine-generated one.</dd>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
@@ -571,7 +587,8 @@ not the Doctrine-generated one.</dd>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">48</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -580,8 +597,8 @@ not the Doctrine-generated one.</dd>
     <span class="phpdocumentor-signature__name">$modificationDate</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -617,7 +634,8 @@ not the Doctrine-generated one.</dd>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">69</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -626,8 +644,8 @@ not the Doctrine-generated one.</dd>
     <span class="phpdocumentor-signature__name">$blacklisted</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -648,8 +666,7 @@ not the Doctrine-generated one.</dd>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
@@ -671,7 +688,8 @@ not the Doctrine-generated one.</dd>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">76</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -680,8 +698,8 @@ not the Doctrine-generated one.</dd>
     <span class="phpdocumentor-signature__name">$bounceCount</span>
      = <span class="phpdocumentor-signature__default-value">0</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -702,8 +720,7 @@ not the Doctrine-generated one.</dd>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
@@ -725,7 +742,8 @@ not the Doctrine-generated one.</dd>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">62</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -734,8 +752,8 @@ not the Doctrine-generated one.</dd>
     <span class="phpdocumentor-signature__name">$confirmed</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -756,8 +774,7 @@ not the Doctrine-generated one.</dd>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
@@ -779,7 +796,8 @@ not the Doctrine-generated one.</dd>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">100</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -788,8 +806,8 @@ not the Doctrine-generated one.</dd>
     <span class="phpdocumentor-signature__name">$disabled</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -810,8 +828,7 @@ not the Doctrine-generated one.</dd>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
@@ -833,7 +850,8 @@ not the Doctrine-generated one.</dd>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">55</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -842,8 +860,8 @@ not the Doctrine-generated one.</dd>
     <span class="phpdocumentor-signature__name">$email</span>
      = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -864,8 +882,7 @@ not the Doctrine-generated one.</dd>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
@@ -887,7 +904,8 @@ not the Doctrine-generated one.</dd>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">107</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -896,8 +914,8 @@ not the Doctrine-generated one.</dd>
     <span class="phpdocumentor-signature__name">$extraData</span>
      = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -918,8 +936,7 @@ not the Doctrine-generated one.</dd>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
@@ -941,7 +958,8 @@ not the Doctrine-generated one.</dd>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">93</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -950,8 +968,8 @@ not the Doctrine-generated one.</dd>
     <span class="phpdocumentor-signature__name">$htmlEmail</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -972,8 +990,7 @@ not the Doctrine-generated one.</dd>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
@@ -995,7 +1012,8 @@ not the Doctrine-generated one.</dd>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/IdentityTrait.php"><a href="files/src-domain-model-traits-identitytrait.html"><abbr title="src/Domain/Model/Traits/IdentityTrait.php">IdentityTrait.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">25</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -1004,8 +1022,8 @@ not the Doctrine-generated one.</dd>
     <span class="phpdocumentor-signature__name">$id</span>
      = <span class="phpdocumentor-signature__default-value">0</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -1017,8 +1035,7 @@ not the Doctrine-generated one.</dd>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">Mapping\Column</span>
@@ -1034,16 +1051,14 @@ not the Doctrine-generated one.</dd>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">Expose</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
@@ -1065,7 +1080,8 @@ not the Doctrine-generated one.</dd>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">127</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -1074,8 +1090,8 @@ not the Doctrine-generated one.</dd>
     <span class="phpdocumentor-signature__name">$subscribedLists</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -1123,7 +1139,8 @@ inverseJoinColumns=(name=&quot;listid&quot;)
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">117</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -1132,8 +1149,8 @@ inverseJoinColumns=(name=&quot;listid&quot;)
     <span class="phpdocumentor-signature__name">$subscriptions</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -1173,7 +1190,8 @@ cascade={&quot;remove&quot;}
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">86</span>
-</aside>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Note: The uniqueness of this column will not be enforced as long as we use the old DB schema,
 not the Doctrine-generated one.</p>
@@ -1184,8 +1202,8 @@ not the Doctrine-generated one.</p>
     <span class="phpdocumentor-signature__name">$uniqueId</span>
      = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
@@ -1206,8 +1224,7 @@ not the Doctrine-generated one.</p>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
@@ -1233,7 +1250,8 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">132</span>
-</aside>
+
+    </aside>
 
         <p class="phpdocumentor-summary">The constructor.</p>
 
@@ -1241,16 +1259,14 @@ not the Doctrine-generated one.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1267,15 +1283,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">197</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">addToBounceCount</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$delta</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1294,8 +1310,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1312,7 +1327,8 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">227</span>
-</aside>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Generates and sets a (new) random unique ID.</p>
 
@@ -1320,8 +1336,7 @@ not the Doctrine-generated one.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">generateUniqueId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -1334,16 +1349,14 @@ not the Doctrine-generated one.</p>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1360,23 +1373,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">177</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getBounceCount</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1393,23 +1405,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/CreationDateTrait.php"><a href="files/src-domain-model-traits-creationdatetrait.html"><abbr title="src/Domain/Model/Traits/CreationDateTrait.php">CreationDateTrait.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">23</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getCreationDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1426,23 +1437,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">235</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getEmail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1459,23 +1469,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">289</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getExtraData</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1492,23 +1501,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/IdentityTrait.php"><a href="files/src-domain-model-traits-identitytrait.html"><abbr title="src/Domain/Model/Traits/IdentityTrait.php">IdentityTrait.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">30</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1525,23 +1533,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">23</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getModificationDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1558,23 +1565,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">324</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getSubscribedLists</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1591,23 +1597,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">306</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getSubscriptions</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1624,23 +1629,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">205</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getUniqueId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1657,23 +1661,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">253</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">hasHtmlEmail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1690,23 +1693,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">159</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">isBlacklisted</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1723,23 +1725,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">141</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">isConfirmed</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1756,23 +1757,22 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">271</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">isDisabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1789,15 +1789,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">169</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setBlacklisted</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$blacklisted</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1805,8 +1805,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1815,8 +1814,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1833,15 +1831,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">187</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setBounceCount</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bounceCount</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1849,8 +1847,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1859,8 +1856,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1877,15 +1873,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">151</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setConfirmed</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$confirmed</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1893,8 +1889,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1903,8 +1898,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1921,15 +1915,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">281</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setDisabled</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$disabled</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1937,8 +1931,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1947,8 +1940,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1965,15 +1957,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">245</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setEmail</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1981,8 +1973,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1991,8 +1982,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2009,15 +1999,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">299</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setExtraData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extraData</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2025,8 +2015,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -2035,8 +2024,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2053,15 +2041,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">263</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setHtmlEmail</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlEmail</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2069,8 +2057,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -2079,8 +2066,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2097,15 +2083,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">334</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setSubscribedLists</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscribedLists</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2113,8 +2099,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -2123,8 +2108,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2141,15 +2125,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">316</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setSubscriptions</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriptions</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2157,8 +2141,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -2167,8 +2150,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2185,15 +2167,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">215</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setUniqueId</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uniqueId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2201,8 +2183,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -2211,8 +2192,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2229,7 +2209,8 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/CreationDateTrait.php"><a href="files/src-domain-model-traits-creationdatetrait.html"><abbr title="src/Domain/Model/Traits/CreationDateTrait.php">CreationDateTrait.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">45</span>
-</aside>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Updates the creation date to now.</p>
 
@@ -2237,8 +2218,7 @@ not the Doctrine-generated one.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">updateCreationDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -2251,16 +2231,14 @@ not the Doctrine-generated one.</p>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2277,7 +2255,8 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">46</span>
-</aside>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Updates the modification date to now.</p>
 
@@ -2285,8 +2264,7 @@ not the Doctrine-generated one.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">updateModificationDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -2299,24 +2277,21 @@ not the Doctrine-generated one.</p>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                                                 <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">Mapping\PreUpdate</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2333,15 +2308,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/CreationDateTrait.php"><a href="files/src-domain-model-traits-creationdatetrait.html"><abbr title="src/Domain/Model/Traits/CreationDateTrait.php">CreationDateTrait.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">33</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
                 <span class="phpdocumentor-signature__name">setCreationDate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$creationDate</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2349,8 +2324,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -2359,8 +2333,7 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2377,15 +2350,15 @@ not the Doctrine-generated one.</p>
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">33</span>
-</aside>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
                 <span class="phpdocumentor-signature__name">setModificationDate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modificationDate</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2393,8 +2366,7 @@ not the Doctrine-generated one.</p>
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -2403,11 +2375,72 @@ not the Doctrine-generated one.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
             </section>
+
+        
+    <script type="text/javascript">
+        function loadExternalCodeSnippets(line) {
+            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
+                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
+                var language = 'php';
+
+                var code = document.createElement('code');
+                code.className = 'language-' + language;
+
+                pre.textContent = '';
+
+                pre.setAttribute('data-line', line)
+                code.textContent = 'Loading…';
+
+                pre.appendChild(code);
+
+                var xhr = new XMLHttpRequest();
+
+                xhr.open('GET', src, true);
+
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4) {
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+
+                            Prism.highlightElement(code);
+                        }
+                        else if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                        }
+                        else {
+                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
+                        }
+                    }
+                };
+
+                xhr.send(null);
+            });
+        }
+
+        var modals = document.querySelectorAll("[data-modal]");
+
+        modals.forEach(function (trigger) {
+            trigger.addEventListener("click", function (event) {
+                //event.preventDefault();
+                const modal = document.getElementById(trigger.dataset.modal);
+                modal.classList.add("phpdocumentor-modal__open");
+                loadExternalCodeSnippets(trigger.dataset.line)
+                const exits = modal.querySelectorAll("[data-exit-button]");
+                exits.forEach(function (exit) {
+                    exit.addEventListener("click", function (event) {
+                        event.preventDefault();
+                        modal.classList.remove("phpdocumentor-modal__open");
+                    });
+                });
+            });
+        });
+    </script>
 
     </article>
                 <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
@@ -2430,5 +2463,9 @@ not the Doctrine-generated one.</p>
     <script>
         cssVars({});
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
 </body>
 </html>
