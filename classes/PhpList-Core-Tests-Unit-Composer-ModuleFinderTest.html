@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>phpList/Core Docs</title>
+            <title>phpList/Core Docs</title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
     <link rel="icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
@@ -18,6 +19,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -51,39 +53,44 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phplist.html">PhpList</a></h4>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/phplist.html" class="">PhpList</a>
+</h4>
     <ul class="phpdocumentor-list">
                     <li>
-                <a href="namespaces/phplist-core.html">Core</a>
+                <a href="namespaces/phplist-core.html" class="">Core</a>
                 
             </li>
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
-                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <ul class="phpdocumentor-breadcrumbs">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
@@ -109,6 +116,11 @@
     
     </h2>
 
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
@@ -120,9 +132,11 @@
 
 
 
+
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -134,8 +148,7 @@
 </section>
 
                                     </dd>
-                        </dl>
-
+                                            </dl>
 
 
 
@@ -143,242 +156,130 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
 </h3>
 
-<dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#constant_YAML_COMMENT">YAML_COMMENT</a>
-    <span>
-        &nbsp;= &#039;# This file is autogenerated. Please do not edit.&#039;                    </span>
-</dt>
-<dd></dd>
 
-                <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_packageRepositoryProphecy">$packageRepositoryProphecy</a>
+
+
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#constant_YAML_COMMENT">YAML_COMMENT</a>
     <span>
-                &nbsp;: <a href="classes/PhpList-Core-Composer-PackageRepository.html"><abbr title="\PhpList\Core\Composer\PackageRepository">PackageRepository</abbr></a>|<abbr title="\Prophecy\Prophecy\ObjectProphecy">ObjectProphecy</abbr>            </span>
+        &nbsp;= &#039;# This file is autogenerated. Please do not edit.&#039;                            </span>
 </dt>
-<dd></dd>
+
+    </dl>
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_packageRepository">$packageRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Composer-PackageRepository.html"><abbr title="\PhpList\Core\Composer\PackageRepository">PackageRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_subject">$subject</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_subject">$subject</a>
     <span>
-                &nbsp;: <a href="classes/PhpList-Core-Composer-ModuleFinder.html"><abbr title="\PhpList\Core\Composer\ModuleFinder">ModuleFinder</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Composer-ModuleFinder.html"><abbr title="\PhpList\Core\Composer\ModuleFinder">ModuleFinder</abbr></a>            </span>
 </dt>
-<dd></dd>
 
-                <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createBundleConfigurationYamlForNoModulesReturnsCommentOnly">createBundleConfigurationYamlForNoModulesReturnsCommentOnly()</a>
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithBundlesDataProvider">modulesWithBundlesDataProvider()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createBundleConfigurationYamlReturnsYamlForBundles">createBundleConfigurationYamlReturnsYamlForBundles()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithInvalidBundlesDataProvider">modulesWithInvalidBundlesDataProvider()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createGeneralConfigurationYamlForNoModulesReturnsCommentOnly">createGeneralConfigurationYamlForNoModulesReturnsCommentOnly()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithoutBundlesDataProvider">modulesWithoutBundlesDataProvider()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createGeneralConfigurationYamlReturnsYamlForConfiguration">createGeneralConfigurationYamlReturnsYamlForConfiguration()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testCreateBundleConfigurationYamlForNoModulesReturnsCommentOnly">testCreateBundleConfigurationYamlForNoModulesReturnsCommentOnly()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createRouteConfigurationYamlForNoModulesReturnsCommentOnly">createRouteConfigurationYamlForNoModulesReturnsCommentOnly()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testCreateBundleConfigurationYamlReturnsYamlForBundles">testCreateBundleConfigurationYamlReturnsYamlForBundles()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createRouteConfigurationYamlReturnsYamlForRoutes">createRouteConfigurationYamlReturnsYamlForRoutes()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithBundlesReturnsBundleClassNames">testFindBundleClassesForModulesWithBundlesReturnsBundleClassNames()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForModulesWithBundlesReturnsBundleClassNames">findBundleClassesForModulesWithBundlesReturnsBundleClassNames()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException">testFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException">findBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray">testFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForModulesWithoutBundlesReturnsEmptyArray">findBundleClassesForModulesWithoutBundlesReturnsEmptyArray()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForNoModulesReturnsEmptyArray">testFindBundleClassesForNoModulesReturnsEmptyArray()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForNoModulesReturnsEmptyArray">findBundleClassesForNoModulesReturnsEmptyArray()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findGeneralConfigurationForModulesWithConfigurationReturnsConfiguration">findGeneralConfigurationForModulesWithConfigurationReturnsConfiguration()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findGeneralConfigurationForModulesWithInvalidConfigurationThrowsException">findGeneralConfigurationForModulesWithInvalidConfigurationThrowsException()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findGeneralConfigurationForModulesWithoutConfigurationReturnsEmptyArray">findGeneralConfigurationForModulesWithoutConfigurationReturnsEmptyArray()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findRoutesClassesForModulesWithInvalidRoutesConfigurationThrowsException">findRoutesClassesForModulesWithInvalidRoutesConfigurationThrowsException()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findRoutesForModulesWithoutRoutesReturnsEmptyArray">findRoutesForModulesWithoutRoutesReturnsEmptyArray()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findRoutesForModulesWithRoutesReturnsRoutes">findRoutesForModulesWithRoutesReturnsRoutes()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithBundlesDataProvider">modulesWithBundlesDataProvider()</a>
-    <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, mixed&gt;&gt;    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithConfigurationDataProvider">modulesWithConfigurationDataProvider()</a>
-    <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithInvalidBundlesDataProvider">modulesWithInvalidBundlesDataProvider()</a>
-    <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithInvalidConfigurationDataProvider">modulesWithInvalidConfigurationDataProvider()</a>
-    <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithInvalidRoutesDataProvider">modulesWithInvalidRoutesDataProvider()</a>
-    <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithoutBundlesDataProvider">modulesWithoutBundlesDataProvider()</a>
-    <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithoutConfigurationDataProvider">modulesWithoutConfigurationDataProvider()</a>
-    <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithoutRoutesDataProvider">modulesWithoutRoutesDataProvider()</a>
-    <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithRoutesDataProvider">modulesWithRoutesDataProvider()</a>
-    <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;    </span>
-</dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_setUp">setUp()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_setUp">setUp()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildMockPackagesWithModuleConfiguration">buildMockPackagesWithModuleConfiguration()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildMockPackage">buildMockPackage()</a>
     <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;    </span>
+                                &nbsp;: <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildModuleSets">buildModuleSets()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildMockPackagesWithModuleConfiguration">buildMockPackagesWithModuleConfiguration()</a>
     <span>
-                        &nbsp;: array&lt;string|int, array&lt;string|int, mixed&gt;&gt;    </span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
-<dd></dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildPackageProphecyWithExtras">buildPackageProphecyWithExtras()</a>
-    <span>
-                        &nbsp;: <abbr title="\Prophecy\Prophecy\ProphecySubjectInterface">ProphecySubjectInterface</abbr>    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildSingleMockPackageWithModuleConfiguration">buildSingleMockPackageWithModuleConfiguration()</a>
-    <span>
-                        &nbsp;: array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;    </span>
-</dt>
-<dd></dd>
-
-        </dl>
+    </dl>
 
 
 
@@ -387,24 +288,27 @@
         <h3 class="phpdocumentor-elements__header" id="constants">
             Constants
             <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
-                    <article class="phpdocumentor-element -constant -public ">
+                    <article class="phpdocumentor-element -constant -private ">
     <h4 class="phpdocumentor-element__name" id="constant_YAML_COMMENT">
         YAML_COMMENT
         <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#constant_YAML_COMMENT" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
     
+    
     <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">YAML_COMMENT</span>
     = <span class="phpdocumentor-signature__default-value">&#039;# This file is autogenerated. Please do not edit.&#039;</span>
 </code>
@@ -412,6 +316,8 @@
 
     
     
+    
+
     
 
 </article>
@@ -422,6 +328,7 @@
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
             <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="
@@ -430,28 +337,32 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_packageRepositoryProphecy">
-        $packageRepositoryProphecy
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_packageRepositoryProphecy" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_packageRepository">
+        $packageRepository
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_packageRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Composer-PackageRepository.html"><abbr title="\PhpList\Core\Composer\PackageRepository">PackageRepository</abbr></a>|<abbr title="\Prophecy\Prophecy\ObjectProphecy">ObjectProphecy</abbr></span>
-    <span class="phpdocumentor-signature__name">$packageRepositoryProphecy</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
+        <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Composer-PackageRepository.html"><abbr title="\PhpList\Core\Composer\PackageRepository">PackageRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$packageRepository</span>
+    </code>
 
     
     
+    
+
     
 
 </article>
@@ -465,25 +376,29 @@
     <h4 class="phpdocumentor-element__name" id="property_subject">
         $subject
         <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_subject" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Composer-ModuleFinder.html"><abbr title="\PhpList\Core\Composer\ModuleFinder">ModuleFinder</abbr></a></span>
     <span class="phpdocumentor-signature__name">$subject</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
+    </code>
 
     
     
+    
+
     
 
 </article>
@@ -493,997 +408,8 @@
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
             <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_createBundleConfigurationYamlForNoModulesReturnsCommentOnly">
-        createBundleConfigurationYamlForNoModulesReturnsCommentOnly()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createBundleConfigurationYamlForNoModulesReturnsCommentOnly" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">269</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">createBundleConfigurationYamlForNoModulesReturnsCommentOnly</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_createBundleConfigurationYamlReturnsYamlForBundles">
-        createBundleConfigurationYamlReturnsYamlForBundles()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createBundleConfigurationYamlReturnsYamlForBundles" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">284</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">createBundleConfigurationYamlReturnsYamlForBundles</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bundles</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$bundles</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithBundlesDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_createGeneralConfigurationYamlForNoModulesReturnsCommentOnly">
-        createGeneralConfigurationYamlForNoModulesReturnsCommentOnly()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createGeneralConfigurationYamlForNoModulesReturnsCommentOnly" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">674</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">createGeneralConfigurationYamlForNoModulesReturnsCommentOnly</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_createGeneralConfigurationYamlReturnsYamlForConfiguration">
-        createGeneralConfigurationYamlReturnsYamlForConfiguration()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createGeneralConfigurationYamlReturnsYamlForConfiguration" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">689</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">createGeneralConfigurationYamlReturnsYamlForConfiguration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$routes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$routes</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithConfigurationDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_createRouteConfigurationYamlForNoModulesReturnsCommentOnly">
-        createRouteConfigurationYamlForNoModulesReturnsCommentOnly()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createRouteConfigurationYamlForNoModulesReturnsCommentOnly" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">498</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">createRouteConfigurationYamlForNoModulesReturnsCommentOnly</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_createRouteConfigurationYamlReturnsYamlForRoutes">
-        createRouteConfigurationYamlReturnsYamlForRoutes()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createRouteConfigurationYamlReturnsYamlForRoutes" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">513</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">createRouteConfigurationYamlReturnsYamlForRoutes</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$routes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$routes</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithRoutesDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_findBundleClassesForModulesWithBundlesReturnsBundleClassNames">
-        findBundleClassesForModulesWithBundlesReturnsBundleClassNames()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForModulesWithBundlesReturnsBundleClassNames" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">255</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findBundleClassesForModulesWithBundlesReturnsBundleClassNames</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, string&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expectedBundles</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$expectedBundles</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, string&gt;&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithBundlesDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_findBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException">
-        findBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">168</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithInvalidBundlesDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_findBundleClassesForModulesWithoutBundlesReturnsEmptyArray">
-        findBundleClassesForModulesWithoutBundlesReturnsEmptyArray()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForModulesWithoutBundlesReturnsEmptyArray" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">129</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findBundleClassesForModulesWithoutBundlesReturnsEmptyArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithoutBundlesDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_findBundleClassesForNoModulesReturnsEmptyArray">
-        findBundleClassesForNoModulesReturnsEmptyArray()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForNoModulesReturnsEmptyArray" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">50</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findBundleClassesForNoModulesReturnsEmptyArray</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_findGeneralConfigurationForModulesWithConfigurationReturnsConfiguration">
-        findGeneralConfigurationForModulesWithConfigurationReturnsConfiguration()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findGeneralConfigurationForModulesWithConfigurationReturnsConfiguration" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">660</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findGeneralConfigurationForModulesWithConfigurationReturnsConfiguration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expectedConfiguration</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$expectedConfiguration</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithConfigurationDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_findGeneralConfigurationForModulesWithInvalidConfigurationThrowsException">
-        findGeneralConfigurationForModulesWithInvalidConfigurationThrowsException()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findGeneralConfigurationForModulesWithInvalidConfigurationThrowsException" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">577</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findGeneralConfigurationForModulesWithInvalidConfigurationThrowsException</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithInvalidConfigurationDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_findGeneralConfigurationForModulesWithoutConfigurationReturnsEmptyArray">
-        findGeneralConfigurationForModulesWithoutConfigurationReturnsEmptyArray()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findGeneralConfigurationForModulesWithoutConfigurationReturnsEmptyArray" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">543</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findGeneralConfigurationForModulesWithoutConfigurationReturnsEmptyArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithoutConfigurationDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_findRoutesClassesForModulesWithInvalidRoutesConfigurationThrowsException">
-        findRoutesClassesForModulesWithInvalidRoutesConfigurationThrowsException()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findRoutesClassesForModulesWithInvalidRoutesConfigurationThrowsException" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">353</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findRoutesClassesForModulesWithInvalidRoutesConfigurationThrowsException</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithInvalidRoutesDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_findRoutesForModulesWithoutRoutesReturnsEmptyArray">
-        findRoutesForModulesWithoutRoutesReturnsEmptyArray()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findRoutesForModulesWithoutRoutesReturnsEmptyArray" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">314</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findRoutesForModulesWithoutRoutesReturnsEmptyArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithoutRoutesDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_findRoutesForModulesWithRoutesReturnsRoutes">
-        findRoutesForModulesWithRoutesReturnsRoutes()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findRoutesForModulesWithRoutesReturnsRoutes" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">486</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findRoutesForModulesWithRoutesReturnsRoutes</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expectedRoutes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modules</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$expectedRoutes</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">dataProvider</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>modulesWithRoutesDataProvider</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
                     <article
         class="phpdocumentor-element
             -method
@@ -1493,60 +419,34 @@
     <h4 class="phpdocumentor-element__name" id="method_modulesWithBundlesDataProvider">
         modulesWithBundlesDataProvider()
         <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithBundlesDataProvider" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">180</span>
+    <span class="phpdocumentor-element-found-in__line">112</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">modulesWithBundlesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">modulesWithBundlesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_modulesWithConfigurationDataProvider">
-        modulesWithConfigurationDataProvider()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithConfigurationDataProvider" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">589</span>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
 
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">modulesWithConfigurationDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span>
-            &mdash;
-        
-    
 </article>
                     <article
         class="phpdocumentor-element
@@ -1557,92 +457,34 @@
     <h4 class="phpdocumentor-element__name" id="method_modulesWithInvalidBundlesDataProvider">
         modulesWithInvalidBundlesDataProvider()
         <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithInvalidBundlesDataProvider" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
+    <span class="phpdocumentor-element-found-in__line">91</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">modulesWithInvalidBundlesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">modulesWithInvalidBundlesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_modulesWithInvalidConfigurationDataProvider">
-        modulesWithInvalidConfigurationDataProvider()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithInvalidConfigurationDataProvider" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">555</span>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
 
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">modulesWithInvalidConfigurationDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_modulesWithInvalidRoutesDataProvider">
-        modulesWithInvalidRoutesDataProvider()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithInvalidRoutesDataProvider" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">326</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">modulesWithInvalidRoutesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
-            &mdash;
-        
-    
 </article>
                     <article
         class="phpdocumentor-element
@@ -1653,27 +495,67 @@
     <h4 class="phpdocumentor-element__name" id="method_modulesWithoutBundlesDataProvider">
         modulesWithoutBundlesDataProvider()
         <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithoutBundlesDataProvider" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">62</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">modulesWithoutBundlesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">modulesWithoutBundlesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
-            &mdash;
-        
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testCreateBundleConfigurationYamlForNoModulesReturnsCommentOnly">
+        testCreateBundleConfigurationYamlForNoModulesReturnsCommentOnly()
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testCreateBundleConfigurationYamlForNoModulesReturnsCommentOnly" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">144</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testCreateBundleConfigurationYamlForNoModulesReturnsCommentOnly</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
     
 </article>
                     <article
@@ -1682,30 +564,65 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_modulesWithoutConfigurationDataProvider">
-        modulesWithoutConfigurationDataProvider()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithoutConfigurationDataProvider" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testCreateBundleConfigurationYamlReturnsYamlForBundles">
+        testCreateBundleConfigurationYamlReturnsYamlForBundles()
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testCreateBundleConfigurationYamlReturnsYamlForBundles" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">525</span>
+    <span class="phpdocumentor-element-found-in__line">158</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">modulesWithoutConfigurationDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">testCreateBundleConfigurationYamlReturnsYamlForBundles</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bundles</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$modules</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$bundles</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
 
     
-    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testCreateBundleConfigurationYamlReturnsYamlForBundles#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">dataProvider</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>modulesWithBundlesDataProvider</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1714,30 +631,65 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_modulesWithoutRoutesDataProvider">
-        modulesWithoutRoutesDataProvider()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithoutRoutesDataProvider" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testFindBundleClassesForModulesWithBundlesReturnsBundleClassNames">
+        testFindBundleClassesForModulesWithBundlesReturnsBundleClassNames()
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithBundlesReturnsBundleClassNames" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">296</span>
+    <span class="phpdocumentor-element-found-in__line">131</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">modulesWithoutRoutesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">testFindBundleClassesForModulesWithBundlesReturnsBundleClassNames</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expectedBundles</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$modules</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$expectedBundles</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
 
     
-    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithBundlesReturnsBundleClassNames#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">dataProvider</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>modulesWithBundlesDataProvider</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1746,30 +698,152 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_modulesWithRoutesDataProvider">
-        modulesWithRoutesDataProvider()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithRoutesDataProvider" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException">
+        testFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException()
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">365</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">modulesWithRoutesDataProvider</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">testFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$modules</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">dataProvider</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>modulesWithInvalidBundlesDataProvider</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray">
+        testFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray()
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">80</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modules</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$modules</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">dataProvider</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>modulesWithoutBundlesDataProvider</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testFindBundleClassesForNoModulesReturnsEmptyArray">
+        testFindBundleClassesForNoModulesReturnsEmptyArray()
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForNoModulesReturnsEmptyArray" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testFindBundleClassesForNoModulesReturnsEmptyArray</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
     
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span>
-            &mdash;
-        
+    
+
     
 </article>
                     <article
@@ -1781,70 +855,29 @@
     <h4 class="phpdocumentor-element__name" id="method_setUp">
         setUp()
         <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
     
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_buildMockPackagesWithModuleConfiguration">
-        buildMockPackagesWithModuleConfiguration()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildMockPackagesWithModuleConfiguration" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">80</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">buildMockPackagesWithModuleConfiguration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extrasSets</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$extrasSets</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;&gt;</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1853,64 +886,26 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_buildModuleSets">
-        buildModuleSets()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildModuleSets" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_buildMockPackage">
+        buildMockPackage()
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildMockPackage" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">461</span>
+    <span class="phpdocumentor-element-found-in__line">68</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">buildModuleSets</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dataSets</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">buildMockPackage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extras</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$packageName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$dataSets</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_buildPackageProphecyWithExtras">
-        buildPackageProphecyWithExtras()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildPackageProphecyWithExtras" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">114</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">buildPackageProphecyWithExtras</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extras</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$packageName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Prophecy\Prophecy\ProphecySubjectInterface">ProphecySubjectInterface</abbr></span></code>
-
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1932,11 +927,13 @@
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Prophecy\Prophecy\ProphecySubjectInterface">ProphecySubjectInterface</abbr></span>
-            &mdash;
-        
     
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1944,28 +941,32 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_buildSingleMockPackageWithModuleConfiguration">
-        buildSingleMockPackageWithModuleConfiguration()
-        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildSingleMockPackageWithModuleConfiguration" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_buildMockPackagesWithModuleConfiguration">
+        buildMockPackagesWithModuleConfiguration()
+        <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildMockPackagesWithModuleConfiguration" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Composer/ModuleFinderTest.php"><a href="files/tests-unit-composer-modulefindertest.html"><abbr title="tests/Unit/Composer/ModuleFinderTest.php">ModuleFinderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">97</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">buildSingleMockPackageWithModuleConfiguration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extrasSet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">buildMockPackagesWithModuleConfiguration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$extrasSets</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$extrasSet</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
+                <span class="phpdocumentor-signature__argument__name">$extrasSets</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1974,78 +975,162 @@
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, <abbr title="\Composer\Package\PackageInterface">PackageInterface</abbr>&gt;</span>
-            &mdash;
-        
     
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
 </article>
             </section>
 
-        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Composer/ModuleFinderTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
     <script type="text/javascript">
-        function loadExternalCodeSnippets(line) {
-            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-                var language = 'php';
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
 
-                var code = document.createElement('code');
-                code.className = 'language-' + language;
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
 
-                pre.textContent = '';
+                    var xhr = new XMLHttpRequest();
 
-                pre.setAttribute('data-line', line)
-                code.textContent = 'Loading…';
+                    xhr.open('GET', src, true);
 
-                pre.appendChild(code);
-
-                var xhr = new XMLHttpRequest();
-
-                xhr.open('GET', src, true);
-
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState == 4) {
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
 
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
-
                             Prism.highlightElement(code);
+                            return;
                         }
-                        else if (xhr.status >= 400) {
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
                             code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
                         }
-                        else {
-                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
-                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
                     }
-                };
+                    modal.classList.add("phpdocumentor-modal__open");
 
-                xhr.send(null);
-            });
-        }
-
-        var modals = document.querySelectorAll("[data-modal]");
-
-        modals.forEach(function (trigger) {
-            trigger.addEventListener("click", function (event) {
-                //event.preventDefault();
-                const modal = document.getElementById(trigger.dataset.modal);
-                modal.classList.add("phpdocumentor-modal__open");
-                loadExternalCodeSnippets(trigger.dataset.line)
-                const exits = modal.querySelectorAll("[data-exit-button]");
-                exits.forEach(function (exit) {
-                    exit.addEventListener("click", function (event) {
-                        event.preventDefault();
-                        modal.classList.remove("phpdocumentor-modal__open");
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
                     });
                 });
             });
-        });
+        })();
     </script>
 
     </article>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#toc-constants">Constants</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#constant_YAML_COMMENT">YAML_COMMENT</a></li>
+                                            </ul>
+                </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_packageRepository">$packageRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_subject">$subject</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithBundlesDataProvider">modulesWithBundlesDataProvider()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithInvalidBundlesDataProvider">modulesWithInvalidBundlesDataProvider()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithoutBundlesDataProvider">modulesWithoutBundlesDataProvider()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testCreateBundleConfigurationYamlForNoModulesReturnsCommentOnly">testCreateBundleConfigurationYamlForNoModulesReturnsCommentOnly()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testCreateBundleConfigurationYamlReturnsYamlForBundles">testCreateBundleConfigurationYamlReturnsYamlForBundles()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithBundlesReturnsBundleClassNames">testFindBundleClassesForModulesWithBundlesReturnsBundleClassNames()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException">testFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray">testFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForNoModulesReturnsEmptyArray">testFindBundleClassesForNoModulesReturnsEmptyArray()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildMockPackage">buildMockPackage()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildMockPackagesWithModuleConfiguration">buildMockPackagesWithModuleConfiguration()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -2056,7 +1141,6 @@
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 

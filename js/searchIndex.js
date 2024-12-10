@@ -176,11 +176,6 @@ Search.appendIndex(
             "summary": "Clears\u0020the\u0020caches\u0020of\u0020all\u0020environments.\u0020This\u0020does\u0020not\u0020warm\u0020the\u0020caches.",
             "url": "classes/PhpList-Core-Composer-ScriptHandler.html#method_clearAllCaches"
         },                {
-            "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003AwarmProductionCache\u0028\u0029",
-            "name": "warmProductionCache",
-            "summary": "Warms\u0020the\u0020production\u0020cache.",
-            "url": "classes/PhpList-Core-Composer-ScriptHandler.html#method_warmProductionCache"
-        },                {
             "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003AcreateParametersConfiguration\u0028\u0029",
             "name": "createParametersConfiguration",
             "summary": "Creates\u0020config\/parameters.yml\u0020\u0028the\u0020parameters\u0020configuration\u0020file\u0029.",
@@ -270,11 +265,6 @@ Search.appendIndex(
             "name": "registerContainerConfiguration",
             "summary": "Loads\u0020the\u0020container\u0020configuration.",
             "url": "classes/PhpList-Core-Core-ApplicationKernel.html#method_registerContainerConfiguration"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Core\\ApplicationKernel\u003A\u003AshouldHaveDevelopmentBundles\u0028\u0029",
-            "name": "shouldHaveDevelopmentBundles",
-            "summary": "",
-            "url": "classes/PhpList-Core-Core-ApplicationKernel.html#method_shouldHaveDevelopmentBundles"
         },                {
             "fqsen": "\\PhpList\\Core\\Core\\ApplicationKernel\u003A\u003AbundlesFromConfiguration\u0028\u0029",
             "name": "bundlesFromConfiguration",
@@ -426,6 +416,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Bootstrap.html#property_applicationStructure"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Bootstrap\u003A\u003A\u0024errorHandler",
+            "name": "errorHandler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Bootstrap.html#property_errorHandler"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Environment",
             "name": "Environment",
             "summary": "This\u0020class\u0020provides\u0020methods\u0020and\u0020constants\u0020for\u0020the\u0020application\u0020environment\/context.",
@@ -470,6 +465,11 @@ Search.appendIndex(
             "name": "Administrator",
             "summary": "This\u0020class\u0020represents\u0020an\u0020administrator\u0020who\u0020can\u0020log\u0020to\u0020the\u0020system,\u0020is\u0020allowed\u0020to\u0020administer\nselected\u0020lists\u0020\u0028as\u0020the\u0020owner\u0029,\u0020send\u0020campaigns\u0020to\u0020these\u0020lists\u0020and\u0020edit\u0020subscribers.",
             "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AgetLoginName\u0028\u0029",
             "name": "getLoginName",
@@ -578,7 +578,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "The\u0020Constructor.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AgetCreationDate\u0028\u0029",
@@ -608,7 +608,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AgenerateExpiry\u0028\u0029",
             "name": "generateExpiry",
-            "summary": "Generates\u0020and\u0020sets\u0020an\u0020expiry\u0020one\u0020hour\u0020in\u0020the\u0020future.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method_generateExpiry"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AgetKey\u0028\u0029",
@@ -623,7 +623,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AgenerateKey\u0028\u0029",
             "name": "generateKey",
-            "summary": "Generates\u0020a\u0020new,\u0020random\u0020key.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method_generateKey"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AgetAdministrator\u0028\u0029",
@@ -713,7 +713,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "The\u0020constructor.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AgetName\u0028\u0029",
@@ -791,20 +791,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_getSubscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AsetSubscriptions\u0028\u0029",
-            "name": "setSubscriptions",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AaddSubscription\u0028\u0029",
+            "name": "addSubscription",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_setSubscriptions"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_addSubscription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AremoveSubscription\u0028\u0029",
+            "name": "removeSubscription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_removeSubscription"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AgetSubscribers\u0028\u0029",
             "name": "getSubscribers",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_getSubscribers"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AsetSubscribers\u0028\u0029",
-            "name": "setSubscribers",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_setSubscribers"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024name",
             "name": "name",
@@ -856,19 +856,14 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_subscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024subscribers",
-            "name": "subscribers",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_subscribers"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber",
             "name": "Subscriber",
-            "summary": "This\u0020class\u0020represents\u0020asubscriber\u0020who\u0020can\u0020subscribe\u0020to\u0020multiple\u0020subscriber\u0020lists\u0020and\u0020can\u0020receive\u0020email\u0020messages\u0020from\ncampaigns\u0020for\u0020those\u0020subscriber\u0020lists.",
+            "summary": "This\u0020class\u0020represents\u0020subscriber\u0020who\u0020can\u0020subscribe\u0020to\u0020multiple\u0020subscriber\u0020lists\u0020and\u0020can\u0020receive\u0020email\u0020messages\u0020from\ncampaigns\u0020for\u0020those\u0020subscriber\u0020lists.",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "The\u0020constructor.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AisConfirmed\u0028\u0029",
@@ -918,7 +913,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AgenerateUniqueId\u0028\u0029",
             "name": "generateUniqueId",
-            "summary": "Generates\u0020and\u0020sets\u0020a\u0020\u0028new\u0029\u0020random\u0020unique\u0020ID.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_generateUniqueId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AgetEmail\u0028\u0029",
@@ -966,20 +961,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getSubscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AsetSubscriptions\u0028\u0029",
-            "name": "setSubscriptions",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AaddSubscription\u0028\u0029",
+            "name": "addSubscription",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_setSubscriptions"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_addSubscription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AremoveSubscription\u0028\u0029",
+            "name": "removeSubscription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_removeSubscription"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AgetSubscribedLists\u0028\u0029",
             "name": "getSubscribedLists",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getSubscribedLists"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AsetSubscribedLists\u0028\u0029",
-            "name": "setSubscribedLists",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_setSubscribedLists"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024creationDate",
             "name": "creationDate",
@@ -1013,7 +1008,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024uniqueId",
             "name": "uniqueId",
-            "summary": "Note\u003A\u0020The\u0020uniqueness\u0020of\u0020this\u0020column\u0020will\u0020not\u0020be\u0020enforced\u0020as\u0020long\u0020as\u0020we\u0020use\u0020the\u0020old\u0020DB\u0020schema,\nnot\u0020the\u0020Doctrine\u002Dgenerated\u0020one.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_uniqueId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024htmlEmail",
@@ -1036,14 +1031,9 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_subscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024subscribedLists",
-            "name": "subscribedLists",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_subscribedLists"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription",
             "name": "Subscription",
-            "summary": "This\u0020class\u0020represents\u0020asubscriber\u0020who\u0020can\u0020subscribe\u0020to\u0020multiple\u0020subscriber\u0020lists\u0020and\u0020can\u0020receive\u0020email\u0020messages\u0020from\ncampaigns\u0020for\u0020those\u0020subscriber\u0020lists.",
+            "summary": "This\u0020class\u0020represents\u0020subscriber\u0020who\u0020can\u0020subscribe\u0020to\u0020multiple\u0020subscriber\u0020lists\u0020and\u0020can\u0020receive\u0020email\u0020messages\u0020from\ncampaigns\u0020for\u0020those\u0020subscriber\u0020lists.",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003AgetSubscriber\u0028\u0029",
@@ -1103,7 +1093,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\CreationDateTrait\u003A\u003AupdateCreationDate\u0028\u0029",
             "name": "updateCreationDate",
-            "summary": "Updates\u0020the\u0020creation\u0020date\u0020to\u0020now.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_updateCreationDate"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\IdentityTrait",
@@ -1138,7 +1128,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\ModificationDateTrait\u003A\u003AupdateModificationDate\u0028\u0029",
             "name": "updateModificationDate",
-            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020now.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_updateModificationDate"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\AbstractRepository",
@@ -1161,10 +1151,10 @@ Search.appendIndex(
             "summary": "Repository\u0020for\u0020Administrator\u0020models.",
             "url": "classes/PhpList-Core-Domain-Repository-Identity-AdministratorRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\AdministratorRepository\u003A\u003AinjectHashGenerator\u0028\u0029",
-            "name": "injectHashGenerator",
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\AdministratorRepository\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Repository-Identity-AdministratorRepository.html#method_injectHashGenerator"
+            "url": "classes/PhpList-Core-Domain-Repository-Identity-AdministratorRepository.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\AdministratorRepository\u003A\u003AfindOneByLoginCredentials\u0028\u0029",
             "name": "findOneByLoginCredentials",
@@ -1196,10 +1186,30 @@ Search.appendIndex(
             "summary": "Repository\u0020for\u0020SubscriberList\u0020models.",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-SubscriberListRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\SubscriberListRepository\u003A\u003AfindWithSubscription\u0028\u0029",
+            "name": "findWithSubscription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-SubscriberListRepository.html#method_findWithSubscription"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberRepository",
             "name": "SubscriberRepository",
             "summary": "Repository\u0020for\u0020Subscriber\u0020models.",
             "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberRepository\u003A\u003AfindSubscribersBySubscribedList\u0028\u0029",
+            "name": "findSubscribersBySubscribedList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html#method_findSubscribersBySubscribedList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberRepository\u003A\u003AgetSubscribersBySubscribedListId\u0028\u0029",
+            "name": "getSubscribersBySubscribedListId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html#method_getSubscribersBySubscribedListId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberRepository\u003A\u003AfindSubscriberWithSubscriptions\u0028\u0029",
+            "name": "findSubscriberWithSubscriptions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html#method_findSubscriberWithSubscriptions"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriptionRepository",
             "name": "SubscriptionRepository",
@@ -1216,15 +1226,15 @@ Search.appendIndex(
             "summary": "This\u0020controller\u0020provides\u0020an\u0020empty\u0020start\u0020page.",
             "url": "classes/PhpList-Core-EmptyStartPageBundle-Controller-DefaultController.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\Controller\\DefaultController\u003A\u003AindexAction\u0028\u0029",
-            "name": "indexAction",
-            "summary": "",
-            "url": "classes/PhpList-Core-EmptyStartPageBundle-Controller-DefaultController.html#method_indexAction"
+            "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\Controller\\DefaultController\u003A\u003Aindex\u0028\u0029",
+            "name": "index",
+            "summary": "An\u0020empty\u0020start\u0020page\u0020route.",
+            "url": "classes/PhpList-Core-EmptyStartPageBundle-Controller-DefaultController.html#method_index"
         },                {
-            "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\PhpListEmptyStartPageBundle",
-            "name": "PhpListEmptyStartPageBundle",
+            "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\EmptyStartPageBundle",
+            "name": "EmptyStartPageBundle",
             "summary": "This\u0020bundle\u0020is\u0020a\u0020placeholder\u0020that\u0020provides\u0020an\u0020empty\u0020start\u0020page.",
-            "url": "classes/PhpList-Core-EmptyStartPageBundle-PhpListEmptyStartPageBundle.html"
+            "url": "classes/PhpList-Core-EmptyStartPageBundle-EmptyStartPageBundle.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Routing\\ExtraLoader",
             "name": "ExtraLoader",
@@ -1301,26 +1311,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Security-HashGenerator.html#constant_PASSWORD_HASH_ALGORITHM"
         },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\AbstractWebTest",
-            "name": "AbstractWebTest",
-            "summary": "Base\u0020class\u0020for\u0020integration\u0020tests\u0020for\u0020controllers.",
-            "url": "classes/PhpList-Core-TestingSupport-AbstractWebTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\AbstractWebTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-TestingSupport-AbstractWebTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\AbstractWebTest\u003A\u003AsetUpWebTest\u0028\u0029",
-            "name": "setUpWebTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-TestingSupport-AbstractWebTest.html#method_setUpWebTest"
-        },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\AbstractWebTest\u003A\u003A\u0024client",
-            "name": "client",
-            "summary": "",
-            "url": "classes/PhpList-Core-TestingSupport-AbstractWebTest.html#property_client"
-        },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\ContainsInstanceAssertionTrait",
             "name": "ContainsInstanceAssertionTrait",
             "summary": "This\u0020trait\u0020provides\u0020the\u0020assertContainsInstanceOf\u0020method.",
@@ -1333,73 +1323,33 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait",
             "name": "DatabaseTestTrait",
-            "summary": "This\u0020is\u0020a\u0020trait\u0020for\u0020integration\u0020tests\u0020that\u0020use\u0020database\u0020records.",
+            "summary": "This\u0020trait\u0020provides\u0020support\u0020for\u0020integration\u0020tests\u0020involving\u0020database\u0020records.",
             "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_setUp"
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AsetUpDatabaseTest\u0028\u0029",
             "name": "setUpDatabaseTest",
-            "summary": "",
+            "summary": "Sets\u0020up\u0020the\u0020database\u0020test\u0020environment.",
             "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_setUpDatabaseTest"
-        },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AinitializeDatabaseTester\u0028\u0029",
-            "name": "initializeDatabaseTester",
-            "summary": "Initializes\u0020the\u0020CSV\u0020data\u0020set\u0020and\u0020the\u0020database\u0020tester.",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeDatabaseTester"
-        },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AtearDown\u0028\u0029",
-            "name": "tearDown",
-            "summary": "",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tearDown"
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AtearDownDatabaseTest\u0028\u0029",
             "name": "tearDownDatabaseTest",
-            "summary": "",
+            "summary": "Tears\u0020down\u0020the\u0020database\u0020test\u0020environment.",
             "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tearDownDatabaseTest"
         },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AgetTearDownOperation\u0028\u0029",
-            "name": "getTearDownOperation",
-            "summary": "Returns\u0020the\u0020database\u0020operation\u0020executed\u0020in\u0020test\u0020cleanup.",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_getTearDownOperation"
+            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AinitializeBootstrap\u0028\u0029",
+            "name": "initializeBootstrap",
+            "summary": "Initializes\u0020the\u0020Bootstrap\u0020and\u0020Doctrine\u0020EntityManager.",
+            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeBootstrap"
         },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AgetConnection\u0028\u0029",
-            "name": "getConnection",
-            "summary": "Returns\u0020the\u0020test\u0020database\u0020connection.",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_getConnection"
+            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AloadFixtures\u0028\u0029",
+            "name": "loadFixtures",
+            "summary": "Loads\u0020data\u0020fixtures\u0020into\u0020the\u0020database.",
+            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadFixtures"
         },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AgetDataSet\u0028\u0029",
-            "name": "getDataSet",
-            "summary": "Returns\u0020the\u0020test\u0020data\u0020set.",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_getDataSet"
-        },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AapplyDatabaseChanges\u0028\u0029",
-            "name": "applyDatabaseChanges",
-            "summary": "Applies\u0020all\u0020database\u0020changes\u0020on\u0020\u0024this\u002D\u003EdataSet.",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_applyDatabaseChanges"
-        },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AtouchDatabaseTable\u0028\u0029",
-            "name": "touchDatabaseTable",
-            "summary": "Marks\u0020the\u0020table\u0020with\u0020the\u0020given\u0020name\u0020as\u0020\u0022touched\u0022,\u0020i.e.,\u0020it\u0020will\u0020be\u0020truncated\u0020in\u0020the\u0020tearDown\u0020method.",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_touchDatabaseTable"
-        },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003A\u0024databaseConnection",
-            "name": "databaseConnection",
+            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AloadSchema\u0028\u0029",
+            "name": "loadSchema",
             "summary": "",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_databaseConnection"
-        },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003A\u0024pdo",
-            "name": "pdo",
-            "summary": "",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_pdo"
-        },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003A\u0024dataSet",
-            "name": "dataSet",
-            "summary": "",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_dataSet"
+            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadSchema"
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003A\u0024bootstrap",
             "name": "bootstrap",
@@ -1423,8 +1373,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\ModelTestTrait\u003A\u003AsetSubjectId\u0028\u0029",
             "name": "setSubjectId",
-            "summary": "Sets\u0020the\u0020\u0028private\u0029\u0020ID\u0020of\u0020\u0024this\u002D\u003Esubject.",
+            "summary": "Sets\u0020the\u0020\u0028private\u0029\u0020ID\u0020of\u0020\u0024this\u002D\u003Erepository.",
             "url": "classes/PhpList-Core-TestingSupport-Traits-ModelTestTrait.html#method_setSubjectId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\ModelTestTrait\u003A\u003AsetSubjectProperty\u0028\u0029",
+            "name": "setSubjectProperty",
+            "summary": "Sets\u0020the\u0020\u0028private\u0029\u0020property\u0020\u0024propertyName\u0020of\u0020\u0024this\u002D\u003Erepository.",
+            "url": "classes/PhpList-Core-TestingSupport-Traits-ModelTestTrait.html#method_setSubjectProperty"
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SimilarDatesAssertionTrait",
             "name": "SimilarDatesAssertionTrait",
@@ -1443,7 +1398,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003AstartSymfonyServer\u0028\u0029",
             "name": "startSymfonyServer",
-            "summary": "Starts\u0020the\u0020symfony\u0020server.\u0020The\u0020resulting\u0020base\u0020URL\u0020then\u0020can\u0020be\u0020retrieved\u0020using\u0020getBaseUrl\u0028\u0029.",
+            "summary": "Starts\u0020the\u0020Symfony\u0020server.",
             "url": "classes/PhpList-Core-TestingSupport-Traits-SymfonyServerTrait.html#method_startSymfonyServer"
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003AlockFileExists\u0028\u0029",
@@ -1458,7 +1413,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003AwaitForServerLockFileToAppear\u0028\u0029",
             "name": "waitForServerLockFileToAppear",
-            "summary": "Waits\u0020for\u0020the\u0020server\u0020lock\u0020file\u0020to\u0020appear,\u0020and\u0020throws\u0020an\u0020exception\u0020if\u0020the\u0020file\u0020has\u0020not\u0020appeared\u0020after\u0020the\nmaximum\u0020wait\u0020time.",
+            "summary": "",
             "url": "classes/PhpList-Core-TestingSupport-Traits-SymfonyServerTrait.html#method_waitForServerLockFileToAppear"
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003AgetFullLockFilePath\u0028\u0029",
@@ -1483,7 +1438,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003AcheckDocumentRoot\u0028\u0029",
             "name": "checkDocumentRoot",
-            "summary": "Checks\u0020that\u0020\u0024documentRoot\u0020exists,\u0020is\u0020a\u0020directory\u0020and\u0020readable.",
+            "summary": "",
             "url": "classes/PhpList-Core-TestingSupport-Traits-SymfonyServerTrait.html#method_checkDocumentRoot"
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003A\u0024serverProcess",
@@ -1491,25 +1446,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-TestingSupport-Traits-SymfonyServerTrait.html#property_serverProcess"
         },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003A\u0024validEnvironments",
-            "name": "validEnvironments",
-            "summary": "",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-SymfonyServerTrait.html#property_validEnvironments"
-        },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003A\u0024lockFileName",
             "name": "lockFileName",
             "summary": "",
             "url": "classes/PhpList-Core-TestingSupport-Traits-SymfonyServerTrait.html#property_lockFileName"
         },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003A\u0024maximumWaitTimeForServerLockFile",
-            "name": "maximumWaitTimeForServerLockFile",
+            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003A\u0024lockWaitTimeout",
+            "name": "lockWaitTimeout",
             "summary": "",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-SymfonyServerTrait.html#property_maximumWaitTimeForServerLockFile"
+            "url": "classes/PhpList-Core-TestingSupport-Traits-SymfonyServerTrait.html#property_lockWaitTimeout"
         },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003A\u0024waitTimeBetweenServerCommands",
-            "name": "waitTimeBetweenServerCommands",
+            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003A\u0024serverCommandTimeout",
+            "name": "serverCommandTimeout",
             "summary": "",
-            "url": "classes/PhpList-Core-TestingSupport-Traits-SymfonyServerTrait.html#property_waitTimeBetweenServerCommands"
+            "url": "classes/PhpList-Core-TestingSupport-Traits-SymfonyServerTrait.html#property_serverCommandTimeout"
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\SymfonyServerTrait\u003A\u003A\u0024applicationStructure",
             "name": "applicationStructure",
@@ -1526,50 +1476,50 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_getBundleConfigurationFilePath"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AbundleConfigurationFileExists\u0028\u0029",
-            "name": "bundleConfigurationFileExists",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AtestBundleConfigurationFileExists\u0028\u0029",
+            "name": "testBundleConfigurationFileExists",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_bundleConfigurationFileExists"
+            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_testBundleConfigurationFileExists"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AbundleClassNameDataProvider\u0028\u0029",
             "name": "bundleClassNameDataProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_bundleClassNameDataProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AbundleConfigurationFileContainsModuleBundles\u0028\u0029",
-            "name": "bundleConfigurationFileContainsModuleBundles",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AtestBundleConfigurationFileContainsModuleBundles\u0028\u0029",
+            "name": "testBundleConfigurationFileContainsModuleBundles",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_bundleConfigurationFileContainsModuleBundles"
+            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_testBundleConfigurationFileContainsModuleBundles"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AgetModuleRoutesConfigurationFilePath\u0028\u0029",
             "name": "getModuleRoutesConfigurationFilePath",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_getModuleRoutesConfigurationFilePath"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AmoduleRoutesConfigurationFileExists\u0028\u0029",
-            "name": "moduleRoutesConfigurationFileExists",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AtestModuleRoutesConfigurationFileExists\u0028\u0029",
+            "name": "testModuleRoutesConfigurationFileExists",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_moduleRoutesConfigurationFileExists"
+            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_testModuleRoutesConfigurationFileExists"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AmoduleRoutingDataProvider\u0028\u0029",
             "name": "moduleRoutingDataProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_moduleRoutingDataProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AmoduleRoutesConfigurationFileContainsModuleRoutes\u0028\u0029",
-            "name": "moduleRoutesConfigurationFileContainsModuleRoutes",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AtestModuleRoutesConfigurationFileContainsModuleRoutes\u0028\u0029",
+            "name": "testModuleRoutesConfigurationFileContainsModuleRoutes",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_moduleRoutesConfigurationFileContainsModuleRoutes"
+            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_testModuleRoutesConfigurationFileContainsModuleRoutes"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AparametersConfigurationFileExists\u0028\u0029",
-            "name": "parametersConfigurationFileExists",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AtestParametersConfigurationFileExists\u0028\u0029",
+            "name": "testParametersConfigurationFileExists",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_parametersConfigurationFileExists"
+            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_testParametersConfigurationFileExists"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AmodulesConfigurationFileExists\u0028\u0029",
-            "name": "modulesConfigurationFileExists",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer\\ScriptsTest\u003A\u003AtestModulesConfigurationFileExists\u0028\u0029",
+            "name": "testModulesConfigurationFileExists",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_modulesConfigurationFileExists"
+            "url": "classes/PhpList-Core-Tests-Integration-Composer-ScriptsTest.html#method_testModulesConfigurationFileExists"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Core\\ApplicationKernelTest",
             "name": "ApplicationKernelTest",
@@ -1641,15 +1591,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Core-ApplicationStructureTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Core\\ApplicationStructureTest\u003A\u003AsubjectIsAvailableViaContainer\u0028\u0029",
-            "name": "subjectIsAvailableViaContainer",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Core\\ApplicationStructureTest\u003A\u003AtestSubjectIsAvailableViaContainer\u0028\u0029",
+            "name": "testSubjectIsAvailableViaContainer",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Core-ApplicationStructureTest.html#method_subjectIsAvailableViaContainer"
+            "url": "classes/PhpList-Core-Tests-Integration-Core-ApplicationStructureTest.html#method_testSubjectIsAvailableViaContainer"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Core\\ApplicationStructureTest\u003A\u003AclassIsRegisteredAsSingletonInContainer\u0028\u0029",
-            "name": "classIsRegisteredAsSingletonInContainer",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Core\\ApplicationStructureTest\u003A\u003AtestClassIsRegisteredAsSingletonInContainer\u0028\u0029",
+            "name": "testClassIsRegisteredAsSingletonInContainer",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Core-ApplicationStructureTest.html#method_classIsRegisteredAsSingletonInContainer"
+            "url": "classes/PhpList-Core-Tests-Integration-Core-ApplicationStructureTest.html#method_testClassIsRegisteredAsSingletonInContainer"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Core\\ApplicationStructureTest\u003A\u003A\u0024kernel",
             "name": "kernel",
@@ -1676,20 +1626,80 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Core-BootstrapTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Core\\BootstrapTest\u003A\u003AensureDevelopmentOrTestingEnvironmentForTestingEnvironmentHasFluentInterface\u0028\u0029",
-            "name": "ensureDevelopmentOrTestingEnvironmentForTestingEnvironmentHasFluentInterface",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Core\\BootstrapTest\u003A\u003AtestEnsureDevelopmentOrTestingEnvironmentForTestingEnvironmentHasFluentInterface\u0028\u0029",
+            "name": "testEnsureDevelopmentOrTestingEnvironmentForTestingEnvironmentHasFluentInterface",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Core-BootstrapTest.html#method_ensureDevelopmentOrTestingEnvironmentForTestingEnvironmentHasFluentInterface"
+            "url": "classes/PhpList-Core-Tests-Integration-Core-BootstrapTest.html#method_testEnsureDevelopmentOrTestingEnvironmentForTestingEnvironmentHasFluentInterface"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Core\\BootstrapTest\u003A\u003AgetApplicationRootReturnsCoreApplicationRoot\u0028\u0029",
-            "name": "getApplicationRootReturnsCoreApplicationRoot",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Core\\BootstrapTest\u003A\u003AtestGetApplicationRootReturnsCoreApplicationRoot\u0028\u0029",
+            "name": "testGetApplicationRootReturnsCoreApplicationRoot",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Core-BootstrapTest.html#method_getApplicationRootReturnsCoreApplicationRoot"
+            "url": "classes/PhpList-Core-Tests-Integration-Core-BootstrapTest.html#method_testGetApplicationRootReturnsCoreApplicationRoot"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Core\\BootstrapTest\u003A\u003A\u0024subject",
             "name": "subject",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Core-BootstrapTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\AdministratorFixture",
+            "name": "AdministratorFixture",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-AdministratorFixture.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\AdministratorFixture\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-AdministratorFixture.html#method_load"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\AdministratorTokenWithAdministratorFixture",
+            "name": "AdministratorTokenWithAdministratorFixture",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-AdministratorTokenWithAdministratorFixture.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\AdministratorTokenWithAdministratorFixture\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-AdministratorTokenWithAdministratorFixture.html#method_load"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\DetachedAdministratorTokenFixture",
+            "name": "DetachedAdministratorTokenFixture",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-DetachedAdministratorTokenFixture.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\DetachedAdministratorTokenFixture\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-DetachedAdministratorTokenFixture.html#method_load"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriberFixture",
+            "name": "SubscriberFixture",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriberFixture.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriberFixture\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriberFixture.html#method_load"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriberListFixture",
+            "name": "SubscriberListFixture",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriberListFixture.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriberListFixture\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriberListFixture.html#method_load"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriptionFixture",
+            "name": "SubscriptionFixture",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriptionFixture.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriptionFixture\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriptionFixture.html#method_load"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest",
             "name": "AdministratorRepositoryTest",
@@ -1701,70 +1711,70 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AfindReadsModelFromDatabase\u0028\u0029",
-            "name": "findReadsModelFromDatabase",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_findReadsModelFromDatabase"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AcreationDateOfExistingModelStaysUnchangedOnUpdate\u0028\u0029",
-            "name": "creationDateOfExistingModelStaysUnchangedOnUpdate",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtestFindReadsModelFromDatabase\u0028\u0029",
+            "name": "testFindReadsModelFromDatabase",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_creationDateOfExistingModelStaysUnchangedOnUpdate"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_testFindReadsModelFromDatabase"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AmodificationDateOfExistingModelGetsUpdatedOnUpdate\u0028\u0029",
-            "name": "modificationDateOfExistingModelGetsUpdatedOnUpdate",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtestCreationDateOfExistingModelStaysUnchangedOnUpdate\u0028\u0029",
+            "name": "testCreationDateOfExistingModelStaysUnchangedOnUpdate",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_modificationDateOfExistingModelGetsUpdatedOnUpdate"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_testCreationDateOfExistingModelStaysUnchangedOnUpdate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AcreationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
-            "name": "creationDateOfNewModelIsSetToNowOnPersist",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtestModificationDateOfExistingModelGetsUpdatedOnUpdate\u0028\u0029",
+            "name": "testModificationDateOfExistingModelGetsUpdatedOnUpdate",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_creationDateOfNewModelIsSetToNowOnPersist"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_testModificationDateOfExistingModelGetsUpdatedOnUpdate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AmodificationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
-            "name": "modificationDateOfNewModelIsSetToNowOnPersist",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtestCreationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
+            "name": "testCreationDateOfNewModelIsSetToNowOnPersist",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_modificationDateOfNewModelIsSetToNowOnPersist"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_testCreationDateOfNewModelIsSetToNowOnPersist"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AfindOneByLoginCredentialsForMatchingCredentialsReturnsModel\u0028\u0029",
-            "name": "findOneByLoginCredentialsForMatchingCredentialsReturnsModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtestModificationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
+            "name": "testModificationDateOfNewModelIsSetToNowOnPersist",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_findOneByLoginCredentialsForMatchingCredentialsReturnsModel"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_testModificationDateOfNewModelIsSetToNowOnPersist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtestFindOneByLoginCredentialsForNonMatchingCredentialsReturnsNull\u0028\u0029",
+            "name": "testFindOneByLoginCredentialsForNonMatchingCredentialsReturnsNull",
+            "summary": "Tests\u0020that\u0020findOneByLoginCredentials\u0020returns\u0020null\u0020for\u0020incorrect\u0020credentials.",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_testFindOneByLoginCredentialsForNonMatchingCredentialsReturnsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtestFindOneByLoginCredentialsForMatchingCredentialsReturnsModel\u0028\u0029",
+            "name": "testFindOneByLoginCredentialsForMatchingCredentialsReturnsModel",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_testFindOneByLoginCredentialsForMatchingCredentialsReturnsModel"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AincorrectLoginCredentialsDataProvider\u0028\u0029",
             "name": "incorrectLoginCredentialsDataProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_incorrectLoginCredentialsDataProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AfindOneByLoginCredentialsIgnoresNonSuperUser\u0028\u0029",
-            "name": "findOneByLoginCredentialsIgnoresNonSuperUser",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtestFindOneByLoginCredentialsIgnoresNonSuperUser\u0028\u0029",
+            "name": "testFindOneByLoginCredentialsIgnoresNonSuperUser",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_findOneByLoginCredentialsIgnoresNonSuperUser"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_testFindOneByLoginCredentialsIgnoresNonSuperUser"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AfindOneByLoginCredentialsForNonMatchingCredentialsReturnsNull\u0028\u0029",
-            "name": "findOneByLoginCredentialsForNonMatchingCredentialsReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtestSavePersistsAndFlushesModel\u0028\u0029",
+            "name": "testSavePersistsAndFlushesModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_findOneByLoginCredentialsForNonMatchingCredentialsReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_testSavePersistsAndFlushesModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AsavePersistsAndFlushesModel\u0028\u0029",
-            "name": "savePersistsAndFlushesModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtestRemoveRemovesModel\u0028\u0029",
+            "name": "testRemoveRemovesModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_savePersistsAndFlushesModel"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_testRemoveRemovesModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AremoveRemovesModel\u0028\u0029",
-            "name": "removeRemovesModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003A\u0024repository",
+            "name": "repository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_removeRemovesModel"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003ATABLE_NAME",
-            "name": "TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#constant_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003A\u0024subject",
-            "name": "subject",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#property_subject"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorRepositoryTest.html#property_repository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest",
             "name": "AdministratorTokenRepositoryTest",
@@ -1776,90 +1786,75 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AfindReadsModelFromDatabase\u0028\u0029",
-            "name": "findReadsModelFromDatabase",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_findReadsModelFromDatabase"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AcreatesAdministratorAssociationAsProxy\u0028\u0029",
-            "name": "createsAdministratorAssociationAsProxy",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestFindReadsModelFromDatabase\u0028\u0029",
+            "name": "testFindReadsModelFromDatabase",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_createsAdministratorAssociationAsProxy"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testFindReadsModelFromDatabase"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AcreationDateOfExistingModelStaysUnchangedOnUpdate\u0028\u0029",
-            "name": "creationDateOfExistingModelStaysUnchangedOnUpdate",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestCreationDateOfExistingModelStaysUnchangedOnUpdate\u0028\u0029",
+            "name": "testCreationDateOfExistingModelStaysUnchangedOnUpdate",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_creationDateOfExistingModelStaysUnchangedOnUpdate"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testCreationDateOfExistingModelStaysUnchangedOnUpdate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AcreationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
-            "name": "creationDateOfNewModelIsSetToNowOnPersist",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestCreationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
+            "name": "testCreationDateOfNewModelIsSetToNowOnPersist",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_creationDateOfNewModelIsSetToNowOnPersist"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testCreationDateOfNewModelIsSetToNowOnPersist"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AfindOneUnexpiredByKeyFindsUnexpiredTokenWithMatchingKey\u0028\u0029",
-            "name": "findOneUnexpiredByKeyFindsUnexpiredTokenWithMatchingKey",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestFindOneUnexpiredByKeyFindsUnexpiredTokenWithMatchingKey\u0028\u0029",
+            "name": "testFindOneUnexpiredByKeyFindsUnexpiredTokenWithMatchingKey",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_findOneUnexpiredByKeyFindsUnexpiredTokenWithMatchingKey"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testFindOneUnexpiredByKeyFindsUnexpiredTokenWithMatchingKey"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AfindOneUnexpiredByKeyNotFindsExpiredTokenWithMatchingKey\u0028\u0029",
-            "name": "findOneUnexpiredByKeyNotFindsExpiredTokenWithMatchingKey",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestFindOneUnexpiredByKeyNotFindsExpiredTokenWithMatchingKey\u0028\u0029",
+            "name": "testFindOneUnexpiredByKeyNotFindsExpiredTokenWithMatchingKey",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_findOneUnexpiredByKeyNotFindsExpiredTokenWithMatchingKey"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testFindOneUnexpiredByKeyNotFindsExpiredTokenWithMatchingKey"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AfindOneUnexpiredByKeyNotFindsUnexpiredTokenWithNonMatchingKey\u0028\u0029",
-            "name": "findOneUnexpiredByKeyNotFindsUnexpiredTokenWithNonMatchingKey",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestFindOneUnexpiredByKeyNotFindsUnexpiredTokenWithNonMatchingKey\u0028\u0029",
+            "name": "testFindOneUnexpiredByKeyNotFindsUnexpiredTokenWithNonMatchingKey",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_findOneUnexpiredByKeyNotFindsUnexpiredTokenWithNonMatchingKey"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testFindOneUnexpiredByKeyNotFindsUnexpiredTokenWithNonMatchingKey"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AremoveExpiredRemovesExpiredToken\u0028\u0029",
-            "name": "removeExpiredRemovesExpiredToken",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestRemoveExpiredKeepsUnexpiredToken\u0028\u0029",
+            "name": "testRemoveExpiredKeepsUnexpiredToken",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_removeExpiredRemovesExpiredToken"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AremoveExpiredKeepsUnexpiredToken\u0028\u0029",
-            "name": "removeExpiredKeepsUnexpiredToken",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_removeExpiredKeepsUnexpiredToken"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testRemoveExpiredKeepsUnexpiredToken"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AassertNotYear2037Yet\u0028\u0029",
             "name": "assertNotYear2037Yet",
             "summary": "Asserts\u0020that\u0020it\u0027s\u0020not\u0020year\u00202037\u0020yet\u0020\u0028which\u0020is\u0020the\u0020year\u0020the\u0020\u0022not\u0020expired\u0022\u0020token\u0020in\u0020the\u0020fixture\ndata\u0020set\u0020expires\u0029.",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_assertNotYear2037Yet"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AremoveExpiredForNoExpiredTokensReturnsZero\u0028\u0029",
-            "name": "removeExpiredForNoExpiredTokensReturnsZero",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestRemoveExpiredForNoExpiredTokensReturnsZero\u0028\u0029",
+            "name": "testRemoveExpiredForNoExpiredTokensReturnsZero",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_removeExpiredForNoExpiredTokensReturnsZero"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testRemoveExpiredForNoExpiredTokensReturnsZero"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AremoveExpiredForOneExpiredTokenReturnsOne\u0028\u0029",
-            "name": "removeExpiredForOneExpiredTokenReturnsOne",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestRemoveExpiredForOneExpiredTokenReturnsOne\u0028\u0029",
+            "name": "testRemoveExpiredForOneExpiredTokenReturnsOne",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_removeExpiredForOneExpiredTokenReturnsOne"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testRemoveExpiredForOneExpiredTokenReturnsOne"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AsavePersistsAndFlushesModel\u0028\u0029",
-            "name": "savePersistsAndFlushesModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestSavePersistsAndFlushesModel\u0028\u0029",
+            "name": "testSavePersistsAndFlushesModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_savePersistsAndFlushesModel"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testSavePersistsAndFlushesModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AremoveRemovesModel\u0028\u0029",
-            "name": "removeRemovesModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestRemoveRemovesModel\u0028\u0029",
+            "name": "testRemoveRemovesModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_removeRemovesModel"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testRemoveRemovesModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003ATABLE_NAME",
-            "name": "TABLE_NAME",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003A\u0024repository",
+            "name": "repository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#constant_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AADMINISTRATOR_TABLE_NAME",
-            "name": "ADMINISTRATOR_TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#constant_ADMINISTRATOR_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003A\u0024subject",
-            "name": "subject",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#property_subject"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#property_repository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest",
             "name": "SubscriberListRepositoryTest",
@@ -1871,90 +1866,70 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AfindReadsModelFromDatabase\u0028\u0029",
-            "name": "findReadsModelFromDatabase",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findReadsModelFromDatabase"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AcreatesOwnerAssociationAsProxy\u0028\u0029",
-            "name": "createsOwnerAssociationAsProxy",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestFindReadsModelFromDatabase\u0028\u0029",
+            "name": "testFindReadsModelFromDatabase",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_createsOwnerAssociationAsProxy"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindReadsModelFromDatabase"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AcreationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
-            "name": "creationDateOfNewModelIsSetToNowOnPersist",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestCreationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
+            "name": "testCreationDateOfNewModelIsSetToNowOnPersist",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_creationDateOfNewModelIsSetToNowOnPersist"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testCreationDateOfNewModelIsSetToNowOnPersist"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AmodificationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
-            "name": "modificationDateOfNewModelIsSetToNowOnPersist",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestModificationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
+            "name": "testModificationDateOfNewModelIsSetToNowOnPersist",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_modificationDateOfNewModelIsSetToNowOnPersist"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testModificationDateOfNewModelIsSetToNowOnPersist"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AsavePersistsAndFlushesModel\u0028\u0029",
-            "name": "savePersistsAndFlushesModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestSavePersistsAndFlushesModel\u0028\u0029",
+            "name": "testSavePersistsAndFlushesModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_savePersistsAndFlushesModel"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testSavePersistsAndFlushesModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AfindByOwnerFindsSubscriberListWithTheGivenOwner\u0028\u0029",
-            "name": "findByOwnerFindsSubscriberListWithTheGivenOwner",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestFindByOwnerFindsSubscriberListWithTheGivenOwner\u0028\u0029",
+            "name": "testFindByOwnerFindsSubscriberListWithTheGivenOwner",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findByOwnerFindsSubscriberListWithTheGivenOwner"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerFindsSubscriberListWithTheGivenOwner"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AfindByOwnerIgnoresSubscriberListWithOtherOwner\u0028\u0029",
-            "name": "findByOwnerIgnoresSubscriberListWithOtherOwner",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestFindByOwnerIgnoresSubscriberListWithOtherOwner\u0028\u0029",
+            "name": "testFindByOwnerIgnoresSubscriberListWithOtherOwner",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findByOwnerIgnoresSubscriberListWithOtherOwner"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerIgnoresSubscriberListWithOtherOwner"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AfindByOwnerIgnoresSubscriberListFromOtherOwner\u0028\u0029",
-            "name": "findByOwnerIgnoresSubscriberListFromOtherOwner",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestFindByOwnerIgnoresSubscriberListFromOtherOwner\u0028\u0029",
+            "name": "testFindByOwnerIgnoresSubscriberListFromOtherOwner",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findByOwnerIgnoresSubscriberListFromOtherOwner"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerIgnoresSubscriberListFromOtherOwner"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AfindsAssociatedSubscriptions\u0028\u0029",
-            "name": "findsAssociatedSubscriptions",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestFindsAssociatedSubscriptions\u0028\u0029",
+            "name": "testFindsAssociatedSubscriptions",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findsAssociatedSubscriptions"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindsAssociatedSubscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AfindsAssociatedSubscribers\u0028\u0029",
-            "name": "findsAssociatedSubscribers",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestFindsAssociatedSubscribers\u0028\u0029",
+            "name": "testFindsAssociatedSubscribers",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findsAssociatedSubscribers"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindsAssociatedSubscribers"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AremoveAlsoRemovesAssociatedSubscriptions\u0028\u0029",
-            "name": "removeAlsoRemovesAssociatedSubscriptions",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestRemoveAlsoRemovesAssociatedSubscriptions\u0028\u0029",
+            "name": "testRemoveAlsoRemovesAssociatedSubscriptions",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_removeAlsoRemovesAssociatedSubscriptions"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testRemoveAlsoRemovesAssociatedSubscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AremoveRemovesModel\u0028\u0029",
-            "name": "removeRemovesModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestRemoveRemovesModel\u0028\u0029",
+            "name": "testRemoveRemovesModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_removeRemovesModel"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testRemoveRemovesModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003ATABLE_NAME",
-            "name": "TABLE_NAME",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003A\u0024subscriberListRepository",
+            "name": "subscriberListRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AADMINISTRATOR_TABLE_NAME",
-            "name": "ADMINISTRATOR_TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_ADMINISTRATOR_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003ASUBSCRIPTION_TABLE_NAME",
-            "name": "SUBSCRIPTION_TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_SUBSCRIPTION_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003ASUBSCRIBER_TABLE_NAME",
-            "name": "SUBSCRIBER_TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_SUBSCRIBER_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003A\u0024subject",
-            "name": "subject",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subject"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriberListRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003A\u0024administratorRepository",
             "name": "administratorRepository",
@@ -1981,95 +1956,80 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AfindReadsModelFromDatabase\u0028\u0029",
-            "name": "findReadsModelFromDatabase",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_findReadsModelFromDatabase"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AcreationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
-            "name": "creationDateOfNewModelIsSetToNowOnPersist",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestFindReadsModelFromDatabase\u0028\u0029",
+            "name": "testFindReadsModelFromDatabase",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_creationDateOfNewModelIsSetToNowOnPersist"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testFindReadsModelFromDatabase"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AmodificationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
-            "name": "modificationDateOfNewModelIsSetToNowOnPersist",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestCreationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
+            "name": "testCreationDateOfNewModelIsSetToNowOnPersist",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_modificationDateOfNewModelIsSetToNowOnPersist"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testCreationDateOfNewModelIsSetToNowOnPersist"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AsavePersistsAndFlushesModel\u0028\u0029",
-            "name": "savePersistsAndFlushesModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestModificationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
+            "name": "testModificationDateOfNewModelIsSetToNowOnPersist",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_savePersistsAndFlushesModel"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testModificationDateOfNewModelIsSetToNowOnPersist"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AemailMustBeUnique\u0028\u0029",
-            "name": "emailMustBeUnique",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestSavePersistsAndFlushesModel\u0028\u0029",
+            "name": "testSavePersistsAndFlushesModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_emailMustBeUnique"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testSavePersistsAndFlushesModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AuniqueIdOfNewModelIsGeneratedOnPersist\u0028\u0029",
-            "name": "uniqueIdOfNewModelIsGeneratedOnPersist",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestEmailMustBeUnique\u0028\u0029",
+            "name": "testEmailMustBeUnique",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_uniqueIdOfNewModelIsGeneratedOnPersist"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testEmailMustBeUnique"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestUniqueIdOfNewModelIsGeneratedOnPersist\u0028\u0029",
+            "name": "testUniqueIdOfNewModelIsGeneratedOnPersist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testUniqueIdOfNewModelIsGeneratedOnPersist"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003ApersistingExistingModelKeepsUniqueIdUnchanged\u0028\u0029",
             "name": "persistingExistingModelKeepsUniqueIdUnchanged",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_persistingExistingModelKeepsUniqueIdUnchanged"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AfindOneByEmailFindsSubscriberWithMatchingEmail\u0028\u0029",
-            "name": "findOneByEmailFindsSubscriberWithMatchingEmail",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestFindOneByEmailFindsSubscriberWithMatchingEmail\u0028\u0029",
+            "name": "testFindOneByEmailFindsSubscriberWithMatchingEmail",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_findOneByEmailFindsSubscriberWithMatchingEmail"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testFindOneByEmailFindsSubscriberWithMatchingEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AfindOneByEmailIgnoresSubscriberWithNonMatchingEmail\u0028\u0029",
-            "name": "findOneByEmailIgnoresSubscriberWithNonMatchingEmail",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestFindOneByEmailIgnoresSubscriberWithNonMatchingEmail\u0028\u0029",
+            "name": "testFindOneByEmailIgnoresSubscriberWithNonMatchingEmail",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_findOneByEmailIgnoresSubscriberWithNonMatchingEmail"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testFindOneByEmailIgnoresSubscriberWithNonMatchingEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AfindsAssociatedSubscriptions\u0028\u0029",
-            "name": "findsAssociatedSubscriptions",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestFindsAssociatedSubscriptions\u0028\u0029",
+            "name": "testFindsAssociatedSubscriptions",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_findsAssociatedSubscriptions"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testFindsAssociatedSubscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AfindsAssociatedSubscribedLists\u0028\u0029",
-            "name": "findsAssociatedSubscribedLists",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestFindsAssociatedSubscribedLists\u0028\u0029",
+            "name": "testFindsAssociatedSubscribedLists",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_findsAssociatedSubscribedLists"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testFindsAssociatedSubscribedLists"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AremoveAlsoRemovesAssociatedSubscriptions\u0028\u0029",
-            "name": "removeAlsoRemovesAssociatedSubscriptions",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestRemoveAlsoRemovesAssociatedSubscriptions\u0028\u0029",
+            "name": "testRemoveAlsoRemovesAssociatedSubscriptions",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_removeAlsoRemovesAssociatedSubscriptions"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testRemoveAlsoRemovesAssociatedSubscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AremoveRemovesModel\u0028\u0029",
-            "name": "removeRemovesModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestRemoveRemovesModel\u0028\u0029",
+            "name": "testRemoveRemovesModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_removeRemovesModel"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testRemoveRemovesModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003ATABLE_NAME",
-            "name": "TABLE_NAME",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#constant_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AADMINISTRATOR_TABLE_NAME",
-            "name": "ADMINISTRATOR_TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#constant_ADMINISTRATOR_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003ASUBSCRIPTION_TABLE_NAME",
-            "name": "SUBSCRIPTION_TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#constant_SUBSCRIPTION_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003ASUBSCRIBER_LIST_TABLE_NAME",
-            "name": "SUBSCRIBER_LIST_TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#constant_SUBSCRIBER_LIST_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003A\u0024subject",
-            "name": "subject",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#property_subject"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriberRepositoryTest.html#property_subscriberRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003A\u0024subscriberListRepository",
             "name": "subscriberListRepository",
@@ -2091,95 +2051,70 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AfindAllReadsModelsFromDatabase\u0028\u0029",
-            "name": "findAllReadsModelsFromDatabase",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_findAllReadsModelsFromDatabase"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AcreatesSubscriberAssociationAsProxy\u0028\u0029",
-            "name": "createsSubscriberAssociationAsProxy",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestFindAllReadsModelsFromDatabase\u0028\u0029",
+            "name": "testFindAllReadsModelsFromDatabase",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_createsSubscriberAssociationAsProxy"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testFindAllReadsModelsFromDatabase"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AcreatesSubscriberListAssociationAsProxy\u0028\u0029",
-            "name": "createsSubscriberListAssociationAsProxy",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestCreationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
+            "name": "testCreationDateOfNewModelIsSetToNowOnPersist",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_createsSubscriberListAssociationAsProxy"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testCreationDateOfNewModelIsSetToNowOnPersist"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AcreationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
-            "name": "creationDateOfNewModelIsSetToNowOnPersist",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestModificationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
+            "name": "testModificationDateOfNewModelIsSetToNowOnPersist",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_creationDateOfNewModelIsSetToNowOnPersist"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testModificationDateOfNewModelIsSetToNowOnPersist"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AmodificationDateOfNewModelIsSetToNowOnPersist\u0028\u0029",
-            "name": "modificationDateOfNewModelIsSetToNowOnPersist",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestFindBySubscriberFindsSubscriptionOnlyWithTheGivenSubscriber\u0028\u0029",
+            "name": "testFindBySubscriberFindsSubscriptionOnlyWithTheGivenSubscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_modificationDateOfNewModelIsSetToNowOnPersist"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testFindBySubscriberFindsSubscriptionOnlyWithTheGivenSubscriber"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AfindBySubscriberFindsSubscriptionOnlyWithTheGivenSubscriber\u0028\u0029",
-            "name": "findBySubscriberFindsSubscriptionOnlyWithTheGivenSubscriber",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestFindBySubscriberListFindsSubscriptionOnlyWithTheGivenSubscriberList\u0028\u0029",
+            "name": "testFindBySubscriberListFindsSubscriptionOnlyWithTheGivenSubscriberList",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_findBySubscriberFindsSubscriptionOnlyWithTheGivenSubscriber"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testFindBySubscriberListFindsSubscriptionOnlyWithTheGivenSubscriberList"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AfindBySubscriberListFindsSubscriptionOnlyWithTheGivenSubscriberList\u0028\u0029",
-            "name": "findBySubscriberListFindsSubscriptionOnlyWithTheGivenSubscriberList",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestSavePersistsAndFlushesModel\u0028\u0029",
+            "name": "testSavePersistsAndFlushesModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_findBySubscriberListFindsSubscriptionOnlyWithTheGivenSubscriberList"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testSavePersistsAndFlushesModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AsavePersistsAndFlushesModel\u0028\u0029",
-            "name": "savePersistsAndFlushesModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestRemoveRemovesModel\u0028\u0029",
+            "name": "testRemoveRemovesModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_savePersistsAndFlushesModel"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testRemoveRemovesModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AremoveRemovesModel\u0028\u0029",
-            "name": "removeRemovesModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestFindOneBySubscriberListAndSubscriberForNeitherMatchingReturnsNull\u0028\u0029",
+            "name": "testFindOneBySubscriberListAndSubscriberForNeitherMatchingReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_removeRemovesModel"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testFindOneBySubscriberListAndSubscriberForNeitherMatchingReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AfindOneBySubscriberListAndSubscriberForNeitherMatchingReturnsNull\u0028\u0029",
-            "name": "findOneBySubscriberListAndSubscriberForNeitherMatchingReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestFindOneBySubscriberListAndSubscriberForMatchingSubscriberListOnlyReturnsNull\u0028\u0029",
+            "name": "testFindOneBySubscriberListAndSubscriberForMatchingSubscriberListOnlyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_findOneBySubscriberListAndSubscriberForNeitherMatchingReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testFindOneBySubscriberListAndSubscriberForMatchingSubscriberListOnlyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AfindOneBySubscriberListAndSubscriberForMatchingSubscriberListOnlyReturnsNull\u0028\u0029",
-            "name": "findOneBySubscriberListAndSubscriberForMatchingSubscriberListOnlyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestFindOneBySubscriberListAndSubscriberForMatchingSubscriberOnlyReturnsNull\u0028\u0029",
+            "name": "testFindOneBySubscriberListAndSubscriberForMatchingSubscriberOnlyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_findOneBySubscriberListAndSubscriberForMatchingSubscriberListOnlyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testFindOneBySubscriberListAndSubscriberForMatchingSubscriberOnlyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AfindOneBySubscriberListAndSubscriberForMatchingSubscriberOnlyReturnsNull\u0028\u0029",
-            "name": "findOneBySubscriberListAndSubscriberForMatchingSubscriberOnlyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestFindOneBySubscriberListAndSubscriberForBothMatchingReturnsMatch\u0028\u0029",
+            "name": "testFindOneBySubscriberListAndSubscriberForBothMatchingReturnsMatch",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_findOneBySubscriberListAndSubscriberForMatchingSubscriberOnlyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testFindOneBySubscriberListAndSubscriberForBothMatchingReturnsMatch"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AfindOneBySubscriberListAndSubscriberForBothMatchingReturnsMatch\u0028\u0029",
-            "name": "findOneBySubscriberListAndSubscriberForBothMatchingReturnsMatch",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003A\u0024subscriptionRepository",
+            "name": "subscriptionRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_findOneBySubscriberListAndSubscriberForBothMatchingReturnsMatch"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003ATABLE_NAME",
-            "name": "TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#constant_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AADMINISTRATOR_TABLE_NAME",
-            "name": "ADMINISTRATOR_TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#constant_ADMINISTRATOR_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003ASUBSCRIBER_TABLE_NAME",
-            "name": "SUBSCRIBER_TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#constant_SUBSCRIBER_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003ASUBSCRIBER_LIST_TABLE_NAME",
-            "name": "SUBSCRIBER_LIST_TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#constant_SUBSCRIBER_LIST_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003A\u0024subject",
-            "name": "subject",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#property_subject"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#property_subscriptionRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
@@ -2196,15 +2131,15 @@ Search.appendIndex(
             "summary": "Testcase.",
             "url": "classes/PhpList-Core-Tests-Integration-EmptyStartPageBundle-Controller-DefaultControllerTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\EmptyStartPageBundle\\Controller\\DefaultControllerTest\u003A\u003AcontrollerIsAvailableViaContainer\u0028\u0029",
-            "name": "controllerIsAvailableViaContainer",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\EmptyStartPageBundle\\Controller\\DefaultControllerTest\u003A\u003AtestControllerIsAvailableViaContainer\u0028\u0029",
+            "name": "testControllerIsAvailableViaContainer",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-EmptyStartPageBundle-Controller-DefaultControllerTest.html#method_controllerIsAvailableViaContainer"
+            "url": "classes/PhpList-Core-Tests-Integration-EmptyStartPageBundle-Controller-DefaultControllerTest.html#method_testControllerIsAvailableViaContainer"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\EmptyStartPageBundle\\Controller\\DefaultControllerTest\u003A\u003AindexActionReturnsResponseWithHelloWorld\u0028\u0029",
-            "name": "indexActionReturnsResponseWithHelloWorld",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\EmptyStartPageBundle\\Controller\\DefaultControllerTest\u003A\u003AtestIndexActionReturnsResponseWithHelloWorld\u0028\u0029",
+            "name": "testIndexActionReturnsResponseWithHelloWorld",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-EmptyStartPageBundle-Controller-DefaultControllerTest.html#method_indexActionReturnsResponseWithHelloWorld"
+            "url": "classes/PhpList-Core-Tests-Integration-EmptyStartPageBundle-Controller-DefaultControllerTest.html#method_testIndexActionReturnsResponseWithHelloWorld"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Routing\\ExtraLoaderTest",
             "name": "ExtraLoaderTest",
@@ -2246,45 +2181,40 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AsubjectIsAvailableViaContainer\u0028\u0029",
-            "name": "subjectIsAvailableViaContainer",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_subjectIsAvailableViaContainer"
+            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AclassIsRegisteredAsSingletonInContainer\u0028\u0029",
-            "name": "classIsRegisteredAsSingletonInContainer",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestSubjectIsAvailableViaContainer\u0028\u0029",
+            "name": "testSubjectIsAvailableViaContainer",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_classIsRegisteredAsSingletonInContainer"
+            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testSubjectIsAvailableViaContainer"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AauthenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator\u0028\u0029",
-            "name": "authenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestClassIsRegisteredAsSingletonInContainer\u0028\u0029",
+            "name": "testClassIsRegisteredAsSingletonInContainer",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_authenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator"
+            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testClassIsRegisteredAsSingletonInContainer"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AauthenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull\u0028\u0029",
-            "name": "authenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_authenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AauthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull\u0028\u0029",
-            "name": "authenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_authenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AauthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull\u0028\u0029",
-            "name": "authenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_authenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AADMINISTRATOR_TABLE_NAME",
-            "name": "ADMINISTRATOR_TABLE_NAME",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#constant_ADMINISTRATOR_TABLE_NAME"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003ATOKEN_TABLE_NAME",
-            "name": "TOKEN_TABLE_NAME",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#constant_TOKEN_TABLE_NAME"
+            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -2306,25 +2236,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003AsubjectIsAvailableViaContainer\u0028\u0029",
-            "name": "subjectIsAvailableViaContainer",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003AtestSubjectIsAvailableViaContainer\u0028\u0029",
+            "name": "testSubjectIsAvailableViaContainer",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#method_subjectIsAvailableViaContainer"
+            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#method_testSubjectIsAvailableViaContainer"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003AclassIsRegisteredAsSingletonInContainer\u0028\u0029",
-            "name": "classIsRegisteredAsSingletonInContainer",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003AtestClassIsRegisteredAsSingletonInContainer\u0028\u0029",
+            "name": "testClassIsRegisteredAsSingletonInContainer",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#method_classIsRegisteredAsSingletonInContainer"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003A\u0024kernel",
-            "name": "kernel",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#property_kernel"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003A\u0024container",
-            "name": "container",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#property_container"
+            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#method_testClassIsRegisteredAsSingletonInContainer"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Support\\Interfaces\\TestMarker",
             "name": "TestMarker",
@@ -2346,20 +2266,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-System-ApplicationBundle-PhpListApplicationBundleTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\System\\ApplicationBundle\\PhpListApplicationBundleTest\u003A\u003AenvironmentDataProvider\u0028\u0029",
-            "name": "environmentDataProvider",
+            "fqsen": "\\PhpList\\Core\\Tests\\System\\ApplicationBundle\\PhpListApplicationBundleTest\u003A\u003AtestHomepageReturnsSuccess\u0028\u0029",
+            "name": "testHomepageReturnsSuccess",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-System-ApplicationBundle-PhpListApplicationBundleTest.html#method_environmentDataProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\System\\ApplicationBundle\\PhpListApplicationBundleTest\u003A\u003AhomepageReturnsSuccess\u0028\u0029",
-            "name": "homepageReturnsSuccess",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-System-ApplicationBundle-PhpListApplicationBundleTest.html#method_homepageReturnsSuccess"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\System\\ApplicationBundle\\PhpListApplicationBundleTest\u003A\u003AhomepageReturnsDummyContent\u0028\u0029",
-            "name": "homepageReturnsDummyContent",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-System-ApplicationBundle-PhpListApplicationBundleTest.html#method_homepageReturnsDummyContent"
+            "url": "classes/PhpList-Core-Tests-System-ApplicationBundle-PhpListApplicationBundleTest.html#method_testHomepageReturnsSuccess"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\System\\ApplicationBundle\\PhpListApplicationBundleTest\u003A\u003A\u0024httpClient",
             "name": "httpClient",
@@ -2376,10 +2286,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AfindBundleClassesForNoModulesReturnsEmptyArray\u0028\u0029",
-            "name": "findBundleClassesForNoModulesReturnsEmptyArray",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AtestFindBundleClassesForNoModulesReturnsEmptyArray\u0028\u0029",
+            "name": "testFindBundleClassesForNoModulesReturnsEmptyArray",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForNoModulesReturnsEmptyArray"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForNoModulesReturnsEmptyArray"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AmodulesWithoutBundlesDataProvider\u0028\u0029",
             "name": "modulesWithoutBundlesDataProvider",
@@ -2391,135 +2301,45 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildMockPackagesWithModuleConfiguration"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AbuildSingleMockPackageWithModuleConfiguration\u0028\u0029",
-            "name": "buildSingleMockPackageWithModuleConfiguration",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AbuildMockPackage\u0028\u0029",
+            "name": "buildMockPackage",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildSingleMockPackageWithModuleConfiguration"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildMockPackage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AbuildPackageProphecyWithExtras\u0028\u0029",
-            "name": "buildPackageProphecyWithExtras",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AtestFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray\u0028\u0029",
+            "name": "testFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildPackageProphecyWithExtras"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AfindBundleClassesForModulesWithoutBundlesReturnsEmptyArray\u0028\u0029",
-            "name": "findBundleClassesForModulesWithoutBundlesReturnsEmptyArray",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForModulesWithoutBundlesReturnsEmptyArray"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithoutBundlesReturnsEmptyArray"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AmodulesWithInvalidBundlesDataProvider\u0028\u0029",
             "name": "modulesWithInvalidBundlesDataProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithInvalidBundlesDataProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AfindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException\u0028\u0029",
-            "name": "findBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AtestFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException\u0028\u0029",
+            "name": "testFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithInvalidBundlesConfigurationThrowsException"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AmodulesWithBundlesDataProvider\u0028\u0029",
             "name": "modulesWithBundlesDataProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithBundlesDataProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AfindBundleClassesForModulesWithBundlesReturnsBundleClassNames\u0028\u0029",
-            "name": "findBundleClassesForModulesWithBundlesReturnsBundleClassNames",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AtestFindBundleClassesForModulesWithBundlesReturnsBundleClassNames\u0028\u0029",
+            "name": "testFindBundleClassesForModulesWithBundlesReturnsBundleClassNames",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findBundleClassesForModulesWithBundlesReturnsBundleClassNames"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testFindBundleClassesForModulesWithBundlesReturnsBundleClassNames"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AcreateBundleConfigurationYamlForNoModulesReturnsCommentOnly\u0028\u0029",
-            "name": "createBundleConfigurationYamlForNoModulesReturnsCommentOnly",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AtestCreateBundleConfigurationYamlForNoModulesReturnsCommentOnly\u0028\u0029",
+            "name": "testCreateBundleConfigurationYamlForNoModulesReturnsCommentOnly",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createBundleConfigurationYamlForNoModulesReturnsCommentOnly"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testCreateBundleConfigurationYamlForNoModulesReturnsCommentOnly"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AcreateBundleConfigurationYamlReturnsYamlForBundles\u0028\u0029",
-            "name": "createBundleConfigurationYamlReturnsYamlForBundles",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AtestCreateBundleConfigurationYamlReturnsYamlForBundles\u0028\u0029",
+            "name": "testCreateBundleConfigurationYamlReturnsYamlForBundles",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createBundleConfigurationYamlReturnsYamlForBundles"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AmodulesWithoutRoutesDataProvider\u0028\u0029",
-            "name": "modulesWithoutRoutesDataProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithoutRoutesDataProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AfindRoutesForModulesWithoutRoutesReturnsEmptyArray\u0028\u0029",
-            "name": "findRoutesForModulesWithoutRoutesReturnsEmptyArray",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findRoutesForModulesWithoutRoutesReturnsEmptyArray"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AmodulesWithInvalidRoutesDataProvider\u0028\u0029",
-            "name": "modulesWithInvalidRoutesDataProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithInvalidRoutesDataProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AfindRoutesClassesForModulesWithInvalidRoutesConfigurationThrowsException\u0028\u0029",
-            "name": "findRoutesClassesForModulesWithInvalidRoutesConfigurationThrowsException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findRoutesClassesForModulesWithInvalidRoutesConfigurationThrowsException"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AmodulesWithRoutesDataProvider\u0028\u0029",
-            "name": "modulesWithRoutesDataProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithRoutesDataProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AbuildModuleSets\u0028\u0029",
-            "name": "buildModuleSets",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_buildModuleSets"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AfindRoutesForModulesWithRoutesReturnsRoutes\u0028\u0029",
-            "name": "findRoutesForModulesWithRoutesReturnsRoutes",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findRoutesForModulesWithRoutesReturnsRoutes"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AcreateRouteConfigurationYamlForNoModulesReturnsCommentOnly\u0028\u0029",
-            "name": "createRouteConfigurationYamlForNoModulesReturnsCommentOnly",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createRouteConfigurationYamlForNoModulesReturnsCommentOnly"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AcreateRouteConfigurationYamlReturnsYamlForRoutes\u0028\u0029",
-            "name": "createRouteConfigurationYamlReturnsYamlForRoutes",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createRouteConfigurationYamlReturnsYamlForRoutes"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AmodulesWithoutConfigurationDataProvider\u0028\u0029",
-            "name": "modulesWithoutConfigurationDataProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithoutConfigurationDataProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AfindGeneralConfigurationForModulesWithoutConfigurationReturnsEmptyArray\u0028\u0029",
-            "name": "findGeneralConfigurationForModulesWithoutConfigurationReturnsEmptyArray",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findGeneralConfigurationForModulesWithoutConfigurationReturnsEmptyArray"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AmodulesWithInvalidConfigurationDataProvider\u0028\u0029",
-            "name": "modulesWithInvalidConfigurationDataProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithInvalidConfigurationDataProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AfindGeneralConfigurationForModulesWithInvalidConfigurationThrowsException\u0028\u0029",
-            "name": "findGeneralConfigurationForModulesWithInvalidConfigurationThrowsException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findGeneralConfigurationForModulesWithInvalidConfigurationThrowsException"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AmodulesWithConfigurationDataProvider\u0028\u0029",
-            "name": "modulesWithConfigurationDataProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_modulesWithConfigurationDataProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AfindGeneralConfigurationForModulesWithConfigurationReturnsConfiguration\u0028\u0029",
-            "name": "findGeneralConfigurationForModulesWithConfigurationReturnsConfiguration",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_findGeneralConfigurationForModulesWithConfigurationReturnsConfiguration"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AcreateGeneralConfigurationYamlForNoModulesReturnsCommentOnly\u0028\u0029",
-            "name": "createGeneralConfigurationYamlForNoModulesReturnsCommentOnly",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createGeneralConfigurationYamlForNoModulesReturnsCommentOnly"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AcreateGeneralConfigurationYamlReturnsYamlForConfiguration\u0028\u0029",
-            "name": "createGeneralConfigurationYamlReturnsYamlForConfiguration",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_createGeneralConfigurationYamlReturnsYamlForConfiguration"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#method_testCreateBundleConfigurationYamlReturnsYamlForBundles"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003AYAML_COMMENT",
             "name": "YAML_COMMENT",
@@ -2531,10 +2351,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_subject"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003A\u0024packageRepositoryProphecy",
-            "name": "packageRepositoryProphecy",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ModuleFinderTest\u003A\u003A\u0024packageRepository",
+            "name": "packageRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_packageRepositoryProphecy"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ModuleFinderTest.html#property_packageRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest",
             "name": "PackageRepositoryTest",
@@ -2546,120 +2366,115 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AfindAllIncludesDependencies\u0028\u0029",
-            "name": "findAllIncludesDependencies",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AtestFindAllIncludesDependencies\u0028\u0029",
+            "name": "testFindAllIncludesDependencies",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_findAllIncludesDependencies"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_testFindAllIncludesDependencies"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AfindAllIncludesRootPackage\u0028\u0029",
-            "name": "findAllIncludesRootPackage",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AtestFindAllIncludesRootPackage\u0028\u0029",
+            "name": "testFindAllIncludesRootPackage",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_findAllIncludesRootPackage"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_testFindAllIncludesRootPackage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AfindAllExcludesDuplicates\u0028\u0029",
-            "name": "findAllExcludesDuplicates",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AtestFindAllExcludesDuplicates\u0028\u0029",
+            "name": "testFindAllExcludesDuplicates",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_findAllExcludesDuplicates"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_testFindAllExcludesDuplicates"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AfindModulesForPhpListModuleRootPackageIncludesIt\u0028\u0029",
-            "name": "findModulesForPhpListModuleRootPackageIncludesIt",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AtestFindModulesForPhpListModuleRootPackageIncludesIt\u0028\u0029",
+            "name": "testFindModulesForPhpListModuleRootPackageIncludesIt",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_findModulesForPhpListModuleRootPackageIncludesIt"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_testFindModulesForPhpListModuleRootPackageIncludesIt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AfindModulesForPhpListModuleDependencyReturnsIt\u0028\u0029",
-            "name": "findModulesForPhpListModuleDependencyReturnsIt",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AtestFindModulesForPhpListModuleDependencyReturnsIt\u0028\u0029",
+            "name": "testFindModulesForPhpListModuleDependencyReturnsIt",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_findModulesForPhpListModuleDependencyReturnsIt"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_testFindModulesForPhpListModuleDependencyReturnsIt"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AnonPhpListModuleTypeDataProvider\u0028\u0029",
             "name": "nonPhpListModuleTypeDataProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_nonPhpListModuleTypeDataProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AfindModulesForNonPhpListModuleRootPackageIgnoresIt\u0028\u0029",
-            "name": "findModulesForNonPhpListModuleRootPackageIgnoresIt",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AtestFindModulesForNonPhpListModuleRootPackageIgnoresIt\u0028\u0029",
+            "name": "testFindModulesForNonPhpListModuleRootPackageIgnoresIt",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_findModulesForNonPhpListModuleRootPackageIgnoresIt"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_testFindModulesForNonPhpListModuleRootPackageIgnoresIt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AfindModulesForNonPhpListModuleDependencyIgnoresIt\u0028\u0029",
-            "name": "findModulesForNonPhpListModuleDependencyIgnoresIt",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003AtestFindModulesForNonPhpListModuleDependencyIgnoresIt\u0028\u0029",
+            "name": "testFindModulesForNonPhpListModuleDependencyIgnoresIt",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_findModulesForNonPhpListModuleDependencyIgnoresIt"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#method_testFindModulesForNonPhpListModuleDependencyIgnoresIt"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003A\u0024subject",
             "name": "subject",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#property_subject"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003A\u0024composerProphecy",
-            "name": "composerProphecy",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#property_composerProphecy"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003A\u0024composer",
             "name": "composer",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#property_composer"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003A\u0024localRepositoryProphecy",
-            "name": "localRepositoryProphecy",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\PackageRepositoryTest\u003A\u003A\u0024localRepository",
+            "name": "localRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#property_localRepositoryProphecy"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-PackageRepositoryTest.html#property_localRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest",
             "name": "ScriptHandlerTest",
             "summary": "Testcase.",
             "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AcreateBinariesForCorePackageThrowsException\u0028\u0029",
-            "name": "createBinariesForCorePackageThrowsException",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AtestCreateBinariesForCorePackageThrowsException\u0028\u0029",
+            "name": "testCreateBinariesForCorePackageThrowsException",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_createBinariesForCorePackageThrowsException"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_testCreateBinariesForCorePackageThrowsException"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AcreatePublicWebDirectoryForCorePackageThrowsException\u0028\u0029",
-            "name": "createPublicWebDirectoryForCorePackageThrowsException",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AtestCreatePublicWebDirectoryForCorePackageThrowsException\u0028\u0029",
+            "name": "testCreatePublicWebDirectoryForCorePackageThrowsException",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_createPublicWebDirectoryForCorePackageThrowsException"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_testCreatePublicWebDirectoryForCorePackageThrowsException"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AcreateEventProphecyForCorePackage\u0028\u0029",
-            "name": "createEventProphecyForCorePackage",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AtestListModulesForPhpListModuleRootPackageListsIt\u0028\u0029",
+            "name": "testListModulesForPhpListModuleRootPackageListsIt",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_createEventProphecyForCorePackage"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_testListModulesForPhpListModuleRootPackageListsIt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AlistModulesForPhpListModuleRootPackageListsIt\u0028\u0029",
-            "name": "listModulesForPhpListModuleRootPackageListsIt",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AtestListModulesForNonPhpListModuleRootPackageExcludesIt\u0028\u0029",
+            "name": "testListModulesForNonPhpListModuleRootPackageExcludesIt",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_listModulesForPhpListModuleRootPackageListsIt"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_testListModulesForNonPhpListModuleRootPackageExcludesIt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AlistModulesForNonPhpListModuleRootPackageExcludesIt\u0028\u0029",
-            "name": "listModulesForNonPhpListModuleRootPackageExcludesIt",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AtestListModulesForPhpListModuleDependencyListsIt\u0028\u0029",
+            "name": "testListModulesForPhpListModuleDependencyListsIt",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_listModulesForNonPhpListModuleRootPackageExcludesIt"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_testListModulesForPhpListModuleDependencyListsIt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AlistModulesForPhpListModuleDependencyListsIt\u0028\u0029",
-            "name": "listModulesForPhpListModuleDependencyListsIt",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AtestListModulesForNonPhpListModuleDependencyExcludesIt\u0028\u0029",
+            "name": "testListModulesForNonPhpListModuleDependencyExcludesIt",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_listModulesForPhpListModuleDependencyListsIt"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_testListModulesForNonPhpListModuleDependencyExcludesIt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AlistModulesForNonPhpListModuleDependencyExcludesIt\u0028\u0029",
-            "name": "listModulesForNonPhpListModuleDependencyExcludesIt",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AcreateMockEventForCorePackage\u0028\u0029",
+            "name": "createMockEventForCorePackage",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_listModulesForNonPhpListModuleDependencyExcludesIt"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_createMockEventForCorePackage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AbuildMockEvent\u0028\u0029",
-            "name": "buildMockEvent",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003AcreateMockEvent\u0028\u0029",
+            "name": "createMockEvent",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_buildMockEvent"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#method_createMockEvent"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003A\u0024localRepositoryProphecy",
-            "name": "localRepositoryProphecy",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003A\u0024localRepository",
+            "name": "localRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#property_localRepositoryProphecy"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#property_localRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003A\u0024rootPackageProphecy",
-            "name": "rootPackageProphecy",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Composer\\ScriptHandlerTest\u003A\u003A\u0024rootPackage",
+            "name": "rootPackage",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#property_rootPackageProphecy"
+            "url": "classes/PhpList-Core-Tests-Unit-Composer-ScriptHandlerTest.html#property_rootPackage"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationKernelTest",
             "name": "ApplicationKernelTest",
@@ -2676,25 +2491,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationKernelTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationKernelTest\u003A\u003AisKernelInstance\u0028\u0029",
-            "name": "isKernelInstance",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationKernelTest\u003A\u003AtestIsKernelInstance\u0028\u0029",
+            "name": "testIsKernelInstance",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationKernelTest.html#method_isKernelInstance"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationKernelTest.html#method_testIsKernelInstance"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationKernelTest\u003A\u003AregisterBundlesReturnsBundlesOnly\u0028\u0029",
-            "name": "registerBundlesReturnsBundlesOnly",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationKernelTest\u003A\u003AtestRegisterBundlesReturnsBundlesOnly\u0028\u0029",
+            "name": "testRegisterBundlesReturnsBundlesOnly",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationKernelTest.html#method_registerBundlesReturnsBundlesOnly"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationKernelTest.html#method_testRegisterBundlesReturnsBundlesOnly"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationKernelTest\u003A\u003ArequiredBundlesDataProvider\u0028\u0029",
             "name": "requiredBundlesDataProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationKernelTest.html#method_requiredBundlesDataProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationKernelTest\u003A\u003AregisterBundlesHasAllRequiredBundles\u0028\u0029",
-            "name": "registerBundlesHasAllRequiredBundles",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationKernelTest\u003A\u003AtestRegisterBundlesHasAllRequiredBundles\u0028\u0029",
+            "name": "testRegisterBundlesHasAllRequiredBundles",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationKernelTest.html#method_registerBundlesHasAllRequiredBundles"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationKernelTest.html#method_testRegisterBundlesHasAllRequiredBundles"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationKernelTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -2711,15 +2526,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationStructureTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationStructureTest\u003A\u003AgetApplicationRootReturnsCoreApplicationRoot\u0028\u0029",
-            "name": "getApplicationRootReturnsCoreApplicationRoot",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationStructureTest\u003A\u003AtestGetApplicationRootReturnsCoreApplicationRoot\u0028\u0029",
+            "name": "testGetApplicationRootReturnsCoreApplicationRoot",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationStructureTest.html#method_getApplicationRootReturnsCoreApplicationRoot"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationStructureTest.html#method_testGetApplicationRootReturnsCoreApplicationRoot"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationStructureTest\u003A\u003AgetCorePackageRootReturnsCorePackageRoot\u0028\u0029",
-            "name": "getCorePackageRootReturnsCorePackageRoot",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationStructureTest\u003A\u003AtestGetCorePackageRootReturnsCorePackageRoot\u0028\u0029",
+            "name": "testGetCorePackageRootReturnsCorePackageRoot",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationStructureTest.html#method_getCorePackageRootReturnsCorePackageRoot"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-ApplicationStructureTest.html#method_testGetCorePackageRootReturnsCorePackageRoot"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\ApplicationStructureTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -2741,80 +2556,80 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AgetInstanceReturnsBootstrapInstance\u0028\u0029",
-            "name": "getInstanceReturnsBootstrapInstance",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestGetInstanceReturnsBootstrapInstance\u0028\u0029",
+            "name": "testGetInstanceReturnsBootstrapInstance",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_getInstanceReturnsBootstrapInstance"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testGetInstanceReturnsBootstrapInstance"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AclassIsSingleton\u0028\u0029",
-            "name": "classIsSingleton",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestClassIsSingleton\u0028\u0029",
+            "name": "testClassIsSingleton",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_classIsSingleton"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testClassIsSingleton"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003ApurgeInstancePurgesSingletonInstance\u0028\u0029",
-            "name": "purgeInstancePurgesSingletonInstance",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestPurgeInstancePurgesSingletonInstance\u0028\u0029",
+            "name": "testPurgeInstancePurgesSingletonInstance",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_purgeInstancePurgesSingletonInstance"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testPurgeInstancePurgesSingletonInstance"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AenvironmentIsProductionByDefault\u0028\u0029",
-            "name": "environmentIsProductionByDefault",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestEnvironmentIsProductionByDefault\u0028\u0029",
+            "name": "testEnvironmentIsProductionByDefault",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_environmentIsProductionByDefault"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testEnvironmentIsProductionByDefault"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AsetEnvironmentHasFluentInterface\u0028\u0029",
-            "name": "setEnvironmentHasFluentInterface",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestSetEnvironmentHasFluentInterface\u0028\u0029",
+            "name": "testSetEnvironmentHasFluentInterface",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_setEnvironmentHasFluentInterface"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testSetEnvironmentHasFluentInterface"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AvalidEnvironmentDataProvider\u0028\u0029",
             "name": "validEnvironmentDataProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_validEnvironmentDataProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AsetEnvironmentWithValidEnvironmentSetsEnvironment\u0028\u0029",
-            "name": "setEnvironmentWithValidEnvironmentSetsEnvironment",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestSetEnvironmentWithValidEnvironmentSetsEnvironment\u0028\u0029",
+            "name": "testSetEnvironmentWithValidEnvironmentSetsEnvironment",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_setEnvironmentWithValidEnvironmentSetsEnvironment"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testSetEnvironmentWithValidEnvironmentSetsEnvironment"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AsetEnvironmentWithInvalidEnvironmentThrowsException\u0028\u0029",
-            "name": "setEnvironmentWithInvalidEnvironmentThrowsException",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestSetEnvironmentWithInvalidEnvironmentThrowsException\u0028\u0029",
+            "name": "testSetEnvironmentWithInvalidEnvironmentThrowsException",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_setEnvironmentWithInvalidEnvironmentThrowsException"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testSetEnvironmentWithInvalidEnvironmentThrowsException"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AconfigureHasFluentInterface\u0028\u0029",
-            "name": "configureHasFluentInterface",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestConfigureHasFluentInterface\u0028\u0029",
+            "name": "testConfigureHasFluentInterface",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_configureHasFluentInterface"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testConfigureHasFluentInterface"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AconfigureCreatesApplicationKernel\u0028\u0029",
-            "name": "configureCreatesApplicationKernel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestConfigureCreatesApplicationKernel\u0028\u0029",
+            "name": "testConfigureCreatesApplicationKernel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_configureCreatesApplicationKernel"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testConfigureCreatesApplicationKernel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AgetApplicationKernelWithoutConfigureThrowsException\u0028\u0029",
-            "name": "getApplicationKernelWithoutConfigureThrowsException",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestGetApplicationKernelWithoutConfigureThrowsException\u0028\u0029",
+            "name": "testGetApplicationKernelWithoutConfigureThrowsException",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_getApplicationKernelWithoutConfigureThrowsException"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testGetApplicationKernelWithoutConfigureThrowsException"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AdispatchWithoutConfigureThrowsException\u0028\u0029",
-            "name": "dispatchWithoutConfigureThrowsException",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestDispatchWithoutConfigureThrowsException\u0028\u0029",
+            "name": "testDispatchWithoutConfigureThrowsException",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_dispatchWithoutConfigureThrowsException"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testDispatchWithoutConfigureThrowsException"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AgetContainerReturnsContainer\u0028\u0029",
-            "name": "getContainerReturnsContainer",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestGetContainerReturnsContainer\u0028\u0029",
+            "name": "testGetContainerReturnsContainer",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_getContainerReturnsContainer"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testGetContainerReturnsContainer"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AgetEntityManagerWithoutConfigureThrowsException\u0028\u0029",
-            "name": "getEntityManagerWithoutConfigureThrowsException",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestGetEntityManagerWithoutConfigureThrowsException\u0028\u0029",
+            "name": "testGetEntityManagerWithoutConfigureThrowsException",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_getEntityManagerWithoutConfigureThrowsException"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testGetEntityManagerWithoutConfigureThrowsException"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AgetEntityManagerAfterConfigureReturnsEntityManager\u0028\u0029",
-            "name": "getEntityManagerAfterConfigureReturnsEntityManager",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003AtestGetEntityManagerAfterConfigureReturnsEntityManager\u0028\u0029",
+            "name": "testGetEntityManagerAfterConfigureReturnsEntityManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_getEntityManagerAfterConfigureReturnsEntityManager"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#method_testGetEntityManagerAfterConfigureReturnsEntityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\BootstrapTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -2826,25 +2641,25 @@ Search.appendIndex(
             "summary": "Testcase.",
             "url": "classes/PhpList-Core-Tests-Unit-Core-EnvironmentTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\EnvironmentTest\u003A\u003AdefaultEnvironmentIsProduction\u0028\u0029",
-            "name": "defaultEnvironmentIsProduction",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\EnvironmentTest\u003A\u003AtestDefaultEnvironmentIsProduction\u0028\u0029",
+            "name": "testDefaultEnvironmentIsProduction",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-EnvironmentTest.html#method_defaultEnvironmentIsProduction"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-EnvironmentTest.html#method_testDefaultEnvironmentIsProduction"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\EnvironmentTest\u003A\u003AvalidEnvironmentDataProvider\u0028\u0029",
             "name": "validEnvironmentDataProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-EnvironmentTest.html#method_validEnvironmentDataProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\EnvironmentTest\u003A\u003AvalidateEnvironmentForValidEnvironmentPasses\u0028\u0029",
-            "name": "validateEnvironmentForValidEnvironmentPasses",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\EnvironmentTest\u003A\u003AtestValidateEnvironmentForValidEnvironmentPasses\u0028\u0029",
+            "name": "testValidateEnvironmentForValidEnvironmentPasses",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-EnvironmentTest.html#method_validateEnvironmentForValidEnvironmentPasses"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-EnvironmentTest.html#method_testValidateEnvironmentForValidEnvironmentPasses"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\EnvironmentTest\u003A\u003AvalidateEnvironmentForInvalidEnvironmentThrowsException\u0028\u0029",
-            "name": "validateEnvironmentForInvalidEnvironmentThrowsException",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\EnvironmentTest\u003A\u003AtestValidateEnvironmentForInvalidEnvironmentThrowsException\u0028\u0029",
+            "name": "testValidateEnvironmentForInvalidEnvironmentThrowsException",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Core-EnvironmentTest.html#method_validateEnvironmentForInvalidEnvironmentThrowsException"
+            "url": "classes/PhpList-Core-Tests-Unit-Core-EnvironmentTest.html#method_testValidateEnvironmentForInvalidEnvironmentThrowsException"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest",
             "name": "AdministratorTest",
@@ -2856,100 +2671,95 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AisDomainModel\u0028\u0029",
-            "name": "isDomainModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestIsDomainModel\u0028\u0029",
+            "name": "testIsDomainModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_isDomainModel"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testIsDomainModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AgetIdInitiallyReturnsZero\u0028\u0029",
-            "name": "getIdInitiallyReturnsZero",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestGetIdReturnsId\u0028\u0029",
+            "name": "testGetIdReturnsId",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_getIdInitiallyReturnsZero"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testGetIdReturnsId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AgetIdReturnsId\u0028\u0029",
-            "name": "getIdReturnsId",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestGetLoginNameInitiallyReturnsEmptyString\u0028\u0029",
+            "name": "testGetLoginNameInitiallyReturnsEmptyString",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_getIdReturnsId"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testGetLoginNameInitiallyReturnsEmptyString"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AgetLoginNameInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "getLoginNameInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestSetLoginNameSetsLoginName\u0028\u0029",
+            "name": "testSetLoginNameSetsLoginName",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_getLoginNameInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testSetLoginNameSetsLoginName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AsetLoginNameSetsLoginName\u0028\u0029",
-            "name": "setLoginNameSetsLoginName",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestGetEmailAddressInitiallyReturnsEmptyString\u0028\u0029",
+            "name": "testGetEmailAddressInitiallyReturnsEmptyString",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_setLoginNameSetsLoginName"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testGetEmailAddressInitiallyReturnsEmptyString"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AgetEmailAddressInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "getEmailAddressInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestSetEmailAddressSetsEmailAddress\u0028\u0029",
+            "name": "testSetEmailAddressSetsEmailAddress",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_getEmailAddressInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testSetEmailAddressSetsEmailAddress"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AsetEmailAddressSetsEmailAddress\u0028\u0029",
-            "name": "setEmailAddressSetsEmailAddress",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestGetCreationDateInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetCreationDateInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_setEmailAddressSetsEmailAddress"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testGetCreationDateInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AgetCreationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "getCreationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestUpdateCreationDateSetsCreationDateToNow\u0028\u0029",
+            "name": "testUpdateCreationDateSetsCreationDateToNow",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_getCreationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testUpdateCreationDateSetsCreationDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AupdateCreationDateSetsCreationDateToNow\u0028\u0029",
-            "name": "updateCreationDateSetsCreationDateToNow",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestGetModificationDateInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetModificationDateInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_updateCreationDateSetsCreationDateToNow"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testGetModificationDateInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AgetModificationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "getModificationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestUpdateModificationDateSetsModificationDateToNow\u0028\u0029",
+            "name": "testUpdateModificationDateSetsModificationDateToNow",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_getModificationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testUpdateModificationDateSetsModificationDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AupdateModificationDateSetsModificationDateToNow\u0028\u0029",
-            "name": "updateModificationDateSetsModificationDateToNow",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestGetPasswordHashInitiallyReturnsEmptyString\u0028\u0029",
+            "name": "testGetPasswordHashInitiallyReturnsEmptyString",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_updateModificationDateSetsModificationDateToNow"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testGetPasswordHashInitiallyReturnsEmptyString"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AgetPasswordHashInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "getPasswordHashInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestSetPasswordHashSetsPasswordHash\u0028\u0029",
+            "name": "testSetPasswordHashSetsPasswordHash",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_getPasswordHashInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testSetPasswordHashSetsPasswordHash"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AsetPasswordHashSetsPasswordHash\u0028\u0029",
-            "name": "setPasswordHashSetsPasswordHash",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestGetPasswordChangeDateInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetPasswordChangeDateInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_setPasswordHashSetsPasswordHash"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testGetPasswordChangeDateInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AgetPasswordChangeDateInitiallyReturnsNull\u0028\u0029",
-            "name": "getPasswordChangeDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestSetPasswordHashSetsPasswordChangeDateToNow\u0028\u0029",
+            "name": "testSetPasswordHashSetsPasswordChangeDateToNow",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_getPasswordChangeDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testSetPasswordHashSetsPasswordChangeDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AsetPasswordHashSetsPasswordChangeDateToNow\u0028\u0029",
-            "name": "setPasswordHashSetsPasswordChangeDateToNow",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestIsDisabledInitiallyReturnsFalse\u0028\u0029",
+            "name": "testIsDisabledInitiallyReturnsFalse",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_setPasswordHashSetsPasswordChangeDateToNow"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testIsDisabledInitiallyReturnsFalse"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AisDisabledInitiallyReturnsFalse\u0028\u0029",
-            "name": "isDisabledInitiallyReturnsFalse",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestSetDisabledSetsDisabled\u0028\u0029",
+            "name": "testSetDisabledSetsDisabled",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_isDisabledInitiallyReturnsFalse"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testSetDisabledSetsDisabled"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AsetDisabledSetsDisabled\u0028\u0029",
-            "name": "setDisabledSetsDisabled",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestIsSuperUserInitiallyReturnsFalse\u0028\u0029",
+            "name": "testIsSuperUserInitiallyReturnsFalse",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_setDisabledSetsDisabled"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testIsSuperUserInitiallyReturnsFalse"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AisSuperUserInitiallyReturnsFalse\u0028\u0029",
-            "name": "isSuperUserInitiallyReturnsFalse",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestSetSuperUserSetsSuperUser\u0028\u0029",
+            "name": "testSetSuperUserSetsSuperUser",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_isSuperUserInitiallyReturnsFalse"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AsetSuperUserSetsSuperUser\u0028\u0029",
-            "name": "setSuperUserSetsSuperUser",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_setSuperUserSetsSuperUser"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testSetSuperUserSetsSuperUser"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -2966,70 +2776,65 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AisDomainModel\u0028\u0029",
-            "name": "isDomainModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestIsDomainModel\u0028\u0029",
+            "name": "testIsDomainModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_isDomainModel"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testIsDomainModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AgetIdInitiallyReturnsZero\u0028\u0029",
-            "name": "getIdInitiallyReturnsZero",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestGetIdReturnsId\u0028\u0029",
+            "name": "testGetIdReturnsId",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_getIdInitiallyReturnsZero"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testGetIdReturnsId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AgetIdReturnsId\u0028\u0029",
-            "name": "getIdReturnsId",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestGetCreationDateInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetCreationDateInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_getIdReturnsId"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testGetCreationDateInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AgetCreationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "getCreationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestUpdateCreationDateSetsCreationDateToNow\u0028\u0029",
+            "name": "testUpdateCreationDateSetsCreationDateToNow",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_getCreationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testUpdateCreationDateSetsCreationDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AupdateCreationDateSetsCreationDateToNow\u0028\u0029",
-            "name": "updateCreationDateSetsCreationDateToNow",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestGetKeyInitiallyReturnsEmptyString\u0028\u0029",
+            "name": "testGetKeyInitiallyReturnsEmptyString",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_updateCreationDateSetsCreationDateToNow"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testGetKeyInitiallyReturnsEmptyString"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AgetKeyInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "getKeyInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestSetKeySetsKey\u0028\u0029",
+            "name": "testSetKeySetsKey",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_getKeyInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testSetKeySetsKey"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AsetKeySetsKey\u0028\u0029",
-            "name": "setKeySetsKey",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestGetExpiryInitiallyReturnsDateTime\u0028\u0029",
+            "name": "testGetExpiryInitiallyReturnsDateTime",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_setKeySetsKey"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testGetExpiryInitiallyReturnsDateTime"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AgetExpiryInitiallyReturnsDateTime\u0028\u0029",
-            "name": "getExpiryInitiallyReturnsDateTime",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestGenerateExpirySetsExpiryOneHourInTheFuture\u0028\u0029",
+            "name": "testGenerateExpirySetsExpiryOneHourInTheFuture",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_getExpiryInitiallyReturnsDateTime"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testGenerateExpirySetsExpiryOneHourInTheFuture"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AgenerateExpirySetsExpiryOneHourInTheFuture\u0028\u0029",
-            "name": "generateExpirySetsExpiryOneHourInTheFuture",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestGenerateKeyCreates32CharacterKey\u0028\u0029",
+            "name": "testGenerateKeyCreates32CharacterKey",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_generateExpirySetsExpiryOneHourInTheFuture"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testGenerateKeyCreates32CharacterKey"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AgenerateKeyCreates32CharacterKey\u0028\u0029",
-            "name": "generateKeyCreates32CharacterKey",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestGenerateKeyCreatesDifferentKeysForEachCall\u0028\u0029",
+            "name": "testGenerateKeyCreatesDifferentKeysForEachCall",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_generateKeyCreates32CharacterKey"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testGenerateKeyCreatesDifferentKeysForEachCall"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AgenerateKeyCreatesDifferentKeysForEachCall\u0028\u0029",
-            "name": "generateKeyCreatesDifferentKeysForEachCall",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestGetAdministratorInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetAdministratorInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_generateKeyCreatesDifferentKeysForEachCall"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testGetAdministratorInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AgetAdministratorInitiallyReturnsNull\u0028\u0029",
-            "name": "getAdministratorInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestSetAdministratorSetsAdministrator\u0028\u0029",
+            "name": "testSetAdministratorSetsAdministrator",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_getAdministratorInitiallyReturnsNull"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AsetAdministratorSetsAdministrator\u0028\u0029",
-            "name": "setAdministratorSetsAdministrator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_setAdministratorSetsAdministrator"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testSetAdministratorSetsAdministrator"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -3046,135 +2851,130 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AisDomainModel\u0028\u0029",
-            "name": "isDomainModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestIsDomainModel\u0028\u0029",
+            "name": "testIsDomainModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_isDomainModel"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testIsDomainModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetIdInitiallyReturnsZero\u0028\u0029",
-            "name": "getIdInitiallyReturnsZero",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetIdReturnsId\u0028\u0029",
+            "name": "testGetIdReturnsId",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getIdInitiallyReturnsZero"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetIdReturnsId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetIdReturnsId\u0028\u0029",
-            "name": "getIdReturnsId",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetCreationDateInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetCreationDateInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getIdReturnsId"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetCreationDateInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetCreationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "getCreationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestUpdateCreationDateSetsCreationDateToNow\u0028\u0029",
+            "name": "testUpdateCreationDateSetsCreationDateToNow",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getCreationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testUpdateCreationDateSetsCreationDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AupdateCreationDateSetsCreationDateToNow\u0028\u0029",
-            "name": "updateCreationDateSetsCreationDateToNow",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetModificationDateInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetModificationDateInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_updateCreationDateSetsCreationDateToNow"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetModificationDateInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetModificationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "getModificationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestUpdateModificationDateSetsModificationDateToNow\u0028\u0029",
+            "name": "testUpdateModificationDateSetsModificationDateToNow",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getModificationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testUpdateModificationDateSetsModificationDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AupdateModificationDateSetsModificationDateToNow\u0028\u0029",
-            "name": "updateModificationDateSetsModificationDateToNow",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetNameInitiallyReturnsEmptyString\u0028\u0029",
+            "name": "testGetNameInitiallyReturnsEmptyString",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_updateModificationDateSetsModificationDateToNow"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetNameInitiallyReturnsEmptyString"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetNameInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "getNameInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestSetNameSetsName\u0028\u0029",
+            "name": "testSetNameSetsName",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getNameInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testSetNameSetsName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AsetNameSetsName\u0028\u0029",
-            "name": "setNameSetsName",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetDescriptionInitiallyReturnsEmptyString\u0028\u0029",
+            "name": "testGetDescriptionInitiallyReturnsEmptyString",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_setNameSetsName"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetDescriptionInitiallyReturnsEmptyString"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetDescriptionInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "getDescriptionInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestSetDescriptionSetsDescription\u0028\u0029",
+            "name": "testSetDescriptionSetsDescription",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getDescriptionInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testSetDescriptionSetsDescription"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AsetDescriptionSetsDescription\u0028\u0029",
-            "name": "setDescriptionSetsDescription",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetListPositionInitiallyReturnsZero\u0028\u0029",
+            "name": "testGetListPositionInitiallyReturnsZero",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_setDescriptionSetsDescription"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetListPositionInitiallyReturnsZero"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetListPositionInitiallyReturnsZero\u0028\u0029",
-            "name": "getListPositionInitiallyReturnsZero",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestSetListPositionSetsListPosition\u0028\u0029",
+            "name": "testSetListPositionSetsListPosition",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getListPositionInitiallyReturnsZero"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testSetListPositionSetsListPosition"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AsetListPositionSetsListPosition\u0028\u0029",
-            "name": "setListPositionSetsListPosition",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetSubjectPrefixInitiallyReturnsEmptyString\u0028\u0029",
+            "name": "testGetSubjectPrefixInitiallyReturnsEmptyString",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_setListPositionSetsListPosition"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetSubjectPrefixInitiallyReturnsEmptyString"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetSubjectPrefixInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "getSubjectPrefixInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestSetSubjectPrefixSetsSubjectPrefix\u0028\u0029",
+            "name": "testSetSubjectPrefixSetsSubjectPrefix",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getSubjectPrefixInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testSetSubjectPrefixSetsSubjectPrefix"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AsetSubjectPrefixSetsSubjectPrefix\u0028\u0029",
-            "name": "setSubjectPrefixSetsSubjectPrefix",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestIsPublicInitiallyReturnsFalse\u0028\u0029",
+            "name": "testIsPublicInitiallyReturnsFalse",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_setSubjectPrefixSetsSubjectPrefix"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testIsPublicInitiallyReturnsFalse"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AisPublicInitiallyReturnsFalse\u0028\u0029",
-            "name": "isPublicInitiallyReturnsFalse",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestSetPublicSetsPublic\u0028\u0029",
+            "name": "testSetPublicSetsPublic",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_isPublicInitiallyReturnsFalse"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testSetPublicSetsPublic"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AsetPublicSetsPublic\u0028\u0029",
-            "name": "setPublicSetsPublic",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetCategoryInitiallyReturnsEmptyString\u0028\u0029",
+            "name": "testGetCategoryInitiallyReturnsEmptyString",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_setPublicSetsPublic"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetCategoryInitiallyReturnsEmptyString"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetCategoryInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "getCategoryInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestSetCategorySetsCategory\u0028\u0029",
+            "name": "testSetCategorySetsCategory",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getCategoryInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testSetCategorySetsCategory"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AsetCategorySetsCategory\u0028\u0029",
-            "name": "setCategorySetsCategory",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetOwnerInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetOwnerInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_setCategorySetsCategory"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetOwnerInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetOwnerInitiallyReturnsNull\u0028\u0029",
-            "name": "getOwnerInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestSetOwnerSetsOwner\u0028\u0029",
+            "name": "testSetOwnerSetsOwner",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getOwnerInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testSetOwnerSetsOwner"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AsetOwnerSetsOwner\u0028\u0029",
-            "name": "setOwnerSetsOwner",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetSubscriptionsByDefaultReturnsEmptyCollection\u0028\u0029",
+            "name": "testGetSubscriptionsByDefaultReturnsEmptyCollection",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_setOwnerSetsOwner"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetSubscriptionsByDefaultReturnsEmptyCollection"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetSubscriptionsByDefaultReturnsEmptyCollection\u0028\u0029",
-            "name": "getSubscriptionsByDefaultReturnsEmptyCollection",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestAddSubscriptionsSetsSubscriptions\u0028\u0029",
+            "name": "testAddSubscriptionsSetsSubscriptions",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getSubscriptionsByDefaultReturnsEmptyCollection"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testAddSubscriptionsSetsSubscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AsetSubscriptionsSetsSubscriptions\u0028\u0029",
-            "name": "setSubscriptionsSetsSubscriptions",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetSubscribersByDefaultReturnsEmptyCollection\u0028\u0029",
+            "name": "testGetSubscribersByDefaultReturnsEmptyCollection",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_setSubscriptionsSetsSubscriptions"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetSubscribersByDefaultReturnsEmptyCollection"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AgetSubscribersByDefaultReturnsEmptyCollection\u0028\u0029",
-            "name": "getSubscribersByDefaultReturnsEmptyCollection",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestSetSubscribersSetsSubscribers\u0028\u0029",
+            "name": "testSetSubscribersSetsSubscribers",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_getSubscribersByDefaultReturnsEmptyCollection"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testSetSubscribersSetsSubscribers"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AsetSubscribersSetsSubscribers\u0028\u0029",
-            "name": "setSubscribersSetsSubscribers",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003A\u0024subscriberList",
+            "name": "subscriberList",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_setSubscribersSetsSubscribers"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003A\u0024subject",
-            "name": "subject",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#property_subject"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#property_subscriberList"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest",
             "name": "SubscriberTest",
@@ -3186,155 +2986,150 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AisDomainModel\u0028\u0029",
-            "name": "isDomainModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestIsDomainModel\u0028\u0029",
+            "name": "testIsDomainModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_isDomainModel"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testIsDomainModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AgetIdInitiallyReturnsZero\u0028\u0029",
-            "name": "getIdInitiallyReturnsZero",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetIdReturnsId\u0028\u0029",
+            "name": "testGetIdReturnsId",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_getIdInitiallyReturnsZero"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetIdReturnsId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AgetIdReturnsId\u0028\u0029",
-            "name": "getIdReturnsId",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetCreationDateInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetCreationDateInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_getIdReturnsId"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetCreationDateInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AgetCreationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "getCreationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestUpdateCreationDateSetsCreationDateToNow\u0028\u0029",
+            "name": "testUpdateCreationDateSetsCreationDateToNow",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_getCreationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testUpdateCreationDateSetsCreationDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AupdateCreationDateSetsCreationDateToNow\u0028\u0029",
-            "name": "updateCreationDateSetsCreationDateToNow",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetModificationDateInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetModificationDateInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_updateCreationDateSetsCreationDateToNow"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetModificationDateInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AgetModificationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "getModificationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestUpdateModificationDateSetsModificationDateToNow\u0028\u0029",
+            "name": "testUpdateModificationDateSetsModificationDateToNow",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_getModificationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testUpdateModificationDateSetsModificationDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AupdateModificationDateSetsModificationDateToNow\u0028\u0029",
-            "name": "updateModificationDateSetsModificationDateToNow",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetEmailInitiallyReturnsEmptyString\u0028\u0029",
+            "name": "testGetEmailInitiallyReturnsEmptyString",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_updateModificationDateSetsModificationDateToNow"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetEmailInitiallyReturnsEmptyString"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AgetEmailInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "getEmailInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestSetEmailSetsEmail\u0028\u0029",
+            "name": "testSetEmailSetsEmail",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_getEmailInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testSetEmailSetsEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AsetEmailSetsEmail\u0028\u0029",
-            "name": "setEmailSetsEmail",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestIsConfirmedInitiallyReturnsFalse\u0028\u0029",
+            "name": "testIsConfirmedInitiallyReturnsFalse",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_setEmailSetsEmail"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testIsConfirmedInitiallyReturnsFalse"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AisConfirmedInitiallyReturnsFalse\u0028\u0029",
-            "name": "isConfirmedInitiallyReturnsFalse",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestSetConfirmedSetsConfirmed\u0028\u0029",
+            "name": "testSetConfirmedSetsConfirmed",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_isConfirmedInitiallyReturnsFalse"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testSetConfirmedSetsConfirmed"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AsetConfirmedSetsConfirmed\u0028\u0029",
-            "name": "setConfirmedSetsConfirmed",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestIsBlacklistedInitiallyReturnsFalse\u0028\u0029",
+            "name": "testIsBlacklistedInitiallyReturnsFalse",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_setConfirmedSetsConfirmed"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testIsBlacklistedInitiallyReturnsFalse"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AisBlacklistedInitiallyReturnsFalse\u0028\u0029",
-            "name": "isBlacklistedInitiallyReturnsFalse",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestSetBlacklistedSetsBlacklisted\u0028\u0029",
+            "name": "testSetBlacklistedSetsBlacklisted",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_isBlacklistedInitiallyReturnsFalse"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testSetBlacklistedSetsBlacklisted"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AsetBlacklistedSetsBlacklisted\u0028\u0029",
-            "name": "setBlacklistedSetsBlacklisted",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetBounceCountInitiallyReturnsZero\u0028\u0029",
+            "name": "testGetBounceCountInitiallyReturnsZero",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_setBlacklistedSetsBlacklisted"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetBounceCountInitiallyReturnsZero"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AgetBounceCountInitiallyReturnsZero\u0028\u0029",
-            "name": "getBounceCountInitiallyReturnsZero",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestSetBounceCountSetsBounceCount\u0028\u0029",
+            "name": "testSetBounceCountSetsBounceCount",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_getBounceCountInitiallyReturnsZero"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testSetBounceCountSetsBounceCount"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AsetBounceCountSetsBounceCount\u0028\u0029",
-            "name": "setBounceCountSetsBounceCount",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestAddToBounceCountAddsToBounceCount\u0028\u0029",
+            "name": "testAddToBounceCountAddsToBounceCount",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_setBounceCountSetsBounceCount"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testAddToBounceCountAddsToBounceCount"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AaddToBounceCountAddsToBounceCount\u0028\u0029",
-            "name": "addToBounceCountAddsToBounceCount",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetUniqueIdInitiallyReturnsEmptyString\u0028\u0029",
+            "name": "testGetUniqueIdInitiallyReturnsEmptyString",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_addToBounceCountAddsToBounceCount"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetUniqueIdInitiallyReturnsEmptyString"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AgetUniqueIdInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "getUniqueIdInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestSetUniqueIdSetsUniqueId\u0028\u0029",
+            "name": "testSetUniqueIdSetsUniqueId",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_getUniqueIdInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testSetUniqueIdSetsUniqueId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AsetUniqueIdSetsUniqueId\u0028\u0029",
-            "name": "setUniqueIdSetsUniqueId",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGenerateUniqueIdGeneratesUniqueId\u0028\u0029",
+            "name": "testGenerateUniqueIdGeneratesUniqueId",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_setUniqueIdSetsUniqueId"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGenerateUniqueIdGeneratesUniqueId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AgenerateUniqueIdGeneratesUniqueId\u0028\u0029",
-            "name": "generateUniqueIdGeneratesUniqueId",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestHasHtmlEmailInitiallyReturnsFalse\u0028\u0029",
+            "name": "testHasHtmlEmailInitiallyReturnsFalse",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_generateUniqueIdGeneratesUniqueId"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testHasHtmlEmailInitiallyReturnsFalse"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AhasHtmlEmailInitiallyReturnsFalse\u0028\u0029",
-            "name": "hasHtmlEmailInitiallyReturnsFalse",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestSetHtmlEmailSetsWantsHtmlEmail\u0028\u0029",
+            "name": "testSetHtmlEmailSetsWantsHtmlEmail",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_hasHtmlEmailInitiallyReturnsFalse"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testSetHtmlEmailSetsWantsHtmlEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AsetHtmlEmailSetsWantsHtmlEmail\u0028\u0029",
-            "name": "setHtmlEmailSetsWantsHtmlEmail",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestIsDisabledInitiallyReturnsFalse\u0028\u0029",
+            "name": "testIsDisabledInitiallyReturnsFalse",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_setHtmlEmailSetsWantsHtmlEmail"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testIsDisabledInitiallyReturnsFalse"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AisDisabledInitiallyReturnsFalse\u0028\u0029",
-            "name": "isDisabledInitiallyReturnsFalse",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestSetDisabledSetsDisabled\u0028\u0029",
+            "name": "testSetDisabledSetsDisabled",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_isDisabledInitiallyReturnsFalse"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testSetDisabledSetsDisabled"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AsetDisabledSetsDisabled\u0028\u0029",
-            "name": "setDisabledSetsDisabled",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetExtraDataInitiallyReturnsEmptyString\u0028\u0029",
+            "name": "testGetExtraDataInitiallyReturnsEmptyString",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_setDisabledSetsDisabled"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetExtraDataInitiallyReturnsEmptyString"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AgetExtraDataInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "getExtraDataInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestSetExtraDataSetsExtraData\u0028\u0029",
+            "name": "testSetExtraDataSetsExtraData",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_getExtraDataInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testSetExtraDataSetsExtraData"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AsetExtraDataSetsExtraData\u0028\u0029",
-            "name": "setExtraDataSetsExtraData",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetSubscriptionsByDefaultReturnsEmptyCollection\u0028\u0029",
+            "name": "testGetSubscriptionsByDefaultReturnsEmptyCollection",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_setExtraDataSetsExtraData"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetSubscriptionsByDefaultReturnsEmptyCollection"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AgetSubscriptionsByDefaultReturnsEmptyCollection\u0028\u0029",
-            "name": "getSubscriptionsByDefaultReturnsEmptyCollection",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestSetSubscriptionsSetsSubscriptions\u0028\u0029",
+            "name": "testSetSubscriptionsSetsSubscriptions",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_getSubscriptionsByDefaultReturnsEmptyCollection"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testSetSubscriptionsSetsSubscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AsetSubscriptionsSetsSubscriptions\u0028\u0029",
-            "name": "setSubscriptionsSetsSubscriptions",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetSubscribedListsByDefaultReturnsEmptyCollection\u0028\u0029",
+            "name": "testGetSubscribedListsByDefaultReturnsEmptyCollection",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_setSubscriptionsSetsSubscriptions"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetSubscribedListsByDefaultReturnsEmptyCollection"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AgetSubscribedListsByDefaultReturnsEmptyCollection\u0028\u0029",
-            "name": "getSubscribedListsByDefaultReturnsEmptyCollection",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestSetSubscribedListsSetsSubscribedLists\u0028\u0029",
+            "name": "testSetSubscribedListsSetsSubscribedLists",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_getSubscribedListsByDefaultReturnsEmptyCollection"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testSetSubscribedListsSetsSubscribedLists"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AsetSubscribedListsSetsSubscribedLists\u0028\u0029",
-            "name": "setSubscribedListsSetsSubscribedLists",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003A\u0024subscriber",
+            "name": "subscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_setSubscribedListsSetsSubscribedLists"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003A\u0024subject",
-            "name": "subject",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#property_subject"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#property_subscriber"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest",
             "name": "SubscriptionTest",
@@ -3346,50 +3141,50 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AisDomainModel\u0028\u0029",
-            "name": "isDomainModel",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestIsDomainModel\u0028\u0029",
+            "name": "testIsDomainModel",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_isDomainModel"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testIsDomainModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AgetSubscriberInitiallyReturnsNull\u0028\u0029",
-            "name": "getSubscriberInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestGetSubscriberInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetSubscriberInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_getSubscriberInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testGetSubscriberInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AsetSubscriberSetsSubscriber\u0028\u0029",
-            "name": "setSubscriberSetsSubscriber",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestSetSubscriberSetsSubscriber\u0028\u0029",
+            "name": "testSetSubscriberSetsSubscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_setSubscriberSetsSubscriber"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testSetSubscriberSetsSubscriber"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AgetSubscriberListInitiallyReturnsNull\u0028\u0029",
-            "name": "getSubscriberListInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestGetSubscriberListInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetSubscriberListInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_getSubscriberListInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testGetSubscriberListInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AsetSubscriberListSetsSubscriberList\u0028\u0029",
-            "name": "setSubscriberListSetsSubscriberList",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestSetSubscriberListSetsSubscriberList\u0028\u0029",
+            "name": "testSetSubscriberListSetsSubscriberList",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_setSubscriberListSetsSubscriberList"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testSetSubscriberListSetsSubscriberList"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AgetCreationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "getCreationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestGetCreationDateInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetCreationDateInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_getCreationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testGetCreationDateInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AupdateCreationDateSetsCreationDateToNow\u0028\u0029",
-            "name": "updateCreationDateSetsCreationDateToNow",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestUpdateCreationDateSetsCreationDateToNow\u0028\u0029",
+            "name": "testUpdateCreationDateSetsCreationDateToNow",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_updateCreationDateSetsCreationDateToNow"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testUpdateCreationDateSetsCreationDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AgetModificationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "getModificationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestGetModificationDateInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetModificationDateInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_getModificationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testGetModificationDateInitiallyReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AupdateModificationDateSetsModificationDateToNow\u0028\u0029",
-            "name": "updateModificationDateSetsModificationDateToNow",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestUpdateModificationDateSetsModificationDateToNow\u0028\u0029",
+            "name": "testUpdateModificationDateSetsModificationDateToNow",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_updateModificationDateSetsModificationDateToNow"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testUpdateModificationDateSetsModificationDateToNow"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -3406,10 +3201,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AclassIsEntityRepository\u0028\u0029",
-            "name": "classIsEntityRepository",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003AtestClassIsEntityRepository\u0028\u0029",
+            "name": "testClassIsEntityRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_classIsEntityRepository"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Identity-AdministratorRepositoryTest.html#method_testClassIsEntityRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Identity\\AdministratorRepositoryTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -3426,10 +3221,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AclassIsEntityRepository\u0028\u0029",
-            "name": "classIsEntityRepository",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestClassIsEntityRepository\u0028\u0029",
+            "name": "testClassIsEntityRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_classIsEntityRepository"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testClassIsEntityRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -3446,10 +3241,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AclassIsEntityRepository\u0028\u0029",
-            "name": "classIsEntityRepository",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003AtestClassIsEntityRepository\u0028\u0029",
+            "name": "testClassIsEntityRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_classIsEntityRepository"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testClassIsEntityRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -3466,10 +3261,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AclassIsEntityRepository\u0028\u0029",
-            "name": "classIsEntityRepository",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003AtestClassIsEntityRepository\u0028\u0029",
+            "name": "testClassIsEntityRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_classIsEntityRepository"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Subscription-SubscriberRepositoryTest.html#method_testClassIsEntityRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -3486,10 +3281,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AclassIsEntityRepository\u0028\u0029",
-            "name": "classIsEntityRepository",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestClassIsEntityRepository\u0028\u0029",
+            "name": "testClassIsEntityRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_classIsEntityRepository"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testClassIsEntityRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -3506,15 +3301,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-EmptyStartPageBundle-Controller-DefaultControllerTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\EmptyStartPageBundle\\Controller\\DefaultControllerTest\u003A\u003AclassIsController\u0028\u0029",
-            "name": "classIsController",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\EmptyStartPageBundle\\Controller\\DefaultControllerTest\u003A\u003AtestClassIsController\u0028\u0029",
+            "name": "testClassIsController",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-EmptyStartPageBundle-Controller-DefaultControllerTest.html#method_classIsController"
+            "url": "classes/PhpList-Core-Tests-Unit-EmptyStartPageBundle-Controller-DefaultControllerTest.html#method_testClassIsController"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\EmptyStartPageBundle\\Controller\\DefaultControllerTest\u003A\u003AindexActionReturnsResponseWithHelloWorld\u0028\u0029",
-            "name": "indexActionReturnsResponseWithHelloWorld",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\EmptyStartPageBundle\\Controller\\DefaultControllerTest\u003A\u003AtestIndexActionReturnsResponseWithHelloWorld\u0028\u0029",
+            "name": "testIndexActionReturnsResponseWithHelloWorld",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-EmptyStartPageBundle-Controller-DefaultControllerTest.html#method_indexActionReturnsResponseWithHelloWorld"
+            "url": "classes/PhpList-Core-Tests-Unit-EmptyStartPageBundle-Controller-DefaultControllerTest.html#method_testIndexActionReturnsResponseWithHelloWorld"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\EmptyStartPageBundle\\Controller\\DefaultControllerTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -3531,10 +3326,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-EmptyStartPageBundle-PhpListEmptyStartPageBundleTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\EmptyStartPageBundle\\PhpListEmptyStartPageBundleTest\u003A\u003AclassIsBundle\u0028\u0029",
-            "name": "classIsBundle",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\EmptyStartPageBundle\\PhpListEmptyStartPageBundleTest\u003A\u003AtestClassIsBundle\u0028\u0029",
+            "name": "testClassIsBundle",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-EmptyStartPageBundle-PhpListEmptyStartPageBundleTest.html#method_classIsBundle"
+            "url": "classes/PhpList-Core-Tests-Unit-EmptyStartPageBundle-PhpListEmptyStartPageBundleTest.html#method_testClassIsBundle"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\EmptyStartPageBundle\\PhpListEmptyStartPageBundleTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -3556,20 +3351,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Routing-ExtraLoaderTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Routing\\ExtraLoaderTest\u003A\u003AclassIsLoader\u0028\u0029",
-            "name": "classIsLoader",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Routing\\ExtraLoaderTest\u003A\u003AtestClassIsLoader\u0028\u0029",
+            "name": "testClassIsLoader",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Routing-ExtraLoaderTest.html#method_classIsLoader"
+            "url": "classes/PhpList-Core-Tests-Unit-Routing-ExtraLoaderTest.html#method_testClassIsLoader"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Routing\\ExtraLoaderTest\u003A\u003AsupportsExtraType\u0028\u0029",
-            "name": "supportsExtraType",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Routing\\ExtraLoaderTest\u003A\u003AtestSupportsExtraType\u0028\u0029",
+            "name": "testSupportsExtraType",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Routing-ExtraLoaderTest.html#method_supportsExtraType"
+            "url": "classes/PhpList-Core-Tests-Unit-Routing-ExtraLoaderTest.html#method_testSupportsExtraType"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Routing\\ExtraLoaderTest\u003A\u003AnotSupportsOtherType\u0028\u0029",
-            "name": "notSupportsOtherType",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Routing\\ExtraLoaderTest\u003A\u003AtestNotSupportsOtherType\u0028\u0029",
+            "name": "testNotSupportsOtherType",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Routing-ExtraLoaderTest.html#method_notSupportsOtherType"
+            "url": "classes/PhpList-Core-Tests-Unit-Routing-ExtraLoaderTest.html#method_testNotSupportsOtherType"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Routing\\ExtraLoaderTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -3586,40 +3381,40 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AauthenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator\u0028\u0029",
-            "name": "authenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_authenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AauthenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull\u0028\u0029",
-            "name": "authenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_authenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AauthenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull\u0028\u0029",
-            "name": "authenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_authenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AauthenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull\u0028\u0029",
-            "name": "authenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_authenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AauthenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull\u0028\u0029",
-            "name": "authenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_authenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003A\u0024subject",
             "name": "subject",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#property_subject"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003A\u0024tokenRepositoryProphecy",
-            "name": "tokenRepositoryProphecy",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003A\u0024tokenRepository",
+            "name": "tokenRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#property_tokenRepositoryProphecy"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#property_tokenRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest",
             "name": "HashGeneratorTest",
@@ -3631,20 +3426,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AcreatePasswordHashCreates32ByteHash\u0028\u0029",
-            "name": "createPasswordHashCreates32ByteHash",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCreates64CharacterHash\u0028\u0029",
+            "name": "testCreatePasswordHashCreates64CharacterHash",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_createPasswordHashCreates32ByteHash"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCreates64CharacterHash"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AcreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash\u0028\u0029",
-            "name": "createPasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash\u0028\u0029",
+            "name": "testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_createPasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AcreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes\u0028\u0029",
-            "name": "createPasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes\u0028\u0029",
+            "name": "testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_createPasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -3751,15 +3546,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-security.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\TestingSupport",
-            "name": "TestingSupport",
-            "summary": "",
-            "url": "namespaces/phplist-core-testingsupport.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits",
             "name": "Traits",
             "summary": "",
             "url": "namespaces/phplist-core-testingsupport-traits.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\TestingSupport",
+            "name": "TestingSupport",
+            "summary": "",
+            "url": "namespaces/phplist-core-testingsupport.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Composer",
             "name": "Composer",
@@ -3781,10 +3576,10 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-integration-core.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity",
-            "name": "Identity",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures",
+            "name": "Fixtures",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-integration-domain-repository-identity.html"
+            "url": "namespaces/phplist-core-tests-integration-domain-repository-fixtures.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository",
             "name": "Repository",
@@ -3795,6 +3590,11 @@ Search.appendIndex(
             "name": "Domain",
             "summary": "",
             "url": "namespaces/phplist-core-tests-integration-domain.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity",
+            "name": "Identity",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-integration-domain-repository-identity.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging",
             "name": "Messaging",

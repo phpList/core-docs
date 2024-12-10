@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>phpList/Core Docs</title>
+            <title>phpList/Core Docs</title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
     <link rel="icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
@@ -18,6 +19,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -51,39 +53,44 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phplist.html">PhpList</a></h4>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/phplist.html" class="">PhpList</a>
+</h4>
     <ul class="phpdocumentor-list">
                     <li>
-                <a href="namespaces/phplist-core.html">Core</a>
+                <a href="namespaces/phplist-core.html" class="">Core</a>
                 
             </li>
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
-                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <ul class="phpdocumentor-breadcrumbs">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-core.html">Core</a></li>
@@ -104,14 +111,20 @@
     
     </h2>
 
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
             <p class="phpdocumentor-summary">This class bootstraps the phpList core system.</p>
+
 
     <section class="phpdocumentor-description"><p>Include it from the entry point and call Bootstrap::getInstance() to get an instance,
 and $bootstrap-&gt;setEnvironment($environment) if you would like to run the application in
@@ -125,7 +138,8 @@ Symfony dependency injection.</p>
 
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Core-Bootstrap.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -137,8 +151,7 @@ Symfony dependency injection.</p>
 </section>
 
                                     </dd>
-                        </dl>
-
+                                            </dl>
 
 
 
@@ -146,173 +159,188 @@ Symfony dependency injection.</p>
 
 <h3 id="toc">
     Table of Contents
-    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Core-Bootstrap.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
 </h3>
 
+
+
+
+
+
+
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PhpList-Core-Core-Bootstrap.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
 <dl class="phpdocumentor-table-of-contents">
-                <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#property_applicationKernel">$applicationKernel</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#property_applicationKernel">$applicationKernel</a>
     <span>
-                &nbsp;: <a href="classes/PhpList-Core-Core-ApplicationKernel.html"><abbr title="\PhpList\Core\Core\ApplicationKernel">ApplicationKernel</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Core-ApplicationKernel.html"><abbr title="\PhpList\Core\Core\ApplicationKernel">ApplicationKernel</abbr></a>            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#property_applicationStructure">$applicationStructure</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#property_applicationStructure">$applicationStructure</a>
     <span>
-                &nbsp;: <a href="classes/PhpList-Core-Core-ApplicationStructure.html"><abbr title="\PhpList\Core\Core\ApplicationStructure">ApplicationStructure</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Core-ApplicationStructure.html"><abbr title="\PhpList\Core\Core\ApplicationStructure">ApplicationStructure</abbr></a>            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#property_environment">$environment</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#property_environment">$environment</a>
     <span>
-                &nbsp;: string            </span>
+                        &nbsp;: string            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#property_instance">$instance</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#property_errorHandler">$errorHandler</a>
     <span>
-                &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>|null            </span>
+                        &nbsp;: <abbr title="\Symfony\Component\ErrorHandler\ErrorHandler">ErrorHandler</abbr>            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#property_isConfigured">$isConfigured</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#property_instance">$instance</a>
     <span>
-                &nbsp;: bool            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>|null            </span>
 </dt>
-<dd></dd>
 
-                <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_configure">configure()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#property_isConfigured">$isConfigured</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>    </span>
+                        &nbsp;: bool            </span>
+</dt>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/PhpList-Core-Core-Bootstrap.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_configure">configure()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>    </span>
 </dt>
 <dd>Main entry point called at every request usually from global scope. Checks if everything is correct
 and loads the configuration.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_dispatch">dispatch()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_dispatch">dispatch()</a>
     <span>
-                        &nbsp;: null    </span>
+                                &nbsp;: null    </span>
 </dt>
 <dd>Dispatches the current HTTP request (if there is any).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_ensureDevelopmentOrTestingEnvironment">ensureDevelopmentOrTestingEnvironment()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_ensureDevelopmentOrTestingEnvironment">ensureDevelopmentOrTestingEnvironment()</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>|null    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>    </span>
 </dt>
 <dd>Checks that the application is running on a local testing machine or via CLI, not on a production server.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getApplicationKernel">getApplicationKernel()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_getApplicationKernel">getApplicationKernel()</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Core-ApplicationKernel.html"><abbr title="\PhpList\Core\Core\ApplicationKernel">ApplicationKernel</abbr></a>    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Core-ApplicationKernel.html"><abbr title="\PhpList\Core\Core\ApplicationKernel">ApplicationKernel</abbr></a>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getApplicationRoot">getApplicationRoot()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_getApplicationRoot">getApplicationRoot()</a>
     <span>
-                        &nbsp;: string    </span>
+                                &nbsp;: string    </span>
 </dt>
 <dd>Returns the absolute path to the application root.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getContainer">getContainer()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_getContainer">getContainer()</a>
     <span>
-                        &nbsp;: <abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr>    </span>
+                                &nbsp;: <abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr>    </span>
 </dt>
 <dd>Returns the Symfony DI container.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getEntityManager">getEntityManager()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_getEntityManager">getEntityManager()</a>
     <span>
-                        &nbsp;: <abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>    </span>
+                                &nbsp;: <abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getEnvironment">getEnvironment()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_getEnvironment">getEnvironment()</a>
     <span>
-                        &nbsp;: string    </span>
+                                &nbsp;: string    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getInstance">getInstance()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_getInstance">getInstance()</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>    </span>
 </dt>
 <dd>Returns &#039;this&#039; as singleton.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_purgeInstance">purgeInstance()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_purgeInstance">purgeInstance()</a>
     <span>
-                        &nbsp;: void    </span>
+                                &nbsp;: void    </span>
 </dt>
 <dd>Purges the singleton instance.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_setEnvironment">setEnvironment()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_setEnvironment">setEnvironment()</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method___clone">__clone()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method___clone">__clone()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
 <dd>Disable direct cloning of this object.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method___construct">__construct()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
 <dd>Protected constructor to avoid direct instantiation of this class.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_assertConfigureHasBeenCalled">assertConfigureHasBeenCalled()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_assertConfigureHasBeenCalled">assertConfigureHasBeenCalled()</a>
     <span>
-                        &nbsp;: void    </span>
+                                &nbsp;: void    </span>
 </dt>
 <dd>Makes sure that configure has been called before.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_configureApplicationKernel">configureApplicationKernel()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_configureApplicationKernel">configureApplicationKernel()</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_configureDebugging">configureDebugging()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_configureDebugging">configureDebugging()</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_isDebugEnabled">isDebugEnabled()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_isDebugEnabled">isDebugEnabled()</a>
     <span>
-                        &nbsp;: bool    </span>
+                                &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpList-Core-Core-Bootstrap.html#method_isSymfonyDebugModeEnabled">isSymfonyDebugModeEnabled()</a>
+    <a class="" href="classes/PhpList-Core-Core-Bootstrap.html#method_isSymfonyDebugModeEnabled">isSymfonyDebugModeEnabled()</a>
     <span>
-                        &nbsp;: bool    </span>
+                                &nbsp;: bool    </span>
 </dt>
-<dd></dd>
 
-        </dl>
+    </dl>
 
 
 
@@ -323,6 +351,7 @@ and loads the configuration.</dd>
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
             <a href="classes/PhpList-Core-Core-Bootstrap.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="
@@ -334,16 +363,18 @@ and loads the configuration.</dd>
     <h4 class="phpdocumentor-element__name" id="property_applicationKernel">
         $applicationKernel
         <a href="classes/PhpList-Core-Core-Bootstrap.html#property_applicationKernel" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
@@ -353,6 +384,8 @@ and loads the configuration.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -366,25 +399,29 @@ and loads the configuration.</dd>
     <h4 class="phpdocumentor-element__name" id="property_applicationStructure">
         $applicationStructure
         <a href="classes/PhpList-Core-Core-Bootstrap.html#property_applicationStructure" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Core-ApplicationStructure.html"><abbr title="\PhpList\Core\Core\ApplicationStructure">ApplicationStructure</abbr></a></span>
     <span class="phpdocumentor-signature__name">$applicationStructure</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
+    </code>
 
     
     
+    
+
     
 
 </article>
@@ -398,25 +435,65 @@ and loads the configuration.</dd>
     <h4 class="phpdocumentor-element__name" id="property_environment">
         $environment
         <a href="classes/PhpList-Core-Core-Bootstrap.html#property_environment" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$environment</span>
-     = <span class="phpdocumentor-signature__default-value">PhpListCoreCoreEnvironment::DEFAULT_ENVIRONMENT</span></code>
+     = <span class="phpdocumentor-signature__default-value">\PhpList\Core\Core\Environment::DEFAULT_ENVIRONMENT</span></code>
 
     
     
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_errorHandler">
+        $errorHandler
+        <a href="classes/PhpList-Core-Core-Bootstrap.html#property_errorHandler" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">57</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\ErrorHandler\ErrorHandler">ErrorHandler</abbr></span>
+    <span class="phpdocumentor-signature__name">$errorHandler</span>
+    </code>
+
+    
+    
+    
+
     
 
 </article>
@@ -430,16 +507,18 @@ and loads the configuration.</dd>
     <h4 class="phpdocumentor-element__name" id="property_instance">
         $instance
         <a href="classes/PhpList-Core-Core-Bootstrap.html#property_instance" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
@@ -449,6 +528,8 @@ and loads the configuration.</dd>
 
     
     
+    
+
     
 
 </article>
@@ -462,16 +543,18 @@ and loads the configuration.</dd>
     <h4 class="phpdocumentor-element__name" id="property_isConfigured">
         $isConfigured
         <a href="classes/PhpList-Core-Core-Bootstrap.html#property_isConfigured" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
@@ -483,6 +566,8 @@ and loads the configuration.</dd>
     
     
 
+    
+
 </article>
             </section>
 
@@ -490,6 +575,7 @@ and loads the configuration.</dd>
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
             <a href="classes/PhpList-Core-Core-Bootstrap.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="phpdocumentor-element
@@ -500,11 +586,12 @@ and loads the configuration.</dd>
     <h4 class="phpdocumentor-element__name" id="method_configure">
         configure()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_configure" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">165</span>
+    <span class="phpdocumentor-element-found-in__line">175</span>
 
     </aside>
 
@@ -513,19 +600,26 @@ and loads the configuration.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">configure</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">configure</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>fluent interface</p>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>fluent interface</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -536,11 +630,12 @@ and loads the configuration.</p>
     <h4 class="phpdocumentor-element__name" id="method_dispatch">
         dispatch()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_dispatch" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">197</span>
+    <span class="phpdocumentor-element-found-in__line">207</span>
 
     </aside>
 
@@ -548,14 +643,18 @@ and loads the configuration.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">dispatch</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">null</span></code>
+                    <span class="phpdocumentor-signature__name">dispatch</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">null</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Core-Bootstrap.html#method_dispatch#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -585,13 +684,15 @@ and loads the configuration.</p>
                                                             
                                              
                                     </dd>
-                        </dl>
+                                            </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">null</span>
-            &mdash;
-        
     
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">null</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -602,11 +703,12 @@ and loads the configuration.</p>
     <h4 class="phpdocumentor-element__name" id="method_ensureDevelopmentOrTestingEnvironment">
         ensureDevelopmentOrTestingEnvironment()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_ensureDevelopmentOrTestingEnvironment" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">145</span>
+    <span class="phpdocumentor-element-found-in__line">152</span>
 
     </aside>
 
@@ -614,8 +716,11 @@ and loads the configuration.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">ensureDevelopmentOrTestingEnvironment</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>|null</span></code>
+                    <span class="phpdocumentor-signature__name">ensureDevelopmentOrTestingEnvironment</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <section class="phpdocumentor-description"><p>If a production server is detected, a 403 header is sent and execution is stopped.</p>
 </section>
 
@@ -623,7 +728,8 @@ and loads the configuration.</p>
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Core-Bootstrap.html#method_ensureDevelopmentOrTestingEnvironment#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -644,15 +750,19 @@ and loads the configuration.</p>
 </section>
 
                                     </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>|null</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>fluent interface</p>
-</section>
+                                            </dl>
 
     
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>fluent interface</p>
+</section>
+
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -663,25 +773,30 @@ and loads the configuration.</p>
     <h4 class="phpdocumentor-element__name" id="method_getApplicationKernel">
         getApplicationKernel()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getApplicationKernel" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">239</span>
+    <span class="phpdocumentor-element-found-in__line">249</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getApplicationKernel</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-ApplicationKernel.html"><abbr title="\PhpList\Core\Core\ApplicationKernel">ApplicationKernel</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">getApplicationKernel</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-ApplicationKernel.html"><abbr title="\PhpList\Core\Core\ApplicationKernel">ApplicationKernel</abbr></a></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getApplicationKernel#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -694,13 +809,15 @@ and loads the configuration.</p>
 </section>
 
                                     </dd>
-                        </dl>
+                                            </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-ApplicationKernel.html"><abbr title="\PhpList\Core\Core\ApplicationKernel">ApplicationKernel</abbr></a></span>
-            &mdash;
-        
     
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-ApplicationKernel.html"><abbr title="\PhpList\Core\Core\ApplicationKernel">ApplicationKernel</abbr></a></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -711,11 +828,12 @@ and loads the configuration.</p>
     <h4 class="phpdocumentor-element__name" id="method_getApplicationRoot">
         getApplicationRoot()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getApplicationRoot" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">283</span>
+    <span class="phpdocumentor-element-found-in__line">293</span>
 
     </aside>
 
@@ -723,8 +841,11 @@ and loads the configuration.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getApplicationRoot</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getApplicationRoot</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <section class="phpdocumentor-description"><p>When core is installed as a dependency (library) of an application, this method will return
 the application's package path.</p>
 <p>When phpList4-core is installed stand-alone (i.e., as an application - usually only for testing),
@@ -735,7 +856,8 @@ this method will be the phpList4-core package path.</p>
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getApplicationRoot#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -748,15 +870,19 @@ this method will be the phpList4-core package path.</p>
 </section>
 
                                     </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>the absolute path without the trailing slash.</p>
-</section>
+                                            </dl>
 
     
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>the absolute path without the trailing slash.</p>
+</section>
+
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -767,11 +893,12 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method_getContainer">
         getContainer()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getContainer" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">251</span>
+    <span class="phpdocumentor-element-found-in__line">261</span>
 
     </aside>
 
@@ -779,17 +906,22 @@ this method will be the phpList4-core package path.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getContainer</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">getContainer</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -800,25 +932,30 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method_getEntityManager">
         getEntityManager()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getEntityManager" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">263</span>
+    <span class="phpdocumentor-element-found-in__line">273</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getEntityManager</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">getEntityManager</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getEntityManager#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -831,13 +968,15 @@ this method will be the phpList4-core package path.</p>
 </section>
 
                                     </dd>
-                        </dl>
+                                            </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
-            &mdash;
-        
     
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -848,28 +987,34 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method_getEnvironment">
         getEnvironment()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getEnvironment" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">114</span>
+    <span class="phpdocumentor-element-found-in__line">121</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getEnvironment</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getEnvironment</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -880,11 +1025,12 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method_getInstance">
         getInstance()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_getInstance" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">75</span>
+    <span class="phpdocumentor-element-found-in__line">82</span>
 
     </aside>
 
@@ -892,17 +1038,22 @@ this method will be the phpList4-core package path.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getInstance</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getInstance</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -913,11 +1064,12 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method_purgeInstance">
         purgeInstance()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_purgeInstance" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">91</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 
     </aside>
 
@@ -925,18 +1077,19 @@ this method will be the phpList4-core package path.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">purgeInstance</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">purgeInstance</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <section class="phpdocumentor-description"><p>Note: This method is intended to be used for tests only.</p>
 </section>
 
     
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
+    
+
     
 </article>
                     <article
@@ -948,19 +1101,23 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method_setEnvironment">
         setEnvironment()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_setEnvironment" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">110</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setEnvironment</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$environment</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">setEnvironment</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$environment</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -978,7 +1135,8 @@ this method will be the phpList4-core package path.</p>
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Core-Bootstrap.html#method_setEnvironment#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -989,15 +1147,19 @@ this method will be the phpList4-core package path.</p>
                                                             
                                              
                                     </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>fluent interface</p>
-</section>
+                                            </dl>
 
     
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>fluent interface</p>
+</section>
+
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1008,11 +1170,12 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method___clone">
         __clone()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method___clone" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">66</span>
+    <span class="phpdocumentor-element-found-in__line">73</span>
 
     </aside>
 
@@ -1020,16 +1183,17 @@ this method will be the phpList4-core package path.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">__clone</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__clone</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1041,11 +1205,12 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 
     </aside>
 
@@ -1053,18 +1218,19 @@ this method will be the phpList4-core package path.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
         <section class="phpdocumentor-description"><p>Please use getInstance instead.</p>
 </section>
 
     
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
+    
+
     
 </article>
                     <article
@@ -1076,11 +1242,12 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method_assertConfigureHasBeenCalled">
         assertConfigureHasBeenCalled()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_assertConfigureHasBeenCalled" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">180</span>
+    <span class="phpdocumentor-element-found-in__line">190</span>
 
     </aside>
 
@@ -1088,14 +1255,18 @@ this method will be the phpList4-core package path.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">assertConfigureHasBeenCalled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">assertConfigureHasBeenCalled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Core-Bootstrap.html#method_assertConfigureHasBeenCalled#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -1108,12 +1279,10 @@ this method will be the phpList4-core package path.</p>
 </section>
 
                                     </dd>
-                        </dl>
+                                            </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
+    
+
     
 </article>
                     <article
@@ -1125,30 +1294,38 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method_configureApplicationKernel">
         configureApplicationKernel()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_configureApplicationKernel" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">224</span>
+    <span class="phpdocumentor-element-found-in__line">234</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">configureApplicationKernel</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">configureApplicationKernel</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>fluent interface</p>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>fluent interface</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1159,30 +1336,38 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method_configureDebugging">
         configureDebugging()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_configureDebugging" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">212</span>
+    <span class="phpdocumentor-element-found-in__line">222</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">configureDebugging</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">configureDebugging</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>fluent interface</p>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>fluent interface</p>
 </section>
 
-    
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1193,28 +1378,34 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method_isDebugEnabled">
         isDebugEnabled()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_isDebugEnabled" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">130</span>
+    <span class="phpdocumentor-element-found-in__line">137</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">isDebugEnabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">isDebugEnabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1225,95 +1416,186 @@ this method will be the phpList4-core package path.</p>
     <h4 class="phpdocumentor-element__name" id="method_isSymfonyDebugModeEnabled">
         isSymfonyDebugModeEnabled()
         <a href="classes/PhpList-Core-Core-Bootstrap.html#method_isSymfonyDebugModeEnabled" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">122</span>
+    <span class="phpdocumentor-element-found-in__line">129</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                <span class="phpdocumentor-signature__name">isSymfonyDebugModeEnabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">isSymfonyDebugModeEnabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
 
+            <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">bool</span>
-            &mdash;
-        
-    
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
             </section>
 
-        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Core/Bootstrap.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
     <script type="text/javascript">
-        function loadExternalCodeSnippets(line) {
-            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-                var language = 'php';
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
 
-                var code = document.createElement('code');
-                code.className = 'language-' + language;
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
 
-                pre.textContent = '';
+                    var xhr = new XMLHttpRequest();
 
-                pre.setAttribute('data-line', line)
-                code.textContent = 'Loading…';
+                    xhr.open('GET', src, true);
 
-                pre.appendChild(code);
-
-                var xhr = new XMLHttpRequest();
-
-                xhr.open('GET', src, true);
-
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState == 4) {
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
 
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
-
                             Prism.highlightElement(code);
+                            return;
                         }
-                        else if (xhr.status >= 400) {
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
                             code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
                         }
-                        else {
-                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
-                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
                     }
-                };
+                    modal.classList.add("phpdocumentor-modal__open");
 
-                xhr.send(null);
-            });
-        }
-
-        var modals = document.querySelectorAll("[data-modal]");
-
-        modals.forEach(function (trigger) {
-            trigger.addEventListener("click", function (event) {
-                //event.preventDefault();
-                const modal = document.getElementById(trigger.dataset.modal);
-                modal.classList.add("phpdocumentor-modal__open");
-                loadExternalCodeSnippets(trigger.dataset.line)
-                const exits = modal.querySelectorAll("[data-exit-button]");
-                exits.forEach(function (exit) {
-                    exit.addEventListener("click", function (event) {
-                        event.preventDefault();
-                        modal.classList.remove("phpdocumentor-modal__open");
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
                     });
                 });
             });
-        });
+        })();
     </script>
 
     </article>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                            <li><a href="classes/PhpList-Core-Core-Bootstrap.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Core-Bootstrap.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#property_applicationKernel">$applicationKernel</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#property_applicationStructure">$applicationStructure</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#property_environment">$environment</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#property_errorHandler">$errorHandler</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#property_instance">$instance</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#property_isConfigured">$isConfigured</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_configure">configure()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_dispatch">dispatch()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_ensureDevelopmentOrTestingEnvironment">ensureDevelopmentOrTestingEnvironment()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_getApplicationKernel">getApplicationKernel()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_getApplicationRoot">getApplicationRoot()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_getContainer">getContainer()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_getEntityManager">getEntityManager()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_getEnvironment">getEnvironment()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_getInstance">getInstance()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_purgeInstance">purgeInstance()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_setEnvironment">setEnvironment()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method___clone">__clone()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_assertConfigureHasBeenCalled">assertConfigureHasBeenCalled()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_configureApplicationKernel">configureApplicationKernel()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_configureDebugging">configureDebugging()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_isDebugEnabled">isDebugEnabled()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Bootstrap.html#method_isSymfonyDebugModeEnabled">isSymfonyDebugModeEnabled()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -1324,7 +1606,6 @@ this method will be the phpList4-core package path.</p>
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="classes/PhpList-Core-Core-Bootstrap.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 

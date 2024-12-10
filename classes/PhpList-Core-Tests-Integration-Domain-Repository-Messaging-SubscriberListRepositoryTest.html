@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>phpList/Core Docs</title>
+            <title>phpList/Core Docs</title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
     <link rel="icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
@@ -18,6 +19,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -51,39 +53,44 @@
 <label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
     Menu
 </label>
-<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
-                    <section class="phpdocumentor-sidebar__category">
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phplist.html">PhpList</a></h4>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/phplist.html" class="">PhpList</a>
+</h4>
     <ul class="phpdocumentor-list">
                     <li>
-                <a href="namespaces/phplist-core.html">Core</a>
+                <a href="namespaces/phplist-core.html" class="">Core</a>
                 
             </li>
             </ul>
 
                         </section>
-                <section class="phpdocumentor-sidebar__category">
+                <section class="phpdocumentor-sidebar__category -packages">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
-                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
 
                         </section>
             
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -reports">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
     </section>
 
-    <section class="phpdocumentor-sidebar__category">
+    <section class="phpdocumentor-sidebar__category -indices">
         <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
         <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
     </section>
 </aside>
 
-            <div class="phpdocumentor-column -eight phpdocumentor-content">
-                    <ul class="phpdocumentor-breadcrumbs">
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
@@ -98,7 +105,7 @@
     SubscriberListRepositoryTest
 
         <span class="phpdocumentor-element__extends">
-        extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
+        extends <abbr title="\Symfony\Bundle\FrameworkBundle\Test\KernelTestCase">KernelTestCase</abbr>
     </span>
     
             <div class="phpdocumentor-element__package">
@@ -110,14 +117,19 @@
     
     
             <span class="phpdocumentor-element__extends">
-            Uses
+            uses
                             <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html"><abbr title="\PhpList\Core\TestingSupport\Traits\DatabaseTestTrait">DatabaseTestTrait</abbr></a>,                             <a href="classes/PhpList-Core-TestingSupport-Traits-SimilarDatesAssertionTrait.html"><abbr title="\PhpList\Core\TestingSupport\Traits\SimilarDatesAssertionTrait">SimilarDatesAssertionTrait</abbr></a>                    </span>
     </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
 
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -125,9 +137,11 @@
 
 
 
+
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
@@ -139,8 +153,7 @@
 </section>
 
                                     </dd>
-                        </dl>
-
+                                            </dl>
 
 
 
@@ -148,394 +161,205 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
 </h3>
 
+
+
+
+
+
+
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_ADMINISTRATOR_TABLE_NAME">ADMINISTRATOR_TABLE_NAME</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_bootstrap">$bootstrap</a>
     <span>
-        &nbsp;= &#039;phplist_admin&#039;                    </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>|null            </span>
 </dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_SUBSCRIBER_TABLE_NAME">SUBSCRIBER_TABLE_NAME</a>
-    <span>
-        &nbsp;= &#039;phplist_user_user&#039;                    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_SUBSCRIPTION_TABLE_NAME">SUBSCRIPTION_TABLE_NAME</a>
-    <span>
-        &nbsp;= &#039;phplist_listuser&#039;                    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_TABLE_NAME">TABLE_NAME</a>
-    <span>
-        &nbsp;= &#039;phplist_list&#039;                    </span>
-</dt>
-<dd></dd>
-
-                <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_bootstrap">$bootstrap</a>
-    <span>
-                &nbsp;: <a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>            </span>
-</dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_container">$container</a>
+    <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_container">$container</a>
     <span>
-                &nbsp;: <abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr>            </span>
+                        &nbsp;: mixed            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_entityManager">$entityManager</a>
+    <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_entityManager">$entityManager</a>
     <span>
-                &nbsp;: <abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>            </span>
+                        &nbsp;: <abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>|null            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_administratorRepository">$administratorRepository</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_administratorRepository">$administratorRepository</a>
     <span>
-                &nbsp;: <a href="classes/PhpList-Core-Domain-Repository-Identity-AdministratorRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Identity\AdministratorRepository">AdministratorRepository</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Repository-Identity-AdministratorRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Identity\AdministratorRepository">AdministratorRepository</abbr></a>            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_databaseConnection">$databaseConnection</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriberListRepository">$subscriberListRepository</a>
     <span>
-                &nbsp;: <abbr title="\PHPUnit\DbUnit\Database\Connection">Connection</abbr>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Repository-Messaging-SubscriberListRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Messaging\SubscriberListRepository">SubscriberListRepository</abbr></a>            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_dataSet">$dataSet</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriberRepository">$subscriberRepository</a>
     <span>
-                &nbsp;: <abbr title="\PHPUnit\DbUnit\DataSet\CsvDataSet">CsvDataSet</abbr>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Subscription\SubscriberRepository">SubscriberRepository</abbr></a>            </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_pdo">$pdo</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriptionRepository">$subscriptionRepository</a>
     <span>
-                &nbsp;: <abbr title="\PDO">PDO</abbr>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriptionRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Subscription\SubscriptionRepository">SubscriptionRepository</abbr></a>            </span>
 </dt>
-<dd></dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subject">$subject</a>
-    <span>
-                &nbsp;: <a href="classes/PhpList-Core-Domain-Repository-Messaging-SubscriberListRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Messaging\SubscriberListRepository">SubscriberListRepository</abbr></a>            </span>
-</dt>
-<dd></dd>
+    </dl>
 
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriberRepository">$subscriberRepository</a>
-    <span>
-                &nbsp;: <a href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Subscription\SubscriberRepository">SubscriberRepository</abbr></a>            </span>
-</dt>
-<dd></dd>
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriptionRepository">$subscriptionRepository</a>
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testCreationDateOfNewModelIsSetToNowOnPersist">testCreationDateOfNewModelIsSetToNowOnPersist()</a>
     <span>
-                &nbsp;: <a href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriptionRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Subscription\SubscriptionRepository">SubscriptionRepository</abbr></a>            </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
-
-                <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_createsOwnerAssociationAsProxy">createsOwnerAssociationAsProxy()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_creationDateOfNewModelIsSetToNowOnPersist">creationDateOfNewModelIsSetToNowOnPersist()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerFindsSubscriberListWithTheGivenOwner">testFindByOwnerFindsSubscriberListWithTheGivenOwner()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findByOwnerFindsSubscriberListWithTheGivenOwner">findByOwnerFindsSubscriberListWithTheGivenOwner()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerIgnoresSubscriberListFromOtherOwner">testFindByOwnerIgnoresSubscriberListFromOtherOwner()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findByOwnerIgnoresSubscriberListFromOtherOwner">findByOwnerIgnoresSubscriberListFromOtherOwner()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerIgnoresSubscriberListWithOtherOwner">testFindByOwnerIgnoresSubscriberListWithOtherOwner()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findByOwnerIgnoresSubscriberListWithOtherOwner">findByOwnerIgnoresSubscriberListWithOtherOwner()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindReadsModelFromDatabase">testFindReadsModelFromDatabase()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findReadsModelFromDatabase">findReadsModelFromDatabase()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindsAssociatedSubscribers">testFindsAssociatedSubscribers()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findsAssociatedSubscribers">findsAssociatedSubscribers()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindsAssociatedSubscriptions">testFindsAssociatedSubscriptions()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findsAssociatedSubscriptions">findsAssociatedSubscriptions()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testModificationDateOfNewModelIsSetToNowOnPersist">testModificationDateOfNewModelIsSetToNowOnPersist()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_modificationDateOfNewModelIsSetToNowOnPersist">modificationDateOfNewModelIsSetToNowOnPersist()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testRemoveAlsoRemovesAssociatedSubscriptions">testRemoveAlsoRemovesAssociatedSubscriptions()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_removeAlsoRemovesAssociatedSubscriptions">removeAlsoRemovesAssociatedSubscriptions()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testRemoveRemovesModel">testRemoveRemovesModel()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_removeRemovesModel">removeRemovesModel()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testSavePersistsAndFlushesModel">testSavePersistsAndFlushesModel()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_savePersistsAndFlushesModel">savePersistsAndFlushesModel()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_applyDatabaseChanges">applyDatabaseChanges()</a>
+    <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadFixtures">loadFixtures()</a>
     <span>
-                        &nbsp;: void    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd>Applies all database changes on $this-&gt;dataSet.</dd>
+<dd>Loads data fixtures into the database.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_getConnection">getConnection()</a>
+    <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadSchema">loadSchema()</a>
     <span>
-                        &nbsp;: <abbr title="\PHPUnit\DbUnit\Database\Connection">Connection</abbr>    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd>Returns the test database connection.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_getDataSet">getDataSet()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_setUp">setUp()</a>
     <span>
-                        &nbsp;: <abbr title="\PHPUnit\DbUnit\DataSet\CsvDataSet">CsvDataSet</abbr>    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd>Returns the test data set.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_getTearDownOperation">getTearDownOperation()</a>
+    <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_setUpDatabaseTest">setUpDatabaseTest()</a>
     <span>
-                        &nbsp;: <abbr title="\PHPUnit\DbUnit\Operation\Operation">Operation</abbr>    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd>Returns the database operation executed in test cleanup.</dd>
+<dd>Sets up the database test environment.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeDatabaseTester">initializeDatabaseTester()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_tearDown">tearDown()</a>
     <span>
-                        &nbsp;: void    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd>Initializes the CSV data set and the database tester.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_setUp">setUp()</a>
+    <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tearDownDatabaseTest">tearDownDatabaseTest()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                                &nbsp;: void    </span>
 </dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_setUpDatabaseTest">setUpDatabaseTest()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tearDown">tearDown()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tearDownDatabaseTest">tearDownDatabaseTest()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_touchDatabaseTable">touchDatabaseTable()</a>
-    <span>
-                        &nbsp;: void    </span>
-</dt>
-<dd>Marks the table with the given name as &quot;touched&quot;, i.e., it will be truncated in the tearDown method.</dd>
+<dd>Tears down the database test environment.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a href="classes/PhpList-Core-TestingSupport-Traits-SimilarDatesAssertionTrait.html#method_assertSimilarDates">assertSimilarDates()</a>
+    <a class="" href="classes/PhpList-Core-TestingSupport-Traits-SimilarDatesAssertionTrait.html#method_assertSimilarDates">assertSimilarDates()</a>
     <span>
-                        &nbsp;: void    </span>
+                                &nbsp;: void    </span>
 </dt>
 <dd>Asserts that $expected and $actual are similar, i.e., less than than 2 seconds apart.</dd>
 
-        </dl>
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeBootstrap">initializeBootstrap()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Initializes the Bootstrap and Doctrine EntityManager.</dd>
+
+    </dl>
 
 
 
         
-    <section class="phpdocumentor-constants">
-        <h3 class="phpdocumentor-elements__header" id="constants">
-            Constants
-            <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
-        </h3>
-                    <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_ADMINISTRATOR_TABLE_NAME">
-        ADMINISTRATOR_TABLE_NAME
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_ADMINISTRATOR_TABLE_NAME" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">36</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">ADMINISTRATOR_TABLE_NAME</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;phplist_admin&#039;</span>
-</code>
-
-
-    
-    
-    
-
-</article>
-                    <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_SUBSCRIBER_TABLE_NAME">
-        SUBSCRIBER_TABLE_NAME
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_SUBSCRIBER_TABLE_NAME" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">46</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">SUBSCRIBER_TABLE_NAME</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;phplist_user_user&#039;</span>
-</code>
-
-
-    
-    
-    
-
-</article>
-                    <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_SUBSCRIPTION_TABLE_NAME">
-        SUBSCRIPTION_TABLE_NAME
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_SUBSCRIPTION_TABLE_NAME" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">41</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">SUBSCRIPTION_TABLE_NAME</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;phplist_listuser&#039;</span>
-</code>
-
-
-    
-    
-    
-
-</article>
-                    <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_TABLE_NAME">
-        TABLE_NAME
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#constant_TABLE_NAME" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">31</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">TABLE_NAME</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;phplist_list&#039;</span>
-</code>
-
-
-    
-    
-    
-
-</article>
-            </section>
 
         
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
             <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="
@@ -547,25 +371,29 @@
     <h4 class="phpdocumentor-element__name" id="property_bootstrap">
         $bootstrap
         <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_bootstrap" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a></span>
+        <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Core-Bootstrap.html"><abbr title="\PhpList\Core\Core\Bootstrap">Bootstrap</abbr></a>|null</span>
     <span class="phpdocumentor-signature__name">$bootstrap</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
+    
+
     
 
 </article>
@@ -574,30 +402,34 @@
             phpdocumentor-element
             -property
             -protected
-                                                        "
+            -static                                            "
 >
     <h4 class="phpdocumentor-element__name" id="property_container">
         $container
         <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_container" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr></span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">$container</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
+    </code>
 
     
     
+    
+
     
 
 </article>
@@ -611,25 +443,29 @@
     <h4 class="phpdocumentor-element__name" id="property_entityManager">
         $entityManager
         <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_entityManager" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>|null</span>
     <span class="phpdocumentor-signature__name">$entityManager</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
+    
+
     
 
 </article>
@@ -643,57 +479,29 @@
     <h4 class="phpdocumentor-element__name" id="property_administratorRepository">
         $administratorRepository
         <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_administratorRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Repository-Identity-AdministratorRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Identity\AdministratorRepository">AdministratorRepository</abbr></a></span>
     <span class="phpdocumentor-signature__name">$administratorRepository</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
+    </code>
 
     
     
     
 
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_databaseConnection">
-        $databaseConnection
-        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_databaseConnection" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">33</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\PHPUnit\DbUnit\Database\Connection">Connection</abbr></span>
-    <span class="phpdocumentor-signature__name">$databaseConnection</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
-
-    
-    
     
 
 </article>
@@ -704,92 +512,32 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_dataSet">
-        $dataSet
-        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_dataSet" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <h4 class="phpdocumentor-element__name" id="property_subscriberListRepository">
+        $subscriberListRepository
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriberListRepository" class="headerlink"><i class="fas fa-link"></i></a>
 
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\PHPUnit\DbUnit\DataSet\CsvDataSet">CsvDataSet</abbr></span>
-    <span class="phpdocumentor-signature__name">$dataSet</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
-
-    
-    
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-            -static                                            "
->
-    <h4 class="phpdocumentor-element__name" id="property_pdo">
-        $pdo
-        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_pdo" class="headerlink"><i class="fas fa-link"></i></a>
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">38</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type"><abbr title="\PDO">PDO</abbr></span>
-    <span class="phpdocumentor-signature__name">$pdo</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
-
-    
-    
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_subject">
-        $subject
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subject" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
     
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Repository-Messaging-SubscriberListRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Messaging\SubscriberListRepository">SubscriberListRepository</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$subject</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
+    <span class="phpdocumentor-signature__name">$subscriberListRepository</span>
+    </code>
 
     
     
+    
+
     
 
 </article>
@@ -803,25 +551,29 @@
     <h4 class="phpdocumentor-element__name" id="property_subscriberRepository">
         $subscriberRepository
         <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriberRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Subscription\SubscriberRepository">SubscriberRepository</abbr></a></span>
     <span class="phpdocumentor-signature__name">$subscriberRepository</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
+    </code>
 
     
     
+    
+
     
 
 </article>
@@ -835,25 +587,29 @@
     <h4 class="phpdocumentor-element__name" id="property_subscriptionRepository">
         $subscriptionRepository
         <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriptionRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">66</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
+    
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriptionRepository.html"><abbr title="\PhpList\Core\Domain\Repository\Subscription\SubscriptionRepository">SubscriptionRepository</abbr></a></span>
     <span class="phpdocumentor-signature__name">$subscriptionRepository</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
+    </code>
 
     
     
+    
+
     
 
 </article>
@@ -863,6 +619,7 @@
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
             <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
         </h3>
                     <article
         class="phpdocumentor-element
@@ -870,43 +627,32 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_createsOwnerAssociationAsProxy">
-        createsOwnerAssociationAsProxy()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_createsOwnerAssociationAsProxy" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testCreationDateOfNewModelIsSetToNowOnPersist">
+        testCreationDateOfNewModelIsSetToNowOnPersist()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testCreationDateOfNewModelIsSetToNowOnPersist" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">112</span>
+    <span class="phpdocumentor-element-found-in__line">85</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">createsOwnerAssociationAsProxy</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testCreationDateOfNewModelIsSetToNowOnPersist</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -915,43 +661,32 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_creationDateOfNewModelIsSetToNowOnPersist">
-        creationDateOfNewModelIsSetToNowOnPersist()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_creationDateOfNewModelIsSetToNowOnPersist" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testFindByOwnerFindsSubscriberListWithTheGivenOwner">
+        testFindByOwnerFindsSubscriberListWithTheGivenOwner()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerFindsSubscriberListWithTheGivenOwner" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">132</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">creationDateOfNewModelIsSetToNowOnPersist</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testFindByOwnerFindsSubscriberListWithTheGivenOwner</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -960,43 +695,32 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_findByOwnerFindsSubscriberListWithTheGivenOwner">
-        findByOwnerFindsSubscriberListWithTheGivenOwner()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findByOwnerFindsSubscriberListWithTheGivenOwner" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testFindByOwnerIgnoresSubscriberListFromOtherOwner">
+        testFindByOwnerIgnoresSubscriberListFromOtherOwner()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerIgnoresSubscriberListFromOtherOwner" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">175</span>
+    <span class="phpdocumentor-element-found-in__line">137</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findByOwnerFindsSubscriberListWithTheGivenOwner</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testFindByOwnerIgnoresSubscriberListFromOtherOwner</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1005,43 +729,32 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_findByOwnerIgnoresSubscriberListFromOtherOwner">
-        findByOwnerIgnoresSubscriberListFromOtherOwner()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findByOwnerIgnoresSubscriberListFromOtherOwner" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testFindByOwnerIgnoresSubscriberListWithOtherOwner">
+        testFindByOwnerIgnoresSubscriberListWithOtherOwner()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerIgnoresSubscriberListWithOtherOwner" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">209</span>
+    <span class="phpdocumentor-element-found-in__line">125</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findByOwnerIgnoresSubscriberListFromOtherOwner</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testFindByOwnerIgnoresSubscriberListWithOtherOwner</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1050,43 +763,32 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_findByOwnerIgnoresSubscriberListWithOtherOwner">
-        findByOwnerIgnoresSubscriberListWithOtherOwner()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findByOwnerIgnoresSubscriberListWithOtherOwner" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testFindReadsModelFromDatabase">
+        testFindReadsModelFromDatabase()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindReadsModelFromDatabase" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">192</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findByOwnerIgnoresSubscriberListWithOtherOwner</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testFindReadsModelFromDatabase</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1095,43 +797,32 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_findReadsModelFromDatabase">
-        findReadsModelFromDatabase()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findReadsModelFromDatabase" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testFindsAssociatedSubscribers">
+        testFindsAssociatedSubscribers()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindsAssociatedSubscribers" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">165</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findReadsModelFromDatabase</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testFindsAssociatedSubscribers</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1140,43 +831,32 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_findsAssociatedSubscribers">
-        findsAssociatedSubscribers()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findsAssociatedSubscribers" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testFindsAssociatedSubscriptions">
+        testFindsAssociatedSubscriptions()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindsAssociatedSubscriptions" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">249</span>
+    <span class="phpdocumentor-element-found-in__line">149</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findsAssociatedSubscribers</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testFindsAssociatedSubscriptions</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1185,43 +865,32 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_findsAssociatedSubscriptions">
-        findsAssociatedSubscriptions()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_findsAssociatedSubscriptions" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testModificationDateOfNewModelIsSetToNowOnPersist">
+        testModificationDateOfNewModelIsSetToNowOnPersist()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testModificationDateOfNewModelIsSetToNowOnPersist" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">226</span>
+    <span class="phpdocumentor-element-found-in__line">95</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">findsAssociatedSubscriptions</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testModificationDateOfNewModelIsSetToNowOnPersist</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1230,43 +899,32 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_modificationDateOfNewModelIsSetToNowOnPersist">
-        modificationDateOfNewModelIsSetToNowOnPersist()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_modificationDateOfNewModelIsSetToNowOnPersist" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testRemoveAlsoRemovesAssociatedSubscriptions">
+        testRemoveAlsoRemovesAssociatedSubscriptions()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testRemoveAlsoRemovesAssociatedSubscriptions" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">147</span>
+    <span class="phpdocumentor-element-found-in__line">179</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">modificationDateOfNewModelIsSetToNowOnPersist</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testRemoveAlsoRemovesAssociatedSubscriptions</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1275,43 +933,32 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_removeAlsoRemovesAssociatedSubscriptions">
-        removeAlsoRemovesAssociatedSubscriptions()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_removeAlsoRemovesAssociatedSubscriptions" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testRemoveRemovesModel">
+        testRemoveRemovesModel()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testRemoveRemovesModel" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">270</span>
+    <span class="phpdocumentor-element-found-in__line">201</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">removeAlsoRemovesAssociatedSubscriptions</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testRemoveRemovesModel</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1320,88 +967,32 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_removeRemovesModel">
-        removeRemovesModel()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_removeRemovesModel" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testSavePersistsAndFlushesModel">
+        testSavePersistsAndFlushesModel()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testSavePersistsAndFlushesModel" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">296</span>
+    <span class="phpdocumentor-element-found-in__line">105</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">removeRemovesModel</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testSavePersistsAndFlushesModel</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_savePersistsAndFlushesModel">
-        savePersistsAndFlushesModel()
-        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_savePersistsAndFlushesModel" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">162</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">savePersistsAndFlushesModel</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    
-    
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">test</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                             
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1410,66 +1001,60 @@
             -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_applyDatabaseChanges">
-        applyDatabaseChanges()
-        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_applyDatabaseChanges" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_loadFixtures">
+        loadFixtures()
+        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadFixtures" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">159</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Applies all database changes on $this-&gt;dataSet.</p>
+        <p class="phpdocumentor-summary">Loads data fixtures into the database.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">applyDatabaseChanges</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">loadFixtures</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fixtures</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"><p>This methods needs to be called after the last addTable call in each test.</p>
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$fixtures</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>List of fixture classes to load</p>
 </section>
 
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getConnection">
-        getConnection()
-        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_getConnection" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">121</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Returns the test database connection.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">getConnection</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\PHPUnit\DbUnit\Database\Connection">Connection</abbr></span></code>
+            </dd>
+            </dl>
 
     
-    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadFixtures#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\InvalidArgumentException">InvalidArgumentException</abbr></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\PHPUnit\DbUnit\Database\Connection">Connection</abbr></span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1478,99 +1063,32 @@
             -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getDataSet">
-        getDataSet()
-        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_getDataSet" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_loadSchema">
+        loadSchema()
+        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadSchema" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">147</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Returns the test data set.</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">getDataSet</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\PHPUnit\DbUnit\DataSet\CsvDataSet">CsvDataSet</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">loadSchema</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"><p>Add data to in the individual test by calling $this-&gt;getDataSet()-&gt;addTable.</p>
-</section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
     
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\PHPUnit\DbUnit\DataSet\CsvDataSet">CsvDataSet</abbr></span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getTearDownOperation">
-        getTearDownOperation()
-        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_getTearDownOperation" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">111</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Returns the database operation executed in test cleanup.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">getTearDownOperation</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\PHPUnit\DbUnit\Operation\Operation">Operation</abbr></span></code>
-
     
     
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><abbr title="\PHPUnit\DbUnit\Operation\Operation">Operation</abbr></span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_initializeDatabaseTester">
-        initializeDatabaseTester()
-        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeDatabaseTester" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">79</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Initializes the CSV data set and the database tester.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">initializeDatabaseTester</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-    
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1582,28 +1100,29 @@
     <h4 class="phpdocumentor-element__name" id="method_setUp">
         setUp()
         <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">68</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
     
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
+    
+
     
 </article>
                     <article
@@ -1615,28 +1134,30 @@
     <h4 class="phpdocumentor-element__name" id="method_setUpDatabaseTest">
         setUpDatabaseTest()
         <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_setUpDatabaseTest" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Sets up the database test environment.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">setUpDatabaseTest</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">setUpDatabaseTest</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
     
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
+    
+
     
 </article>
                     <article
@@ -1647,29 +1168,30 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_tearDown">
         tearDown()
-        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tearDown" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_tearDown" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php"><a href="files/tests-integration-domain-repository-messaging-subscriberlistrepositorytest.html"><abbr title="tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php">SubscriberListRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">87</span>
+    <span class="phpdocumentor-element-found-in__line">51</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">tearDown</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">tearDown</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
     
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
+    
+
     
 </article>
                     <article
@@ -1681,74 +1203,30 @@
     <h4 class="phpdocumentor-element__name" id="method_tearDownDatabaseTest">
         tearDownDatabaseTest()
         <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tearDownDatabaseTest" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">92</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">tearDownDatabaseTest</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_touchDatabaseTable">
-        touchDatabaseTable()
-        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_touchDatabaseTable" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">175</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Marks the table with the given name as &quot;touched&quot;, i.e., it will be truncated in the tearDown method.</p>
+        <p class="phpdocumentor-summary">Tears down the database test environment.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">touchDatabaseTable</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tableName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">tearDownDatabaseTest</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"><p>This is useful if the table gets populated only by the tested code instead of by using the addTable
-and applyDatabaseChanges method.</p>
-</section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$tableName</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
     
 </article>
                     <article
@@ -1760,11 +1238,12 @@ and applyDatabaseChanges method.</p>
     <h4 class="phpdocumentor-element__name" id="method_assertSimilarDates">
         assertSimilarDates()
         <a href="classes/PhpList-Core-TestingSupport-Traits-SimilarDatesAssertionTrait.html#method_assertSimilarDates" class="headerlink"><i class="fas fa-link"></i></a>
+
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/SimilarDatesAssertionTrait.php"><a href="files/src-testingsupport-traits-similardatesassertiontrait.html"><abbr title="src/TestingSupport/Traits/SimilarDatesAssertionTrait.php">SimilarDatesAssertionTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -1772,8 +1251,11 @@ and applyDatabaseChanges method.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">assertSimilarDates</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expected</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$actual</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">assertSimilarDates</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$expected</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$actual</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
@@ -1795,78 +1277,213 @@ and applyDatabaseChanges method.</p>
 
     
 
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_initializeBootstrap">
+        initializeBootstrap()
+        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeBootstrap" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">48</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Initializes the Bootstrap and Doctrine EntityManager.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">initializeBootstrap</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeBootstrap#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\RuntimeException">RuntimeException</abbr></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
     
 </article>
             </section>
 
-        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Integration/Domain/Repository/Messaging/SubscriberListRepositoryTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
     <script type="text/javascript">
-        function loadExternalCodeSnippets(line) {
-            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
-                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
-                var language = 'php';
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
 
-                var code = document.createElement('code');
-                code.className = 'language-' + language;
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
 
-                pre.textContent = '';
+                    var xhr = new XMLHttpRequest();
 
-                pre.setAttribute('data-line', line)
-                code.textContent = 'Loading…';
+                    xhr.open('GET', src, true);
 
-                pre.appendChild(code);
-
-                var xhr = new XMLHttpRequest();
-
-                xhr.open('GET', src, true);
-
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState == 4) {
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
 
                         if (xhr.status < 400 && xhr.responseText) {
                             code.textContent = xhr.responseText;
-
                             Prism.highlightElement(code);
+                            return;
                         }
-                        else if (xhr.status >= 400) {
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
                             code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
                         }
-                        else {
-                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
-                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
                     }
-                };
+                    modal.classList.add("phpdocumentor-modal__open");
 
-                xhr.send(null);
-            });
-        }
-
-        var modals = document.querySelectorAll("[data-modal]");
-
-        modals.forEach(function (trigger) {
-            trigger.addEventListener("click", function (event) {
-                //event.preventDefault();
-                const modal = document.getElementById(trigger.dataset.modal);
-                modal.classList.add("phpdocumentor-modal__open");
-                loadExternalCodeSnippets(trigger.dataset.line)
-                const exits = modal.querySelectorAll("[data-exit-button]");
-                exits.forEach(function (exit) {
-                    exit.addEventListener("click", function (event) {
-                        event.preventDefault();
-                        modal.classList.remove("phpdocumentor-modal__open");
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
                     });
                 });
             });
-        });
+        })();
     </script>
 
     </article>
-                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                            <li><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_bootstrap">$bootstrap</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_container">$container</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#property_entityManager">$entityManager</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_administratorRepository">$administratorRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriberListRepository">$subscriberListRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriberRepository">$subscriberRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriptionRepository">$subscriptionRepository</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testCreationDateOfNewModelIsSetToNowOnPersist">testCreationDateOfNewModelIsSetToNowOnPersist()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerFindsSubscriberListWithTheGivenOwner">testFindByOwnerFindsSubscriberListWithTheGivenOwner()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerIgnoresSubscriberListFromOtherOwner">testFindByOwnerIgnoresSubscriberListFromOtherOwner()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindByOwnerIgnoresSubscriberListWithOtherOwner">testFindByOwnerIgnoresSubscriberListWithOtherOwner()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindReadsModelFromDatabase">testFindReadsModelFromDatabase()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindsAssociatedSubscribers">testFindsAssociatedSubscribers()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testFindsAssociatedSubscriptions">testFindsAssociatedSubscriptions()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testModificationDateOfNewModelIsSetToNowOnPersist">testModificationDateOfNewModelIsSetToNowOnPersist()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testRemoveAlsoRemovesAssociatedSubscriptions">testRemoveAlsoRemovesAssociatedSubscriptions()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testRemoveRemovesModel">testRemoveRemovesModel()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_testSavePersistsAndFlushesModel">testSavePersistsAndFlushesModel()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadFixtures">loadFixtures()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadSchema">loadSchema()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_setUpDatabaseTest">setUpDatabaseTest()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#method_tearDown">tearDown()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tearDownDatabaseTest">tearDownDatabaseTest()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-SimilarDatesAssertionTrait.html#method_assertSimilarDates">assertSimilarDates()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeBootstrap">initializeBootstrap()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
     <section class="phpdocumentor-search-results__dialog">
         <header class="phpdocumentor-search-results__header">
             <h2 class="phpdocumentor-search-results__title">Search results</h2>
@@ -1877,7 +1494,6 @@ and applyDatabaseChanges method.</p>
         </section>
     </section>
 </section>
-            </div>
         </div>
         <a href="classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
