@@ -1821,6 +1821,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testFindOneUnexpiredByKeyNotFindsUnexpiredTokenWithNonMatchingKey"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestRemoveExpiredRemovesExpiredToken\u0028\u0029",
+            "name": "testRemoveExpiredRemovesExpiredToken",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#method_testRemoveExpiredRemovesExpiredToken"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorTokenRepositoryTest\u003A\u003AtestRemoveExpiredKeepsUnexpiredToken\u0028\u0029",
             "name": "testRemoveExpiredKeepsUnexpiredToken",
             "summary": "",
