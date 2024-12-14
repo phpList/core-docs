@@ -346,6 +346,11 @@ Search.appendIndex(
             "summary": "Checks\u0020that\u0020the\u0020application\u0020is\u0020running\u0020on\u0020a\u0020local\u0020testing\u0020machine\u0020or\u0020via\u0020CLI,\u0020not\u0020on\u0020a\u0020production\u0020server.",
             "url": "classes/PhpList-Core-Core-Bootstrap.html#method_ensureDevelopmentOrTestingEnvironment"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Bootstrap\u003A\u003AunsetHeaders\u0028\u0029",
+            "name": "unsetHeaders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Bootstrap.html#method_unsetHeaders"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Bootstrap\u003A\u003Aconfigure\u0028\u0029",
             "name": "configure",
             "summary": "Main\u0020entry\u0020point\u0020called\u0020at\u0020every\u0020request\u0020usually\u0020from\u0020global\u0020scope.\u0020Checks\u0020if\u0020everything\u0020is\u0020correct\nand\u0020loads\u0020the\u0020configuration.",
