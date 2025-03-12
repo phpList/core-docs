@@ -1631,11 +1631,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_creationDate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024modificationDate",
-            "name": "modificationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_modificationDate"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024modifiedBy",
             "name": "modifiedBy",
             "summary": "",
@@ -2496,11 +2491,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#property_messageId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\ListMessage\u003A\u003A\u0024modificationDate",
-            "name": "modificationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#property_modificationDate"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\ListMessage\u003A\u003A\u0024listId",
             "name": "listId",
             "summary": "",
@@ -2951,11 +2941,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_setStartedDate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SendProcess\u003A\u003AgetModificationDate\u0028\u0029",
-            "name": "getModificationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getModificationDate"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SendProcess\u003A\u003AgetAlive\u0028\u0029",
             "name": "getAlive",
             "summary": "",
@@ -2990,11 +2975,6 @@ Search.appendIndex(
             "name": "started",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_started"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SendProcess\u003A\u003A\u0024modificationDate",
-            "name": "modificationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_modificationDate"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SendProcess\u003A\u003A\u0024alive",
             "name": "alive",
@@ -3125,11 +3105,6 @@ Search.appendIndex(
             "name": "creationDate",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_creationDate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024modificationDate",
-            "name": "modificationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_modificationDate"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024listPosition",
             "name": "listPosition",
@@ -3786,11 +3761,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_creationDate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024modificationDate",
-            "name": "modificationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_modificationDate"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024email",
             "name": "email",
             "summary": "",
@@ -4006,11 +3976,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#property_creationDate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003A\u0024modificationDate",
-            "name": "modificationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#property_modificationDate"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003A\u0024subscriber",
             "name": "subscriber",
             "summary": "",
@@ -4075,6 +4040,11 @@ Search.appendIndex(
             "name": "updateModificationDate",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_updateModificationDate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\ModificationDateTrait\u003A\u003A\u0024modificationDate",
+            "name": "modificationDate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\AbstractRepository",
             "name": "AbstractRepository",

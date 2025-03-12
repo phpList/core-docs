@@ -240,12 +240,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                         &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_modificationDate">$modificationDate</a>
-    <span>
-                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
-</dt>
-
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_category">$category</a>
     <span>
@@ -268,6 +262,12 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_listPosition">$listPosition</a>
     <span>
                         &nbsp;: int|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate">$modificationDate</a>
+    <span>
+                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -553,64 +553,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
         class="
             phpdocumentor-element
             -property
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_modificationDate">
-        $modificationDate
-        <a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_modificationDate" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">57</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
-    <span class="phpdocumentor-signature__name">$modificationDate</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
-
-    
-    
-    
-
-    
-    <section class="phpdocumentor-attributes">
-        <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_modificationDate#attributes" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h5>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
-    </dt>
-        <dd class="phpdocumentor-argument-list__entry">
-        $name: &#039;modified&#039;
-    </dd>
-        <dd class="phpdocumentor-argument-list__entry">
-        $type: &#039;datetime&#039;
-    </dd>
-    </dl>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Symfony\Component\Serializer\Annotation\Ignore">Ignore</abbr>]
-    </dt>
-    </dl>
-            </section>
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
             -private
                                                         "
 >
@@ -624,7 +566,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
@@ -826,7 +768,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
     </aside>
 
@@ -876,6 +818,59 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
         &#039;list_position&#039;
+    </dd>
+    </dl>
+            </section>
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_modificationDate">
+        $modificationDate
+        <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">22</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+    <span class="phpdocumentor-signature__name">$modificationDate</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+    
+
+    
+    <section class="phpdocumentor-attributes">
+        <h5 class="phpdocumentor-elements__header" id="attributes">
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h5>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $name: &#039;modified&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $type: &#039;datetime&#039;
     </dd>
     </dl>
             </section>
@@ -961,7 +956,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">77</span>
 
     </aside>
 
@@ -1024,7 +1019,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 
     </aside>
 
@@ -1093,7 +1088,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">66</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
     </aside>
 
@@ -1159,7 +1154,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">86</span>
+    <span class="phpdocumentor-element-found-in__line">82</span>
 
     </aside>
 
@@ -1231,7 +1226,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">95</span>
+    <span class="phpdocumentor-element-found-in__line">91</span>
 
     </aside>
 
@@ -1265,7 +1260,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">179</span>
+    <span class="phpdocumentor-element-found-in__line">175</span>
 
     </aside>
 
@@ -1313,7 +1308,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">154</span>
+    <span class="phpdocumentor-element-found-in__line">150</span>
 
     </aside>
 
@@ -1389,7 +1384,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">114</span>
+    <span class="phpdocumentor-element-found-in__line">110</span>
 
     </aside>
 
@@ -1465,7 +1460,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">124</span>
+    <span class="phpdocumentor-element-found-in__line">120</span>
 
     </aside>
 
@@ -1503,7 +1498,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
@@ -1541,7 +1536,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">104</span>
+    <span class="phpdocumentor-element-found-in__line">100</span>
 
     </aside>
 
@@ -1579,7 +1574,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">164</span>
+    <span class="phpdocumentor-element-found-in__line">160</span>
 
     </aside>
 
@@ -1617,7 +1612,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">134</span>
+    <span class="phpdocumentor-element-found-in__line">130</span>
 
     </aside>
 
@@ -1655,7 +1650,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">198</span>
+    <span class="phpdocumentor-element-found-in__line">194</span>
 
     </aside>
 
@@ -1693,7 +1688,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">174</span>
+    <span class="phpdocumentor-element-found-in__line">170</span>
 
     </aside>
 
@@ -1731,7 +1726,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">144</span>
+    <span class="phpdocumentor-element-found-in__line">140</span>
 
     </aside>
 
@@ -1769,7 +1764,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">189</span>
+    <span class="phpdocumentor-element-found-in__line">185</span>
 
     </aside>
 
@@ -1817,7 +1812,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">159</span>
+    <span class="phpdocumentor-element-found-in__line">155</span>
 
     </aside>
 
@@ -1861,7 +1856,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">119</span>
+    <span class="phpdocumentor-element-found-in__line">115</span>
 
     </aside>
 
@@ -1905,7 +1900,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">129</span>
+    <span class="phpdocumentor-element-found-in__line">125</span>
 
     </aside>
 
@@ -1949,7 +1944,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">109</span>
+    <span class="phpdocumentor-element-found-in__line">105</span>
 
     </aside>
 
@@ -1993,7 +1988,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">169</span>
+    <span class="phpdocumentor-element-found-in__line">165</span>
 
     </aside>
 
@@ -2037,7 +2032,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">149</span>
+    <span class="phpdocumentor-element-found-in__line">145</span>
 
     </aside>
 
@@ -2081,7 +2076,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SubscriberList.php"><a href="files/src-domain-model-messaging-subscriberlist.html"><abbr title="src/Domain/Model/Messaging/SubscriberList.php">SubscriberList.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">139</span>
+    <span class="phpdocumentor-element-found-in__line">135</span>
 
     </aside>
 
@@ -2170,7 +2165,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
@@ -2264,7 +2259,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -2408,11 +2403,11 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_creationDate">$creationDate</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_modificationDate">$modificationDate</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_category">$category</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_description">$description</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id">$id</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_listPosition">$listPosition</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate">$modificationDate</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_name">$name</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_owner">$owner</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_public">$public</a></li>
