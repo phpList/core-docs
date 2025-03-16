@@ -152,21 +152,10 @@
         #[<abbr title="\Doctrine\ORM\Mapping\Index">Index</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $name: &quot;midindex&quot;
+        $name: &#039;midindex&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $columns: [&quot;messageid&quot;]
-    </dd>
-    </dl>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\Index">Index</abbr>]
-    </dt>
-        <dd class="phpdocumentor-argument-list__entry">
-        $name: &quot;miduidindex&quot;
-    </dd>
-        <dd class="phpdocumentor-argument-list__entry">
-        $columns: [&quot;messageid&quot;, &quot;userid&quot;]
+        $columns: [&#039;messageid&#039;]
     </dd>
     </dl>
                     <dl class="phpdocumentor-argument-list">
@@ -174,10 +163,10 @@
         #[<abbr title="\Doctrine\ORM\Mapping\Index">Index</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $name: &quot;uidindex&quot;
+        $name: &#039;miduidindex&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $columns: [&quot;userid&quot;]
+        $columns: [&#039;messageid&#039;, &#039;userid&#039;]
     </dd>
     </dl>
                     <dl class="phpdocumentor-argument-list">
@@ -185,10 +174,21 @@
         #[<abbr title="\Doctrine\ORM\Mapping\Index">Index</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $name: &quot;urlindex&quot;
+        $name: &#039;uidindex&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $columns: [&quot;url&quot;]
+        $columns: [&#039;userid&#039;]
+    </dd>
+    </dl>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\Index">Index</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $name: &#039;urlindex&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $columns: [&#039;url&#039;]
     </dd>
     </dl>
                     <dl class="phpdocumentor-argument-list">
@@ -196,7 +196,7 @@
         #[<abbr title="\Doctrine\ORM\Mapping\Table">Table</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $name: &quot;phplist_linktrack&quot;
+        $name: &#039;phplist_linktrack&#039;
     </dd>
     </dl>
                     <dl class="phpdocumentor-argument-list">
@@ -204,10 +204,10 @@
         #[<abbr title="\Doctrine\ORM\Mapping\UniqueConstraint">UniqueConstraint</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $name: &quot;miduidurlindex&quot;
+        $name: &#039;miduidurlindex&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $columns: [&quot;messageid&quot;, &quot;userid&quot;, &quot;url&quot;]
+        $columns: [&#039;messageid&#039;, &#039;userid&#039;, &#039;url&#039;]
     </dd>
     </dl>
             </section>
@@ -444,13 +444,13 @@
         #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $type: &quot;integer&quot;
+        $type: &#039;integer&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $nullable: true
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $options: [&quot;default&quot; =&gt; 0]
+        $options: [&#039;default&#039; =&gt; 0]
     </dd>
     </dl>
             </section>
@@ -503,7 +503,7 @@
         $name: &#039;firstclick&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $type: &quot;datetime&quot;
+        $type: &#039;datetime&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $nullable: true
@@ -556,7 +556,7 @@
         #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $type: &quot;string&quot;
+        $type: &#039;string&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $length: 255
@@ -615,7 +615,7 @@
         $name: &#039;linkid&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $type: &quot;integer&quot;
+        $type: &#039;integer&#039;
     </dd>
     </dl>
                     <dl class="phpdocumentor-argument-list">
@@ -678,13 +678,13 @@
         $name: &#039;latestclick&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $type: &quot;datetime&quot;
+        $type: &#039;datetime&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $nullable: true
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $options: [&quot;default&quot; =&gt; &quot;CURRENT_TIMESTAMP&quot;]
+        $options: [&#039;default&#039; =&gt; &#039;CURRENT_TIMESTAMP&#039;]
     </dd>
     </dl>
             </section>
@@ -737,7 +737,7 @@
         $name: &#039;messageid&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $type: &quot;integer&quot;
+        $type: &#039;integer&#039;
     </dd>
     </dl>
             </section>
@@ -787,7 +787,7 @@
         #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $type: &quot;string&quot;
+        $type: &#039;string&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $length: 255
@@ -846,7 +846,7 @@
         $name: &#039;userid&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $type: &quot;integer&quot;
+        $type: &#039;integer&#039;
     </dd>
     </dl>
             </section>
