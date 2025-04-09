@@ -127,7 +127,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscription.php"><a href="files/src-domain-model-subscription-subscription.html"><abbr title="src/Domain/Model/Subscription/Subscription.php">Subscription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -152,6 +152,15 @@ campaigns for those subscriber lists.</p>
 </section>
 
                                     </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Tatevik Grigoryan <a href="mailto:tatevik@phplist.com">tatevik@phplist.com</a></p>
+</section>
+
+                                    </dd>
                                             </dl>
 
 
@@ -165,7 +174,7 @@ campaigns for those subscriber lists.</p>
         #[<abbr title="\Doctrine\ORM\Mapping\Entity">Entity</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $repositoryClass: &#039;PhpList\Core\Domain\Repository\Subscription\SubscriptionRepository&#039;
+        $repositoryClass: \PhpList\Core\Domain\Repository\Subscription\SubscriptionRepository::class
     </dd>
     </dl>
                     <dl class="phpdocumentor-argument-list">
@@ -277,7 +286,7 @@ campaigns for those subscriber lists.</p>
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#property_subscriberList">$subscriberList</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Messaging\SubscriberList">SubscriberList</abbr></a>|null            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberList">SubscriberList</abbr></a>|null            </span>
 </dt>
 
     </dl>
@@ -309,19 +318,19 @@ campaigns for those subscriber lists.</p>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#method_getSubscriberList">getSubscriberList()</a>
     <span>
-                                &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Messaging\SubscriberList">SubscriberList</abbr></a>|null    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberList">SubscriberList</abbr></a>|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#method_setSubscriber">setSubscriber()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: self    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#method_setSubscriberList">setSubscriberList()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: self    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -378,7 +387,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscription.php"><a href="files/src-domain-model-subscription-subscription.html"><abbr title="src/Domain/Model/Subscription/Subscription.php">Subscription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -495,7 +504,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscription.php"><a href="files/src-domain-model-subscription-subscription.html"><abbr title="src/Domain/Model/Subscription/Subscription.php">Subscription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -535,7 +544,7 @@ campaigns for those subscriber lists.</p>
         #[<abbr title="\Doctrine\ORM\Mapping\ManyToOne">ManyToOne</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $targetEntity: &#039;PhpList\Core\Domain\Model\Subscription\Subscriber&#039;
+        $targetEntity: \PhpList\Core\Domain\Model\Subscription\Subscriber::class
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $inversedBy: &#039;subscriptions&#039;
@@ -569,7 +578,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscription.php"><a href="files/src-domain-model-subscription-subscription.html"><abbr title="src/Domain/Model/Subscription/Subscription.php">Subscription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">51</span>
 
     </aside>
 
@@ -577,7 +586,7 @@ campaigns for those subscriber lists.</p>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Messaging\SubscriberList">SubscriberList</abbr></a>|null</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberList">SubscriberList</abbr></a>|null</span>
     <span class="phpdocumentor-signature__name">$subscriberList</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
@@ -625,7 +634,7 @@ campaigns for those subscriber lists.</p>
         #[<abbr title="\Doctrine\ORM\Mapping\ManyToOne">ManyToOne</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $targetEntity: &#039;PhpList\Core\Domain\Model\Messaging\SubscriberList&#039;
+        $targetEntity: \PhpList\Core\Domain\Model\Subscription\SubscriberList::class
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $inversedBy: &#039;subscriptions&#039;
@@ -732,7 +741,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscription.php"><a href="files/src-domain-model-subscription-subscription.html"><abbr title="src/Domain/Model/Subscription/Subscription.php">Subscription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">60</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
     </aside>
 
@@ -770,14 +779,14 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscription.php"><a href="files/src-domain-model-subscription-subscription.html"><abbr title="src/Domain/Model/Subscription/Subscription.php">Subscription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getSubscriberList</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Messaging\SubscriberList">SubscriberList</abbr></a>|null</span></code>
+                    <span class="phpdocumentor-signature__name">getSubscriberList</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberList">SubscriberList</abbr></a>|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -790,7 +799,7 @@ campaigns for those subscriber lists.</p>
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Messaging\SubscriberList">SubscriberList</abbr></a>|null</span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberList">SubscriberList</abbr></a>|null</span>
             </section>
 
 </article>
@@ -808,14 +817,14 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscription.php"><a href="files/src-domain-model-subscription-subscription.html"><abbr title="src/Domain/Model/Subscription/Subscription.php">Subscription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">66</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">setSubscriber</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\Subscriber">Subscriber</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">setSubscriber</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\Subscriber">Subscriber</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -836,7 +845,11 @@ campaigns for those subscriber lists.</p>
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -852,14 +865,14 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscription.php"><a href="files/src-domain-model-subscription-subscription.html"><abbr title="src/Domain/Model/Subscription/Subscription.php">Subscription.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">75</span>
+    <span class="phpdocumentor-element-found-in__line">77</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">setSubscriberList</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Messaging\SubscriberList">SubscriberList</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberList</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">setSubscriberList</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberList">SubscriberList</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberList</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -869,7 +882,7 @@ campaigns for those subscriber lists.</p>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$subscriberList</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Messaging\SubscriberList">SubscriberList</abbr></a>|null</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberList">SubscriberList</abbr></a>|null</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -880,7 +893,11 @@ campaigns for those subscriber lists.</p>
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element

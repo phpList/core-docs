@@ -217,9 +217,9 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_id">$id</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_attributeDefinition">$attributeDefinition</a>
     <span>
-                        &nbsp;: int            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberAttributeDefinition">SubscriberAttributeDefinition</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -249,9 +249,9 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getId">getId()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getAttributeDefinition">getAttributeDefinition()</a>
     <span>
-                                &nbsp;: int    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberAttributeDefinition">SubscriberAttributeDefinition</abbr></a>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -292,9 +292,9 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_id">
-        $id
-        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_id" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_attributeDefinition">
+        $attributeDefinition
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_attributeDefinition" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
@@ -310,8 +310,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">int</span>
-    <span class="phpdocumentor-signature__name">$id</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberAttributeDefinition">SubscriberAttributeDefinition</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$attributeDefinition</span>
     </code>
 
     
@@ -321,27 +321,38 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_id#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_attributeDefinition#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
     <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
+        #[<abbr title="\Doctrine\ORM\Mapping\Id">Id</abbr>]
+    </dt>
+    </dl>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\JoinColumn">JoinColumn</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
         $name: &#039;attributeid&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $type: &#039;integer&#039;
+        $referencedColumnName: &#039;id&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $nullable: false
     </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $onDelete: &#039;CASCADE&#039;
+    </dd>
     </dl>
                     <dl class="phpdocumentor-argument-list">
     <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\Id">Id</abbr>]
+        #[<abbr title="\Doctrine\ORM\Mapping\ManyToOne">ManyToOne</abbr>]
     </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $targetEntity: \PhpList\Core\Domain\Model\Subscription\SubscriberAttributeDefinition::class
+    </dd>
     </dl>
             </section>
 
@@ -363,7 +374,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttribute.php"><a href="files/src-domain-model-subscription-subscriberattribute.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttribute.php">SubscriberAttribute.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -435,7 +446,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttribute.php"><a href="files/src-domain-model-subscription-subscriberattribute.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttribute.php">SubscriberAttribute.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -496,14 +507,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttribute.php"><a href="files/src-domain-model-subscription-subscriberattribute.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttribute.php">SubscriberAttribute.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberAttributeDefinition">SubscriberAttributeDefinition</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeDefinition</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -512,8 +523,8 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$id</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                <span class="phpdocumentor-signature__argument__name">$attributeDefinition</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberAttributeDefinition">SubscriberAttributeDefinition</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -539,22 +550,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getId">
-        getId()
-        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getAttributeDefinition">
+        getAttributeDefinition()
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getAttributeDefinition" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttribute.php"><a href="files/src-domain-model-subscription-subscriberattribute.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttribute.php">SubscriberAttribute.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getAttributeDefinition</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberAttributeDefinition">SubscriberAttributeDefinition</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -567,7 +578,7 @@
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">int</span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\SubscriberAttributeDefinition">SubscriberAttributeDefinition</abbr></a></span>
             </section>
 
 </article>
@@ -585,7 +596,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttribute.php"><a href="files/src-domain-model-subscription-subscriberattribute.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttribute.php">SubscriberAttribute.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -623,7 +634,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttribute.php"><a href="files/src-domain-model-subscription-subscriberattribute.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttribute.php">SubscriberAttribute.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 
     </aside>
 
@@ -661,7 +672,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttribute.php"><a href="files/src-domain-model-subscription-subscriberattribute.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttribute.php">SubscriberAttribute.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">51</span>
 
     </aside>
 
@@ -808,7 +819,7 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_id">$id</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_attributeDefinition">$attributeDefinition</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_subscriber">$subscriber</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_value">$value</a></li>
                                             </ul>
@@ -818,7 +829,7 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getId">getId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getAttributeDefinition">getAttributeDefinition()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getSubscriber">getSubscriber()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getValue">getValue()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_setValue">setValue()</a></li>

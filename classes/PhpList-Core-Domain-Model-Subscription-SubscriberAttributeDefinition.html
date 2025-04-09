@@ -95,12 +95,12 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-model.html">Model</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-model-identity.html">Identity</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-model-subscription.html">Subscription</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    AdminAttribute
+    SubscriberAttributeDefinition
 
     
             <div class="phpdocumentor-element__package">
@@ -125,9 +125,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
@@ -139,28 +139,42 @@
 
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
     <dt class="phpdocumentor-argument-list__entry">
         #[<abbr title="\Doctrine\ORM\Mapping\Entity">Entity</abbr>]
     </dt>
+    </dl>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\Index">Index</abbr>]
+    </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $repositoryClass: \PhpList\Core\Domain\Repository\Identity\AdminAttributeRepository::class
+        $name: &#039;idnameindex&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $columns: [&#039;id&#039;, &#039;name&#039;]
     </dd>
     </dl>
                     <dl class="phpdocumentor-argument-list">
     <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\HasLifecycleCallbacks">HasLifecycleCallbacks</abbr>]
+        #[<abbr title="\Doctrine\ORM\Mapping\Index">Index</abbr>]
     </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $name: &#039;nameindex&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $columns: [&#039;name&#039;]
+    </dd>
     </dl>
                     <dl class="phpdocumentor-argument-list">
     <dt class="phpdocumentor-argument-list__entry">
         #[<abbr title="\Doctrine\ORM\Mapping\Table">Table</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
-        $name: &#039;phplist_admin_attribute&#039;
+        $name: &#039;phplist_user_attribute&#039;
     </dd>
     </dl>
             </section>
@@ -169,7 +183,7 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -177,7 +191,7 @@
 
     <h4 id="toc-interfaces">
         Interfaces
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <dl class="phpdocumentor-table-of-contents">
@@ -190,12 +204,12 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_defaultValue">$defaultValue</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_defaultValue">$defaultValue</a>
     <span>
                         &nbsp;: string|null            </span>
 </dt>
@@ -207,31 +221,31 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_listOrder">$listOrder</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_listOrder">$listOrder</a>
     <span>
                         &nbsp;: int|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_name">$name</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_name">$name</a>
     <span>
                         &nbsp;: string            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_required">$required</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_required">$required</a>
     <span>
                         &nbsp;: bool|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_tableName">$tableName</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_tableName">$tableName</a>
     <span>
                         &nbsp;: string|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_type">$type</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_type">$type</a>
     <span>
                         &nbsp;: string|null            </span>
 </dt>
@@ -240,90 +254,84 @@
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method___construct">__construct()</a>
-    <span>
-                                &nbsp;: mixed    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getDefaultValue">getDefaultValue()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getDefaultValue">getDefaultValue()</a>
     <span>
                                 &nbsp;: string|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getId">getId()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId">getId()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getListOrder">getListOrder()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getListOrder">getListOrder()</a>
     <span>
                                 &nbsp;: int|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getName">getName()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getName">getName()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getTableName">getTableName()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getTableName">getTableName()</a>
     <span>
                                 &nbsp;: string|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getType">getType()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getType">getType()</a>
     <span>
                                 &nbsp;: string|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_isRequired">isRequired()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_isRequired">isRequired()</a>
     <span>
                                 &nbsp;: bool|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setDefaultValue">setDefaultValue()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setDefaultValue">setDefaultValue()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setListOrder">setListOrder()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setListOrder">setListOrder()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setName">setName()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setName">setName()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setRequired">setRequired()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setRequired">setRequired()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setTableName">setTableName()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setTableName">setTableName()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setType">setType()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setType">setType()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
@@ -338,7 +346,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -350,13 +358,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_defaultValue">
         $defaultValue
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_defaultValue" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_defaultValue" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">29</span>
 
@@ -368,7 +376,7 @@
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">string|null</span>
     <span class="phpdocumentor-signature__name">$defaultValue</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -377,7 +385,7 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_defaultValue#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_defaultValue#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -485,13 +493,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_listOrder">
         $listOrder
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_listOrder" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_listOrder" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">26</span>
 
@@ -503,7 +511,7 @@
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">int|null</span>
     <span class="phpdocumentor-signature__name">$listOrder</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -512,7 +520,7 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_listOrder#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_listOrder#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -541,13 +549,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_name">
         $name
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_name" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_name" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">20</span>
 
@@ -568,7 +576,7 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_name#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_name#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -597,13 +605,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_required">
         $required
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_required" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_required" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">32</span>
 
@@ -615,7 +623,7 @@
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">bool|null</span>
     <span class="phpdocumentor-signature__name">$required</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -624,13 +632,16 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_required#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_required#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
     <dt class="phpdocumentor-argument-list__entry">
         #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
     </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $name: &#039;required&#039;
+    </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $type: &#039;boolean&#039;
     </dd>
@@ -650,13 +661,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_tableName">
         $tableName
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_tableName" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_tableName" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">35</span>
 
@@ -668,7 +679,7 @@
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">string|null</span>
     <span class="phpdocumentor-signature__name">$tableName</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -677,7 +688,7 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_tableName#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_tableName#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -709,13 +720,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_type">
         $type
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_type" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_type" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">23</span>
 
@@ -727,7 +738,7 @@
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">string|null</span>
     <span class="phpdocumentor-signature__name">$type</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -736,7 +747,7 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_type#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_type#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -764,7 +775,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -773,94 +784,15 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method___construct">
-        __construct()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">38</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listOrder</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$defaultValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$required</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tableName</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$name</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$type</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$listOrder</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$defaultValue</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$required</span>
-                : <span class="phpdocumentor-signature__argument__return-type">bool|null</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$tableName</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getDefaultValue">
         getDefaultValue()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getDefaultValue" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getDefaultValue" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">74</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 
     </aside>
 
@@ -892,13 +824,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getId">
         getId()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/IdentityTrait.php"><a href="files/src-domain-model-traits-identitytrait.html"><abbr title="src/Domain/Model/Traits/IdentityTrait.php">IdentityTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -930,13 +862,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getListOrder">
         getListOrder()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getListOrder" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getListOrder" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
     </aside>
 
@@ -968,13 +900,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getName">
         getName()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getName" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getName" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -1006,13 +938,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getTableName">
         getTableName()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getTableName" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getTableName" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">84</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
     </aside>
 
@@ -1044,13 +976,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getType">
         getType()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getType" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getType" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
     </aside>
 
@@ -1082,13 +1014,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_isRequired">
         isRequired()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_isRequired" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_isRequired" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">79</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
@@ -1120,13 +1052,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_setDefaultValue">
         setDefaultValue()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setDefaultValue" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setDefaultValue" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">110</span>
+    <span class="phpdocumentor-element-found-in__line">87</span>
 
     </aside>
 
@@ -1168,13 +1100,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_setListOrder">
         setListOrder()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setListOrder" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setListOrder" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">81</span>
 
     </aside>
 
@@ -1216,13 +1148,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_setName">
         setName()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setName" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setName" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">89</span>
+    <span class="phpdocumentor-element-found-in__line">69</span>
 
     </aside>
 
@@ -1264,13 +1196,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_setRequired">
         setRequired()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setRequired" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setRequired" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">117</span>
+    <span class="phpdocumentor-element-found-in__line">93</span>
 
     </aside>
 
@@ -1312,13 +1244,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_setTableName">
         setTableName()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setTableName" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setTableName" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">124</span>
+    <span class="phpdocumentor-element-found-in__line">99</span>
 
     </aside>
 
@@ -1360,13 +1292,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_setType">
         setType()
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setType" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setType" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/AdminAttribute.php"><a href="files/src-domain-model-identity-adminattribute.html"><abbr title="src/Domain/Model/Identity/AdminAttribute.php">AdminAttribute.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php"><a href="files/src-domain-model-subscription-subscriberattributedefinition.html"><abbr title="src/Domain/Model/Subscription/SubscriberAttributeDefinition.php">SubscriberAttributeDefinition.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">96</span>
+    <span class="phpdocumentor-element-found-in__line">75</span>
 
     </aside>
 
@@ -1406,7 +1338,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Model/Identity/AdminAttribute.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Model/Subscription/SubscriberAttributeDefinition.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -1505,41 +1437,40 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_defaultValue">$defaultValue</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_defaultValue">$defaultValue</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id">$id</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_listOrder">$listOrder</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_name">$name</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_required">$required</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_tableName">$tableName</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_type">$type</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_listOrder">$listOrder</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_name">$name</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_required">$required</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_tableName">$tableName</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_type">$type</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getDefaultValue">getDefaultValue()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getId">getId()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getListOrder">getListOrder()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getName">getName()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getTableName">getTableName()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getType">getType()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_isRequired">isRequired()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setDefaultValue">setDefaultValue()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setListOrder">setListOrder()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setName">setName()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setRequired">setRequired()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setTableName">setTableName()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setType">setType()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getDefaultValue">getDefaultValue()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId">getId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getListOrder">getListOrder()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getName">getName()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getTableName">getTableName()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getType">getType()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_isRequired">isRequired()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setDefaultValue">setDefaultValue()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setListOrder">setListOrder()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setName">setName()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setRequired">setRequired()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setTableName">setTableName()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setType">setType()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -1559,7 +1490,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

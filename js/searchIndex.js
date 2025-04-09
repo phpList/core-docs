@@ -1876,101 +1876,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdminPasswordRequest.html#property_keyValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute",
-            "name": "UserAttribute",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AgetName\u0028\u0029",
-            "name": "getName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_getName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AgetType\u0028\u0029",
-            "name": "getType",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_getType"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AgetListOrder\u0028\u0029",
-            "name": "getListOrder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_getListOrder"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AgetDefaultValue\u0028\u0029",
-            "name": "getDefaultValue",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_getDefaultValue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AisRequired\u0028\u0029",
-            "name": "isRequired",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_isRequired"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AgetTableName\u0028\u0029",
-            "name": "getTableName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_getTableName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AsetName\u0028\u0029",
-            "name": "setName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_setName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AsetType\u0028\u0029",
-            "name": "setType",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_setType"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AsetListOrder\u0028\u0029",
-            "name": "setListOrder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_setListOrder"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AsetDefaultValue\u0028\u0029",
-            "name": "setDefaultValue",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_setDefaultValue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AsetRequired\u0028\u0029",
-            "name": "setRequired",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_setRequired"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003AsetTableName\u0028\u0029",
-            "name": "setTableName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#method_setTableName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003A\u0024name",
-            "name": "name",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#property_name"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003A\u0024type",
-            "name": "type",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#property_type"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003A\u0024listOrder",
-            "name": "listOrder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#property_listOrder"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003A\u0024defaultValue",
-            "name": "defaultValue",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#property_defaultValue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003A\u0024required",
-            "name": "required",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#property_required"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserAttribute\u003A\u003A\u0024tableName",
-            "name": "tableName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-UserAttribute.html#property_tableName"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\UserBlacklist",
             "name": "UserBlacklist",
             "summary": "",
@@ -3091,151 +2996,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_page"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList",
-            "name": "SubscriberList",
-            "summary": "This\u0020class\u0020represents\u0020an\u0020administrator\u0020who\u0020can\u0020log\u0020to\u0020the\u0020system,\u0020is\u0020allowed\u0020to\u0020administer\nselected\u0020lists\u0020\u0028as\u0020the\u0020owner\u0029,\u0020send\u0020campaigns\u0020to\u0020these\u0020lists\u0020and\u0020edit\u0020subscribers.",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AgetName\u0028\u0029",
-            "name": "getName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_getName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AsetName\u0028\u0029",
-            "name": "setName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_setName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_getDescription"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AsetDescription\u0028\u0029",
-            "name": "setDescription",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_setDescription"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AgetListPosition\u0028\u0029",
-            "name": "getListPosition",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_getListPosition"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AsetListPosition\u0028\u0029",
-            "name": "setListPosition",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_setListPosition"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AgetSubjectPrefix\u0028\u0029",
-            "name": "getSubjectPrefix",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_getSubjectPrefix"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AsetSubjectPrefix\u0028\u0029",
-            "name": "setSubjectPrefix",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_setSubjectPrefix"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AisPublic\u0028\u0029",
-            "name": "isPublic",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_isPublic"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AsetPublic\u0028\u0029",
-            "name": "setPublic",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_setPublic"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AgetCategory\u0028\u0029",
-            "name": "getCategory",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_getCategory"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AsetCategory\u0028\u0029",
-            "name": "setCategory",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_setCategory"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AgetOwner\u0028\u0029",
-            "name": "getOwner",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_getOwner"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AsetOwner\u0028\u0029",
-            "name": "setOwner",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_setOwner"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AgetSubscriptions\u0028\u0029",
-            "name": "getSubscriptions",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_getSubscriptions"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AaddSubscription\u0028\u0029",
-            "name": "addSubscription",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_addSubscription"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AremoveSubscription\u0028\u0029",
-            "name": "removeSubscription",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_removeSubscription"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003AgetSubscribers\u0028\u0029",
-            "name": "getSubscribers",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#method_getSubscribers"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024name",
-            "name": "name",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_name"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024description",
-            "name": "description",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_description"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024creationDate",
-            "name": "creationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_creationDate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024listPosition",
-            "name": "listPosition",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_listPosition"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024subjectPrefix",
-            "name": "subjectPrefix",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_subjectPrefix"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024public",
-            "name": "public",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_public"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024category",
-            "name": "category",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_category"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024owner",
-            "name": "owner",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_owner"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SubscriberList\u003A\u003A\u0024subscriptions",
-            "name": "subscriptions",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-SubscriberList.html#property_subscriptions"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template",
             "name": "Template",
             "summary": "",
@@ -3856,6 +3616,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getSubscribedLists"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AgetAttributes\u0028\u0029",
+            "name": "getAttributes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getAttributes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AaddAttribute\u0028\u0029",
+            "name": "addAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_addAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AremoveAttribute\u0028\u0029",
+            "name": "removeAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_removeAttribute"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024creationDate",
             "name": "creationDate",
             "summary": "",
@@ -3906,6 +3681,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_subscriptions"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024attributes",
+            "name": "attributes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_attributes"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute",
             "name": "SubscriberAttribute",
             "summary": "",
@@ -3916,10 +3696,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003AgetId\u0028\u0029",
-            "name": "getId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003AgetAttributeDefinition\u0028\u0029",
+            "name": "getAttributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getId"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getAttributeDefinition"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003AgetSubscriber\u0028\u0029",
             "name": "getSubscriber",
@@ -3936,10 +3716,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_setValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003A\u0024id",
-            "name": "id",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003A\u0024attributeDefinition",
+            "name": "attributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_id"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_attributeDefinition"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003A\u0024subscriber",
             "name": "subscriber",
@@ -3950,6 +3730,101 @@ Search.appendIndex(
             "name": "value",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_value"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition",
+            "name": "SubscriberAttributeDefinition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetName\u0028\u0029",
+            "name": "getName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetType\u0028\u0029",
+            "name": "getType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetListOrder\u0028\u0029",
+            "name": "getListOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getListOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetDefaultValue\u0028\u0029",
+            "name": "getDefaultValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getDefaultValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AisRequired\u0028\u0029",
+            "name": "isRequired",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_isRequired"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetTableName\u0028\u0029",
+            "name": "getTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetName\u0028\u0029",
+            "name": "setName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetType\u0028\u0029",
+            "name": "setType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetListOrder\u0028\u0029",
+            "name": "setListOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setListOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetDefaultValue\u0028\u0029",
+            "name": "setDefaultValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setDefaultValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetRequired\u0028\u0029",
+            "name": "setRequired",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setRequired"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetTableName\u0028\u0029",
+            "name": "setTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_name"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024type",
+            "name": "type",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_type"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024listOrder",
+            "name": "listOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_listOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024defaultValue",
+            "name": "defaultValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_defaultValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024required",
+            "name": "required",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_required"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024tableName",
+            "name": "tableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_tableName"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory",
             "name": "SubscriberHistory",
@@ -4045,6 +3920,151 @@ Search.appendIndex(
             "name": "systemInfo",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#property_systemInfo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList",
+            "name": "SubscriberList",
+            "summary": "This\u0020class\u0020represents\u0020an\u0020administrator\u0020who\u0020can\u0020log\u0020to\u0020the\u0020system,\u0020is\u0020allowed\u0020to\u0020administer\nselected\u0020lists\u0020\u0028as\u0020the\u0020owner\u0029,\u0020send\u0020campaigns\u0020to\u0020these\u0020lists\u0020and\u0020edit\u0020subscribers.",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetName\u0028\u0029",
+            "name": "getName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AsetName\u0028\u0029",
+            "name": "setName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_setName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AsetDescription\u0028\u0029",
+            "name": "setDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_setDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetListPosition\u0028\u0029",
+            "name": "getListPosition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getListPosition"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AsetListPosition\u0028\u0029",
+            "name": "setListPosition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_setListPosition"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetSubjectPrefix\u0028\u0029",
+            "name": "getSubjectPrefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getSubjectPrefix"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AsetSubjectPrefix\u0028\u0029",
+            "name": "setSubjectPrefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_setSubjectPrefix"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AisPublic\u0028\u0029",
+            "name": "isPublic",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_isPublic"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AsetPublic\u0028\u0029",
+            "name": "setPublic",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_setPublic"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetCategory\u0028\u0029",
+            "name": "getCategory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getCategory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AsetCategory\u0028\u0029",
+            "name": "setCategory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_setCategory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetOwner\u0028\u0029",
+            "name": "getOwner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AsetOwner\u0028\u0029",
+            "name": "setOwner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_setOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetSubscriptions\u0028\u0029",
+            "name": "getSubscriptions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getSubscriptions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AaddSubscription\u0028\u0029",
+            "name": "addSubscription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_addSubscription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AremoveSubscription\u0028\u0029",
+            "name": "removeSubscription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_removeSubscription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetSubscribers\u0028\u0029",
+            "name": "getSubscribers",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getSubscribers"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_name"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024description",
+            "name": "description",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_description"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024creationDate",
+            "name": "creationDate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_creationDate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024listPosition",
+            "name": "listPosition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_listPosition"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024subjectPrefix",
+            "name": "subjectPrefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_subjectPrefix"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024public",
+            "name": "public",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_public"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024category",
+            "name": "category",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_category"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024owner",
+            "name": "owner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_owner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024subscriptions",
+            "name": "subscriptions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_subscriptions"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription",
             "name": "Subscription",
@@ -4286,15 +4306,15 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\SubscriberListRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberListRepository",
             "name": "SubscriberListRepository",
             "summary": "Repository\u0020for\u0020SubscriberList\u0020models.",
-            "url": "classes/PhpList-Core-Domain-Repository-Messaging-SubscriberListRepository.html"
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberListRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\SubscriberListRepository\u003A\u003AfindWithSubscription\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberListRepository\u003A\u003AfindWithSubscription\u0028\u0029",
             "name": "findWithSubscription",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Repository-Messaging-SubscriberListRepository.html#method_findWithSubscription"
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberListRepository.html#method_findWithSubscription"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberRepository",
             "name": "SubscriberRepository",
