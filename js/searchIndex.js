@@ -4346,6 +4346,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriptionRepository.html#method_findOneBySubscriberListAndSubscriber"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriptionRepository\u003A\u003AfindOneBySubscriberEmailAndListId\u0028\u0029",
+            "name": "findOneBySubscriberEmailAndListId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriptionRepository.html#method_findOneBySubscriberEmailAndListId"
+        },                {
             "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\Controller\\DefaultController",
             "name": "DefaultController",
             "summary": "This\u0020controller\u0020provides\u0020an\u0020empty\u0020start\u0020page.",
@@ -5240,6 +5245,16 @@ Search.appendIndex(
             "name": "testFindOneBySubscriberListAndSubscriberForBothMatchingReturnsMatch",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testFindOneBySubscriberListAndSubscriberForBothMatchingReturnsMatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestFindOneByListIdAndSubscriberEmailForNeitherMatchingReturnsNull\u0028\u0029",
+            "name": "testFindOneByListIdAndSubscriberEmailForNeitherMatchingReturnsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testFindOneByListIdAndSubscriberEmailForNeitherMatchingReturnsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003AtestFindOneByListIdAndSubscriberEmailForBothMatchingReturnsMatch\u0028\u0029",
+            "name": "testFindOneByListIdAndSubscriberEmailForBothMatchingReturnsMatch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Subscription-SubscriptionRepositoryTest.html#method_testFindOneByListIdAndSubscriberEmailForBothMatchingReturnsMatch"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriptionRepositoryTest\u003A\u003A\u0024subscriptionRepository",
             "name": "subscriptionRepository",
