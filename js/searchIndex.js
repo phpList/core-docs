@@ -2406,76 +2406,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#property_entered"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message",
-            "name": "Message",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003AgetFormat\u0028\u0029",
-            "name": "getFormat",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#method_getFormat"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003AgetSchedule\u0028\u0029",
-            "name": "getSchedule",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#method_getSchedule"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003AgetMetadata\u0028\u0029",
-            "name": "getMetadata",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#method_getMetadata"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003AgetContent\u0028\u0029",
-            "name": "getContent",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#method_getContent"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003AgetOptions\u0028\u0029",
-            "name": "getOptions",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#method_getOptions"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003AgetUuid\u0028\u0029",
-            "name": "getUuid",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#method_getUuid"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003A\u0024format",
-            "name": "format",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#property_format"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003A\u0024schedule",
-            "name": "schedule",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#property_schedule"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003A\u0024metadata",
-            "name": "metadata",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#property_metadata"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003A\u0024content",
-            "name": "content",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#property_content"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003A\u0024options",
-            "name": "options",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#property_options"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\Message\u003A\u003A\u0024uuid",
-            "name": "uuid",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-Message.html#property_uuid"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageContent",
             "name": "MessageContent",
             "summary": "",
@@ -2556,35 +2486,75 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_getSendFormat"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AgetAsText\u0028\u0029",
-            "name": "getAsText",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AisAsText\u0028\u0029",
+            "name": "isAsText",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_getAsText"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_isAsText"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AgetAsHtml\u0028\u0029",
-            "name": "getAsHtml",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AisAsHtml\u0028\u0029",
+            "name": "isAsHtml",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_getAsHtml"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_isAsHtml"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AgetAsTextAndHtml\u0028\u0029",
-            "name": "getAsTextAndHtml",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AisAsTextAndHtml\u0028\u0029",
+            "name": "isAsTextAndHtml",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_getAsTextAndHtml"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_isAsTextAndHtml"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AgetAsPdf\u0028\u0029",
-            "name": "getAsPdf",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AisAsPdf\u0028\u0029",
+            "name": "isAsPdf",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_getAsPdf"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_isAsPdf"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AgetAsTextAndPdf\u0028\u0029",
-            "name": "getAsTextAndPdf",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AisAsTextAndPdf\u0028\u0029",
+            "name": "isAsTextAndPdf",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_getAsTextAndPdf"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_isAsTextAndPdf"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AsetSendFormat\u0028\u0029",
             "name": "setSendFormat",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_setSendFormat"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AsetAsText\u0028\u0029",
+            "name": "setAsText",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_setAsText"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AsetAsHtml\u0028\u0029",
+            "name": "setAsHtml",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_setAsHtml"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AsetAsPdf\u0028\u0029",
+            "name": "setAsPdf",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_setAsPdf"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AsetAsTextAndHtml\u0028\u0029",
+            "name": "setAsTextAndHtml",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_setAsTextAndHtml"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AsetAsTextAndPdf\u0028\u0029",
+            "name": "setAsTextAndPdf",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#method_setAsTextAndPdf"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AFORMAT_TEXT",
+            "name": "FORMAT_TEXT",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#constant_FORMAT_TEXT"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AFORMAT_HTML",
+            "name": "FORMAT_HTML",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#constant_FORMAT_HTML"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003AFORMAT_PDF",
+            "name": "FORMAT_PDF",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#constant_FORMAT_PDF"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003A\u0024htmlFormatted",
             "name": "htmlFormatted",
@@ -2606,15 +2576,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#property_asHtml"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003A\u0024asTextAndHtml",
-            "name": "asTextAndHtml",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#property_asTextAndHtml"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003A\u0024asPdf",
             "name": "asPdf",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#property_asPdf"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003A\u0024asTextAndHtml",
+            "name": "asTextAndHtml",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageFormat.html#property_asTextAndHtml"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageFormat\u003A\u003A\u0024asTextAndPdf",
             "name": "asTextAndPdf",
@@ -2636,20 +2606,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getStatus"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageMetadata\u003A\u003AgetProcessed\u0028\u0029",
-            "name": "getProcessed",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageMetadata\u003A\u003AisProcessed\u0028\u0029",
+            "name": "isProcessed",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getProcessed"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_isProcessed"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageMetadata\u003A\u003AsetProcessed\u0028\u0029",
             "name": "setProcessed",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setProcessed"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageMetadata\u003A\u003AgetViewed\u0028\u0029",
-            "name": "getViewed",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageMetadata\u003A\u003AsetViews\u0028\u0029",
+            "name": "setViews",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getViewed"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setViews"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageMetadata\u003A\u003AgetViews\u0028\u0029",
+            "name": "getViews",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getViews"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageMetadata\u003A\u003AgetBounceCount\u0028\u0029",
             "name": "getBounceCount",
@@ -2716,10 +2691,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#method_getToField"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003AgetReplyToO\u0028\u0029",
-            "name": "getReplyToO",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003AgetReplyTo\u0028\u0029",
+            "name": "getReplyTo",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#method_getReplyToO"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#method_getReplyTo"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003AgetEmbargo\u0028\u0029",
             "name": "getEmbargo",
@@ -2731,11 +2706,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#method_getUserSelection"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003AgetTemplate\u0028\u0029",
-            "name": "getTemplate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#method_getTemplate"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003AgetSendStart\u0028\u0029",
             "name": "getSendStart",
             "summary": "",
@@ -2745,11 +2715,6 @@ Search.appendIndex(
             "name": "getRssTemplate",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#method_getRssTemplate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003AgetOwner\u0028\u0029",
-            "name": "getOwner",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#method_getOwner"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003A\u0024fromField",
             "name": "fromField",
@@ -2776,11 +2741,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#property_userSelection"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003A\u0024template",
-            "name": "template",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#property_template"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003A\u0024sendStart",
             "name": "sendStart",
             "summary": "",
@@ -2790,11 +2750,6 @@ Search.appendIndex(
             "name": "rssTemplate",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#property_rssTemplate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003A\u0024owner",
-            "name": "owner",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#property_owner"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageSchedule",
             "name": "MessageSchedule",
@@ -2845,6 +2800,96 @@ Search.appendIndex(
             "name": "requeueUntil",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageSchedule.html#property_requeueUntil"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message",
+            "name": "Message",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AgetFormat\u0028\u0029",
+            "name": "getFormat",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_getFormat"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AgetSchedule\u0028\u0029",
+            "name": "getSchedule",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_getSchedule"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AgetMetadata\u0028\u0029",
+            "name": "getMetadata",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_getMetadata"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AgetContent\u0028\u0029",
+            "name": "getContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_getContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AgetOptions\u0028\u0029",
+            "name": "getOptions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_getOptions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AgetUuid\u0028\u0029",
+            "name": "getUuid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_getUuid"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AgetOwner\u0028\u0029",
+            "name": "getOwner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_getOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AgetTemplate\u0028\u0029",
+            "name": "getTemplate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_getTemplate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024format",
+            "name": "format",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#property_format"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024schedule",
+            "name": "schedule",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#property_schedule"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024metadata",
+            "name": "metadata",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#property_metadata"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024content",
+            "name": "content",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#property_content"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024options",
+            "name": "options",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#property_options"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024uuid",
+            "name": "uuid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#property_uuid"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024owner",
+            "name": "owner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#property_owner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024template",
+            "name": "template",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#property_template"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\MessageAttachment",
             "name": "MessageAttachment",
@@ -4306,6 +4351,11 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\MessageRepository\u003A\u003AgetByOwnerId\u0028\u0029",
+            "name": "getByOwnerId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html#method_getByOwnerId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberListRepository",
             "name": "SubscriberListRepository",
             "summary": "Repository\u0020for\u0020SubscriberList\u0020models.",
@@ -4801,6 +4851,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-DetachedAdministratorTokenFixture.html#method_load"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\MessageFixture",
+            "name": "MessageFixture",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-MessageFixture.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\MessageFixture\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-MessageFixture.html#method_load"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriberFixture",
             "name": "SubscriberFixture",
             "summary": "",
@@ -4990,6 +5050,41 @@ Search.appendIndex(
             "name": "repository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\MessageRepositoryTest",
+            "name": "MessageRepositoryTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-MessageRepositoryTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\MessageRepositoryTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-MessageRepositoryTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\MessageRepositoryTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-MessageRepositoryTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\MessageRepositoryTest\u003A\u003AtestMessageIsPersistedAndFetchedCorrectly\u0028\u0029",
+            "name": "testMessageIsPersistedAndFetchedCorrectly",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-MessageRepositoryTest.html#method_testMessageIsPersistedAndFetchedCorrectly"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\MessageRepositoryTest\u003A\u003AtestGetByOwnerIdReturnsOnlyOwnedMessages\u0028\u0029",
+            "name": "testGetByOwnerIdReturnsOnlyOwnedMessages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-MessageRepositoryTest.html#method_testGetByOwnerIdReturnsOnlyOwnedMessages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\MessageRepositoryTest\u003A\u003AtestMessageTimestampsAreSetOnPersist\u0028\u0029",
+            "name": "testMessageTimestampsAreSetOnPersist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-MessageRepositoryTest.html#method_testMessageTimestampsAreSetOnPersist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\MessageRepositoryTest\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-MessageRepositoryTest.html#property_messageRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest",
             "name": "SubscriberListRepositoryTest",
@@ -5986,6 +6081,96 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#property_subject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest",
+            "name": "MessageTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003AtestIsDomainModel\u0028\u0029",
+            "name": "testIsDomainModel",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#method_testIsDomainModel"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003AtestUuidIsGenerated\u0028\u0029",
+            "name": "testUuidIsGenerated",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#method_testUuidIsGenerated"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003AtestGetFormat\u0028\u0029",
+            "name": "testGetFormat",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#method_testGetFormat"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003AtestGetSchedule\u0028\u0029",
+            "name": "testGetSchedule",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#method_testGetSchedule"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003AtestGetMetadata\u0028\u0029",
+            "name": "testGetMetadata",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#method_testGetMetadata"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003AtestGetContent\u0028\u0029",
+            "name": "testGetContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#method_testGetContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003AtestGetOptions\u0028\u0029",
+            "name": "testGetOptions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#method_testGetOptions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003AtestGetOwner\u0028\u0029",
+            "name": "testGetOwner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#method_testGetOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003AtestGetOwnerInitiallyNull\u0028\u0029",
+            "name": "testGetOwnerInitiallyNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#method_testGetOwnerInitiallyNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#property_message"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003A\u0024format",
+            "name": "format",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#property_format"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003A\u0024schedule",
+            "name": "schedule",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#property_schedule"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003A\u0024metadata",
+            "name": "metadata",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#property_metadata"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003A\u0024content",
+            "name": "content",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#property_content"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003A\u0024options",
+            "name": "options",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#property_options"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\MessageTest\u003A\u003A\u0024owner",
+            "name": "owner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-MessageTest.html#property_owner"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest",
             "name": "SubscriberListTest",
             "summary": "Testcase.",
@@ -6375,6 +6560,26 @@ Search.appendIndex(
             "name": "subject",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Identity-AdministratorTokenRepositoryTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Messaging\\MessageRepositoryTest",
+            "name": "MessageRepositoryTest",
+            "summary": "Testcase.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Messaging-MessageRepositoryTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Messaging\\MessageRepositoryTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Messaging-MessageRepositoryTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Messaging\\MessageRepositoryTest\u003A\u003AtestClassIsEntityRepository\u0028\u0029",
+            "name": "testClassIsEntityRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Messaging-MessageRepositoryTest.html#method_testClassIsEntityRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Messaging\\MessageRepositoryTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-Messaging-MessageRepositoryTest.html#property_subject"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Messaging\\SubscriberListRepositoryTest",
             "name": "SubscriberListRepositoryTest",
