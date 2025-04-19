@@ -4356,6 +4356,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html#method_getByOwnerId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\TemplateRepository",
+            "name": "TemplateRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-TemplateRepository.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberListRepository",
             "name": "SubscriberListRepository",
             "summary": "Repository\u0020for\u0020SubscriberList\u0020models.",
@@ -4821,75 +4826,85 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Core-BootstrapTest.html#property_subject"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\AdministratorFixture",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Identity\\AdministratorFixture",
             "name": "AdministratorFixture",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-AdministratorFixture.html"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Identity-AdministratorFixture.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\AdministratorFixture\u003A\u003Aload\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Identity\\AdministratorFixture\u003A\u003Aload\u0028\u0029",
             "name": "load",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-AdministratorFixture.html#method_load"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Identity-AdministratorFixture.html#method_load"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\AdministratorTokenWithAdministratorFixture",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Identity\\AdministratorTokenWithAdministratorFixture",
             "name": "AdministratorTokenWithAdministratorFixture",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-AdministratorTokenWithAdministratorFixture.html"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Identity-AdministratorTokenWithAdministratorFixture.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\AdministratorTokenWithAdministratorFixture\u003A\u003Aload\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Identity\\AdministratorTokenWithAdministratorFixture\u003A\u003Aload\u0028\u0029",
             "name": "load",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-AdministratorTokenWithAdministratorFixture.html#method_load"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Identity-AdministratorTokenWithAdministratorFixture.html#method_load"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\DetachedAdministratorTokenFixture",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Identity\\DetachedAdministratorTokenFixture",
             "name": "DetachedAdministratorTokenFixture",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-DetachedAdministratorTokenFixture.html"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Identity-DetachedAdministratorTokenFixture.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\DetachedAdministratorTokenFixture\u003A\u003Aload\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Identity\\DetachedAdministratorTokenFixture\u003A\u003Aload\u0028\u0029",
             "name": "load",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-DetachedAdministratorTokenFixture.html#method_load"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Identity-DetachedAdministratorTokenFixture.html#method_load"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\MessageFixture",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Messaging\\MessageFixture",
             "name": "MessageFixture",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-MessageFixture.html"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Messaging-MessageFixture.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\MessageFixture\u003A\u003Aload\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Messaging\\MessageFixture\u003A\u003Aload\u0028\u0029",
             "name": "load",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-MessageFixture.html#method_load"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Messaging-MessageFixture.html#method_load"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriberFixture",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Messaging\\TemplateFixture",
+            "name": "TemplateFixture",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Messaging-TemplateFixture.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Messaging\\TemplateFixture\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Messaging-TemplateFixture.html#method_load"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Subscription\\SubscriberFixture",
             "name": "SubscriberFixture",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriberFixture.html"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Subscription-SubscriberFixture.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriberFixture\u003A\u003Aload\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Subscription\\SubscriberFixture\u003A\u003Aload\u0028\u0029",
             "name": "load",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriberFixture.html#method_load"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Subscription-SubscriberFixture.html#method_load"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriberListFixture",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Subscription\\SubscriberListFixture",
             "name": "SubscriberListFixture",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriberListFixture.html"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Subscription-SubscriberListFixture.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriberListFixture\u003A\u003Aload\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Subscription\\SubscriberListFixture\u003A\u003Aload\u0028\u0029",
             "name": "load",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriberListFixture.html#method_load"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Subscription-SubscriberListFixture.html#method_load"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriptionFixture",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Subscription\\SubscriptionFixture",
             "name": "SubscriptionFixture",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriptionFixture.html"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Subscription-SubscriptionFixture.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\SubscriptionFixture\u003A\u003Aload\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Subscription\\SubscriptionFixture\u003A\u003Aload\u0028\u0029",
             "name": "load",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-SubscriptionFixture.html#method_load"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Fixtures-Subscription-SubscriptionFixture.html#method_load"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity\\AdministratorRepositoryTest",
             "name": "AdministratorRepositoryTest",
@@ -5175,6 +5190,41 @@ Search.appendIndex(
             "name": "subscriptionRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-SubscriberListRepositoryTest.html#property_subscriptionRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\TemplateRepositoryTest",
+            "name": "TemplateRepositoryTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-TemplateRepositoryTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\TemplateRepositoryTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-TemplateRepositoryTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\TemplateRepositoryTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-TemplateRepositoryTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\TemplateRepositoryTest\u003A\u003AtestGetAllTemplatesReturnsCorrectResults\u0028\u0029",
+            "name": "testGetAllTemplatesReturnsCorrectResults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-TemplateRepositoryTest.html#method_testGetAllTemplatesReturnsCorrectResults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\TemplateRepositoryTest\u003A\u003AtestTemplateIsPersistedAndFetchedCorrectly\u0028\u0029",
+            "name": "testTemplateIsPersistedAndFetchedCorrectly",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-TemplateRepositoryTest.html#method_testTemplateIsPersistedAndFetchedCorrectly"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\TemplateRepositoryTest\u003A\u003AtestGetAllTemplatesReturnsCorrectType\u0028\u0029",
+            "name": "testGetAllTemplatesReturnsCorrectType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-TemplateRepositoryTest.html#method_testGetAllTemplatesReturnsCorrectType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Messaging\\TemplateRepositoryTest\u003A\u003A\u0024templateRepository",
+            "name": "templateRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Repository-Messaging-TemplateRepositoryTest.html#property_templateRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Subscription\\SubscriberRepositoryTest",
             "name": "SubscriberRepositoryTest",
@@ -6951,6 +7001,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-integration-core.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Identity",
+            "name": "Identity",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-integration-domain-repository-fixtures-identity.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures",
             "name": "Fixtures",
             "summary": "",
@@ -6965,6 +7020,16 @@ Search.appendIndex(
             "name": "Domain",
             "summary": "",
             "url": "namespaces/phplist-core-tests-integration-domain.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Messaging",
+            "name": "Messaging",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-integration-domain-repository-fixtures-messaging.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Fixtures\\Subscription",
+            "name": "Subscription",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-integration-domain-repository-fixtures-subscription.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Repository\\Identity",
             "name": "Identity",
