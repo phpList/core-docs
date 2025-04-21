@@ -2931,6 +2931,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_getTemplate"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AsetTemplate\u0028\u0029",
+            "name": "setTemplate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_setTemplate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AsetFormat\u0028\u0029",
+            "name": "setFormat",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_setFormat"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AsetSchedule\u0028\u0029",
+            "name": "setSchedule",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_setSchedule"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AsetMetadata\u0028\u0029",
+            "name": "setMetadata",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_setMetadata"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AsetContent\u0028\u0029",
+            "name": "setContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_setContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AsetOptions\u0028\u0029",
+            "name": "setOptions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_setOptions"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024format",
             "name": "format",
             "summary": "",
