@@ -2406,6 +2406,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#property_entered"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\EmbeddableInterface",
+            "name": "EmbeddableInterface",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-EmbeddableInterface.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageContent",
             "name": "MessageContent",
             "summary": "",
