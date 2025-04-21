@@ -1981,6 +1981,11 @@ Search.appendIndex(
             "summary": "This\u0020is\u0020the\u0020interface\u0020all\u0020domain\u0020models\u0020\u0028entities\u0029\u0020should\u0020implement.",
             "url": "classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\EmbeddableInterface",
+            "name": "EmbeddableInterface",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Interfaces-EmbeddableInterface.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\Identity",
             "name": "Identity",
             "summary": "This\u0020interface\u0020communicates\u0020that\u0020a\u0020domain\u0020model\u0020has\u0020an\u0020ID\u0020property.",
@@ -2405,11 +2410,6 @@ Search.appendIndex(
             "name": "entered",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#property_entered"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\EmbeddableInterface",
-            "name": "EmbeddableInterface",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-EmbeddableInterface.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageContent",
             "name": "MessageContent",
