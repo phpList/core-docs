@@ -185,6 +185,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_sendStart">$sendStart</a>
+    <span>
+                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_sent">$sent</a>
     <span>
                         &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
@@ -229,6 +235,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getSendStart">getSendStart()</a>
+    <span>
+                                &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getSent">getSent()</a>
     <span>
                                 &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null    </span>
@@ -266,6 +278,12 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setProcessed">setProcessed()</a>
+    <span>
+                                &nbsp;: self    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setSendStart">setSendStart()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
@@ -470,6 +488,62 @@
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="property_sendStart">
+        $sendStart
+        <a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_sendStart" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+    <span class="phpdocumentor-signature__name">$sendStart</span>
+    </code>
+
+    
+    
+    
+
+    
+    <section class="phpdocumentor-attributes">
+        <h5 class="phpdocumentor-elements__header" id="attributes">
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_sendStart#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h5>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $name: &#039;sendstart&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $type: &#039;datetime&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $nullable: true
+    </dd>
+    </dl>
+            </section>
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="property_sent">
         $sent
         <a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_sent" class="headerlink"><i class="fas fa-link"></i></a>
@@ -647,14 +721,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bounceCount</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entered</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sent</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bounceCount</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entered</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sent</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sendStart</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -690,6 +764,13 @@
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sendStart</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -712,7 +793,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">78</span>
+    <span class="phpdocumentor-element-found-in__line">83</span>
 
     </aside>
 
@@ -750,7 +831,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">83</span>
+    <span class="phpdocumentor-element-found-in__line">88</span>
 
     </aside>
 
@@ -758,6 +839,44 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">getEntered</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSendStart">
+        getSendStart()
+        <a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getSendStart" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">116</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getSendStart</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -788,7 +907,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">88</span>
+    <span class="phpdocumentor-element-found-in__line">93</span>
 
     </aside>
 
@@ -826,7 +945,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
@@ -864,7 +983,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 
@@ -902,7 +1021,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
     </aside>
 
@@ -940,7 +1059,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">93</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 
     </aside>
 
@@ -988,7 +1107,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">99</span>
+    <span class="phpdocumentor-element-found-in__line">104</span>
 
     </aside>
 
@@ -1036,7 +1155,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">66</span>
 
     </aside>
 
@@ -1076,6 +1195,54 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_setSendStart">
+        setSendStart()
+        <a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setSendStart" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">121</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setSendStart</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sendStart</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sendStart</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_setSent">
         setSent()
         <a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setSent" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1084,7 +1251,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">105</span>
+    <span class="phpdocumentor-element-found-in__line">110</span>
 
     </aside>
 
@@ -1132,7 +1299,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
@@ -1180,7 +1347,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/Message/MessageMetadata.php"><a href="files/src-domain-model-messaging-message-messagemetadata.html"><abbr title="src/Domain/Model/Messaging/Message/MessageMetadata.php">MessageMetadata.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
@@ -1330,6 +1497,7 @@
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_bounceCount">$bounceCount</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_entered">$entered</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_processed">$processed</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_sendStart">$sendStart</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_sent">$sent</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_status">$status</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_viewed">$viewed</a></li>
@@ -1342,6 +1510,7 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getBounceCount">getBounceCount()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getEntered">getEntered()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getSendStart">getSendStart()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getSent">getSent()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getStatus">getStatus()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getViews">getViews()</a></li>
@@ -1349,6 +1518,7 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setBounceCount">setBounceCount()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setEntered">setEntered()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setProcessed">setProcessed()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setSendStart">setSendStart()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setSent">setSent()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setStatus">setStatus()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setViews">setViews()</a></li>

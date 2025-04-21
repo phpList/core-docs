@@ -2661,6 +2661,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setSent"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageMetadata\u003A\u003AgetSendStart\u0028\u0029",
+            "name": "getSendStart",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_getSendStart"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageMetadata\u003A\u003AsetSendStart\u0028\u0029",
+            "name": "setSendStart",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#method_setSendStart"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageMetadata\u003A\u003A\u0024status",
             "name": "status",
             "summary": "",
@@ -2690,6 +2700,11 @@ Search.appendIndex(
             "name": "sent",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_sent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageMetadata\u003A\u003A\u0024sendStart",
+            "name": "sendStart",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageMetadata.html#property_sendStart"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions",
             "name": "MessageOptions",
@@ -2721,11 +2736,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#method_getUserSelection"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003AgetSendStart\u0028\u0029",
-            "name": "getSendStart",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#method_getSendStart"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003AgetRssTemplate\u0028\u0029",
             "name": "getRssTemplate",
             "summary": "",
@@ -2751,11 +2761,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#method_setUserSelection"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003AsetSendStart\u0028\u0029",
-            "name": "setSendStart",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#method_setSendStart"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003AsetRssTemplate\u0028\u0029",
             "name": "setRssTemplate",
             "summary": "",
@@ -2780,11 +2785,6 @@ Search.appendIndex(
             "name": "userSelection",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#property_userSelection"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003A\u0024sendStart",
-            "name": "sendStart",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message-MessageOptions.html#property_sendStart"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageOptions\u003A\u003A\u0024rssTemplate",
             "name": "rssTemplate",
