@@ -4471,6 +4471,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html#method_getByOwnerId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\TemplateImageRepository",
+            "name": "TemplateImageRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-TemplateImageRepository.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\TemplateRepository",
             "name": "TemplateRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
