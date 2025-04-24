@@ -3171,15 +3171,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_getTitle"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AgetTemplate\u0028\u0029",
-            "name": "getTemplate",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AgetContent\u0028\u0029",
+            "name": "getContent",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_getTemplate"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_getContent"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AgetTemplateText\u0028\u0029",
-            "name": "getTemplateText",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AgetText\u0028\u0029",
+            "name": "getText",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_getTemplateText"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_getText"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AgetListOrder\u0028\u0029",
             "name": "getListOrder",
@@ -3196,15 +3196,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_setTitle"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AsetTemplate\u0028\u0029",
-            "name": "setTemplate",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AsetContent\u0028\u0029",
+            "name": "setContent",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_setTemplate"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_setContent"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AsetTemplateText\u0028\u0029",
-            "name": "setTemplateText",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AsetText\u0028\u0029",
+            "name": "setText",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_setTemplateText"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_setText"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AsetListOrder\u0028\u0029",
             "name": "setListOrder",
@@ -3216,15 +3216,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#property_title"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003A\u0024template",
-            "name": "template",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003A\u0024content",
+            "name": "content",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#property_template"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#property_content"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003A\u0024templateText",
-            "name": "templateText",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003A\u0024text",
+            "name": "text",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#property_templateText"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#property_text"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003A\u0024listOrder",
             "name": "listOrder",
