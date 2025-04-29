@@ -586,6 +586,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\LinkTrackForward\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#method_getId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\LinkTrackForward\u003A\u003AgetUrl\u0028\u0029",
             "name": "getUrl",
             "summary": "",
@@ -625,6 +630,11 @@ Search.appendIndex(
             "name": "setPersonalise",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#method_setPersonalise"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\LinkTrackForward\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#property_id"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\LinkTrackForward\u003A\u003A\u0024url",
             "name": "url",
@@ -776,6 +786,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Analytics-LinkTrackUmlClick.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\LinkTrackUmlClick\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Analytics-LinkTrackUmlClick.html#method_getId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\LinkTrackUmlClick\u003A\u003AgetMessageId\u0028\u0029",
             "name": "getMessageId",
             "summary": "",
@@ -855,6 +870,11 @@ Search.appendIndex(
             "name": "setTextClicked",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Analytics-LinkTrackUmlClick.html#method_setTextClicked"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\LinkTrackUmlClick\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Analytics-LinkTrackUmlClick.html#property_id"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\LinkTrackUmlClick\u003A\u003A\u0024messageId",
             "name": "messageId",
@@ -996,6 +1016,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Analytics-UserMessageView.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\UserMessageView\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Analytics-UserMessageView.html#method_getId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\UserMessageView\u003A\u003AgetMessageId\u0028\u0029",
             "name": "getMessageId",
             "summary": "",
@@ -1046,6 +1071,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Analytics-UserMessageView.html#method_setData"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\UserMessageView\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Analytics-UserMessageView.html#property_id"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\UserMessageView\u003A\u003A\u0024messageId",
             "name": "messageId",
             "summary": "",
@@ -1075,6 +1105,11 @@ Search.appendIndex(
             "name": "UserStats",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Analytics-UserStats.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\UserStats\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Analytics-UserStats.html#method_getId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\UserStats\u003A\u003AgetUnixDate\u0028\u0029",
             "name": "getUnixDate",
@@ -1115,6 +1150,11 @@ Search.appendIndex(
             "name": "setValue",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Analytics-UserStats.html#method_setValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\UserStats\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Analytics-UserStats.html#property_id"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\UserStats\u003A\u003A\u0024unixDate",
             "name": "unixDate",
@@ -1241,6 +1281,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Configuration-EventLog.html#method_setEntry"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Configuration\\EventLog\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Configuration-EventLog.html#property_id"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Configuration\\EventLog\u003A\u003A\u0024entered",
             "name": "entered",
             "summary": "",
@@ -1311,6 +1356,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Configuration-UrlCache.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Configuration\\UrlCache\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Configuration-UrlCache.html#method_getId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Configuration\\UrlCache\u003A\u003AgetUrl\u0028\u0029",
             "name": "getUrl",
             "summary": "",
@@ -1350,6 +1400,11 @@ Search.appendIndex(
             "name": "setContent",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Configuration-UrlCache.html#method_setContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Configuration\\UrlCache\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Configuration-UrlCache.html#property_id"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Configuration\\UrlCache\u003A\u003A\u0024url",
             "name": "url",
@@ -1445,6 +1500,11 @@ Search.appendIndex(
             "name": "setTableName",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_id"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003A\u0024name",
             "name": "name",
@@ -1566,11 +1626,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getPasswordChangeDate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AsetPasswordChangeDate\u0028\u0029",
-            "name": "setPasswordChangeDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setPasswordChangeDate"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AisDisabled\u0028\u0029",
             "name": "isDisabled",
             "summary": "",
@@ -1611,6 +1666,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getPrivileges"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getCreatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AgetUpdatedAt\u0028\u0029",
+            "name": "getUpdatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getUpdatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AupdateUpdatedAt\u0028\u0029",
+            "name": "updateUpdatedAt",
+            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_updateUpdatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_id"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024createdAt",
+            "name": "createdAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_createdAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024updatedAt",
+            "name": "updatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_updatedAt"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024loginName",
             "name": "loginName",
             "summary": "",
@@ -1625,11 +1715,6 @@ Search.appendIndex(
             "name": "email",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_email"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024creationDate",
-            "name": "creationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_creationDate"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024modifiedBy",
             "name": "modifiedBy",
@@ -1671,20 +1756,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AgetCreationDate\u0028\u0029",
-            "name": "getCreationDate",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method_getCreationDate"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method_getId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AsetCreationDate\u0028\u0029",
-            "name": "setCreationDate",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method_setCreationDate"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method_getCreatedAt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AupdateCreationDate\u0028\u0029",
-            "name": "updateCreationDate",
-            "summary": "Updates\u0020the\u0020creation\u0020date\u0020to\u0020now.",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method_updateCreationDate"
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AsetCreatedAt\u0028\u0029",
+            "name": "setCreatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method_setCreatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AupdateCreatedAt\u0028\u0029",
+            "name": "updateCreatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method_updateCreatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AgetExpiry\u0028\u0029",
             "name": "getExpiry",
@@ -1731,10 +1821,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#constant_DEFAULT_EXPIRY"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003A\u0024creationDate",
-            "name": "creationDate",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003A\u0024id",
+            "name": "id",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#property_creationDate"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#property_id"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003A\u0024createdAt",
+            "name": "createdAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#property_createdAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003A\u0024expiry",
             "name": "expiry",
@@ -1760,6 +1855,11 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method_getId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003AsetActive\u0028\u0029",
             "name": "setActive",
@@ -1795,6 +1895,11 @@ Search.appendIndex(
             "name": "isActive",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method_isActive"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#property_id"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003A\u0024adminId",
             "name": "adminId",
@@ -1966,15 +2071,10 @@ Search.appendIndex(
             "summary": "This\u0020interface\u0020communicates\u0020that\u0020a\u0020domain\u0020model\u0020has\u0020a\u0020creation\u0020date.",
             "url": "classes/PhpList-Core-Domain-Model-Interfaces-CreationDate.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\CreationDate\u003A\u003AgetCreationDate\u0028\u0029",
-            "name": "getCreationDate",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\CreationDate\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Interfaces-CreationDate.html#method_getCreationDate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\CreationDate\u003A\u003AupdateCreationDate\u0028\u0029",
-            "name": "updateCreationDate",
-            "summary": "Updates\u0020the\u0020creation\u0020date\u0020to\u0020now.",
-            "url": "classes/PhpList-Core-Domain-Model-Interfaces-CreationDate.html#method_updateCreationDate"
+            "url": "classes/PhpList-Core-Domain-Model-Interfaces-CreationDate.html#method_getCreatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\DomainModel",
             "name": "DomainModel",
@@ -2001,15 +2101,15 @@ Search.appendIndex(
             "summary": "This\u0020interface\u0020communicates\u0020that\u0020a\u0020domain\u0020model\u0020has\u0020a\u0020modification\u0020date.",
             "url": "classes/PhpList-Core-Domain-Model-Interfaces-ModificationDate.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\ModificationDate\u003A\u003AgetModificationDate\u0028\u0029",
-            "name": "getModificationDate",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\ModificationDate\u003A\u003AgetUpdatedAt\u0028\u0029",
+            "name": "getUpdatedAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Interfaces-ModificationDate.html#method_getModificationDate"
+            "url": "classes/PhpList-Core-Domain-Model-Interfaces-ModificationDate.html#method_getUpdatedAt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\ModificationDate\u003A\u003AupdateModificationDate\u0028\u0029",
-            "name": "updateModificationDate",
-            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020now.",
-            "url": "classes/PhpList-Core-Domain-Model-Interfaces-ModificationDate.html#method_updateModificationDate"
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\ModificationDate\u003A\u003AupdateUpdatedAt\u0028\u0029",
+            "name": "updateUpdatedAt",
+            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "url": "classes/PhpList-Core-Domain-Model-Interfaces-ModificationDate.html#method_updateUpdatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Attachment",
             "name": "Attachment",
@@ -2020,6 +2120,11 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Attachment.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Attachment\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Attachment.html#method_getId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Attachment\u003A\u003AgetFilename\u0028\u0029",
             "name": "getFilename",
@@ -2070,6 +2175,11 @@ Search.appendIndex(
             "name": "setSize",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Attachment.html#method_setSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Attachment\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Attachment.html#property_id"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Attachment\u003A\u003A\u0024filename",
             "name": "filename",
@@ -2160,6 +2270,11 @@ Search.appendIndex(
             "name": "setComment",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Bounce.html#method_setComment"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Bounce\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Bounce.html#property_id"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Bounce\u003A\u003A\u0024date",
             "name": "date",
@@ -2281,6 +2396,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-BounceRegex.html#method_setCount"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\BounceRegex\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-BounceRegex.html#property_id"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\BounceRegex\u003A\u003A\u0024regex",
             "name": "regex",
             "summary": "",
@@ -2366,6 +2486,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\ListMessage\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#method_getId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\ListMessage\u003A\u003AgetMessageId\u0028\u0029",
             "name": "getMessageId",
             "summary": "",
@@ -2396,6 +2521,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#method_setEntered"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\ListMessage\u003A\u003AgetUpdatedAt\u0028\u0029",
+            "name": "getUpdatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#method_getUpdatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\ListMessage\u003A\u003AupdateUpdatedAt\u0028\u0029",
+            "name": "updateUpdatedAt",
+            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#method_updateUpdatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\ListMessage\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#property_id"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\ListMessage\u003A\u003A\u0024messageId",
             "name": "messageId",
             "summary": "",
@@ -2410,6 +2550,11 @@ Search.appendIndex(
             "name": "entered",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#property_entered"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\ListMessage\u003A\u003A\u0024updatedAt",
+            "name": "updatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-ListMessage.html#property_updatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\\MessageContent",
             "name": "MessageContent",
@@ -2891,6 +3036,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method___construct"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_getId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AgetUpdatedAt\u0028\u0029",
+            "name": "getUpdatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_getUpdatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AupdateUpdatedAt\u0028\u0029",
+            "name": "updateUpdatedAt",
+            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_updateUpdatedAt"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003AgetFormat\u0028\u0029",
             "name": "getFormat",
             "summary": "",
@@ -2966,6 +3126,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#method_setOptions"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#property_id"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024updatedAt",
+            "name": "updatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Message.html#property_updatedAt"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Message\u003A\u003A\u0024format",
             "name": "format",
             "summary": "",
@@ -3011,6 +3181,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\MessageAttachment\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#method_getId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\MessageAttachment\u003A\u003AgetMessageId\u0028\u0029",
             "name": "getMessageId",
             "summary": "",
@@ -3030,6 +3205,11 @@ Search.appendIndex(
             "name": "setAttachmentId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#method_setAttachmentId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\MessageAttachment\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#property_id"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\MessageAttachment\u003A\u003A\u0024messageId",
             "name": "messageId",
@@ -3096,6 +3276,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SendProcess\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SendProcess\u003A\u003AgetUpdatedAt\u0028\u0029",
+            "name": "getUpdatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getUpdatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SendProcess\u003A\u003AupdateUpdatedAt\u0028\u0029",
+            "name": "updateUpdatedAt",
+            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_updateUpdatedAt"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SendProcess\u003A\u003AgetStartedDate\u0028\u0029",
             "name": "getStartedDate",
             "summary": "",
@@ -3136,6 +3331,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_setPage"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SendProcess\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_id"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SendProcess\u003A\u003A\u0024updatedAt",
+            "name": "updatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_updatedAt"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\SendProcess\u003A\u003A\u0024started",
             "name": "started",
             "summary": "",
@@ -3165,6 +3370,11 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_getId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003AgetTitle\u0028\u0029",
             "name": "getTitle",
@@ -3211,6 +3421,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#method_setListOrder"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-Template.html#property_id"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Template\u003A\u003A\u0024title",
             "name": "title",
             "summary": "",
@@ -3240,6 +3455,11 @@ Search.appendIndex(
             "name": "TemplateImage",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-TemplateImage.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\TemplateImage\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-TemplateImage.html#method_getId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\TemplateImage\u003A\u003AgetTemplate\u0028\u0029",
             "name": "getTemplate",
@@ -3300,6 +3520,11 @@ Search.appendIndex(
             "name": "setHeight",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-TemplateImage.html#method_setHeight"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\TemplateImage\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-TemplateImage.html#property_id"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\TemplateImage\u003A\u003A\u0024template",
             "name": "template",
@@ -3421,6 +3646,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageBounce.html#method___construct"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageBounce\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageBounce.html#method_getId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageBounce\u003A\u003AgetUser\u0028\u0029",
             "name": "getUser",
             "summary": "",
@@ -3456,6 +3686,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageBounce.html#method_setBounce"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageBounce\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageBounce.html#property_id"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageBounce\u003A\u003A\u0024user",
             "name": "user",
             "summary": "",
@@ -3480,6 +3715,11 @@ Search.appendIndex(
             "name": "UserMessageForward",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#method_getId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003AgetUser\u0028\u0029",
             "name": "getUser",
@@ -3531,6 +3771,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#method_setTime"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#property_id"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003A\u0024user",
             "name": "user",
             "summary": "",
@@ -3561,6 +3806,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscribePage.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscribePage\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscribePage.html#method_getId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscribePage\u003A\u003AgetTitle\u0028\u0029",
             "name": "getTitle",
             "summary": "",
@@ -3590,6 +3840,11 @@ Search.appendIndex(
             "name": "setOwner",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscribePage.html#method_setOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscribePage\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscribePage.html#property_id"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscribePage\u003A\u003A\u0024title",
             "name": "title",
@@ -3665,6 +3920,26 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getCreatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AgetUpdatedAt\u0028\u0029",
+            "name": "getUpdatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getUpdatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AupdateUpdatedAt\u0028\u0029",
+            "name": "updateUpdatedAt",
+            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_updateUpdatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003AisConfirmed\u0028\u0029",
             "name": "isConfirmed",
@@ -3791,10 +4066,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_removeAttribute"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024creationDate",
-            "name": "creationDate",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024id",
+            "name": "id",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_creationDate"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_id"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024createdAt",
+            "name": "createdAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_createdAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024updatedAt",
+            "name": "updatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_updatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscriber\u003A\u003A\u0024email",
             "name": "email",
@@ -3896,6 +4181,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetName\u0028\u0029",
             "name": "getName",
             "summary": "",
@@ -3956,6 +4246,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setTableName"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_id"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024name",
             "name": "name",
             "summary": "",
@@ -3990,6 +4285,11 @@ Search.appendIndex(
             "name": "SubscriberHistory",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#method_getId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003AgetSubscriber\u0028\u0029",
             "name": "getSubscriber",
@@ -4051,6 +4351,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#method_setSystemInfo"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#property_id"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003A\u0024subscriber",
             "name": "subscriber",
             "summary": "",
@@ -4090,6 +4395,11 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetName\u0028\u0029",
             "name": "getName",
@@ -4181,6 +4491,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getSubscribers"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getCreatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AgetUpdatedAt\u0028\u0029",
+            "name": "getUpdatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_getUpdatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003AupdateUpdatedAt\u0028\u0029",
+            "name": "updateUpdatedAt",
+            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#method_updateUpdatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_id"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024name",
             "name": "name",
             "summary": "",
@@ -4191,10 +4521,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_description"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024creationDate",
-            "name": "creationDate",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024createdAt",
+            "name": "createdAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_creationDate"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_createdAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024updatedAt",
+            "name": "updatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberList.html#property_updatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberList\u003A\u003A\u0024listPosition",
             "name": "listPosition",
@@ -4231,6 +4566,11 @@ Search.appendIndex(
             "summary": "This\u0020class\u0020represents\u0020subscriber\u0020who\u0020can\u0020subscribe\u0020to\u0020multiple\u0020subscriber\u0020lists\u0020and\u0020can\u0020receive\u0020email\u0020messages\u0020from\ncampaigns\u0020for\u0020those\u0020subscriber\u0020lists.",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003AgetSubscriber\u0028\u0029",
             "name": "getSubscriber",
             "summary": "",
@@ -4251,10 +4591,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#method_setSubscriberList"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003A\u0024creationDate",
-            "name": "creationDate",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#property_creationDate"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#method_getCreatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003AgetUpdatedAt\u0028\u0029",
+            "name": "getUpdatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#method_getUpdatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003AupdateUpdatedAt\u0028\u0029",
+            "name": "updateUpdatedAt",
+            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#method_updateUpdatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003A\u0024createdAt",
+            "name": "createdAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#property_createdAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003A\u0024updatedAt",
+            "name": "updatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#property_updatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Subscription\u003A\u003A\u0024subscriber",
             "name": "subscriber",
@@ -4265,66 +4625,6 @@ Search.appendIndex(
             "name": "subscriberList",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscription.html#property_subscriberList"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\CreationDateTrait",
-            "name": "CreationDateTrait",
-            "summary": "This\u0020trait\u0020provides\u0020an\u0020automatic\u0020creation\u0020date\u0020for\u0020models.",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\CreationDateTrait\u003A\u003AgetCreationDate\u0028\u0029",
-            "name": "getCreationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_getCreationDate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\CreationDateTrait\u003A\u003AsetCreationDate\u0028\u0029",
-            "name": "setCreationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_setCreationDate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\CreationDateTrait\u003A\u003AupdateCreationDate\u0028\u0029",
-            "name": "updateCreationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_updateCreationDate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\IdentityTrait",
-            "name": "IdentityTrait",
-            "summary": "This\u0020trait\u0020provides\u0020an\u0020ID\u0020property\u0020to\u0020domain\u0020models.",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\IdentityTrait\u003A\u003AgetId\u0028\u0029",
-            "name": "getId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\IdentityTrait\u003A\u003A\u0024id",
-            "name": "id",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\ModificationDateTrait",
-            "name": "ModificationDateTrait",
-            "summary": "This\u0020trait\u0020provides\u0020an\u0020automatic\u0020modification\u0020date\u0020for\u0020models.",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\ModificationDateTrait\u003A\u003AgetModificationDate\u0028\u0029",
-            "name": "getModificationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_getModificationDate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\ModificationDateTrait\u003A\u003AsetModificationDate\u0028\u0029",
-            "name": "setModificationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_setModificationDate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\ModificationDateTrait\u003A\u003AupdateModificationDate\u0028\u0029",
-            "name": "updateModificationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_updateModificationDate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits\\ModificationDateTrait\u003A\u003A\u0024modificationDate",
-            "name": "modificationDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\AbstractRepository",
             "name": "AbstractRepository",
@@ -6111,20 +6411,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testSetEmailAddressSetsEmailAddress"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestGetCreationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "testGetCreationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestGetUpdatedAtInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetUpdatedAtInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testGetCreationDateInitiallyReturnsNull"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestUpdateCreationDateSetsCreationDateToNow\u0028\u0029",
-            "name": "testUpdateCreationDateSetsCreationDateToNow",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testUpdateCreationDateSetsCreationDateToNow"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestGetModificationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "testGetModificationDateInitiallyReturnsNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testGetModificationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTest.html#method_testGetUpdatedAtInitiallyReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTest\u003A\u003AtestUpdateModificationDateSetsModificationDateToNow\u0028\u0029",
             "name": "testUpdateModificationDateSetsModificationDateToNow",
@@ -6196,10 +6486,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testGetIdReturnsId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestGetCreationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "testGetCreationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestgetCreatedAtInitiallyReturnsNull\u0028\u0029",
+            "name": "testgetCreatedAtInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testGetCreationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Identity-AdministratorTokenTest.html#method_testgetCreatedAtInitiallyReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Identity\\AdministratorTokenTest\u003A\u003AtestUpdateCreationDateSetsCreationDateToNow\u0028\u0029",
             "name": "testUpdateCreationDateSetsCreationDateToNow",
@@ -6361,20 +6651,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetIdReturnsId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetCreationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "testGetCreationDateInitiallyReturnsNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetCreationDateInitiallyReturnsNull"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestUpdateCreationDateSetsCreationDateToNow\u0028\u0029",
             "name": "testUpdateCreationDateSetsCreationDateToNow",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testUpdateCreationDateSetsCreationDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestGetModificationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "testGetModificationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestgetUpdatedAtInitiallyReturnsNull\u0028\u0029",
+            "name": "testgetUpdatedAtInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testGetModificationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Messaging-SubscriberListTest.html#method_testgetUpdatedAtInitiallyReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Messaging\\SubscriberListTest\u003A\u003AtestUpdateModificationDateSetsModificationDateToNow\u0028\u0029",
             "name": "testUpdateModificationDateSetsModificationDateToNow",
@@ -6496,20 +6781,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetIdReturnsId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetCreationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "testGetCreationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetCreatedAtInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetCreatedAtInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetCreationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetCreatedAtInitiallyReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestUpdateCreationDateSetsCreationDateToNow\u0028\u0029",
             "name": "testUpdateCreationDateSetsCreationDateToNow",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testUpdateCreationDateSetsCreationDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestGetModificationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "testGetModificationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestgetUpdatedAtInitiallyReturnsNull\u0028\u0029",
+            "name": "testgetUpdatedAtInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testGetModificationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriberTest.html#method_testgetUpdatedAtInitiallyReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriberTest\u003A\u003AtestUpdateModificationDateSetsModificationDateToNow\u0028\u0029",
             "name": "testUpdateModificationDateSetsModificationDateToNow",
@@ -6666,20 +6951,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testSetSubscriberListSetsSubscriberList"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestGetCreationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "testGetCreationDateInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestGetCreatedAtInitiallyReturnsCurrentTime\u0028\u0029",
+            "name": "testGetCreatedAtInitiallyReturnsCurrentTime",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testGetCreationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testGetCreatedAtInitiallyReturnsCurrentTime"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestUpdateCreationDateSetsCreationDateToNow\u0028\u0029",
-            "name": "testUpdateCreationDateSetsCreationDateToNow",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestGetUpdatedAtInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetUpdatedAtInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testUpdateCreationDateSetsCreationDateToNow"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestGetModificationDateInitiallyReturnsNull\u0028\u0029",
-            "name": "testGetModificationDateInitiallyReturnsNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testGetModificationDateInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#method_testGetUpdatedAtInitiallyReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Model\\Subscription\\SubscriptionTest\u003A\u003AtestUpdateModificationDateSetsModificationDateToNow\u0028\u0029",
             "name": "testUpdateModificationDateSetsModificationDateToNow",
@@ -7035,11 +7315,6 @@ Search.appendIndex(
             "name": "Subscription",
             "summary": "",
             "url": "namespaces/phplist-core-domain-model-subscription.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Traits",
-            "name": "Traits",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain-model-traits.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository",
             "name": "Repository",

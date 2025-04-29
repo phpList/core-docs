@@ -114,9 +114,6 @@
             implements
                             <a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a>,                             <a href="classes/PhpList-Core-Domain-Model-Interfaces-Identity.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\Identity">Identity</abbr></a>,                             <a href="classes/PhpList-Core-Domain-Model-Interfaces-ModificationDate.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\ModificationDate">ModificationDate</abbr></a>                    </span>
     
-            <span class="phpdocumentor-element__extends">
-            uses
-                            <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html"><abbr title="\PhpList\Core\Domain\Model\Traits\IdentityTrait">IdentityTrait</abbr></a>,                             <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html"><abbr title="\PhpList\Core\Domain\Model\Traits\ModificationDateTrait">ModificationDateTrait</abbr></a>                    </span>
     </h2>
 
 <div class="phpdocumentor-label-line">
@@ -127,7 +124,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -198,21 +195,15 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id">$id</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_id">$id</a>
     <span>
-                        &nbsp;: int            </span>
+                        &nbsp;: int|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_ipAddress">$ipAddress</a>
     <span>
                         &nbsp;: string|null            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate">$modificationDate</a>
-    <span>
-                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -223,6 +214,12 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_started">$started</a>
+    <span>
+                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_updatedAt">$updatedAt</a>
     <span>
                         &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
 </dt>
@@ -242,21 +239,15 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId">getId()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getId">getId()</a>
     <span>
-                                &nbsp;: int    </span>
+                                &nbsp;: int|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getIpAddress">getIpAddress()</a>
     <span>
                                 &nbsp;: string|null    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_getModificationDate">getModificationDate()</a>
-    <span>
-                                &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -267,6 +258,12 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getStartedDate">getStartedDate()</a>
+    <span>
+                                &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getUpdatedAt">getUpdatedAt()</a>
     <span>
                                 &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null    </span>
 </dt>
@@ -296,16 +293,11 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_updateModificationDate">updateModificationDate()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_updateUpdatedAt">updateUpdatedAt()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a>    </span>
 </dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_setModificationDate">setModificationDate()</a>
-    <span>
-                                &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a>    </span>
-</dt>
+<dd>Updates the modification date to be now.</dd>
 
     </dl>
 
@@ -337,7 +329,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -388,15 +380,15 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_id">
         $id
-        <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_id" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/IdentityTrait.php"><a href="files/src-domain-model-traits-identitytrait.html"><abbr title="src/Domain/Model/Traits/IdentityTrait.php">IdentityTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -404,9 +396,9 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">int</span>
+        <span class="phpdocumentor-signature__type">int|null</span>
     <span class="phpdocumentor-signature__name">$id</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -415,7 +407,7 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_id#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -444,14 +436,6 @@
         #[<abbr title="\Doctrine\ORM\Mapping\Id">Id</abbr>]
     </dt>
     </dl>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Symfony\Component\Serializer\Annotation\SerializedName">SerializedName</abbr>]
-    </dt>
-        <dd class="phpdocumentor-argument-list__entry">
-        &#039;id&#039;
-    </dd>
-    </dl>
             </section>
 
 </article>
@@ -472,7 +456,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -521,59 +505,6 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_modificationDate">
-        $modificationDate
-        <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">23</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
-    <span class="phpdocumentor-signature__name">$modificationDate</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
-
-    
-    
-    
-
-    
-    <section class="phpdocumentor-attributes">
-        <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate#attributes" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h5>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
-    </dt>
-        <dd class="phpdocumentor-argument-list__entry">
-        $name: &#039;modified&#039;
-    </dd>
-        <dd class="phpdocumentor-argument-list__entry">
-        $type: &#039;datetime&#039;
-    </dd>
-    </dl>
-            </section>
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="property_page">
         $page
         <a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_page" class="headerlink"><i class="fas fa-link"></i></a>
@@ -584,7 +515,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
@@ -643,7 +574,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -682,6 +613,59 @@
             </section>
 
 </article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_updatedAt">
+        $updatedAt
+        <a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_updatedAt" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">25</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+    <span class="phpdocumentor-signature__name">$updatedAt</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+    
+
+    
+    <section class="phpdocumentor-attributes">
+        <h5 class="phpdocumentor-elements__header" id="attributes">
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_updatedAt#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h5>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $name: &#039;modified&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $type: &#039;datetime&#039;
+    </dd>
+    </dl>
+            </section>
+
+</article>
             </section>
 
             <section class="phpdocumentor-methods">
@@ -704,7 +688,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
@@ -736,20 +720,20 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getId">
         getId()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/IdentityTrait.php"><a href="files/src-domain-model-traits-identitytrait.html"><abbr title="src/Domain/Model/Traits/IdentityTrait.php">IdentityTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -762,7 +746,7 @@
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">int</span>
+        <span class="phpdocumentor-signature__response_type">int|null</span>
             </section>
 
 </article>
@@ -780,7 +764,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">75</span>
 
     </aside>
 
@@ -810,44 +794,6 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getModificationDate">
-        getModificationDate()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_getModificationDate" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">26</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModificationDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getPage">
         getPage()
         <a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getPage" class="headerlink"><i class="fas fa-link"></i></a>
@@ -856,7 +802,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
     </aside>
 
@@ -894,7 +840,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">59</span>
 
     </aside>
 
@@ -902,6 +848,44 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">getStartedDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getUpdatedAt">
+        getUpdatedAt()
+        <a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getUpdatedAt" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">45</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getUpdatedAt</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -932,7 +916,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">85</span>
 
     </aside>
 
@@ -980,7 +964,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">91</span>
 
     </aside>
 
@@ -1028,7 +1012,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">97</span>
 
     </aside>
 
@@ -1076,7 +1060,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 
     </aside>
 
@@ -1116,22 +1100,23 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_updateModificationDate">
-        updateModificationDate()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_updateModificationDate" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_updateUpdatedAt">
+        updateUpdatedAt()
+        <a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_updateUpdatedAt" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/SendProcess.php"><a href="files/src-domain-model-messaging-sendprocess.html"><abbr title="src/Domain/Model/Messaging/SendProcess.php">SendProcess.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Updates the modification date to be now.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">updateModificationDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">updateUpdatedAt</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1143,7 +1128,7 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_updateModificationDate#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_updateUpdatedAt#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -1157,54 +1142,6 @@
     </dt>
     </dl>
             </section>
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_setModificationDate">
-        setModificationDate()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_setModificationDate" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">31</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">setModificationDate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modificationDate</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modificationDate</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -1326,11 +1263,11 @@
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_alive">$alive</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id">$id</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_id">$id</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_ipAddress">$ipAddress</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate">$modificationDate</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_page">$page</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_started">$started</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#property_updatedAt">$updatedAt</a></li>
                                             </ul>
                 </li>
             
@@ -1338,17 +1275,16 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getAlive">getAlive()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId">getId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getId">getId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getIpAddress">getIpAddress()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_getModificationDate">getModificationDate()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getPage">getPage()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getStartedDate">getStartedDate()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_getUpdatedAt">getUpdatedAt()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_setAlive">setAlive()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_setIpAddress">setIpAddress()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_setPage">setPage()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_setStartedDate">setStartedDate()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_updateModificationDate">updateModificationDate()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_setModificationDate">setModificationDate()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-SendProcess.html#method_updateUpdatedAt">updateUpdatedAt()</a></li>
                                     </ul>
             </li>
                     </ul>

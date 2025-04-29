@@ -114,9 +114,6 @@
             implements
                             <a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a>,                             <a href="classes/PhpList-Core-Domain-Model-Interfaces-Identity.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\Identity">Identity</abbr></a>                    </span>
     
-            <span class="phpdocumentor-element__extends">
-            uses
-                            <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html"><abbr title="\PhpList\Core\Domain\Model\Traits\IdentityTrait">IdentityTrait</abbr></a>                    </span>
     </h2>
 
 <div class="phpdocumentor-label-line">
@@ -223,9 +220,9 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id">$id</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#property_id">$id</a>
     <span>
-                        &nbsp;: int            </span>
+                        &nbsp;: int|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -261,9 +258,9 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId">getId()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#method_getId">getId()</a>
     <span>
-                                &nbsp;: int    </span>
+                                &nbsp;: int|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -336,13 +333,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_id">
         $id
-        <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#property_id" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/IdentityTrait.php"><a href="files/src-domain-model-traits-identitytrait.html"><abbr title="src/Domain/Model/Traits/IdentityTrait.php">IdentityTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">20</span>
 
@@ -352,9 +349,9 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">int</span>
+        <span class="phpdocumentor-signature__type">int|null</span>
     <span class="phpdocumentor-signature__name">$id</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -363,7 +360,7 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#property_id#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -392,14 +389,6 @@
         #[<abbr title="\Doctrine\ORM\Mapping\Id">Id</abbr>]
     </dt>
     </dl>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Symfony\Component\Serializer\Annotation\SerializedName">SerializedName</abbr>]
-    </dt>
-        <dd class="phpdocumentor-argument-list__entry">
-        &#039;id&#039;
-    </dd>
-    </dl>
             </section>
 
 </article>
@@ -420,7 +409,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
@@ -476,7 +465,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -532,7 +521,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -591,7 +580,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -649,20 +638,20 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getId">
         getId()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/IdentityTrait.php"><a href="files/src-domain-model-traits-identitytrait.html"><abbr title="src/Domain/Model/Traits/IdentityTrait.php">IdentityTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -675,7 +664,7 @@
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">int</span>
+        <span class="phpdocumentor-signature__response_type">int|null</span>
             </section>
 
 </article>
@@ -693,7 +682,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
     </aside>
 
@@ -731,7 +720,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
     </aside>
 
@@ -769,7 +758,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
     </aside>
 
@@ -807,7 +796,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
     </aside>
 
@@ -845,7 +834,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">72</span>
+    <span class="phpdocumentor-element-found-in__line">81</span>
 
     </aside>
 
@@ -893,7 +882,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
     </aside>
 
@@ -941,7 +930,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">59</span>
 
     </aside>
 
@@ -989,7 +978,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Analytics/LinkTrackForward.php"><a href="files/src-domain-model-analytics-linktrackforward.html"><abbr title="src/Domain/Model/Analytics/LinkTrackForward.php">LinkTrackForward.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
@@ -1136,7 +1125,7 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id">$id</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#property_id">$id</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#property_personalise">$personalise</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#property_url">$url</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#property_urlHash">$urlHash</a></li>
@@ -1147,7 +1136,7 @@
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId">getId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#method_getId">getId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#method_getUrl">getUrl()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#method_getUrlHash">getUrlHash()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Analytics-LinkTrackForward.html#method_getUuid">getUuid()</a></li>

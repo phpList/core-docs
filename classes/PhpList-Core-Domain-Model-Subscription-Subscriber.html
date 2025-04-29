@@ -114,9 +114,6 @@
             implements
                             <a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a>,                             <a href="classes/PhpList-Core-Domain-Model-Interfaces-Identity.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\Identity">Identity</abbr></a>,                             <a href="classes/PhpList-Core-Domain-Model-Interfaces-CreationDate.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\CreationDate">CreationDate</abbr></a>,                             <a href="classes/PhpList-Core-Domain-Model-Interfaces-ModificationDate.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\ModificationDate">ModificationDate</abbr></a>                    </span>
     
-            <span class="phpdocumentor-element__extends">
-            uses
-                            <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html"><abbr title="\PhpList\Core\Domain\Model\Traits\IdentityTrait">IdentityTrait</abbr></a>,                             <a href="classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html"><abbr title="\PhpList\Core\Domain\Model\Traits\CreationDateTrait">CreationDateTrait</abbr></a>,                             <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html"><abbr title="\PhpList\Core\Domain\Model\Traits\ModificationDateTrait">ModificationDateTrait</abbr></a>                    </span>
     </h2>
 
 <div class="phpdocumentor-label-line">
@@ -127,7 +124,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
@@ -266,7 +263,7 @@ campaigns for those subscriber lists.</p>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_creationDate">$creationDate</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_createdAt">$createdAt</a>
     <span>
                         &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
 </dt>
@@ -320,15 +317,9 @@ campaigns for those subscriber lists.</p>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id">$id</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_id">$id</a>
     <span>
-                        &nbsp;: int            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate">$modificationDate</a>
-    <span>
-                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
+                        &nbsp;: int|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -341,6 +332,12 @@ campaigns for those subscriber lists.</p>
     <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_uniqueId">$uniqueId</a>
     <span>
                         &nbsp;: string            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_updatedAt">$updatedAt</a>
+    <span>
+                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
 </dt>
 
     </dl>
@@ -394,7 +391,7 @@ campaigns for those subscriber lists.</p>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_getCreationDate">getCreationDate()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getCreatedAt">getCreatedAt()</a>
     <span>
                                 &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null    </span>
 </dt>
@@ -412,15 +409,9 @@ campaigns for those subscriber lists.</p>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId">getId()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getId">getId()</a>
     <span>
-                                &nbsp;: int    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_getModificationDate">getModificationDate()</a>
-    <span>
-                                &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null    </span>
+                                &nbsp;: int|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -439,6 +430,12 @@ campaigns for those subscriber lists.</p>
     <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getUniqueId">getUniqueId()</a>
     <span>
                                 &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getUpdatedAt">getUpdatedAt()</a>
+    <span>
+                                &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -526,28 +523,11 @@ campaigns for those subscriber lists.</p>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_updateCreationDate">updateCreationDate()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_updateUpdatedAt">updateUpdatedAt()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a>    </span>
 </dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_updateModificationDate">updateModificationDate()</a>
-    <span>
-                                &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_setCreationDate">setCreationDate()</a>
-    <span>
-                                &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a>    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_setModificationDate">setModificationDate()</a>
-    <span>
-                                &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a>    </span>
-</dt>
+<dd>Updates the modification date to be now.</dd>
 
     </dl>
 
@@ -569,9 +549,9 @@ campaigns for those subscriber lists.</p>
             -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_creationDate">
-        $creationDate
-        <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_creationDate" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_createdAt">
+        $createdAt
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_createdAt" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
@@ -579,7 +559,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
@@ -588,7 +568,7 @@ campaigns for those subscriber lists.</p>
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
         <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
-    <span class="phpdocumentor-signature__name">$creationDate</span>
+    <span class="phpdocumentor-signature__name">$createdAt</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
@@ -598,7 +578,7 @@ campaigns for those subscriber lists.</p>
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_creationDate#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_createdAt#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -651,7 +631,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">96</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 
     </aside>
 
@@ -710,7 +690,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
@@ -776,7 +756,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
     </aside>
 
@@ -845,7 +825,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 
     </aside>
 
@@ -911,7 +891,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 
@@ -977,7 +957,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
     </aside>
 
@@ -1043,7 +1023,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">83</span>
 
     </aside>
 
@@ -1104,7 +1084,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">73</span>
 
     </aside>
 
@@ -1165,15 +1145,15 @@ campaigns for those subscriber lists.</p>
 >
     <h4 class="phpdocumentor-element__name" id="property_id">
         $id
-        <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_id" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/IdentityTrait.php"><a href="files/src-domain-model-traits-identitytrait.html"><abbr title="src/Domain/Model/Traits/IdentityTrait.php">IdentityTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -1181,9 +1161,9 @@ campaigns for those subscriber lists.</p>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">int</span>
+        <span class="phpdocumentor-signature__type">int|null</span>
     <span class="phpdocumentor-signature__name">$id</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -1192,7 +1172,7 @@ campaigns for those subscriber lists.</p>
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_id#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -1221,67 +1201,6 @@ campaigns for those subscriber lists.</p>
         #[<abbr title="\Doctrine\ORM\Mapping\Id">Id</abbr>]
     </dt>
     </dl>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Symfony\Component\Serializer\Annotation\SerializedName">SerializedName</abbr>]
-    </dt>
-        <dd class="phpdocumentor-argument-list__entry">
-        &#039;id&#039;
-    </dd>
-    </dl>
-            </section>
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_modificationDate">
-        $modificationDate
-        <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">23</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
-    <span class="phpdocumentor-signature__name">$modificationDate</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
-
-    
-    
-    
-
-    
-    <section class="phpdocumentor-attributes">
-        <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate#attributes" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h5>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
-    </dt>
-        <dd class="phpdocumentor-argument-list__entry">
-        $name: &#039;modified&#039;
-    </dd>
-        <dd class="phpdocumentor-argument-list__entry">
-        $type: &#039;datetime&#039;
-    </dd>
-    </dl>
             </section>
 
 </article>
@@ -1302,7 +1221,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">85</span>
+    <span class="phpdocumentor-element-found-in__line">87</span>
 
     </aside>
 
@@ -1361,7 +1280,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">66</span>
+    <span class="phpdocumentor-element-found-in__line">68</span>
 
     </aside>
 
@@ -1413,6 +1332,59 @@ campaigns for those subscriber lists.</p>
             </section>
 
 </article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_updatedAt">
+        $updatedAt
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_updatedAt" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">45</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+    <span class="phpdocumentor-signature__name">$updatedAt</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+    
+
+    
+    <section class="phpdocumentor-attributes">
+        <h5 class="phpdocumentor-elements__header" id="attributes">
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_updatedAt#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h5>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $name: &#039;modified&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $type: &#039;datetime&#039;
+    </dd>
+    </dl>
+            </section>
+
+</article>
             </section>
 
             <section class="phpdocumentor-methods">
@@ -1435,7 +1407,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">104</span>
+    <span class="phpdocumentor-element-found-in__line">106</span>
 
     </aside>
 
@@ -1469,7 +1441,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">263</span>
+    <span class="phpdocumentor-element-found-in__line">290</span>
 
     </aside>
 
@@ -1517,7 +1489,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">229</span>
+    <span class="phpdocumentor-element-found-in__line">256</span>
 
     </aside>
 
@@ -1565,7 +1537,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">147</span>
+    <span class="phpdocumentor-element-found-in__line">174</span>
 
     </aside>
 
@@ -1613,7 +1585,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">166</span>
+    <span class="phpdocumentor-element-found-in__line">193</span>
 
     </aside>
 
@@ -1662,7 +1634,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">258</span>
+    <span class="phpdocumentor-element-found-in__line">285</span>
 
     </aside>
 
@@ -1700,7 +1672,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">135</span>
+    <span class="phpdocumentor-element-found-in__line">162</span>
 
     </aside>
 
@@ -1730,22 +1702,22 @@ campaigns for those subscriber lists.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getCreationDate">
-        getCreationDate()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_getCreationDate" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getCreatedAt">
+        getCreatedAt()
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getCreatedAt" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/CreationDateTrait.php"><a href="files/src-domain-model-traits-creationdatetrait.html"><abbr title="src/Domain/Model/Traits/CreationDateTrait.php">CreationDateTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">119</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getCreationDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span></code>
+                    <span class="phpdocumentor-signature__name">getCreatedAt</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1776,7 +1748,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">173</span>
+    <span class="phpdocumentor-element-found-in__line">200</span>
 
     </aside>
 
@@ -1814,7 +1786,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">209</span>
+    <span class="phpdocumentor-element-found-in__line">236</span>
 
     </aside>
 
@@ -1846,20 +1818,20 @@ campaigns for those subscriber lists.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getId">
         getId()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/IdentityTrait.php"><a href="files/src-domain-model-traits-identitytrait.html"><abbr title="src/Domain/Model/Traits/IdentityTrait.php">IdentityTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">114</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1872,45 +1844,7 @@ campaigns for those subscriber lists.</p>
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">int</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getModificationDate">
-        getModificationDate()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_getModificationDate" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">26</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getModificationDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+        <span class="phpdocumentor-signature__response_type">int|null</span>
             </section>
 
 </article>
@@ -1928,7 +1862,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">248</span>
+    <span class="phpdocumentor-element-found-in__line">275</span>
 
     </aside>
 
@@ -1966,7 +1900,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">224</span>
+    <span class="phpdocumentor-element-found-in__line">251</span>
 
     </aside>
 
@@ -2004,7 +1938,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">154</span>
+    <span class="phpdocumentor-element-found-in__line">181</span>
 
     </aside>
 
@@ -2034,6 +1968,44 @@ campaigns for those subscriber lists.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getUpdatedAt">
+        getUpdatedAt()
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getUpdatedAt" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">124</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getUpdatedAt</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_hasHtmlEmail">
         hasHtmlEmail()
         <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_hasHtmlEmail" class="headerlink"><i class="fas fa-link"></i></a>
@@ -2042,7 +2014,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">185</span>
+    <span class="phpdocumentor-element-found-in__line">212</span>
 
     </aside>
 
@@ -2080,7 +2052,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">123</span>
+    <span class="phpdocumentor-element-found-in__line">150</span>
 
     </aside>
 
@@ -2118,7 +2090,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">111</span>
+    <span class="phpdocumentor-element-found-in__line">138</span>
 
     </aside>
 
@@ -2156,7 +2128,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">197</span>
+    <span class="phpdocumentor-element-found-in__line">224</span>
 
     </aside>
 
@@ -2194,7 +2166,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">272</span>
+    <span class="phpdocumentor-element-found-in__line">299</span>
 
     </aside>
 
@@ -2242,7 +2214,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">239</span>
+    <span class="phpdocumentor-element-found-in__line">266</span>
 
     </aside>
 
@@ -2290,7 +2262,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">128</span>
+    <span class="phpdocumentor-element-found-in__line">155</span>
 
     </aside>
 
@@ -2338,7 +2310,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">140</span>
+    <span class="phpdocumentor-element-found-in__line">167</span>
 
     </aside>
 
@@ -2386,7 +2358,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">116</span>
+    <span class="phpdocumentor-element-found-in__line">143</span>
 
     </aside>
 
@@ -2434,7 +2406,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">202</span>
+    <span class="phpdocumentor-element-found-in__line">229</span>
 
     </aside>
 
@@ -2482,7 +2454,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">178</span>
+    <span class="phpdocumentor-element-found-in__line">205</span>
 
     </aside>
 
@@ -2530,7 +2502,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">214</span>
+    <span class="phpdocumentor-element-found-in__line">241</span>
 
     </aside>
 
@@ -2578,7 +2550,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">190</span>
+    <span class="phpdocumentor-element-found-in__line">217</span>
 
     </aside>
 
@@ -2626,7 +2598,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">159</span>
+    <span class="phpdocumentor-element-found-in__line">186</span>
 
     </aside>
 
@@ -2666,22 +2638,23 @@ campaigns for those subscriber lists.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_updateCreationDate">
-        updateCreationDate()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_updateCreationDate" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_updateUpdatedAt">
+        updateUpdatedAt()
+        <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_updateUpdatedAt" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/CreationDateTrait.php"><a href="files/src-domain-model-traits-creationdatetrait.html"><abbr title="src/Domain/Model/Traits/CreationDateTrait.php">CreationDateTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Subscriber.php"><a href="files/src-domain-model-subscription-subscriber.html"><abbr title="src/Domain/Model/Subscription/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">129</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Updates the modification date to be now.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">updateCreationDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">updateUpdatedAt</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -2693,56 +2666,7 @@ campaigns for those subscriber lists.</p>
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_updateCreationDate#attributes" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h5>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\PrePersist">PrePersist</abbr>]
-    </dt>
-    </dl>
-            </section>
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_updateModificationDate">
-        updateModificationDate()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_updateModificationDate" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">37</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">updateModificationDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-    <section class="phpdocumentor-attributes">
-        <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_updateModificationDate#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_updateUpdatedAt#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -2756,102 +2680,6 @@ campaigns for those subscriber lists.</p>
     </dt>
     </dl>
             </section>
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_setCreationDate">
-        setCreationDate()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_setCreationDate" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/CreationDateTrait.php"><a href="files/src-domain-model-traits-creationdatetrait.html"><abbr title="src/Domain/Model/Traits/CreationDateTrait.php">CreationDateTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">37</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">setCreationDate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$creationDate</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$creationDate</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_setModificationDate">
-        setModificationDate()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_setModificationDate" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/ModificationDateTrait.php"><a href="files/src-domain-model-traits-modificationdatetrait.html"><abbr title="src/Domain/Model/Traits/ModificationDateTrait.php">ModificationDateTrait.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">31</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">setModificationDate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modificationDate</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$modificationDate</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\DateTime">DateTime</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -2972,7 +2800,7 @@ campaigns for those subscriber lists.</p>
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_creationDate">$creationDate</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_createdAt">$createdAt</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_attributes">$attributes</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_blacklisted">$blacklisted</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_bounceCount">$bounceCount</a></li>
@@ -2981,10 +2809,10 @@ campaigns for those subscriber lists.</p>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_email">$email</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_extraData">$extraData</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_htmlEmail">$htmlEmail</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id">$id</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#property_modificationDate">$modificationDate</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_id">$id</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_subscriptions">$subscriptions</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_uniqueId">$uniqueId</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_updatedAt">$updatedAt</a></li>
                                             </ul>
                 </li>
             
@@ -2998,14 +2826,14 @@ campaigns for those subscriber lists.</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_generateUniqueId">generateUniqueId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getAttributes">getAttributes()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getBounceCount">getBounceCount()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_getCreationDate">getCreationDate()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getCreatedAt">getCreatedAt()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getEmail">getEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getExtraData">getExtraData()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId">getId()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_getModificationDate">getModificationDate()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getId">getId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getSubscribedLists">getSubscribedLists()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getSubscriptions">getSubscriptions()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getUniqueId">getUniqueId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_getUpdatedAt">getUpdatedAt()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_hasHtmlEmail">hasHtmlEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_isBlacklisted">isBlacklisted()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_isConfirmed">isConfirmed()</a></li>
@@ -3020,10 +2848,7 @@ campaigns for those subscriber lists.</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_setExtraData">setExtraData()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_setHtmlEmail">setHtmlEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_setUniqueId">setUniqueId()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_updateCreationDate">updateCreationDate()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_updateModificationDate">updateModificationDate()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-CreationDateTrait.html#method_setCreationDate">setCreationDate()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-ModificationDateTrait.html#method_setModificationDate">setModificationDate()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#method_updateUpdatedAt">updateUpdatedAt()</a></li>
                                     </ul>
             </li>
                     </ul>

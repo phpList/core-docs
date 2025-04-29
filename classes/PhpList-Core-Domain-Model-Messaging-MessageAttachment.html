@@ -114,9 +114,6 @@
             implements
                             <a href="classes/PhpList-Core-Domain-Model-Interfaces-Identity.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\Identity">Identity</abbr></a>                    </span>
     
-            <span class="phpdocumentor-element__extends">
-            uses
-                            <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html"><abbr title="\PhpList\Core\Domain\Model\Traits\IdentityTrait">IdentityTrait</abbr></a>                    </span>
     </h2>
 
 <div class="phpdocumentor-label-line">
@@ -215,9 +212,9 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id">$id</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#property_id">$id</a>
     <span>
-                        &nbsp;: int            </span>
+                        &nbsp;: int|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -241,9 +238,9 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId">getId()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#method_getId">getId()</a>
     <span>
-                                &nbsp;: int    </span>
+                                &nbsp;: int|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -294,7 +291,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/MessageAttachment.php"><a href="files/src-domain-model-messaging-messageattachment.html"><abbr title="src/Domain/Model/Messaging/MessageAttachment.php">MessageAttachment.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -339,15 +336,15 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_id">
         $id
-        <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#property_id" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/IdentityTrait.php"><a href="files/src-domain-model-traits-identitytrait.html"><abbr title="src/Domain/Model/Traits/IdentityTrait.php">IdentityTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/MessageAttachment.php"><a href="files/src-domain-model-messaging-messageattachment.html"><abbr title="src/Domain/Model/Messaging/MessageAttachment.php">MessageAttachment.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -355,9 +352,9 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">int</span>
+        <span class="phpdocumentor-signature__type">int|null</span>
     <span class="phpdocumentor-signature__name">$id</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -366,7 +363,7 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#property_id#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -395,14 +392,6 @@
         #[<abbr title="\Doctrine\ORM\Mapping\Id">Id</abbr>]
     </dt>
     </dl>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Symfony\Component\Serializer\Annotation\SerializedName">SerializedName</abbr>]
-    </dt>
-        <dd class="phpdocumentor-argument-list__entry">
-        &#039;id&#039;
-    </dd>
-    </dl>
             </section>
 
 </article>
@@ -423,7 +412,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/MessageAttachment.php"><a href="files/src-domain-model-messaging-messageattachment.html"><abbr title="src/Domain/Model/Messaging/MessageAttachment.php">MessageAttachment.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -481,7 +470,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/MessageAttachment.php"><a href="files/src-domain-model-messaging-messageattachment.html"><abbr title="src/Domain/Model/Messaging/MessageAttachment.php">MessageAttachment.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -513,20 +502,20 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_getId">
         getId()
-        <a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Traits/IdentityTrait.php"><a href="files/src-domain-model-traits-identitytrait.html"><abbr title="src/Domain/Model/Traits/IdentityTrait.php">IdentityTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/MessageAttachment.php"><a href="files/src-domain-model-messaging-messageattachment.html"><abbr title="src/Domain/Model/Messaging/MessageAttachment.php">MessageAttachment.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -539,7 +528,7 @@
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">int</span>
+        <span class="phpdocumentor-signature__response_type">int|null</span>
             </section>
 
 </article>
@@ -557,7 +546,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/MessageAttachment.php"><a href="files/src-domain-model-messaging-messageattachment.html"><abbr title="src/Domain/Model/Messaging/MessageAttachment.php">MessageAttachment.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -595,7 +584,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/MessageAttachment.php"><a href="files/src-domain-model-messaging-messageattachment.html"><abbr title="src/Domain/Model/Messaging/MessageAttachment.php">MessageAttachment.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
@@ -643,7 +632,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Messaging/MessageAttachment.php"><a href="files/src-domain-model-messaging-messageattachment.html"><abbr title="src/Domain/Model/Messaging/MessageAttachment.php">MessageAttachment.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
     </aside>
 
@@ -791,7 +780,7 @@
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#property_attachmentId">$attachmentId</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#property_id">$id</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#property_id">$id</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#property_messageId">$messageId</a></li>
                                             </ul>
                 </li>
@@ -800,7 +789,7 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#method_getAttachmentId">getAttachmentId()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Traits-IdentityTrait.html#method_getId">getId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#method_getId">getId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#method_getMessageId">getMessageId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#method_setAttachmentId">setAttachmentId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Messaging-MessageAttachment.html#method_setMessageId">setMessageId()</a></li>
