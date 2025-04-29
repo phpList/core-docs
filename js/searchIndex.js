@@ -1541,15 +1541,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setLoginName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AgetEmailAddress\u0028\u0029",
-            "name": "getEmailAddress",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AgetEmail\u0028\u0029",
+            "name": "getEmail",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getEmailAddress"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AsetEmailAddress\u0028\u0029",
-            "name": "setEmailAddress",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AsetEmail\u0028\u0029",
+            "name": "setEmail",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setEmailAddress"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setEmail"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AgetPasswordHash\u0028\u0029",
             "name": "getPasswordHash",
@@ -1621,10 +1621,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_namelc"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024emailAddress",
-            "name": "emailAddress",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024email",
+            "name": "email",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_emailAddress"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_email"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024creationDate",
             "name": "creationDate",
