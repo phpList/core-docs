@@ -114,6 +114,9 @@
         </div>
     
     
+            <span class="phpdocumentor-element__extends">
+            uses
+                            <a href="classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html"><abbr title="\PhpList\Core\Domain\Repository\CursorPaginationTrait">CursorPaginationTrait</abbr></a>                    </span>
     </h2>
 
 <div class="phpdocumentor-label-line">
@@ -124,7 +127,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Repository/Subscription/SubscriberRepository.php"><a href="files/src-domain-repository-subscription-subscriberrepository.html"><abbr title="src/Domain/Repository/Subscription/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -145,6 +148,15 @@
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
                                                  <section class="phpdocumentor-description"><p>Oliver Klee <a href="mailto:oliver@phplist.com">oliver@phplist.com</a></p>
+</section>
+
+                                    </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Tatevik Grigoryan <a href="mailto:tatevik@phplist.com">tatevik@phplist.com</a></p>
 </section>
 
                                     </dd>
@@ -192,6 +204,13 @@
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html"><abbr title="\PhpList\Core\Domain\Model\Subscription\Subscriber">Subscriber</abbr></a>|null    </span>
 </dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Provides cursor-based pagination using an integer ID.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html#method_getSubscribersBySubscribedListId">getSubscribersBySubscribedListId()</a>
@@ -289,7 +308,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Repository/Subscription/SubscriberRepository.php"><a href="files/src-domain-repository-subscription-subscriberrepository.html"><abbr title="src/Domain/Repository/Subscription/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -337,7 +356,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Repository/Subscription/SubscriberRepository.php"><a href="files/src-domain-repository-subscription-subscriberrepository.html"><abbr title="src/Domain/Repository/Subscription/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 
     </aside>
 
@@ -377,6 +396,66 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getAfterId">
+        getAfterId()
+        <a href="classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getAfterId" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Repository/CursorPaginationTrait.php"><a href="files/src-domain-repository-cursorpaginationtrait.html"><abbr title="src/Domain/Repository/CursorPaginationTrait.php">CursorPaginationTrait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Provides cursor-based pagination using an integer ID.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getAfterId</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lastId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$limit</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$lastId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The last seen ID to paginate after</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$limit</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Max number of results to return</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getSubscribersBySubscribedListId">
         getSubscribersBySubscribedListId()
         <a href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html#method_getSubscribersBySubscribedListId" class="headerlink"><i class="fas fa-link"></i></a>
@@ -385,7 +464,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Repository/Subscription/SubscriberRepository.php"><a href="files/src-domain-repository-subscription-subscriberrepository.html"><abbr title="src/Domain/Repository/Subscription/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
@@ -631,6 +710,7 @@ following the Law of Demeter.</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html#method_findOneByEmail">findOneByEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html#method_findSubscribersBySubscribedList">findSubscribersBySubscribedList()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html#method_findSubscriberWithSubscriptions">findSubscriberWithSubscriptions()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html#method_getSubscribersBySubscribedListId">getSubscribersBySubscribedListId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_remove">remove()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_save">save()</a></li>

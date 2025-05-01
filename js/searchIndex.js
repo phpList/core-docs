@@ -1766,11 +1766,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method_getCreatedAt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AsetCreatedAt\u0028\u0029",
-            "name": "setCreatedAt",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdministratorToken.html#method_setCreatedAt"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdministratorToken\u003A\u003AupdateCreatedAt\u0028\u0029",
             "name": "updateCreatedAt",
             "summary": "",
@@ -1861,20 +1856,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method_getId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003AisActive\u0028\u0029",
+            "name": "isActive",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method_isActive"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003AsetActive\u0028\u0029",
             "name": "setActive",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method_setActive"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003AgetAdminId\u0028\u0029",
-            "name": "getAdminId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003AgetAdministrator\u0028\u0029",
+            "name": "getAdministrator",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method_getAdminId"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method_getAdministrator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003AgetMoment\u0028\u0029",
-            "name": "getMoment",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method_getMoment"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method_getCreatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003AgetRemoteIp4\u0028\u0029",
             "name": "getRemoteIp4",
@@ -1891,20 +1891,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method_getSessionId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003AisActive\u0028\u0029",
-            "name": "isActive",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#method_isActive"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#property_id"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003A\u0024adminId",
-            "name": "adminId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003A\u0024administrator",
+            "name": "administrator",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#property_adminId"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminLogin.html#property_administrator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminLogin\u003A\u003A\u0024moment",
             "name": "moment",
@@ -1951,10 +1946,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdminPasswordRequest.html#method_getDate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminPasswordRequest\u003A\u003AgetAdminId\u0028\u0029",
-            "name": "getAdminId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminPasswordRequest\u003A\u003AgetAdmin\u0028\u0029",
+            "name": "getAdmin",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminPasswordRequest.html#method_getAdminId"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminPasswordRequest.html#method_getAdmin"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminPasswordRequest\u003A\u003AgetKeyValue\u0028\u0029",
             "name": "getKeyValue",
@@ -1971,10 +1966,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Identity-AdminPasswordRequest.html#property_date"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminPasswordRequest\u003A\u003A\u0024adminId",
-            "name": "adminId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminPasswordRequest\u003A\u003A\u0024administrator",
+            "name": "administrator",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminPasswordRequest.html#property_adminId"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminPasswordRequest.html#property_administrator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminPasswordRequest\u003A\u003A\u0024keyValue",
             "name": "keyValue",
@@ -3561,6 +3556,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003AgetUser\u0028\u0029",
             "name": "getUser",
             "summary": "",
@@ -3571,10 +3571,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html#method_getMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003AgetEntered\u0028\u0029",
-            "name": "getEntered",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html#method_getEntered"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html#method_getCreatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003AgetViewed\u0028\u0029",
             "name": "getViewed",
@@ -3585,21 +3585,6 @@ Search.appendIndex(
             "name": "getStatus",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html#method_getStatus"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003AsetUser\u0028\u0029",
-            "name": "setUser",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html#method_setUser"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003AsetMessage\u0028\u0029",
-            "name": "setMessage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html#method_setMessage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003AsetEntered\u0028\u0029",
-            "name": "setEntered",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html#method_setEntered"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003AsetViewed\u0028\u0029",
             "name": "setViewed",
@@ -3621,10 +3606,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html#property_message"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003A\u0024entered",
-            "name": "entered",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003A\u0024createdAt",
+            "name": "createdAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html#property_entered"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessage.html#property_createdAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessage\u003A\u003A\u0024viewed",
             "name": "viewed",
@@ -3666,10 +3651,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageBounce.html#method_getBounce"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageBounce\u003A\u003AgetTime\u0028\u0029",
-            "name": "getTime",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageBounce\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageBounce.html#method_getTime"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageBounce.html#method_getCreatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageBounce\u003A\u003AsetUser\u0028\u0029",
             "name": "setUser",
@@ -3706,15 +3691,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageBounce.html#property_bounce"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageBounce\u003A\u003A\u0024time",
-            "name": "time",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageBounce\u003A\u003A\u0024createdAt",
+            "name": "createdAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageBounce.html#property_time"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageBounce.html#property_createdAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward",
             "name": "UserMessageForward",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003AgetId\u0028\u0029",
             "name": "getId",
@@ -3741,10 +3731,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#method_getStatus"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003AgetTime\u0028\u0029",
-            "name": "getTime",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#method_getTime"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#method_getCreatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003AsetUser\u0028\u0029",
             "name": "setUser",
@@ -3765,11 +3755,6 @@ Search.appendIndex(
             "name": "setStatus",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#method_setStatus"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003AsetTime\u0028\u0029",
-            "name": "setTime",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#method_setTime"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003A\u0024id",
             "name": "id",
@@ -3796,10 +3781,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#property_status"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003A\u0024time",
-            "name": "time",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\UserMessageForward\u003A\u003A\u0024createdAt",
+            "name": "createdAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#property_time"
+            "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#property_createdAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscribePage",
             "name": "SubscribePage",
@@ -4286,6 +4271,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003AgetId\u0028\u0029",
             "name": "getId",
             "summary": "",
@@ -4301,10 +4291,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#method_getIp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003AgetDate\u0028\u0029",
-            "name": "getDate",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#method_getDate"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#method_getCreatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003AgetSummary\u0028\u0029",
             "name": "getSummary",
@@ -4330,11 +4320,6 @@ Search.appendIndex(
             "name": "setIp",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#method_setIp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003AsetDate\u0028\u0029",
-            "name": "setDate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#method_setDate"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003AsetSummary\u0028\u0029",
             "name": "setSummary",
@@ -4366,10 +4351,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#property_ip"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003A\u0024date",
-            "name": "date",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003A\u0024createdAt",
+            "name": "createdAt",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#property_date"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberHistory.html#property_createdAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory\u003A\u003A\u0024summary",
             "name": "summary",
@@ -4666,6 +4651,16 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Repository-Analytics-LinkTrackUserClickRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Analytics\\UserMessageViewRepository",
+            "name": "UserMessageViewRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Analytics-UserMessageViewRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Analytics\\UserStatsRepository",
+            "name": "UserStatsRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Analytics-UserStatsRepository.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Configuration\\ConfigRepository",
             "name": "ConfigRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -4680,6 +4675,21 @@ Search.appendIndex(
             "name": "I18nRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Repository-Configuration-I18nRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Configuration\\UrlCacheRepository",
+            "name": "UrlCacheRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Configuration-UrlCacheRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\CursorPaginationTrait",
+            "name": "CursorPaginationTrait",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\CursorPaginationTrait\u003A\u003AgetAfterId\u0028\u0029",
+            "name": "getAfterId",
+            "summary": "Provides\u0020cursor\u002Dbased\u0020pagination\u0020using\u0020an\u0020integer\u0020ID.",
+            "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getAfterId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\AdminAttributeRelationRepository",
             "name": "AdminAttributeRelationRepository",
@@ -4736,6 +4746,16 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Repository-Identity-AdminPasswordRequestRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\UserBlacklistDataRepository",
+            "name": "UserBlacklistDataRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Identity-UserBlacklistDataRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\UserBlacklistRepository",
+            "name": "UserBlacklistRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Identity-UserBlacklistRepository.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\AttachmentRepository",
             "name": "AttachmentRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -4761,6 +4781,16 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-ListMessageRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\MessageAttachmentRepository",
+            "name": "MessageAttachmentRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageAttachmentRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\MessageDataRepository",
+            "name": "MessageDataRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageDataRepository.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\MessageRepository",
             "name": "MessageRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -4770,6 +4800,11 @@ Search.appendIndex(
             "name": "getByOwnerId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html#method_getByOwnerId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\SendProcessRepository",
+            "name": "SendProcessRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-SendProcessRepository.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\TemplateImageRepository",
             "name": "TemplateImageRepository",
@@ -4781,6 +4816,36 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-TemplateRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\UserMessageBounceRepository",
+            "name": "UserMessageBounceRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-UserMessageBounceRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\UserMessageForwardRepository",
+            "name": "UserMessageForwardRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-UserMessageForwardRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\UserMessageRepository",
+            "name": "UserMessageRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-UserMessageRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberAttributeDefinitionRepository",
+            "name": "SubscriberAttributeDefinitionRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberAttributeDefinitionRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberAttributeRepository",
+            "name": "SubscriberAttributeRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberAttributeRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberHistoryRepository",
+            "name": "SubscriberHistoryRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberHistoryRepository.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberListRepository",
             "name": "SubscriberListRepository",
             "summary": "Repository\u0020for\u0020SubscriberList\u0020models.",
@@ -4790,6 +4855,16 @@ Search.appendIndex(
             "name": "findWithSubscription",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberListRepository.html#method_findWithSubscription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberPageDataRepository",
+            "name": "SubscriberPageDataRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberPageDataRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberPageRepository",
+            "name": "SubscriberPageRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberPageRepository.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberRepository",
             "name": "SubscriberRepository",
