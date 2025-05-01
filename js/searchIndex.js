@@ -1686,6 +1686,16 @@ Search.appendIndex(
             "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
             "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_updateUpdatedAt"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AsetModifiedBy\u0028\u0029",
+            "name": "setModifiedBy",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setModifiedBy"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003AgetModifiedBy\u0028\u0029",
+            "name": "getModifiedBy",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getModifiedBy"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",

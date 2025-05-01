@@ -224,12 +224,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                         &nbsp;: <abbr title="\DateTime">DateTime</abbr>            </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_modifiedBy">$modifiedBy</a>
-    <span>
-                        &nbsp;: string|null            </span>
-</dt>
-
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_disabled">$disabled</a>
     <span>
@@ -252,6 +246,12 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <a class="" href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_loginName">$loginName</a>
     <span>
                         &nbsp;: string            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_modifiedBy">$modifiedBy</a>
+    <span>
+                        &nbsp;: string|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -329,6 +329,12 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getModifiedBy">getModifiedBy()</a>
+    <span>
+                                &nbsp;: string|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getNameLc">getNameLc()</a>
     <span>
                                 &nbsp;: string    </span>
@@ -384,6 +390,12 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setLoginName">setLoginName()</a>
+    <span>
+                                &nbsp;: self    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setModifiedBy">setModifiedBy()</a>
     <span>
                                 &nbsp;: self    </span>
 </dt>
@@ -480,65 +492,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $type: &#039;datetime&#039;
-    </dd>
-    </dl>
-            </section>
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="property_modifiedBy">
-        $modifiedBy
-        <a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_modifiedBy" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/Administrator.php"><a href="files/src-domain-model-identity-administrator.html"><abbr title="src/Domain/Model/Identity/Administrator.php">Administrator.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">47</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-        <span class="phpdocumentor-signature__type">string|null</span>
-    <span class="phpdocumentor-signature__name">$modifiedBy</span>
-    </code>
-
-    
-    
-    
-
-    
-    <section class="phpdocumentor-attributes">
-        <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_modifiedBy#attributes" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h5>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
-    </dt>
-        <dd class="phpdocumentor-argument-list__entry">
-        $name: &#039;modifiedby&#039;
-    </dd>
-        <dd class="phpdocumentor-argument-list__entry">
-        $type: &#039;string&#039;
-    </dd>
-        <dd class="phpdocumentor-argument-list__entry">
-        $length: 66
-    </dd>
-        <dd class="phpdocumentor-argument-list__entry">
-        $nullable: true
     </dd>
     </dl>
             </section>
@@ -749,6 +702,65 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
         $name: &#039;loginname&#039;
+    </dd>
+    </dl>
+            </section>
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_modifiedBy">
+        $modifiedBy
+        <a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_modifiedBy" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/Administrator.php"><a href="files/src-domain-model-identity-administrator.html"><abbr title="src/Domain/Model/Identity/Administrator.php">Administrator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">string|null</span>
+    <span class="phpdocumentor-signature__name">$modifiedBy</span>
+    </code>
+
+    
+    
+    
+
+    
+    <section class="phpdocumentor-attributes">
+        <h5 class="phpdocumentor-elements__header" id="attributes">
+            Attributes <a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_modifiedBy#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h5>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $name: &#039;modifiedby&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $type: &#039;string&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $length: 66
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $nullable: true
     </dd>
     </dl>
             </section>
@@ -1275,6 +1287,44 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getModifiedBy">
+        getModifiedBy()
+        <a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getModifiedBy" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/Administrator.php"><a href="files/src-domain-model-identity-administrator.html"><abbr title="src/Domain/Model/Identity/Administrator.php">Administrator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">197</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getModifiedBy</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getNameLc">
         getNameLc()
         <a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getNameLc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1685,6 +1735,54 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_setModifiedBy">
+        setModifiedBy()
+        <a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setModifiedBy" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Identity/Administrator.php"><a href="files/src-domain-model-identity-administrator.html"><abbr title="src/Domain/Model/Identity/Administrator.php">Administrator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">191</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setModifiedBy</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$modifiedBy</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$modifiedBy</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_setNameLc">
         setNameLc()
         <a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setNameLc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -2040,11 +2138,11 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_createdAt">$createdAt</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_modifiedBy">$modifiedBy</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_disabled">$disabled</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_email">$email</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_id">$id</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_loginName">$loginName</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_modifiedBy">$modifiedBy</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_namelc">$namelc</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_passwordChangeDate">$passwordChangeDate</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#property_passwordHash">$passwordHash</a></li>
@@ -2062,6 +2160,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getEmail">getEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getId">getId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getLoginName">getLoginName()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getModifiedBy">getModifiedBy()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getNameLc">getNameLc()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getPasswordChangeDate">getPasswordChangeDate()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_getPasswordHash">getPasswordHash()</a></li>
@@ -2072,6 +2171,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setDisabled">setDisabled()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setEmail">setEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setLoginName">setLoginName()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setModifiedBy">setModifiedBy()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setNameLc">setNameLc()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setPasswordHash">setPasswordHash()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Model-Identity-Administrator.html#method_setPrivileges">setPrivileges()</a></li>
