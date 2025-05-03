@@ -461,6 +461,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Environment.html#property_validEnvironments"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Filter\\FilterRequestInterface",
+            "name": "FilterRequestInterface",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Filter-FilterRequestInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Filter\\MessageFilter",
+            "name": "MessageFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Filter-MessageFilter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Filter\\MessageFilter\u003A\u003AgetOwner\u0028\u0029",
+            "name": "getOwner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Filter-MessageFilter.html#method_getOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Filter\\MessageFilter\u003A\u003AsetOwner\u0028\u0029",
+            "name": "setOwner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Filter-MessageFilter.html#method_setOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Filter\\MessageFilter\u003A\u003A\u0024owner",
+            "name": "owner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Filter-MessageFilter.html#property_owner"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\LinkTrack",
             "name": "LinkTrack",
             "summary": "",
@@ -2090,11 +2115,6 @@ Search.appendIndex(
             "name": "EmbeddableInterface",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Interfaces-EmbeddableInterface.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\FilterRequestInterface",
-            "name": "FilterRequestInterface",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Interfaces-FilterRequestInterface.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\Identity",
             "name": "Identity",
@@ -4786,6 +4806,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-Interfaces-PaginatableRepositoryInterface.html#method_getAfterId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Interfaces\\PaginatableRepositoryInterface\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Interfaces-PaginatableRepositoryInterface.html#method_getFilteredAfterId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Interfaces\\PaginatableRepositoryInterface\u003A\u003Acount\u0028\u0029",
             "name": "count",
             "summary": "",
@@ -4835,6 +4860,11 @@ Search.appendIndex(
             "name": "getByOwnerId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html#method_getByOwnerId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\MessageRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html#method_getFilteredAfterId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\SendProcessRepository",
             "name": "SendProcessRepository",
@@ -7441,6 +7471,16 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-core.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Filter",
+            "name": "Filter",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-filter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain",
+            "name": "Domain",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics",
             "name": "Analytics",
             "summary": "",
@@ -7450,11 +7490,6 @@ Search.appendIndex(
             "name": "Model",
             "summary": "",
             "url": "namespaces/phplist-core-domain-model.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain",
-            "name": "Domain",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Configuration",
             "name": "Configuration",
