@@ -4766,6 +4766,21 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Repository-Identity-UserBlacklistRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Interfaces\\PaginatableRepositoryInterface",
+            "name": "PaginatableRepositoryInterface",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Interfaces-PaginatableRepositoryInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Interfaces\\PaginatableRepositoryInterface\u003A\u003AgetAfterId\u0028\u0029",
+            "name": "getAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Interfaces-PaginatableRepositoryInterface.html#method_getAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Interfaces\\PaginatableRepositoryInterface\u003A\u003Acount\u0028\u0029",
+            "name": "count",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Interfaces-PaginatableRepositoryInterface.html#method_count"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\AttachmentRepository",
             "name": "AttachmentRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -7420,6 +7435,11 @@ Search.appendIndex(
             "name": "Identity",
             "summary": "",
             "url": "namespaces/phplist-core-domain-repository-identity.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Interfaces",
+            "name": "Interfaces",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-repository-interfaces.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging",
             "name": "Messaging",
