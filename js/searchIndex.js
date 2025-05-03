@@ -2091,6 +2091,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Interfaces-EmbeddableInterface.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\FilterRequestInterface",
+            "name": "FilterRequestInterface",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Interfaces-FilterRequestInterface.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Interfaces\\Identity",
             "name": "Identity",
             "summary": "This\u0020interface\u0020communicates\u0020that\u0020a\u0020domain\u0020model\u0020has\u0020an\u0020ID\u0020property.",
@@ -4698,8 +4703,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\CursorPaginationTrait\u003A\u003AgetAfterId\u0028\u0029",
             "name": "getAfterId",
-            "summary": "Provides\u0020cursor\u002Dbased\u0020pagination\u0020using\u0020an\u0020integer\u0020ID.",
+            "summary": "Apply\u0020cursor\u002Dbased\u0020pagination\u0020to\u0020a\u0020QueryBuilder.",
             "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\CursorPaginationTrait\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "Get\u0020filtered\u0020\u002B\u0020paginated\u0020messages\u0020for\u0020a\u0020given\u0020owner\u0020and\u0020status.",
+            "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getFilteredAfterId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\AdminAttributeRelationRepository",
             "name": "AdminAttributeRelationRepository",
@@ -7071,6 +7081,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Model-Subscription-SubscriptionTest.html#property_subject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\CursorPaginationTraitTest",
+            "name": "CursorPaginationTraitTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-CursorPaginationTraitTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\CursorPaginationTraitTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-CursorPaginationTraitTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\CursorPaginationTraitTest\u003A\u003AtestGetAfterIdReturnsResults\u0028\u0029",
+            "name": "testGetAfterIdReturnsResults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-CursorPaginationTraitTest.html#method_testGetAfterIdReturnsResults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\CursorPaginationTraitTest\u003A\u003AtestGetFilteredAfterIdWithNullFilterDelegates\u0028\u0029",
+            "name": "testGetFilteredAfterIdWithNullFilterDelegates",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-CursorPaginationTraitTest.html#method_testGetFilteredAfterIdWithNullFilterDelegates"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\CursorPaginationTraitTest\u003A\u003AtestGetFilteredAfterIdWithFilterThrows\u0028\u0029",
+            "name": "testGetFilteredAfterIdWithFilterThrows",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-CursorPaginationTraitTest.html#method_testGetFilteredAfterIdWithFilterThrows"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\CursorPaginationTraitTest\u003A\u003A\u0024qb",
+            "name": "qb",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-CursorPaginationTraitTest.html#property_qb"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\CursorPaginationTraitTest\u003A\u003A\u0024query",
+            "name": "query",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-CursorPaginationTraitTest.html#property_query"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\CursorPaginationTraitTest\u003A\u003A\u0024repo",
+            "name": "repo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-CursorPaginationTraitTest.html#property_repo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\DummyRepository",
+            "name": "DummyRepository",
+            "summary": "Dummy\u0020repository\u0020that\u0020uses\u0020the\u0020trait",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\DummyRepository\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\DummyRepository\u003A\u003AcreateQueryBuilder\u0028\u0029",
+            "name": "createQueryBuilder",
+            "summary": "Doctrine\u0020normally\u0020injects\u0020the\u0020QB\u0020through\u0020\u0024this\u002D\u003EcreateQueryBuilder\u0028\u0029.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method_createQueryBuilder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\DummyRepository\u003A\u003A\u0024queryBuilder",
+            "name": "queryBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#property_queryBuilder"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Identity\\AdministratorRepositoryTest",
             "name": "AdministratorRepositoryTest",
             "summary": "Testcase.",
@@ -7626,15 +7696,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-model-subscription.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Identity",
-            "name": "Identity",
-            "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-repository-identity.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository",
             "name": "Repository",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-repository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Identity",
+            "name": "Identity",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-repository-identity.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\Messaging",
             "name": "Messaging",

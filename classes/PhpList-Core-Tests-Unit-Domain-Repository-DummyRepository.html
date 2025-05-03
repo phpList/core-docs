@@ -93,18 +93,16 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-repository.html">Repository</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-repository-analytics.html">Analytics</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-repository.html">Repository</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    UserMessageViewRepository
+    DummyRepository
 
-        <span class="phpdocumentor-element__extends">
-        extends <a href="classes/PhpList-Core-Domain-Repository-AbstractRepository.html"><abbr title="\PhpList\Core\Domain\Repository\AbstractRepository">AbstractRepository</abbr></a>
-    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -113,9 +111,6 @@
                             </ul>
         </div>
     
-            <span class="phpdocumentor-element__implements">
-            implements
-                            <a href="classes/PhpList-Core-Domain-Repository-Interfaces-PaginatableRepositoryInterface.html"><abbr title="\PhpList\Core\Domain\Repository\Interfaces\PaginatableRepositoryInterface">PaginatableRepositoryInterface</abbr></a>                    </span>
     
             <span class="phpdocumentor-element__extends">
             uses
@@ -128,13 +123,13 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Repository/Analytics/UserMessageViewRepository.php"><a href="files/src-domain-repository-analytics-usermessageviewrepository.html"><abbr title="src/Domain/Repository/Analytics/UserMessageViewRepository.php">UserMessageViewRepository.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Repository/DummyRepository.php"><a href="files/tests-unit-domain-repository-dummyrepository.html"><abbr title="tests/Unit/Domain/Repository/DummyRepository.php">DummyRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Base class for repositories.</p>
+            <p class="phpdocumentor-summary">Dummy repository that uses the trait</p>
 
 
 
@@ -146,32 +141,44 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Repository-Analytics-UserMessageViewRepository.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
 
 
-    <h4 id="toc-interfaces">
-        Interfaces
-        <a href="classes/PhpList-Core-Domain-Repository-Analytics-UserMessageViewRepository.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/PhpList-Core-Domain-Repository-Interfaces-PaginatableRepositoryInterface.html"><abbr title="\PhpList\Core\Domain\Repository\Interfaces\PaginatableRepositoryInterface">PaginatableRepositoryInterface</abbr></a></dt>    </dl>
 
 
 
 
 
 
-
-<h4 id="toc-methods">
-    Methods
-    <a href="classes/PhpList-Core-Domain-Repository-Analytics-UserMessageViewRepository.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#property_queryBuilder">$queryBuilder</a>
+    <span>
+                        &nbsp;: <abbr title="\Doctrine\ORM\QueryBuilder">QueryBuilder</abbr>            </span>
+</dt>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method___construct">__construct()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a>
     <span>
@@ -186,19 +193,12 @@
 </dt>
 <dd>Get filtered + paginated messages for a given owner and status.</dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_remove">remove()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method_createQueryBuilder">createQueryBuilder()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: <abbr title="\Doctrine\ORM\QueryBuilder">QueryBuilder</abbr>    </span>
 </dt>
-<dd>Removes $model and flushes the entity manager change list.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_save">save()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Persists $model and flushes the entity manager change list.</dd>
+<dd>Doctrine normally injects the QB through $this-&gt;createQueryBuilder().</dd>
 
     </dl>
 
@@ -207,13 +207,100 @@
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_queryBuilder">
+        $queryBuilder
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#property_queryBuilder" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Repository/DummyRepository.php"><a href="files/tests-unit-domain-repository-dummyrepository.html"><abbr title="tests/Unit/Domain/Repository/DummyRepository.php">DummyRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\ORM\QueryBuilder">QueryBuilder</abbr></span>
+    <span class="phpdocumentor-signature__name">$queryBuilder</span>
+    </code>
+
+    
+    
+    
+
+    
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Repository-Analytics-UserMessageViewRepository.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Repository/DummyRepository.php"><a href="files/tests-unit-domain-repository-dummyrepository.html"><abbr title="tests/Unit/Domain/Repository/DummyRepository.php">DummyRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\QueryBuilder">QueryBuilder</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$queryBuilder</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$queryBuilder</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\QueryBuilder">QueryBuilder</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
                     <article
         class="phpdocumentor-element
             -method
@@ -362,39 +449,36 @@
                     <article
         class="phpdocumentor-element
             -method
-            -public
+            -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_remove">
-        remove()
-        <a href="classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_remove" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_createQueryBuilder">
+        createQueryBuilder()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method_createQueryBuilder" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Repository/AbstractRepository.php"><a href="files/src-domain-repository-abstractrepository.html"><abbr title="src/Domain/Repository/AbstractRepository.php">AbstractRepository.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Repository/DummyRepository.php"><a href="files/tests-unit-domain-repository-dummyrepository.html"><abbr title="tests/Unit/Domain/Repository/DummyRepository.php">DummyRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Removes $model and flushes the entity manager change list.</p>
+        <p class="phpdocumentor-summary">Doctrine normally injects the QB through $this-&gt;createQueryBuilder().</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">remove</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$model</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">createQueryBuilder</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$alias</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\ORM\QueryBuilder">QueryBuilder</abbr></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
-        <section class="phpdocumentor-description"><p>This method allows controllers to not depend on the entity manager, but only on the repositories instead,
-following the Law of Demeter.</p>
-</section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$model</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span>
+                <span class="phpdocumentor-signature__argument__name">$alias</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -405,55 +489,11 @@ following the Law of Demeter.</p>
 
     
 
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_save">
-        save()
-        <a href="classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_save" class="headerlink"><i class="fas fa-link"></i></a>
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Doctrine\ORM\QueryBuilder">QueryBuilder</abbr></span>
+            </section>
 
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Repository/AbstractRepository.php"><a href="files/src-domain-repository-abstractrepository.html"><abbr title="src/Domain/Repository/AbstractRepository.php">AbstractRepository.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">28</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Persists $model and flushes the entity manager change list.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">save</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$model</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-        <section class="phpdocumentor-description"><p>This method allows controllers to not depend on the entity manager, but only on the repositories instead,
-following the Law of Demeter.</p>
-</section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$model</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Model\Interfaces\DomainModel">DomainModel</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-
-    
 </article>
             </section>
 
@@ -461,7 +501,7 @@ following the Law of Demeter.</p>
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Repository/Analytics/UserMessageViewRepository.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Repository/DummyRepository.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -560,18 +600,25 @@ following the Law of Demeter.</p>
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                <li><a href="classes/PhpList-Core-Domain-Repository-Analytics-UserMessageViewRepository.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#property_queryBuilder">$queryBuilder</a></li>
+                                            </ul>
+                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_remove">remove()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_save">save()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method_createQueryBuilder">createQueryBuilder()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -591,7 +638,7 @@ following the Law of Demeter.</p>
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Repository-Analytics-UserMessageViewRepository.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
