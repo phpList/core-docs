@@ -486,6 +486,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Filter-MessageFilter.html#property_owner"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Filter\\SubscriberFilter",
+            "name": "SubscriberFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Filter-SubscriberFilter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Filter\\SubscriberFilter\u003A\u003AsetListId\u0028\u0029",
+            "name": "setListId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Filter-SubscriberFilter.html#method_setListId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Filter\\SubscriberFilter\u003A\u003AgetListId\u0028\u0029",
+            "name": "getListId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Filter-SubscriberFilter.html#method_getListId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Filter\\SubscriberFilter\u003A\u003A\u0024listId",
+            "name": "listId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Filter-SubscriberFilter.html#property_listId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Analytics\\LinkTrack",
             "name": "LinkTrack",
             "summary": "",
@@ -4971,6 +4991,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html#method_getSubscribersBySubscribedListId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberRepository.html#method_getFilteredAfterId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberRepository\u003A\u003AfindSubscriberWithSubscriptions\u0028\u0029",
             "name": "findSubscriberWithSubscriptions",
             "summary": "",
@@ -7185,6 +7210,11 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\DummyRepository\u003A\u003AgetAlias\u0028\u0029",
+            "name": "getAlias",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method_getAlias"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\DummyRepository\u003A\u003AcreateQueryBuilder\u0028\u0029",
             "name": "createQueryBuilder",
