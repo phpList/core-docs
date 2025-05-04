@@ -4681,11 +4681,6 @@ Search.appendIndex(
             "summary": "Removes\u0020\u0024model\u0020and\u0020flushes\u0020the\u0020entity\u0020manager\u0020change\u0020list.",
             "url": "classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_remove"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\AbstractRepository\u003A\u003AgetAlias\u0028\u0029",
-            "name": "getAlias",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_getAlias"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\AbstractRepository\u003A\u003A\u0024alias",
             "name": "alias",
             "summary": "",
@@ -7190,11 +7185,6 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\DummyRepository\u003A\u003AgetAlias\u0028\u0029",
-            "name": "getAlias",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Repository-DummyRepository.html#method_getAlias"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Repository\\DummyRepository\u003A\u003AcreateQueryBuilder\u0028\u0029",
             "name": "createQueryBuilder",
