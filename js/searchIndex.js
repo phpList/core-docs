@@ -4661,6 +4661,16 @@ Search.appendIndex(
             "summary": "Removes\u0020\u0024model\u0020and\u0020flushes\u0020the\u0020entity\u0020manager\u0020change\u0020list.",
             "url": "classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_remove"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\AbstractRepository\u003A\u003AgetAlias\u0028\u0029",
+            "name": "getAlias",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-AbstractRepository.html#method_getAlias"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\AbstractRepository\u003A\u003A\u0024alias",
+            "name": "alias",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-AbstractRepository.html#property_alias"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Analytics\\LinkTrackForwardRepository",
             "name": "LinkTrackForwardRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -4720,6 +4730,16 @@ Search.appendIndex(
             "name": "CursorPaginationTrait",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\CursorPaginationTrait\u003A\u003AcreateQueryBuilder\u0028\u0029",
+            "name": "createQueryBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_createQueryBuilder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\CursorPaginationTrait\u003A\u003AgetAlias\u0028\u0029",
+            "name": "getAlias",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getAlias"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\CursorPaginationTrait\u003A\u003AgetAfterId\u0028\u0029",
             "name": "getAfterId",
@@ -4865,6 +4885,11 @@ Search.appendIndex(
             "name": "getFilteredAfterId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html#method_getFilteredAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\MessageRepository\u003A\u003A\u0024alias",
+            "name": "alias",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html#property_alias"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\SendProcessRepository",
             "name": "SendProcessRepository",
