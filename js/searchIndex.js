@@ -4751,19 +4751,9 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\CursorPaginationTrait\u003A\u003AcreateQueryBuilder\u0028\u0029",
-            "name": "createQueryBuilder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_createQueryBuilder"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\CursorPaginationTrait\u003A\u003AgetAlias\u0028\u0029",
-            "name": "getAlias",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getAlias"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\CursorPaginationTrait\u003A\u003AgetAfterId\u0028\u0029",
             "name": "getAfterId",
-            "summary": "Apply\u0020cursor\u002Dbased\u0020pagination\u0020to\u0020a\u0020QueryBuilder.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getAfterId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\CursorPaginationTrait\u003A\u003AgetFilteredAfterId\u0028\u0029",
@@ -4841,11 +4831,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-Interfaces-PaginatableRepositoryInterface.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Interfaces\\PaginatableRepositoryInterface\u003A\u003AgetAfterId\u0028\u0029",
-            "name": "getAfterId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Repository-Interfaces-PaginatableRepositoryInterface.html#method_getAfterId"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Interfaces\\PaginatableRepositoryInterface\u003A\u003AgetFilteredAfterId\u0028\u0029",
             "name": "getFilteredAfterId",
             "summary": "",
@@ -4905,11 +4890,6 @@ Search.appendIndex(
             "name": "getFilteredAfterId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html#method_getFilteredAfterId"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\MessageRepository\u003A\u003A\u0024alias",
-            "name": "alias",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Repository-Messaging-MessageRepository.html#property_alias"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Messaging\\SendProcessRepository",
             "name": "SendProcessRepository",
