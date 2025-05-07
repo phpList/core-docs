@@ -3031,51 +3031,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-Dto-UpdateMessageDto.html#property_templateId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Dto\\UpdateSubscriberDto",
-            "name": "UpdateSubscriberDto",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Dto-UpdateSubscriberDto.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Dto\\UpdateSubscriberDto\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Dto-UpdateSubscriberDto.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Dto\\UpdateSubscriberDto\u003A\u003A\u0024subscriberId",
-            "name": "subscriberId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Dto-UpdateSubscriberDto.html#property_subscriberId"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Dto\\UpdateSubscriberDto\u003A\u003A\u0024email",
-            "name": "email",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Dto-UpdateSubscriberDto.html#property_email"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Dto\\UpdateSubscriberDto\u003A\u003A\u0024confirmed",
-            "name": "confirmed",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Dto-UpdateSubscriberDto.html#property_confirmed"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Dto\\UpdateSubscriberDto\u003A\u003A\u0024blacklisted",
-            "name": "blacklisted",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Dto-UpdateSubscriberDto.html#property_blacklisted"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Dto\\UpdateSubscriberDto\u003A\u003A\u0024htmlEmail",
-            "name": "htmlEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Dto-UpdateSubscriberDto.html#property_htmlEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Dto\\UpdateSubscriberDto\u003A\u003A\u0024disabled",
-            "name": "disabled",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Dto-UpdateSubscriberDto.html#property_disabled"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\Dto\\UpdateSubscriberDto\u003A\u003A\u0024additionalData",
-            "name": "additionalData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Messaging-Dto-UpdateSubscriberDto.html#property_additionalData"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Messaging\\ListMessage",
             "name": "ListMessage",
             "summary": "",
