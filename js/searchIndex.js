@@ -4516,6 +4516,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Dto-AttributeDefinitionDto.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Dto\\AttributeDefinitionDto\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Dto-AttributeDefinitionDto.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Dto\\AttributeDefinitionDto\u003A\u003A\u0024name",
             "name": "name",
             "summary": "",
