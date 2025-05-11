@@ -4611,6 +4611,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Dto\\SubscriberAttributeDto\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Dto\\SubscriberAttributeDto\u003A\u003A\u0024subscriberId",
             "name": "subscriberId",
             "summary": "",
@@ -5640,6 +5645,11 @@ Search.appendIndex(
             "name": "AttributeDefinitionRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Repository-Subscription-AttributeDefinitionRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\AttributeDefinitionRepository\u003A\u003AfindOneByName\u0028\u0029",
+            "name": "findOneByName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-AttributeDefinitionRepository.html#method_findOneByName"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberAttributeRepository",
             "name": "SubscriberAttributeRepository",
@@ -8801,6 +8811,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-AdministratorManagerTest.html#method_testDeleteAdministrator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\AttributeDefinitionManagerTest",
+            "name": "AttributeDefinitionManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-AttributeDefinitionManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\AttributeDefinitionManagerTest\u003A\u003AtestCreateAttributeDefinition\u0028\u0029",
+            "name": "testCreateAttributeDefinition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateAttributeDefinition"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\AttributeDefinitionManagerTest\u003A\u003AtestCreateThrowsWhenAttributeAlreadyExists\u0028\u0029",
+            "name": "testCreateThrowsWhenAttributeAlreadyExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateThrowsWhenAttributeAlreadyExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\AttributeDefinitionManagerTest\u003A\u003AtestUpdateAttributeDefinition\u0028\u0029",
+            "name": "testUpdateAttributeDefinition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateAttributeDefinition"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\AttributeDefinitionManagerTest\u003A\u003AtestUpdateThrowsWhenAnotherAttributeWithSameNameExists\u0028\u0029",
+            "name": "testUpdateThrowsWhenAnotherAttributeWithSameNameExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateThrowsWhenAnotherAttributeWithSameNameExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\AttributeDefinitionManagerTest\u003A\u003AtestDeleteAttributeDefinition\u0028\u0029",
+            "name": "testDeleteAttributeDefinition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-AttributeDefinitionManagerTest.html#method_testDeleteAttributeDefinition"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\MessageManagerTest",
             "name": "MessageManagerTest",
             "summary": "",
@@ -8830,6 +8870,41 @@ Search.appendIndex(
             "name": "testDeleteSessionCallsRemove",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SessionManagerTest.html#method_testDeleteSessionCallsRemove"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\SubscriberAttributeManagerTest",
+            "name": "SubscriberAttributeManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\SubscriberAttributeManagerTest\u003A\u003AtestCreateNewSubscriberAttribute\u0028\u0029",
+            "name": "testCreateNewSubscriberAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateNewSubscriberAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\SubscriberAttributeManagerTest\u003A\u003AtestUpdateExistingSubscriberAttribute\u0028\u0029",
+            "name": "testUpdateExistingSubscriberAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testUpdateExistingSubscriberAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\SubscriberAttributeManagerTest\u003A\u003AtestCreateFailsIfSubscriberNotFound\u0028\u0029",
+            "name": "testCreateFailsIfSubscriberNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsIfSubscriberNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\SubscriberAttributeManagerTest\u003A\u003AtestCreateFailsIfAttributeDefinitionNotFound\u0028\u0029",
+            "name": "testCreateFailsIfAttributeDefinitionNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsIfAttributeDefinitionNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\SubscriberAttributeManagerTest\u003A\u003AtestGetSubscriberAttribute\u0028\u0029",
+            "name": "testGetSubscriberAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testGetSubscriberAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\SubscriberAttributeManagerTest\u003A\u003AtestDeleteSubscriberAttribute\u0028\u0029",
+            "name": "testDeleteSubscriberAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testDeleteSubscriberAttribute"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Manager\\SubscriberListManagerTest",
             "name": "SubscriberListManagerTest",

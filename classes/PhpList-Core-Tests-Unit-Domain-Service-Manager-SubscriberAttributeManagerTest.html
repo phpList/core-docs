@@ -93,16 +93,20 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-model.html">Model</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-model-subscription.html">Subscription</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-model-subscription-dto.html">Dto</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-service.html">Service</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-service-manager.html">Manager</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    SubscriberAttributeDto
+    SubscriberAttributeManagerTest
 
+        <span class="phpdocumentor-element__extends">
+        extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
+    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -120,9 +124,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Dto/SubscriberAttributeDto.php"><a href="files/src-domain-model-subscription-dto-subscriberattributedto.html"><abbr title="src/Domain/Model/Subscription/Dto/SubscriberAttributeDto.php">SubscriberAttributeDto.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">7</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -137,7 +141,7 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -149,42 +153,47 @@
 
 
 
-<h4 id="toc-properties">
-    Properties
-    <a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
-
-</h4>
-<dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#property_attributeDefinitionId">$attributeDefinitionId</a>
-    <span>
-                        &nbsp;: int            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#property_subscriberId">$subscriberId</a>
-    <span>
-                        &nbsp;: int            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#property_value">$value</a>
-    <span>
-                        &nbsp;: string            </span>
-</dt>
-
-    </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsIfAttributeDefinitionNotFound">testCreateFailsIfAttributeDefinitionNotFound()</a>
     <span>
-                                &nbsp;: mixed    </span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsIfSubscriberNotFound">testCreateFailsIfSubscriberNotFound()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateNewSubscriberAttribute">testCreateNewSubscriberAttribute()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testDeleteSubscriberAttribute">testDeleteSubscriberAttribute()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testGetSubscriberAttribute">testGetSubscriberAttribute()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testUpdateExistingSubscriberAttribute">testUpdateExistingSubscriberAttribute()</a>
+    <span>
+                                &nbsp;: void    </span>
 </dt>
 
     </dl>
@@ -194,126 +203,11 @@
         
 
         
-    <section class="phpdocumentor-properties">
-        <h3 class="phpdocumentor-elements__header" id="properties">
-            Properties
-            <a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h3>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -public
-                                                -read-only        "
->
-    <h4 class="phpdocumentor-element__name" id="property_attributeDefinitionId">
-        $attributeDefinitionId
-        <a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#property_attributeDefinitionId" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Dto/SubscriberAttributeDto.php"><a href="files/src-domain-model-subscription-dto-subscriberattributedto.html"><abbr title="src/Domain/Model/Subscription/Dto/SubscriberAttributeDto.php">SubscriberAttributeDto.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">11</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">int</span>
-    <span class="phpdocumentor-signature__name">$attributeDefinitionId</span>
-    </code>
-
-    
-    
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -public
-                                                -read-only        "
->
-    <h4 class="phpdocumentor-element__name" id="property_subscriberId">
-        $subscriberId
-        <a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#property_subscriberId" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Dto/SubscriberAttributeDto.php"><a href="files/src-domain-model-subscription-dto-subscriberattributedto.html"><abbr title="src/Domain/Model/Subscription/Dto/SubscriberAttributeDto.php">SubscriberAttributeDto.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">10</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">int</span>
-    <span class="phpdocumentor-signature__name">$subscriberId</span>
-    </code>
-
-    
-    
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -public
-                                                -read-only        "
->
-    <h4 class="phpdocumentor-element__name" id="property_value">
-        $value
-        <a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#property_value" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Dto/SubscriberAttributeDto.php"><a href="files/src-domain-model-subscription-dto-subscriberattributedto.html"><abbr title="src/Domain/Model/Subscription/Dto/SubscriberAttributeDto.php">SubscriberAttributeDto.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">12</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$value</span>
-    </code>
-
-    
-    
-    
-
-    
-
-</article>
-            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -322,52 +216,198 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method___construct">
-        __construct()
-        <a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testCreateFailsIfAttributeDefinitionNotFound">
+        testCreateFailsIfAttributeDefinitionNotFound()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsIfAttributeDefinitionNotFound" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Model/Subscription/Dto/SubscriberAttributeDto.php"><a href="files/src-domain-model-subscription-dto-subscriberattributedto.html"><abbr title="src/Domain/Model/Subscription/Dto/SubscriberAttributeDto.php">SubscriberAttributeDto.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">9</span>
+    <span class="phpdocumentor-element-found-in__line">111</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeDefinitionId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testCreateFailsIfAttributeDefinitionNotFound</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$subscriberId</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$attributeDefinitionId</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$value</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
+    
+    
 
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testCreateFailsIfSubscriberNotFound">
+        testCreateFailsIfSubscriberNotFound()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsIfSubscriberNotFound" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">93</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testCreateFailsIfSubscriberNotFound</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testCreateNewSubscriberAttribute">
+        testCreateNewSubscriberAttribute()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateNewSubscriberAttribute" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testCreateNewSubscriberAttribute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testDeleteSubscriberAttribute">
+        testDeleteSubscriberAttribute()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testDeleteSubscriberAttribute" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">152</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testDeleteSubscriberAttribute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testGetSubscriberAttribute">
+        testGetSubscriberAttribute()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testGetSubscriberAttribute" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">132</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testGetSubscriberAttribute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testUpdateExistingSubscriberAttribute">
+        testUpdateExistingSubscriberAttribute()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testUpdateExistingSubscriberAttribute" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">63</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testUpdateExistingSubscriberAttribute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
     
 
     
@@ -380,7 +420,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Model/Subscription/Dto/SubscriberAttributeDto.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Service/Manager/SubscriberAttributeManagerTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -479,24 +519,20 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#toc-methods">Methods</a></li>
+                                                                                <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
-                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
-                <li>
-                    <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#property_attributeDefinitionId">$attributeDefinitionId</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#property_subscriberId">$subscriberId</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#property_value">$value</a></li>
-                                            </ul>
-                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsIfAttributeDefinitionNotFound">testCreateFailsIfAttributeDefinitionNotFound()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsIfSubscriberNotFound">testCreateFailsIfSubscriberNotFound()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateNewSubscriberAttribute">testCreateNewSubscriberAttribute()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testDeleteSubscriberAttribute">testDeleteSubscriberAttribute()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testGetSubscriberAttribute">testGetSubscriberAttribute()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#method_testUpdateExistingSubscriberAttribute">testUpdateExistingSubscriberAttribute()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -516,7 +552,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Model-Subscription-Dto-SubscriberAttributeDto.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Service-Manager-SubscriberAttributeManagerTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
