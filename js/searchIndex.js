@@ -1611,160 +1611,160 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Dto-ValidationContext.html#property_options"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute",
-            "name": "AdminAttribute",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition",
+            "name": "AdminAttributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AgetId\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AgetId\u0028\u0029",
             "name": "getId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getId"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_getId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AgetName\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AgetName\u0028\u0029",
             "name": "getName",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getName"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_getName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AgetType\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AgetType\u0028\u0029",
             "name": "getType",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getType"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_getType"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AgetListOrder\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AgetListOrder\u0028\u0029",
             "name": "getListOrder",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getListOrder"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_getListOrder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AgetDefaultValue\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AgetDefaultValue\u0028\u0029",
             "name": "getDefaultValue",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getDefaultValue"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_getDefaultValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AisRequired\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AisRequired\u0028\u0029",
             "name": "isRequired",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_isRequired"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_isRequired"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AgetTableName\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AgetTableName\u0028\u0029",
             "name": "getTableName",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_getTableName"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_getTableName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AsetName\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AsetName\u0028\u0029",
             "name": "setName",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setName"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_setName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AsetType\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AsetType\u0028\u0029",
             "name": "setType",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setType"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_setType"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AsetListOrder\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AsetListOrder\u0028\u0029",
             "name": "setListOrder",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setListOrder"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_setListOrder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AsetDefaultValue\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AsetDefaultValue\u0028\u0029",
             "name": "setDefaultValue",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setDefaultValue"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_setDefaultValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AsetRequired\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AsetRequired\u0028\u0029",
             "name": "setRequired",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setRequired"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_setRequired"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003AsetTableName\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003AsetTableName\u0028\u0029",
             "name": "setTableName",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#method_setTableName"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#method_setTableName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003A\u0024id",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_id"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#property_id"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003A\u0024name",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003A\u0024name",
             "name": "name",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_name"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#property_name"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003A\u0024type",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003A\u0024type",
             "name": "type",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_type"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#property_type"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003A\u0024listOrder",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003A\u0024listOrder",
             "name": "listOrder",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_listOrder"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#property_listOrder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003A\u0024defaultValue",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003A\u0024defaultValue",
             "name": "defaultValue",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_defaultValue"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#property_defaultValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003A\u0024required",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003A\u0024required",
             "name": "required",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_required"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#property_required"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttribute\u003A\u003A\u0024tableName",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeDefinition\u003A\u003A\u0024tableName",
             "name": "tableName",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttribute.html#property_tableName"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeDefinition.html#property_tableName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeRelation",
-            "name": "AdminAttributeRelation",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeValue",
+            "name": "AdminAttributeValue",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeRelation.html"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeValue.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeRelation\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeValue\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeRelation.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeValue.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeRelation\u003A\u003AgetAdminAttributeId\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeValue\u003A\u003AgetAdminAttributeId\u0028\u0029",
             "name": "getAdminAttributeId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeRelation.html#method_getAdminAttributeId"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeValue.html#method_getAdminAttributeId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeRelation\u003A\u003AgetAdminId\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeValue\u003A\u003AgetAdminId\u0028\u0029",
             "name": "getAdminId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeRelation.html#method_getAdminId"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeValue.html#method_getAdminId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeRelation\u003A\u003AgetValue\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeValue\u003A\u003AgetValue\u0028\u0029",
             "name": "getValue",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeRelation.html#method_getValue"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeValue.html#method_getValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeRelation\u003A\u003AsetValue\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeValue\u003A\u003AsetValue\u0028\u0029",
             "name": "setValue",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeRelation.html#method_setValue"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeValue.html#method_setValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeRelation\u003A\u003A\u0024adminAttributeId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeValue\u003A\u003A\u0024adminAttributeId",
             "name": "adminAttributeId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeRelation.html#property_adminAttributeId"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeValue.html#property_adminAttributeId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeRelation\u003A\u003A\u0024adminId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeValue\u003A\u003A\u0024adminId",
             "name": "adminId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeRelation.html#property_adminId"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeValue.html#property_adminId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeRelation\u003A\u003A\u0024value",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\AdminAttributeValue\u003A\u003A\u0024value",
             "name": "value",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeRelation.html#property_value"
+            "url": "classes/PhpList-Core-Domain-Model-Identity-AdminAttributeValue.html#property_value"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Identity\\Administrator",
             "name": "Administrator",
@@ -4406,111 +4406,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Messaging-UserMessageForward.html#property_createdAt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition",
-            "name": "AttributeDefinition",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AgetId\u0028\u0029",
-            "name": "getId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_getId"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AgetName\u0028\u0029",
-            "name": "getName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_getName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AgetType\u0028\u0029",
-            "name": "getType",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_getType"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AgetListOrder\u0028\u0029",
-            "name": "getListOrder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_getListOrder"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AgetDefaultValue\u0028\u0029",
-            "name": "getDefaultValue",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_getDefaultValue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AisRequired\u0028\u0029",
-            "name": "isRequired",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_isRequired"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AgetTableName\u0028\u0029",
-            "name": "getTableName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_getTableName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AsetName\u0028\u0029",
-            "name": "setName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_setName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AsetType\u0028\u0029",
-            "name": "setType",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_setType"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AsetListOrder\u0028\u0029",
-            "name": "setListOrder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_setListOrder"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AsetDefaultValue\u0028\u0029",
-            "name": "setDefaultValue",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_setDefaultValue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AsetRequired\u0028\u0029",
-            "name": "setRequired",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_setRequired"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003AsetTableName\u0028\u0029",
-            "name": "setTableName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#method_setTableName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003A\u0024id",
-            "name": "id",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#property_id"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003A\u0024name",
-            "name": "name",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#property_name"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003A\u0024type",
-            "name": "type",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#property_type"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003A\u0024listOrder",
-            "name": "listOrder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#property_listOrder"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003A\u0024defaultValue",
-            "name": "defaultValue",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#property_defaultValue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003A\u0024required",
-            "name": "required",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#property_required"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\AttributeDefinition\u003A\u003A\u0024tableName",
-            "name": "tableName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-AttributeDefinition.html#property_tableName"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Dto\\AttributeDefinitionDto",
             "name": "AttributeDefinitionDto",
             "summary": "",
@@ -5006,50 +4901,155 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Model-Subscription-Subscriber.html#property_attributes"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute",
-            "name": "SubscriberAttribute",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition",
+            "name": "SubscriberAttributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetName\u0028\u0029",
+            "name": "getName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetType\u0028\u0029",
+            "name": "getType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetListOrder\u0028\u0029",
+            "name": "getListOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getListOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetDefaultValue\u0028\u0029",
+            "name": "getDefaultValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getDefaultValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AisRequired\u0028\u0029",
+            "name": "isRequired",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_isRequired"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AgetTableName\u0028\u0029",
+            "name": "getTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_getTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetName\u0028\u0029",
+            "name": "setName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetType\u0028\u0029",
+            "name": "setType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetListOrder\u0028\u0029",
+            "name": "setListOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setListOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetDefaultValue\u0028\u0029",
+            "name": "setDefaultValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setDefaultValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetRequired\u0028\u0029",
+            "name": "setRequired",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setRequired"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003AsetTableName\u0028\u0029",
+            "name": "setTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#method_setTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_id"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_name"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024type",
+            "name": "type",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_type"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024listOrder",
+            "name": "listOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_listOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024defaultValue",
+            "name": "defaultValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_defaultValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024required",
+            "name": "required",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_required"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeDefinition\u003A\u003A\u0024tableName",
+            "name": "tableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeDefinition.html#property_tableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeValue",
+            "name": "SubscriberAttributeValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeValue.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeValue\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeValue.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003AgetAttributeDefinition\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeValue\u003A\u003AgetAttributeDefinition\u0028\u0029",
             "name": "getAttributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getAttributeDefinition"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeValue.html#method_getAttributeDefinition"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003AgetSubscriber\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeValue\u003A\u003AgetSubscriber\u0028\u0029",
             "name": "getSubscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getSubscriber"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeValue.html#method_getSubscriber"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003AgetValue\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeValue\u003A\u003AgetValue\u0028\u0029",
             "name": "getValue",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_getValue"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeValue.html#method_getValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003AsetValue\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeValue\u003A\u003AsetValue\u0028\u0029",
             "name": "setValue",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#method_setValue"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeValue.html#method_setValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003A\u0024attributeDefinition",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeValue\u003A\u003A\u0024attributeDefinition",
             "name": "attributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_attributeDefinition"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeValue.html#property_attributeDefinition"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003A\u0024subscriber",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeValue\u003A\u003A\u0024subscriber",
             "name": "subscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_subscriber"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeValue.html#property_subscriber"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttribute\u003A\u003A\u0024value",
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberAttributeValue\u003A\u003A\u0024value",
             "name": "value",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttribute.html#property_value"
+            "url": "classes/PhpList-Core-Domain-Model-Subscription-SubscriberAttributeValue.html#property_value"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\SubscriberHistory",
             "name": "SubscriberHistory",
@@ -5481,15 +5481,15 @@ Search.appendIndex(
             "summary": "Get\u0020filtered\u0020\u002B\u0020paginated\u0020messages\u0020for\u0020a\u0020given\u0020owner\u0020and\u0020status.",
             "url": "classes/PhpList-Core-Domain-Repository-CursorPaginationTrait.html#method_getFilteredAfterId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\AdminAttributeRelationRepository",
-            "name": "AdminAttributeRelationRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\AdminAttributeDefinitionRepository",
+            "name": "AdminAttributeDefinitionRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
-            "url": "classes/PhpList-Core-Domain-Repository-Identity-AdminAttributeRelationRepository.html"
+            "url": "classes/PhpList-Core-Domain-Repository-Identity-AdminAttributeDefinitionRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\AdminAttributeRepository",
-            "name": "AdminAttributeRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\AdminAttributeValueRepository",
+            "name": "AdminAttributeValueRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
-            "url": "classes/PhpList-Core-Domain-Repository-Identity-AdminAttributeRepository.html"
+            "url": "classes/PhpList-Core-Domain-Repository-Identity-AdminAttributeValueRepository.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Identity\\AdministratorRepository",
             "name": "AdministratorRepository",
@@ -5641,30 +5641,30 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Repository-Messaging-UserMessageRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\AttributeDefinitionRepository",
-            "name": "AttributeDefinitionRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberAttributeDefinitionRepository",
+            "name": "SubscriberAttributeDefinitionRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
-            "url": "classes/PhpList-Core-Domain-Repository-Subscription-AttributeDefinitionRepository.html"
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberAttributeDefinitionRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\AttributeDefinitionRepository\u003A\u003AfindOneByName\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberAttributeDefinitionRepository\u003A\u003AfindOneByName\u0028\u0029",
             "name": "findOneByName",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Repository-Subscription-AttributeDefinitionRepository.html#method_findOneByName"
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberAttributeDefinitionRepository.html#method_findOneByName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberAttributeRepository",
-            "name": "SubscriberAttributeRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberAttributeValueRepository",
+            "name": "SubscriberAttributeValueRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
-            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberAttributeRepository.html"
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberAttributeValueRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberAttributeRepository\u003A\u003AfindOneBySubscriberAndAttribute\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberAttributeValueRepository\u003A\u003AfindOneBySubscriberAndAttribute\u0028\u0029",
             "name": "findOneBySubscriberAndAttribute",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberAttributeRepository.html#method_findOneBySubscriberAndAttribute"
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberAttributeValueRepository.html#method_findOneBySubscriberAndAttribute"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberAttributeRepository\u003A\u003AfindOneBySubscriberIdAndAttributeId\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberAttributeValueRepository\u003A\u003AfindOneBySubscriberIdAndAttributeId\u0028\u0029",
             "name": "findOneBySubscriberIdAndAttributeId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberAttributeRepository.html#method_findOneBySubscriberIdAndAttributeId"
+            "url": "classes/PhpList-Core-Domain-Repository-Subscription-SubscriberAttributeValueRepository.html#method_findOneBySubscriberIdAndAttributeId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository\\Subscription\\SubscriberHistoryRepository",
             "name": "SubscriberHistoryRepository",
@@ -9421,15 +9421,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-model-messaging-message.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription",
-            "name": "Subscription",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain-model-subscription.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription\\Dto",
             "name": "Dto",
             "summary": "",
             "url": "namespaces/phplist-core-domain-model-subscription-dto.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Model\\Subscription",
+            "name": "Subscription",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-model-subscription.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Repository",
             "name": "Repository",
