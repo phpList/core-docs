@@ -5036,31 +5036,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-CreateSubscriberListDto.html#property_description"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberAttributeDto",
-            "name": "SubscriberAttributeDto",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberAttributeDto.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberAttributeDto\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberAttributeDto.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberAttributeDto\u003A\u003A\u0024subscriberId",
-            "name": "subscriberId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberAttributeDto.html#property_subscriberId"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberAttributeDto\u003A\u003A\u0024attributeDefinitionId",
-            "name": "attributeDefinitionId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberAttributeDto.html#property_attributeDefinitionId"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberAttributeDto\u003A\u003A\u0024value",
-            "name": "value",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberAttributeDto.html#property_value"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\UpdateSubscriberDto",
             "name": "UpdateSubscriberDto",
             "summary": "",
@@ -6131,20 +6106,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberAttributeManager.html#method_delete"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberAttributeManager\u003A\u003A\u0024definitionRepository",
-            "name": "definitionRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberAttributeManager.html#property_definitionRepository"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberAttributeManager\u003A\u003A\u0024attributeRepository",
             "name": "attributeRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberAttributeManager.html#property_attributeRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberAttributeManager\u003A\u003A\u0024subscriberRepository",
-            "name": "subscriberRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberAttributeManager.html#property_subscriberRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberListManager",
             "name": "SubscriberListManager",
@@ -9091,15 +9056,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberAttributeManagerTest.html#method_testUpdateExistingSubscriberAttribute"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberAttributeManagerTest\u003A\u003AtestCreateFailsIfSubscriberNotFound\u0028\u0029",
-            "name": "testCreateFailsIfSubscriberNotFound",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberAttributeManagerTest\u003A\u003AtestCreateFailsWhenValueAndDefaultAreNull\u0028\u0029",
+            "name": "testCreateFailsWhenValueAndDefaultAreNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberAttributeManagerTest.html#method_testCreateFailsIfSubscriberNotFound"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberAttributeManagerTest\u003A\u003AtestCreateFailsIfAttributeDefinitionNotFound\u0028\u0029",
-            "name": "testCreateFailsIfAttributeDefinitionNotFound",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberAttributeManagerTest.html#method_testCreateFailsIfAttributeDefinitionNotFound"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberAttributeManagerTest.html#method_testCreateFailsWhenValueAndDefaultAreNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberAttributeManagerTest\u003A\u003AtestGetSubscriberAttribute\u0028\u0029",
             "name": "testGetSubscriberAttribute",
