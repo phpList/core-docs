@@ -5106,6 +5106,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-UpdateSubscriberDto.html#property_additionalData"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberAttributeValueFilter",
+            "name": "SubscriberAttributeValueFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberAttributeValueFilter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberAttributeValueFilter\u003A\u003AsetSubscriberId\u0028\u0029",
+            "name": "setSubscriberId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberAttributeValueFilter.html#method_setSubscriberId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberAttributeValueFilter\u003A\u003AgetSubscriberId\u0028\u0029",
+            "name": "getSubscriberId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberAttributeValueFilter.html#method_getSubscriberId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberAttributeValueFilter\u003A\u003A\u0024subscriberId",
+            "name": "subscriberId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberAttributeValueFilter.html#property_subscriberId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter",
             "name": "SubscriberFilter",
             "summary": "",
@@ -5975,6 +5995,11 @@ Search.appendIndex(
             "name": "findOneBySubscriberIdAndAttributeId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html#method_findOneBySubscriberIdAndAttributeId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeValueRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html#method_getFilteredAfterId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryRepository",
             "name": "SubscriberHistoryRepository",
