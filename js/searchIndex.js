@@ -4881,6 +4881,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateManager.html#property_templateImageValidator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateImageValidator",
+            "name": "TemplateImageValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateImageValidator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateImageValidator\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateImageValidator\u003A\u003AvalidateFullUrls\u0028\u0029",
+            "name": "validateFullUrls",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validateFullUrls"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateImageValidator\u003A\u003AvalidateExistence\u0028\u0029",
+            "name": "validateExistence",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validateExistence"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateImageValidator\u003A\u003A\u0024httpClient",
+            "name": "httpClient",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#property_httpClient"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateLinkValidator",
+            "name": "TemplateLinkValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateLinkValidator.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateLinkValidator\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateLinkValidator.html#method_validate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateLinkValidator\u003A\u003AextractLinks\u0028\u0029",
+            "name": "extractLinks",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateLinkValidator.html#method_extractLinks"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateLinkValidator\u003A\u003APLACEHOLDERS",
+            "name": "PLACEHOLDERS",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateLinkValidator.html#constant_PLACEHOLDERS"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\AttributeDefinitionCreationException",
             "name": "AttributeDefinitionCreationException",
             "summary": "",
@@ -6230,56 +6280,6 @@ Search.appendIndex(
             "name": "subscriberRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionManager.html#property_subscriberRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\TemplateImageValidator",
-            "name": "TemplateImageValidator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-TemplateImageValidator.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\TemplateImageValidator\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-TemplateImageValidator.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\TemplateImageValidator\u003A\u003Avalidate\u0028\u0029",
-            "name": "validate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-TemplateImageValidator.html#method_validate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\TemplateImageValidator\u003A\u003AvalidateFullUrls\u0028\u0029",
-            "name": "validateFullUrls",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-TemplateImageValidator.html#method_validateFullUrls"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\TemplateImageValidator\u003A\u003AvalidateExistence\u0028\u0029",
-            "name": "validateExistence",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-TemplateImageValidator.html#method_validateExistence"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\TemplateImageValidator\u003A\u003A\u0024httpClient",
-            "name": "httpClient",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-TemplateImageValidator.html#property_httpClient"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\TemplateLinkValidator",
-            "name": "TemplateLinkValidator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-TemplateLinkValidator.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\TemplateLinkValidator\u003A\u003Avalidate\u0028\u0029",
-            "name": "validate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-TemplateLinkValidator.html#method_validate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\TemplateLinkValidator\u003A\u003AextractLinks\u0028\u0029",
-            "name": "extractLinks",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-TemplateLinkValidator.html#method_extractLinks"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\TemplateLinkValidator\u003A\u003APLACEHOLDERS",
-            "name": "PLACEHOLDERS",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-TemplateLinkValidator.html#constant_PLACEHOLDERS"
         },                {
             "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\Controller\\DefaultController",
             "name": "DefaultController",
@@ -9486,6 +9486,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-service.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator",
+            "name": "Validator",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-validator.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception",
             "name": "Exception",
             "summary": "",
@@ -9520,11 +9525,6 @@ Search.appendIndex(
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-domain-subscription-service.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator",
-            "name": "Validator",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain-subscription-validator.html"
         },                {
             "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\Controller",
             "name": "Controller",

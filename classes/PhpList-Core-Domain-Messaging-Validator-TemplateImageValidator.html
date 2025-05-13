@@ -93,20 +93,15 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-messaging.html">Messaging</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-messaging-validator.html">Validator</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-validator.html">Validator</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    TemplateLinkValidatorTest
+    TemplateImageValidator
 
-        <span class="phpdocumentor-element__extends">
-        extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
-    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -115,6 +110,9 @@
                             </ul>
         </div>
     
+            <span class="phpdocumentor-element__implements">
+            implements
+                            <a href="classes/PhpList-Core-Domain-Common-Validator-ValidatorInterface.html"><abbr title="\PhpList\Core\Domain\Common\Validator\ValidatorInterface">ValidatorInterface</abbr></a>                    </span>
     
     </h2>
 
@@ -124,9 +122,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php"><a href="files/tests-unit-domain-messaging-validator-templatelinkvalidatortest.html"><abbr title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php">TemplateLinkValidatorTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Validator/TemplateImageValidator.php"><a href="files/src-domain-messaging-validator-templateimagevalidator.html"><abbr title="src/Domain/Messaging/Validator/TemplateImageValidator.php">TemplateImageValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -141,12 +139,19 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
 
 
+    <h4 id="toc-interfaces">
+        Interfaces
+        <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <dl class="phpdocumentor-table-of-contents">
+                    <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/PhpList-Core-Domain-Common-Validator-ValidatorInterface.html"><abbr title="\PhpList\Core\Domain\Common\Validator\ValidatorInterface">ValidatorInterface</abbr></a></dt>    </dl>
 
 
 
@@ -155,52 +160,46 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#property_validator">$validator</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#property_httpClient">$httpClient</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateLinkValidator.html"><abbr title="\PhpList\Core\Domain\Messaging\Validator\TemplateLinkValidator">TemplateLinkValidator</abbr></a>            </span>
+                        &nbsp;: <abbr title="\GuzzleHttp\ClientInterface">ClientInterface</abbr>            </span>
 </dt>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testAllowsValidLinksAndPlaceholders">testAllowsValidLinksAndPlaceholders()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method___construct">__construct()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testSkipsValidationIfCheckLinksIsFalse">testSkipsValidationIfCheckLinksIsFalse()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validate">validate()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testSkipsValidationIfNotString">testSkipsValidationIfNotString()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validateExistence">validateExistence()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testValidatesInvalidLinks">testValidatesInvalidLinks()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validateFullUrls">validateFullUrls()</a>
     <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_setUp">setUp()</a>
-    <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
 
     </dl>
@@ -213,7 +212,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -221,19 +220,19 @@
             phpdocumentor-element
             -property
             -private
-                                                        "
+                                                -read-only        "
 >
-    <h4 class="phpdocumentor-element__name" id="property_validator">
-        $validator
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#property_validator" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_httpClient">
+        $httpClient
+        <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#property_httpClient" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>        </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php"><a href="files/tests-unit-domain-messaging-validator-templatelinkvalidatortest.html"><abbr title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php">TemplateLinkValidatorTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Validator/TemplateImageValidator.php"><a href="files/src-domain-messaging-validator-templateimagevalidator.html"><abbr title="src/Domain/Messaging/Validator/TemplateImageValidator.php">TemplateImageValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -241,8 +240,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateLinkValidator.html"><abbr title="\PhpList\Core\Domain\Messaging\Validator\TemplateLinkValidator">TemplateLinkValidator</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$validator</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\GuzzleHttp\ClientInterface">ClientInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$httpClient</span>
     </code>
 
     
@@ -257,7 +256,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -266,149 +265,13 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testAllowsValidLinksAndPlaceholders">
-        testAllowsValidLinksAndPlaceholders()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testAllowsValidLinksAndPlaceholders" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php"><a href="files/tests-unit-domain-messaging-validator-templatelinkvalidatortest.html"><abbr title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php">TemplateLinkValidatorTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">51</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testAllowsValidLinksAndPlaceholders</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testSkipsValidationIfCheckLinksIsFalse">
-        testSkipsValidationIfCheckLinksIsFalse()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testSkipsValidationIfCheckLinksIsFalse" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php"><a href="files/tests-unit-domain-messaging-validator-templatelinkvalidatortest.html"><abbr title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php">TemplateLinkValidatorTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">30</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testSkipsValidationIfCheckLinksIsFalse</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testSkipsValidationIfNotString">
-        testSkipsValidationIfNotString()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testSkipsValidationIfNotString" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php"><a href="files/tests-unit-domain-messaging-validator-templatelinkvalidatortest.html"><abbr title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php">TemplateLinkValidatorTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">21</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testSkipsValidationIfNotString</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testValidatesInvalidLinks">
-        testValidatesInvalidLinks()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testValidatesInvalidLinks" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php"><a href="files/tests-unit-domain-messaging-validator-templatelinkvalidatortest.html"><abbr title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php">TemplateLinkValidatorTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">39</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testValidatesInvalidLinks</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_setUp">
-        setUp()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php"><a href="files/tests-unit-domain-messaging-validator-templatelinkvalidatortest.html"><abbr title="tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php">TemplateLinkValidatorTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Validator/TemplateImageValidator.php"><a href="files/src-domain-messaging-validator-templateimagevalidator.html"><abbr title="src/Domain/Messaging/Validator/TemplateImageValidator.php">TemplateImageValidator.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">16</span>
 
@@ -416,19 +279,176 @@
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\GuzzleHttp\ClientInterface">ClientInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$httpClient</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-    
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$httpClient</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\GuzzleHttp\ClientInterface">ClientInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
 
     
 
     
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_validate">
+        validate()
+        <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validate" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Validator/TemplateImageValidator.php"><a href="files/src-domain-messaging-validator-templateimagevalidator.html"><abbr title="src/Domain/Messaging/Validator/TemplateImageValidator.php">TemplateImageValidator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">validate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Common-Model-ValidationContext.html"><abbr title="\PhpList\Core\Domain\Common\Model\ValidationContext">ValidationContext</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$context</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Common-Model-ValidationContext.html"><abbr title="\PhpList\Core\Domain\Common\Model\ValidationContext">ValidationContext</abbr></a></span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_validateExistence">
+        validateExistence()
+        <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validateExistence" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Validator/TemplateImageValidator.php"><a href="files/src-domain-messaging-validator-templateimagevalidator.html"><abbr title="src/Domain/Messaging/Validator/TemplateImageValidator.php">TemplateImageValidator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">52</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">validateExistence</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$urls</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$urls</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_validateFullUrls">
+        validateFullUrls()
+        <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validateFullUrls" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Validator/TemplateImageValidator.php"><a href="files/src-domain-messaging-validator-templateimagevalidator.html"><abbr title="src/Domain/Messaging/Validator/TemplateImageValidator.php">TemplateImageValidator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">39</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">validateFullUrls</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$urls</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$urls</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
 </article>
             </section>
 
@@ -436,7 +456,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Messaging/Validator/TemplateLinkValidatorTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Validator/TemplateImageValidator.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -535,26 +555,25 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#property_validator">$validator</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#property_httpClient">$httpClient</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testAllowsValidLinksAndPlaceholders">testAllowsValidLinksAndPlaceholders()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testSkipsValidationIfCheckLinksIsFalse">testSkipsValidationIfCheckLinksIsFalse()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testSkipsValidationIfNotString">testSkipsValidationIfNotString()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_testValidatesInvalidLinks">testValidatesInvalidLinks()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validate">validate()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validateExistence">validateExistence()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#method_validateFullUrls">validateFullUrls()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -574,7 +593,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
