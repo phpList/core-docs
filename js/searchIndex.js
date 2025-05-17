@@ -1646,6 +1646,46 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Configuration-Repository-UrlCacheRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException",
+            "name": "AdminAttributeCreationException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Exception-AdminAttributeCreationException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Exception-AdminAttributeCreationException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException\u003A\u003AgetStatusCode\u0028\u0029",
+            "name": "getStatusCode",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Exception-AdminAttributeCreationException.html#method_getStatusCode"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException\u003A\u003A\u0024statusCode",
+            "name": "statusCode",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Exception-AdminAttributeCreationException.html#property_statusCode"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AttributeDefinitionCreationException",
+            "name": "AttributeDefinitionCreationException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Exception-AttributeDefinitionCreationException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AttributeDefinitionCreationException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Exception-AttributeDefinitionCreationException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AttributeDefinitionCreationException\u003A\u003AgetStatusCode\u0028\u0029",
+            "name": "getStatusCode",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Exception-AttributeDefinitionCreationException.html#method_getStatusCode"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AttributeDefinitionCreationException\u003A\u003A\u0024statusCode",
+            "name": "statusCode",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Exception-AttributeDefinitionCreationException.html#property_statusCode"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeDefinition",
             "name": "AdminAttributeDefinition",
             "summary": "",
@@ -1786,10 +1826,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_setValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003A\u0024adminAttributeId",
-            "name": "adminAttributeId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003A\u0024attributeId",
+            "name": "attributeId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_adminAttributeId"
+            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_attributeId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003A\u0024adminId",
             "name": "adminId",
@@ -2206,6 +2246,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-AdminPasswordRequest.html#property_keyValue"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminAttributeDefinitionDto",
+            "name": "AdminAttributeDefinitionDto",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminAttributeDefinitionDto.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminAttributeDefinitionDto\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminAttributeDefinitionDto.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminAttributeDefinitionDto\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminAttributeDefinitionDto.html#property_name"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminAttributeDefinitionDto\u003A\u003A\u0024type",
+            "name": "type",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminAttributeDefinitionDto.html#property_type"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminAttributeDefinitionDto\u003A\u003A\u0024listOrder",
+            "name": "listOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminAttributeDefinitionDto.html#property_listOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminAttributeDefinitionDto\u003A\u003A\u0024defaultValue",
+            "name": "defaultValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminAttributeDefinitionDto.html#property_defaultValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminAttributeDefinitionDto\u003A\u003A\u0024required",
+            "name": "required",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminAttributeDefinitionDto.html#property_required"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminAttributeDefinitionDto\u003A\u003A\u0024tableName",
+            "name": "tableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminAttributeDefinitionDto.html#property_tableName"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\CreateAdministratorDto",
             "name": "CreateAdministratorDto",
             "summary": "",
@@ -2361,10 +2441,20 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminAttributeDefinitionRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdminAttributeDefinitionRepository\u003A\u003AfindOneByName\u0028\u0029",
+            "name": "findOneByName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminAttributeDefinitionRepository.html#method_findOneByName"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdminAttributeValueRepository",
             "name": "AdminAttributeValueRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminAttributeValueRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdminAttributeValueRepository\u003A\u003AfindOneByAdminIdAndAttributeId\u0028\u0029",
+            "name": "findOneByAdminIdAndAttributeId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminAttributeValueRepository.html#method_findOneByAdminIdAndAttributeId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdministratorRepository",
             "name": "AdministratorRepository",
@@ -2420,6 +2510,76 @@ Search.appendIndex(
             "name": "UserBlacklistRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Identity-Repository-UserBlacklistRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeDefinitionManager",
+            "name": "AdminAttributeDefinitionManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeDefinitionManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeDefinitionManager\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html#method_create"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeDefinitionManager\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html#method_update"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeDefinitionManager\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html#method_delete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeDefinitionManager\u003A\u003AgetTotalCount\u0028\u0029",
+            "name": "getTotalCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html#method_getTotalCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeDefinitionManager\u003A\u003AgetAttributesAfterId\u0028\u0029",
+            "name": "getAttributesAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html#method_getAttributesAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeDefinitionManager\u003A\u003A\u0024definitionRepository",
+            "name": "definitionRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html#property_definitionRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeManager",
+            "name": "AdminAttributeManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeManager\u003A\u003AcreateOrUpdate\u0028\u0029",
+            "name": "createOrUpdate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeManager.html#method_createOrUpdate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeManager\u003A\u003AgetAdminAttribute\u0028\u0029",
+            "name": "getAdminAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeManager.html#method_getAdminAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeManager\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeManager.html#method_delete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeManager\u003A\u003A\u0024attributeRepository",
+            "name": "attributeRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeManager.html#property_attributeRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdministratorManager",
             "name": "AdministratorManager",
@@ -7906,6 +8066,246 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Repository-DummyRepository.html#property_queryBuilder"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest",
+            "name": "AdminAttributeDefinitionTest",
+            "summary": "Testcase\u0020for\u0020the\u0020AdminAttributeDefinition\u0020model.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestIsDomainModel\u0028\u0029",
+            "name": "testIsDomainModel",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testIsDomainModel"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestGetIdInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetIdInitiallyReturnsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testGetIdInitiallyReturnsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestGetIdReturnsId\u0028\u0029",
+            "name": "testGetIdReturnsId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testGetIdReturnsId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestGetNameReturnsName\u0028\u0029",
+            "name": "testGetNameReturnsName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testGetNameReturnsName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetNameSetsName\u0028\u0029",
+            "name": "testSetNameSetsName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetNameSetsName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetNameReturnsInstance\u0028\u0029",
+            "name": "testSetNameReturnsInstance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetNameReturnsInstance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestGetTypeReturnsType\u0028\u0029",
+            "name": "testGetTypeReturnsType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testGetTypeReturnsType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetTypeSetsType\u0028\u0029",
+            "name": "testSetTypeSetsType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetTypeSetsType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetTypeReturnsInstance\u0028\u0029",
+            "name": "testSetTypeReturnsInstance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetTypeReturnsInstance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetTypeCanSetNull\u0028\u0029",
+            "name": "testSetTypeCanSetNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetTypeCanSetNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestGetListOrderReturnsListOrder\u0028\u0029",
+            "name": "testGetListOrderReturnsListOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testGetListOrderReturnsListOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetListOrderSetsListOrder\u0028\u0029",
+            "name": "testSetListOrderSetsListOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetListOrderSetsListOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetListOrderReturnsInstance\u0028\u0029",
+            "name": "testSetListOrderReturnsInstance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetListOrderReturnsInstance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetListOrderCanSetNull\u0028\u0029",
+            "name": "testSetListOrderCanSetNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetListOrderCanSetNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestGetDefaultValueReturnsDefaultValue\u0028\u0029",
+            "name": "testGetDefaultValueReturnsDefaultValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testGetDefaultValueReturnsDefaultValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetDefaultValueSetsDefaultValue\u0028\u0029",
+            "name": "testSetDefaultValueSetsDefaultValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetDefaultValueSetsDefaultValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetDefaultValueReturnsInstance\u0028\u0029",
+            "name": "testSetDefaultValueReturnsInstance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetDefaultValueReturnsInstance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetDefaultValueCanSetNull\u0028\u0029",
+            "name": "testSetDefaultValueCanSetNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetDefaultValueCanSetNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestIsRequiredReturnsRequired\u0028\u0029",
+            "name": "testIsRequiredReturnsRequired",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testIsRequiredReturnsRequired"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetRequiredSetsRequired\u0028\u0029",
+            "name": "testSetRequiredSetsRequired",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetRequiredSetsRequired"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetRequiredReturnsInstance\u0028\u0029",
+            "name": "testSetRequiredReturnsInstance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetRequiredReturnsInstance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetRequiredCanSetNull\u0028\u0029",
+            "name": "testSetRequiredCanSetNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetRequiredCanSetNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestGetTableNameReturnsTableName\u0028\u0029",
+            "name": "testGetTableNameReturnsTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testGetTableNameReturnsTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetTableNameSetsTableName\u0028\u0029",
+            "name": "testSetTableNameSetsTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetTableNameSetsTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetTableNameReturnsInstance\u0028\u0029",
+            "name": "testSetTableNameReturnsInstance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetTableNameReturnsInstance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetTableNameCanSetNull\u0028\u0029",
+            "name": "testSetTableNameCanSetNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetTableNameCanSetNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#property_name"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003A\u0024type",
+            "name": "type",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#property_type"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003A\u0024listOrder",
+            "name": "listOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#property_listOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003A\u0024defaultValue",
+            "name": "defaultValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#property_defaultValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003A\u0024required",
+            "name": "required",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#property_required"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003A\u0024tableName",
+            "name": "tableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#property_tableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest",
+            "name": "AdminAttributeValueTest",
+            "summary": "Testcase\u0020for\u0020the\u0020AdminAttributeValue\u0020model.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestIsDomainModel\u0028\u0029",
+            "name": "testIsDomainModel",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testIsDomainModel"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestGetAdminAttributeIdReturnsAdminAttributeId\u0028\u0029",
+            "name": "testGetAdminAttributeIdReturnsAdminAttributeId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testGetAdminAttributeIdReturnsAdminAttributeId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestGetAdminIdReturnsAdminId\u0028\u0029",
+            "name": "testGetAdminIdReturnsAdminId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testGetAdminIdReturnsAdminId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestGetValueReturnsValue\u0028\u0029",
+            "name": "testGetValueReturnsValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testGetValueReturnsValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestSetValueSetsValue\u0028\u0029",
+            "name": "testSetValueSetsValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testSetValueSetsValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestSetValueReturnsInstance\u0028\u0029",
+            "name": "testSetValueReturnsInstance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testSetValueReturnsInstance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestSetValueCanSetNull\u0028\u0029",
+            "name": "testSetValueCanSetNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testSetValueCanSetNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003A\u0024adminAttributeId",
+            "name": "adminAttributeId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#property_adminAttributeId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003A\u0024adminId",
+            "name": "adminId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#property_adminId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003A\u0024value",
+            "name": "value",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#property_value"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest",
             "name": "AdministratorTest",
             "summary": "Testcase.",
@@ -8076,6 +8476,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTokenTest.html#property_subject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Repository\\AdminAttributeValueRepositoryTest",
+            "name": "AdminAttributeValueRepositoryTest",
+            "summary": "Testcase\u0020for\u0020the\u0020AdminAttributeValueRepository.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Repository-AdminAttributeValueRepositoryTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Repository\\AdminAttributeValueRepositoryTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Repository-AdminAttributeValueRepositoryTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Repository\\AdminAttributeValueRepositoryTest\u003A\u003AtestIsAbstractRepository\u0028\u0029",
+            "name": "testIsAbstractRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Repository-AdminAttributeValueRepositoryTest.html#method_testIsAbstractRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Repository\\AdminAttributeValueRepositoryTest\u003A\u003AtestFindOneByAdminIdAndAttributeId\u0028\u0029",
+            "name": "testFindOneByAdminIdAndAttributeId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Repository-AdminAttributeValueRepositoryTest.html#method_testFindOneByAdminIdAndAttributeId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Repository\\AdminAttributeValueRepositoryTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Repository-AdminAttributeValueRepositoryTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Repository\\AdminAttributeValueRepositoryTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Repository-AdminAttributeValueRepositoryTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Repository\\AdminAttributeValueRepositoryTest\u003A\u003A\u0024queryBuilder",
+            "name": "queryBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Repository-AdminAttributeValueRepositoryTest.html#property_queryBuilder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Repository\\AdminAttributeValueRepositoryTest\u003A\u003A\u0024query",
+            "name": "query",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Repository-AdminAttributeValueRepositoryTest.html#property_query"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Rpository\\AdministratorRepositoryTest",
             "name": "AdministratorRepositoryTest",
             "summary": "Testcase.",
@@ -8115,6 +8555,116 @@ Search.appendIndex(
             "name": "subject",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Rpository-AdministratorTokenRepositoryTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest",
+            "name": "AdminAttributeDefinitionManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest\u003A\u003AtestCreateCreatesNewAttributeDefinition\u0028\u0029",
+            "name": "testCreateCreatesNewAttributeDefinition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#method_testCreateCreatesNewAttributeDefinition"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest\u003A\u003AtestCreateThrowsExceptionIfAttributeAlreadyExists\u0028\u0029",
+            "name": "testCreateThrowsExceptionIfAttributeAlreadyExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#method_testCreateThrowsExceptionIfAttributeAlreadyExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest\u003A\u003AtestUpdateUpdatesAttributeDefinition\u0028\u0029",
+            "name": "testUpdateUpdatesAttributeDefinition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#method_testUpdateUpdatesAttributeDefinition"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest\u003A\u003AtestUpdateThrowsExceptionIfAnotherAttributeWithSameNameExists\u0028\u0029",
+            "name": "testUpdateThrowsExceptionIfAnotherAttributeWithSameNameExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#method_testUpdateThrowsExceptionIfAnotherAttributeWithSameNameExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest\u003A\u003AtestDeleteCallsRemoveOnRepository\u0028\u0029",
+            "name": "testDeleteCallsRemoveOnRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#method_testDeleteCallsRemoveOnRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest\u003A\u003AtestGetTotalCountReturnsCountFromRepository\u0028\u0029",
+            "name": "testGetTotalCountReturnsCountFromRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#method_testGetTotalCountReturnsCountFromRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest\u003A\u003AtestGetAttributesAfterIdReturnsAttributesFromRepository\u0028\u0029",
+            "name": "testGetAttributesAfterIdReturnsAttributesFromRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#method_testGetAttributesAfterIdReturnsAttributesFromRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest",
+            "name": "AdminAttributeManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest\u003A\u003AtestCreateOrUpdateCreatesNewAttributeIfNotExists\u0028\u0029",
+            "name": "testCreateOrUpdateCreatesNewAttributeIfNotExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeManagerTest.html#method_testCreateOrUpdateCreatesNewAttributeIfNotExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest\u003A\u003AtestCreateOrUpdateUpdatesExistingAttribute\u0028\u0029",
+            "name": "testCreateOrUpdateUpdatesExistingAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeManagerTest.html#method_testCreateOrUpdateUpdatesExistingAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest\u003A\u003AtestCreateOrUpdateUsesDefaultValueIfValueIsNull\u0028\u0029",
+            "name": "testCreateOrUpdateUsesDefaultValueIfValueIsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeManagerTest.html#method_testCreateOrUpdateUsesDefaultValueIfValueIsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest\u003A\u003AtestCreateOrUpdateThrowsExceptionIfValueAndDefaultValueAreNull\u0028\u0029",
+            "name": "testCreateOrUpdateThrowsExceptionIfValueAndDefaultValueAreNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeManagerTest.html#method_testCreateOrUpdateThrowsExceptionIfValueAndDefaultValueAreNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest\u003A\u003AtestGetAdminAttributeReturnsAttributeFromRepository\u0028\u0029",
+            "name": "testGetAdminAttributeReturnsAttributeFromRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeManagerTest.html#method_testGetAdminAttributeReturnsAttributeFromRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest\u003A\u003AtestGetAdminAttributeReturnsNullIfNotFound\u0028\u0029",
+            "name": "testGetAdminAttributeReturnsNullIfNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeManagerTest.html#method_testGetAdminAttributeReturnsNullIfNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest\u003A\u003AtestDeleteCallsRemoveOnRepository\u0028\u0029",
+            "name": "testDeleteCallsRemoveOnRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeManagerTest.html#method_testDeleteCallsRemoveOnRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeManagerTest.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeManagerTest.html#property_subject"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdministratorManagerTest",
             "name": "AdministratorManagerTest",
@@ -9416,15 +9966,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-configuration-repository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model",
-            "name": "Model",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception",
+            "name": "Exception",
             "summary": "",
-            "url": "namespaces/phplist-core-domain-identity-model.html"
+            "url": "namespaces/phplist-core-domain-identity-exception.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity",
             "name": "Identity",
             "summary": "",
             "url": "namespaces/phplist-core-domain-identity.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model",
+            "name": "Model",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-identity-model.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto",
             "name": "Dto",
@@ -9705,6 +10260,11 @@ Search.appendIndex(
             "name": "Identity",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-identity.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Repository",
+            "name": "Repository",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-identity-repository.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Rpository",
             "name": "Rpository",
