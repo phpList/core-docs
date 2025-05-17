@@ -2351,6 +2351,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-UpdateAdministratorDto.html#property_superAdmin"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Filter\\AdminAttributeValueFilter",
+            "name": "AdminAttributeValueFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Filter-AdminAttributeValueFilter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Filter\\AdminAttributeValueFilter\u003A\u003AsetAdminId\u0028\u0029",
+            "name": "setAdminId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Filter-AdminAttributeValueFilter.html#method_setAdminId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Filter\\AdminAttributeValueFilter\u003A\u003AgetAdminId\u0028\u0029",
+            "name": "getAdminId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Filter-AdminAttributeValueFilter.html#method_getAdminId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Filter\\AdminAttributeValueFilter\u003A\u003A\u0024adminId",
+            "name": "adminId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Filter-AdminAttributeValueFilter.html#property_adminId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklist",
             "name": "UserBlacklist",
             "summary": "",
@@ -9985,6 +10005,11 @@ Search.appendIndex(
             "name": "Dto",
             "summary": "",
             "url": "namespaces/phplist-core-domain-identity-model-dto.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Filter",
+            "name": "Filter",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-identity-model-filter.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository",
             "name": "Repository",
