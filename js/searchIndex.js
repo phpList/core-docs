@@ -1806,15 +1806,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003AgetAdminAttributeId\u0028\u0029",
-            "name": "getAdminAttributeId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003AgetAttributeDefinition\u0028\u0029",
+            "name": "getAttributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdminAttributeId"
+            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAttributeDefinition"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003AgetAdminId\u0028\u0029",
-            "name": "getAdminId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003AgetAdministrator\u0028\u0029",
+            "name": "getAdministrator",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdminId"
+            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdministrator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003AgetValue\u0028\u0029",
             "name": "getValue",
@@ -1826,15 +1826,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_setValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003A\u0024attributeId",
-            "name": "attributeId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003A\u0024attributeDefinition",
+            "name": "attributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_attributeId"
+            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_attributeDefinition"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003A\u0024adminId",
-            "name": "adminId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003A\u0024administrator",
+            "name": "administrator",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_adminId"
+            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_administrator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue\u003A\u003A\u0024value",
             "name": "value",
@@ -8276,15 +8276,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testIsDomainModel"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestGetAdminAttributeIdReturnsAdminAttributeId\u0028\u0029",
-            "name": "testGetAdminAttributeIdReturnsAdminAttributeId",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestGetAttributeDefinitionReturnsAttributeDefinition\u0028\u0029",
+            "name": "testGetAttributeDefinitionReturnsAttributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testGetAdminAttributeIdReturnsAdminAttributeId"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testGetAttributeDefinitionReturnsAttributeDefinition"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestGetAdminIdReturnsAdminId\u0028\u0029",
-            "name": "testGetAdminIdReturnsAdminId",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestGetAdministratorReturnsAdministrator\u0028\u0029",
+            "name": "testGetAdministratorReturnsAdministrator",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testGetAdminIdReturnsAdminId"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#method_testGetAdministratorReturnsAdministrator"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003AtestGetValueReturnsValue\u0028\u0029",
             "name": "testGetValueReturnsValue",
@@ -8325,6 +8325,16 @@ Search.appendIndex(
             "name": "value",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#property_value"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003A\u0024attributeDefinition",
+            "name": "attributeDefinition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#property_attributeDefinition"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeValueTest\u003A\u003A\u0024administrator",
+            "name": "administrator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeValueTest.html#property_administrator"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest",
             "name": "AdministratorTest",

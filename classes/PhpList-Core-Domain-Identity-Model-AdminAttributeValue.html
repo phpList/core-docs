@@ -192,15 +192,15 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_adminId">$adminId</a>
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_administrator">$administrator</a>
     <span>
-                        &nbsp;: int            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_attributeId">$attributeId</a>
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_attributeDefinition">$attributeDefinition</a>
     <span>
-                        &nbsp;: int            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AdminAttributeDefinition">AdminAttributeDefinition</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -224,15 +224,15 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdminAttributeId">getAdminAttributeId()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdministrator">getAdministrator()</a>
     <span>
-                                &nbsp;: int    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdminId">getAdminId()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAttributeDefinition">getAttributeDefinition()</a>
     <span>
-                                &nbsp;: int    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AdminAttributeDefinition">AdminAttributeDefinition</abbr></a>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -267,9 +267,9 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_adminId">
-        $adminId
-        <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_adminId" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_administrator">
+        $administrator
+        <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_administrator" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
@@ -277,7 +277,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/AdminAttributeValue.php"><a href="files/src-domain-identity-model-adminattributevalue.html"><abbr title="src/Domain/Identity/Model/AdminAttributeValue.php">AdminAttributeValue.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -285,8 +285,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">int</span>
-    <span class="phpdocumentor-signature__name">$adminId</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$administrator</span>
     </code>
 
     
@@ -296,27 +296,35 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_adminId#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_administrator#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
     <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
+        #[<abbr title="\Doctrine\ORM\Mapping\Id">Id</abbr>]
+    </dt>
+    </dl>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\JoinColumn">JoinColumn</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
         $name: &#039;adminid&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $type: &#039;integer&#039;
+        $referencedColumnName: &#039;id&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $options: [&#039;unsigned&#039; =&gt; true]
+        $nullable: false
     </dd>
     </dl>
                     <dl class="phpdocumentor-argument-list">
     <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\Id">Id</abbr>]
+        #[<abbr title="\Doctrine\ORM\Mapping\ManyToOne">ManyToOne</abbr>]
     </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $targetEntity: \PhpList\Core\Domain\Identity\Model\Administrator::class
+    </dd>
     </dl>
             </section>
 
@@ -328,9 +336,9 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="property_attributeId">
-        $attributeId
-        <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_attributeId" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_attributeDefinition">
+        $attributeDefinition
+        <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_attributeDefinition" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
@@ -346,8 +354,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">int</span>
-    <span class="phpdocumentor-signature__name">$attributeId</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AdminAttributeDefinition">AdminAttributeDefinition</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$attributeDefinition</span>
     </code>
 
     
@@ -357,27 +365,35 @@
     
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_attributeId#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_attributeDefinition#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
     <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
+        #[<abbr title="\Doctrine\ORM\Mapping\Id">Id</abbr>]
+    </dt>
+    </dl>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\JoinColumn">JoinColumn</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
         $name: &#039;adminattributeid&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $type: &#039;integer&#039;
+        $referencedColumnName: &#039;id&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $options: [&#039;unsigned&#039; =&gt; true]
+        $nullable: false
     </dd>
     </dl>
                     <dl class="phpdocumentor-argument-list">
     <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\Id">Id</abbr>]
+        #[<abbr title="\Doctrine\ORM\Mapping\ManyToOne">ManyToOne</abbr>]
     </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $targetEntity: \PhpList\Core\Domain\Identity\Model\AdminAttributeDefinition::class
+    </dd>
     </dl>
             </section>
 
@@ -399,7 +415,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/AdminAttributeValue.php"><a href="files/src-domain-identity-model-adminattributevalue.html"><abbr title="src/Domain/Identity/Model/AdminAttributeValue.php">AdminAttributeValue.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -463,14 +479,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/AdminAttributeValue.php"><a href="files/src-domain-identity-model-adminattributevalue.html"><abbr title="src/Domain/Identity/Model/AdminAttributeValue.php">AdminAttributeValue.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$adminAttributeId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$adminId</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AdminAttributeDefinition">AdminAttributeDefinition</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeDefinition</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$administrator</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -479,15 +495,15 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$adminAttributeId</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                <span class="phpdocumentor-signature__argument__name">$attributeDefinition</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AdminAttributeDefinition">AdminAttributeDefinition</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$adminId</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                <span class="phpdocumentor-signature__argument__name">$administrator</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -513,22 +529,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getAdminAttributeId">
-        getAdminAttributeId()
-        <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdminAttributeId" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getAdministrator">
+        getAdministrator()
+        <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdministrator" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/AdminAttributeValue.php"><a href="files/src-domain-identity-model-adminattributevalue.html"><abbr title="src/Domain/Identity/Model/AdminAttributeValue.php">AdminAttributeValue.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getAdminAttributeId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getAdministrator</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -541,7 +557,7 @@
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">int</span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a></span>
             </section>
 
 </article>
@@ -551,9 +567,9 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getAdminId">
-        getAdminId()
-        <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdminId" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getAttributeDefinition">
+        getAttributeDefinition()
+        <a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAttributeDefinition" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
@@ -566,7 +582,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getAdminId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                    <span class="phpdocumentor-signature__name">getAttributeDefinition</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AdminAttributeDefinition">AdminAttributeDefinition</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -579,7 +595,7 @@
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">int</span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AdminAttributeDefinition">AdminAttributeDefinition</abbr></a></span>
             </section>
 
 </article>
@@ -597,7 +613,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/AdminAttributeValue.php"><a href="files/src-domain-identity-model-adminattributevalue.html"><abbr title="src/Domain/Identity/Model/AdminAttributeValue.php">AdminAttributeValue.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
     </aside>
 
@@ -635,7 +651,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/AdminAttributeValue.php"><a href="files/src-domain-identity-model-adminattributevalue.html"><abbr title="src/Domain/Identity/Model/AdminAttributeValue.php">AdminAttributeValue.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
     </aside>
 
@@ -782,8 +798,8 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_adminId">$adminId</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_attributeId">$attributeId</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_administrator">$administrator</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_attributeDefinition">$attributeDefinition</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#property_value">$value</a></li>
                                             </ul>
                 </li>
@@ -792,8 +808,8 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdminAttributeId">getAdminAttributeId()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdminId">getAdminId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAdministrator">getAdministrator()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getAttributeDefinition">getAttributeDefinition()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_getValue">getValue()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-AdminAttributeValue.html#method_setValue">setValue()</a></li>
                                     </ul>
