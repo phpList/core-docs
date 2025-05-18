@@ -2476,6 +2476,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminAttributeValueRepository.html#method_findOneByAdminIdAndAttributeId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdminAttributeValueRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminAttributeValueRepository.html#method_getFilteredAfterId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdministratorRepository",
             "name": "AdministratorRepository",
             "summary": "Repository\u0020for\u0020Administrator\u0020models.",
