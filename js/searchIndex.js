@@ -5406,20 +5406,90 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AsetListId\u0028\u0029",
-            "name": "setListId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_setListId"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetListId\u0028\u0029",
             "name": "getListId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getListId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetSubscribedDateFrom\u0028\u0029",
+            "name": "getSubscribedDateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getSubscribedDateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetSubscribedDateTo\u0028\u0029",
+            "name": "getSubscribedDateTo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getSubscribedDateTo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetCreatedDateFrom\u0028\u0029",
+            "name": "getCreatedDateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getCreatedDateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetCreatedDateTo\u0028\u0029",
+            "name": "getCreatedDateTo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getCreatedDateTo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetUpdatedDateFrom\u0028\u0029",
+            "name": "getUpdatedDateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getUpdatedDateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetUpdatedDateTo\u0028\u0029",
+            "name": "getUpdatedDateTo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getUpdatedDateTo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetColumns\u0028\u0029",
+            "name": "getColumns",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getColumns"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024listId",
             "name": "listId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_listId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024subscribedDateFrom",
+            "name": "subscribedDateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_subscribedDateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024subscribedDateTo",
+            "name": "subscribedDateTo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_subscribedDateTo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024createdDateFrom",
+            "name": "createdDateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_createdDateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024createdDateTo",
+            "name": "createdDateTo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_createdDateTo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024updatedDateFrom",
+            "name": "updatedDateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_updatedDateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024updatedDateTo",
+            "name": "updatedDateTo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_updatedDateTo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024columns",
+            "name": "columns",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_columns"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscribePage",
             "name": "SubscribePage",
