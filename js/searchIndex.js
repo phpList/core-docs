@@ -5271,6 +5271,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-CreateSubscriberListDto.html#property_description"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto",
+            "name": "ImportSubscriberDto",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024email",
+            "name": "email",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_email"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024confirmed",
+            "name": "confirmed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_confirmed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024blacklisted",
+            "name": "blacklisted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_blacklisted"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024htmlEmail",
+            "name": "htmlEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_htmlEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024disabled",
+            "name": "disabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_disabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024extraData",
+            "name": "extraData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_extraData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024extraAttributes",
+            "name": "extraAttributes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_extraAttributes"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberImportOptions",
             "name": "SubscriberImportOptions",
             "summary": "",
@@ -5285,6 +5330,11 @@ Search.appendIndex(
             "name": "updateExisting",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_updateExisting"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberImportOptions\u003A\u003A\u0024listIds",
+            "name": "listIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_listIds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\UpdateSubscriberDto",
             "name": "UpdateSubscriberDto",
@@ -6296,340 +6346,375 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriptionRepository.html#method_findOneBySubscriberEmailAndListId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\AttributeDefinitionManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter",
+            "name": "CsvImporter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter\u003A\u003Aimport\u0028\u0029",
+            "name": "import",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html#method_import"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter\u003A\u003A\u0024rowMapper",
+            "name": "rowMapper",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html#property_rowMapper"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter\u003A\u003A\u0024validator",
+            "name": "validator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html#property_validator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper",
+            "name": "CsvRowToDtoMapper",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper\u003A\u003Amap\u0028\u0029",
+            "name": "map",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#method_map"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper\u003A\u003AKNOWN_HEADERS",
+            "name": "KNOWN_HEADERS",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#constant_KNOWN_HEADERS"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager",
             "name": "AttributeDefinitionManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-AttributeDefinitionManager.html"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\AttributeDefinitionManager\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-AttributeDefinitionManager.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\AttributeDefinitionManager\u003A\u003Acreate\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager\u003A\u003Acreate\u0028\u0029",
             "name": "create",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-AttributeDefinitionManager.html#method_create"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#method_create"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\AttributeDefinitionManager\u003A\u003Aupdate\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager\u003A\u003Aupdate\u0028\u0029",
             "name": "update",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-AttributeDefinitionManager.html#method_update"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#method_update"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\AttributeDefinitionManager\u003A\u003Adelete\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-AttributeDefinitionManager.html#method_delete"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#method_delete"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\AttributeDefinitionManager\u003A\u003AgetTotalCount\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager\u003A\u003AgetTotalCount\u0028\u0029",
             "name": "getTotalCount",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-AttributeDefinitionManager.html#method_getTotalCount"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#method_getTotalCount"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\AttributeDefinitionManager\u003A\u003AgetAttributesAfterId\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager\u003A\u003AgetAttributesAfterId\u0028\u0029",
             "name": "getAttributesAfterId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-AttributeDefinitionManager.html#method_getAttributesAfterId"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#method_getAttributesAfterId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\AttributeDefinitionManager\u003A\u003A\u0024definitionRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager\u003A\u003A\u0024definitionRepository",
             "name": "definitionRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-AttributeDefinitionManager.html#property_definitionRepository"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#property_definitionRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberAttributeManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager",
             "name": "SubscriberAttributeManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberAttributeManager.html"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberAttributeManager\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberAttributeManager.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberAttributeManager\u003A\u003AcreateOrUpdate\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003AcreateOrUpdate\u0028\u0029",
             "name": "createOrUpdate",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberAttributeManager.html#method_createOrUpdate"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#method_createOrUpdate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberAttributeManager\u003A\u003AgetSubscriberAttribute\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003AgetSubscriberAttribute\u0028\u0029",
             "name": "getSubscriberAttribute",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberAttributeManager.html#method_getSubscriberAttribute"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#method_getSubscriberAttribute"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberAttributeManager\u003A\u003Adelete\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberAttributeManager.html#method_delete"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#method_delete"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberAttributeManager\u003A\u003A\u0024attributeRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A\u0024attributeRepository",
             "name": "attributeRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberAttributeManager.html#property_attributeRepository"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_attributeRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExportManager",
-            "name": "SubscriberCsvExportManager",
-            "summary": "Service\u0020for\u0020importing\u0020and\u0020exporting\u0020subscribers\u0020from\/to\u0020CSV\u0020files.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExportManager.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExportManager\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExportManager.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExportManager\u003A\u003AexportToCsv\u0028\u0029",
-            "name": "exportToCsv",
-            "summary": "Export\u0020subscribers\u0020to\u0020a\u0020CSV\u0020file.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExportManager.html#method_exportToCsv"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExportManager\u003A\u003AgenerateCsvContent\u0028\u0029",
-            "name": "generateCsvContent",
-            "summary": "Generate\u0020CSV\u0020content\u0020for\u0020the\u0020export.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExportManager.html#method_generateCsvContent"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExportManager\u003A\u003AgetExportHeaders\u0028\u0029",
-            "name": "getExportHeaders",
-            "summary": "Get\u0020headers\u0020for\u0020the\u0020export\u0020CSV.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExportManager.html#method_getExportHeaders"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExportManager\u003A\u003AexportSubscribers\u0028\u0029",
-            "name": "exportSubscribers",
-            "summary": "Export\u0020subscribers\u0020in\u0020batches.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExportManager.html#method_exportSubscribers"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExportManager\u003A\u003AgetSubscriberRow\u0028\u0029",
-            "name": "getSubscriberRow",
-            "summary": "Get\u0020a\u0020row\u0020of\u0020data\u0020for\u0020a\u0020subscriber.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExportManager.html#method_getSubscriberRow"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExportManager\u003A\u003AconfigureResponse\u0028\u0029",
-            "name": "configureResponse",
-            "summary": "Configure\u0020the\u0020response\u0020for\u0020CSV\u0020download.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExportManager.html#method_configureResponse"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExportManager\u003A\u003A\u0024attributeManager",
-            "name": "attributeManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExportManager.html#property_attributeManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExportManager\u003A\u003A\u0024subscriberRepository",
-            "name": "subscriberRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExportManager.html#property_subscriberRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExportManager\u003A\u003A\u0024definitionRepository",
-            "name": "definitionRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExportManager.html#property_definitionRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager",
-            "name": "SubscriberCsvImportManager",
-            "summary": "Service\u0020for\u0020importing\u0020and\u0020exporting\u0020subscribers\u0020from\/to\u0020CSV\u0020files.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AimportFromCsv\u0028\u0029",
-            "name": "importFromCsv",
-            "summary": "Import\u0020subscribers\u0020from\u0020a\u0020CSV\u0020file.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_importFromCsv"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AimportAndUpdateFromCsv\u0028\u0029",
-            "name": "importAndUpdateFromCsv",
-            "summary": "Import\u0020subscribers\u0020with\u0020update\u0020strategy.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_importAndUpdateFromCsv"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AimportNewFromCsv\u0028\u0029",
-            "name": "importNewFromCsv",
-            "summary": "Import\u0020subscribers\u0020without\u0020updating\u0020existing\u0020ones.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_importNewFromCsv"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AprepareImport\u0028\u0029",
-            "name": "prepareImport",
-            "summary": "Prepare\u0020for\u0020import\u0020by\u0020opening\u0020file\u0020and\u0020validating\u0020headers.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_prepareImport"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AgetAttributeDefinitions\u0028\u0029",
-            "name": "getAttributeDefinitions",
-            "summary": "Get\u0020attribute\u0020definitions\u0020from\u0020headers.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_getAttributeDefinitions"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AprocessRow\u0028\u0029",
-            "name": "processRow",
-            "summary": "Process\u0020a\u0020single\u0020row\u0020from\u0020the\u0020CSV\u0020file.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_processRow"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AcreateOrUpdateSubscriber\u0028\u0029",
-            "name": "createOrUpdateSubscriber",
-            "summary": "Create\u0020a\u0020new\u0020subscriber\u0020or\u0020update\u0020an\u0020existing\u0020one.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_createOrUpdateSubscriber"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AupdateExistingSubscriber\u0028\u0029",
-            "name": "updateExistingSubscriber",
-            "summary": "Update\u0020an\u0020existing\u0020subscriber.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_updateExistingSubscriber"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AcreateNewSubscriber\u0028\u0029",
-            "name": "createNewSubscriber",
-            "summary": "Create\u0020a\u0020new\u0020subscriber.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_createNewSubscriber"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AsetOptionalBooleanField\u0028\u0029",
-            "name": "setOptionalBooleanField",
-            "summary": "Set\u0020an\u0020optional\u0020boolean\u0020field\u0020on\u0020a\u0020subscriber\u0020if\u0020it\u0020exists\u0020in\u0020the\u0020data.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_setOptionalBooleanField"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AisBooleanTrue\u0028\u0029",
-            "name": "isBooleanTrue",
-            "summary": "Check\u0020if\u0020a\u0020boolean\u0020value\u0020is\u0020true\u0020in\u0020data,\u0020with\u0020fallback.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_isBooleanTrue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003AprocessAttributes\u0028\u0029",
-            "name": "processAttributes",
-            "summary": "Process\u0020subscriber\u0020attributes.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#method_processAttributes"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003A\u0024subscriberManager",
-            "name": "subscriberManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#property_subscriberManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003A\u0024attributeManager",
-            "name": "attributeManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#property_attributeManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003A\u0024subscriberRepository",
-            "name": "subscriberRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#property_subscriberRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImportManager\u003A\u003A\u0024definitionRepository",
-            "name": "definitionRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImportManager.html#property_definitionRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberListManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager",
             "name": "SubscriberListManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberListManager.html"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberListManager.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberListManager\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberListManager.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberListManager.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberListManager\u003A\u003AcreateSubscriberList\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager\u003A\u003AcreateSubscriberList\u0028\u0029",
             "name": "createSubscriberList",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberListManager.html#method_createSubscriberList"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberListManager.html#method_createSubscriberList"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberListManager\u003A\u003AgetPaginated\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager\u003A\u003AgetPaginated\u0028\u0029",
             "name": "getPaginated",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberListManager.html#method_getPaginated"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberListManager.html#method_getPaginated"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberListManager\u003A\u003AgetTotalCount\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager\u003A\u003AgetTotalCount\u0028\u0029",
             "name": "getTotalCount",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberListManager.html#method_getTotalCount"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberListManager.html#method_getTotalCount"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberListManager\u003A\u003Adelete\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberListManager.html#method_delete"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberListManager.html#method_delete"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberListManager\u003A\u003A\u0024subscriberListRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager\u003A\u003A\u0024subscriberListRepository",
             "name": "subscriberListRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberListManager.html#property_subscriberListRepository"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberListManager.html#property_subscriberListRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager",
             "name": "SubscriberManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberManager.html"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberManager\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberManager.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberManager\u003A\u003AcreateSubscriber\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AcreateSubscriber\u0028\u0029",
             "name": "createSubscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberManager.html#method_createSubscriber"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_createSubscriber"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberManager\u003A\u003AgetSubscriber\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AgetSubscriber\u0028\u0029",
             "name": "getSubscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberManager.html#method_getSubscriber"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_getSubscriber"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberManager\u003A\u003AupdateSubscriber\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AupdateSubscriber\u0028\u0029",
             "name": "updateSubscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberManager.html#method_updateSubscriber"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_updateSubscriber"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberManager\u003A\u003AdeleteSubscriber\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AdeleteSubscriber\u0028\u0029",
             "name": "deleteSubscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberManager.html#method_deleteSubscriber"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_deleteSubscriber"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberManager\u003A\u003A\u0024subscriberRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AcreateFromImport\u0028\u0029",
+            "name": "createFromImport",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_createFromImport"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AupdateFromImport\u0028\u0029",
+            "name": "updateFromImport",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_updateFromImport"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberManager.html#property_subscriberRepository"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberManager\u003A\u003A\u0024entityManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024entityManager",
             "name": "entityManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberManager.html#property_entityManager"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_entityManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager",
             "name": "SubscriptionManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionManager.html"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionManager\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionManager.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionManager\u003A\u003AcreateSubscriptions\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003AaddSubscriberToAList\u0028\u0029",
+            "name": "addSubscriberToAList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#method_addSubscriberToAList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003AcreateSubscriptions\u0028\u0029",
             "name": "createSubscriptions",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionManager.html#method_createSubscriptions"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#method_createSubscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionManager\u003A\u003AcreateSubscription\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003AcreateSubscription\u0028\u0029",
             "name": "createSubscription",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionManager.html#method_createSubscription"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#method_createSubscription"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionManager\u003A\u003AdeleteSubscriptions\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003AdeleteSubscriptions\u0028\u0029",
             "name": "deleteSubscriptions",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionManager.html#method_deleteSubscriptions"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#method_deleteSubscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionManager\u003A\u003AdeleteSubscription\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003AdeleteSubscription\u0028\u0029",
             "name": "deleteSubscription",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionManager.html#method_deleteSubscription"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#method_deleteSubscription"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionManager\u003A\u003AgetSubscriberListMembers\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003AgetSubscriberListMembers\u0028\u0029",
             "name": "getSubscriberListMembers",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionManager.html#method_getSubscriberListMembers"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#method_getSubscriberListMembers"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionManager\u003A\u003A\u0024subscriptionRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003A\u0024subscriptionRepository",
             "name": "subscriptionRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionManager.html#property_subscriptionRepository"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#property_subscriptionRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionManager\u003A\u003A\u0024subscriberRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionManager.html#property_subscriberRepository"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003A\u0024subscriberListRepository",
+            "name": "subscriberListRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#property_subscriberListRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter",
+            "name": "SubscriberCsvExporter",
+            "summary": "Service\u0020for\u0020importing\u0020and\u0020exporting\u0020subscribers\u0020from\/to\u0020CSV\u0020files.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AexportToCsv\u0028\u0029",
+            "name": "exportToCsv",
+            "summary": "Export\u0020subscribers\u0020to\u0020a\u0020CSV\u0020file.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_exportToCsv"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AgenerateCsvContent\u0028\u0029",
+            "name": "generateCsvContent",
+            "summary": "Generate\u0020CSV\u0020content\u0020for\u0020the\u0020export.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_generateCsvContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AgetExportHeaders\u0028\u0029",
+            "name": "getExportHeaders",
+            "summary": "Get\u0020headers\u0020for\u0020the\u0020export\u0020CSV.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_getExportHeaders"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AexportSubscribers\u0028\u0029",
+            "name": "exportSubscribers",
+            "summary": "Export\u0020subscribers\u0020in\u0020batches.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_exportSubscribers"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AgetSubscriberRow\u0028\u0029",
+            "name": "getSubscriberRow",
+            "summary": "Get\u0020a\u0020row\u0020of\u0020data\u0020for\u0020a\u0020subscriber.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_getSubscriberRow"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AconfigureResponse\u0028\u0029",
+            "name": "configureResponse",
+            "summary": "Configure\u0020the\u0020response\u0020for\u0020CSV\u0020download.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_configureResponse"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003A\u0024attributeManager",
+            "name": "attributeManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_attributeManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003A\u0024definitionRepository",
+            "name": "definitionRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_definitionRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter",
+            "name": "SubscriberCsvImporter",
+            "summary": "Service\u0020for\u0020importing\u0020subscribers\u0020from\u0020a\u0020CSV\u0020file.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AimportFromCsv\u0028\u0029",
+            "name": "importFromCsv",
+            "summary": "Import\u0020subscribers\u0020from\u0020a\u0020CSV\u0020file.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_importFromCsv"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AimportAndUpdateFromCsv\u0028\u0029",
+            "name": "importAndUpdateFromCsv",
+            "summary": "Import\u0020subscribers\u0020with\u0020an\u0020update\u0020strategy.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_importAndUpdateFromCsv"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AimportNewFromCsv\u0028\u0029",
+            "name": "importNewFromCsv",
+            "summary": "Import\u0020subscribers\u0020without\u0020updating\u0020existing\u0020ones.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_importNewFromCsv"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AprocessRow\u0028\u0029",
+            "name": "processRow",
+            "summary": "Process\u0020a\u0020single\u0020row\u0020from\u0020the\u0020CSV\u0020file.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_processRow"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AprocessAttributes\u0028\u0029",
+            "name": "processAttributes",
+            "summary": "Process\u0020subscriber\u0020attributes.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_processAttributes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024subscriberManager",
+            "name": "subscriberManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_subscriberManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024attributeManager",
+            "name": "attributeManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_attributeManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024subscriptionManager",
+            "name": "subscriptionManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_subscriptionManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024csvImporter",
+            "name": "csvImporter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_csvImporter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024attrDefinitionRepository",
+            "name": "attrDefinitionRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_attrDefinitionRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\Controller\\DefaultController",
             "name": "DefaultController",
@@ -9946,10 +10031,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_attributeManagerMock"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024subscriptionManagerMock",
+            "name": "subscriptionManagerMock",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_subscriptionManagerMock"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024subscriberRepositoryMock",
             "name": "subscriberRepositoryMock",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_subscriberRepositoryMock"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024csvImporterMock",
+            "name": "csvImporterMock",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_csvImporterMock"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024attributeDefinitionRepositoryMock",
             "name": "attributeDefinitionRepositoryMock",
@@ -10425,6 +10520,11 @@ Search.appendIndex(
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-domain-subscription-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager",
+            "name": "Manager",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-subscription-service-manager.html"
         },                {
             "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\Controller",
             "name": "Controller",
