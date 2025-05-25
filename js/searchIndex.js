@@ -1226,6 +1226,11 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\LinkTrackRepository\u003A\u003AgetByMessageId\u0028\u0029",
+            "name": "getByMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html#method_getByMessageId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\LinkTrackUmlClickRepository",
             "name": "LinkTrackUmlClickRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -1241,10 +1246,125 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\UserMessageViewRepository\u003A\u003AcountByMessageId\u0028\u0029",
+            "name": "countByMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html#method_countByMessageId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\UserStatsRepository",
             "name": "UserStatsRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserStatsRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService",
+            "name": "AnalyticsService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetCampaignStatistics\u0028\u0029",
+            "name": "getCampaignStatistics",
+            "summary": "Get\u0020campaign\u0020statistics",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getCampaignStatistics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetViewOpensStatistics\u0028\u0029",
+            "name": "getViewOpensStatistics",
+            "summary": "Get\u0020view\u0020opens\u0020statistics",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getViewOpensStatistics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetTopDomains\u0028\u0029",
+            "name": "getTopDomains",
+            "summary": "Get\u0020top\u0020domains\u0020with\u0020more\u0020than\u00205\u0020subscribers",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getTopDomains"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetDomainConfirmationStatistics\u0028\u0029",
+            "name": "getDomainConfirmationStatistics",
+            "summary": "Get\u0020domains\u0020with\u0020most\u0020unconfirmed\u0020subscribers",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getDomainConfirmationStatistics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AformatStat\u0028\u0029",
+            "name": "formatStat",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_formatStat"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetTopLocalParts\u0028\u0029",
+            "name": "getTopLocalParts",
+            "summary": "Get\u0020top\u0020local\u002Dparts\u0020of\u0020email\u0020addresses",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getTopLocalParts"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024linkTrackManager",
+            "name": "linkTrackManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_linkTrackManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024userMessageViewManager",
+            "name": "userMessageViewManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_userMessageViewManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024messageBounceRepository",
+            "name": "messageBounceRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_messageBounceRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024messageForwardRepository",
+            "name": "messageForwardRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_messageForwardRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager",
+            "name": "LinkTrackManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager\u003A\u003AgetLinkTracksByMessageId\u0028\u0029",
+            "name": "getLinkTracksByMessageId",
+            "summary": "Get\u0020link\u0020tracks\u0020by\u0020message\u0020ID",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html#method_getLinkTracksByMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager\u003A\u003A\u0024linkTrackRepository",
+            "name": "linkTrackRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html#property_linkTrackRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager",
+            "name": "UserMessageViewManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003AcountViewsByMessageId\u0028\u0029",
+            "name": "countViewsByMessageId",
+            "summary": "Count\u0020views\u0020by\u0020message\u0020ID",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#method_countViewsByMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003A\u0024userMessageViewRepository",
+            "name": "userMessageViewRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#property_userMessageViewRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\FilterRequestInterface",
             "name": "FilterRequestInterface",
@@ -4831,10 +4951,20 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AgetCountByMessageId\u0028\u0029",
+            "name": "getCountByMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCountByMessageId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageForwardRepository",
             "name": "UserMessageForwardRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageForwardRepository\u003A\u003AgetCountByMessageId\u0028\u0029",
+            "name": "getCountByMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_getCountByMessageId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository",
             "name": "UserMessageRepository",
@@ -8406,6 +8536,76 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-EnvironmentTest.html#method_testValidateEnvironmentForInvalidEnvironmentThrowsException"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest",
+            "name": "AnalyticsServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetCampaignStatistics\u0028\u0029",
+            "name": "testGetCampaignStatistics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetCampaignStatistics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetViewOpensStatistics\u0028\u0029",
+            "name": "testGetViewOpensStatistics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetViewOpensStatistics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetTopDomains\u0028\u0029",
+            "name": "testGetTopDomains",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetTopDomains"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetDomainConfirmationStatistics\u0028\u0029",
+            "name": "testGetDomainConfirmationStatistics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetDomainConfirmationStatistics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetTopLocalParts\u0028\u0029",
+            "name": "testGetTopLocalParts",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetTopLocalParts"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024linkTrackManager",
+            "name": "linkTrackManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_linkTrackManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024userMessageViewManager",
+            "name": "userMessageViewManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_userMessageViewManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024userMessageBounceRepository",
+            "name": "userMessageBounceRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_userMessageBounceRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024userMessageForwardRepository",
+            "name": "userMessageForwardRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_userMessageForwardRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_subscriberRepository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Repository\\CursorPaginationTraitTest",
             "name": "CursorPaginationTraitTest",
             "summary": "",
@@ -10421,6 +10621,16 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-analytics-repository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-analytics-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager",
+            "name": "Manager",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-analytics-service-manager.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter",
             "name": "Filter",
             "summary": "",
@@ -10756,6 +10966,21 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-core.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-analytics-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics",
+            "name": "Analytics",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-analytics.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain",
+            "name": "Domain",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Repository",
             "name": "Repository",
             "summary": "",
@@ -10765,11 +10990,6 @@ Search.appendIndex(
             "name": "Common",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-common.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain",
-            "name": "Domain",
-            "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model",
             "name": "Model",
