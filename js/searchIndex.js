@@ -348,7 +348,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Core\\Bootstrap\u003A\u003Aconfigure\u0028\u0029",
             "name": "configure",
-            "summary": "Main\u0020entry\u0020point\u0020called\u0020at\u0020every\u0020request\u0020usually\u0020from\u0020global\u0020scope.\u0020Checks\u0020if\u0020everything\u0020is\u0020correct\nand\u0020loads\u0020the\u0020configuration.",
+            "summary": "The\u0020main\u0020entry\u0020point\u0020called\u0020at\u0020every\u0020request\u0020usually\u0020from\u0020global\u0020scope.\u0020Checks\u0020if\u0020everything\u0020is\u0020correct\nand\u0020loads\u0020the\u0020configuration.",
             "url": "classes/PhpList-Core-Core-Bootstrap.html#method_configure"
         },                {
             "fqsen": "\\PhpList\\Core\\Core\\Bootstrap\u003A\u003AassertConfigureHasBeenCalled\u0028\u0029",
@@ -2791,6 +2791,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-SessionManager.html#property_administratorRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand",
+            "name": "SendTestEmailCommand",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand\u003A\u003Aconfigure\u0028\u0029",
+            "name": "configure",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method_configure"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method_execute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand\u003A\u003A\u0024defaultName",
+            "name": "defaultName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_defaultName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand\u003A\u003A\u0024defaultDescription",
+            "name": "defaultDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_defaultDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand\u003A\u003A\u0024emailService",
+            "name": "emailService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_emailService"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Attachment",
             "name": "Attachment",
             "summary": "",
@@ -5050,6 +5085,36 @@ Search.appendIndex(
             "name": "build",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-MessageScheduleBuilder.html#method_build"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService",
+            "name": "EmailService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService\u003A\u003AsendEmail\u0028\u0029",
+            "name": "sendEmail",
+            "summary": "Send\u0020a\u0020simple\u0020email",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#method_sendEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService\u003A\u003AsendBulkEmail\u0028\u0029",
+            "name": "sendBulkEmail",
+            "summary": "Email\u0020multiple\u0020recipients",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#method_sendBulkEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService\u003A\u003A\u0024mailer",
+            "name": "mailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService\u003A\u003A\u0024defaultFromEmail",
+            "name": "defaultFromEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#property_defaultFromEmail"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageManager",
             "name": "MessageManager",
@@ -9311,6 +9376,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-SessionManagerTest.html#method_testDeleteSessionCallsRemove"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\SendTestEmailCommandTest",
+            "name": "SendTestEmailCommandTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\SendTestEmailCommandTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\SendTestEmailCommandTest\u003A\u003AtestExecuteWithValidEmail\u0028\u0029",
+            "name": "testExecuteWithValidEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html#method_testExecuteWithValidEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\SendTestEmailCommandTest\u003A\u003AtestExecuteWithoutRecipient\u0028\u0029",
+            "name": "testExecuteWithoutRecipient",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html#method_testExecuteWithoutRecipient"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\SendTestEmailCommandTest\u003A\u003AtestExecuteWithInvalidEmail\u0028\u0029",
+            "name": "testExecuteWithInvalidEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html#method_testExecuteWithInvalidEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\SendTestEmailCommandTest\u003A\u003AtestExecuteWithEmailServiceException\u0028\u0029",
+            "name": "testExecuteWithEmailServiceException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html#method_testExecuteWithEmailServiceException"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\SendTestEmailCommandTest\u003A\u003A\u0024emailService",
+            "name": "emailService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\SendTestEmailCommandTest\u003A\u003A\u0024commandTester",
+            "name": "commandTester",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html#property_commandTester"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\MessageTest",
             "name": "MessageTest",
             "summary": "",
@@ -9735,6 +9840,61 @@ Search.appendIndex(
             "name": "builder",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageScheduleBuilderTest.html#property_builder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest",
+            "name": "EmailServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest\u003A\u003AtestSendEmailWithDefaultFrom\u0028\u0029",
+            "name": "testSendEmailWithDefaultFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailWithDefaultFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest\u003A\u003AtestSendEmailWithCustomFrom\u0028\u0029",
+            "name": "testSendEmailWithCustomFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailWithCustomFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest\u003A\u003AtestSendEmailWithCcBccAndReplyTo\u0028\u0029",
+            "name": "testSendEmailWithCcBccAndReplyTo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailWithCcBccAndReplyTo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest\u003A\u003AtestSendEmailWithAttachments\u0028\u0029",
+            "name": "testSendEmailWithAttachments",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailWithAttachments"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest\u003A\u003AtestSendBulkEmail\u0028\u0029",
+            "name": "testSendBulkEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendBulkEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest\u003A\u003AtestSendBulkEmailWithDefaultFrom\u0028\u0029",
+            "name": "testSendBulkEmailWithDefaultFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendBulkEmailWithDefaultFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest\u003A\u003A\u0024emailService",
+            "name": "emailService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest\u003A\u003A\u0024mailer",
+            "name": "mailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest\u003A\u003A\u0024defaultFromEmail",
+            "name": "defaultFromEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#property_defaultFromEmail"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageManagerTest",
             "name": "MessageManagerTest",
@@ -10716,15 +10876,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-identity-service.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model",
-            "name": "Model",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command",
+            "name": "Command",
             "summary": "",
-            "url": "namespaces/phplist-core-domain-messaging-model.html"
+            "url": "namespaces/phplist-core-domain-messaging-command.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging",
             "name": "Messaging",
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model",
+            "name": "Model",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-model.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto",
             "name": "Dto",
@@ -11016,15 +11181,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-identity-service.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model",
-            "name": "Model",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command",
+            "name": "Command",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-messaging-model.html"
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-command.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging",
             "name": "Messaging",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model",
+            "name": "Model",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-model.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository",
             "name": "Repository",
