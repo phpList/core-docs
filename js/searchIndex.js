@@ -8101,11 +8101,6 @@ Search.appendIndex(
             "summary": "Testcase.",
             "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003AgetKernelClass\u0028\u0029",
-            "name": "getKernelClass",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#method_getKernelClass"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
