@@ -126,7 +126,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -177,6 +177,12 @@
                         &nbsp;: <abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#property_messageBus">$messageBus</a>
+    <span>
+                        &nbsp;: <abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
     </dl>
 
 <h4 id="toc-methods">
@@ -192,7 +198,43 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendBulkEmailSync">testSendBulkEmailSync()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendBulkEmailSyncWithDefaultFrom">testSendBulkEmailSyncWithDefaultFrom()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendBulkEmailWithDefaultFrom">testSendBulkEmailWithDefaultFrom()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithAttachments">testSendEmailSyncWithAttachments()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithCcBccAndReplyTo">testSendEmailSyncWithCcBccAndReplyTo()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithCustomFrom">testSendEmailSyncWithCustomFrom()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithDefaultFrom">testSendEmailSyncWithDefaultFrom()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -257,7 +299,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -293,7 +335,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -329,7 +371,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -339,6 +381,42 @@
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$mailer</span>
+    </code>
+
+    
+    
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_messageBus">
+        $messageBus
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#property_messageBus" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$messageBus</span>
     </code>
 
     
@@ -370,7 +448,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">113</span>
+    <span class="phpdocumentor-element-found-in__line">206</span>
 
     </aside>
 
@@ -378,6 +456,74 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testSendBulkEmail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testSendBulkEmailSync">
+        testSendBulkEmailSync()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendBulkEmailSync" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">241</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testSendBulkEmailSync</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testSendBulkEmailSyncWithDefaultFrom">
+        testSendBulkEmailSyncWithDefaultFrom()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendBulkEmailSyncWithDefaultFrom" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">288</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testSendBulkEmailSyncWithDefaultFrom</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -404,7 +550,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">140</span>
+    <span class="phpdocumentor-element-found-in__line">268</span>
 
     </aside>
 
@@ -412,6 +558,142 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testSendBulkEmailWithDefaultFrom</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testSendEmailSyncWithAttachments">
+        testSendEmailSyncWithAttachments()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithAttachments" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">191</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testSendEmailSyncWithAttachments</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testSendEmailSyncWithCcBccAndReplyTo">
+        testSendEmailSyncWithCcBccAndReplyTo()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithCcBccAndReplyTo" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">138</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testSendEmailSyncWithCcBccAndReplyTo</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testSendEmailSyncWithCustomFrom">
+        testSendEmailSyncWithCustomFrom()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithCustomFrom" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">93</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testSendEmailSyncWithCustomFrom</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testSendEmailSyncWithDefaultFrom">
+        testSendEmailSyncWithDefaultFrom()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithDefaultFrom" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">51</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testSendEmailSyncWithDefaultFrom</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -438,7 +720,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">98</span>
+    <span class="phpdocumentor-element-found-in__line">171</span>
 
     </aside>
 
@@ -472,7 +754,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">114</span>
 
     </aside>
 
@@ -506,7 +788,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
@@ -540,7 +822,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -574,7 +856,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php"><a href="files/tests-unit-domain-messaging-service-emailservicetest.html"><abbr title="tests/Unit/Domain/Messaging/Service/EmailServiceTest.php">EmailServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -710,6 +992,7 @@
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#property_defaultFromEmail">$defaultFromEmail</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#property_emailService">$emailService</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#property_mailer">$mailer</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#property_messageBus">$messageBus</a></li>
                                             </ul>
                 </li>
             
@@ -717,7 +1000,13 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendBulkEmail">testSendBulkEmail()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendBulkEmailSync">testSendBulkEmailSync()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendBulkEmailSyncWithDefaultFrom">testSendBulkEmailSyncWithDefaultFrom()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendBulkEmailWithDefaultFrom">testSendBulkEmailWithDefaultFrom()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithAttachments">testSendEmailSyncWithAttachments()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithCcBccAndReplyTo">testSendEmailSyncWithCcBccAndReplyTo()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithCustomFrom">testSendEmailSyncWithCustomFrom()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailSyncWithDefaultFrom">testSendEmailSyncWithDefaultFrom()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailWithAttachments">testSendEmailWithAttachments()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailWithCcBccAndReplyTo">testSendEmailWithCcBccAndReplyTo()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#method_testSendEmailWithCustomFrom">testSendEmailWithCustomFrom()</a></li>

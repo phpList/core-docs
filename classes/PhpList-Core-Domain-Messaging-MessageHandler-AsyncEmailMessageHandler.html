@@ -95,16 +95,13 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-command.html">Command</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-messagehandler.html">MessageHandler</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    SendTestEmailCommand
+    AsyncEmailMessageHandler
 
-        <span class="phpdocumentor-element__extends">
-        extends <abbr title="\Symfony\Component\Console\Command\Command">Command</abbr>
-    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -122,24 +119,36 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/SendTestEmailCommand.php"><a href="files/src-domain-messaging-command-sendtestemailcommand.html"><abbr title="src/Domain/Messaging/Command/SendTestEmailCommand.php">SendTestEmailCommand.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/AsyncEmailMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-asyncemailmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/AsyncEmailMessageHandler.php">AsyncEmailMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
-        
+            <p class="phpdocumentor-summary">Handler for processing asynchronous email messages</p>
 
 
 
 
 
+
+    <section class="phpdocumentor-attributes">
+        <h5 class="phpdocumentor-elements__header" id="attributes">
+            Attributes <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h5>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Symfony\Component\Messenger\Attribute\AsMessageHandler">AsMessageHandler</abbr>]
+    </dt>
+    </dl>
+            </section>
 
 
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -153,24 +162,12 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_defaultDescription">$defaultDescription</a>
-    <span>
-                        &nbsp;: mixed            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_defaultName">$defaultName</a>
-    <span>
-                        &nbsp;: mixed            </span>
-</dt>
-
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_emailService">$emailService</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#property_emailService">$emailService</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-EmailService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\EmailService">EmailService</abbr></a>            </span>
 </dt>
@@ -179,27 +176,22 @@
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method_configure">configure()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#method___invoke">__invoke()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method_execute">execute()</a>
-    <span>
-                                &nbsp;: int    </span>
-</dt>
+<dd>Process an asynchronous email message by sending the email</dd>
 
     </dl>
 
@@ -211,81 +203,9 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -protected
-            -static                                            "
->
-    <h4 class="phpdocumentor-element__name" id="property_defaultDescription">
-        $defaultDescription
-        <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_defaultDescription" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/SendTestEmailCommand.php"><a href="files/src-domain-messaging-command-sendtestemailcommand.html"><abbr title="src/Domain/Messaging/Command/SendTestEmailCommand.php">SendTestEmailCommand.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">19</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">$defaultDescription</span>
-     = <span class="phpdocumentor-signature__default-value">&#039;Send a test email to verify email configuration&#039;</span></code>
-
-    
-    
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -protected
-            -static                                            "
->
-    <h4 class="phpdocumentor-element__name" id="property_defaultName">
-        $defaultName
-        <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_defaultName" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/SendTestEmailCommand.php"><a href="files/src-domain-messaging-command-sendtestemailcommand.html"><abbr title="src/Domain/Messaging/Command/SendTestEmailCommand.php">SendTestEmailCommand.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">18</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">$defaultName</span>
-     = <span class="phpdocumentor-signature__default-value">&#039;phplist:test-email&#039;</span></code>
-
-    
-    
-    
-
-    
-
-</article>
                     <article
         class="
             phpdocumentor-element
@@ -295,15 +215,15 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_emailService">
         $emailService
-        <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_emailService" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#property_emailService" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/SendTestEmailCommand.php"><a href="files/src-domain-messaging-command-sendtestemailcommand.html"><abbr title="src/Domain/Messaging/Command/SendTestEmailCommand.php">SendTestEmailCommand.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/AsyncEmailMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-asyncemailmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/AsyncEmailMessageHandler.php">AsyncEmailMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -327,7 +247,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -338,13 +258,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/SendTestEmailCommand.php"><a href="files/src-domain-messaging-command-sendtestemailcommand.html"><abbr title="src/Domain/Messaging/Command/SendTestEmailCommand.php">SendTestEmailCommand.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/AsyncEmailMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-asyncemailmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/AsyncEmailMessageHandler.php">AsyncEmailMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -377,59 +297,26 @@
                     <article
         class="phpdocumentor-element
             -method
-            -protected
+            -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_configure">
-        configure()
-        <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method_configure" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___invoke">
+        __invoke()
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#method___invoke" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/SendTestEmailCommand.php"><a href="files/src-domain-messaging-command-sendtestemailcommand.html"><abbr title="src/Domain/Messaging/Command/SendTestEmailCommand.php">SendTestEmailCommand.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/AsyncEmailMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-asyncemailmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/AsyncEmailMessageHandler.php">AsyncEmailMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Process an asynchronous email message by sending the email</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">configure</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_execute">
-        execute()
-        <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method_execute" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/SendTestEmailCommand.php"><a href="files/src-domain-messaging-command-sendtestemailcommand.html"><abbr title="src/Domain/Messaging/Command/SendTestEmailCommand.php">SendTestEmailCommand.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">37</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">execute</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Input\InputInterface">InputInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$input</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__invoke</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Message-AsyncEmailMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\AsyncEmailMessage">AsyncEmailMessage</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$message</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -438,15 +325,8 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$input</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Input\InputInterface">InputInterface</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$output</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr></span>
+                <span class="phpdocumentor-signature__argument__name">$message</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Message-AsyncEmailMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\AsyncEmailMessage">AsyncEmailMessage</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -457,11 +337,7 @@
 
     
 
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">int</span>
-            </section>
-
+    
 </article>
             </section>
 
@@ -469,7 +345,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Command/SendTestEmailCommand.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/MessageHandler/AsyncEmailMessageHandler.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -568,26 +444,23 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_defaultDescription">$defaultDescription</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_defaultName">$defaultName</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_emailService">$emailService</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#property_emailService">$emailService</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method_configure">configure()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method_execute">execute()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#method___invoke">__invoke()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -607,7 +480,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
