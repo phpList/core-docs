@@ -1496,20 +1496,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Validator-ValidatorInterface.html#method_validate"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Exception\\ConfigNotEditableException",
+            "name": "ConfigNotEditableException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Exception-ConfigNotEditableException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Exception\\ConfigNotEditableException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Exception-ConfigNotEditableException.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Config",
             "name": "Config",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-Config.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Config\u003A\u003AgetItem\u0028\u0029",
-            "name": "getItem",
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Config\u003A\u003AgetKey\u0028\u0029",
+            "name": "getKey",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-Config.html#method_getItem"
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Config.html#method_getKey"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Config\u003A\u003AsetItem\u0028\u0029",
-            "name": "setItem",
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Config\u003A\u003AsetKey\u0028\u0029",
+            "name": "setKey",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-Config.html#method_setItem"
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Config.html#method_setKey"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Config\u003A\u003AgetValue\u0028\u0029",
             "name": "getValue",
@@ -1541,10 +1551,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-Config.html#method_setType"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Config\u003A\u003A\u0024item",
-            "name": "item",
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Config\u003A\u003A\u0024key",
+            "name": "key",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-Config.html#property_item"
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Config.html#property_key"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Config\u003A\u003A\u0024value",
             "name": "value",
@@ -1790,6 +1800,16 @@ Search.appendIndex(
             "name": "update",
             "summary": "Update\u0020a\u0020configuration\u0020item",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_update"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_create"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_delete"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003A\u0024configRepository",
             "name": "configRepository",
@@ -8886,6 +8906,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testUpdateSavesConfigToRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\ConfigManagerTest\u003A\u003AtestCreateSavesNewConfigToRepository\u0028\u0029",
+            "name": "testCreateSavesNewConfigToRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testCreateSavesNewConfigToRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\ConfigManagerTest\u003A\u003AtestGetByItemReturnsNullWhenItemDoesNotExist\u0028\u0029",
+            "name": "testGetByItemReturnsNullWhenItemDoesNotExist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testGetByItemReturnsNullWhenItemDoesNotExist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\ConfigManagerTest\u003A\u003AtestUpdateThrowsExceptionWhenConfigIsNotEditable\u0028\u0029",
+            "name": "testUpdateThrowsExceptionWhenConfigIsNotEditable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testUpdateThrowsExceptionWhenConfigIsNotEditable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\ConfigManagerTest\u003A\u003AtestDeleteRemovesConfigFromRepository\u0028\u0029",
+            "name": "testDeleteRemovesConfigFromRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testDeleteRemovesConfigFromRepository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest",
             "name": "AdminAttributeDefinitionTest",
             "summary": "Testcase\u0020for\u0020the\u0020AdminAttributeDefinition\u0020model.",
@@ -11036,15 +11076,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-common-validator.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model",
-            "name": "Model",
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Exception",
+            "name": "Exception",
             "summary": "",
-            "url": "namespaces/phplist-core-domain-configuration-model.html"
+            "url": "namespaces/phplist-core-domain-configuration-exception.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration",
             "name": "Configuration",
             "summary": "",
             "url": "namespaces/phplist-core-domain-configuration.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model",
+            "name": "Model",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-configuration-model.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository",
             "name": "Repository",
