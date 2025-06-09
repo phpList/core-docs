@@ -1766,6 +1766,36 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Configuration-Repository-UrlCacheRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager",
+            "name": "ConfigManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003AgetByItem\u0028\u0029",
+            "name": "getByItem",
+            "summary": "Get\u0020a\u0020configuration\u0020item\u0020by\u0020its\u0020key",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getByItem"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "Get\u0020all\u0020configuration\u0020items",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getAll"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "Update\u0020a\u0020configuration\u0020item",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_update"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003A\u0024configRepository",
+            "name": "configRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#property_configRepository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException",
             "name": "AdminAttributeCreationException",
             "summary": "",
@@ -8836,6 +8866,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Repository-DummyRepository.html#property_queryBuilder"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\ConfigManagerTest",
+            "name": "ConfigManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\ConfigManagerTest\u003A\u003AtestGetByItemReturnsConfigFromRepository\u0028\u0029",
+            "name": "testGetByItemReturnsConfigFromRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testGetByItemReturnsConfigFromRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\ConfigManagerTest\u003A\u003AtestGetAllReturnsAllConfigsFromRepository\u0028\u0029",
+            "name": "testGetAllReturnsAllConfigsFromRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testGetAllReturnsAllConfigsFromRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\ConfigManagerTest\u003A\u003AtestUpdateSavesConfigToRepository\u0028\u0029",
+            "name": "testUpdateSavesConfigToRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testUpdateSavesConfigToRepository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest",
             "name": "AdminAttributeDefinitionTest",
             "summary": "Testcase\u0020for\u0020the\u0020AdminAttributeDefinition\u0020model.",
@@ -11001,6 +11051,16 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-configuration-repository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager",
+            "name": "Manager",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-configuration-service-manager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-configuration-service.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception",
             "name": "Exception",
             "summary": "",
@@ -11325,6 +11385,21 @@ Search.appendIndex(
             "name": "Common",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-common.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager",
+            "name": "Manager",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-configuration-service-manager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-configuration-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration",
+            "name": "Configuration",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-configuration.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model",
             "name": "Model",
