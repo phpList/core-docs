@@ -2091,6 +2091,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setPrivileges"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AsetPrivilegesFromArray\u0028\u0029",
+            "name": "setPrivilegesFromArray",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setPrivilegesFromArray"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetPrivileges\u0028\u0029",
             "name": "getPrivileges",
             "summary": "",
@@ -2486,6 +2491,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-CreateAdministratorDto.html#property_isSuperUser"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\CreateAdministratorDto\u003A\u003A\u0024privileges",
+            "name": "privileges",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-CreateAdministratorDto.html#property_privileges"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\UpdateAdministratorDto",
             "name": "UpdateAdministratorDto",
             "summary": "",
@@ -2521,6 +2531,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-UpdateAdministratorDto.html#property_superAdmin"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\UpdateAdministratorDto\u003A\u003A\u0024privileges",
+            "name": "privileges",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-UpdateAdministratorDto.html#property_privileges"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Filter\\AdminAttributeValueFilter",
             "name": "AdminAttributeValueFilter",
             "summary": "",
@@ -2540,6 +2555,76 @@ Search.appendIndex(
             "name": "adminId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Filter-AdminAttributeValueFilter.html#property_adminId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\PrivilegeFlag",
+            "name": "PrivilegeFlag",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-PrivilegeFlag.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\PrivilegeFlag\u003A\u003ASubscribers",
+            "name": "Subscribers",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-PrivilegeFlag.html#enumcase_Subscribers"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\PrivilegeFlag\u003A\u003ACampaigns",
+            "name": "Campaigns",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-PrivilegeFlag.html#enumcase_Campaigns"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\PrivilegeFlag\u003A\u003AStatistics",
+            "name": "Statistics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-PrivilegeFlag.html#enumcase_Statistics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\PrivilegeFlag\u003A\u003ASettings",
+            "name": "Settings",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-PrivilegeFlag.html#enumcase_Settings"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Privileges",
+            "name": "Privileges",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Privileges.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Privileges\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Privileges.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Privileges\u003A\u003AfromSerialized\u0028\u0029",
+            "name": "fromSerialized",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Privileges.html#method_fromSerialized"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Privileges\u003A\u003AtoSerialized\u0028\u0029",
+            "name": "toSerialized",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Privileges.html#method_toSerialized"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Privileges\u003A\u003Ahas\u0028\u0029",
+            "name": "has",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Privileges.html#method_has"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Privileges\u003A\u003Agrant\u0028\u0029",
+            "name": "grant",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Privileges.html#method_grant"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Privileges\u003A\u003Arevoke\u0028\u0029",
+            "name": "revoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Privileges.html#method_revoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Privileges\u003A\u003Aall\u0028\u0029",
+            "name": "all",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Privileges.html#method_all"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Privileges\u003A\u003A\u0024flags",
+            "name": "flags",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Privileges.html#property_flags"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklist",
             "name": "UserBlacklist",
@@ -9266,6 +9351,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTest.html#method_testSetSuperUserSetsSuperUser"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest\u003A\u003AtestGetPrivilegesInitiallyReturnsEmptyPrivileges\u0028\u0029",
+            "name": "testGetPrivilegesInitiallyReturnsEmptyPrivileges",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTest.html#method_testGetPrivilegesInitiallyReturnsEmptyPrivileges"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest\u003A\u003AtestSetPrivilegesSetsPrivileges\u0028\u0029",
+            "name": "testSetPrivilegesSetsPrivileges",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTest.html#method_testSetPrivilegesSetsPrivileges"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest\u003A\u003AtestSetPrivilegesWithMultiplePrivileges\u0028\u0029",
+            "name": "testSetPrivilegesWithMultiplePrivileges",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTest.html#method_testSetPrivilegesWithMultiplePrivileges"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest\u003A\u003A\u0024subject",
             "name": "subject",
             "summary": "",
@@ -9345,6 +9445,101 @@ Search.appendIndex(
             "name": "subject",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTokenTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegeFlagTest",
+            "name": "PrivilegeFlagTest",
+            "summary": "Testcase\u0020for\u0020the\u0020PrivilegeFlag\u0020enum.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegeFlagTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegeFlagTest\u003A\u003AtestEnumHasSubscribersCase\u0028\u0029",
+            "name": "testEnumHasSubscribersCase",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegeFlagTest.html#method_testEnumHasSubscribersCase"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegeFlagTest\u003A\u003AtestEnumHasCampaignsCase\u0028\u0029",
+            "name": "testEnumHasCampaignsCase",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegeFlagTest.html#method_testEnumHasCampaignsCase"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegeFlagTest\u003A\u003AtestEnumHasStatisticsCase\u0028\u0029",
+            "name": "testEnumHasStatisticsCase",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegeFlagTest.html#method_testEnumHasStatisticsCase"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegeFlagTest\u003A\u003AtestEnumHasSettingsCase\u0028\u0029",
+            "name": "testEnumHasSettingsCase",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegeFlagTest.html#method_testEnumHasSettingsCase"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegeFlagTest\u003A\u003AtestEnumHasFourCases\u0028\u0029",
+            "name": "testEnumHasFourCases",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegeFlagTest.html#method_testEnumHasFourCases"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest",
+            "name": "PrivilegesTest",
+            "summary": "Testcase\u0020for\u0020the\u0020Privileges\u0020class.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003AtestFromSerializedWithInvalidDataThrowsError\u0028\u0029",
+            "name": "testFromSerializedWithInvalidDataThrowsError",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#method_testFromSerializedWithInvalidDataThrowsError"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003AtestFromSerializedWithValidDataReturnsPopulatedPrivileges\u0028\u0029",
+            "name": "testFromSerializedWithValidDataReturnsPopulatedPrivileges",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#method_testFromSerializedWithValidDataReturnsPopulatedPrivileges"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003AtestToSerializedReturnsSerializedData\u0028\u0029",
+            "name": "testToSerializedReturnsSerializedData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#method_testToSerializedReturnsSerializedData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003AtestHasReturnsFalseForUnsetPrivilege\u0028\u0029",
+            "name": "testHasReturnsFalseForUnsetPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#method_testHasReturnsFalseForUnsetPrivilege"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003AtestHasReturnsTrueForSetPrivilege\u0028\u0029",
+            "name": "testHasReturnsTrueForSetPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#method_testHasReturnsTrueForSetPrivilege"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003AtestGrantSetsPrivilege\u0028\u0029",
+            "name": "testGrantSetsPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#method_testGrantSetsPrivilege"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003AtestGrantReturnsNewInstance\u0028\u0029",
+            "name": "testGrantReturnsNewInstance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#method_testGrantReturnsNewInstance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003AtestRevokeClearsPrivilege\u0028\u0029",
+            "name": "testRevokeClearsPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#method_testRevokeClearsPrivilege"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003AtestRevokeReturnsNewInstance\u0028\u0029",
+            "name": "testRevokeReturnsNewInstance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#method_testRevokeReturnsNewInstance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003AtestAllReturnsAllPrivileges\u0028\u0029",
+            "name": "testAllReturnsAllPrivileges",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#method_testAllReturnsAllPrivileges"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\PrivilegesTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-PrivilegesTest.html#property_subject"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Repository\\AdminAttributeValueRepositoryTest",
             "name": "AdminAttributeValueRepositoryTest",
