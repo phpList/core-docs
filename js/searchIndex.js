@@ -2946,16 +2946,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#method_execute"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand\u003A\u003A\u0024defaultName",
-            "name": "defaultName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_defaultName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand\u003A\u003A\u0024defaultDescription",
-            "name": "defaultDescription",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_defaultDescription"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand\u003A\u003A\u0024emailService",
             "name": "emailService",
             "summary": "",
