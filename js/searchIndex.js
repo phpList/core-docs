@@ -2831,6 +2831,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html#property_definitionRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeDefinitionManager\u003A\u003A\u0024attributeTypeValidator",
+            "name": "attributeTypeValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html#property_attributeTypeValidator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeManager",
             "name": "AdminAttributeManager",
             "summary": "",
@@ -6911,6 +6916,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#property_definitionRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager\u003A\u003A\u0024attributeTypeValidator",
+            "name": "attributeTypeValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#property_attributeTypeValidator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager",
             "name": "SubscriberAttributeManager",
             "summary": "",
@@ -7200,6 +7210,21 @@ Search.appendIndex(
             "name": "attrDefinitionRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_attrDefinitionRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator",
+            "name": "AttributeTypeValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method_validate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003AVALID_TYPES",
+            "name": "VALID_TYPES",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#constant_VALID_TYPES"
         },                {
             "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\Controller\\DefaultController",
             "name": "DefaultController",
@@ -11016,6 +11041,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionManagerTest.html#property_manager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator\\AttributeTypeValidatorTest",
+            "name": "AttributeTypeValidatorTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Validator-AttributeTypeValidatorTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator\\AttributeTypeValidatorTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Validator-AttributeTypeValidatorTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator\\AttributeTypeValidatorTest\u003A\u003AtestValidatesValidType\u0028\u0029",
+            "name": "testValidatesValidType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Validator-AttributeTypeValidatorTest.html#method_testValidatesValidType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator\\AttributeTypeValidatorTest\u003A\u003AtestThrowsExceptionForInvalidType\u0028\u0029",
+            "name": "testThrowsExceptionForInvalidType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Validator-AttributeTypeValidatorTest.html#method_testThrowsExceptionForInvalidType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator\\AttributeTypeValidatorTest\u003A\u003AtestThrowsExceptionForNonStringValue\u0028\u0029",
+            "name": "testThrowsExceptionForNonStringValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Validator-AttributeTypeValidatorTest.html#method_testThrowsExceptionForNonStringValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator\\AttributeTypeValidatorTest\u003A\u003A\u0024validator",
+            "name": "validator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Validator-AttributeTypeValidatorTest.html#property_validator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\EmptyStartPageBundle\\Controller\\DefaultControllerTest",
             "name": "DefaultControllerTest",
             "summary": "Testcase.",
@@ -11431,6 +11486,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-subscription-service-manager.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator",
+            "name": "Validator",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-subscription-validator.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\Controller",
             "name": "Controller",
             "summary": "",
@@ -11715,6 +11775,11 @@ Search.appendIndex(
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-subscription-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator",
+            "name": "Validator",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-subscription-validator.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\EmptyStartPageBundle\\Controller",
             "name": "Controller",
