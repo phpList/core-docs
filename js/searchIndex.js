@@ -4981,10 +4981,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_getUser"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AgetMessage\u0028\u0029",
-            "name": "getMessage",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AgetMessageId\u0028\u0029",
+            "name": "getMessageId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_getMessage"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_getMessageId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AgetBounce\u0028\u0029",
             "name": "getBounce",
@@ -5001,10 +5001,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_setUser"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AsetMessage\u0028\u0029",
-            "name": "setMessage",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AsetMessageId\u0028\u0029",
+            "name": "setMessageId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_setMessage"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_setMessageId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AsetBounce\u0028\u0029",
             "name": "setBounce",
@@ -5021,10 +5021,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#property_user"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003A\u0024message",
-            "name": "message",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003A\u0024messageId",
+            "name": "messageId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#property_message"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#property_messageId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003A\u0024bounce",
             "name": "bounce",
