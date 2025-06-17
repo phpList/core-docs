@@ -5056,10 +5056,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_getUser"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AgetMessage\u0028\u0029",
-            "name": "getMessage",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AgetMessageId\u0028\u0029",
+            "name": "getMessageId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_getMessage"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_getMessageId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AgetForward\u0028\u0029",
             "name": "getForward",
@@ -5081,10 +5081,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_setUser"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AsetMessage\u0028\u0029",
-            "name": "setMessage",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AsetMessageId\u0028\u0029",
+            "name": "setMessageId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_setMessage"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_setMessageId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AsetForward\u0028\u0029",
             "name": "setForward",
@@ -5106,10 +5106,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#property_user"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003A\u0024message",
-            "name": "message",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003A\u0024messageId",
+            "name": "messageId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#property_message"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#property_messageId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003A\u0024forward",
             "name": "forward",
