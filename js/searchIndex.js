@@ -3016,6 +3016,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-AsyncEmailMessage.html#property_attachments"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage",
+            "name": "SubscriberConfirmationMessage",
+            "summary": "Message\u0020class\u0020for\u0020asynchronous\u0020subscriber\u0020confirmation\u0020email\u0020processing",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage\u003A\u003AgetEmail\u0028\u0029",
+            "name": "getEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_getEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage\u003A\u003AgetUniqueId\u0028\u0029",
+            "name": "getUniqueId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_getUniqueId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage\u003A\u003AhasHtmlEmail\u0028\u0029",
+            "name": "hasHtmlEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_hasHtmlEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage\u003A\u003A\u0024email",
+            "name": "email",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_email"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage\u003A\u003A\u0024uniqueId",
+            "name": "uniqueId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_uniqueId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage\u003A\u003A\u0024htmlEmail",
+            "name": "htmlEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_htmlEmail"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\AsyncEmailMessageHandler",
             "name": "AsyncEmailMessageHandler",
             "summary": "Handler\u0020for\u0020processing\u0020asynchronous\u0020email\u0020messages",
@@ -3035,6 +3075,36 @@ Search.appendIndex(
             "name": "emailService",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler",
+            "name": "SubscriberConfirmationMessageHandler",
+            "summary": "Handler\u0020for\u0020processing\u0020asynchronous\u0020subscriber\u0020confirmation\u0020email\u0020messages",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "Process\u0020a\u0020subscriber\u0020confirmation\u0020message\u0020by\u0020sending\u0020the\u0020confirmation\u0020email",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003AgenerateConfirmationLink\u0028\u0029",
+            "name": "generateConfirmationLink",
+            "summary": "Generate\u0020a\u0020confirmation\u0020link\u0020for\u0020the\u0020subscriber",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method_generateConfirmationLink"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A\u0024emailService",
+            "name": "emailService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A\u0024confirmationUrl",
+            "name": "confirmationUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_confirmationUrl"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Attachment",
             "name": "Attachment",
@@ -5308,22 +5378,22 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService\u003A\u003AsendEmail\u0028\u0029",
             "name": "sendEmail",
-            "summary": "Send\u0020a\u0020simple\u0020email\u0020asynchronously",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#method_sendEmail"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService\u003A\u003AsendEmailSync\u0028\u0029",
             "name": "sendEmailSync",
-            "summary": "Send\u0020a\u0020simple\u0020email\u0020synchronously",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#method_sendEmailSync"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService\u003A\u003AsendBulkEmail\u0028\u0029",
             "name": "sendBulkEmail",
-            "summary": "Email\u0020multiple\u0020recipients\u0020asynchronously",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#method_sendBulkEmail"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService\u003A\u003AsendBulkEmailSync\u0028\u0029",
             "name": "sendBulkEmailSync",
-            "summary": "Email\u0020multiple\u0020recipients\u0020synchronously",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#method_sendBulkEmailSync"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService\u003A\u003A\u0024mailer",
@@ -7001,6 +7071,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_createSubscriber"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AsendConfirmationEmail\u0028\u0029",
+            "name": "sendConfirmationEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_sendConfirmationEmail"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AgetSubscriber\u0028\u0029",
             "name": "getSubscriber",
             "summary": "",
@@ -7035,6 +7110,11 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024messageBus",
+            "name": "messageBus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_messageBus"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager",
             "name": "SubscriptionManager",
@@ -9841,6 +9921,61 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html#property_commandTester"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Message\\SubscriberConfirmationMessageTest",
+            "name": "SubscriberConfirmationMessageTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Message-SubscriberConfirmationMessageTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Message\\SubscriberConfirmationMessageTest\u003A\u003AtestGettersReturnCorrectValues\u0028\u0029",
+            "name": "testGettersReturnCorrectValues",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Message-SubscriberConfirmationMessageTest.html#method_testGettersReturnCorrectValues"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Message\\SubscriberConfirmationMessageTest\u003A\u003AtestDefaultHtmlEmailIsFalse\u0028\u0029",
+            "name": "testDefaultHtmlEmailIsFalse",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Message-SubscriberConfirmationMessageTest.html#method_testDefaultHtmlEmailIsFalse"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest",
+            "name": "SubscriberConfirmationMessageHandlerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003AtestInvokeWithTextEmail\u0028\u0029",
+            "name": "testInvokeWithTextEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#method_testInvokeWithTextEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003AtestInvokeWithHtmlEmail\u0028\u0029",
+            "name": "testInvokeWithHtmlEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#method_testInvokeWithHtmlEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003AgetEmailAddresses\u0028\u0029",
+            "name": "getEmailAddresses",
+            "summary": "Helper\u0020method\u0020to\u0020extract\u0020email\u0020addresses\u0020from\u0020Address\u0020objects",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#method_getEmailAddresses"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003A\u0024handler",
+            "name": "handler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#property_handler"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003A\u0024emailService",
+            "name": "emailService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003A\u0024confirmationUrl",
+            "name": "confirmationUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#property_confirmationUrl"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\MessageTest",
             "name": "MessageTest",
             "summary": "",
@@ -10986,10 +11121,40 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_setUp"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberPersistsAndReturnsProperlyInitializedEntity\u0028\u0029",
             "name": "testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberWithConfirmationSendsConfirmationEmail\u0028\u0029",
+            "name": "testCreateSubscriberWithConfirmationSendsConfirmationEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberWithConfirmationSendsConfirmationEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail\u0028\u0029",
+            "name": "testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024messageBus",
+            "name": "messageBus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_messageBus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024subscriberManager",
+            "name": "subscriberManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest",
             "name": "SubscriptionManagerTest",
@@ -11725,6 +11890,16 @@ Search.appendIndex(
             "name": "Messaging",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Message",
+            "name": "Message",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-message.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler",
+            "name": "MessageHandler",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-messagehandler.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model",
             "name": "Model",

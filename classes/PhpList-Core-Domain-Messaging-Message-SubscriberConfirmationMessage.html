@@ -93,20 +93,15 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription.html">Subscription</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service.html">Service</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-message.html">Message</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    SubscriberManagerTest
+    SubscriberConfirmationMessage
 
-        <span class="phpdocumentor-element__extends">
-        extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
-    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -124,13 +119,14 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php"><a href="files/tests-unit-domain-subscription-service-subscribermanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php">SubscriberManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php"><a href="files/src-domain-messaging-message-subscriberconfirmationmessage.html"><abbr title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php">SubscriberConfirmationMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
-        
+            <p class="phpdocumentor-summary">Message class for asynchronous subscriber confirmation email processing</p>
+
 
 
 
@@ -141,7 +137,7 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -155,58 +151,58 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_messageBus">$messageBus</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_email">$email</a>
     <span>
-                        &nbsp;: <abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+                        &nbsp;: string            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberManager">$subscriberManager</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_htmlEmail">$htmlEmail</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberManager">SubscriberManager</abbr></a>            </span>
+                        &nbsp;: bool            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberRepository">$subscriberRepository</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_uniqueId">$uniqueId</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+                        &nbsp;: string            </span>
 </dt>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity">testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method___construct">__construct()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberWithConfirmationSendsConfirmationEmail">testCreateSubscriberWithConfirmationSendsConfirmationEmail()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_getEmail">getEmail()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: string    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail">testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_getUniqueId">getUniqueId()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: string    </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_setUp">setUp()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_hasHtmlEmail">hasHtmlEmail()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: bool    </span>
 </dt>
 
     </dl>
@@ -219,7 +215,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -229,17 +225,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_messageBus">
-        $messageBus
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_messageBus" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_email">
+        $email
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_email" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php"><a href="files/tests-unit-domain-subscription-service-subscribermanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php">SubscriberManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php"><a href="files/src-domain-messaging-message-subscriberconfirmationmessage.html"><abbr title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php">SubscriberConfirmationMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
@@ -247,8 +243,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$messageBus</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$email</span>
     </code>
 
     
@@ -267,17 +263,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_subscriberManager">
-        $subscriberManager
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberManager" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_htmlEmail">
+        $htmlEmail
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_htmlEmail" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php"><a href="files/tests-unit-domain-subscription-service-subscribermanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php">SubscriberManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php"><a href="files/src-domain-messaging-message-subscriberconfirmationmessage.html"><abbr title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php">SubscriberConfirmationMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -285,8 +281,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberManager">SubscriberManager</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$subscriberManager</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$htmlEmail</span>
     </code>
 
     
@@ -305,17 +301,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_subscriberRepository">
-        $subscriberRepository
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberRepository" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_uniqueId">
+        $uniqueId
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_uniqueId" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php"><a href="files/tests-unit-domain-subscription-service-subscribermanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php">SubscriberManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php"><a href="files/src-domain-messaging-message-subscriberconfirmationmessage.html"><abbr title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php">SubscriberConfirmationMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
 
     </aside>
 
@@ -323,8 +319,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$subscriberRepository</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$uniqueId</span>
     </code>
 
     
@@ -341,7 +337,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -350,29 +346,69 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity">
-        testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php"><a href="files/tests-unit-domain-subscription-service-subscribermanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php">SubscriberManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php"><a href="files/src-domain-messaging-message-subscriberconfirmationmessage.html"><abbr title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php">SubscriberConfirmationMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uniqueId</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlEmail</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$email</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$uniqueId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$htmlEmail</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
     
-    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method___construct#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">SuppressWarnings</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>(&quot;BooleanArgumentFlag&quot;)</p>
+</section>
+
+                                    </dd>
+                                            </dl>
 
     
 
@@ -384,22 +420,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreateSubscriberWithConfirmationSendsConfirmationEmail">
-        testCreateSubscriberWithConfirmationSendsConfirmationEmail()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberWithConfirmationSendsConfirmationEmail" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getEmail">
+        getEmail()
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_getEmail" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php"><a href="files/tests-unit-domain-subscription-service-subscribermanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php">SubscriberManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php"><a href="files/src-domain-messaging-message-subscriberconfirmationmessage.html"><abbr title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php">SubscriberConfirmationMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreateSubscriberWithConfirmationSendsConfirmationEmail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">getEmail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -410,7 +446,11 @@
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -418,22 +458,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail">
-        testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getUniqueId">
+        getUniqueId()
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_getUniqueId" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php"><a href="files/tests-unit-domain-subscription-service-subscribermanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php">SubscriberManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php"><a href="files/src-domain-messaging-message-subscriberconfirmationmessage.html"><abbr title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php">SubscriberConfirmationMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">99</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">getUniqueId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -444,30 +484,34 @@
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
             -method
-            -protected
+            -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_setUp">
-        setUp()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_hasHtmlEmail">
+        hasHtmlEmail()
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_hasHtmlEmail" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php"><a href="files/tests-unit-domain-subscription-service-subscribermanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php">SubscriberManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php"><a href="files/src-domain-messaging-message-subscriberconfirmationmessage.html"><abbr title="src/Domain/Messaging/Message/SubscriberConfirmationMessage.php">SubscriberConfirmationMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">hasHtmlEmail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -478,7 +522,11 @@
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
             </section>
 
@@ -486,7 +534,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Subscription/Service/SubscriberManagerTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Message/SubscriberConfirmationMessage.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -585,27 +633,27 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_messageBus">$messageBus</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberManager">$subscriberManager</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberRepository">$subscriberRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_email">$email</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_htmlEmail">$htmlEmail</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_uniqueId">$uniqueId</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity">testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberWithConfirmationSendsConfirmationEmail">testCreateSubscriberWithConfirmationSendsConfirmationEmail()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail">testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_getEmail">getEmail()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_getUniqueId">getUniqueId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_hasHtmlEmail">hasHtmlEmail()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -625,7 +673,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
