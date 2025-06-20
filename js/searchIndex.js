@@ -5046,10 +5046,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_getId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AgetUser\u0028\u0029",
-            "name": "getUser",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AgetUserId\u0028\u0029",
+            "name": "getUserId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_getUser"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_getUserId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AgetMessageId\u0028\u0029",
             "name": "getMessageId",
@@ -5066,10 +5066,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_getCreatedAt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AsetUser\u0028\u0029",
-            "name": "setUser",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AsetUserId\u0028\u0029",
+            "name": "setUserId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_setUser"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_setUserId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AsetMessageId\u0028\u0029",
             "name": "setMessageId",
@@ -5086,10 +5086,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#property_id"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003A\u0024user",
-            "name": "user",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003A\u0024userId",
+            "name": "userId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#property_user"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#property_userId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003A\u0024messageId",
             "name": "messageId",
@@ -5121,10 +5121,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_getId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AgetUser\u0028\u0029",
-            "name": "getUser",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AgetUserId\u0028\u0029",
+            "name": "getUserId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_getUser"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_getUserId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AgetMessageId\u0028\u0029",
             "name": "getMessageId",
@@ -5146,10 +5146,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_getCreatedAt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AsetUser\u0028\u0029",
-            "name": "setUser",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AsetUserId\u0028\u0029",
+            "name": "setUserId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_setUser"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#method_setUserId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003AsetMessageId\u0028\u0029",
             "name": "setMessageId",
@@ -5171,10 +5171,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#property_id"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003A\u0024user",
-            "name": "user",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003A\u0024userId",
+            "name": "userId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#property_user"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html#property_userId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageForward\u003A\u003A\u0024messageId",
             "name": "messageId",
@@ -7116,6 +7116,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_messageBus"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024subscriberDeletionService",
+            "name": "subscriberDeletionService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberDeletionService"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager",
             "name": "SubscriptionManager",
             "summary": "",
@@ -7290,6 +7295,71 @@ Search.appendIndex(
             "name": "attrDefinitionRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_attrDefinitionRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService",
+            "name": "SubscriberDeletionService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003AdeleteLeavingBlacklist\u0028\u0029",
+            "name": "deleteLeavingBlacklist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#method_deleteLeavingBlacklist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003AremoveEntities\u0028\u0029",
+            "name": "removeEntities",
+            "summary": "Remove\u0020a\u0020collection\u0020of\u0020entities",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#method_removeEntities"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003A\u0024linkTrackUmlClickRepo",
+            "name": "linkTrackUmlClickRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_linkTrackUmlClickRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003A\u0024userMessageRepo",
+            "name": "userMessageRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_userMessageRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003A\u0024subscriberAttrValueRepo",
+            "name": "subscriberAttrValueRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_subscriberAttrValueRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003A\u0024subscriberHistoryRepo",
+            "name": "subscriberHistoryRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_subscriberHistoryRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003A\u0024userMessageBounceRepo",
+            "name": "userMessageBounceRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_userMessageBounceRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003A\u0024userMessageForwardRepo",
+            "name": "userMessageForwardRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_userMessageForwardRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003A\u0024userMessageViewRepo",
+            "name": "userMessageViewRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_userMessageViewRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService\u003A\u003A\u0024subscriptionRepo",
+            "name": "subscriptionRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_subscriptionRepo"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator",
             "name": "AttributeTypeValidator",
@@ -8400,6 +8470,36 @@ Search.appendIndex(
             "name": "subscriberRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest",
+            "name": "SubscriberDeletionServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-SubscriberDeletionServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003AtestDeleteSubscriberWithRelatedDataDoesNotThrowDoctrineError\u0028\u0029",
+            "name": "testDeleteSubscriberWithRelatedDataDoesNotThrowDoctrineError",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#method_testDeleteSubscriberWithRelatedDataDoesNotThrowDoctrineError"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024subscriberDeletionService",
+            "name": "subscriberDeletionService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_subscriberDeletionService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\EmptyStartPageBundle\\Controller\\DefaultControllerTest",
             "name": "DefaultControllerTest",
@@ -11081,6 +11181,76 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_subject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest",
+            "name": "SubscriberDeletionServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003AtestDeleteLeavingBlacklistRemovesAllRelatedData\u0028\u0029",
+            "name": "testDeleteLeavingBlacklistRemovesAllRelatedData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#method_testDeleteLeavingBlacklistRemovesAllRelatedData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003AtestDeleteLeavingBlacklistHandlesEmptyRelatedData\u0028\u0029",
+            "name": "testDeleteLeavingBlacklistHandlesEmptyRelatedData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#method_testDeleteLeavingBlacklistHandlesEmptyRelatedData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024linkTrackUmlClickRepository",
+            "name": "linkTrackUmlClickRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_linkTrackUmlClickRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024subscriberAttributeValueRepository",
+            "name": "subscriberAttributeValueRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_subscriberAttributeValueRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024subscriberHistoryRepository",
+            "name": "subscriberHistoryRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_subscriberHistoryRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024userMessageBounceRepository",
+            "name": "userMessageBounceRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_userMessageBounceRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024userMessageForwardRepository",
+            "name": "userMessageForwardRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_userMessageForwardRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024userMessageViewRepository",
+            "name": "userMessageViewRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_userMessageViewRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024subscriptionRepository",
+            "name": "subscriptionRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_subscriptionRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest\u003A\u003A\u0024service",
+            "name": "service",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_service"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberListManagerTest",
             "name": "SubscriberListManagerTest",
             "summary": "",
@@ -11131,6 +11301,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberPersistsAndSendsEmail\u0028\u0029",
+            "name": "testCreateSubscriberPersistsAndSendsEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndSendsEmail"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberWithConfirmationSendsConfirmationEmail\u0028\u0029",
             "name": "testCreateSubscriberWithConfirmationSendsConfirmationEmail",
             "summary": "",
@@ -11146,10 +11321,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_entityManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024messageBus",
             "name": "messageBus",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_messageBus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024subscriberDeletionService",
+            "name": "subscriberDeletionService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberDeletionService"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024subscriberManager",
             "name": "subscriberManager",
