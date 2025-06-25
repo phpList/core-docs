@@ -7366,6 +7366,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_definitionRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_logger"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter",
             "name": "SubscriberCsvImporter",
             "summary": "Service\u0020for\u0020importing\u0020subscribers\u0020from\u0020a\u0020CSV\u0020file.",
@@ -11341,10 +11346,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#method_testGetSubscribersForMessageWithOneListAndSubscribersReturnsSubscribers"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest\u003A\u003AtestGetSubscribersForMessageWithMultipleListsAndOverlappingSubscribersReturnsUniqueSubscribers\u0028\u0029",
-            "name": "testGetSubscribersForMessageWithMultipleListsAndOverlappingSubscribersReturnsUniqueSubscribers",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest\u003A\u003AtestGetSubscribersForMessageWithMultipleListsReturnsUniqueSubscribers\u0028\u0029",
+            "name": "testGetSubscribersForMessageWithMultipleListsReturnsUniqueSubscribers",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#method_testGetSubscribersForMessageWithMultipleListsAndOverlappingSubscribersReturnsUniqueSubscribers"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#method_testGetSubscribersForMessageWithMultipleListsReturnsUniqueSubscribers"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest\u003A\u003A\u0024listMessageRepository",
             "name": "listMessageRepository",
