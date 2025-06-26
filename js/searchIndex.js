@@ -1231,6 +1231,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html#method_getByMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\LinkTrackRepository\u003A\u003AfindByUrlUserIdAndMessageId\u0028\u0029",
+            "name": "findByUrlUserIdAndMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html#method_findByUrlUserIdAndMessageId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\LinkTrackUmlClickRepository",
             "name": "LinkTrackUmlClickRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -1325,6 +1330,46 @@ Search.appendIndex(
             "name": "subscriberRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService",
+            "name": "LinkTrackService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003AgetUrlById\u0028\u0029",
+            "name": "getUrlById",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_getUrlById"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003AisExtractAndSaveLinksApplicable\u0028\u0029",
+            "name": "isExtractAndSaveLinksApplicable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_isExtractAndSaveLinksApplicable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003AextractAndSaveLinks\u0028\u0029",
+            "name": "extractAndSaveLinks",
+            "summary": "Extract\u0020links\u0020from\u0020message\u0020content\u0020and\u0020save\u0020them\u0020to\u0020the\u0020LinkTrackRepository",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_extractAndSaveLinks"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003AextractLinksFromHtml\u0028\u0029",
+            "name": "extractLinksFromHtml",
+            "summary": "Extract\u0020links\u0020from\u0020HTML\u0020content",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_extractLinksFromHtml"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003A\u0024linkTrackRepository",
+            "name": "linkTrackRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkTrackRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_configProvider"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager",
             "name": "LinkTrackManager",
@@ -2981,10 +3026,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_subscriberProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A\u0024messageProcessingPreparator",
-            "name": "messageProcessingPreparator",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A\u0024messagePreparator",
+            "name": "messagePreparator",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_messageProcessingPreparator"
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_messagePreparator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand",
             "name": "SendTestEmailCommand",
@@ -5541,6 +5586,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#method_ensureCampaignsHaveUuid"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003AprocessMessageLinks\u0028\u0029",
+            "name": "processMessageLinks",
+            "summary": "Process\u0020message\u0020content\u0020to\u0020extract\u0020URLs\u0020and\u0020replace\u0020them\u0020with\u0020link\u0020track\u0020URLs",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#method_processMessageLinks"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003AreplaceLinks\u0028\u0029",
+            "name": "replaceLinks",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#method_replaceLinks"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003ALINT_TRACK_ENDPOINT",
+            "name": "LINT_TRACK_ENDPOINT",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#constant_LINT_TRACK_ENDPOINT"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003A\u0024entityManager",
             "name": "entityManager",
             "summary": "",
@@ -5555,6 +5615,11 @@ Search.appendIndex(
             "name": "messageRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003A\u0024linkTrackService",
+            "name": "linkTrackService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_linkTrackService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager",
             "name": "TemplateImageManager",
@@ -9246,6 +9311,71 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_subscriberRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest",
+            "name": "LinkTrackServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestExtractAndSaveLinksWithNoLinks\u0028\u0029",
+            "name": "testExtractAndSaveLinksWithNoLinks",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testExtractAndSaveLinksWithNoLinks"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestExtractAndSaveLinksWithLinks\u0028\u0029",
+            "name": "testExtractAndSaveLinksWithLinks",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testExtractAndSaveLinksWithLinks"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestExtractAndSaveLinksWithFooter\u0028\u0029",
+            "name": "testExtractAndSaveLinksWithFooter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testExtractAndSaveLinksWithFooter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestExtractAndSaveLinksWithDuplicateLinks\u0028\u0029",
+            "name": "testExtractAndSaveLinksWithDuplicateLinks",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testExtractAndSaveLinksWithDuplicateLinks"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestExtractAndSaveLinksWithNullText\u0028\u0029",
+            "name": "testExtractAndSaveLinksWithNullText",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testExtractAndSaveLinksWithNullText"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestExtractAndSaveLinksWithMessageWithoutId\u0028\u0029",
+            "name": "testExtractAndSaveLinksWithMessageWithoutId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testExtractAndSaveLinksWithMessageWithoutId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestIsExtractAndSaveLinksApplicableWhenClickTrackIsTrue\u0028\u0029",
+            "name": "testIsExtractAndSaveLinksApplicableWhenClickTrackIsTrue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testIsExtractAndSaveLinksApplicableWhenClickTrackIsTrue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestIsExtractAndSaveLinksApplicableWhenClickTrackIsFalse\u0028\u0029",
+            "name": "testIsExtractAndSaveLinksApplicableWhenClickTrackIsFalse",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testIsExtractAndSaveLinksApplicableWhenClickTrackIsFalse"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestExtractAndSaveLinksWithExistingLink\u0028\u0029",
+            "name": "testExtractAndSaveLinksWithExistingLink",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testExtractAndSaveLinksWithExistingLink"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003A\u0024linkTrackRepository",
+            "name": "linkTrackRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_linkTrackRepository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Repository\\CursorPaginationTraitTest",
             "name": "CursorPaginationTraitTest",
             "summary": "",
@@ -10846,6 +10976,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#method_testEnsureCampaignsHaveUuidWithCampaigns"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003AtestProcessMessageLinksWhenLinkTrackingNotApplicable\u0028\u0029",
+            "name": "testProcessMessageLinksWhenLinkTrackingNotApplicable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#method_testProcessMessageLinksWhenLinkTrackingNotApplicable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003AtestProcessMessageLinksWhenNoLinksExtracted\u0028\u0029",
+            "name": "testProcessMessageLinksWhenNoLinksExtracted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#method_testProcessMessageLinksWhenNoLinksExtracted"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003AtestProcessMessageLinksWithLinksExtracted\u0028\u0029",
+            "name": "testProcessMessageLinksWithLinksExtracted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#method_testProcessMessageLinksWithLinksExtracted"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024entityManager",
             "name": "entityManager",
             "summary": "",
@@ -10860,6 +11005,11 @@ Search.appendIndex(
             "name": "messageRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024linkTrackService",
+            "name": "linkTrackService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#property_linkTrackService"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024output",
             "name": "output",
