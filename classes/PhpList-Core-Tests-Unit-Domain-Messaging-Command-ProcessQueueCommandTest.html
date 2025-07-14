@@ -126,7 +126,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
@@ -160,27 +160,21 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_campaignProcessor">$campaignProcessor</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-CampaignProcessor.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\CampaignProcessor">CampaignProcessor</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_commandTester">$commandTester</a>
     <span>
                         &nbsp;: <abbr title="\Symfony\Component\Console\Tester\CommandTester">CommandTester</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_entityManager">$entityManager</a>
-    <span>
-                        &nbsp;: <abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_lock">$lock</a>
     <span>
                         &nbsp;: <abbr title="\Symfony\Component\Lock\LockInterface">LockInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_mailer">$mailer</a>
-    <span>
-                        &nbsp;: <abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -193,12 +187,6 @@
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_messageRepository">$messageRepository</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_subscriberProvider">$subscriberProvider</a>
-    <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Provider\SubscriberProvider">SubscriberProvider</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
     </dl>
@@ -216,25 +204,25 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithInvalidSubscriberEmail">testExecuteWithInvalidSubscriberEmail()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithLockAlreadyAcquired">testExecuteWithLockAlreadyAcquired()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithMailerException">testExecuteWithMailerException()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithMultipleCampaigns">testExecuteWithMultipleCampaigns()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithNoCampaigns">testExecuteWithNoCampaigns()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithProcessorException">testExecuteWithProcessorException()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -265,9 +253,9 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_commandTester">
-        $commandTester
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_commandTester" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_campaignProcessor">
+        $campaignProcessor
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_campaignProcessor" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
@@ -275,7 +263,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -283,8 +271,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Console\Tester\CommandTester">CommandTester</abbr></span>
-    <span class="phpdocumentor-signature__name">$commandTester</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-CampaignProcessor.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\CampaignProcessor">CampaignProcessor</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$campaignProcessor</span>
     </code>
 
     
@@ -303,9 +291,9 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_entityManager">
-        $entityManager
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_entityManager" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_commandTester">
+        $commandTester
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_commandTester" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
@@ -313,7 +301,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -321,8 +309,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$entityManager</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Console\Tester\CommandTester">CommandTester</abbr></span>
+    <span class="phpdocumentor-signature__name">$commandTester</span>
     </code>
 
     
@@ -351,7 +339,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
@@ -361,44 +349,6 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Lock\LockInterface">LockInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$lock</span>
-    </code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_mailer">
-        $mailer
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_mailer" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">28</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$mailer</span>
     </code>
 
     
@@ -427,7 +377,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -465,7 +415,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -475,44 +425,6 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$messageRepository</span>
-    </code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_subscriberProvider">
-        $subscriberProvider
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_subscriberProvider" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">30</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Provider\SubscriberProvider">SubscriberProvider</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$subscriberProvider</span>
     </code>
 
     
@@ -546,7 +458,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">105</span>
+    <span class="phpdocumentor-element-found-in__line">97</span>
 
     </aside>
 
@@ -554,40 +466,6 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testExecuteWithCampaigns</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testExecuteWithInvalidSubscriberEmail">
-        testExecuteWithInvalidSubscriberEmail()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithInvalidSubscriberEmail" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">193</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testExecuteWithInvalidSubscriberEmail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -614,7 +492,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 
     </aside>
 
@@ -640,22 +518,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testExecuteWithMailerException">
-        testExecuteWithMailerException()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithMailerException" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testExecuteWithMultipleCampaigns">
+        testExecuteWithMultipleCampaigns()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithMultipleCampaigns" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">244</span>
+    <span class="phpdocumentor-element-found-in__line">129</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testExecuteWithMailerException</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testExecuteWithMultipleCampaigns</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -682,7 +560,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">69</span>
 
     </aside>
 
@@ -690,6 +568,40 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testExecuteWithNoCampaigns</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testExecuteWithProcessorException">
+        testExecuteWithProcessorException()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithProcessorException" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">164</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testExecuteWithProcessorException</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -716,7 +628,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processqueuecommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessQueueCommandTest.php">ProcessQueueCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -849,13 +761,11 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_campaignProcessor">$campaignProcessor</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_commandTester">$commandTester</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_entityManager">$entityManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_lock">$lock</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_mailer">$mailer</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_messageProcessingPreparator">$messageProcessingPreparator</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_messageRepository">$messageRepository</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_subscriberProvider">$subscriberProvider</a></li>
                                             </ul>
                 </li>
             
@@ -863,10 +773,10 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithCampaigns">testExecuteWithCampaigns()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithInvalidSubscriberEmail">testExecuteWithInvalidSubscriberEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithLockAlreadyAcquired">testExecuteWithLockAlreadyAcquired()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithMailerException">testExecuteWithMailerException()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithMultipleCampaigns">testExecuteWithMultipleCampaigns()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithNoCampaigns">testExecuteWithNoCampaigns()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithProcessorException">testExecuteWithProcessorException()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_setUp">setUp()</a></li>
                                     </ul>
             </li>
