@@ -7066,6 +7066,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findOneByEmail"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AfindOneByUniqueId\u0028\u0029",
+            "name": "findOneByUniqueId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findOneByUniqueId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AfindSubscribersBySubscribedList\u0028\u0029",
             "name": "findSubscribersBySubscribedList",
             "summary": "",
@@ -7280,6 +7285,11 @@ Search.appendIndex(
             "name": "updateSubscriber",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_updateSubscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AmarkAsConfirmedByUniqueId\u0028\u0029",
+            "name": "markAsConfirmedByUniqueId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_markAsConfirmedByUniqueId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AdeleteSubscriber\u0028\u0029",
             "name": "deleteSubscriber",
@@ -11866,6 +11876,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AtestMarkAsConfirmedByUniqueIdConfirmsSubscriber\u0028\u0029",
+            "name": "testMarkAsConfirmedByUniqueIdConfirmsSubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testMarkAsConfirmedByUniqueIdConfirmsSubscriber"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
             "summary": "",
@@ -11880,11 +11895,6 @@ Search.appendIndex(
             "name": "messageBus",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_messageBus"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024subscriberDeletionService",
-            "name": "subscriberDeletionService",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberDeletionService"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024subscriberManager",
             "name": "subscriberManager",
