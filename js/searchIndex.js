@@ -6016,6 +6016,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_listIds"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberImportOptions\u003A\u003A\u0024dryRun",
+            "name": "dryRun",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_dryRun"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\UpdateSubscriberDto",
             "name": "UpdateSubscriberDto",
             "summary": "",
@@ -7221,6 +7226,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_attributeRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_entityManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager",
             "name": "SubscriberListManager",
             "summary": "",
@@ -7530,6 +7540,11 @@ Search.appendIndex(
             "name": "attrDefinitionRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_attrDefinitionRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService",
             "name": "SubscriberDeletionService",
@@ -11735,6 +11750,11 @@ Search.appendIndex(
             "name": "attributeDefinitionRepositoryMock",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_attributeDefinitionRepositoryMock"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024subject",
             "name": "subject",
