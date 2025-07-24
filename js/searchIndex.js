@@ -6176,55 +6176,55 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_columns"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter",
-            "name": "SubscriptionHistoryFilter",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberHistoryFilter",
+            "name": "SubscriberHistoryFilter",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberHistoryFilter\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003AgetSubscriber\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberHistoryFilter\u003A\u003AgetSubscriber\u0028\u0029",
             "name": "getSubscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#method_getSubscriber"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method_getSubscriber"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003AgetIp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberHistoryFilter\u003A\u003AgetIp\u0028\u0029",
             "name": "getIp",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#method_getIp"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method_getIp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003AgetDateFrom\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberHistoryFilter\u003A\u003AgetDateFrom\u0028\u0029",
             "name": "getDateFrom",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#method_getDateFrom"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method_getDateFrom"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003AgetSummery\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberHistoryFilter\u003A\u003AgetSummery\u0028\u0029",
             "name": "getSummery",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#method_getSummery"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method_getSummery"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003A\u0024subscriber",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberHistoryFilter\u003A\u003A\u0024subscriber",
             "name": "subscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#property_subscriber"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#property_subscriber"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003A\u0024ip",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberHistoryFilter\u003A\u003A\u0024ip",
             "name": "ip",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#property_ip"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#property_ip"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003A\u0024dateFrom",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberHistoryFilter\u003A\u003A\u0024dateFrom",
             "name": "dateFrom",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#property_dateFrom"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#property_dateFrom"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003A\u0024summery",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberHistoryFilter\u003A\u003A\u0024summery",
             "name": "summery",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#property_summery"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#property_summery"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscribePage",
             "name": "SubscribePage",
@@ -7286,6 +7286,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_entityManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager",
+            "name": "SubscriberHistoryManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003AgetHistory\u0028\u0029",
+            "name": "getHistory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#method_getHistory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#property_repository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager",
             "name": "SubscriberListManager",
             "summary": "",
@@ -7665,26 +7685,6 @@ Search.appendIndex(
             "name": "subscriptionRepo",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_subscriptionRepo"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionHistoryService",
-            "name": "SubscriptionHistoryService",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionHistoryService.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionHistoryService\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionHistoryService.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionHistoryService\u003A\u003AgetHistory\u0028\u0029",
-            "name": "getHistory",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionHistoryService.html#method_getHistory"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionHistoryService\u003A\u003A\u0024repository",
-            "name": "repository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionHistoryService.html#property_repository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator",
             "name": "AttributeTypeValidator",
@@ -11631,35 +11631,235 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriptionRepositoryTest.html#property_subject"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\AttributeDefinitionManagerTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManagerTest",
             "name": "AttributeDefinitionManagerTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeDefinitionManagerTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\AttributeDefinitionManagerTest\u003A\u003AtestCreateAttributeDefinition\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManagerTest\u003A\u003AtestCreateAttributeDefinition\u0028\u0029",
             "name": "testCreateAttributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeDefinitionManagerTest.html#method_testCreateAttributeDefinition"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateAttributeDefinition"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\AttributeDefinitionManagerTest\u003A\u003AtestCreateThrowsWhenAttributeAlreadyExists\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManagerTest\u003A\u003AtestCreateThrowsWhenAttributeAlreadyExists\u0028\u0029",
             "name": "testCreateThrowsWhenAttributeAlreadyExists",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeDefinitionManagerTest.html#method_testCreateThrowsWhenAttributeAlreadyExists"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateThrowsWhenAttributeAlreadyExists"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\AttributeDefinitionManagerTest\u003A\u003AtestUpdateAttributeDefinition\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManagerTest\u003A\u003AtestUpdateAttributeDefinition\u0028\u0029",
             "name": "testUpdateAttributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeDefinitionManagerTest.html#method_testUpdateAttributeDefinition"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateAttributeDefinition"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\AttributeDefinitionManagerTest\u003A\u003AtestUpdateThrowsWhenAnotherAttributeWithSameNameExists\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManagerTest\u003A\u003AtestUpdateThrowsWhenAnotherAttributeWithSameNameExists\u0028\u0029",
             "name": "testUpdateThrowsWhenAnotherAttributeWithSameNameExists",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeDefinitionManagerTest.html#method_testUpdateThrowsWhenAnotherAttributeWithSameNameExists"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateThrowsWhenAnotherAttributeWithSameNameExists"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\AttributeDefinitionManagerTest\u003A\u003AtestDeleteAttributeDefinition\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManagerTest\u003A\u003AtestDeleteAttributeDefinition\u0028\u0029",
             "name": "testDeleteAttributeDefinition",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeDefinitionManagerTest.html#method_testDeleteAttributeDefinition"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testDeleteAttributeDefinition"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManagerTest",
+            "name": "SubscriberAttributeManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManagerTest\u003A\u003AtestCreateNewSubscriberAttribute\u0028\u0029",
+            "name": "testCreateNewSubscriberAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateNewSubscriberAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManagerTest\u003A\u003AtestUpdateExistingSubscriberAttribute\u0028\u0029",
+            "name": "testUpdateExistingSubscriberAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testUpdateExistingSubscriberAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManagerTest\u003A\u003AtestCreateFailsWhenValueAndDefaultAreNull\u0028\u0029",
+            "name": "testCreateFailsWhenValueAndDefaultAreNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsWhenValueAndDefaultAreNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManagerTest\u003A\u003AtestGetSubscriberAttribute\u0028\u0029",
+            "name": "testGetSubscriberAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testGetSubscriberAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManagerTest\u003A\u003AtestDeleteSubscriberAttribute\u0028\u0029",
+            "name": "testDeleteSubscriberAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testDeleteSubscriberAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManagerTest",
+            "name": "SubscriberHistoryManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManagerTest\u003A\u003AtestGetHistoryCallsRepositoryWithCorrectParameters\u0028\u0029",
+            "name": "testGetHistoryCallsRepositoryWithCorrectParameters",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_testGetHistoryCallsRepositoryWithCorrectParameters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManagerTest\u003A\u003AtestGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray\u0028\u0029",
+            "name": "testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManagerTest\u003A\u003A\u0024subscriberHistoryRepository",
+            "name": "subscriberHistoryRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#property_subscriberHistoryRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManagerTest\u003A\u003A\u0024subscriptionHistoryService",
+            "name": "subscriptionHistoryService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#property_subscriptionHistoryService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberListManagerTest",
+            "name": "SubscriberListManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberListManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberListManagerTest\u003A\u003AtestCreateSubscriberList\u0028\u0029",
+            "name": "testCreateSubscriberList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testCreateSubscriberList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberListManagerTest\u003A\u003AtestGetPaginated\u0028\u0029",
+            "name": "testGetPaginated",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testGetPaginated"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberListManagerTest\u003A\u003AtestDeleteSubscriberList\u0028\u0029",
+            "name": "testDeleteSubscriberList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testDeleteSubscriberList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberListManagerTest\u003A\u003A\u0024subscriberListRepository",
+            "name": "subscriberListRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#property_subscriberListRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberListManagerTest\u003A\u003A\u0024manager",
+            "name": "manager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#property_manager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest",
+            "name": "SubscriberManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberPersistsAndReturnsProperlyInitializedEntity\u0028\u0029",
+            "name": "testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberPersistsAndSendsEmail\u0028\u0029",
+            "name": "testCreateSubscriberPersistsAndSendsEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndSendsEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberWithConfirmationSendsConfirmationEmail\u0028\u0029",
+            "name": "testCreateSubscriberWithConfirmationSendsConfirmationEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testCreateSubscriberWithConfirmationSendsConfirmationEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail\u0028\u0029",
+            "name": "testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestMarkAsConfirmedByUniqueIdConfirmsSubscriber\u0028\u0029",
+            "name": "testMarkAsConfirmedByUniqueIdConfirmsSubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testMarkAsConfirmedByUniqueIdConfirmsSubscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003A\u0024messageBus",
+            "name": "messageBus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#property_messageBus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003A\u0024subscriberManager",
+            "name": "subscriberManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#property_subscriberManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest",
+            "name": "SubscriptionManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003AtestCreateSubscriptionWhenSubscriberExists\u0028\u0029",
+            "name": "testCreateSubscriptionWhenSubscriberExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#method_testCreateSubscriptionWhenSubscriberExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003AtestCreateSubscriptionThrowsWhenSubscriberMissing\u0028\u0029",
+            "name": "testCreateSubscriptionThrowsWhenSubscriberMissing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#method_testCreateSubscriptionThrowsWhenSubscriberMissing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003AtestDeleteSubscriptionSuccessfully\u0028\u0029",
+            "name": "testDeleteSubscriptionSuccessfully",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#method_testDeleteSubscriptionSuccessfully"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003AtestDeleteSubscriptionSkipsNotFound\u0028\u0029",
+            "name": "testDeleteSubscriptionSkipsNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#method_testDeleteSubscriptionSkipsNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003AtestGetSubscriberListMembersReturnsList\u0028\u0029",
+            "name": "testGetSubscriberListMembersReturnsList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#method_testGetSubscriberListMembersReturnsList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003A\u0024subscriptionRepository",
+            "name": "subscriptionRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#property_subscriptionRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003A\u0024manager",
+            "name": "manager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#property_manager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest",
             "name": "SubscriberProviderTest",
@@ -11706,135 +11906,105 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#property_subscriberProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberAttributeManagerTest",
-            "name": "SubscriberAttributeManagerTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExporterTest",
+            "name": "SubscriberCsvExporterTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberAttributeManagerTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExporterTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberAttributeManagerTest\u003A\u003AtestCreateNewSubscriberAttribute\u0028\u0029",
-            "name": "testCreateNewSubscriberAttribute",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberAttributeManagerTest.html#method_testCreateNewSubscriberAttribute"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberAttributeManagerTest\u003A\u003AtestUpdateExistingSubscriberAttribute\u0028\u0029",
-            "name": "testUpdateExistingSubscriberAttribute",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberAttributeManagerTest.html#method_testUpdateExistingSubscriberAttribute"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberAttributeManagerTest\u003A\u003AtestCreateFailsWhenValueAndDefaultAreNull\u0028\u0029",
-            "name": "testCreateFailsWhenValueAndDefaultAreNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberAttributeManagerTest.html#method_testCreateFailsWhenValueAndDefaultAreNull"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberAttributeManagerTest\u003A\u003AtestGetSubscriberAttribute\u0028\u0029",
-            "name": "testGetSubscriberAttribute",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberAttributeManagerTest.html#method_testGetSubscriberAttribute"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberAttributeManagerTest\u003A\u003AtestDeleteSubscriberAttribute\u0028\u0029",
-            "name": "testDeleteSubscriberAttribute",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberAttributeManagerTest.html#method_testDeleteSubscriberAttribute"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExportManagerTest",
-            "name": "SubscriberCsvExportManagerTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExportManagerTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExportManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExporterTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExportManagerTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExporterTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExportManagerTest\u003A\u003AtestExportToCsvWithFilterReturnsStreamedResponse\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExporterTest\u003A\u003AtestExportToCsvWithFilterReturnsStreamedResponse\u0028\u0029",
             "name": "testExportToCsvWithFilterReturnsStreamedResponse",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExportManagerTest.html#method_testExportToCsvWithFilterReturnsStreamedResponse"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExporterTest.html#method_testExportToCsvWithFilterReturnsStreamedResponse"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExportManagerTest\u003A\u003AtestExportToCsvWithoutFilterCreatesDefaultFilter\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExporterTest\u003A\u003AtestExportToCsvWithoutFilterCreatesDefaultFilter\u0028\u0029",
             "name": "testExportToCsvWithoutFilterCreatesDefaultFilter",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExportManagerTest.html#method_testExportToCsvWithoutFilterCreatesDefaultFilter"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExporterTest.html#method_testExportToCsvWithoutFilterCreatesDefaultFilter"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExportManagerTest\u003A\u003A\u0024attributeManagerMock",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExporterTest\u003A\u003A\u0024attributeManagerMock",
             "name": "attributeManagerMock",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExportManagerTest.html#property_attributeManagerMock"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExporterTest.html#property_attributeManagerMock"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExportManagerTest\u003A\u003A\u0024subscriberRepositoryMock",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExporterTest\u003A\u003A\u0024subscriberRepositoryMock",
             "name": "subscriberRepositoryMock",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExportManagerTest.html#property_subscriberRepositoryMock"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExporterTest.html#property_subscriberRepositoryMock"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExportManagerTest\u003A\u003A\u0024attributeDefinitionRepositoryMock",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExporterTest\u003A\u003A\u0024attributeDefinitionRepositoryMock",
             "name": "attributeDefinitionRepositoryMock",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExportManagerTest.html#property_attributeDefinitionRepositoryMock"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExporterTest.html#property_attributeDefinitionRepositoryMock"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExportManagerTest\u003A\u003A\u0024subject",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExporterTest\u003A\u003A\u0024subject",
             "name": "subject",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExportManagerTest.html#property_subject"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExporterTest.html#property_subject"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest",
-            "name": "SubscriberCsvImportManagerTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest",
+            "name": "SubscriberCsvImporterTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003AtestImportFromCsvCreatesNewSubscribers\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003AtestImportFromCsvCreatesNewSubscribers\u0028\u0029",
             "name": "testImportFromCsvCreatesNewSubscribers",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#method_testImportFromCsvCreatesNewSubscribers"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportFromCsvCreatesNewSubscribers"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003AtestImportFromCsvUpdatesExistingSubscribers\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003AtestImportFromCsvUpdatesExistingSubscribers\u0028\u0029",
             "name": "testImportFromCsvUpdatesExistingSubscribers",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#method_testImportFromCsvUpdatesExistingSubscribers"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportFromCsvUpdatesExistingSubscribers"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024subscriberManagerMock",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subscriberManagerMock",
             "name": "subscriberManagerMock",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_subscriberManagerMock"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subscriberManagerMock"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024attributeManagerMock",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024attributeManagerMock",
             "name": "attributeManagerMock",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_attributeManagerMock"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_attributeManagerMock"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024subscriptionManagerMock",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subscriptionManagerMock",
             "name": "subscriptionManagerMock",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_subscriptionManagerMock"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subscriptionManagerMock"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024subscriberRepositoryMock",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subscriberRepositoryMock",
             "name": "subscriberRepositoryMock",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_subscriberRepositoryMock"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subscriberRepositoryMock"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024csvImporterMock",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024csvImporterMock",
             "name": "csvImporterMock",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_csvImporterMock"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_csvImporterMock"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024attributeDefinitionRepositoryMock",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024attributeDefinitionRepositoryMock",
             "name": "attributeDefinitionRepositoryMock",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_attributeDefinitionRepositoryMock"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_attributeDefinitionRepositoryMock"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024entityManager",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024entityManager",
             "name": "entityManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_entityManager"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_entityManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImportManagerTest\u003A\u003A\u0024subject",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subject",
             "name": "subject",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImportManagerTest.html#property_subject"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subject"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberDeletionServiceTest",
             "name": "SubscriberDeletionServiceTest",
@@ -11905,176 +12075,6 @@ Search.appendIndex(
             "name": "service",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_service"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberListManagerTest",
-            "name": "SubscriberListManagerTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberListManagerTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberListManagerTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberListManagerTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberListManagerTest\u003A\u003AtestCreateSubscriberList\u0028\u0029",
-            "name": "testCreateSubscriberList",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberListManagerTest.html#method_testCreateSubscriberList"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberListManagerTest\u003A\u003AtestGetPaginated\u0028\u0029",
-            "name": "testGetPaginated",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberListManagerTest.html#method_testGetPaginated"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberListManagerTest\u003A\u003AtestDeleteSubscriberList\u0028\u0029",
-            "name": "testDeleteSubscriberList",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberListManagerTest.html#method_testDeleteSubscriberList"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberListManagerTest\u003A\u003A\u0024subscriberListRepository",
-            "name": "subscriberListRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberListManagerTest.html#property_subscriberListRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberListManagerTest\u003A\u003A\u0024manager",
-            "name": "manager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberListManagerTest.html#property_manager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest",
-            "name": "SubscriberManagerTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberPersistsAndReturnsProperlyInitializedEntity\u0028\u0029",
-            "name": "testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberPersistsAndSendsEmail\u0028\u0029",
-            "name": "testCreateSubscriberPersistsAndSendsEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndSendsEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberWithConfirmationSendsConfirmationEmail\u0028\u0029",
-            "name": "testCreateSubscriberWithConfirmationSendsConfirmationEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberWithConfirmationSendsConfirmationEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail\u0028\u0029",
-            "name": "testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003AtestMarkAsConfirmedByUniqueIdConfirmsSubscriber\u0028\u0029",
-            "name": "testMarkAsConfirmedByUniqueIdConfirmsSubscriber",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#method_testMarkAsConfirmedByUniqueIdConfirmsSubscriber"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024subscriberRepository",
-            "name": "subscriberRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024messageBus",
-            "name": "messageBus",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_messageBus"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberManagerTest\u003A\u003A\u0024subscriberManager",
-            "name": "subscriberManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest",
-            "name": "SubscriptionHistoryServiceTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest\u003A\u003AtestGetHistoryCallsRepositoryWithCorrectParameters\u0028\u0029",
-            "name": "testGetHistoryCallsRepositoryWithCorrectParameters",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html#method_testGetHistoryCallsRepositoryWithCorrectParameters"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest\u003A\u003AtestGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray\u0028\u0029",
-            "name": "testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html#method_testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest\u003A\u003A\u0024subscriberHistoryRepository",
-            "name": "subscriberHistoryRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html#property_subscriberHistoryRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest\u003A\u003A\u0024subscriptionHistoryService",
-            "name": "subscriptionHistoryService",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html#property_subscriptionHistoryService"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest",
-            "name": "SubscriptionManagerTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionManagerTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionManagerTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest\u003A\u003AtestCreateSubscriptionWhenSubscriberExists\u0028\u0029",
-            "name": "testCreateSubscriptionWhenSubscriberExists",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionManagerTest.html#method_testCreateSubscriptionWhenSubscriberExists"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest\u003A\u003AtestCreateSubscriptionThrowsWhenSubscriberMissing\u0028\u0029",
-            "name": "testCreateSubscriptionThrowsWhenSubscriberMissing",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionManagerTest.html#method_testCreateSubscriptionThrowsWhenSubscriberMissing"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest\u003A\u003AtestDeleteSubscriptionSuccessfully\u0028\u0029",
-            "name": "testDeleteSubscriptionSuccessfully",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionManagerTest.html#method_testDeleteSubscriptionSuccessfully"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest\u003A\u003AtestDeleteSubscriptionSkipsNotFound\u0028\u0029",
-            "name": "testDeleteSubscriptionSkipsNotFound",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionManagerTest.html#method_testDeleteSubscriptionSkipsNotFound"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest\u003A\u003AtestGetSubscriberListMembersReturnsList\u0028\u0029",
-            "name": "testGetSubscriberListMembersReturnsList",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionManagerTest.html#method_testGetSubscriberListMembersReturnsList"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest\u003A\u003A\u0024subscriptionRepository",
-            "name": "subscriptionRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionManagerTest.html#property_subscriptionRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest\u003A\u003A\u0024subscriberRepository",
-            "name": "subscriberRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionManagerTest.html#property_subscriberRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest\u003A\u003A\u0024manager",
-            "name": "manager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionManagerTest.html#property_manager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator\\AttributeTypeValidatorTest",
             "name": "AttributeTypeValidatorTest",
@@ -12821,15 +12821,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-subscription-repository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service",
-            "name": "Service",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager",
+            "name": "Manager",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-subscription-service.html"
+            "url": "namespaces/phplist-core-tests-unit-domain-subscription-service-manager.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider",
             "name": "Provider",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-subscription-service-provider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-subscription-service.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator",
             "name": "Validator",
