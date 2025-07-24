@@ -6171,6 +6171,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_columns"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter",
+            "name": "SubscriptionHistoryFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003AgetSubscriber\u0028\u0029",
+            "name": "getSubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#method_getSubscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003AgetIp\u0028\u0029",
+            "name": "getIp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#method_getIp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003AgetDateFrom\u0028\u0029",
+            "name": "getDateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#method_getDateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003AgetSummery\u0028\u0029",
+            "name": "getSummery",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#method_getSummery"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003A\u0024subscriber",
+            "name": "subscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#property_subscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003A\u0024ip",
+            "name": "ip",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#property_ip"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003A\u0024dateFrom",
+            "name": "dateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#property_dateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriptionHistoryFilter\u003A\u003A\u0024summery",
+            "name": "summery",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriptionHistoryFilter.html#property_summery"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscribePage",
             "name": "SubscribePage",
             "summary": "",
@@ -7031,6 +7081,11 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html#method_getFilteredAfterId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository",
             "name": "SubscriberListRepository",
             "summary": "Repository\u0020for\u0020SubscriberList\u0020models.",
@@ -7595,6 +7650,26 @@ Search.appendIndex(
             "name": "subscriptionRepo",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_subscriptionRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionHistoryService",
+            "name": "SubscriptionHistoryService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionHistoryService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionHistoryService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionHistoryService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionHistoryService\u003A\u003AgetHistory\u0028\u0029",
+            "name": "getHistory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionHistoryService.html#method_getHistory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriptionHistoryService\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriptionHistoryService.html#property_repository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator",
             "name": "AttributeTypeValidator",
@@ -11900,6 +11975,36 @@ Search.appendIndex(
             "name": "subscriberManager",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberManagerTest.html#property_subscriberManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest",
+            "name": "SubscriptionHistoryServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest\u003A\u003AtestGetHistoryCallsRepositoryWithCorrectParameters\u0028\u0029",
+            "name": "testGetHistoryCallsRepositoryWithCorrectParameters",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html#method_testGetHistoryCallsRepositoryWithCorrectParameters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest\u003A\u003AtestGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray\u0028\u0029",
+            "name": "testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html#method_testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest\u003A\u003A\u0024subscriberHistoryRepository",
+            "name": "subscriberHistoryRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html#property_subscriberHistoryRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionHistoryServiceTest\u003A\u003A\u0024subscriptionHistoryService",
+            "name": "subscriptionHistoryService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriptionHistoryServiceTest.html#property_subscriptionHistoryService"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriptionManagerTest",
             "name": "SubscriptionManagerTest",
