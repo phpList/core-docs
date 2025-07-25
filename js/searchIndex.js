@@ -2826,6 +2826,16 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminPasswordRequestRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdminPasswordRequestRepository\u003A\u003AfindByAdmin\u0028\u0029",
+            "name": "findByAdmin",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminPasswordRequestRepository.html#method_findByAdmin"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdminPasswordRequestRepository\u003A\u003AfindOneByToken\u0028\u0029",
+            "name": "findOneByToken",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminPasswordRequestRepository.html#method_findOneByToken"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\UserBlacklistDataRepository",
             "name": "UserBlacklistDataRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -2945,6 +2955,61 @@ Search.appendIndex(
             "name": "hashGenerator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-AdministratorManager.html#property_hashGenerator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager",
+            "name": "PasswordManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager\u003A\u003AgeneratePasswordResetToken\u0028\u0029",
+            "name": "generatePasswordResetToken",
+            "summary": "Generates\u0020a\u0020password\u0020reset\u0020token\u0020for\u0020the\u0020administrator\u0020with\u0020the\u0020given\u0020email.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#method_generatePasswordResetToken"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager\u003A\u003AvalidatePasswordResetToken\u0028\u0029",
+            "name": "validatePasswordResetToken",
+            "summary": "Validates\u0020a\u0020password\u0020reset\u0020token.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#method_validatePasswordResetToken"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager\u003A\u003AupdatePasswordWithToken\u0028\u0029",
+            "name": "updatePasswordWithToken",
+            "summary": "Updates\u0020the\u0020password\u0020for\u0020the\u0020administrator\u0020with\u0020the\u0020given\u0020token.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#method_updatePasswordWithToken"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager\u003A\u003AcleanupExpiredTokens\u0028\u0029",
+            "name": "cleanupExpiredTokens",
+            "summary": "Cleans\u0020up\u0020expired\u0020password\u0020reset\u0020requests.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#method_cleanupExpiredTokens"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager\u003A\u003ATOKEN_EXPIRY",
+            "name": "TOKEN_EXPIRY",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#constant_TOKEN_EXPIRY"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager\u003A\u003A\u0024passwordRequestRepository",
+            "name": "passwordRequestRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#property_passwordRequestRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager\u003A\u003A\u0024administratorRepository",
+            "name": "administratorRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#property_administratorRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager\u003A\u003A\u0024hashGenerator",
+            "name": "hashGenerator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#property_hashGenerator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager\u003A\u003A\u0024messageBus",
+            "name": "messageBus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#property_messageBus"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\SessionManager",
             "name": "SessionManager",
@@ -3096,6 +3161,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-AsyncEmailMessage.html#property_attachments"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\PasswordResetMessage",
+            "name": "PasswordResetMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-PasswordResetMessage.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\PasswordResetMessage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-PasswordResetMessage.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\PasswordResetMessage\u003A\u003AgetEmail\u0028\u0029",
+            "name": "getEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-PasswordResetMessage.html#method_getEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\PasswordResetMessage\u003A\u003AgetToken\u0028\u0029",
+            "name": "getToken",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-PasswordResetMessage.html#method_getToken"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\PasswordResetMessage\u003A\u003A\u0024email",
+            "name": "email",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-PasswordResetMessage.html#property_email"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\PasswordResetMessage\u003A\u003A\u0024token",
+            "name": "token",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-PasswordResetMessage.html#property_token"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage",
             "name": "SubscriberConfirmationMessage",
             "summary": "Message\u0020class\u0020for\u0020asynchronous\u0020subscriber\u0020confirmation\u0020email\u0020processing",
@@ -3155,6 +3250,36 @@ Search.appendIndex(
             "name": "emailService",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler",
+            "name": "PasswordResetMessageHandler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-PasswordResetMessageHandler.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-PasswordResetMessageHandler.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "Process\u0020a\u0020subscriber\u0020confirmation\u0020message\u0020by\u0020sending\u0020the\u0020confirmation\u0020email",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-PasswordResetMessageHandler.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler\u003A\u003AgenerateLink\u0028\u0029",
+            "name": "generateLink",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-PasswordResetMessageHandler.html#method_generateLink"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler\u003A\u003A\u0024emailService",
+            "name": "emailService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-PasswordResetMessageHandler.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler\u003A\u003A\u0024passwordResetUrl",
+            "name": "passwordResetUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-PasswordResetMessageHandler.html#property_passwordResetUrl"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler",
             "name": "SubscriberConfirmationMessageHandler",
@@ -10336,6 +10461,81 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdministratorManagerTest.html#method_testDeleteAdministrator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest",
+            "name": "PasswordManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003AtestGeneratePasswordResetTokenThrowsExceptionIfAdministratorNotFound\u0028\u0029",
+            "name": "testGeneratePasswordResetTokenThrowsExceptionIfAdministratorNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#method_testGeneratePasswordResetTokenThrowsExceptionIfAdministratorNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003AtestGeneratePasswordResetTokenCleansUpExistingRequests\u0028\u0029",
+            "name": "testGeneratePasswordResetTokenCleansUpExistingRequests",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#method_testGeneratePasswordResetTokenCleansUpExistingRequests"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003AtestValidatePasswordResetTokenReturnsNullIfTokenNotFound\u0028\u0029",
+            "name": "testValidatePasswordResetTokenReturnsNullIfTokenNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#method_testValidatePasswordResetTokenReturnsNullIfTokenNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003AtestValidatePasswordResetTokenReturnsNullIfTokenExpired\u0028\u0029",
+            "name": "testValidatePasswordResetTokenReturnsNullIfTokenExpired",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#method_testValidatePasswordResetTokenReturnsNullIfTokenExpired"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003AtestValidatePasswordResetTokenReturnsAdministratorIfTokenValid\u0028\u0029",
+            "name": "testValidatePasswordResetTokenReturnsAdministratorIfTokenValid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#method_testValidatePasswordResetTokenReturnsAdministratorIfTokenValid"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003AtestUpdatePasswordWithTokenReturnsFalseIfTokenInvalid\u0028\u0029",
+            "name": "testUpdatePasswordWithTokenReturnsFalseIfTokenInvalid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#method_testUpdatePasswordWithTokenReturnsFalseIfTokenInvalid"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003AtestUpdatePasswordWithTokenUpdatesPasswordAndRemovesToken\u0028\u0029",
+            "name": "testUpdatePasswordWithTokenUpdatesPasswordAndRemovesToken",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#method_testUpdatePasswordWithTokenUpdatesPasswordAndRemovesToken"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003AtestCleanupExpiredTokensRemovesExpiredTokens\u0028\u0029",
+            "name": "testCleanupExpiredTokensRemovesExpiredTokens",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#method_testCleanupExpiredTokensRemovesExpiredTokens"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003A\u0024passwordRequestRepository",
+            "name": "passwordRequestRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#property_passwordRequestRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003A\u0024administratorRepository",
+            "name": "administratorRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#property_administratorRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003A\u0024hashGenerator",
+            "name": "hashGenerator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#property_hashGenerator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003A\u0024messageBus",
+            "name": "messageBus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#property_messageBus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#property_subject"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\SessionManagerTest",
             "name": "SessionManagerTest",
             "summary": "",
@@ -10485,6 +10685,41 @@ Search.appendIndex(
             "name": "testDefaultHtmlEmailIsFalse",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Message-SubscriberConfirmationMessageTest.html#method_testDefaultHtmlEmailIsFalse"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest",
+            "name": "PasswordResetMessageHandlerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-PasswordResetMessageHandlerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-PasswordResetMessageHandlerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest\u003A\u003AtestInvoke\u0028\u0029",
+            "name": "testInvoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-PasswordResetMessageHandlerTest.html#method_testInvoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest\u003A\u003AgetEmailAddresses\u0028\u0029",
+            "name": "getEmailAddresses",
+            "summary": "Helper\u0020method\u0020to\u0020extract\u0020email\u0020addresses\u0020from\u0020Address\u0020objects",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-PasswordResetMessageHandlerTest.html#method_getEmailAddresses"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest\u003A\u003A\u0024handler",
+            "name": "handler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-PasswordResetMessageHandlerTest.html#property_handler"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest\u003A\u003A\u0024emailService",
+            "name": "emailService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-PasswordResetMessageHandlerTest.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest\u003A\u003A\u0024passwordResetUrl",
+            "name": "passwordResetUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-PasswordResetMessageHandlerTest.html#property_passwordResetUrl"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest",
             "name": "SubscriberConfirmationMessageHandlerTest",
