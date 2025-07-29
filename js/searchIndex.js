@@ -1861,6 +1861,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#property_configRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CleanUpOldSessionTokens",
+            "name": "CleanUpOldSessionTokens",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CleanUpOldSessionTokens\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CleanUpOldSessionTokens\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#method_execute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CleanUpOldSessionTokens\u003A\u003A\u0024tokenRepository",
+            "name": "tokenRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#property_tokenRepository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException",
             "name": "AdminAttributeCreationException",
             "summary": "",
@@ -6146,6 +6166,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_dryRun"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberImportOptions\u003A\u003A\u0024skipInvalidEmail",
+            "name": "skipInvalidEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_skipInvalidEmail"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\UpdateSubscriberDto",
             "name": "UpdateSubscriberDto",
             "summary": "",
@@ -9721,6 +9746,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testDeleteRemovesConfigFromRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest",
+            "name": "CleanUpOldSessionTokensTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003AtestExecuteSuccessfully\u0028\u0029",
+            "name": "testExecuteSuccessfully",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteSuccessfully"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003AtestExecuteWithNoExpiredTokens\u0028\u0029",
+            "name": "testExecuteWithNoExpiredTokens",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteWithNoExpiredTokens"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003AtestExecuteWithException\u0028\u0029",
+            "name": "testExecuteWithException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteWithException"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003A\u0024tokenRepository",
+            "name": "tokenRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#property_tokenRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003A\u0024commandTester",
+            "name": "commandTester",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#property_commandTester"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest",
             "name": "AdminAttributeDefinitionTest",
             "summary": "Testcase\u0020for\u0020the\u0020AdminAttributeDefinition\u0020model.",
@@ -12616,15 +12676,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-configuration-service.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception",
-            "name": "Exception",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command",
+            "name": "Command",
             "summary": "",
-            "url": "namespaces/phplist-core-domain-identity-exception.html"
+            "url": "namespaces/phplist-core-domain-identity-command.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity",
             "name": "Identity",
             "summary": "",
             "url": "namespaces/phplist-core-domain-identity.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception",
+            "name": "Exception",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-identity-exception.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model",
             "name": "Model",
@@ -12966,15 +13031,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-configuration.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model",
-            "name": "Model",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command",
+            "name": "Command",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-identity-model.html"
+            "url": "namespaces/phplist-core-tests-unit-domain-identity-command.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity",
             "name": "Identity",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-identity.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model",
+            "name": "Model",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-identity-model.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Repository",
             "name": "Repository",

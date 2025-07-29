@@ -94,15 +94,17 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription.html">Subscription</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription-model.html">Model</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription-model-dto.html">Dto</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-identity.html">Identity</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-identity-command.html">Command</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    SubscriberImportOptions
+    CleanUpOldSessionTokens
 
+        <span class="phpdocumentor-element__extends">
+        extends <abbr title="\Symfony\Component\Console\Command\Command">Command</abbr>
+    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -120,9 +122,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php"><a href="files/src-domain-subscription-model-dto-subscriberimportoptions.html"><abbr title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php">SubscriberImportOptions.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php"><a href="files/src-domain-identity-command-cleanupoldsessiontokens.html"><abbr title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php">CleanUpOldSessionTokens.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">7</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -132,12 +134,29 @@
 
 
 
+    <section class="phpdocumentor-attributes">
+        <h5 class="phpdocumentor-elements__header" id="attributes">
+            Attributes <a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h5>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Symfony\Component\Console\Attribute\AsCommand">AsCommand</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $name: &#039;phplist:clean-up-old-session-tokens&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $description: &#039;Removes expired administrator session tokens.&#039;
+    </dd>
+    </dl>
+            </section>
 
 
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -151,46 +170,34 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_dryRun">$dryRun</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#property_tokenRepository">$tokenRepository</a>
     <span>
-                        &nbsp;: bool            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_listIds">$listIds</a>
-    <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_skipInvalidEmail">$skipInvalidEmail</a>
-    <span>
-                        &nbsp;: bool            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_updateExisting">$updateExisting</a>
-    <span>
-                        &nbsp;: bool            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html"><abbr title="\PhpList\Core\Domain\Identity\Repository\AdministratorTokenRepository">AdministratorTokenRepository</abbr></a>            </span>
 </dt>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#method_execute">execute()</a>
+    <span>
+                                &nbsp;: int    </span>
 </dt>
 
     </dl>
@@ -203,151 +210,37 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
         class="
             phpdocumentor-element
             -property
-            -public
-                                                -read-only                    "
+            -private
+                                                                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_dryRun">
-        $dryRun
-        <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_dryRun" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_tokenRepository">
+        $tokenRepository
+        <a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#property_tokenRepository" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php"><a href="files/src-domain-subscription-model-dto-subscriberimportoptions.html"><abbr title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php">SubscriberImportOptions.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php"><a href="files/src-domain-identity-command-cleanupoldsessiontokens.html"><abbr title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php">CleanUpOldSessionTokens.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__type">bool</span>
-    <span class="phpdocumentor-signature__name">$dryRun</span>
-     = <span class="phpdocumentor-signature__default-value">false</span></code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -public
-                                                -read-only                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_listIds">
-        $listIds
-        <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_listIds" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php"><a href="files/src-domain-subscription-model-dto-subscriberimportoptions.html"><abbr title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php">SubscriberImportOptions.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">14</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
-    <span class="phpdocumentor-signature__name">$listIds</span>
-     = <span class="phpdocumentor-signature__default-value">[]</span></code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -public
-                                                -read-only                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_skipInvalidEmail">
-        $skipInvalidEmail
-        <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_skipInvalidEmail" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php"><a href="files/src-domain-subscription-model-dto-subscriberimportoptions.html"><abbr title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php">SubscriberImportOptions.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">16</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__type">bool</span>
-    <span class="phpdocumentor-signature__name">$skipInvalidEmail</span>
-     = <span class="phpdocumentor-signature__default-value">true</span></code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -public
-                                                -read-only                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_updateExisting">
-        $updateExisting
-        <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_updateExisting" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php"><a href="files/src-domain-subscription-model-dto-subscriberimportoptions.html"><abbr title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php">SubscriberImportOptions.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">13</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__type">bool</span>
-    <span class="phpdocumentor-signature__name">$updateExisting</span>
-     = <span class="phpdocumentor-signature__default-value">false</span></code>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html"><abbr title="\PhpList\Core\Domain\Identity\Repository\AdministratorTokenRepository">AdministratorTokenRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$tokenRepository</span>
+    </code>
 
     
     
@@ -363,7 +256,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -374,20 +267,20 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php"><a href="files/src-domain-subscription-model-dto-subscriberimportoptions.html"><abbr title="src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php">SubscriberImportOptions.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php"><a href="files/src-domain-identity-command-cleanupoldsessiontokens.html"><abbr title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php">CleanUpOldSessionTokens.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$updateExisting</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listIds</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dryRun</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$skipInvalidEmail</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html"><abbr title="\PhpList\Core\Domain\Identity\Repository\AdministratorTokenRepository">AdministratorTokenRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tokenRepository</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -396,30 +289,60 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$updateExisting</span>
-                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+                <span class="phpdocumentor-signature__argument__name">$tokenRepository</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html"><abbr title="\PhpList\Core\Domain\Identity\Repository\AdministratorTokenRepository">AdministratorTokenRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_execute">
+        execute()
+        <a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#method_execute" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php"><a href="files/src-domain-identity-command-cleanupoldsessiontokens.html"><abbr title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php">CleanUpOldSessionTokens.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">execute</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Input\InputInterface">InputInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$input</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$input</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Input\InputInterface">InputInterface</abbr></span>
+                            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$listIds</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$dryRun</span>
-                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$skipInvalidEmail</span>
-                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+                <span class="phpdocumentor-signature__argument__name">$output</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr></span>
+                            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -428,7 +351,7 @@
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#method___construct#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#method_execute#tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
@@ -437,7 +360,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>(&quot;BooleanArgumentFlag&quot;)</p>
+                                                 <section class="phpdocumentor-description"><p>(&quot;PHPMD.UnusedFormalParameter&quot;)</p>
 </section>
 
                                     </dd>
@@ -445,7 +368,11 @@
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
 </article>
             </section>
 
@@ -453,7 +380,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Subscription/Model/Dto/SubscriberImportOptions.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Identity/Command/CleanUpOldSessionTokens.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -554,25 +481,23 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_dryRun">$dryRun</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_listIds">$listIds</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_skipInvalidEmail">$skipInvalidEmail</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_updateExisting">$updateExisting</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#property_tokenRepository">$tokenRepository</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#method_execute">execute()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -592,7 +517,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
