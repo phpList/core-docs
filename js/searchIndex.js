@@ -5456,6 +5456,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html#method_getListIdsByMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository\u003A\u003AgetMessageIdsByListId\u0028\u0029",
+            "name": "getMessageIdsByListId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html#method_getMessageIdsByListId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository\u003A\u003AisMessageAssociatedWithList\u0028\u0029",
+            "name": "isMessageAssociatedWithList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html#method_isMessageAssociatedWithList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository\u003A\u003AgetByMessageIdAndListId\u0028\u0029",
+            "name": "getByMessageIdAndListId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html#method_getByMessageIdAndListId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository\u003A\u003AremoveAllListAssociationsForMessage\u0028\u0029",
+            "name": "removeAllListAssociationsForMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html#method_removeAllListAssociationsForMessage"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageAttachmentRepository",
             "name": "MessageAttachmentRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -5690,6 +5710,61 @@ Search.appendIndex(
             "name": "messageBus",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#property_messageBus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager",
+            "name": "ListMessageManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AassociateMessageWithList\u0028\u0029",
+            "name": "associateMessageWithList",
+            "summary": "Associates\u0020a\u0020message\u0020with\u0020a\u0020subscriber\u0020list",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_associateMessageWithList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AremoveAssociation\u0028\u0029",
+            "name": "removeAssociation",
+            "summary": "Removes\u0020the\u0020association\u0020between\u0020a\u0020message\u0020and\u0020a\u0020subscriber\u0020list",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_removeAssociation"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AgetListIdsByMessage\u0028\u0029",
+            "name": "getListIdsByMessage",
+            "summary": "Gets\u0020all\u0020subscriber\u0020lists\u0020associated\u0020with\u0020a\u0020message",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getListIdsByMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AgetMessageIdsByList\u0028\u0029",
+            "name": "getMessageIdsByList",
+            "summary": "Gets\u0020all\u0020messages\u0020associated\u0020with\u0020a\u0020subscriber\u0020list",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getMessageIdsByList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AisMessageAssociatedWithList\u0028\u0029",
+            "name": "isMessageAssociatedWithList",
+            "summary": "Checks\u0020if\u0020a\u0020message\u0020is\u0020associated\u0020with\u0020a\u0020subscriber\u0020list",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_isMessageAssociatedWithList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AassociateMessageWithLists\u0028\u0029",
+            "name": "associateMessageWithLists",
+            "summary": "Associates\u0020a\u0020message\u0020with\u0020multiple\u0020subscriber\u0020lists",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_associateMessageWithLists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AremoveAllListAssociationsForMessage\u0028\u0029",
+            "name": "removeAllListAssociationsForMessage",
+            "summary": "Removes\u0020all\u0020list\u0020associations\u0020for\u0020a\u0020message",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_removeAllListAssociationsForMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003A\u0024listMessageRepository",
+            "name": "listMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#property_listMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageManager",
             "name": "MessageManager",
@@ -11421,6 +11496,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#property_defaultFromEmail"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest",
+            "name": "ListMessageManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestAssociateMessageWithList\u0028\u0029",
+            "name": "testAssociateMessageWithList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testAssociateMessageWithList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestRemoveAssociation\u0028\u0029",
+            "name": "testRemoveAssociation",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testRemoveAssociation"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestGetListIdsByMessage\u0028\u0029",
+            "name": "testGetListIdsByMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testGetListIdsByMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestGetMessageIdsByList\u0028\u0029",
+            "name": "testGetMessageIdsByList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testGetMessageIdsByList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestIsMessageAssociatedWithList\u0028\u0029",
+            "name": "testIsMessageAssociatedWithList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testIsMessageAssociatedWithList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestAssociateMessageWithLists\u0028\u0029",
+            "name": "testAssociateMessageWithLists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testAssociateMessageWithLists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestRemoveAllListAssociationsForMessage\u0028\u0029",
+            "name": "testRemoveAllListAssociationsForMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testRemoveAllListAssociationsForMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003A\u0024listMessageRepository",
+            "name": "listMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#property_listMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003A\u0024manager",
+            "name": "manager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#property_manager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageManagerTest",
             "name": "MessageManagerTest",
             "summary": "",
@@ -12780,6 +12915,11 @@ Search.appendIndex(
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager",
+            "name": "Manager",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-service-manager.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator",
             "name": "Validator",
