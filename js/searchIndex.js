@@ -6141,6 +6141,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_extraAttributes"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024sendConfirmation",
+            "name": "sendConfirmation",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_sendConfirmation"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberImportOptions",
             "name": "SubscriberImportOptions",
             "summary": "",
