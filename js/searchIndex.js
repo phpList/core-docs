@@ -4121,25 +4121,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_getId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AgetMessageId\u0028\u0029",
-            "name": "getMessageId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AgetMessage\u0028\u0029",
+            "name": "getMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_getMessageId"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_getMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AsetMessageId\u0028\u0029",
-            "name": "setMessageId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AsetMessage\u0028\u0029",
+            "name": "setMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_setMessageId"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_setMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AgetListId\u0028\u0029",
-            "name": "getListId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AgetList\u0028\u0029",
+            "name": "getList",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_getListId"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_getList"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AsetListId\u0028\u0029",
-            "name": "setListId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AsetList\u0028\u0029",
+            "name": "setList",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_setListId"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_setList"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AgetEntered\u0028\u0029",
             "name": "getEntered",
@@ -4166,15 +4166,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#property_id"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003A\u0024messageId",
-            "name": "messageId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003A\u0024message",
+            "name": "message",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#property_messageId"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#property_message"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003A\u0024listId",
-            "name": "listId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003A\u0024subscriberList",
+            "name": "subscriberList",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#property_listId"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#property_subscriberList"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003A\u0024entered",
             "name": "entered",
@@ -4761,6 +4761,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#method_setOptions"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003AgetListMessages\u0028\u0029",
+            "name": "getListMessages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#method_getListMessages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003AgetSubscriberLists\u0028\u0029",
+            "name": "getSubscriberLists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#method_getSubscriberLists"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -4810,6 +4820,11 @@ Search.appendIndex(
             "name": "template",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#property_template"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003A\u0024listMessages",
+            "name": "listMessages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#property_listMessages"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\MessageAttachment",
             "name": "MessageAttachment",
@@ -5451,25 +5466,15 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository\u003A\u003AgetListIdsByMessageId\u0028\u0029",
-            "name": "getListIdsByMessageId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html#method_getListIdsByMessageId"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository\u003A\u003AgetMessageIdsByListId\u0028\u0029",
-            "name": "getMessageIdsByListId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html#method_getMessageIdsByListId"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository\u003A\u003AisMessageAssociatedWithList\u0028\u0029",
             "name": "isMessageAssociatedWithList",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html#method_isMessageAssociatedWithList"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository\u003A\u003AgetByMessageIdAndListId\u0028\u0029",
-            "name": "getByMessageIdAndListId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository\u003A\u003AgetByMessageAndList\u0028\u0029",
+            "name": "getByMessageAndList",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html#method_getByMessageIdAndListId"
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html#method_getByMessageAndList"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository\u003A\u003AremoveAllListAssociationsForMessage\u0028\u0029",
             "name": "removeAllListAssociationsForMessage",
@@ -5730,16 +5735,6 @@ Search.appendIndex(
             "name": "removeAssociation",
             "summary": "Removes\u0020the\u0020association\u0020between\u0020a\u0020message\u0020and\u0020a\u0020subscriber\u0020list",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_removeAssociation"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AgetListIdsByMessage\u0028\u0029",
-            "name": "getListIdsByMessage",
-            "summary": "Gets\u0020all\u0020subscriber\u0020lists\u0020associated\u0020with\u0020a\u0020message",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getListIdsByMessage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AgetMessageIdsByList\u0028\u0029",
-            "name": "getMessageIdsByList",
-            "summary": "Gets\u0020all\u0020messages\u0020associated\u0020with\u0020a\u0020subscriber\u0020list",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getMessageIdsByList"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AisMessageAssociatedWithList\u0028\u0029",
             "name": "isMessageAssociatedWithList",
@@ -7161,6 +7156,16 @@ Search.appendIndex(
             "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberList.html#method_updateUpdatedAt"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberList\u003A\u003AgetListMessages\u0028\u0029",
+            "name": "getListMessages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberList.html#method_getListMessages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberList\u003A\u003AgetMessages\u0028\u0029",
+            "name": "getMessages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberList.html#method_getMessages"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberList\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -7215,6 +7220,11 @@ Search.appendIndex(
             "name": "subscriptions",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberList.html#property_subscriptions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberList\u003A\u003A\u0024listMessages",
+            "name": "listMessages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberList.html#property_listMessages"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscription",
             "name": "Subscription",
@@ -7710,11 +7720,6 @@ Search.appendIndex(
             "name": "getSubscribersForMessage",
             "summary": "Get\u0020subscribers\u0020for\u0020a\u0020message",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method_getSubscribersForMessage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider\u003A\u003A\u0024listMessageRepository",
-            "name": "listMessageRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#property_listMessageRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
@@ -9090,6 +9095,21 @@ Search.appendIndex(
             "name": "loadReturnsRouteCollection",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Routing-ExtraLoaderTest.html#method_loadReturnsRouteCollection"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Routing\\ExtraLoaderTest\u003A\u003AtestClassIsLoader\u0028\u0029",
+            "name": "testClassIsLoader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Routing-ExtraLoaderTest.html#method_testClassIsLoader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Routing\\ExtraLoaderTest\u003A\u003AtestSupportsExtraType\u0028\u0029",
+            "name": "testSupportsExtraType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Routing-ExtraLoaderTest.html#method_testSupportsExtraType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Routing\\ExtraLoaderTest\u003A\u003AtestNotSupportsOtherType\u0028\u0029",
+            "name": "testNotSupportsOtherType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Routing-ExtraLoaderTest.html#method_testNotSupportsOtherType"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Routing\\ExtraLoaderTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -11516,16 +11536,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testRemoveAssociation"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestGetListIdsByMessage\u0028\u0029",
-            "name": "testGetListIdsByMessage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testGetListIdsByMessage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestGetMessageIdsByList\u0028\u0029",
-            "name": "testGetMessageIdsByList",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testGetMessageIdsByList"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestIsMessageAssociatedWithList\u0028\u0029",
             "name": "testIsMessageAssociatedWithList",
             "summary": "",
@@ -12325,11 +12335,6 @@ Search.appendIndex(
             "name": "testGetSubscribersForMessageWithMultipleListsReturnsUniqueSubscribers",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#method_testGetSubscribersForMessageWithMultipleListsReturnsUniqueSubscribers"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest\u003A\u003A\u0024listMessageRepository",
-            "name": "listMessageRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#property_listMessageRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",

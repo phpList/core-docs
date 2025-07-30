@@ -196,20 +196,6 @@
 <dd>Associates a message with multiple subscriber lists</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getListIdsByMessage">getListIdsByMessage()</a>
-    <span>
-                                &nbsp;: array&lt;string|int, int&gt;    </span>
-</dt>
-<dd>Gets all subscriber lists associated with a message</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getMessageIdsByList">getMessageIdsByList()</a>
-    <span>
-                                &nbsp;: array&lt;string|int, int&gt;    </span>
-</dt>
-<dd>Gets all messages associated with a subscriber list</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_isMessageAssociatedWithList">isMessageAssociatedWithList()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -448,7 +434,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/ListMessageManager.php"><a href="files/src-domain-messaging-service-manager-listmessagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/ListMessageManager.php">ListMessageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">85</span>
+    <span class="phpdocumentor-element-found-in__line">65</span>
 
     </aside>
 
@@ -492,104 +478,6 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getListIdsByMessage">
-        getListIdsByMessage()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getListIdsByMessage" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/ListMessageManager.php"><a href="files/src-domain-messaging-service-manager-listmessagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/ListMessageManager.php">ListMessageManager.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">57</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Gets all subscriber lists associated with a message</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getListIdsByMessage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$message</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$message</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getMessageIdsByList">
-        getMessageIdsByList()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getMessageIdsByList" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/ListMessageManager.php"><a href="files/src-domain-messaging-service-manager-listmessagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/ListMessageManager.php">ListMessageManager.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">67</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Gets all messages associated with a subscriber list</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getMessageIdsByList</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscriberList">SubscriberList</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberList</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$subscriberList</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-SubscriberList.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscriberList">SubscriberList</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, int&gt;</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_isMessageAssociatedWithList">
         isMessageAssociatedWithList()
         <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_isMessageAssociatedWithList" class="headerlink"><i class="fas fa-link"></i></a>
@@ -598,7 +486,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/ListMessageManager.php"><a href="files/src-domain-messaging-service-manager-listmessagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/ListMessageManager.php">ListMessageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">75</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
@@ -654,7 +542,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/ListMessageManager.php"><a href="files/src-domain-messaging-service-manager-listmessagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/ListMessageManager.php">ListMessageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">95</span>
+    <span class="phpdocumentor-element-found-in__line">75</span>
 
     </aside>
 
@@ -863,8 +751,6 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_associateMessageWithList">associateMessageWithList()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_associateMessageWithLists">associateMessageWithLists()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getListIdsByMessage">getListIdsByMessage()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getMessageIdsByList">getMessageIdsByList()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_isMessageAssociatedWithList">isMessageAssociatedWithList()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_removeAllListAssociationsForMessage">removeAllListAssociationsForMessage()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_removeAssociation">removeAssociation()</a></li>
