@@ -4766,11 +4766,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#method_getListMessages"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003AgetSubscriberLists\u0028\u0029",
-            "name": "getSubscriberLists",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#method_getSubscriberLists"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -5511,6 +5506,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getFilteredAfterId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AgetMessagesByList\u0028\u0029",
+            "name": "getMessagesByList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getMessagesByList"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\SendProcessRepository",
             "name": "SendProcessRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -5751,10 +5751,30 @@ Search.appendIndex(
             "summary": "Removes\u0020all\u0020list\u0020associations\u0020for\u0020a\u0020message",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_removeAllListAssociationsForMessage"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AgetMessagesByList\u0028\u0029",
+            "name": "getMessagesByList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getMessagesByList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003AgetListByMessage\u0028\u0029",
+            "name": "getListByMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#method_getListByMessage"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003A\u0024listMessageRepository",
             "name": "listMessageRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#property_listMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003A\u0024subscriberListRepository",
+            "name": "subscriberListRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#property_subscriberListRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager\u003A\u003A\u0024entityManager",
             "name": "entityManager",
@@ -7161,11 +7181,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberList.html#method_getListMessages"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberList\u003A\u003AgetMessages\u0028\u0029",
-            "name": "getMessages",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberList.html#method_getMessages"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberList\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -7340,6 +7355,11 @@ Search.appendIndex(
             "name": "findWithSubscription",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_findWithSubscription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AgetListsByMessage\u0028\u0029",
+            "name": "getListsByMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getListsByMessage"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageDataRepository",
             "name": "SubscriberPageDataRepository",
@@ -7725,6 +7745,11 @@ Search.appendIndex(
             "name": "subscriberRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider\u003A\u003A\u0024subscriberListRepository",
+            "name": "subscriberListRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#property_subscriberListRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter",
             "name": "SubscriberCsvExporter",
@@ -12340,6 +12365,11 @@ Search.appendIndex(
             "name": "subscriberRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest\u003A\u003A\u0024subscriberListRepository",
+            "name": "subscriberListRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#property_subscriberListRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest\u003A\u003A\u0024subscriberProvider",
             "name": "subscriberProvider",
