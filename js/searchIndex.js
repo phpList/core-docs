@@ -2691,6 +2691,91 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Privileges.html#property_flags"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklist",
+            "name": "UserBlacklist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklist.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklist\u003A\u003AgetEmail\u0028\u0029",
+            "name": "getEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklist.html#method_getEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklist\u003A\u003AgetAdded\u0028\u0029",
+            "name": "getAdded",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklist.html#method_getAdded"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklist\u003A\u003AsetEmail\u0028\u0029",
+            "name": "setEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklist.html#method_setEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklist\u003A\u003AsetAdded\u0028\u0029",
+            "name": "setAdded",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklist.html#method_setAdded"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklist\u003A\u003A\u0024email",
+            "name": "email",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklist.html#property_email"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklist\u003A\u003A\u0024added",
+            "name": "added",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklist.html#property_added"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklistData",
+            "name": "UserBlacklistData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklistData.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklistData\u003A\u003AgetEmail\u0028\u0029",
+            "name": "getEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklistData.html#method_getEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklistData\u003A\u003AgetName\u0028\u0029",
+            "name": "getName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklistData.html#method_getName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklistData\u003A\u003AgetData\u0028\u0029",
+            "name": "getData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklistData.html#method_getData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklistData\u003A\u003AsetEmail\u0028\u0029",
+            "name": "setEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklistData.html#method_setEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklistData\u003A\u003AsetName\u0028\u0029",
+            "name": "setName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklistData.html#method_setName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklistData\u003A\u003AsetData\u0028\u0029",
+            "name": "setData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklistData.html#method_setData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklistData\u003A\u003A\u0024email",
+            "name": "email",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklistData.html#property_email"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklistData\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklistData.html#property_name"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\UserBlacklistData\u003A\u003A\u0024data",
+            "name": "data",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-UserBlacklistData.html#property_data"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdminAttributeDefinitionRepository",
             "name": "AdminAttributeDefinitionRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -2770,6 +2855,16 @@ Search.appendIndex(
             "name": "findOneByToken",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminPasswordRequestRepository.html#method_findOneByToken"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\UserBlacklistDataRepository",
+            "name": "UserBlacklistDataRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Identity-Repository-UserBlacklistDataRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\UserBlacklistRepository",
+            "name": "UserBlacklistRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Identity-Repository-UserBlacklistRepository.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeDefinitionManager",
             "name": "AdminAttributeDefinitionManager",
@@ -7211,101 +7306,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscription.html#property_subscriberList"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist",
-            "name": "UserBlacklist",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003AgetEmail\u0028\u0029",
-            "name": "getEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#method_getEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003AgetAdded\u0028\u0029",
-            "name": "getAdded",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#method_getAdded"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003AsetEmail\u0028\u0029",
-            "name": "setEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#method_setEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003AsetAdded\u0028\u0029",
-            "name": "setAdded",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#method_setAdded"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003AgetBlacklistData\u0028\u0029",
-            "name": "getBlacklistData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#method_getBlacklistData"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003A\u0024email",
-            "name": "email",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#property_email"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003A\u0024added",
-            "name": "added",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#property_added"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003A\u0024blacklistData",
-            "name": "blacklistData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#property_blacklistData"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData",
-            "name": "UserBlacklistData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003AgetEmail\u0028\u0029",
-            "name": "getEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#method_getEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003AgetName\u0028\u0029",
-            "name": "getName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#method_getName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003AgetData\u0028\u0029",
-            "name": "getData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#method_getData"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003AsetEmail\u0028\u0029",
-            "name": "setEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#method_setEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003AsetName\u0028\u0029",
-            "name": "setName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#method_setName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003AsetData\u0028\u0029",
-            "name": "setData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#method_setData"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003A\u0024email",
-            "name": "email",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#property_email"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003A\u0024name",
-            "name": "name",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#property_name"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003A\u0024data",
-            "name": "data",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#property_data"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository",
             "name": "SubscriberAttributeDefinitionRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -7411,11 +7411,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findSubscriberWithSubscriptions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AisEmailBlacklisted\u0028\u0029",
-            "name": "isEmailBlacklisted",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_isEmailBlacklisted"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriptionRepository",
             "name": "SubscriptionRepository",
             "summary": "Repository\u0020for\u0020Subscription\u0020models.",
@@ -7430,31 +7425,6 @@ Search.appendIndex(
             "name": "findOneBySubscriberEmailAndListId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriptionRepository.html#method_findOneBySubscriberEmailAndListId"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\UserBlacklistDataRepository",
-            "name": "UserBlacklistDataRepository",
-            "summary": "Base\u0020class\u0020for\u0020repositories.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistDataRepository.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\UserBlacklistDataRepository\u003A\u003AfindOneByEmail\u0028\u0029",
-            "name": "findOneByEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistDataRepository.html#method_findOneByEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\UserBlacklistRepository",
-            "name": "UserBlacklistRepository",
-            "summary": "Base\u0020class\u0020for\u0020repositories.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\UserBlacklistRepository\u003A\u003AfindBlacklistInfoByEmail\u0028\u0029",
-            "name": "findBlacklistInfoByEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html#method_findBlacklistInfoByEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\UserBlacklistRepository\u003A\u003AfindOneByEmail\u0028\u0029",
-            "name": "findOneByEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html#method_findOneByEmail"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter",
             "name": "CsvImporter",
@@ -7575,61 +7545,6 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager",
-            "name": "SubscriberBlacklistManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager\u003A\u003AisEmailBlacklisted\u0028\u0029",
-            "name": "isEmailBlacklisted",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html#method_isEmailBlacklisted"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager\u003A\u003AgetBlacklistInfo\u0028\u0029",
-            "name": "getBlacklistInfo",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html#method_getBlacklistInfo"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager\u003A\u003AaddEmailToBlacklist\u0028\u0029",
-            "name": "addEmailToBlacklist",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html#method_addEmailToBlacklist"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager\u003A\u003AremoveEmailFromBlacklist\u0028\u0029",
-            "name": "removeEmailFromBlacklist",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html#method_removeEmailFromBlacklist"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager\u003A\u003AgetBlacklistReason\u0028\u0029",
-            "name": "getBlacklistReason",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html#method_getBlacklistReason"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager\u003A\u003A\u0024subscriberRepository",
-            "name": "subscriberRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html#property_subscriberRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager\u003A\u003A\u0024userBlacklistRepository",
-            "name": "userBlacklistRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html#property_userBlacklistRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager\u003A\u003A\u0024blacklistDataRepository",
-            "name": "blacklistDataRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html#property_blacklistDataRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager",
             "name": "SubscriberHistoryManager",
@@ -12245,81 +12160,6 @@ Search.appendIndex(
             "name": "testDeleteSubscriberAttribute",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testDeleteSubscriberAttribute"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest",
-            "name": "SubscriberBlacklistManagerTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003AtestIsEmailBlacklistedReturnsValueFromRepository\u0028\u0029",
-            "name": "testIsEmailBlacklistedReturnsValueFromRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#method_testIsEmailBlacklistedReturnsValueFromRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003AtestGetBlacklistInfoReturnsResultFromRepository\u0028\u0029",
-            "name": "testGetBlacklistInfoReturnsResultFromRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#method_testGetBlacklistInfoReturnsResultFromRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003AtestAddEmailToBlacklistDoesNotAddIfAlreadyBlacklisted\u0028\u0029",
-            "name": "testAddEmailToBlacklistDoesNotAddIfAlreadyBlacklisted",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#method_testAddEmailToBlacklistDoesNotAddIfAlreadyBlacklisted"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003AtestAddEmailToBlacklistAddsEntryAndReason\u0028\u0029",
-            "name": "testAddEmailToBlacklistAddsEntryAndReason",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#method_testAddEmailToBlacklistAddsEntryAndReason"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003AtestAddEmailToBlacklistAddsEntryWithoutReason\u0028\u0029",
-            "name": "testAddEmailToBlacklistAddsEntryWithoutReason",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#method_testAddEmailToBlacklistAddsEntryWithoutReason"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003AtestRemoveEmailFromBlacklistRemovesAllRelatedData\u0028\u0029",
-            "name": "testRemoveEmailFromBlacklistRemovesAllRelatedData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#method_testRemoveEmailFromBlacklistRemovesAllRelatedData"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003AtestGetBlacklistReasonReturnsReasonOrNull\u0028\u0029",
-            "name": "testGetBlacklistReasonReturnsReasonOrNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#method_testGetBlacklistReasonReturnsReasonOrNull"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003AtestGetBlacklistReasonReturnsNullIfNoData\u0028\u0029",
-            "name": "testGetBlacklistReasonReturnsNullIfNoData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#method_testGetBlacklistReasonReturnsNullIfNoData"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003A\u0024subscriberRepository",
-            "name": "subscriberRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#property_subscriberRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003A\u0024userBlacklistRepository",
-            "name": "userBlacklistRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#property_userBlacklistRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003A\u0024userBlacklistDataRepository",
-            "name": "userBlacklistDataRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#property_userBlacklistDataRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManagerTest\u003A\u003A\u0024manager",
-            "name": "manager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberBlacklistManagerTest.html#property_manager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManagerTest",
             "name": "SubscriberHistoryManagerTest",
