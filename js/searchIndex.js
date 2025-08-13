@@ -7371,10 +7371,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageDataRepository.html#method_findByPageAndName"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageDataRepository\u003A\u003AgetByPage\u0028\u0029",
+            "name": "getByPage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageDataRepository.html#method_getByPage"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageRepository",
             "name": "SubscriberPageRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageRepository\u003A\u003AfindPagesWithData\u0028\u0029",
+            "name": "findPagesWithData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_findPagesWithData"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository",
             "name": "SubscriberRepository",
