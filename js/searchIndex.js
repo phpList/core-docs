@@ -5356,6 +5356,11 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRegexRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\BounceRegexRepository\u003A\u003AfindOneByRegexHash\u0028\u0029",
+            "name": "findOneByRegexHash",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRegexRepository.html#method_findOneByRegexHash"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\BounceRepository",
             "name": "BounceRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -5455,6 +5460,51 @@ Search.appendIndex(
             "name": "UserMessageRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager",
+            "name": "BounceRegexManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AcreateOrUpdateFromPattern\u0028\u0029",
+            "name": "createOrUpdateFromPattern",
+            "summary": "Creates\u0020or\u0020updates\u0020\u0028if\u0020exists\u0029\u0020a\u0020BounceRegex\u0020from\u0020a\u0020raw\u0020regex\u0020pattern.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_createOrUpdateFromPattern"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_getAll"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AgetByHash\u0028\u0029",
+            "name": "getByHash",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_getByHash"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_delete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AassociateBounce\u0028\u0029",
+            "name": "associateBounce",
+            "summary": "Associates\u0020a\u0020bounce\u0020with\u0020the\u0020regex\u0020it\u0020matched\u0020and\u0020increments\u0020usage\u0020count.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_associateBounce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003A\u0024bounceRegexRepository",
+            "name": "bounceRegexRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#property_bounceRegexRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\MessageBuilder",
             "name": "MessageBuilder",
@@ -7366,25 +7416,10 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageDataRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageDataRepository\u003A\u003AfindByPageAndName\u0028\u0029",
-            "name": "findByPageAndName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageDataRepository.html#method_findByPageAndName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageDataRepository\u003A\u003AgetByPage\u0028\u0029",
-            "name": "getByPage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageDataRepository.html#method_getByPage"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageRepository",
             "name": "SubscriberPageRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageRepository\u003A\u003AfindPagesWithData\u0028\u0029",
-            "name": "findPagesWithData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_findPagesWithData"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository",
             "name": "SubscriberRepository",
@@ -7555,66 +7590,6 @@ Search.appendIndex(
             "name": "attributeTypeValidator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#property_attributeTypeValidator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager",
-            "name": "SubscribePageManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AcreatePage\u0028\u0029",
-            "name": "createPage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_createPage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AgetPage\u0028\u0029",
-            "name": "getPage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_getPage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AupdatePage\u0028\u0029",
-            "name": "updatePage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_updatePage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AsetActive\u0028\u0029",
-            "name": "setActive",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_setActive"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AdeletePage\u0028\u0029",
-            "name": "deletePage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_deletePage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AgetPageData\u0028\u0029",
-            "name": "getPageData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_getPageData"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AsetPageData\u0028\u0029",
-            "name": "setPageData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_setPageData"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024pageRepository",
-            "name": "pageRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_pageRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024pageDataRepository",
-            "name": "pageDataRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_pageDataRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager",
             "name": "SubscriberAttributeManager",
@@ -11366,6 +11341,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-SubscriberListRepositoryTest.html#property_subject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest",
+            "name": "BounceRegexManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestCreateNewRegex\u0028\u0029",
+            "name": "testCreateNewRegex",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testCreateNewRegex"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestUpdateExistingRegex\u0028\u0029",
+            "name": "testUpdateExistingRegex",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testUpdateExistingRegex"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestDeleteRegex\u0028\u0029",
+            "name": "testDeleteRegex",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testDeleteRegex"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestAssociateBounceIncrementsCountAndPersistsRelation\u0028\u0029",
+            "name": "testAssociateBounceIncrementsCountAndPersistsRelation",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testAssociateBounceIncrementsCountAndPersistsRelation"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003A\u0024regexRepository",
+            "name": "regexRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#property_regexRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003A\u0024manager",
+            "name": "manager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#property_manager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest",
             "name": "MessageBuilderTest",
             "summary": "",
@@ -12291,91 +12311,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testDeleteAttributeDefinition"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest",
-            "name": "SubscribePageManagerTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestCreatePageCreatesAndSaves\u0028\u0029",
-            "name": "testCreatePageCreatesAndSaves",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testCreatePageCreatesAndSaves"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestGetPageReturnsPage\u0028\u0029",
-            "name": "testGetPageReturnsPage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageReturnsPage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestGetPageThrowsWhenNotFound\u0028\u0029",
-            "name": "testGetPageThrowsWhenNotFound",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageThrowsWhenNotFound"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestUpdatePageUpdatesProvidedFieldsAndFlushes\u0028\u0029",
-            "name": "testUpdatePageUpdatesProvidedFieldsAndFlushes",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testUpdatePageUpdatesProvidedFieldsAndFlushes"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestUpdatePageLeavesNullFieldsUntouched\u0028\u0029",
-            "name": "testUpdatePageLeavesNullFieldsUntouched",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testUpdatePageLeavesNullFieldsUntouched"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSetActiveSetsFlagAndFlushes\u0028\u0029",
-            "name": "testSetActiveSetsFlagAndFlushes",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetActiveSetsFlagAndFlushes"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestDeletePageCallsRepositoryRemove\u0028\u0029",
-            "name": "testDeletePageCallsRepositoryRemove",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testDeletePageCallsRepositoryRemove"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestGetPageDataReturnsStringWhenFound\u0028\u0029",
-            "name": "testGetPageDataReturnsStringWhenFound",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageDataReturnsStringWhenFound"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestGetPageDataReturnsNullWhenNotFound\u0028\u0029",
-            "name": "testGetPageDataReturnsNullWhenNotFound",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageDataReturnsNullWhenNotFound"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSetPageDataUpdatesExistingDataAndFlushes\u0028\u0029",
-            "name": "testSetPageDataUpdatesExistingDataAndFlushes",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetPageDataUpdatesExistingDataAndFlushes"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes\u0028\u0029",
-            "name": "testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003A\u0024pageRepository",
-            "name": "pageRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_pageRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003A\u0024pageDataRepository",
-            "name": "pageDataRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_pageDataRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003A\u0024manager",
-            "name": "manager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_manager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManagerTest",
             "name": "SubscriberAttributeManagerTest",
             "summary": "",
@@ -13261,15 +13196,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-repository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder",
-            "name": "Builder",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain-messaging-service-builder.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service",
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder",
+            "name": "Builder",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-service-builder.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager",
             "name": "Manager",
@@ -13591,6 +13526,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging-repository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-service.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder",
             "name": "Builder",
             "summary": "",
@@ -13600,11 +13540,6 @@ Search.appendIndex(
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-service.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service",
-            "name": "Service",
-            "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-messaging-service.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Validator",
             "name": "Validator",
