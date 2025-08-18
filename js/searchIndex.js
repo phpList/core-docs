@@ -5356,6 +5356,11 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRegexRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\BounceRegexRepository\u003A\u003AfindOneByRegexHash\u0028\u0029",
+            "name": "findOneByRegexHash",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRegexRepository.html#method_findOneByRegexHash"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\BounceRepository",
             "name": "BounceRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -5455,6 +5460,51 @@ Search.appendIndex(
             "name": "UserMessageRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager",
+            "name": "BounceRegexManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AcreateOrUpdateFromPattern\u0028\u0029",
+            "name": "createOrUpdateFromPattern",
+            "summary": "Creates\u0020or\u0020updates\u0020\u0028if\u0020exists\u0029\u0020a\u0020BounceRegex\u0020from\u0020a\u0020raw\u0020regex\u0020pattern.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_createOrUpdateFromPattern"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_getAll"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AgetByHash\u0028\u0029",
+            "name": "getByHash",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_getByHash"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_delete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AassociateBounce\u0028\u0029",
+            "name": "associateBounce",
+            "summary": "Associates\u0020a\u0020bounce\u0020with\u0020the\u0020regex\u0020it\u0020matched\u0020and\u0020increments\u0020usage\u0020count.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_associateBounce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003A\u0024bounceRegexRepository",
+            "name": "bounceRegexRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#property_bounceRegexRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\MessageBuilder",
             "name": "MessageBuilder",
@@ -11366,6 +11416,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-SubscriberListRepositoryTest.html#property_subject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest",
+            "name": "BounceRegexManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestCreateNewRegex\u0028\u0029",
+            "name": "testCreateNewRegex",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testCreateNewRegex"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestUpdateExistingRegex\u0028\u0029",
+            "name": "testUpdateExistingRegex",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testUpdateExistingRegex"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestDeleteRegex\u0028\u0029",
+            "name": "testDeleteRegex",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testDeleteRegex"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestAssociateBounceIncrementsCountAndPersistsRelation\u0028\u0029",
+            "name": "testAssociateBounceIncrementsCountAndPersistsRelation",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testAssociateBounceIncrementsCountAndPersistsRelation"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003A\u0024regexRepository",
+            "name": "regexRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#property_regexRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003A\u0024manager",
+            "name": "manager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#property_manager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest",
             "name": "MessageBuilderTest",
             "summary": "",
@@ -13261,15 +13356,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-repository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder",
-            "name": "Builder",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain-messaging-service-builder.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service",
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder",
+            "name": "Builder",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-service-builder.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager",
             "name": "Manager",
@@ -13591,6 +13686,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging-repository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-service.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder",
             "name": "Builder",
             "summary": "",
@@ -13600,11 +13700,6 @@ Search.appendIndex(
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-service.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service",
-            "name": "Service",
-            "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-messaging-service.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Validator",
             "name": "Validator",
