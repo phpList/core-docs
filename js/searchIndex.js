@@ -3481,15 +3481,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceRegex.html#method_setListOrder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceRegex\u003A\u003AgetAdmin\u0028\u0029",
-            "name": "getAdmin",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceRegex\u003A\u003AgetAdminId\u0028\u0029",
+            "name": "getAdminId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceRegex.html#method_getAdmin"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceRegex.html#method_getAdminId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceRegex\u003A\u003AsetAdmin\u0028\u0029",
-            "name": "setAdmin",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceRegex\u003A\u003AsetAdminId\u0028\u0029",
+            "name": "setAdminId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceRegex.html#method_setAdmin"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceRegex.html#method_setAdminId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceRegex\u003A\u003AgetComment\u0028\u0029",
             "name": "getComment",
@@ -3546,10 +3546,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceRegex.html#property_listOrder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceRegex\u003A\u003A\u0024admin",
-            "name": "admin",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceRegex\u003A\u003A\u0024adminId",
+            "name": "adminId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceRegex.html#property_admin"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceRegex.html#property_adminId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceRegex\u003A\u003A\u0024comment",
             "name": "comment",
