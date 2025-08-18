@@ -5461,51 +5461,6 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager",
-            "name": "BounceRegexManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AcreateOrUpdateFromPattern\u0028\u0029",
-            "name": "createOrUpdateFromPattern",
-            "summary": "Creates\u0020or\u0020updates\u0020\u0028if\u0020exists\u0029\u0020a\u0020BounceRegex\u0020from\u0020a\u0020raw\u0020regex\u0020pattern.",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_createOrUpdateFromPattern"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AgetAll\u0028\u0029",
-            "name": "getAll",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_getAll"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AgetByHash\u0028\u0029",
-            "name": "getByHash",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_getByHash"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003Adelete\u0028\u0029",
-            "name": "delete",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_delete"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003AassociateBounce\u0028\u0029",
-            "name": "associateBounce",
-            "summary": "Associates\u0020a\u0020bounce\u0020with\u0020the\u0020regex\u0020it\u0020matched\u0020and\u0020increments\u0020usage\u0020count.",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#method_associateBounce"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003A\u0024bounceRegexRepository",
-            "name": "bounceRegexRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#property_bounceRegexRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceRegexManager\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-BounceRegexManager.html#property_entityManager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\MessageBuilder",
             "name": "MessageBuilder",
             "summary": "",
@@ -5671,6 +5626,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#property_messageBus"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager",
+            "name": "BounceRegexManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003AcreateOrUpdateFromPattern\u0028\u0029",
+            "name": "createOrUpdateFromPattern",
+            "summary": "Creates\u0020or\u0020updates\u0020\u0028if\u0020exists\u0029\u0020a\u0020BounceRegex\u0020from\u0020a\u0020raw\u0020regex\u0020pattern.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#method_createOrUpdateFromPattern"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#method_getAll"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003AgetByHash\u0028\u0029",
+            "name": "getByHash",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#method_getByHash"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#method_delete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003AassociateBounce\u0028\u0029",
+            "name": "associateBounce",
+            "summary": "Associates\u0020a\u0020bounce\u0020with\u0020the\u0020regex\u0020it\u0020matched\u0020and\u0020increments\u0020usage\u0020count.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#method_associateBounce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003A\u0024bounceRegexRepository",
+            "name": "bounceRegexRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#property_bounceRegexRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#property_entityManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager",
             "name": "ListMessageManager",
             "summary": "",
@@ -5736,45 +5736,150 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#property_entityManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager",
             "name": "MessageManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageManager.html"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageManager\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageManager.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageManager\u003A\u003AcreateMessage\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003AcreateMessage\u0028\u0029",
             "name": "createMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageManager.html#method_createMessage"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_createMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageManager\u003A\u003AupdateMessage\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003AupdateMessage\u0028\u0029",
             "name": "updateMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageManager.html#method_updateMessage"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_updateMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageManager\u003A\u003Adelete\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageManager.html#method_delete"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_delete"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageManager\u003A\u003AgetMessagesByOwner\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003AgetMessagesByOwner\u0028\u0029",
             "name": "getMessagesByOwner",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageManager.html#method_getMessagesByOwner"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_getMessagesByOwner"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageManager\u003A\u003A\u0024messageRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003A\u0024messageRepository",
             "name": "messageRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageManager.html#property_messageRepository"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#property_messageRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageManager\u003A\u003A\u0024messageBuilder",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003A\u0024messageBuilder",
             "name": "messageBuilder",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageManager.html#property_messageBuilder"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#property_messageBuilder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager",
+            "name": "TemplateImageManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AcreateImagesFromImagePaths\u0028\u0029",
+            "name": "createImagesFromImagePaths",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_createImagesFromImagePaths"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AguessMimeType\u0028\u0029",
+            "name": "guessMimeType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_guessMimeType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AextractAllImages\u0028\u0029",
+            "name": "extractAllImages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_extractAllImages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AextractTemplateImagesFromContent\u0028\u0029",
+            "name": "extractTemplateImagesFromContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_extractTemplateImagesFromContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AextractImagesFromHtml\u0028\u0029",
+            "name": "extractImagesFromHtml",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_extractImagesFromHtml"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_delete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AIMAGE_MIME_TYPES",
+            "name": "IMAGE_MIME_TYPES",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#constant_IMAGE_MIME_TYPES"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003A\u0024templateImageRepository",
+            "name": "templateImageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_templateImageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager",
+            "name": "TemplateManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#method_create"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#method_update"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#method_delete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003A\u0024templateRepository",
+            "name": "templateRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#property_templateRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003A\u0024templateImageManager",
+            "name": "templateImageManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#property_templateImageManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003A\u0024templateLinkValidator",
+            "name": "templateLinkValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#property_templateLinkValidator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003A\u0024templateImageValidator",
+            "name": "templateImageValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#property_templateImageValidator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator",
             "name": "MessageProcessingPreparator",
@@ -5830,111 +5935,6 @@ Search.appendIndex(
             "name": "linkTrackService",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_linkTrackService"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager",
-            "name": "TemplateImageManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageManager.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageManager.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager\u003A\u003AcreateImagesFromImagePaths\u0028\u0029",
-            "name": "createImagesFromImagePaths",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageManager.html#method_createImagesFromImagePaths"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager\u003A\u003AguessMimeType\u0028\u0029",
-            "name": "guessMimeType",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageManager.html#method_guessMimeType"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager\u003A\u003AextractAllImages\u0028\u0029",
-            "name": "extractAllImages",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageManager.html#method_extractAllImages"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager\u003A\u003AextractTemplateImagesFromContent\u0028\u0029",
-            "name": "extractTemplateImagesFromContent",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageManager.html#method_extractTemplateImagesFromContent"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager\u003A\u003AextractImagesFromHtml\u0028\u0029",
-            "name": "extractImagesFromHtml",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageManager.html#method_extractImagesFromHtml"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager\u003A\u003Adelete\u0028\u0029",
-            "name": "delete",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageManager.html#method_delete"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager\u003A\u003AIMAGE_MIME_TYPES",
-            "name": "IMAGE_MIME_TYPES",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageManager.html#constant_IMAGE_MIME_TYPES"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager\u003A\u003A\u0024templateImageRepository",
-            "name": "templateImageRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageManager.html#property_templateImageRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageManager\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageManager.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateManager",
-            "name": "TemplateManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateManager.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateManager\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateManager.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateManager\u003A\u003Acreate\u0028\u0029",
-            "name": "create",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateManager.html#method_create"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateManager\u003A\u003Aupdate\u0028\u0029",
-            "name": "update",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateManager.html#method_update"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateManager\u003A\u003Adelete\u0028\u0029",
-            "name": "delete",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateManager.html#method_delete"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateManager\u003A\u003A\u0024templateRepository",
-            "name": "templateRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateManager.html#property_templateRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateManager\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateManager.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateManager\u003A\u003A\u0024templateImageManager",
-            "name": "templateImageManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateManager.html#property_templateImageManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateManager\u003A\u003A\u0024templateLinkValidator",
-            "name": "templateLinkValidator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateManager.html#property_templateLinkValidator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateManager\u003A\u003A\u0024templateImageValidator",
-            "name": "templateImageValidator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateManager.html#property_templateImageValidator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateImageValidator",
             "name": "TemplateImageValidator",
@@ -11416,51 +11416,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-SubscriberListRepositoryTest.html#property_subject"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest",
-            "name": "BounceRegexManagerTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestCreateNewRegex\u0028\u0029",
-            "name": "testCreateNewRegex",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testCreateNewRegex"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestUpdateExistingRegex\u0028\u0029",
-            "name": "testUpdateExistingRegex",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testUpdateExistingRegex"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestDeleteRegex\u0028\u0029",
-            "name": "testDeleteRegex",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testDeleteRegex"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003AtestAssociateBounceIncrementsCountAndPersistsRelation\u0028\u0029",
-            "name": "testAssociateBounceIncrementsCountAndPersistsRelation",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#method_testAssociateBounceIncrementsCountAndPersistsRelation"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003A\u0024regexRepository",
-            "name": "regexRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#property_regexRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\BounceRegexManagerTest\u003A\u003A\u0024manager",
-            "name": "manager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceRegexManagerTest.html#property_manager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest",
             "name": "MessageBuilderTest",
             "summary": "",
@@ -11796,70 +11751,205 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-EmailServiceTest.html#property_defaultFromEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest",
-            "name": "ListMessageManagerTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceRegexManagerTest",
+            "name": "BounceRegexManagerTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceRegexManagerTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceRegexManagerTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceRegexManagerTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestAssociateMessageWithList\u0028\u0029",
-            "name": "testAssociateMessageWithList",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceRegexManagerTest\u003A\u003AtestCreateNewRegex\u0028\u0029",
+            "name": "testCreateNewRegex",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testAssociateMessageWithList"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceRegexManagerTest.html#method_testCreateNewRegex"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestRemoveAssociation\u0028\u0029",
-            "name": "testRemoveAssociation",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceRegexManagerTest\u003A\u003AtestUpdateExistingRegex\u0028\u0029",
+            "name": "testUpdateExistingRegex",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testRemoveAssociation"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceRegexManagerTest.html#method_testUpdateExistingRegex"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestIsMessageAssociatedWithList\u0028\u0029",
-            "name": "testIsMessageAssociatedWithList",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceRegexManagerTest\u003A\u003AtestDeleteRegex\u0028\u0029",
+            "name": "testDeleteRegex",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testIsMessageAssociatedWithList"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceRegexManagerTest.html#method_testDeleteRegex"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestAssociateMessageWithLists\u0028\u0029",
-            "name": "testAssociateMessageWithLists",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceRegexManagerTest\u003A\u003AtestAssociateBounceIncrementsCountAndPersistsRelation\u0028\u0029",
+            "name": "testAssociateBounceIncrementsCountAndPersistsRelation",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testAssociateMessageWithLists"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceRegexManagerTest.html#method_testAssociateBounceIncrementsCountAndPersistsRelation"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003AtestRemoveAllListAssociationsForMessage\u0028\u0029",
-            "name": "testRemoveAllListAssociationsForMessage",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceRegexManagerTest\u003A\u003A\u0024regexRepository",
+            "name": "regexRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#method_testRemoveAllListAssociationsForMessage"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceRegexManagerTest.html#property_regexRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003A\u0024listMessageRepository",
-            "name": "listMessageRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#property_listMessageRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003A\u0024entityManager",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceRegexManagerTest\u003A\u003A\u0024entityManager",
             "name": "entityManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#property_entityManager"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceRegexManagerTest.html#property_entityManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ListMessageManagerTest\u003A\u003A\u0024manager",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceRegexManagerTest\u003A\u003A\u0024manager",
             "name": "manager",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ListMessageManagerTest.html#property_manager"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceRegexManagerTest.html#property_manager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageManagerTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\ListMessageManagerTest",
+            "name": "ListMessageManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-ListMessageManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\ListMessageManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-ListMessageManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\ListMessageManagerTest\u003A\u003AtestAssociateMessageWithList\u0028\u0029",
+            "name": "testAssociateMessageWithList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-ListMessageManagerTest.html#method_testAssociateMessageWithList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\ListMessageManagerTest\u003A\u003AtestRemoveAssociation\u0028\u0029",
+            "name": "testRemoveAssociation",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-ListMessageManagerTest.html#method_testRemoveAssociation"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\ListMessageManagerTest\u003A\u003AtestIsMessageAssociatedWithList\u0028\u0029",
+            "name": "testIsMessageAssociatedWithList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-ListMessageManagerTest.html#method_testIsMessageAssociatedWithList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\ListMessageManagerTest\u003A\u003AtestAssociateMessageWithLists\u0028\u0029",
+            "name": "testAssociateMessageWithLists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-ListMessageManagerTest.html#method_testAssociateMessageWithLists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\ListMessageManagerTest\u003A\u003AtestRemoveAllListAssociationsForMessage\u0028\u0029",
+            "name": "testRemoveAllListAssociationsForMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-ListMessageManagerTest.html#method_testRemoveAllListAssociationsForMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\ListMessageManagerTest\u003A\u003A\u0024listMessageRepository",
+            "name": "listMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-ListMessageManagerTest.html#property_listMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\ListMessageManagerTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-ListMessageManagerTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\ListMessageManagerTest\u003A\u003A\u0024manager",
+            "name": "manager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-ListMessageManagerTest.html#property_manager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageManagerTest",
             "name": "MessageManagerTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageManagerTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageManagerTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageManagerTest\u003A\u003AtestCreateMessageReturnsPersistedMessage\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageManagerTest\u003A\u003AtestCreateMessageReturnsPersistedMessage\u0028\u0029",
             "name": "testCreateMessageReturnsPersistedMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageManagerTest.html#method_testCreateMessageReturnsPersistedMessage"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageManagerTest.html#method_testCreateMessageReturnsPersistedMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageManagerTest\u003A\u003AtestUpdateMessageReturnsUpdatedMessage\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageManagerTest\u003A\u003AtestUpdateMessageReturnsUpdatedMessage\u0028\u0029",
             "name": "testUpdateMessageReturnsUpdatedMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageManagerTest.html#method_testUpdateMessageReturnsUpdatedMessage"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageManagerTest.html#method_testUpdateMessageReturnsUpdatedMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest",
+            "name": "TemplateImageManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AtestCreateImagesFromImagePaths\u0028\u0029",
+            "name": "testCreateImagesFromImagePaths",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_testCreateImagesFromImagePaths"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AtestGuessMimeType\u0028\u0029",
+            "name": "testGuessMimeType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_testGuessMimeType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AtestExtractAllImages\u0028\u0029",
+            "name": "testExtractAllImages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_testExtractAllImages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AtestDeleteTemplateImage\u0028\u0029",
+            "name": "testDeleteTemplateImage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_testDeleteTemplateImage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003A\u0024templateImageRepository",
+            "name": "templateImageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#property_templateImageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003A\u0024manager",
+            "name": "manager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#property_manager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest",
+            "name": "TemplateManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003AtestCreateTemplateSuccessfully\u0028\u0029",
+            "name": "testCreateTemplateSuccessfully",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#method_testCreateTemplateSuccessfully"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003AtestDeleteTemplate\u0028\u0029",
+            "name": "testDeleteTemplate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#method_testDeleteTemplate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003A\u0024templateRepository",
+            "name": "templateRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#property_templateRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003A\u0024templateImageManager",
+            "name": "templateImageManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#property_templateImageManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003A\u0024templateLinkValidator",
+            "name": "templateLinkValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#property_templateLinkValidator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003A\u0024templateImageValidator",
+            "name": "templateImageValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#property_templateImageValidator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003A\u0024manager",
+            "name": "manager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#property_manager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest",
             "name": "MessageProcessingPreparatorTest",
@@ -11935,96 +12025,6 @@ Search.appendIndex(
             "name": "preparator",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#property_preparator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateImageManagerTest",
-            "name": "TemplateImageManagerTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateImageManagerTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateImageManagerTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateImageManagerTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateImageManagerTest\u003A\u003AtestCreateImagesFromImagePaths\u0028\u0029",
-            "name": "testCreateImagesFromImagePaths",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateImageManagerTest.html#method_testCreateImagesFromImagePaths"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateImageManagerTest\u003A\u003AtestGuessMimeType\u0028\u0029",
-            "name": "testGuessMimeType",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateImageManagerTest.html#method_testGuessMimeType"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateImageManagerTest\u003A\u003AtestExtractAllImages\u0028\u0029",
-            "name": "testExtractAllImages",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateImageManagerTest.html#method_testExtractAllImages"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateImageManagerTest\u003A\u003AtestDeleteTemplateImage\u0028\u0029",
-            "name": "testDeleteTemplateImage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateImageManagerTest.html#method_testDeleteTemplateImage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateImageManagerTest\u003A\u003A\u0024templateImageRepository",
-            "name": "templateImageRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateImageManagerTest.html#property_templateImageRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateImageManagerTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateImageManagerTest.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateImageManagerTest\u003A\u003A\u0024manager",
-            "name": "manager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateImageManagerTest.html#property_manager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateManagerTest",
-            "name": "TemplateManagerTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateManagerTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateManagerTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateManagerTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateManagerTest\u003A\u003AtestCreateTemplateSuccessfully\u0028\u0029",
-            "name": "testCreateTemplateSuccessfully",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateManagerTest.html#method_testCreateTemplateSuccessfully"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateManagerTest\u003A\u003AtestDeleteTemplate\u0028\u0029",
-            "name": "testDeleteTemplate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateManagerTest.html#method_testDeleteTemplate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateManagerTest\u003A\u003A\u0024templateRepository",
-            "name": "templateRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateManagerTest.html#property_templateRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateManagerTest\u003A\u003A\u0024templateImageManager",
-            "name": "templateImageManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateManagerTest.html#property_templateImageManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateManagerTest\u003A\u003A\u0024templateLinkValidator",
-            "name": "templateLinkValidator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateManagerTest.html#property_templateLinkValidator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateManagerTest\u003A\u003A\u0024templateImageValidator",
-            "name": "templateImageValidator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateManagerTest.html#property_templateImageValidator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\TemplateManagerTest\u003A\u003A\u0024manager",
-            "name": "manager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-TemplateManagerTest.html#property_manager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Validator\\TemplateImageValidatorTest",
             "name": "TemplateImageValidatorTest",
@@ -13356,15 +13356,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-repository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service",
-            "name": "Service",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain-messaging-service.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder",
             "name": "Builder",
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-service-builder.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-service.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager",
             "name": "Manager",
@@ -13686,11 +13686,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging-repository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service",
-            "name": "Service",
-            "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-messaging-service.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder",
             "name": "Builder",
             "summary": "",
@@ -13700,6 +13695,16 @@ Search.appendIndex(
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager",
+            "name": "Manager",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-service-manager.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Validator",
             "name": "Validator",
