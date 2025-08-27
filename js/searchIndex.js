@@ -5871,15 +5871,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-ConsecutiveBounceHandler.html#property_subscriberRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ConsecutiveBounceHandler\u003A\u003A\u0024subscriberManager",
-            "name": "subscriberManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-ConsecutiveBounceHandler.html#property_subscriberManager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ConsecutiveBounceHandler\u003A\u003A\u0024subscriberHistoryManager",
             "name": "subscriberHistoryManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-ConsecutiveBounceHandler.html#property_subscriberHistoryManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ConsecutiveBounceHandler\u003A\u003A\u0024blacklistService",
+            "name": "blacklistService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ConsecutiveBounceHandler.html#property_blacklistService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ConsecutiveBounceHandler\u003A\u003A\u0024unsubscribeThreshold",
             "name": "unsubscribeThreshold",
@@ -5966,15 +5966,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistEmailAndDeleteBounceHandler.html#property_subscriberHistoryManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistEmailAndDeleteBounceHandler\u003A\u003A\u0024subscriberManager",
-            "name": "subscriberManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistEmailAndDeleteBounceHandler.html#property_subscriberManager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistEmailAndDeleteBounceHandler\u003A\u003A\u0024bounceManager",
             "name": "bounceManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistEmailAndDeleteBounceHandler.html#property_bounceManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistEmailAndDeleteBounceHandler\u003A\u003A\u0024blacklistService",
+            "name": "blacklistService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistEmailAndDeleteBounceHandler.html#property_blacklistService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistEmailHandler",
             "name": "BlacklistEmailHandler",
@@ -6001,10 +6001,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistEmailHandler.html#property_subscriberHistoryManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistEmailHandler\u003A\u003A\u0024subscriberManager",
-            "name": "subscriberManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistEmailHandler\u003A\u003A\u0024blacklistService",
+            "name": "blacklistService",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistEmailHandler.html#property_subscriberManager"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistEmailHandler.html#property_blacklistService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistUserAndDeleteBounceHandler",
             "name": "BlacklistUserAndDeleteBounceHandler",
@@ -6031,15 +6031,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserAndDeleteBounceHandler.html#property_subscriberHistoryManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistUserAndDeleteBounceHandler\u003A\u003A\u0024subscriberManager",
-            "name": "subscriberManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserAndDeleteBounceHandler.html#property_subscriberManager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistUserAndDeleteBounceHandler\u003A\u003A\u0024bounceManager",
             "name": "bounceManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserAndDeleteBounceHandler.html#property_bounceManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistUserAndDeleteBounceHandler\u003A\u003A\u0024blacklistService",
+            "name": "blacklistService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserAndDeleteBounceHandler.html#property_blacklistService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistUserHandler",
             "name": "BlacklistUserHandler",
@@ -6066,10 +6066,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_subscriberHistoryManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistUserHandler\u003A\u003A\u0024subscriberManager",
-            "name": "subscriberManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistUserHandler\u003A\u003A\u0024blacklistService",
+            "name": "blacklistService",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_subscriberManager"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_blacklistService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BounceActionHandlerInterface",
             "name": "BounceActionHandlerInterface",
@@ -6455,6 +6455,11 @@ Search.appendIndex(
             "name": "userMessageBounceRepo",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_userMessageBounceRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003A\u0024logger",
             "name": "logger",
@@ -9386,11 +9391,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_updateFromImport"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003Ablacklist\u0028\u0029",
-            "name": "blacklist",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_blacklist"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AdecrementBounceCount\u0028\u0029",
             "name": "decrementBounceCount",
             "summary": "",
@@ -9415,11 +9415,6 @@ Search.appendIndex(
             "name": "subscriberDeletionService",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberDeletionService"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024blacklistService",
-            "name": "blacklistService",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_blacklistService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager",
             "name": "SubscriptionManager",

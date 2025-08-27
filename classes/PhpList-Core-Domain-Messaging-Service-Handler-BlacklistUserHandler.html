@@ -166,15 +166,15 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_subscriberHistoryManager">$subscriberHistoryManager</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_blacklistService">$blacklistService</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\SubscriberBlacklistService">SubscriberBlacklistService</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_subscriberManager">$subscriberManager</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_subscriberHistoryManager">$subscriberHistoryManager</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberManager">SubscriberManager</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>            </span>
 </dt>
 
     </dl>
@@ -223,6 +223,44 @@
             -private
                                                                     "
 >
+    <h4 class="phpdocumentor-element__name" id="property_blacklistService">
+        $blacklistService
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_blacklistService" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/BlacklistUserHandler.php"><a href="files/src-domain-messaging-service-handler-blacklistuserhandler.html"><abbr title="src/Domain/Messaging/Service/Handler/BlacklistUserHandler.php">BlacklistUserHandler.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\SubscriberBlacklistService">SubscriberBlacklistService</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$blacklistService</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_subscriberHistoryManager">
         $subscriberHistoryManager
         <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_subscriberHistoryManager" class="headerlink"><i class="fas fa-link"></i></a>
@@ -243,44 +281,6 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a></span>
     <span class="phpdocumentor-signature__name">$subscriberHistoryManager</span>
-    </code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_subscriberManager">
-        $subscriberManager
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_subscriberManager" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/BlacklistUserHandler.php"><a href="files/src-domain-messaging-service-handler-blacklistuserhandler.html"><abbr title="src/Domain/Messaging/Service/Handler/BlacklistUserHandler.php">BlacklistUserHandler.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">13</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberManager">SubscriberManager</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$subscriberManager</span>
     </code>
 
     
@@ -321,7 +321,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberManager">SubscriberManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberManager</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\SubscriberBlacklistService">SubscriberBlacklistService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$blacklistService</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -337,8 +337,8 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$subscriberManager</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberManager">SubscriberManager</abbr></a></span>
+                <span class="phpdocumentor-signature__argument__name">$blacklistService</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\SubscriberBlacklistService">SubscriberBlacklistService</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -558,8 +558,8 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_blacklistService">$blacklistService</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_subscriberHistoryManager">$subscriberHistoryManager</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistUserHandler.html#property_subscriberManager">$subscriberManager</a></li>
                                             </ul>
                 </li>
             
