@@ -130,7 +130,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
@@ -173,6 +173,12 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_existsByMessageIdAndUserId">existsByMessageIdAndUserId()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a>
     <span>
                                 &nbsp;: array&lt;string|int, mixed&gt;    </span>
@@ -190,6 +196,18 @@
                                 &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a>&gt;    </span>
 </dt>
 <dd>Get filtered + paginated messages for a given owner and status.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getPaginatedWithJoinNoRelation">getPaginatedWithJoinNoRelation()</a>
+    <span>
+                                &nbsp;: array&lt;int, <abbr title="array{umb: \PhpList\Core\Domain\Messaging\Model\UserMessageBounce, bounce: \PhpList\Core\Domain\Messaging\Model\Bounce}">Bounce}</abbr>&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getUserMessageHistoryWithBounces">getUserMessageHistoryWithBounces()</a>
+    <span>
+                                &nbsp;: array&lt;int, <abbr title="array{um: \PhpList\Core\Domain\Messaging\Model\UserMessage, umb: \PhpList\Core\Domain\Messaging\Model\UserMessageBounce|null, b: \PhpList\Core\Domain\Messaging\Model\Bounce|null}">Bounce|null}</abbr>&gt;    </span>
+</dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_remove">remove()</a>
@@ -219,6 +237,61 @@
             <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_existsByMessageIdAndUserId">
+        existsByMessageIdAndUserId()
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_existsByMessageIdAndUserId" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">existsByMessageIdAndUserId</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$messageId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$subscriberId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
                     <article
         class="phpdocumentor-element
             -method
@@ -292,7 +365,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -401,6 +474,109 @@
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a>&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getPaginatedWithJoinNoRelation">
+        getPaginatedWithJoinNoRelation()
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getPaginatedWithJoinNoRelation" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">45</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getPaginatedWithJoinNoRelation</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fromId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$limit</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="array{umb: \PhpList\Core\Domain\Messaging\Model\UserMessageBounce, bounce: \PhpList\Core\Domain\Messaging\Model\Bounce}">Bounce}</abbr>&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$fromId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$limit</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="array{umb: \PhpList\Core\Domain\Messaging\Model\UserMessageBounce, bounce: \PhpList\Core\Domain\Messaging\Model\Bounce}">Bounce}</abbr>&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getUserMessageHistoryWithBounces">
+        getUserMessageHistoryWithBounces()
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getUserMessageHistoryWithBounces" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">67</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getUserMessageHistoryWithBounces</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="array{um: \PhpList\Core\Domain\Messaging\Model\UserMessage, umb: \PhpList\Core\Domain\Messaging\Model\UserMessageBounce|null, b: \PhpList\Core\Domain\Messaging\Model\Bounce|null}">Bounce|null}</abbr>&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$subscriber</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, <abbr title="array{um: \PhpList\Core\Domain\Messaging\Model\UserMessage, umb: \PhpList\Core\Domain\Messaging\Model\UserMessageBounce|null, b: \PhpList\Core\Domain\Messaging\Model\Bounce|null}">Bounce|null}</abbr>&gt;</span>
             </section>
 
 </article>
@@ -615,9 +791,12 @@ following the Law of Demeter.</p>
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_existsByMessageIdAndUserId">existsByMessageIdAndUserId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCountByMessageId">getCountByMessageId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getPaginatedWithJoinNoRelation">getPaginatedWithJoinNoRelation()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getUserMessageHistoryWithBounces">getUserMessageHistoryWithBounces()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_remove">remove()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save">save()</a></li>
                                     </ul>

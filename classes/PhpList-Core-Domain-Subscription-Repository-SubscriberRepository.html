@@ -195,6 +195,12 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_distinctUsersWithBouncesConfirmedNotBlacklisted">distinctUsersWithBouncesConfirmedNotBlacklisted()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findOneByEmail">findOneByEmail()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>|null    </span>
@@ -237,9 +243,27 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_incrementBounceCount">incrementBounceCount()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_isEmailBlacklisted">isEmailBlacklisted()</a>
     <span>
                                 &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_markConfirmed">markConfirmed()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_markUnconfirmed">markUnconfirmed()</a>
+    <span>
+                                &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -270,6 +294,44 @@
             <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_distinctUsersWithBouncesConfirmedNotBlacklisted">
+        distinctUsersWithBouncesConfirmedNotBlacklisted()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_distinctUsersWithBouncesConfirmedNotBlacklisted" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">181</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">distinctUsersWithBouncesConfirmedNotBlacklisted</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;</span>
+            </section>
+
+</article>
                     <article
         class="phpdocumentor-element
             -method
@@ -631,6 +693,50 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_incrementBounceCount">
+        incrementBounceCount()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_incrementBounceCount" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">145</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">incrementBounceCount</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$subscriberId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_isEmailBlacklisted">
         isEmailBlacklisted()
         <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_isEmailBlacklisted" class="headerlink"><i class="fas fa-link"></i></a>
@@ -672,6 +778,94 @@
         <span class="phpdocumentor-signature__response_type">bool</span>
             </section>
 
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_markConfirmed">
+        markConfirmed()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_markConfirmed" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">168</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">markConfirmed</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$subscriberId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_markUnconfirmed">
+        markUnconfirmed()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_markUnconfirmed" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">156</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">markUnconfirmed</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$subscriberId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
 </article>
                     <article
         class="phpdocumentor-element
@@ -884,6 +1078,7 @@ following the Law of Demeter.</p>
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_distinctUsersWithBouncesConfirmedNotBlacklisted">distinctUsersWithBouncesConfirmedNotBlacklisted()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findOneByEmail">findOneByEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findOneByUniqueId">findOneByUniqueId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findSubscribersBySubscribedList">findSubscribersBySubscribedList()</a></li>
@@ -891,7 +1086,10 @@ following the Law of Demeter.</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findSubscriberWithSubscriptions">findSubscriberWithSubscriptions()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSubscribersBySubscribedListId">getSubscribersBySubscribedListId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_incrementBounceCount">incrementBounceCount()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_isEmailBlacklisted">isEmailBlacklisted()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_markConfirmed">markConfirmed()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_markUnconfirmed">markUnconfirmed()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_remove">remove()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save">save()</a></li>
                                     </ul>
