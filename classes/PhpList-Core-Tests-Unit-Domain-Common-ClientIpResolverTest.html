@@ -93,16 +93,19 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-service.html">Service</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-service-handler.html">Handler</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-common.html">Common</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    UnconfirmUserHandler
+    ClientIpResolverTest
 
+        <span class="phpdocumentor-element__extends">
+        extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
+    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -111,9 +114,6 @@
                             </ul>
         </div>
     
-            <span class="phpdocumentor-element__implements">
-            implements
-                            <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BounceActionHandlerInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Handler\BounceActionHandlerInterface">BounceActionHandlerInterface</abbr></a>                    </span>
     
     </h2>
 
@@ -123,9 +123,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php"><a href="files/src-domain-messaging-service-handler-unconfirmuserhandler.html"><abbr title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php">UnconfirmUserHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/ClientIpResolverTest.php"><a href="files/tests-unit-domain-common-clientipresolvertest.html"><abbr title="tests/Unit/Domain/Common/ClientIpResolverTest.php">ClientIpResolverTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">10</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
 
     </aside>
 
@@ -140,19 +140,12 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
 
 
-    <h4 id="toc-interfaces">
-        Interfaces
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-BounceActionHandlerInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Handler\BounceActionHandlerInterface">BounceActionHandlerInterface</abbr></a></dt>    </dl>
 
 
 
@@ -161,46 +154,46 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#property_subscriberHistoryManager">$subscriberHistoryManager</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#property_requestStack">$requestStack</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#property_subscriberRepository">$subscriberRepository</a>
-    <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>            </span>
+                        &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#method___construct">__construct()</a>
-    <span>
-                                &nbsp;: mixed    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#method_handle">handle()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_testResolveReturnsClientIpFromCurrentRequest">testResolveReturnsClientIpFromCurrentRequest()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#method_supports">supports()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_testResolveReturnsEmptyStringWhenClientIpIsNull">testResolveReturnsEmptyStringWhenClientIpIsNull()</a>
     <span>
-                                &nbsp;: bool    </span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_testResolveReturnsHostAndPidWhenNoRequestAvailable">testResolveReturnsHostAndPidWhenNoRequestAvailable()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_setUp">setUp()</a>
+    <span>
+                                &nbsp;: void    </span>
 </dt>
 
     </dl>
@@ -213,7 +206,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -223,17 +216,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_subscriberHistoryManager">
-        $subscriberHistoryManager
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#property_subscriberHistoryManager" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_requestStack">
+        $requestStack
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#property_requestStack" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php"><a href="files/src-domain-messaging-service-handler-unconfirmuserhandler.html"><abbr title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php">UnconfirmUserHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/ClientIpResolverTest.php"><a href="files/tests-unit-domain-common-clientipresolvertest.html"><abbr title="tests/Unit/Domain/Common/ClientIpResolverTest.php">ClientIpResolverTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
@@ -241,46 +234,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$subscriberHistoryManager</span>
-    </code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_subscriberRepository">
-        $subscriberRepository
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#property_subscriberRepository" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php"><a href="files/src-domain-messaging-service-handler-unconfirmuserhandler.html"><abbr title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php">UnconfirmUserHandler.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">12</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$subscriberRepository</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$requestStack</span>
     </code>
 
     
@@ -297,7 +252,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -306,45 +261,28 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method___construct">
-        __construct()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testResolveReturnsClientIpFromCurrentRequest">
+        testResolveReturnsClientIpFromCurrentRequest()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_testResolveReturnsClientIpFromCurrentRequest" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php"><a href="files/src-domain-messaging-service-handler-unconfirmuserhandler.html"><abbr title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php">UnconfirmUserHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/ClientIpResolverTest.php"><a href="files/tests-unit-domain-common-clientipresolvertest.html"><abbr title="tests/Unit/Domain/Common/ClientIpResolverTest.php">ClientIpResolverTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">testResolveReturnsClientIpFromCurrentRequest</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$subscriberRepository</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
+    
     
 
     
@@ -357,38 +295,28 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_handle">
-        handle()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#method_handle" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testResolveReturnsEmptyStringWhenClientIpIsNull">
+        testResolveReturnsEmptyStringWhenClientIpIsNull()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_testResolveReturnsEmptyStringWhenClientIpIsNull" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php"><a href="files/src-domain-messaging-service-handler-unconfirmuserhandler.html"><abbr title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php">UnconfirmUserHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/ClientIpResolverTest.php"><a href="files/tests-unit-domain-common-clientipresolvertest.html"><abbr title="tests/Unit/Domain/Common/ClientIpResolverTest.php">ClientIpResolverTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">handle</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$closureData</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testResolveReturnsEmptyStringWhenClientIpIsNull</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$closureData</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
+    
     
 
     
@@ -401,47 +329,67 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_supports">
-        supports()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#method_supports" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testResolveReturnsHostAndPidWhenNoRequestAvailable">
+        testResolveReturnsHostAndPidWhenNoRequestAvailable()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_testResolveReturnsHostAndPidWhenNoRequestAvailable" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php"><a href="files/src-domain-messaging-service-handler-unconfirmuserhandler.html"><abbr title="src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php">UnconfirmUserHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/ClientIpResolverTest.php"><a href="files/tests-unit-domain-common-clientipresolvertest.html"><abbr title="tests/Unit/Domain/Common/ClientIpResolverTest.php">ClientIpResolverTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">supports</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$action</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">testResolveReturnsHostAndPidWhenNoRequestAvailable</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$action</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
+    
     
 
     
 
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
-            </section>
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setUp">
+        setUp()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
 
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/ClientIpResolverTest.php"><a href="files/tests-unit-domain-common-clientipresolvertest.html"><abbr title="tests/Unit/Domain/Common/ClientIpResolverTest.php">ClientIpResolverTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
 </article>
             </section>
 
@@ -449,7 +397,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Service/Handler/UnconfirmUserHandler.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Common/ClientIpResolverTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -550,25 +498,25 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#property_subscriberHistoryManager">$subscriberHistoryManager</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#property_subscriberRepository">$subscriberRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#property_requestStack">$requestStack</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#method_handle">handle()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#method_supports">supports()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_testResolveReturnsClientIpFromCurrentRequest">testResolveReturnsClientIpFromCurrentRequest()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_testResolveReturnsEmptyStringWhenClientIpIsNull">testResolveReturnsEmptyStringWhenClientIpIsNull()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_testResolveReturnsHostAndPidWhenNoRequestAvailable">testResolveReturnsHostAndPidWhenNoRequestAvailable()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#method_setUp">setUp()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -588,7 +536,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-UnconfirmUserHandler.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
