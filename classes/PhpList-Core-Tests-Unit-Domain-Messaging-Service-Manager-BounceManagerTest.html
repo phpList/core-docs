@@ -127,7 +127,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -161,6 +161,18 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_entityManager">$entityManager</a>
+    <span>
+                        &nbsp;: <abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_logger">$logger</a>
+    <span>
+                        &nbsp;: <abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_manager">$manager</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Manager\BounceManager">BounceManager</abbr></a>            </span>
@@ -172,6 +184,12 @@
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\BounceRepository">BounceRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_userMessageBounceRepository">$userMessageBounceRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageBounceRepository">UserMessageBounceRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
     </dl>
 
 <h4 id="toc-methods">
@@ -181,6 +199,12 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testAnnounceDeletionModeLogsCorrectMessage">testAnnounceDeletionModeLogsCorrectMessage()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testCreatePersistsAndReturnsBounce">testCreatePersistsAndReturnsBounce()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -188,6 +212,24 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testDeleteDelegatesToRepository">testDeleteDelegatesToRepository()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testExistsUserMessageBounceDelegatesToRepo">testExistsUserMessageBounceDelegatesToRepo()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testFetchUserMessageBounceBatchDelegates">testFetchUserMessageBounceBatchDelegates()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testFindByStatusDelegatesToRepository">testFindByStatusDelegatesToRepository()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -210,8 +252,38 @@
                                 &nbsp;: void    </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testGetUserMessageBounceCount">testGetUserMessageBounceCount()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testGetUserMessageHistoryWithBouncesDelegates">testGetUserMessageHistoryWithBouncesDelegates()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testLinkUserMessageBounceFlushesAndSetsFields">testLinkUserMessageBounceFlushesAndSetsFields()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testUpdateChangesFieldsAndSaves">testUpdateChangesFieldsAndSaves()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_setUp">setUp()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_setId">setId()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -236,6 +308,82 @@
             -private
                                                                     "
 >
+    <h4 class="phpdocumentor-element__name" id="property_entityManager">
+        $entityManager
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_entityManager" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">23</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$entityManager</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_logger">
+        $logger
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_logger" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$logger</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_manager">
         $manager
         <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_manager" class="headerlink"><i class="fas fa-link"></i></a>
@@ -246,7 +394,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
@@ -284,7 +432,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -294,6 +442,44 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\BounceRepository">BounceRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$repository</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_userMessageBounceRepository">
+        $userMessageBounceRepository
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_userMessageBounceRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">22</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageBounceRepository">UserMessageBounceRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$userMessageBounceRepository</span>
     </code>
 
     
@@ -319,6 +505,40 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_testAnnounceDeletionModeLogsCorrectMessage">
+        testAnnounceDeletionModeLogsCorrectMessage()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testAnnounceDeletionModeLogsCorrectMessage" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">192</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testAnnounceDeletionModeLogsCorrectMessage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_testCreatePersistsAndReturnsBounce">
         testCreatePersistsAndReturnsBounce()
         <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testCreatePersistsAndReturnsBounce" class="headerlink"><i class="fas fa-link"></i></a>
@@ -327,7 +547,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -361,7 +581,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">62</span>
+    <span class="phpdocumentor-element-found-in__line">69</span>
 
     </aside>
 
@@ -369,6 +589,108 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testDeleteDelegatesToRepository</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testExistsUserMessageBounceDelegatesToRepo">
+        testExistsUserMessageBounceDelegatesToRepo()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testExistsUserMessageBounceDelegatesToRepo" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">141</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testExistsUserMessageBounceDelegatesToRepo</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testFetchUserMessageBounceBatchDelegates">
+        testFetchUserMessageBounceBatchDelegates()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testFetchUserMessageBounceBatchDelegates" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">171</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testFetchUserMessageBounceBatchDelegates</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testFindByStatusDelegatesToRepository">
+        testFindByStatusDelegatesToRepository()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testFindByStatusDelegatesToRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">151</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testFindByStatusDelegatesToRepository</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -395,7 +717,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
     </aside>
 
@@ -429,7 +751,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">84</span>
+    <span class="phpdocumentor-element-found-in__line">91</span>
 
     </aside>
 
@@ -463,7 +785,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">96</span>
+    <span class="phpdocumentor-element-found-in__line">103</span>
 
     </aside>
 
@@ -471,6 +793,142 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testGetByIdReturnsNullWhenNotFound</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testGetUserMessageBounceCount">
+        testGetUserMessageBounceCount()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testGetUserMessageBounceCount" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">163</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testGetUserMessageBounceCount</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testGetUserMessageHistoryWithBouncesDelegates">
+        testGetUserMessageHistoryWithBouncesDelegates()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testGetUserMessageHistoryWithBouncesDelegates" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">181</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testGetUserMessageHistoryWithBouncesDelegates</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testLinkUserMessageBounceFlushesAndSetsFields">
+        testLinkUserMessageBounceFlushesAndSetsFields()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testLinkUserMessageBounceFlushesAndSetsFields" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">126</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testLinkUserMessageBounceFlushesAndSetsFields</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testUpdateChangesFieldsAndSaves">
+        testUpdateChangesFieldsAndSaves()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testUpdateChangesFieldsAndSaves" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">113</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testUpdateChangesFieldsAndSaves</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -497,7 +955,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -511,6 +969,57 @@
     
     
     
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setId">
+        setId()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_setId" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php"><a href="files/tests-unit-domain-messaging-service-manager-bouncemanagertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Manager/BounceManagerTest.php">BounceManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">206</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">setId</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">object&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entity</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$entity</span>
+                : <span class="phpdocumentor-signature__argument__return-type">object</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$id</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
     
 
     
@@ -632,20 +1141,32 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_entityManager">$entityManager</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_logger">$logger</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_manager">$manager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_repository">$repository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#property_userMessageBounceRepository">$userMessageBounceRepository</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testAnnounceDeletionModeLogsCorrectMessage">testAnnounceDeletionModeLogsCorrectMessage()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testCreatePersistsAndReturnsBounce">testCreatePersistsAndReturnsBounce()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testDeleteDelegatesToRepository">testDeleteDelegatesToRepository()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testExistsUserMessageBounceDelegatesToRepo">testExistsUserMessageBounceDelegatesToRepo()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testFetchUserMessageBounceBatchDelegates">testFetchUserMessageBounceBatchDelegates()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testFindByStatusDelegatesToRepository">testFindByStatusDelegatesToRepository()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testGetAllReturnsArray">testGetAllReturnsArray()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testGetByIdReturnsBounce">testGetByIdReturnsBounce()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testGetByIdReturnsNullWhenNotFound">testGetByIdReturnsNullWhenNotFound()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testGetUserMessageBounceCount">testGetUserMessageBounceCount()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testGetUserMessageHistoryWithBouncesDelegates">testGetUserMessageHistoryWithBouncesDelegates()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testLinkUserMessageBounceFlushesAndSetsFields">testLinkUserMessageBounceFlushesAndSetsFields()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testUpdateChangesFieldsAndSaves">testUpdateChangesFieldsAndSaves()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_setId">setId()</a></li>
                                     </ul>
             </li>
                     </ul>
