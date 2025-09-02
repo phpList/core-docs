@@ -1441,6 +1441,71 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-ClientIpResolver.html#property_requestStack"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages",
+            "name": "Messages",
+            "summary": "Centralized\u0020message\u0020keys\u0020to\u0020be\u0020used\u0020across\u0020the\u0020application.",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003AAUTH_NOT_AUTHORIZED",
+            "name": "AUTH_NOT_AUTHORIZED",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_AUTH_NOT_AUTHORIZED"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003AAUTH_LOGIN_FAILED",
+            "name": "AUTH_LOGIN_FAILED",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_AUTH_LOGIN_FAILED"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003AAUTH_LOGIN_DISABLED",
+            "name": "AUTH_LOGIN_DISABLED",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_AUTH_LOGIN_DISABLED"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator",
+            "name": "SimpleTranslator",
+            "summary": "Minimal\u0020translator\u0020to\u0020support\u0020message\u0020keys\u0020and\u0020parameter\u0020interpolation.",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator\u003A\u003Atranslate\u0028\u0029",
+            "name": "translate",
+            "summary": "Translate\u0020a\u0020message\u0020key\u0020with\u0020optional\u0020parameters.",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html#method_translate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator\u003A\u003AloadCatalogue\u0028\u0029",
+            "name": "loadCatalogue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html#method_loadCatalogue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator\u003A\u003A\u0024defaultLocale",
+            "name": "defaultLocale",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html#property_defaultLocale"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator\u003A\u003A\u0024catalogues",
+            "name": "catalogues",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html#property_catalogues"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\TranslatorInterface",
+            "name": "TranslatorInterface",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-TranslatorInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\TranslatorInterface\u003A\u003Atranslate\u0028\u0029",
+            "name": "translate",
+            "summary": "Translate\u0020a\u0020message\u0020key\u0020with\u0020optional\u0020parameters.",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-TranslatorInterface.html#method_translate"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Mail\\NativeImapMailReader",
             "name": "NativeImapMailReader",
             "summary": "",
@@ -1796,6 +1861,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-EventLog.html#property_entry"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Filter\\EventLogFilter",
+            "name": "EventLogFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Filter-EventLogFilter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Filter\\EventLogFilter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Filter-EventLogFilter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Filter\\EventLogFilter\u003A\u003AgetPage\u0028\u0029",
+            "name": "getPage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Filter-EventLogFilter.html#method_getPage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Filter\\EventLogFilter\u003A\u003AgetDateFrom\u0028\u0029",
+            "name": "getDateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Filter-EventLogFilter.html#method_getDateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Filter\\EventLogFilter\u003A\u003AgetDateTo\u0028\u0029",
+            "name": "getDateTo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Filter-EventLogFilter.html#method_getDateTo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Filter\\EventLogFilter\u003A\u003A\u0024page",
+            "name": "page",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Filter-EventLogFilter.html#property_page"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Filter\\EventLogFilter\u003A\u003A\u0024dateFrom",
+            "name": "dateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Filter-EventLogFilter.html#property_dateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Filter\\EventLogFilter\u003A\u003A\u0024dateTo",
+            "name": "dateTo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Filter-EventLogFilter.html#property_dateTo"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\I18n",
             "name": "I18n",
             "summary": "",
@@ -1931,6 +2036,11 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Configuration-Repository-EventLogRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository\\EventLogRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Repository-EventLogRepository.html#method_getFilteredAfterId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository\\I18nRepository",
             "name": "I18nRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -1980,6 +2090,36 @@ Search.appendIndex(
             "name": "configRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#property_configRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\EventLogManager",
+            "name": "EventLogManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-EventLogManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\EventLogManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-EventLogManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\EventLogManager\u003A\u003Alog\u0028\u0029",
+            "name": "log",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-EventLogManager.html#method_log"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\EventLogManager\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Get\u0020event\u0020logs\u0020with\u0020optional\u0020filters\u0020\u0028page\u0020and\u0020date\u0020range\u0029\u0020and\u0020cursor\u0020pagination.",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-EventLogManager.html#method_get"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\EventLogManager\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-EventLogManager.html#method_delete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\EventLogManager\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-EventLogManager.html#property_repository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CleanUpOldSessionTokens",
             "name": "CleanUpOldSessionTokens",
@@ -3085,6 +3225,16 @@ Search.appendIndex(
             "name": "administratorRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-SessionManager.html#property_administratorRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\SessionManager\u003A\u003A\u0024eventLogManager",
+            "name": "eventLogManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-SessionManager.html#property_eventLogManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\SessionManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-SessionManager.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessBouncesCommand",
             "name": "ProcessBouncesCommand",
@@ -11731,6 +11881,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testDeleteRemovesConfigFromRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\EventLogManagerTest",
+            "name": "EventLogManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-EventLogManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\EventLogManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-EventLogManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\EventLogManagerTest\u003A\u003AtestLogCreatesAndPersists\u0028\u0029",
+            "name": "testLogCreatesAndPersists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-EventLogManagerTest.html#method_testLogCreatesAndPersists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\EventLogManagerTest\u003A\u003AtestDelete\u0028\u0029",
+            "name": "testDelete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-EventLogManagerTest.html#method_testDelete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\EventLogManagerTest\u003A\u003AtestGetWithFiltersDelegatesToRepository\u0028\u0029",
+            "name": "testGetWithFiltersDelegatesToRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-EventLogManagerTest.html#method_testGetWithFiltersDelegatesToRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\EventLogManagerTest\u003A\u003AtestGetWithoutFiltersDefaults\u0028\u0029",
+            "name": "testGetWithoutFiltersDefaults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-EventLogManagerTest.html#method_testGetWithoutFiltersDefaults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\EventLogManagerTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-EventLogManagerTest.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\EventLogManagerTest\u003A\u003A\u0024manager",
+            "name": "manager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-EventLogManagerTest.html#property_manager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest",
             "name": "CleanUpOldSessionTokensTest",
             "summary": "",
@@ -12586,10 +12776,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-SessionManagerTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\SessionManagerTest\u003A\u003AtestCreateSessionWithInvalidCredentialsThrowsException\u0028\u0029",
-            "name": "testCreateSessionWithInvalidCredentialsThrowsException",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\SessionManagerTest\u003A\u003AtestCreateSessionWithInvalidCredentialsThrowsExceptionAndLogs\u0028\u0029",
+            "name": "testCreateSessionWithInvalidCredentialsThrowsExceptionAndLogs",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-SessionManagerTest.html#method_testCreateSessionWithInvalidCredentialsThrowsException"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-SessionManagerTest.html#method_testCreateSessionWithInvalidCredentialsThrowsExceptionAndLogs"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\SessionManagerTest\u003A\u003AtestDeleteSessionCallsRemove\u0028\u0029",
             "name": "testDeleteSessionCallsRemove",
@@ -16041,6 +16231,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-common.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n",
+            "name": "I18n",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-common-i18n.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Mail",
             "name": "Mail",
             "summary": "",
@@ -16090,6 +16285,11 @@ Search.appendIndex(
             "name": "Model",
             "summary": "",
             "url": "namespaces/phplist-core-domain-configuration-model.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Filter",
+            "name": "Filter",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-configuration-model-filter.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository",
             "name": "Repository",
