@@ -14056,11 +14056,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_testAnnounceDeletionModeLogsCorrectMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceManagerTest\u003A\u003AsetId\u0028\u0029",
-            "name": "setId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-BounceManagerTest.html#method_setId"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceManagerTest\u003A\u003A\u0024repository",
             "name": "repository",
             "summary": "",
