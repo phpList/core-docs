@@ -1466,46 +1466,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_AUTH_LOGIN_DISABLED"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator",
-            "name": "SimpleTranslator",
-            "summary": "Minimal\u0020translator\u0020to\u0020support\u0020message\u0020keys\u0020and\u0020parameter\u0020interpolation.",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator\u003A\u003Atranslate\u0028\u0029",
-            "name": "translate",
-            "summary": "Translate\u0020a\u0020message\u0020key\u0020with\u0020optional\u0020parameters.",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html#method_translate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator\u003A\u003AloadCatalogue\u0028\u0029",
-            "name": "loadCatalogue",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html#method_loadCatalogue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator\u003A\u003A\u0024defaultLocale",
-            "name": "defaultLocale",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html#property_defaultLocale"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\SimpleTranslator\u003A\u003A\u0024catalogues",
-            "name": "catalogues",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-SimpleTranslator.html#property_catalogues"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\TranslatorInterface",
-            "name": "TranslatorInterface",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-TranslatorInterface.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\TranslatorInterface\u003A\u003Atranslate\u0028\u0029",
-            "name": "translate",
-            "summary": "Translate\u0020a\u0020message\u0020key\u0020with\u0020optional\u0020parameters.",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-TranslatorInterface.html#method_translate"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Mail\\NativeImapMailReader",
             "name": "NativeImapMailReader",
             "summary": "",
