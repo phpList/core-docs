@@ -1466,6 +1466,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_AUTH_LOGIN_DISABLED"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003AIDENTITY_ADMIN_NOT_FOUND",
+            "name": "IDENTITY_ADMIN_NOT_FOUND",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_IDENTITY_ADMIN_NOT_FOUND"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003ASUBSCRIPTION_LIST_NOT_FOUND",
+            "name": "SUBSCRIPTION_LIST_NOT_FOUND",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_SUBSCRIPTION_LIST_NOT_FOUND"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003ASUBSCRIPTION_SUBSCRIBER_NOT_FOUND",
+            "name": "SUBSCRIPTION_SUBSCRIBER_NOT_FOUND",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_SUBSCRIPTION_SUBSCRIBER_NOT_FOUND"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003ASUBSCRIPTION_NOT_FOUND_FOR_LIST_AND_SUBSCRIBER",
+            "name": "SUBSCRIPTION_NOT_FOUND_FOR_LIST_AND_SUBSCRIBER",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_SUBSCRIPTION_NOT_FOUND_FOR_LIST_AND_SUBSCRIBER"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Mail\\NativeImapMailReader",
             "name": "NativeImapMailReader",
             "summary": "",
@@ -3155,6 +3175,11 @@ Search.appendIndex(
             "name": "messageBus",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#property_messageBus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PasswordManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\SessionManager",
             "name": "SessionManager",
@@ -9601,6 +9626,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#property_subscriberListRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider",
             "name": "SubscriberProvider",
             "summary": "",
@@ -15725,6 +15755,11 @@ Search.appendIndex(
             "name": "subscriberRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003A\u0024manager",
             "name": "manager",
