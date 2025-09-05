@@ -1591,6 +1591,16 @@ Search.appendIndex(
             "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
             "url": "classes/PhpList-Core-Domain-Common-Model-Interfaces-ModificationDate.html#method_updateUpdatedAt"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Interfaces\\OwnableInterface",
+            "name": "OwnableInterface",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Interfaces-OwnableInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Interfaces\\OwnableInterface\u003A\u003AgetOwner\u0028\u0029",
+            "name": "getOwner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Interfaces-OwnableInterface.html#method_getOwner"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\ValidationContext",
             "name": "ValidationContext",
             "summary": "",
@@ -2436,6 +2446,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getModifiedBy"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003Aowns\u0028\u0029",
+            "name": "owns",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_owns"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -3180,6 +3195,41 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-PasswordManager.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker",
+            "name": "PermissionChecker",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AcanManage\u0028\u0029",
+            "name": "canManage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canManage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AresolveRequiredPrivilege\u0028\u0029",
+            "name": "resolveRequiredPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_resolveRequiredPrivilege"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AresolveRelatedEntity\u0028\u0029",
+            "name": "resolveRelatedEntity",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_resolveRelatedEntity"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AcheckRelatedResources\u0028\u0029",
+            "name": "checkRelatedResources",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_checkRelatedResources"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AREQUIRED_PRIVILEGE_MAP",
+            "name": "REQUIRED_PRIVILEGE_MAP",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#constant_REQUIRED_PRIVILEGE_MAP"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AOWNERSHIP_MAP",
+            "name": "OWNERSHIP_MAP",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#constant_OWNERSHIP_MAP"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\SessionManager",
             "name": "SessionManager",
@@ -10541,6 +10591,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Repository-AdministratorTokenRepositoryTest.html#property_repository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest",
+            "name": "PermissionCheckerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestServiceIsRegisteredInContainer\u0028\u0029",
+            "name": "testServiceIsRegisteredInContainer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testServiceIsRegisteredInContainer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestSuperUserCanManageAnyResource\u0028\u0029",
+            "name": "testSuperUserCanManageAnyResource",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testSuperUserCanManageAnyResource"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003A\u0024checker",
+            "name": "checker",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#property_checker"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Fixtures\\MessageFixture",
             "name": "MessageFixture",
             "summary": "",
@@ -16540,6 +16615,11 @@ Search.appendIndex(
             "name": "Repository",
             "summary": "",
             "url": "namespaces/phplist-core-tests-integration-domain-identity-repository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-integration-domain-identity-service.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Fixtures",
             "name": "Fixtures",
