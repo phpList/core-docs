@@ -96,14 +96,16 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-model.html">Model</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-model-dto.html">Dto</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-model-dto-message.html">Message</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-model-message.html">Message</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    MessageMetadataDto
+    MessageStatus
 
+            <span class="phpdocumentor-element__extends">
+        : string
+    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -115,30 +117,23 @@
     
     </h2>
 
-<div class="phpdocumentor-label-line">
-
-
-</div>
-
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Dto/Message/MessageMetadataDto.php"><a href="files/src-domain-messaging-model-dto-message-messagemetadatadto.html"><abbr title="src/Domain/Messaging/Model/Dto/Message/MessageMetadataDto.php">MessageMetadataDto.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Message/MessageStatus.php"><a href="files/src-domain-messaging-model-message-messagestatus.html"><abbr title="src/Domain/Messaging/Model/Message/MessageStatus.php">MessageStatus.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">9</span>
+    <span class="phpdocumentor-element-found-in__line">7</span>
 
     </aside>
 
         
+        
+        
+        
 
 
-
-
-
-
-
-
+        
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -149,62 +144,173 @@
 
 
 
-
-<h4 id="toc-properties">
-    Properties
-    <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+<h4 id="toc-cases">
+    Cases
+    <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#toc-cases" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#property_status">$status</a>
+            <dt class="phpdocumentor-table-of-contents__entry -case -">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Draft">Draft</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\MessageStatus">MessageStatus</abbr></a>            </span>
+                &nbsp;= &#039;draft&#039;                    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -case -">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_InProcess">InProcess</a>
+    <span>
+                &nbsp;= &#039;inprocess&#039;                    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -case -">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Prepared">Prepared</a>
+    <span>
+                &nbsp;= &#039;prepared&#039;                    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -case -">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Requeued">Requeued</a>
+    <span>
+                &nbsp;= &#039;requeued&#039;                    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -case -">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Sent">Sent</a>
+    <span>
+                &nbsp;= &#039;sent&#039;                    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -case -">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Submitted">Submitted</a>
+    <span>
+                &nbsp;= &#039;submitted&#039;                    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -case -">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Suspended">Suspended</a>
+    <span>
+                &nbsp;= &#039;suspended&#039;                    </span>
 </dt>
 
     </dl>
 
+
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#method_isFinal">isFinal()</a>
     <span>
-                                &nbsp;: mixed    </span>
+                                &nbsp;: bool    </span>
 </dt>
 
     </dl>
 
 
 
-        
-
-        
-    <section class="phpdocumentor-properties">
-        <h3 class="phpdocumentor-elements__header" id="properties">
-            Properties
-            <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <section class="phpdocumentor-cases">
+        <h3 class="phpdocumentor-elements__header" id="cases">
+            Cases
+            <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#cases" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
         class="
             phpdocumentor-element
-            -property
-            -public
-                                                -read-only                    "
+            -enum-case
+        "
 >
-    <h4 class="phpdocumentor-element__name" id="property_status">
-        $status
-        <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#property_status" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Draft">
+        Draft
+        <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Draft" class="headerlink"><i class="fas fa-link"></i></a>
 
-        <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Dto/Message/MessageMetadataDto.php"><a href="files/src-domain-messaging-model-dto-message-messagemetadatadto.html"><abbr title="src/Domain/Messaging/Model/Dto/Message/MessageMetadataDto.php">MessageMetadataDto.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Message/MessageStatus.php"><a href="files/src-domain-messaging-model-message-messagestatus.html"><abbr title="src/Domain/Messaging/Model/Message/MessageStatus.php">MessageStatus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">9</span>
+
+    </aside>
+
+    
+    
+    
+    
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Prepared">
+        Prepared
+        <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Prepared" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Message/MessageStatus.php"><a href="files/src-domain-messaging-model-message-messagestatus.html"><abbr title="src/Domain/Messaging/Model/Message/MessageStatus.php">MessageStatus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">10</span>
+
+    </aside>
+
+    
+    
+    
+    
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Submitted">
+        Submitted
+        <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Submitted" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Message/MessageStatus.php"><a href="files/src-domain-messaging-model-message-messagestatus.html"><abbr title="src/Domain/Messaging/Model/Message/MessageStatus.php">MessageStatus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">11</span>
+
+    </aside>
+
+    
+    
+    
+    
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_InProcess">
+        InProcess
+        <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_InProcess" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Message/MessageStatus.php"><a href="files/src-domain-messaging-model-message-messagestatus.html"><abbr title="src/Domain/Messaging/Model/Message/MessageStatus.php">MessageStatus.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">12</span>
 
@@ -212,16 +318,89 @@
 
     
     
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\MessageStatus">MessageStatus</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$status</span>
-    </code>
-
     
     
     
 
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Sent">
+        Sent
+        <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Sent" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Message/MessageStatus.php"><a href="files/src-domain-messaging-model-message-messagestatus.html"><abbr title="src/Domain/Messaging/Model/Message/MessageStatus.php">MessageStatus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+
+    </aside>
+
+    
+    
+    
+    
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Suspended">
+        Suspended
+        <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Suspended" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Message/MessageStatus.php"><a href="files/src-domain-messaging-model-message-messagestatus.html"><abbr title="src/Domain/Messaging/Model/Message/MessageStatus.php">MessageStatus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+
+    </aside>
+
+    
+    
+    
+    
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -enum-case
+        "
+>
+    <h4 class="phpdocumentor-element__name" id="enumcase_Requeued">
+        Requeued
+        <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Requeued" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Message/MessageStatus.php"><a href="files/src-domain-messaging-model-message-messagestatus.html"><abbr title="src/Domain/Messaging/Model/Message/MessageStatus.php">MessageStatus.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">15</span>
+
+    </aside>
+
+    
+    
+    
+    
     
 
     
@@ -232,7 +411,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -241,43 +420,37 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method___construct">
-        __construct()
-        <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_isFinal">
+        isFinal()
+        <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#method_isFinal" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Dto/Message/MessageMetadataDto.php"><a href="files/src-domain-messaging-model-dto-message-messagemetadatadto.html"><abbr title="src/Domain/Messaging/Model/Dto/Message/MessageMetadataDto.php">MessageMetadataDto.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Model/Message/MessageStatus.php"><a href="files/src-domain-messaging-model-message-messagestatus.html"><abbr title="src/Domain/Messaging/Model/Message/MessageStatus.php">MessageStatus.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\MessageStatus">MessageStatus</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">isFinal</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$status</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\MessageStatus">MessageStatus</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
+    
     
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
             </section>
 
@@ -285,7 +458,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Model/Dto/Message/MessageMetadataDto.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Model/Message/MessageStatus.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -378,7 +551,7 @@
     </article>
                                 </section>
                 <section class="phpdocumentor-on-this-page__sidebar">
-                                
+                            
     <section class="phpdocumentor-on-this-page__content">
         <strong class="phpdocumentor-on-this-page__title">On this page</strong>
 
@@ -386,24 +559,29 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#toc-methods">Methods</a></li>
+                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#toc-cases">Cases</a></li>
+                                                                <li><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
-            
-                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                            <li class="phpdocumentor-on-this-page-section__title">Cases</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#property_status">$status</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Draft">Draft</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Prepared">Prepared</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Submitted">Submitted</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_InProcess">InProcess</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Sent">Sent</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Suspended">Suspended</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Requeued">Requeued</a></li>
                                             </ul>
                 </li>
             
-                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
-            <li>
-                <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#method___construct">__construct()</a></li>
-                                    </ul>
-            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#method_isFinal">isFinal()</a></li>
+                                            </ul>
+                </li>
                     </ul>
     </section>
 
@@ -421,7 +599,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageMetadataDto.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

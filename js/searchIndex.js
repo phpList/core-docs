@@ -4936,6 +4936,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageSchedule.html#property_embargo"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus",
+            "name": "MessageStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003AisFinal\u0028\u0029",
+            "name": "isFinal",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#method_isFinal"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ADraft",
+            "name": "Draft",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Draft"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003APrepared",
+            "name": "Prepared",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Prepared"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ASubmitted",
+            "name": "Submitted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Submitted"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003AInProcess",
+            "name": "InProcess",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_InProcess"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ASent",
+            "name": "Sent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Sent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ASuspended",
+            "name": "Suspended",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Suspended"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ARequeued",
+            "name": "Requeued",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Requeued"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message",
             "name": "Message",
             "summary": "",
@@ -6855,6 +6900,11 @@ Search.appendIndex(
             "name": "updateMessage",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_updateMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003AupdateStatus\u0028\u0029",
+            "name": "updateStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_updateStatus"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
@@ -13436,170 +13486,165 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceActionResolverTest.html#property_resolver"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest",
             "name": "MessageBuilderTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AcreateRequest\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AcreateRequest\u0028\u0029",
             "name": "createRequest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_createRequest"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_createRequest"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AmockBuildCalls\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AmockBuildCalls\u0028\u0029",
             "name": "mockBuildCalls",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_mockBuildCalls"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_mockBuildCalls"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestBuildsNewMessage\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestBuildsNewMessage\u0028\u0029",
             "name": "testBuildsNewMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_testBuildsNewMessage"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_testBuildsNewMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidRequest\u0028\u0029",
-            "name": "testThrowsExceptionOnInvalidRequest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_testThrowsExceptionOnInvalidRequest"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidContext\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidContext\u0028\u0029",
             "name": "testThrowsExceptionOnInvalidContext",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_testThrowsExceptionOnInvalidContext"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_testThrowsExceptionOnInvalidContext"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestUpdatesExistingMessage\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestUpdatesExistingMessage\u0028\u0029",
             "name": "testUpdatesExistingMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_testUpdatesExistingMessage"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_testUpdatesExistingMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024formatBuilder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024formatBuilder",
             "name": "formatBuilder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#property_formatBuilder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#property_formatBuilder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024scheduleBuilder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024scheduleBuilder",
             "name": "scheduleBuilder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#property_scheduleBuilder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#property_scheduleBuilder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024contentBuilder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024contentBuilder",
             "name": "contentBuilder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#property_contentBuilder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#property_contentBuilder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024optionsBuilder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024optionsBuilder",
             "name": "optionsBuilder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#property_optionsBuilder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#property_optionsBuilder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024builder",
             "name": "builder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#property_builder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#property_builder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageContentBuilderTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest",
             "name": "MessageContentBuilderTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageContentBuilderTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageContentBuilderTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AtestBuildsMessageContentSuccessfully\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AtestBuildsMessageContentSuccessfully\u0028\u0029",
             "name": "testBuildsMessageContentSuccessfully",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageContentBuilderTest.html#method_testBuildsMessageContentSuccessfully"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#method_testBuildsMessageContentSuccessfully"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
             "name": "testThrowsExceptionOnInvalidDto",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageContentBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageContentBuilderTest\u003A\u003A\u0024builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest\u003A\u003A\u0024builder",
             "name": "builder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageContentBuilderTest.html#property_builder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#property_builder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageFormatBuilderTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest",
             "name": "MessageFormatBuilderTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageFormatBuilderTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageFormatBuilderTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestBuildsMessageFormatSuccessfully\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestBuildsMessageFormatSuccessfully\u0028\u0029",
             "name": "testBuildsMessageFormatSuccessfully",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageFormatBuilderTest.html#method_testBuildsMessageFormatSuccessfully"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_testBuildsMessageFormatSuccessfully"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
             "name": "testThrowsExceptionOnInvalidDto",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageFormatBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003A\u0024builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003A\u0024builder",
             "name": "builder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageFormatBuilderTest.html#property_builder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#property_builder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageOptionsBuilderTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageOptionsBuilderTest",
             "name": "MessageOptionsBuilderTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageOptionsBuilderTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageOptionsBuilderTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageOptionsBuilderTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageOptionsBuilderTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AtestBuildsMessageOptionsSuccessfully\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AtestBuildsMessageOptionsSuccessfully\u0028\u0029",
             "name": "testBuildsMessageOptionsSuccessfully",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageOptionsBuilderTest.html#method_testBuildsMessageOptionsSuccessfully"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageOptionsBuilderTest.html#method_testBuildsMessageOptionsSuccessfully"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
             "name": "testThrowsExceptionOnInvalidDto",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageOptionsBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageOptionsBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003A\u0024builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003A\u0024builder",
             "name": "builder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageOptionsBuilderTest.html#property_builder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageOptionsBuilderTest.html#property_builder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageScheduleBuilderTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageScheduleBuilderTest",
             "name": "MessageScheduleBuilderTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageScheduleBuilderTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageScheduleBuilderTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageScheduleBuilderTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageScheduleBuilderTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AtestBuildsMessageScheduleSuccessfully\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AtestBuildsMessageScheduleSuccessfully\u0028\u0029",
             "name": "testBuildsMessageScheduleSuccessfully",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageScheduleBuilderTest.html#method_testBuildsMessageScheduleSuccessfully"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageScheduleBuilderTest.html#method_testBuildsMessageScheduleSuccessfully"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
             "name": "testThrowsExceptionOnInvalidDto",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageScheduleBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageScheduleBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003A\u0024builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003A\u0024builder",
             "name": "builder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageScheduleBuilderTest.html#property_builder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageScheduleBuilderTest.html#property_builder"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ConsecutiveBounceHandlerTest",
             "name": "ConsecutiveBounceHandlerTest",
@@ -16816,15 +16861,10 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging-service.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder",
             "name": "Builder",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-service-builder.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service",
-            "name": "Service",
-            "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-service.html"
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-service-builder.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler",
             "name": "Handler",
