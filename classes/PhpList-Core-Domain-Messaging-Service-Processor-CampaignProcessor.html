@@ -122,7 +122,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -180,9 +180,21 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_rateLimiter">$rateLimiter</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\SendRateLimiter">SendRateLimiter</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_subscriberProvider">$subscriberProvider</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Provider\SubscriberProvider">SubscriberProvider</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_userMessageRepository">$userMessageRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a>            </span>
 </dt>
 
     </dl>
@@ -201,6 +213,18 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_process">process()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateMessageStatus">updateMessageStatus()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateUserMessageStatus">updateUserMessageStatus()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -235,7 +259,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -273,7 +297,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -311,7 +335,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -349,7 +373,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -359,6 +383,44 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a></span>
     <span class="phpdocumentor-signature__name">$messagePreparator</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_rateLimiter">
+        $rateLimiter
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_rateLimiter" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">28</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\SendRateLimiter">SendRateLimiter</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$rateLimiter</span>
     </code>
 
     
@@ -387,7 +449,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
@@ -397,6 +459,44 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Provider\SubscriberProvider">SubscriberProvider</abbr></a></span>
     <span class="phpdocumentor-signature__name">$subscriberProvider</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_userMessageRepository">
+        $userMessageRepository
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_userMessageRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$userMessageRepository</span>
     </code>
 
     
@@ -430,14 +530,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mailer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Provider\SubscriberProvider">SubscriberProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messagePreparator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mailer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Provider\SubscriberProvider">SubscriberProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messagePreparator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\SendRateLimiter">SendRateLimiter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$rateLimiter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageRepository</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -480,6 +580,20 @@
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$rateLimiter</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\SendRateLimiter">SendRateLimiter</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$userMessageRepository</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -502,7 +616,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
     </aside>
 
@@ -528,6 +642,108 @@
                 <span class="phpdocumentor-signature__argument__name">$output</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr>|null</span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_updateMessageStatus">
+        updateMessageStatus()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateMessageStatus" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">99</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">updateMessageStatus</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$message</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\MessageStatus">MessageStatus</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$message</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$status</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\MessageStatus">MessageStatus</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_updateUserMessageStatus">
+        updateUserMessageStatus()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateUserMessageStatus" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php"><a href="files/src-domain-messaging-service-processor-campaignprocessor.html"><abbr title="src/Domain/Messaging/Service/Processor/CampaignProcessor.php">CampaignProcessor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">105</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">updateUserMessageStatus</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-UserMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\UserMessage">UserMessage</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessage</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\UserMessageStatus">UserMessageStatus</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$userMessage</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-UserMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\UserMessage">UserMessage</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$status</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\UserMessageStatus">UserMessageStatus</abbr></a></span>
+                            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -658,7 +874,9 @@
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_logger">$logger</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_mailer">$mailer</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_messagePreparator">$messagePreparator</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_rateLimiter">$rateLimiter</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_subscriberProvider">$subscriberProvider</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_userMessageRepository">$userMessageRepository</a></li>
                                             </ul>
                 </li>
             
@@ -667,6 +885,8 @@
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_process">process()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateMessageStatus">updateMessageStatus()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateUserMessageStatus">updateUserMessageStatus()</a></li>
                                     </ul>
             </li>
                     </ul>

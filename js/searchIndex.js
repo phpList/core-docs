@@ -1486,6 +1486,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_SUBSCRIPTION_NOT_FOUND_FOR_LIST_AND_SUBSCRIBER"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider",
+            "name": "IspRestrictionsProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_load"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003AreadConfigFile\u0028\u0029",
+            "name": "readConfigFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_readConfigFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003AparseContents\u0028\u0029",
+            "name": "parseContents",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_parseContents"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003AparseLine\u0028\u0029",
+            "name": "parseLine",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_parseLine"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003AapplyKeyValue\u0028\u0029",
+            "name": "applyKeyValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_applyKeyValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003AlogIfDetected\u0028\u0029",
+            "name": "logIfDetected",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_logIfDetected"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003A\u0024confPath",
+            "name": "confPath",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#property_confPath"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#property_logger"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Mail\\NativeImapMailReader",
             "name": "NativeImapMailReader",
             "summary": "",
@@ -1600,6 +1650,41 @@ Search.appendIndex(
             "name": "getOwner",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-Interfaces-OwnableInterface.html#method_getOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions",
+            "name": "IspRestrictions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003AisEmpty\u0028\u0029",
+            "name": "isEmpty",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#method_isEmpty"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003A\u0024maxBatch",
+            "name": "maxBatch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_maxBatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003A\u0024minBatchPeriod",
+            "name": "minBatchPeriod",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_minBatchPeriod"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003A\u0024lockFile",
+            "name": "lockFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_lockFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003A\u0024raw",
+            "name": "raw",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_raw"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\ValidationContext",
             "name": "ValidationContext",
@@ -4941,10 +5026,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003AisFinal\u0028\u0029",
-            "name": "isFinal",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003AallowedTransitions\u0028\u0029",
+            "name": "allowedTransitions",
+            "summary": "Allowed\u0020transitions\u0020for\u0020each\u0020state",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#method_allowedTransitions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003AcanTransitionTo\u0028\u0029",
+            "name": "canTransitionTo",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#method_isFinal"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#method_canTransitionTo"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ADraft",
             "name": "Draft",
@@ -4980,6 +5070,46 @@ Search.appendIndex(
             "name": "Requeued",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Requeued"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus",
+            "name": "UserMessageStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003ATodo",
+            "name": "Todo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_Todo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003AActive",
+            "name": "Active",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_Active"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003ASent",
+            "name": "Sent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_Sent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003ANotSent",
+            "name": "NotSent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_NotSent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003AInvalidEmailAddress",
+            "name": "InvalidEmailAddress",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_InvalidEmailAddress"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003AUnconfirmedUser",
+            "name": "UnconfirmedUser",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_UnconfirmedUser"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003AExcluded",
+            "name": "Excluded",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_Excluded"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message",
             "name": "Message",
@@ -5861,6 +5991,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_incrementBounceCount"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AgetByStatusAndEmbargo\u0028\u0029",
+            "name": "getByStatusAndEmbargo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getByStatusAndEmbargo"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\SendProcessRepository",
             "name": "SendProcessRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -5945,6 +6080,11 @@ Search.appendIndex(
             "name": "UserMessageRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository\u003A\u003AfindOneByUserAndMessage\u0028\u0029",
+            "name": "findOneByUserAndMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_findOneByUserAndMessage"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceActionResolver",
             "name": "BounceActionResolver",
@@ -7391,6 +7531,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_process"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003AupdateMessageStatus\u0028\u0029",
+            "name": "updateMessageStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateMessageStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003AupdateUserMessageStatus\u0028\u0029",
+            "name": "updateUserMessageStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateUserMessageStatus"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024mailer",
             "name": "mailer",
             "summary": "",
@@ -7415,6 +7565,16 @@ Search.appendIndex(
             "name": "logger",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024rateLimiter",
+            "name": "rateLimiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_rateLimiter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_userMessageRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\MboxBounceProcessor",
             "name": "MboxBounceProcessor",
@@ -7510,6 +7670,76 @@ Search.appendIndex(
             "name": "bounceDataProcessor",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-UnidentifiedBounceReprocessor.html#property_bounceDataProcessor"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter",
+            "name": "SendRateLimiter",
+            "summary": "Encapsulates\u0020batching\u0020and\u0020throttling\u0020logic\u0020for\u0020sending\u0020emails\u0020respecting\nconfiguration\u0020and\u0020ISP\u0020restrictions.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003AinitializeLimits\u0028\u0029",
+            "name": "initializeLimits",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#method_initializeLimits"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003AawaitTurn\u0028\u0029",
+            "name": "awaitTurn",
+            "summary": "Call\u0020before\u0020attempting\u0020to\u0020send\u0020another\u0020message.\u0020It\u0020will\u0020sleep\u0020if\u0020needed\u0020to\nrespect\u0020batch\u0020limits.\u0020Returns\u0020true\u0020when\u0020it\u0027s\u0020okay\u0020to\u0020proceed.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#method_awaitTurn"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003AafterSend\u0028\u0029",
+            "name": "afterSend",
+            "summary": "Call\u0020after\u0020a\u0020successful\u0020sending\u0020to\u0020update\u0020counters\u0020and\u0020apply\u0020per\u002Dmessage\u0020throttle.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#method_afterSend"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024batchSize",
+            "name": "batchSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_batchSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024batchPeriod",
+            "name": "batchPeriod",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_batchPeriod"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024throttleSec",
+            "name": "throttleSec",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_throttleSec"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024sentInBatch",
+            "name": "sentInBatch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_sentInBatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024batchStart",
+            "name": "batchStart",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_batchStart"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024ispRestrictionsProvider",
+            "name": "ispRestrictionsProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_ispRestrictionsProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024mailqueueBatchSize",
+            "name": "mailqueueBatchSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_mailqueueBatchSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024mailqueueBatchPeriod",
+            "name": "mailqueueBatchPeriod",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_mailqueueBatchPeriod"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024mailqueueThrottle",
+            "name": "mailqueueThrottle",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_mailqueueThrottle"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\WebklexBounceProcessingService",
             "name": "WebklexBounceProcessingService",
@@ -15021,6 +15251,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_campaignProcessor"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024rateLimiter",
+            "name": "rateLimiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_rateLimiter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_userMessageRepository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\MboxBounceProcessorTest",
             "name": "MboxBounceProcessorTest",
             "summary": "",
@@ -15135,6 +15375,36 @@ Search.appendIndex(
             "name": "io",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-UnidentifiedBounceReprocessorTest.html#property_io"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest",
+            "name": "SendRateLimiterTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest\u003A\u003AtestInitializesLimitsFromConfigOnly\u0028\u0029",
+            "name": "testInitializesLimitsFromConfigOnly",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testInitializesLimitsFromConfigOnly"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest\u003A\u003AtestBatchLimitTriggersWaitMessageAndResetsCounters\u0028\u0029",
+            "name": "testBatchLimitTriggersWaitMessageAndResetsCounters",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testBatchLimitTriggersWaitMessageAndResetsCounters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest\u003A\u003AtestThrottleSleepsPerMessagePathIsCallable\u0028\u0029",
+            "name": "testThrottleSleepsPerMessagePathIsCallable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testThrottleSleepsPerMessagePathIsCallable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest\u003A\u003A\u0024ispProvider",
+            "name": "ispProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#property_ispProvider"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\WebklexImapClientFactoryTest",
             "name": "WebklexImapClientFactoryTest",

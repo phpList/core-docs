@@ -93,17 +93,19 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-repository.html">Repository</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-messaging.html">Messaging</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-messaging-service.html">Service</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    UserMessageRepository
+    SendRateLimiterTest
 
         <span class="phpdocumentor-element__extends">
-        extends <a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html"><abbr title="\PhpList\Core\Domain\Common\Repository\AbstractRepository">AbstractRepository</abbr></a>
+        extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
     </span>
     
             <div class="phpdocumentor-element__package">
@@ -122,14 +124,13 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageRepository.php"><a href="files/src-domain-messaging-repository-usermessagerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageRepository.php">UserMessageRepository.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-sendratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php">SendRateLimiterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Base class for repositories.</p>
-
+        
 
 
 
@@ -140,7 +141,7 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -152,32 +153,49 @@
 
 
 
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#property_ispProvider">$ispProvider</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html"><abbr title="\PhpList\Core\Domain\Common\IspRestrictionsProvider">IspRestrictionsProvider</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+    </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_findOneByUserAndMessage">findOneByUserAndMessage()</a>
-    <span>
-                                &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-UserMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\UserMessage">UserMessage</abbr></a>|null    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_remove">remove()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testBatchLimitTriggersWaitMessageAndResetsCounters">testBatchLimitTriggersWaitMessageAndResetsCounters()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Removes $model and flushes the entity manager change list.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save">save()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testInitializesLimitsFromConfigOnly">testInitializesLimitsFromConfigOnly()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Persists $model and flushes the entity manager change list.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testThrottleSleepsPerMessagePathIsCallable">testThrottleSleepsPerMessagePathIsCallable()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_setUp">setUp()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
 
     </dl>
 
@@ -186,11 +204,56 @@
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_ispProvider">
+        $ispProvider
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#property_ispProvider" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-sendratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php">SendRateLimiterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html"><abbr title="\PhpList\Core\Domain\Common\IspRestrictionsProvider">IspRestrictionsProvider</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$ispProvider</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -199,97 +262,28 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_findOneByUserAndMessage">
-        findOneByUserAndMessage()
-        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_findOneByUserAndMessage" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testBatchLimitTriggersWaitMessageAndResetsCounters">
+        testBatchLimitTriggersWaitMessageAndResetsCounters()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testBatchLimitTriggersWaitMessageAndResetsCounters" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageRepository.php"><a href="files/src-domain-messaging-repository-usermessagerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageRepository.php">UserMessageRepository.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-sendratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php">SendRateLimiterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">findOneByUserAndMessage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaign</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-UserMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\UserMessage">UserMessage</abbr></a>|null</span></code>
+                    <span class="phpdocumentor-signature__name">testBatchLimitTriggersWaitMessageAndResetsCounters</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$subscriber</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$campaign</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
     
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-UserMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\UserMessage">UserMessage</abbr></a>|null</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_remove">
-        remove()
-        <a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_remove" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Repository/AbstractRepository.php"><a href="files/src-domain-common-repository-abstractrepository.html"><abbr title="src/Domain/Common/Repository/AbstractRepository.php">AbstractRepository.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">44</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Removes $model and flushes the entity manager change list.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">remove</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$model</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-        <section class="phpdocumentor-description"><p>This method allows controllers to not depend on the entity manager, but only on the repositories instead,
-following the Law of Demeter.</p>
-</section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$model</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
     
 
     
@@ -302,42 +296,96 @@ following the Law of Demeter.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_save">
-        save()
-        <a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testInitializesLimitsFromConfigOnly">
+        testInitializesLimitsFromConfigOnly()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testInitializesLimitsFromConfigOnly" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Repository/AbstractRepository.php"><a href="files/src-domain-common-repository-abstractrepository.html"><abbr title="src/Domain/Common/Repository/AbstractRepository.php">AbstractRepository.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-sendratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php">SendRateLimiterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Persists $model and flushes the entity manager change list.</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">save</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$model</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testInitializesLimitsFromConfigOnly</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
-        <section class="phpdocumentor-description"><p>This method allows controllers to not depend on the entity manager, but only on the repositories instead,
-following the Law of Demeter.</p>
-</section>
+    
+    
+    
 
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$model</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
+    
 
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testThrottleSleepsPerMessagePathIsCallable">
+        testThrottleSleepsPerMessagePathIsCallable()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testThrottleSleepsPerMessagePathIsCallable" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-sendratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php">SendRateLimiterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">65</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testThrottleSleepsPerMessagePathIsCallable</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setUp">
+        setUp()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-sendratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php">SendRateLimiterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
     
 
     
@@ -350,7 +398,7 @@ following the Law of Demeter.</p>
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Repository/UserMessageRepository.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Messaging/Service/SendRateLimiterTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -451,17 +499,25 @@ following the Law of Demeter.</p>
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                <li><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#property_ispProvider">$ispProvider</a></li>
+                                            </ul>
+                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_findOneByUserAndMessage">findOneByUserAndMessage()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_remove">remove()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save">save()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testBatchLimitTriggersWaitMessageAndResetsCounters">testBatchLimitTriggersWaitMessageAndResetsCounters()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testInitializesLimitsFromConfigOnly">testInitializesLimitsFromConfigOnly()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testThrottleSleepsPerMessagePathIsCallable">testThrottleSleepsPerMessagePathIsCallable()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_setUp">setUp()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -481,7 +537,7 @@ following the Law of Demeter.</p>
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
