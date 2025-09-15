@@ -15396,6 +15396,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-UnidentifiedBounceReprocessorTest.html#property_io"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest",
+            "name": "RateLimitedCampaignMailerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AtestComposeEmailSetsHeadersAndBody\u0028\u0029",
+            "name": "testComposeEmailSetsHeadersAndBody",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_testComposeEmailSetsHeadersAndBody"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AtestComposeEmailWithoutOptionalHeaders\u0028\u0029",
+            "name": "testComposeEmailWithoutOptionalHeaders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_testComposeEmailWithoutOptionalHeaders"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AtestSendUsesLimiterAroundMailer\u0028\u0029",
+            "name": "testSendUsesLimiterAroundMailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_testSendUsesLimiterAroundMailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AbuildMessage\u0028\u0029",
+            "name": "buildMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_buildMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AsetSubscriberEmail\u0028\u0029",
+            "name": "setSubscriberEmail",
+            "summary": "Subscriber\u0020has\u0020no\u0020public\u0020setter\u0020for\u0020email,\u0020so\u0020we\u0020use\u0020reflection.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_setSubscriberEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003A\u0024mailer",
+            "name": "mailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003A\u0024limiter",
+            "name": "limiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#property_limiter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003A\u0024sut",
+            "name": "sut",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#property_sut"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest",
             "name": "SendRateLimiterTest",
             "summary": "",
