@@ -7566,11 +7566,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_logger"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024rateLimiter",
-            "name": "rateLimiter",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_rateLimiter"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024userMessageRepository",
             "name": "userMessageRepository",
             "summary": "",
@@ -7670,6 +7665,36 @@ Search.appendIndex(
             "name": "bounceDataProcessor",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-UnidentifiedBounceReprocessor.html#property_bounceDataProcessor"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer",
+            "name": "RateLimitedCampaignMailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer\u003A\u003AcomposeEmail\u0028\u0029",
+            "name": "composeEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method_composeEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer\u003A\u003Asend\u0028\u0029",
+            "name": "send",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method_send"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer\u003A\u003A\u0024mailer",
+            "name": "mailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer\u003A\u003A\u0024limiter",
+            "name": "limiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#property_limiter"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter",
             "name": "SendRateLimiter",
@@ -15250,11 +15275,6 @@ Search.appendIndex(
             "name": "campaignProcessor",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_campaignProcessor"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024rateLimiter",
-            "name": "rateLimiter",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_rateLimiter"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024userMessageRepository",
             "name": "userMessageRepository",

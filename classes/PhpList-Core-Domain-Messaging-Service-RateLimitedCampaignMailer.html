@@ -94,13 +94,13 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-common.html">Common</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-common-model.html">Model</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-service.html">Service</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    IspRestrictions
+    RateLimitedCampaignMailer
 
     
             <div class="phpdocumentor-element__package">
@@ -115,15 +115,13 @@
 
 <div class="phpdocumentor-label-line">
 
-    <div class="phpdocumentor-label phpdocumentor-label--success"><span>Final</span><span>Yes</span></div>
-
 
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/IspRestrictions.php"><a href="files/src-domain-common-model-isprestrictions.html"><abbr title="src/Domain/Common/Model/IspRestrictions.php">IspRestrictions.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php"><a href="files/src-domain-messaging-service-ratelimitedcampaignmailer.html"><abbr title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php">RateLimitedCampaignMailer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">7</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
 
     </aside>
 
@@ -138,7 +136,7 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -152,52 +150,46 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_lockFile">$lockFile</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#property_limiter">$limiter</a>
     <span>
-                        &nbsp;: string|null            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\SendRateLimiter">SendRateLimiter</abbr></a>            </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_maxBatch">$maxBatch</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#property_mailer">$mailer</a>
     <span>
-                        &nbsp;: int|null            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_minBatchPeriod">$minBatchPeriod</a>
-    <span>
-                        &nbsp;: int|null            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -public">
-    <a class="" href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_raw">$raw</a>
-    <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+                        &nbsp;: <abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>            </span>
 </dt>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#method_isEmpty">isEmpty()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method_composeEmail">composeEmail()</a>
     <span>
-                                &nbsp;: bool    </span>
+                                &nbsp;: <abbr title="\Symfony\Component\Mime\Email">Email</abbr>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method_send">send()</a>
+    <span>
+                                &nbsp;: void    </span>
 </dt>
 
     </dl>
@@ -210,36 +202,36 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
         class="
             phpdocumentor-element
             -property
-            -public
-                                                -read-only                    "
+            -private
+                                                                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_lockFile">
-        $lockFile
-        <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_lockFile" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_limiter">
+        $limiter
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#property_limiter" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/IspRestrictions.php"><a href="files/src-domain-common-model-isprestrictions.html"><abbr title="src/Domain/Common/Model/IspRestrictions.php">IspRestrictions.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php"><a href="files/src-domain-messaging-service-ratelimitedcampaignmailer.html"><abbr title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php">RateLimitedCampaignMailer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__type">string|null</span>
-    <span class="phpdocumentor-signature__name">$lockFile</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\SendRateLimiter">SendRateLimiter</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$limiter</span>
     </code>
 
     
@@ -255,106 +247,30 @@
         class="
             phpdocumentor-element
             -property
-            -public
-                                                -read-only                    "
+            -private
+                                                                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_maxBatch">
-        $maxBatch
-        <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_maxBatch" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_mailer">
+        $mailer
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#property_mailer" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+                                            </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/IspRestrictions.php"><a href="files/src-domain-common-model-isprestrictions.html"><abbr title="src/Domain/Common/Model/IspRestrictions.php">IspRestrictions.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php"><a href="files/src-domain-messaging-service-ratelimitedcampaignmailer.html"><abbr title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php">RateLimitedCampaignMailer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">10</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__type">int|null</span>
-    <span class="phpdocumentor-signature__name">$maxBatch</span>
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$mailer</span>
     </code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -public
-                                                -read-only                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_minBatchPeriod">
-        $minBatchPeriod
-        <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_minBatchPeriod" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/IspRestrictions.php"><a href="files/src-domain-common-model-isprestrictions.html"><abbr title="src/Domain/Common/Model/IspRestrictions.php">IspRestrictions.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">11</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__type">int|null</span>
-    <span class="phpdocumentor-signature__name">$minBatchPeriod</span>
-    </code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -public
-                                                -read-only                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_raw">
-        $raw
-        <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_raw" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/IspRestrictions.php"><a href="files/src-domain-common-model-isprestrictions.html"><abbr title="src/Domain/Common/Model/IspRestrictions.php">IspRestrictions.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">13</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
-    <span class="phpdocumentor-signature__name">$raw</span>
-     = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
     
     
@@ -370,7 +286,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -381,20 +297,20 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/IspRestrictions.php"><a href="files/src-domain-common-model-isprestrictions.html"><abbr title="src/Domain/Common/Model/IspRestrictions.php">IspRestrictions.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php"><a href="files/src-domain-messaging-service-ratelimitedcampaignmailer.html"><abbr title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php">RateLimitedCampaignMailer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">9</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$maxBatch</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$minBatchPeriod</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lockFile</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raw</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mailer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\SendRateLimiter">SendRateLimiter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$limiter</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -403,30 +319,16 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$maxBatch</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
+                <span class="phpdocumentor-signature__argument__name">$mailer</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$minBatchPeriod</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
+                <span class="phpdocumentor-signature__argument__name">$limiter</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\SendRateLimiter">SendRateLimiter</abbr></a></span>
                             </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$lockFile</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$raw</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -444,37 +346,113 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_isEmpty">
-        isEmpty()
-        <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#method_isEmpty" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_composeEmail">
+        composeEmail()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method_composeEmail" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/IspRestrictions.php"><a href="files/src-domain-common-model-isprestrictions.html"><abbr title="src/Domain/Common/Model/IspRestrictions.php">IspRestrictions.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php"><a href="files/src-domain-messaging-service-ratelimitedcampaignmailer.html"><abbr title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php">RateLimitedCampaignMailer.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">isEmpty</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">composeEmail</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$processed</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$processed</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$subscriber</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
     
 
     
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span>
             </section>
 
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_send">
+        send()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method_send" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php"><a href="files/src-domain-messaging-service-ratelimitedcampaignmailer.html"><abbr title="src/Domain/Messaging/Service/RateLimitedCampaignMailer.php">RateLimitedCampaignMailer.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">send</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$email</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method_send#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\Symfony\Component\Mailer\Exception\TransportExceptionInterface">TransportExceptionInterface</abbr></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+    
 </article>
             </section>
 
@@ -482,7 +460,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Common/Model/IspRestrictions.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Service/RateLimitedCampaignMailer.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -583,26 +561,25 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_lockFile">$lockFile</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_maxBatch">$maxBatch</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_minBatchPeriod">$minBatchPeriod</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_raw">$raw</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#property_limiter">$limiter</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#property_mailer">$mailer</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#method_isEmpty">isEmpty()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method_composeEmail">composeEmail()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method_send">send()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -622,7 +599,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
