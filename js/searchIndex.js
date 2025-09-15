@@ -6086,6 +6086,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_findOneByUserAndMessage"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository\u003A\u003AcountSentSince\u0028\u0029",
+            "name": "countSentSince",
+            "summary": "Counts\u0020how\u0020many\u0020user\u0020messages\u0020have\u0020status\u0020\u0022sent\u0022\u0020since\u0020the\u0020given\u0020time.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_countSentSince"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceActionResolver",
             "name": "BounceActionResolver",
             "summary": "",
@@ -7746,10 +7751,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_batchStart"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024initializedFromHistory",
+            "name": "initializedFromHistory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_initializedFromHistory"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024ispRestrictionsProvider",
             "name": "ispRestrictionsProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_ispRestrictionsProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_userMessageRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024mailqueueBatchSize",
             "name": "mailqueueBatchSize",
