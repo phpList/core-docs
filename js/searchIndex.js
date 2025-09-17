@@ -1486,6 +1486,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_SUBSCRIPTION_NOT_FOUND_FOR_LIST_AND_SUBSCRIBER"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider",
+            "name": "IspRestrictionsProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_load"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003AreadConfigFile\u0028\u0029",
+            "name": "readConfigFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_readConfigFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003AparseContents\u0028\u0029",
+            "name": "parseContents",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_parseContents"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003AparseLine\u0028\u0029",
+            "name": "parseLine",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_parseLine"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003AapplyKeyValue\u0028\u0029",
+            "name": "applyKeyValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_applyKeyValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003AlogIfDetected\u0028\u0029",
+            "name": "logIfDetected",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#method_logIfDetected"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003A\u0024confPath",
+            "name": "confPath",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#property_confPath"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-IspRestrictionsProvider.html#property_logger"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Mail\\NativeImapMailReader",
             "name": "NativeImapMailReader",
             "summary": "",
@@ -1600,6 +1650,41 @@ Search.appendIndex(
             "name": "getOwner",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-Interfaces-OwnableInterface.html#method_getOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions",
+            "name": "IspRestrictions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003AisEmpty\u0028\u0029",
+            "name": "isEmpty",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#method_isEmpty"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003A\u0024maxBatch",
+            "name": "maxBatch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_maxBatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003A\u0024minBatchPeriod",
+            "name": "minBatchPeriod",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_minBatchPeriod"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003A\u0024lockFile",
+            "name": "lockFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_lockFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\IspRestrictions\u003A\u003A\u0024raw",
+            "name": "raw",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_raw"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\ValidationContext",
             "name": "ValidationContext",
@@ -2050,6 +2135,11 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003AinMaintenanceMode\u0028\u0029",
+            "name": "inMaintenanceMode",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_inMaintenanceMode"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003AgetByItem\u0028\u0029",
             "name": "getByItem",
@@ -3375,6 +3465,11 @@ Search.appendIndex(
             "name": "campaignProcessor",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_campaignProcessor"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A\u0024configManager",
+            "name": "configManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_configManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand",
             "name": "SendTestEmailCommand",
@@ -4936,6 +5031,96 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageSchedule.html#property_embargo"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus",
+            "name": "MessageStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003AallowedTransitions\u0028\u0029",
+            "name": "allowedTransitions",
+            "summary": "Allowed\u0020transitions\u0020for\u0020each\u0020state",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#method_allowedTransitions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003AcanTransitionTo\u0028\u0029",
+            "name": "canTransitionTo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#method_canTransitionTo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ADraft",
+            "name": "Draft",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Draft"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003APrepared",
+            "name": "Prepared",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Prepared"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ASubmitted",
+            "name": "Submitted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Submitted"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003AInProcess",
+            "name": "InProcess",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_InProcess"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ASent",
+            "name": "Sent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Sent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ASuspended",
+            "name": "Suspended",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Suspended"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ARequeued",
+            "name": "Requeued",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Requeued"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus",
+            "name": "UserMessageStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003ATodo",
+            "name": "Todo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_Todo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003AActive",
+            "name": "Active",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_Active"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003ASent",
+            "name": "Sent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_Sent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003ANotSent",
+            "name": "NotSent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_NotSent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003AInvalidEmailAddress",
+            "name": "InvalidEmailAddress",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_InvalidEmailAddress"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003AUnconfirmedUser",
+            "name": "UnconfirmedUser",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_UnconfirmedUser"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus\u003A\u003AExcluded",
+            "name": "Excluded",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-UserMessageStatus.html#enumcase_Excluded"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message",
             "name": "Message",
             "summary": "",
@@ -5816,6 +6001,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_incrementBounceCount"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AgetByStatusAndEmbargo\u0028\u0029",
+            "name": "getByStatusAndEmbargo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getByStatusAndEmbargo"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\SendProcessRepository",
             "name": "SendProcessRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -5900,6 +6090,16 @@ Search.appendIndex(
             "name": "UserMessageRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository\u003A\u003AfindOneByUserAndMessage\u0028\u0029",
+            "name": "findOneByUserAndMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_findOneByUserAndMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository\u003A\u003AcountSentSince\u0028\u0029",
+            "name": "countSentSince",
+            "summary": "Counts\u0020how\u0020many\u0020user\u0020messages\u0020have\u0020status\u0020\u0022sent\u0022\u0020since\u0020the\u0020given\u0020time.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_countSentSince"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\BounceActionResolver",
             "name": "BounceActionResolver",
@@ -6416,6 +6616,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-DeleteUserHandler.html#property_logger"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\RequeueHandler",
+            "name": "RequeueHandler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\RequeueHandler\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\RequeueHandler\u003A\u003Ahandle\u0028\u0029",
+            "name": "handle",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#method_handle"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\RequeueHandler\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\RequeueHandler\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#property_entityManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\UnconfirmUserAndDeleteBounceHandler",
             "name": "UnconfirmUserAndDeleteBounceHandler",
             "summary": "",
@@ -6856,6 +7081,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_updateMessage"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003AupdateStatus\u0028\u0029",
+            "name": "updateStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_updateStatus"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
             "summary": "",
@@ -7010,6 +7240,41 @@ Search.appendIndex(
             "name": "templateImageValidator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#property_templateImageValidator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MaxProcessTimeLimiter",
+            "name": "MaxProcessTimeLimiter",
+            "summary": "Limits\u0020the\u0020total\u0020processing\u0020time\u0020of\u0020a\u0020long\u002Drunning\u0020operation.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MaxProcessTimeLimiter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MaxProcessTimeLimiter\u003A\u003Astart\u0028\u0029",
+            "name": "start",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html#method_start"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MaxProcessTimeLimiter\u003A\u003AshouldStop\u0028\u0029",
+            "name": "shouldStop",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html#method_shouldStop"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MaxProcessTimeLimiter\u003A\u003A\u0024startedAt",
+            "name": "startedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html#property_startedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MaxProcessTimeLimiter\u003A\u003A\u0024maxSeconds",
+            "name": "maxSeconds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html#property_maxSeconds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MaxProcessTimeLimiter\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html#property_logger"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageParser",
             "name": "MessageParser",
@@ -7341,6 +7606,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_process"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003AunconfirmSubscriber\u0028\u0029",
+            "name": "unconfirmSubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_unconfirmSubscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003AupdateMessageStatus\u0028\u0029",
+            "name": "updateMessageStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateMessageStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003AupdateUserMessageStatus\u0028\u0029",
+            "name": "updateUserMessageStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateUserMessageStatus"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024mailer",
             "name": "mailer",
             "summary": "",
@@ -7365,6 +7645,21 @@ Search.appendIndex(
             "name": "logger",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024timeLimiter",
+            "name": "timeLimiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_timeLimiter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024requeueHandler",
+            "name": "requeueHandler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_requeueHandler"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\MboxBounceProcessor",
             "name": "MboxBounceProcessor",
@@ -7460,6 +7755,116 @@ Search.appendIndex(
             "name": "bounceDataProcessor",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-UnidentifiedBounceReprocessor.html#property_bounceDataProcessor"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer",
+            "name": "RateLimitedCampaignMailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer\u003A\u003AcomposeEmail\u0028\u0029",
+            "name": "composeEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method_composeEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer\u003A\u003Asend\u0028\u0029",
+            "name": "send",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#method_send"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer\u003A\u003A\u0024mailer",
+            "name": "mailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer\u003A\u003A\u0024limiter",
+            "name": "limiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#property_limiter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter",
+            "name": "SendRateLimiter",
+            "summary": "Encapsulates\u0020batching\u0020and\u0020throttling\u0020logic\u0020for\u0020sending\u0020emails\u0020respecting\nconfiguration\u0020and\u0020ISP\u0020restrictions.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003AinitializeLimits\u0028\u0029",
+            "name": "initializeLimits",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#method_initializeLimits"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003AawaitTurn\u0028\u0029",
+            "name": "awaitTurn",
+            "summary": "Call\u0020before\u0020attempting\u0020to\u0020send\u0020another\u0020message.\u0020It\u0020will\u0020sleep\u0020if\u0020needed\u0020to\nrespect\u0020batch\u0020limits.\u0020Returns\u0020true\u0020when\u0020it\u0027s\u0020okay\u0020to\u0020proceed.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#method_awaitTurn"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003AafterSend\u0028\u0029",
+            "name": "afterSend",
+            "summary": "Call\u0020after\u0020a\u0020successful\u0020sending\u0020to\u0020update\u0020counters\u0020and\u0020apply\u0020per\u002Dmessage\u0020throttle.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#method_afterSend"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024batchSize",
+            "name": "batchSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_batchSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024batchPeriod",
+            "name": "batchPeriod",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_batchPeriod"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024throttleSec",
+            "name": "throttleSec",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_throttleSec"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024sentInBatch",
+            "name": "sentInBatch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_sentInBatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024batchStart",
+            "name": "batchStart",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_batchStart"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024initializedFromHistory",
+            "name": "initializedFromHistory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_initializedFromHistory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024ispRestrictionsProvider",
+            "name": "ispRestrictionsProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_ispRestrictionsProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024mailqueueBatchSize",
+            "name": "mailqueueBatchSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_mailqueueBatchSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024mailqueueBatchPeriod",
+            "name": "mailqueueBatchPeriod",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_mailqueueBatchPeriod"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024mailqueueThrottle",
+            "name": "mailqueueThrottle",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_mailqueueThrottle"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\WebklexBounceProcessingService",
             "name": "WebklexBounceProcessingService",
@@ -13436,170 +13841,165 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-BounceActionResolverTest.html#property_resolver"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest",
             "name": "MessageBuilderTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AcreateRequest\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AcreateRequest\u0028\u0029",
             "name": "createRequest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_createRequest"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_createRequest"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AmockBuildCalls\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AmockBuildCalls\u0028\u0029",
             "name": "mockBuildCalls",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_mockBuildCalls"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_mockBuildCalls"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestBuildsNewMessage\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestBuildsNewMessage\u0028\u0029",
             "name": "testBuildsNewMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_testBuildsNewMessage"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_testBuildsNewMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidRequest\u0028\u0029",
-            "name": "testThrowsExceptionOnInvalidRequest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_testThrowsExceptionOnInvalidRequest"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidContext\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidContext\u0028\u0029",
             "name": "testThrowsExceptionOnInvalidContext",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_testThrowsExceptionOnInvalidContext"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_testThrowsExceptionOnInvalidContext"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestUpdatesExistingMessage\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003AtestUpdatesExistingMessage\u0028\u0029",
             "name": "testUpdatesExistingMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#method_testUpdatesExistingMessage"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_testUpdatesExistingMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024formatBuilder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024formatBuilder",
             "name": "formatBuilder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#property_formatBuilder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#property_formatBuilder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024scheduleBuilder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024scheduleBuilder",
             "name": "scheduleBuilder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#property_scheduleBuilder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#property_scheduleBuilder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024contentBuilder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024contentBuilder",
             "name": "contentBuilder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#property_contentBuilder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#property_contentBuilder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024optionsBuilder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024optionsBuilder",
             "name": "optionsBuilder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#property_optionsBuilder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#property_optionsBuilder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024builder",
             "name": "builder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageBuilderTest.html#property_builder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#property_builder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageContentBuilderTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest",
             "name": "MessageContentBuilderTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageContentBuilderTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageContentBuilderTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AtestBuildsMessageContentSuccessfully\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AtestBuildsMessageContentSuccessfully\u0028\u0029",
             "name": "testBuildsMessageContentSuccessfully",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageContentBuilderTest.html#method_testBuildsMessageContentSuccessfully"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#method_testBuildsMessageContentSuccessfully"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
             "name": "testThrowsExceptionOnInvalidDto",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageContentBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageContentBuilderTest\u003A\u003A\u0024builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest\u003A\u003A\u0024builder",
             "name": "builder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageContentBuilderTest.html#property_builder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#property_builder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageFormatBuilderTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest",
             "name": "MessageFormatBuilderTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageFormatBuilderTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageFormatBuilderTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestBuildsMessageFormatSuccessfully\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestBuildsMessageFormatSuccessfully\u0028\u0029",
             "name": "testBuildsMessageFormatSuccessfully",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageFormatBuilderTest.html#method_testBuildsMessageFormatSuccessfully"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_testBuildsMessageFormatSuccessfully"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
             "name": "testThrowsExceptionOnInvalidDto",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageFormatBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003A\u0024builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003A\u0024builder",
             "name": "builder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageFormatBuilderTest.html#property_builder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#property_builder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageOptionsBuilderTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageOptionsBuilderTest",
             "name": "MessageOptionsBuilderTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageOptionsBuilderTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageOptionsBuilderTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageOptionsBuilderTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageOptionsBuilderTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AtestBuildsMessageOptionsSuccessfully\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AtestBuildsMessageOptionsSuccessfully\u0028\u0029",
             "name": "testBuildsMessageOptionsSuccessfully",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageOptionsBuilderTest.html#method_testBuildsMessageOptionsSuccessfully"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageOptionsBuilderTest.html#method_testBuildsMessageOptionsSuccessfully"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
             "name": "testThrowsExceptionOnInvalidDto",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageOptionsBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageOptionsBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003A\u0024builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageOptionsBuilderTest\u003A\u003A\u0024builder",
             "name": "builder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageOptionsBuilderTest.html#property_builder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageOptionsBuilderTest.html#property_builder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageScheduleBuilderTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageScheduleBuilderTest",
             "name": "MessageScheduleBuilderTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageScheduleBuilderTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageScheduleBuilderTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AsetUp\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AsetUp\u0028\u0029",
             "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageScheduleBuilderTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageScheduleBuilderTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AtestBuildsMessageScheduleSuccessfully\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AtestBuildsMessageScheduleSuccessfully\u0028\u0029",
             "name": "testBuildsMessageScheduleSuccessfully",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageScheduleBuilderTest.html#method_testBuildsMessageScheduleSuccessfully"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageScheduleBuilderTest.html#method_testBuildsMessageScheduleSuccessfully"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
             "name": "testThrowsExceptionOnInvalidDto",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageScheduleBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageScheduleBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003A\u0024builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageScheduleBuilderTest\u003A\u003A\u0024builder",
             "name": "builder",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Service-Builder-MessageScheduleBuilderTest.html#property_builder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageScheduleBuilderTest.html#property_builder"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ConsecutiveBounceHandlerTest",
             "name": "ConsecutiveBounceHandlerTest",
@@ -14105,6 +14505,61 @@ Search.appendIndex(
             "name": "handler",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-DeleteUserHandlerTest.html#property_handler"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest",
+            "name": "RequeueHandlerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003AcreateMessage\u0028\u0029",
+            "name": "createMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_createMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003AtestReturnsFalseWhenIntervalIsZeroOrNegative\u0028\u0029",
+            "name": "testReturnsFalseWhenIntervalIsZeroOrNegative",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testReturnsFalseWhenIntervalIsZeroOrNegative"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003AtestReturnsFalseWhenNowIsAfterRequeueUntil\u0028\u0029",
+            "name": "testReturnsFalseWhenNowIsAfterRequeueUntil",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testReturnsFalseWhenNowIsAfterRequeueUntil"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003AtestRequeuesFromFutureEmbargoAndSetsSubmittedStatus\u0028\u0029",
+            "name": "testRequeuesFromFutureEmbargoAndSetsSubmittedStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testRequeuesFromFutureEmbargoAndSetsSubmittedStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003AtestRequeuesFromNowWhenEmbargoIsNullOrPast\u0028\u0029",
+            "name": "testRequeuesFromNowWhenEmbargoIsNullOrPast",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testRequeuesFromNowWhenEmbargoIsNullOrPast"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003AtestReturnsFalseWhenNextEmbargoExceedsUntil\u0028\u0029",
+            "name": "testReturnsFalseWhenNextEmbargoExceedsUntil",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testReturnsFalseWhenNextEmbargoExceedsUntil"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003A\u0024em",
+            "name": "em",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#property_em"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003A\u0024output",
+            "name": "output",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#property_output"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\UnconfirmUserAndDeleteBounceHandlerTest",
             "name": "UnconfirmUserAndDeleteBounceHandlerTest",
@@ -14641,6 +15096,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#property_manager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MaxProcessTimeLimiterTest",
+            "name": "MaxProcessTimeLimiterTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MaxProcessTimeLimiterTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MaxProcessTimeLimiterTest\u003A\u003AtestShouldNotStopWhenMaxSecondsIsZero\u0028\u0029",
+            "name": "testShouldNotStopWhenMaxSecondsIsZero",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_testShouldNotStopWhenMaxSecondsIsZero"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MaxProcessTimeLimiterTest\u003A\u003AtestShouldStopAfterThresholdAndLogAndOutput\u0028\u0029",
+            "name": "testShouldStopAfterThresholdAndLogAndOutput",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_testShouldStopAfterThresholdAndLogAndOutput"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MaxProcessTimeLimiterTest\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#property_logger"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageParserTest",
             "name": "MessageParserTest",
             "summary": "",
@@ -14976,6 +15456,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_campaignProcessor"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_userMessageRepository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\MboxBounceProcessorTest",
             "name": "MboxBounceProcessorTest",
             "summary": "",
@@ -15090,6 +15575,86 @@ Search.appendIndex(
             "name": "io",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-UnidentifiedBounceReprocessorTest.html#property_io"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest",
+            "name": "RateLimitedCampaignMailerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AtestComposeEmailSetsHeadersAndBody\u0028\u0029",
+            "name": "testComposeEmailSetsHeadersAndBody",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_testComposeEmailSetsHeadersAndBody"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AtestComposeEmailWithoutOptionalHeaders\u0028\u0029",
+            "name": "testComposeEmailWithoutOptionalHeaders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_testComposeEmailWithoutOptionalHeaders"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AtestSendUsesLimiterAroundMailer\u0028\u0029",
+            "name": "testSendUsesLimiterAroundMailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_testSendUsesLimiterAroundMailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AbuildMessage\u0028\u0029",
+            "name": "buildMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_buildMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003AsetSubscriberEmail\u0028\u0029",
+            "name": "setSubscriberEmail",
+            "summary": "Subscriber\u0020has\u0020no\u0020public\u0020setter\u0020for\u0020email,\u0020so\u0020we\u0020use\u0020reflection.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#method_setSubscriberEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003A\u0024mailer",
+            "name": "mailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003A\u0024limiter",
+            "name": "limiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#property_limiter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\RateLimitedCampaignMailerTest\u003A\u003A\u0024sut",
+            "name": "sut",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#property_sut"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest",
+            "name": "SendRateLimiterTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest\u003A\u003AtestInitializesLimitsFromConfigOnly\u0028\u0029",
+            "name": "testInitializesLimitsFromConfigOnly",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testInitializesLimitsFromConfigOnly"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest\u003A\u003AtestBatchLimitTriggersWaitMessageAndResetsCounters\u0028\u0029",
+            "name": "testBatchLimitTriggersWaitMessageAndResetsCounters",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testBatchLimitTriggersWaitMessageAndResetsCounters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest\u003A\u003AtestThrottleSleepsPerMessagePathIsCallable\u0028\u0029",
+            "name": "testThrottleSleepsPerMessagePathIsCallable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#method_testThrottleSleepsPerMessagePathIsCallable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest\u003A\u003A\u0024ispProvider",
+            "name": "ispProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-SendRateLimiterTest.html#property_ispProvider"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\WebklexImapClientFactoryTest",
             "name": "WebklexImapClientFactoryTest",
@@ -16816,15 +17381,10 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging-service.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service\\Builder",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder",
             "name": "Builder",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-service-builder.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Service",
-            "name": "Service",
-            "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-service.html"
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-service-builder.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler",
             "name": "Handler",
