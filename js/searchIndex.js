@@ -506,6 +506,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Environment.html#property_validEnvironments"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Exception\\MissingMessageIdException",
+            "name": "MissingMessageIdException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Exception-MissingMessageIdException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Exception\\MissingMessageIdException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Exception-MissingMessageIdException.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Model\\LinkTrack",
             "name": "LinkTrack",
             "summary": "",
@@ -1441,50 +1451,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-ClientIpResolver.html#property_requestStack"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages",
-            "name": "Messages",
-            "summary": "Centralized\u0020message\u0020keys\u0020to\u0020be\u0020used\u0020across\u0020the\u0020application.",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html"
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\MailboxConnectionException",
+            "name": "MailboxConnectionException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Exception-MailboxConnectionException.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\MailboxConnectionException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003AAUTH_NOT_AUTHORIZED",
-            "name": "AUTH_NOT_AUTHORIZED",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_AUTH_NOT_AUTHORIZED"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003AAUTH_LOGIN_FAILED",
-            "name": "AUTH_LOGIN_FAILED",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_AUTH_LOGIN_FAILED"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003AAUTH_LOGIN_DISABLED",
-            "name": "AUTH_LOGIN_DISABLED",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_AUTH_LOGIN_DISABLED"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003AIDENTITY_ADMIN_NOT_FOUND",
-            "name": "IDENTITY_ADMIN_NOT_FOUND",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_IDENTITY_ADMIN_NOT_FOUND"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003ASUBSCRIPTION_LIST_NOT_FOUND",
-            "name": "SUBSCRIPTION_LIST_NOT_FOUND",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_SUBSCRIPTION_LIST_NOT_FOUND"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003ASUBSCRIPTION_SUBSCRIBER_NOT_FOUND",
-            "name": "SUBSCRIPTION_SUBSCRIBER_NOT_FOUND",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_SUBSCRIPTION_SUBSCRIBER_NOT_FOUND"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n\\Messages\u003A\u003ASUBSCRIPTION_NOT_FOUND_FOR_LIST_AND_SUBSCRIBER",
-            "name": "SUBSCRIPTION_NOT_FOUND_FOR_LIST_AND_SUBSCRIBER",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-I18n-Messages.html#constant_SUBSCRIPTION_NOT_FOUND_FOR_LIST_AND_SUBSCRIBER"
+            "url": "classes/PhpList-Core-Domain-Common-Exception-MailboxConnectionException.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider",
             "name": "IspRestrictionsProvider",
@@ -3161,6 +3136,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html#property_attributeTypeValidator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeDefinitionManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminAttributeDefinitionManager.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminAttributeManager",
             "name": "AdminAttributeManager",
             "summary": "",
@@ -3386,21 +3366,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessBouncesCommand.html#method_findProcessorFor"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessBouncesCommand\u003A\u003AIMAP_NOT_AVAILABLE",
-            "name": "IMAP_NOT_AVAILABLE",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessBouncesCommand.html#constant_IMAP_NOT_AVAILABLE"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessBouncesCommand\u003A\u003AFORCE_LOCK_FAILED",
-            "name": "FORCE_LOCK_FAILED",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessBouncesCommand.html#constant_FORCE_LOCK_FAILED"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessBouncesCommand\u003A\u003AALREADY_LOCKED",
-            "name": "ALREADY_LOCKED",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessBouncesCommand.html#constant_ALREADY_LOCKED"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessBouncesCommand\u003A\u003A\u0024lockService",
             "name": "lockService",
             "summary": "",
@@ -3430,6 +3395,11 @@ Search.appendIndex(
             "name": "consecutiveBounceHandler",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessBouncesCommand.html#property_consecutiveBounceHandler"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessBouncesCommand\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessBouncesCommand.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand",
             "name": "ProcessQueueCommand",
@@ -3471,6 +3441,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_configManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand",
             "name": "SendTestEmailCommand",
             "summary": "",
@@ -3495,6 +3470,11 @@ Search.appendIndex(
             "name": "emailService",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\AsyncEmailMessage",
             "name": "AsyncEmailMessage",
@@ -13091,6 +13071,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#property_subject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeDefinitionManagerTest\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminAttributeDefinitionManagerTest.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AdminAttributeManagerTest",
             "name": "AdminAttributeManagerTest",
             "summary": "",
@@ -13326,6 +13311,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_commandTester"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\ProcessBouncesCommandTest\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\ProcessQueueCommandTest",
             "name": "ProcessQueueCommandTest",
             "summary": "",
@@ -13386,6 +13376,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_commandTester"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\ProcessQueueCommandTest\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\SendTestEmailCommandTest",
             "name": "SendTestEmailCommandTest",
             "summary": "",
@@ -13445,6 +13440,11 @@ Search.appendIndex(
             "name": "commandTester",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html#property_commandTester"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\SendTestEmailCommandTest\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Message\\SubscriberConfirmationMessageTest",
             "name": "SubscriberConfirmationMessageTest",
@@ -16831,10 +16831,10 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-core.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Model",
-            "name": "Model",
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Exception",
+            "name": "Exception",
             "summary": "",
-            "url": "namespaces/phplist-core-domain-analytics-model.html"
+            "url": "namespaces/phplist-core-domain-analytics-exception.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics",
             "name": "Analytics",
@@ -16845,6 +16845,11 @@ Search.appendIndex(
             "name": "Domain",
             "summary": "",
             "url": "namespaces/phplist-core-domain.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Model",
+            "name": "Model",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-analytics-model.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository",
             "name": "Repository",
@@ -16866,10 +16871,10 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-common.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\I18n",
-            "name": "I18n",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception",
+            "name": "Exception",
             "summary": "",
-            "url": "namespaces/phplist-core-domain-common-i18n.html"
+            "url": "namespaces/phplist-core-domain-common-exception.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Mail",
             "name": "Mail",
