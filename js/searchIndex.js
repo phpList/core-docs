@@ -3476,6 +3476,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\InvalidContextTypeException",
+            "name": "InvalidContextTypeException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-InvalidContextTypeException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\InvalidContextTypeException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-InvalidContextTypeException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\InvalidDtoTypeException",
+            "name": "InvalidDtoTypeException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-InvalidDtoTypeException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\InvalidDtoTypeException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-InvalidDtoTypeException.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\AsyncEmailMessage",
             "name": "AsyncEmailMessage",
             "summary": "Message\u0020class\u0020for\u0020asynchronous\u0020email\u0020processing",
@@ -3651,6 +3671,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-PasswordResetMessageHandler.html#property_emailService"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-PasswordResetMessageHandler.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler\u003A\u003A\u0024passwordResetUrl",
             "name": "passwordResetUrl",
             "summary": "",
@@ -3680,6 +3705,11 @@ Search.appendIndex(
             "name": "emailService",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A\u0024confirmationUrl",
             "name": "confirmationUrl",
@@ -6360,6 +6390,11 @@ Search.appendIndex(
             "name": "blacklistService",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistEmailAndDeleteBounceHandler.html#property_blacklistService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistEmailAndDeleteBounceHandler\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-BlacklistEmailAndDeleteBounceHandler.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\BlacklistEmailHandler",
             "name": "BlacklistEmailHandler",
@@ -16995,6 +17030,11 @@ Search.appendIndex(
             "name": "Messaging",
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception",
+            "name": "Exception",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-exception.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message",
             "name": "Message",
