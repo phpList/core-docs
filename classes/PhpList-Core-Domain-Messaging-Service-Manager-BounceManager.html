@@ -122,7 +122,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -147,25 +147,6 @@
 
 
 
-<h4 id="toc-constants">
-    Constants
-    <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
-
-</h4>
-<dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#constant_LIVE_MODE_MESSAGE">LIVE_MODE_MESSAGE</a>
-    <span>
-        &nbsp;= &#039;Processed messages will be deleted from the mailbox&#039;                            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#constant_TEST_MODE_MESSAGE">TEST_MODE_MESSAGE</a>
-    <span>
-        &nbsp;= &#039;Running in test mode, not deleting messages from mailbox&#039;                            </span>
-</dt>
-
-    </dl>
 
 
 <h4 id="toc-properties">
@@ -190,6 +171,12 @@
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_logger">$logger</a>
     <span>
                         &nbsp;: <abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_translator">$translator</a>
+    <span>
+                        &nbsp;: <abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -289,75 +276,6 @@
 
 
         
-    <section class="phpdocumentor-constants">
-        <h3 class="phpdocumentor-elements__header" id="constants">
-            Constants
-            <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h3>
-                    <article class="phpdocumentor-element -constant -private ">
-    <h4 class="phpdocumentor-element__name" id="constant_LIVE_MODE_MESSAGE">
-        LIVE_MODE_MESSAGE
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#constant_LIVE_MODE_MESSAGE" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">21</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">LIVE_MODE_MESSAGE</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;Processed messages will be deleted from the mailbox&#039;</span>
-</code>
-
-
-    
-    
-    
-
-    
-
-</article>
-                    <article class="phpdocumentor-element -constant -private ">
-    <h4 class="phpdocumentor-element__name" id="constant_TEST_MODE_MESSAGE">
-        TEST_MODE_MESSAGE
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#constant_TEST_MODE_MESSAGE" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">20</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">TEST_MODE_MESSAGE</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;Running in test mode, not deleting messages from mailbox&#039;</span>
-</code>
-
-
-    
-    
-    
-
-    
-
-</article>
-            </section>
 
         
     <section class="phpdocumentor-properties">
@@ -383,7 +301,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -421,7 +339,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -459,7 +377,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -469,6 +387,44 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr></span>
     <span class="phpdocumentor-signature__name">$logger</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_translator">
+        $translator
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_translator" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">25</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$translator</span>
     </code>
 
     
@@ -497,7 +453,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -540,14 +496,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\BounceRepository">BounceRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bounceRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageBounceRepository">UserMessageBounceRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageBounceRepo</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\BounceRepository">BounceRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bounceRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageBounceRepository">UserMessageBounceRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageBounceRepo</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -583,6 +539,13 @@
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$translator</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -605,7 +568,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">133</span>
+    <span class="phpdocumentor-element-found-in__line">134</span>
 
     </aside>
 
@@ -649,7 +612,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -725,7 +688,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
@@ -769,7 +732,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 
     </aside>
 
@@ -824,7 +787,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">120</span>
+    <span class="phpdocumentor-element-found-in__line">121</span>
 
     </aside>
 
@@ -879,7 +842,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">107</span>
+    <span class="phpdocumentor-element-found-in__line">108</span>
 
     </aside>
 
@@ -927,7 +890,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">75</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
     </aside>
 
@@ -965,7 +928,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">81</span>
 
     </aside>
 
@@ -1013,7 +976,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">112</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 
     </aside>
 
@@ -1051,7 +1014,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">128</span>
+    <span class="phpdocumentor-element-found-in__line">129</span>
 
     </aside>
 
@@ -1099,7 +1062,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">87</span>
+    <span class="phpdocumentor-element-found-in__line">88</span>
 
     </aside>
 
@@ -1168,7 +1131,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/BounceManager.php"><a href="files/src-domain-messaging-service-manager-bouncemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/BounceManager.php">BounceManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">60</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
     </aside>
 
@@ -1323,18 +1286,10 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                        <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#toc-constants">Constants</a></li>
                                                             <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#toc-properties">Properties</a></li>
                                                             <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
-                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
-                <li>
-                    <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#constant_LIVE_MODE_MESSAGE">LIVE_MODE_MESSAGE</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#constant_TEST_MODE_MESSAGE">TEST_MODE_MESSAGE</a></li>
-                                            </ul>
-                </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
@@ -1342,6 +1297,7 @@
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_bounceRepository">$bounceRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_entityManager">$entityManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_logger">$logger</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_translator">$translator</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_userMessageBounceRepo">$userMessageBounceRepo</a></li>
                                             </ul>
                 </li>
