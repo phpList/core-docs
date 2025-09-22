@@ -93,19 +93,17 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-messaging.html">Messaging</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-messaging-service.html">Service</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-exception.html">Exception</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    MaxProcessTimeLimiterTest
+    ImapConnectionException
 
         <span class="phpdocumentor-element__extends">
-        extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
+        extends <abbr title="\RuntimeException">RuntimeException</abbr>
     </span>
     
             <div class="phpdocumentor-element__package">
@@ -124,9 +122,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/MaxProcessTimeLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-maxprocesstimelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/MaxProcessTimeLimiterTest.php">MaxProcessTimeLimiterTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Exception/ImapConnectionException.php"><a href="files/src-domain-messaging-exception-imapconnectionexception.html"><abbr title="src/Domain/Messaging/Exception/ImapConnectionException.php">ImapConnectionException.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
@@ -141,7 +139,7 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Exception-ImapConnectionException.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -153,42 +151,17 @@
 
 
 
-<h4 id="toc-properties">
-    Properties
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
-
-</h4>
-<dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#property_logger">$logger</a>
-    <span>
-                        &nbsp;: <abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
-</dt>
-
-    </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Exception-ImapConnectionException.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_testShouldNotStopWhenMaxSecondsIsZero">testShouldNotStopWhenMaxSecondsIsZero()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Exception-ImapConnectionException.html#method___construct">__construct()</a>
     <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_testShouldStopAfterThresholdAndLogAndOutput">testShouldStopAfterThresholdAndLogAndOutput()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_setUp">setUp()</a>
-    <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: mixed    </span>
 </dt>
 
     </dl>
@@ -198,56 +171,11 @@
         
 
         
-    <section class="phpdocumentor-properties">
-        <h3 class="phpdocumentor-elements__header" id="properties">
-            Properties
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h3>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_logger">
-        $logger
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#property_logger" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/MaxProcessTimeLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-maxprocesstimelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/MaxProcessTimeLimiterTest.php">MaxProcessTimeLimiterTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">16</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$logger</span>
-    </code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Exception-ImapConnectionException.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -256,96 +184,38 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testShouldNotStopWhenMaxSecondsIsZero">
-        testShouldNotStopWhenMaxSecondsIsZero()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_testShouldNotStopWhenMaxSecondsIsZero" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PhpList-Core-Domain-Messaging-Exception-ImapConnectionException.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/MaxProcessTimeLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-maxprocesstimelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/MaxProcessTimeLimiterTest.php">MaxProcessTimeLimiterTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Exception/ImapConnectionException.php"><a href="files/src-domain-messaging-exception-imapconnectionexception.html"><abbr title="src/Domain/Messaging/Exception/ImapConnectionException.php">ImapConnectionException.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testShouldNotStopWhenMaxSecondsIsZero</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Throwable">Throwable</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$previous</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-    
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$previous</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Throwable">Throwable</abbr>|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
 
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testShouldStopAfterThresholdAndLogAndOutput">
-        testShouldStopAfterThresholdAndLogAndOutput()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_testShouldStopAfterThresholdAndLogAndOutput" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/MaxProcessTimeLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-maxprocesstimelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/MaxProcessTimeLimiterTest.php">MaxProcessTimeLimiterTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">36</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testShouldStopAfterThresholdAndLogAndOutput</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_setUp">
-        setUp()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/MaxProcessTimeLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-maxprocesstimelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/MaxProcessTimeLimiterTest.php">MaxProcessTimeLimiterTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">18</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
     
 
     
@@ -358,7 +228,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Messaging/Service/MaxProcessTimeLimiterTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Exception/ImapConnectionException.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -459,24 +329,15 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#toc-methods">Methods</a></li>
+                                                                                <li><a href="classes/PhpList-Core-Domain-Messaging-Exception-ImapConnectionException.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
-                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
-                <li>
-                    <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#property_logger">$logger</a></li>
-                                            </ul>
-                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_testShouldNotStopWhenMaxSecondsIsZero">testShouldNotStopWhenMaxSecondsIsZero()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_testShouldStopAfterThresholdAndLogAndOutput">testShouldStopAfterThresholdAndLogAndOutput()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Exception-ImapConnectionException.html#method___construct">__construct()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -496,7 +357,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Exception-ImapConnectionException.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

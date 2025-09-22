@@ -3476,6 +3476,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\ImapConnectionException",
+            "name": "ImapConnectionException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-ImapConnectionException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\ImapConnectionException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-ImapConnectionException.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\InvalidContextTypeException",
             "name": "InvalidContextTypeException",
             "summary": "",
@@ -3495,6 +3505,16 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Exception-InvalidDtoTypeException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\OpenMboxFileException",
+            "name": "OpenMboxFileException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-OpenMboxFileException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\OpenMboxFileException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-OpenMboxFileException.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\AsyncEmailMessage",
             "name": "AsyncEmailMessage",
@@ -6331,6 +6351,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-ConsecutiveBounceHandler.html#property_blacklistService"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ConsecutiveBounceHandler\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ConsecutiveBounceHandler.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ConsecutiveBounceHandler\u003A\u003A\u0024unsubscribeThreshold",
             "name": "unsubscribeThreshold",
             "summary": "",
@@ -7356,6 +7381,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html#property_logger"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MaxProcessTimeLimiter\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageParser",
             "name": "MessageParser",
             "summary": "",
@@ -7460,6 +7490,11 @@ Search.appendIndex(
             "name": "linkTrackService",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_linkTrackService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\NativeBounceProcessingService",
             "name": "NativeBounceProcessingService",
@@ -7956,6 +7991,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_userMessageRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter\u003A\u003A\u0024mailqueueBatchSize",
             "name": "mailqueueBatchSize",
             "summary": "",
@@ -8171,10 +8211,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#property_httpClient"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateImageValidator\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateImageValidator.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateLinkValidator",
             "name": "TemplateLinkValidator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateLinkValidator.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateLinkValidator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateLinkValidator.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateLinkValidator\u003A\u003Avalidate\u0028\u0029",
             "name": "validate",
@@ -8190,6 +8240,11 @@ Search.appendIndex(
             "name": "PLACEHOLDERS",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateLinkValidator.html#constant_PLACEHOLDERS"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateLinkValidator\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateLinkValidator.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\AttributeDefinitionCreationException",
             "name": "AttributeDefinitionCreationException",
@@ -8210,6 +8265,11 @@ Search.appendIndex(
             "name": "statusCode",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Exception-AttributeDefinitionCreationException.html#property_statusCode"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\CouldNotReadUploadedFileException",
+            "name": "CouldNotReadUploadedFileException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Exception-CouldNotReadUploadedFileException.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\SubscriberAttributeCreationException",
             "name": "SubscriberAttributeCreationException",
@@ -9771,6 +9831,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html#property_validator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper",
             "name": "CsvRowToDtoMapper",
             "summary": "",
@@ -9830,6 +9895,11 @@ Search.appendIndex(
             "name": "attributeTypeValidator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#property_attributeTypeValidator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-AttributeDefinitionManager.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager",
             "name": "SubscribePageManager",
@@ -9891,6 +9961,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_entityManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager",
             "name": "SubscriberAttributeManager",
             "summary": "",
@@ -9925,6 +10000,11 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager",
             "name": "SubscriberBlacklistManager",
@@ -10131,6 +10211,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberDeletionService"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager",
             "name": "SubscriptionManager",
             "summary": "",
@@ -10250,6 +10335,11 @@ Search.appendIndex(
             "name": "requestStack",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html#property_requestStack"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberBlacklistService\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter",
             "name": "SubscriberCsvExporter",
@@ -10381,6 +10471,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_entityManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService",
             "name": "SubscriberDeletionService",
             "summary": "",
@@ -10451,6 +10546,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003Avalidate\u0028\u0029",
             "name": "validate",
             "summary": "",
@@ -10460,6 +10560,11 @@ Search.appendIndex(
             "name": "VALID_TYPES",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#constant_VALID_TYPES"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\Controller\\DefaultController",
             "name": "DefaultController",
@@ -16641,11 +16746,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_attributeManagerMock"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subscriptionManagerMock",
-            "name": "subscriptionManagerMock",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subscriptionManagerMock"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subscriberRepositoryMock",
             "name": "subscriberRepositoryMock",
             "summary": "",
@@ -16660,11 +16760,6 @@ Search.appendIndex(
             "name": "attributeDefinitionRepositoryMock",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_attributeDefinitionRepositoryMock"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subject",
             "name": "subject",
