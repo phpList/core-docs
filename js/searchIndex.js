@@ -10166,6 +10166,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_updateSubscriber"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AresetBounceCount\u0028\u0029",
+            "name": "resetBounceCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_resetBounceCount"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AmarkAsConfirmedByUniqueId\u0028\u0029",
             "name": "markAsConfirmedByUniqueId",
             "summary": "",
