@@ -431,31 +431,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-BounceProcessorPass.html#method_process"
         },                {
-            "fqsen": "\\PhpList\\Core\\Core\\ConfigProvider",
-            "name": "ConfigProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Core-ConfigProvider.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Core\\ConfigProvider\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Core-ConfigProvider.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Core\\ConfigProvider\u003A\u003Aget\u0028\u0029",
-            "name": "get",
-            "summary": "",
-            "url": "classes/PhpList-Core-Core-ConfigProvider.html#method_get"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Core\\ConfigProvider\u003A\u003Aall\u0028\u0029",
-            "name": "all",
-            "summary": "",
-            "url": "classes/PhpList-Core-Core-ConfigProvider.html#method_all"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Core\\ConfigProvider\u003A\u003A\u0024config",
-            "name": "config",
-            "summary": "",
-            "url": "classes/PhpList-Core-Core-ConfigProvider.html#property_config"
-        },                {
             "fqsen": "\\PhpList\\Core\\Core\\DoctrineMappingPass",
             "name": "DoctrineMappingPass",
             "summary": "",
@@ -505,6 +480,31 @@ Search.appendIndex(
             "name": "validEnvironments",
             "summary": "",
             "url": "classes/PhpList-Core-Core-Environment.html#property_validEnvironments"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\ParameterProvider",
+            "name": "ParameterProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-ParameterProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\ParameterProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-ParameterProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\ParameterProvider\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-ParameterProvider.html#method_get"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\ParameterProvider\u003A\u003Aall\u0028\u0029",
+            "name": "all",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-ParameterProvider.html#method_all"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\ParameterProvider\u003A\u003A\u0024config",
+            "name": "config",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-ParameterProvider.html#property_config"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Exception\\MissingMessageIdException",
             "name": "MissingMessageIdException",
@@ -1386,10 +1386,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkTrackRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003A\u0024configProvider",
-            "name": "configProvider",
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003A\u0024paramProvider",
+            "name": "paramProvider",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_configProvider"
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_paramProvider"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager",
             "name": "LinkTrackManager",
@@ -1851,6 +1851,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-Config.html#property_type"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption",
+            "name": "ConfigOption",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AMaintenanceMode",
+            "name": "MaintenanceMode",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_MaintenanceMode"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ASubscribeMessage",
+            "name": "SubscribeMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_SubscribeMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ASubscribeEmailSubject",
+            "name": "SubscribeEmailSubject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_SubscribeEmailSubject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AUnsubscribeUrl",
+            "name": "UnsubscribeUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_UnsubscribeUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AConfirmationUrl",
+            "name": "ConfirmationUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_ConfirmationUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003APreferencesUrl",
+            "name": "PreferencesUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_PreferencesUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ASubscribeUrl",
+            "name": "SubscribeUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_SubscribeUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ADomain",
+            "name": "Domain",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_Domain"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AWebsite",
+            "name": "Website",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_Website"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\EventLog",
             "name": "EventLog",
             "summary": "",
@@ -2081,6 +2131,11 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Configuration-Repository-ConfigRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository\\ConfigRepository\u003A\u003AfindValueByItem\u0028\u0029",
+            "name": "findValueByItem",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Repository-ConfigRepository.html#method_findValueByItem"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository\\EventLogRepository",
             "name": "EventLogRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -2110,11 +2165,6 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003AinMaintenanceMode\u0028\u0029",
-            "name": "inMaintenanceMode",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_inMaintenanceMode"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003AgetByItem\u0028\u0029",
             "name": "getByItem",
@@ -2175,6 +2225,156 @@ Search.appendIndex(
             "name": "repository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-EventLogManager.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\PlaceholderResolver",
+            "name": "PlaceholderResolver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\PlaceholderResolver\u003A\u003Aregister\u0028\u0029",
+            "name": "register",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_register"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\PlaceholderResolver\u003A\u003Aresolve\u0028\u0029",
+            "name": "resolve",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_resolve"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\PlaceholderResolver\u003A\u003A\u0024providers",
+            "name": "providers",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_providers"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider",
+            "name": "ConfigProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003AisEnabled\u0028\u0029",
+            "name": "isEnabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#method_isEnabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003AgetValue\u0028\u0029",
+            "name": "getValue",
+            "summary": "Get\u0020configuration\u0020value\u0020by\u0020its\u0020key",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#method_getValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003AgetValueWithNamespace\u0028\u0029",
+            "name": "getValueWithNamespace",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#method_getValueWithNamespace"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003A\u0024booleanValues",
+            "name": "booleanValues",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_booleanValues"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003A\u0024configRepository",
+            "name": "configRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_configRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003A\u0024ttlSeconds",
+            "name": "ttlSeconds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_ttlSeconds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProvider",
+            "name": "DefaultConfigProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProvider\u003A\u003AsetTranslator\u0028\u0029",
+            "name": "setTranslator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_setTranslator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProvider\u003A\u003Ainit\u0028\u0029",
+            "name": "init",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_init"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProvider\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "Get\u0020a\u0020single\u0020default\u0020config\u0020item\u0020by\u0020key",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_get"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProvider\u003A\u003Ahas\u0028\u0029",
+            "name": "has",
+            "summary": "Check\u0020if\u0020a\u0020config\u0020key\u0020exists",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_has"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProvider\u003A\u003A\u0024defaults",
+            "name": "defaults",
+            "summary": "Holds\u0020all\u0020default\u0020configuration\u0020values",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_defaults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProvider\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UrlBuilder",
+            "name": "UrlBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UrlBuilder.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UrlBuilder\u003A\u003AwithUid\u0028\u0029",
+            "name": "withUid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UrlBuilder.html#method_withUid"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer",
+            "name": "UserPersonalizer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003Apersonalize\u0028\u0029",
+            "name": "personalize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#method_personalize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003APHP_SPACE",
+            "name": "PHP_SPACE",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#constant_PHP_SPACE"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003A\u0024config",
+            "name": "config",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_config"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003A\u0024urlBuilder",
+            "name": "urlBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_urlBuilder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003A\u0024attributes",
+            "name": "attributes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_attributes"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CleanUpOldSessionTokens",
             "name": "CleanUpOldSessionTokens",
@@ -3436,10 +3636,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_campaignProcessor"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A\u0024configManager",
-            "name": "configManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_configManager"
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_configProvider"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A\u0024translator",
             "name": "translator",
@@ -3730,6 +3930,11 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_configProvider"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A\u0024confirmationUrl",
             "name": "confirmationUrl",
@@ -8486,6 +8691,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_skipInvalidEmail"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberImportOptions\u003A\u003A\u0024notifySubscribers",
+            "name": "notifySubscribers",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_notifySubscribers"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\UpdateSubscriberDto",
             "name": "UpdateSubscriberDto",
             "summary": "",
@@ -9621,6 +9831,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#property_data"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository",
+            "name": "DynamicListAttrRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AfetchOptionNames\u0028\u0029",
+            "name": "fetchOptionNames",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_fetchOptionNames"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AfetchSingleOptionName\u0028\u0029",
+            "name": "fetchSingleOptionName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_fetchSingleOptionName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003A\u0024connection",
+            "name": "connection",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#property_connection"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003A\u0024prefix",
+            "name": "prefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#property_prefix"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository",
             "name": "SubscriberAttributeDefinitionRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -10281,6 +10521,86 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\AttributeValueProvider",
+            "name": "AttributeValueProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-AttributeValueProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\AttributeValueProvider\u003A\u003Asupports\u0028\u0029",
+            "name": "supports",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-AttributeValueProvider.html#method_supports"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\AttributeValueProvider\u003A\u003AgetValue\u0028\u0029",
+            "name": "getValue",
+            "summary": "Return\u0020normalized,\u0020human\u002Dreadable\u0020value\u0020\u0028string\u0029",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-AttributeValueProvider.html#method_getValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProvider",
+            "name": "CheckboxGroupValueProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-CheckboxGroupValueProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-CheckboxGroupValueProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProvider\u003A\u003Asupports\u0028\u0029",
+            "name": "supports",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-CheckboxGroupValueProvider.html#method_supports"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProvider\u003A\u003AgetValue\u0028\u0029",
+            "name": "getValue",
+            "summary": "Return\u0020normalized,\u0020human\u002Dreadable\u0020value\u0020\u0028string\u0029",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-CheckboxGroupValueProvider.html#method_getValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProvider\u003A\u003A\u0024repo",
+            "name": "repo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-CheckboxGroupValueProvider.html#property_repo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\ScalarValueProvider",
+            "name": "ScalarValueProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-ScalarValueProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\ScalarValueProvider\u003A\u003Asupports\u0028\u0029",
+            "name": "supports",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-ScalarValueProvider.html#method_supports"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\ScalarValueProvider\u003A\u003AgetValue\u0028\u0029",
+            "name": "getValue",
+            "summary": "Return\u0020normalized,\u0020human\u002Dreadable\u0020value\u0020\u0028string\u0029",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-ScalarValueProvider.html#method_getValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProvider",
+            "name": "SelectOrRadioValueProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SelectOrRadioValueProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SelectOrRadioValueProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProvider\u003A\u003Asupports\u0028\u0029",
+            "name": "supports",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SelectOrRadioValueProvider.html#method_supports"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProvider\u003A\u003AgetValue\u0028\u0029",
+            "name": "getValue",
+            "summary": "Return\u0020normalized,\u0020human\u002Dreadable\u0020value\u0020\u0028string\u0029",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SelectOrRadioValueProvider.html#method_getValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProvider\u003A\u003A\u0024repo",
+            "name": "repo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SelectOrRadioValueProvider.html#property_repo"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider",
             "name": "SubscriberProvider",
             "summary": "",
@@ -10305,6 +10625,26 @@ Search.appendIndex(
             "name": "subscriberListRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#property_subscriberListRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\AttributeValueResolver",
+            "name": "AttributeValueResolver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\AttributeValueResolver\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\AttributeValueResolver\u003A\u003Aresolve\u0028\u0029",
+            "name": "resolve",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html#method_resolve"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\AttributeValueResolver\u003A\u003A\u0024providers",
+            "name": "providers",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html#property_providers"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberBlacklistService",
             "name": "SubscriberBlacklistService",
@@ -10436,6 +10776,11 @@ Search.appendIndex(
             "summary": "Process\u0020a\u0020single\u0020row\u0020from\u0020the\u0020CSV\u0020file.",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_processRow"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AsendSubscribeEmail\u0028\u0029",
+            "name": "sendSubscribeEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_sendSubscribeEmail"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AprocessAttributes\u0028\u0029",
             "name": "processAttributes",
             "summary": "Process\u0020subscriber\u0020attributes.",
@@ -10480,6 +10825,21 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024emailService",
+            "name": "emailService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024subscriberListRepository",
+            "name": "subscriberListRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_subscriberListRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService",
             "name": "SubscriberDeletionService",
@@ -16636,6 +16996,71 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#property_manager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest",
+            "name": "CheckboxGroupValueProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003AcreateAttribute\u0028\u0029",
+            "name": "createAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#method_createAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003AcreateUserAttr\u0028\u0029",
+            "name": "createUserAttr",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#method_createUserAttr"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003AtestSupportsReturnsTrueForCheckboxgroup\u0028\u0029",
+            "name": "testSupportsReturnsTrueForCheckboxgroup",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#method_testSupportsReturnsTrueForCheckboxgroup"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003AtestSupportsReturnsFalseForOtherTypes\u0028\u0029",
+            "name": "testSupportsReturnsFalseForOtherTypes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#method_testSupportsReturnsFalseForOtherTypes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003AtestGetValueReturnsEmptyStringForNullOrEmptyValue\u0028\u0029",
+            "name": "testGetValueReturnsEmptyStringForNullOrEmptyValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#method_testGetValueReturnsEmptyStringForNullOrEmptyValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003AtestGetValueReturnsEmptyStringWhenNoParsedIds\u0028\u0029",
+            "name": "testGetValueReturnsEmptyStringWhenNoParsedIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#method_testGetValueReturnsEmptyStringWhenNoParsedIds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003AtestGetValueReturnsEmptyStringWhenNoTableName\u0028\u0029",
+            "name": "testGetValueReturnsEmptyStringWhenNoTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#method_testGetValueReturnsEmptyStringWhenNoTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003AtestGetValueFetchesNamesAndJoinsWithSemicolon\u0028\u0029",
+            "name": "testGetValueFetchesNamesAndJoinsWithSemicolon",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#method_testGetValueFetchesNamesAndJoinsWithSemicolon"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003AtestGetValueParsesAndPreservesOrderAndFiltersInvalids\u0028\u0029",
+            "name": "testGetValueParsesAndPreservesOrderAndFiltersInvalids",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#method_testGetValueParsesAndPreservesOrderAndFiltersInvalids"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003A\u0024repo",
+            "name": "repo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#property_repo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\CheckboxGroupValueProviderTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#property_subject"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest",
             "name": "SubscriberProviderTest",
             "summary": "",
@@ -17166,6 +17591,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-configuration-service.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider",
+            "name": "Provider",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-configuration-service-provider.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command",
             "name": "Command",
             "summary": "",
@@ -17335,6 +17765,11 @@ Search.appendIndex(
             "name": "Provider",
             "summary": "",
             "url": "namespaces/phplist-core-domain-subscription-service-provider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver",
+            "name": "Resolver",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-subscription-service-resolver.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator",
             "name": "Validator",
