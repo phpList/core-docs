@@ -2156,6 +2156,16 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Configuration-Repository-UrlCacheRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\LegacyUrlBuilder",
+            "name": "LegacyUrlBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-LegacyUrlBuilder.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\LegacyUrlBuilder\u003A\u003AwithUid\u0028\u0029",
+            "name": "withUid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-LegacyUrlBuilder.html#method_withUid"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager",
             "name": "ConfigManager",
             "summary": "",
@@ -2263,7 +2273,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003AgetValue\u0028\u0029",
             "name": "getValue",
-            "summary": "Get\u0020configuration\u0020value\u0020by\u0020its\u0020key",
+            "summary": "Get\u0020configuration\u0020value\u0020by\u0020its\u0020key,\u0020from\u0020settings\u0020or\u0020default\u0020configs\u0020or\u0020default\u0020value\u0020\u0028if\u0020provided\u0029",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#method_getValue"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003AgetValueWithNamespace\u0028\u0029",
@@ -2326,16 +2336,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_translator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UrlBuilder",
-            "name": "UrlBuilder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Service-UrlBuilder.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UrlBuilder\u003A\u003AwithUid\u0028\u0029",
-            "name": "withUid",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Service-UrlBuilder.html#method_withUid"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer",
             "name": "UserPersonalizer",
             "summary": "",
@@ -2371,10 +2371,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_subscriberRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003A\u0024attributes",
-            "name": "attributes",
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003A\u0024attributesRepository",
+            "name": "attributesRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_attributes"
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_attributesRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003A\u0024attributeValueResolver",
+            "name": "attributeValueResolver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_attributeValueResolver"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CleanUpOldSessionTokens",
             "name": "CleanUpOldSessionTokens",
@@ -3846,6 +3851,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_htmlEmail"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriptionConfirmationMessage",
+            "name": "SubscriptionConfirmationMessage",
+            "summary": "Message\u0020class\u0020for\u0020asynchronous\u0020subscriber\u0020confirmation\u0020email\u0020processing",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriptionConfirmationMessage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriptionConfirmationMessage\u003A\u003AgetEmail\u0028\u0029",
+            "name": "getEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html#method_getEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriptionConfirmationMessage\u003A\u003AgetUniqueId\u0028\u0029",
+            "name": "getUniqueId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html#method_getUniqueId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriptionConfirmationMessage\u003A\u003AgetListIds\u0028\u0029",
+            "name": "getListIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html#method_getListIds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriptionConfirmationMessage\u003A\u003AhasHtmlEmail\u0028\u0029",
+            "name": "hasHtmlEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html#method_hasHtmlEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriptionConfirmationMessage\u003A\u003A\u0024email",
+            "name": "email",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html#property_email"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriptionConfirmationMessage\u003A\u003A\u0024uniqueId",
+            "name": "uniqueId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html#property_uniqueId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriptionConfirmationMessage\u003A\u003A\u0024listIds",
+            "name": "listIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html#property_listIds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriptionConfirmationMessage\u003A\u003A\u0024htmlEmail",
+            "name": "htmlEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html#property_htmlEmail"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\AsyncEmailMessageHandler",
             "name": "AsyncEmailMessageHandler",
             "summary": "Handler\u0020for\u0020processing\u0020asynchronous\u0020email\u0020messages",
@@ -3931,15 +3986,45 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_translator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A\u0024configProvider",
-            "name": "configProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_configProvider"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A\u0024confirmationUrl",
             "name": "confirmationUrl",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_confirmationUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandler",
+            "name": "SubscriptionConfirmationMessageHandler",
+            "summary": "Handler\u0020for\u0020processing\u0020asynchronous\u0020subscription\u0020confirmation\u0020email\u0020messages",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandler\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandler\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "Process\u0020a\u0020subscription\u0020confirmation\u0020message\u0020by\u0020sending\u0020the\u0020confirmation\u0020email",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandler\u003A\u003A\u0024emailService",
+            "name": "emailService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandler\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandler\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandler\u003A\u003A\u0024userPersonalizer",
+            "name": "userPersonalizer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_userPersonalizer"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Attachment",
             "name": "Attachment",
@@ -8691,11 +8776,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_skipInvalidEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\SubscriberImportOptions\u003A\u003A\u0024notifySubscribers",
-            "name": "notifySubscribers",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_notifySubscribers"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\UpdateSubscriberDto",
             "name": "UpdateSubscriberDto",
             "summary": "",
@@ -9891,6 +9971,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html#method_getFilteredAfterId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeValueRepository\u003A\u003AgetForSubscriber\u0028\u0029",
+            "name": "getForSubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html#method_getForSubscriber"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryRepository",
             "name": "SubscriberHistoryRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -10776,6 +10861,16 @@ Search.appendIndex(
             "summary": "Process\u0020a\u0020single\u0020row\u0020from\u0020the\u0020CSV\u0020file.",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_processRow"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AhandleInvalidEmail\u0028\u0029",
+            "name": "handleInvalidEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleInvalidEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AhandleFlushAndEmail\u0028\u0029",
+            "name": "handleFlushAndEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleFlushAndEmail"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AsendSubscribeEmail\u0028\u0029",
             "name": "sendSubscribeEmail",
             "summary": "",
@@ -10826,20 +10921,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_translator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024emailService",
-            "name": "emailService",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024messageBus",
+            "name": "messageBus",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_emailService"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024configProvider",
-            "name": "configProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_configProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024subscriberListRepository",
-            "name": "subscriberListRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_subscriberListRepository"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_messageBus"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService",
             "name": "SubscriberDeletionService",
@@ -17581,15 +17666,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-configuration-repository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager",
-            "name": "Manager",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain-configuration-service-manager.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service",
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-domain-configuration-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager",
+            "name": "Manager",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-configuration-service-manager.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider",
             "name": "Provider",

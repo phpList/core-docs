@@ -100,7 +100,7 @@
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    SubscriberConfirmationMessageHandler
+    SubscriptionConfirmationMessageHandler
 
     
             <div class="phpdocumentor-element__package">
@@ -119,13 +119,13 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriptionconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php">SubscriptionConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Handler for processing asynchronous subscriber confirmation email messages</p>
+            <p class="phpdocumentor-summary">Handler for processing asynchronous subscription confirmation email messages</p>
 
 
 
@@ -134,7 +134,7 @@
 
     <section class="phpdocumentor-attributes">
         <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+            Attributes <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#attributes" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h5>
                     <dl class="phpdocumentor-argument-list">
@@ -148,7 +148,7 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -162,55 +162,54 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_confirmationUrl">$confirmationUrl</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_configProvider">$configProvider</a>
     <span>
-                        &nbsp;: string            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_emailService">$emailService</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_emailService">$emailService</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-EmailService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\EmailService">EmailService</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_translator">$translator</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_logger">$logger</a>
     <span>
-                        &nbsp;: <abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>            </span>
+                        &nbsp;: <abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_userPersonalizer">$userPersonalizer</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\UserPersonalizer">UserPersonalizer</abbr></a>            </span>
 </dt>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method___invoke">__invoke()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#method___invoke">__invoke()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Process a subscriber confirmation message by sending the confirmation email</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method_generateConfirmationLink">generateConfirmationLink()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>Generate a confirmation link for the subscriber</dd>
+<dd>Process a subscription confirmation message by sending the confirmation email</dd>
 
     </dl>
 
@@ -222,7 +221,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -232,17 +231,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_confirmationUrl">
-        $confirmationUrl
-        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_confirmationUrl" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_configProvider">
+        $configProvider
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_configProvider" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriptionconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php">SubscriptionConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -250,8 +249,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$confirmationUrl</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$configProvider</span>
     </code>
 
     
@@ -272,15 +271,15 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_emailService">
         $emailService
-        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_emailService" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_emailService" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriptionconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php">SubscriptionConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -308,17 +307,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_translator">
-        $translator
-        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_translator" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_logger">
+        $logger
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_logger" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriptionconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php">SubscriptionConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -326,8 +325,46 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
-    <span class="phpdocumentor-signature__name">$translator</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$logger</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_userPersonalizer">
+        $userPersonalizer
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_userPersonalizer" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriptionconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php">SubscriptionConfirmationMessageHandler.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">25</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\UserPersonalizer">UserPersonalizer</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$userPersonalizer</span>
     </code>
 
     
@@ -344,7 +381,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -355,20 +392,20 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriptionconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php">SubscriptionConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-EmailService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\EmailService">EmailService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$emailService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$confirmationUrl</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-EmailService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\EmailService">EmailService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$emailService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\UserPersonalizer">UserPersonalizer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userPersonalizer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -384,15 +421,22 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$translator</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
+                <span class="phpdocumentor-signature__argument__name">$configProvider</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$confirmationUrl</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                <span class="phpdocumentor-signature__argument__name">$logger</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$userPersonalizer</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\UserPersonalizer">UserPersonalizer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -413,17 +457,17 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___invoke">
         __invoke()
-        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method___invoke" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#method___invoke" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriptionconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php">SubscriptionConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Process a subscriber confirmation message by sending the confirmation email</p>
+        <p class="phpdocumentor-summary">Process a subscription confirmation message by sending the confirmation email</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -450,62 +494,13 @@
 
     
 </article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_generateConfirmationLink">
-        generateConfirmationLink()
-        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method_generateConfirmationLink" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">77</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Generate a confirmation link for the subscriber</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">generateConfirmationLink</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uniqueId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$uniqueId</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
-            </section>
-
-</article>
             </section>
 
         <div class="phpdocumentor-modal" id="source-view">
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandler.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -606,26 +601,26 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_confirmationUrl">$confirmationUrl</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_emailService">$emailService</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_translator">$translator</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_configProvider">$configProvider</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_emailService">$emailService</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_logger">$logger</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_userPersonalizer">$userPersonalizer</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method___invoke">__invoke()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method_generateConfirmationLink">generateConfirmationLink()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#method___invoke">__invoke()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -645,7 +640,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
