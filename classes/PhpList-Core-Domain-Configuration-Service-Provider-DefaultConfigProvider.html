@@ -122,7 +122,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">10</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 
     </aside>
 
@@ -193,6 +193,12 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method___construct">__construct()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_get">get()</a>
     <span>
                                 &nbsp;: mixed    </span>
@@ -205,12 +211,6 @@
                                 &nbsp;: bool    </span>
 </dt>
 <dd>Check if a config key exists</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_setTranslator">setTranslator()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_init">init()</a>
@@ -236,7 +236,7 @@
             phpdocumentor-element
             -property
             -private
-            -static                                                        "
+                                                                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_defaults">
         $defaults
@@ -248,7 +248,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -257,7 +257,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
     <span class="phpdocumentor-signature__name">$defaults</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
@@ -275,19 +275,19 @@
             phpdocumentor-element
             -property
             -private
-            -static                                                        "
+                                                -read-only                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_translator">
         $translator
         <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_translator" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                            </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -295,7 +295,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
     <span class="phpdocumentor-signature__name">$translator</span>
     </code>
 
@@ -320,7 +320,51 @@
         class="phpdocumentor-element
             -method
             -public
-                                    -static                    "
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$translator</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
 >
     <h4 class="phpdocumentor-element__name" id="method_get">
         get()
@@ -330,7 +374,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">559</span>
+    <span class="phpdocumentor-element-found-in__line">571</span>
 
     </aside>
 
@@ -338,7 +382,7 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">get</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$default</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">get</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$default</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -372,7 +416,7 @@
         class="phpdocumentor-element
             -method
             -public
-                                    -static                    "
+                                                        "
 >
     <h4 class="phpdocumentor-element__name" id="method_has">
         has()
@@ -382,7 +426,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">568</span>
+    <span class="phpdocumentor-element-found-in__line">583</span>
 
     </aside>
 
@@ -390,7 +434,7 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">has</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">has</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -420,52 +464,8 @@
                     <article
         class="phpdocumentor-element
             -method
-            -public
-                                    -static                    "
->
-    <h4 class="phpdocumentor-element__name" id="method_setTranslator">
-        setTranslator()
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_setTranslator" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">20</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setTranslator</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$translator</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
             -private
-                                    -static                    "
+                                                        "
 >
     <h4 class="phpdocumentor-element__name" id="method_init">
         init()
@@ -475,14 +475,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">init</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">init</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -634,9 +634,9 @@
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_get">get()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_has">has()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_setTranslator">setTranslator()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_init">init()</a></li>
                                     </ul>
             </li>

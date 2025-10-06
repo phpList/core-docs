@@ -174,9 +174,15 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_defaultConfigs">$defaultConfigs</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\DefaultConfigProvider">DefaultConfigProvider</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_ttlSeconds">$ttlSeconds</a>
     <span>
-                        &nbsp;: int            </span>
+                        &nbsp;: int|null            </span>
 </dt>
 
     </dl>
@@ -346,9 +352,9 @@
             -private
                                                 -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_ttlSeconds">
-        $ttlSeconds
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_ttlSeconds" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_defaultConfigs">
+        $defaultConfigs
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_defaultConfigs" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
@@ -364,7 +370,45 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">int</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\DefaultConfigProvider">DefaultConfigProvider</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$defaultConfigs</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_ttlSeconds">
+        $ttlSeconds
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_ttlSeconds" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/ConfigProvider.php"><a href="files/src-domain-configuration-service-provider-configprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/ConfigProvider.php">ConfigProvider.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">22</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">int|null</span>
     <span class="phpdocumentor-signature__name">$ttlSeconds</span>
      = <span class="phpdocumentor-signature__default-value">300</span></code>
 
@@ -406,7 +450,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Configuration-Repository-ConfigRepository.html"><abbr title="\PhpList\Core\Domain\Configuration\Repository\ConfigRepository">ConfigRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cache</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ttlSeconds</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">300</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Configuration-Repository-ConfigRepository.html"><abbr title="\PhpList\Core\Domain\Configuration\Repository\ConfigRepository">ConfigRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cache</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\DefaultConfigProvider">DefaultConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$defaultConfigs</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ttlSeconds</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">300</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -429,8 +473,15 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$defaultConfigs</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\DefaultConfigProvider">DefaultConfigProvider</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$ttlSeconds</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
                  = <span class="phpdocumentor-signature__argument__default-value">300</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -457,7 +508,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/ConfigProvider.php"><a href="files/src-domain-configuration-service-provider-configprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/ConfigProvider.php">ConfigProvider.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
     </aside>
 
@@ -498,6 +549,14 @@
 </section>
 
                                     </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\InvalidArgumentException">InvalidArgumentException</abbr></span>
+                                                            
+                                             
+                                    </dd>
                                             </dl>
 
     
@@ -522,7 +581,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/ConfigProvider.php"><a href="files/src-domain-configuration-service-provider-configprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/ConfigProvider.php">ConfigProvider.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">69</span>
 
     </aside>
 
@@ -586,7 +645,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/ConfigProvider.php"><a href="files/src-domain-configuration-service-provider-configprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/ConfigProvider.php">ConfigProvider.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -625,6 +684,14 @@
                                                  <section class="phpdocumentor-description"><p>(PHPMD.StaticAccess)</p>
 </section>
 
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\InvalidArgumentException">InvalidArgumentException</abbr></span>
+                                                            
+                                             
                                     </dd>
                                             </dl>
 
@@ -754,6 +821,7 @@
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_booleanValues">$booleanValues</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_cache">$cache</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_configRepository">$configRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_defaultConfigs">$defaultConfigs</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_ttlSeconds">$ttlSeconds</a></li>
                                             </ul>
                 </li>

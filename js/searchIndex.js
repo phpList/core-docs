@@ -2296,6 +2296,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_cache"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003A\u0024defaultConfigs",
+            "name": "defaultConfigs",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#property_defaultConfigs"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003A\u0024ttlSeconds",
             "name": "ttlSeconds",
             "summary": "",
@@ -2306,10 +2311,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProvider\u003A\u003AsetTranslator\u0028\u0029",
-            "name": "setTranslator",
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_setTranslator"
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProvider\u003A\u003Ainit\u0028\u0029",
             "name": "init",
