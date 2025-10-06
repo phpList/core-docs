@@ -4011,6 +4011,11 @@ Search.appendIndex(
             "summary": "Process\u0020a\u0020subscription\u0020confirmation\u0020message\u0020by\u0020sending\u0020the\u0020confirmation\u0020email",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#method___invoke"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandler\u003A\u003AgetListNames\u0028\u0029",
+            "name": "getListNames",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#method_getListNames"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandler\u003A\u003A\u0024emailService",
             "name": "emailService",
             "summary": "",
@@ -4030,6 +4035,11 @@ Search.appendIndex(
             "name": "userPersonalizer",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_userPersonalizer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandler\u003A\u003A\u0024subscriberListRepository",
+            "name": "subscriberListRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandler.html#property_subscriberListRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Attachment",
             "name": "Attachment",
@@ -12976,6 +12986,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-SystemInfoCollectorTest.html#property_requestStack"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\LegacyUrlBuilderTest",
+            "name": "LegacyUrlBuilderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-LegacyUrlBuilderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\LegacyUrlBuilderTest\u003A\u003AtestWithUid\u0028\u0029",
+            "name": "testWithUid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-LegacyUrlBuilderTest.html#method_testWithUid"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\LegacyUrlBuilderTest\u003A\u003AprovideWithUidCases\u0028\u0029",
+            "name": "provideWithUidCases",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-LegacyUrlBuilderTest.html#method_provideWithUidCases"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\LegacyUrlBuilderTest\u003A\u003AtestQueryEncodingIsUrlEncoded\u0028\u0029",
+            "name": "testQueryEncodingIsUrlEncoded",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-LegacyUrlBuilderTest.html#method_testQueryEncodingIsUrlEncoded"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\ConfigManagerTest",
             "name": "ConfigManagerTest",
             "summary": "",
@@ -13055,6 +13085,256 @@ Search.appendIndex(
             "name": "manager",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-EventLogManagerTest.html#property_manager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\PlaceholderResolverTest",
+            "name": "PlaceholderResolverTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-PlaceholderResolverTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\PlaceholderResolverTest\u003A\u003AtestNullAndEmptyAreReturnedAsIs\u0028\u0029",
+            "name": "testNullAndEmptyAreReturnedAsIs",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-PlaceholderResolverTest.html#method_testNullAndEmptyAreReturnedAsIs"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\PlaceholderResolverTest\u003A\u003AtestUnregisteredTokensRemainUnchanged\u0028\u0029",
+            "name": "testUnregisteredTokensRemainUnchanged",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-PlaceholderResolverTest.html#method_testUnregisteredTokensRemainUnchanged"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\PlaceholderResolverTest\u003A\u003AtestCaseInsensitiveTokenResolution\u0028\u0029",
+            "name": "testCaseInsensitiveTokenResolution",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-PlaceholderResolverTest.html#method_testCaseInsensitiveTokenResolution"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\PlaceholderResolverTest\u003A\u003AtestMultipleDifferentTokensAreResolved\u0028\u0029",
+            "name": "testMultipleDifferentTokensAreResolved",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-PlaceholderResolverTest.html#method_testMultipleDifferentTokensAreResolved"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\PlaceholderResolverTest\u003A\u003AtestAdjacentAndRepeatedTokens\u0028\u0029",
+            "name": "testAdjacentAndRepeatedTokens",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-PlaceholderResolverTest.html#method_testAdjacentAndRepeatedTokens"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\PlaceholderResolverTest\u003A\u003AtestDigitsAndUnderscoresInToken\u0028\u0029",
+            "name": "testDigitsAndUnderscoresInToken",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-PlaceholderResolverTest.html#method_testDigitsAndUnderscoresInToken"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\PlaceholderResolverTest\u003A\u003AtestUnknownTokensArePreservedVerbatim\u0028\u0029",
+            "name": "testUnknownTokensArePreservedVerbatim",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-PlaceholderResolverTest.html#method_testUnknownTokensArePreservedVerbatim"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest",
+            "name": "ConfigProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003ApickNonBooleanCase\u0028\u0029",
+            "name": "pickNonBooleanCase",
+            "summary": "Utility\u003A\u0020pick\u0020a\u0020non\u002Dboolean\u0020enum\u0020case\u0020\u0028i.e.,\u0020anything\u0020except\u0020MaintenanceMode\u0029.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_pickNonBooleanCase"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003ApickNamespacedCasePair\u0028\u0029",
+            "name": "pickNamespacedCasePair",
+            "summary": "Utility\u003A\u0020pick\u0020a\u0020namespaced\u0020case\u0020\u0022parent\u003Achild\u0022\u0020where\u0020parent\u0020exists\u0020as\u0020its\u0020own\u0020case.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_pickNamespacedCasePair"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestIsEnabledRejectsNonBooleanKeys\u0028\u0029",
+            "name": "testIsEnabledRejectsNonBooleanKeys",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testIsEnabledRejectsNonBooleanKeys"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestIsEnabledUsesRepositoryValueWhenPresent\u0028\u0029",
+            "name": "testIsEnabledUsesRepositoryValueWhenPresent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testIsEnabledUsesRepositoryValueWhenPresent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestIsEnabledFallsBackToDefaultsWhenRepoMissing\u0028\u0029",
+            "name": "testIsEnabledFallsBackToDefaultsWhenRepoMissing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testIsEnabledFallsBackToDefaultsWhenRepoMissing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestGetValueRejectsBooleanKeys\u0028\u0029",
+            "name": "testGetValueRejectsBooleanKeys",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueRejectsBooleanKeys"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestGetValueReturnsFromCacheWhenPresent\u0028\u0029",
+            "name": "testGetValueReturnsFromCacheWhenPresent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueReturnsFromCacheWhenPresent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestGetValueLoadsFromRepoAndCachesWhenCacheMiss\u0028\u0029",
+            "name": "testGetValueLoadsFromRepoAndCachesWhenCacheMiss",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueLoadsFromRepoAndCachesWhenCacheMiss"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestGetValueFallsBackToDefaultConfigsWhenNoCacheAndNoRepo\u0028\u0029",
+            "name": "testGetValueFallsBackToDefaultConfigsWhenNoCacheAndNoRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueFallsBackToDefaultConfigsWhenNoCacheAndNoRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestGetValueReturnsNullWhenNoCacheNoRepoNoDefault\u0028\u0029",
+            "name": "testGetValueReturnsNullWhenNoCacheNoRepoNoDefault",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueReturnsNullWhenNoCacheNoRepoNoDefault"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestGetValueWithNamespacePrefersFullValue\u0028\u0029",
+            "name": "testGetValueWithNamespacePrefersFullValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueWithNamespacePrefersFullValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestGetValueWithNamespaceFallsBackToParentWhenFullEmpty\u0028\u0029",
+            "name": "testGetValueWithNamespaceFallsBackToParentWhenFullEmpty",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueWithNamespaceFallsBackToParentWhenFullEmpty"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003A\u0024repo",
+            "name": "repo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#property_repo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#property_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003A\u0024defaults",
+            "name": "defaults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#property_defaults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003A\u0024provider",
+            "name": "provider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#property_provider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest",
+            "name": "DefaultConfigProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestHasReturnsTrueForKnownKey\u0028\u0029",
+            "name": "testHasReturnsTrueForKnownKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_testHasReturnsTrueForKnownKey"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestGetReturnsArrayShapeForKnownKey\u0028\u0029",
+            "name": "testGetReturnsArrayShapeForKnownKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_testGetReturnsArrayShapeForKnownKey"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestGetReturnsProvidedDefaultWhenUnknownKey\u0028\u0029",
+            "name": "testGetReturnsProvidedDefaultWhenUnknownKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_testGetReturnsProvidedDefaultWhenUnknownKey"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestRemoteProcessingSecretIsRandomHexOfExpectedLength\u0028\u0029",
+            "name": "testRemoteProcessingSecretIsRandomHexOfExpectedLength",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_testRemoteProcessingSecretIsRandomHexOfExpectedLength"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestSubscribeUrlDefaultsToHttpAndApiV2Path\u0028\u0029",
+            "name": "testSubscribeUrlDefaultsToHttpAndApiV2Path",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_testSubscribeUrlDefaultsToHttpAndApiV2Path"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestUnsubscribeUrlDefaults\u0028\u0029",
+            "name": "testUnsubscribeUrlDefaults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_testUnsubscribeUrlDefaults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestTranslatorIsUsedOnlyOnFirstInit\u0028\u0029",
+            "name": "testTranslatorIsUsedOnlyOnFirstInit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_testTranslatorIsUsedOnlyOnFirstInit"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestKnownKeysHaveReasonableTypes\u0028\u0029",
+            "name": "testKnownKeysHaveReasonableTypes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_testKnownKeysHaveReasonableTypes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003A\u0024provider",
+            "name": "provider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#property_provider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest",
+            "name": "UserPersonalizerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest\u003A\u003AtestReturnsOriginalWhenSubscriberNotFound\u0028\u0029",
+            "name": "testReturnsOriginalWhenSubscriberNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html#method_testReturnsOriginalWhenSubscriberNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest\u003A\u003AtestBuiltInPlaceholdersAreResolved\u0028\u0029",
+            "name": "testBuiltInPlaceholdersAreResolved",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html#method_testBuiltInPlaceholdersAreResolved"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest\u003A\u003AtestDynamicUserAttributesAreResolvedCaseInsensitive\u0028\u0029",
+            "name": "testDynamicUserAttributesAreResolvedCaseInsensitive",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html#method_testDynamicUserAttributesAreResolvedCaseInsensitive"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest\u003A\u003AtestMultipleOccurrencesAndAdjacency\u0028\u0029",
+            "name": "testMultipleOccurrencesAndAdjacency",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html#method_testMultipleOccurrencesAndAdjacency"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest\u003A\u003A\u0024config",
+            "name": "config",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html#property_config"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest\u003A\u003A\u0024urlBuilder",
+            "name": "urlBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html#property_urlBuilder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest\u003A\u003A\u0024subRepo",
+            "name": "subRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html#property_subRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest\u003A\u003A\u0024attrRepo",
+            "name": "attrRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html#property_attrRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest\u003A\u003A\u0024attrResolver",
+            "name": "attrResolver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html#property_attrResolver"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\UserPersonalizerTest\u003A\u003A\u0024personalizer",
+            "name": "personalizer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-UserPersonalizerTest.html#property_personalizer"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest",
             "name": "CleanUpOldSessionTokensTest",
@@ -18056,11 +18336,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-common-repository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager",
-            "name": "Manager",
-            "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-configuration-service-manager.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service",
             "name": "Service",
             "summary": "",
@@ -18070,6 +18345,16 @@ Search.appendIndex(
             "name": "Configuration",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-configuration.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager",
+            "name": "Manager",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-configuration-service-manager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider",
+            "name": "Provider",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-configuration-service-provider.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command",
             "name": "Command",
