@@ -14501,6 +14501,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#property_confirmationUrl"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandlerTest",
+            "name": "SubscriptionConfirmationMessageHandlerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandlerTest\u003A\u003AtestSendsEmailWithPersonalizedContentAndListNames\u0028\u0029",
+            "name": "testSendsEmailWithPersonalizedContentAndListNames",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#method_testSendsEmailWithPersonalizedContentAndListNames"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriptionConfirmationMessageHandlerTest\u003A\u003AtestHandlesMissingListsGracefullyAndEmptyJoin\u0028\u0029",
+            "name": "testHandlesMissingListsGracefullyAndEmptyJoin",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#method_testHandlesMissingListsGracefullyAndEmptyJoin"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\MessageTest",
             "name": "MessageTest",
             "summary": "",
@@ -16931,6 +16946,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Model-SubscriptionTest.html#property_subject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\DynamicListAttrRepositoryTest",
+            "name": "DynamicListAttrRepositoryTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-DynamicListAttrRepositoryTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\DynamicListAttrRepositoryTest\u003A\u003AtestFetchOptionNamesReturnsEmptyForEmptyIds\u0028\u0029",
+            "name": "testFetchOptionNamesReturnsEmptyForEmptyIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-DynamicListAttrRepositoryTest.html#method_testFetchOptionNamesReturnsEmptyForEmptyIds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\DynamicListAttrRepositoryTest\u003A\u003AtestFetchOptionNamesThrowsOnInvalidTable\u0028\u0029",
+            "name": "testFetchOptionNamesThrowsOnInvalidTable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-DynamicListAttrRepositoryTest.html#method_testFetchOptionNamesThrowsOnInvalidTable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\DynamicListAttrRepositoryTest\u003A\u003AtestFetchOptionNamesReturnsNames\u0028\u0029",
+            "name": "testFetchOptionNamesReturnsNames",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-DynamicListAttrRepositoryTest.html#method_testFetchOptionNamesReturnsNames"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\DynamicListAttrRepositoryTest\u003A\u003AtestFetchSingleOptionNameThrowsOnInvalidTable\u0028\u0029",
+            "name": "testFetchSingleOptionNameThrowsOnInvalidTable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-DynamicListAttrRepositoryTest.html#method_testFetchSingleOptionNameThrowsOnInvalidTable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\DynamicListAttrRepositoryTest\u003A\u003AtestFetchSingleOptionNameReturnsString\u0028\u0029",
+            "name": "testFetchSingleOptionNameReturnsString",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-DynamicListAttrRepositoryTest.html#method_testFetchSingleOptionNameReturnsString"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\DynamicListAttrRepositoryTest\u003A\u003AtestFetchSingleOptionNameReturnsNullWhenNotFound\u0028\u0029",
+            "name": "testFetchSingleOptionNameReturnsNullWhenNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-DynamicListAttrRepositoryTest.html#method_testFetchSingleOptionNameReturnsNullWhenNotFound"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest",
             "name": "SubscriberRepositoryTest",
             "summary": "Testcase.",
@@ -16970,6 +17020,26 @@ Search.appendIndex(
             "name": "subject",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriptionRepositoryTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\AttributeValueResolverTest",
+            "name": "AttributeValueResolverTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeValueResolverTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\AttributeValueResolverTest\u003A\u003AtestResolveReturnsEmptyWhenNoProviderSupports\u0028\u0029",
+            "name": "testResolveReturnsEmptyWhenNoProviderSupports",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeValueResolverTest.html#method_testResolveReturnsEmptyWhenNoProviderSupports"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\AttributeValueResolverTest\u003A\u003AtestResolveReturnsValueFromFirstSupportingProvider\u0028\u0029",
+            "name": "testResolveReturnsValueFromFirstSupportingProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeValueResolverTest.html#method_testResolveReturnsValueFromFirstSupportingProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\AttributeValueResolverTest\u003A\u003AtestResolveHonorsProviderOrderFirstMatchWins\u0028\u0029",
+            "name": "testResolveHonorsProviderOrderFirstMatchWins",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeValueResolverTest.html#method_testResolveHonorsProviderOrderFirstMatchWins"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManagerTest",
             "name": "AttributeDefinitionManagerTest",
@@ -17430,6 +17500,66 @@ Search.appendIndex(
             "name": "subject",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-CheckboxGroupValueProviderTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\ScalarValueProviderTest",
+            "name": "ScalarValueProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-ScalarValueProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\ScalarValueProviderTest\u003A\u003AtestSupportsReturnsTrueWhenTypeIsNull\u0028\u0029",
+            "name": "testSupportsReturnsTrueWhenTypeIsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-ScalarValueProviderTest.html#method_testSupportsReturnsTrueWhenTypeIsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\ScalarValueProviderTest\u003A\u003AtestSupportsReturnsFalseWhenTypeIsNotNull\u0028\u0029",
+            "name": "testSupportsReturnsFalseWhenTypeIsNotNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-ScalarValueProviderTest.html#method_testSupportsReturnsFalseWhenTypeIsNotNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\ScalarValueProviderTest\u003A\u003AtestGetValueReturnsUnderlyingString\u0028\u0029",
+            "name": "testGetValueReturnsUnderlyingString",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-ScalarValueProviderTest.html#method_testGetValueReturnsUnderlyingString"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\ScalarValueProviderTest\u003A\u003AtestGetValueReturnsEmptyStringWhenNull\u0028\u0029",
+            "name": "testGetValueReturnsEmptyStringWhenNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-ScalarValueProviderTest.html#method_testGetValueReturnsEmptyStringWhenNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProviderTest",
+            "name": "SelectOrRadioValueProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SelectOrRadioValueProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProviderTest\u003A\u003AtestSupportsReturnsTrueForSelectAndRadio\u0028\u0029",
+            "name": "testSupportsReturnsTrueForSelectAndRadio",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SelectOrRadioValueProviderTest.html#method_testSupportsReturnsTrueForSelectAndRadio"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProviderTest\u003A\u003AtestSupportsReturnsFalseForOtherTypes\u0028\u0029",
+            "name": "testSupportsReturnsFalseForOtherTypes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SelectOrRadioValueProviderTest.html#method_testSupportsReturnsFalseForOtherTypes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProviderTest\u003A\u003AtestGetValueReturnsEmptyWhenNoTableName\u0028\u0029",
+            "name": "testGetValueReturnsEmptyWhenNoTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SelectOrRadioValueProviderTest.html#method_testGetValueReturnsEmptyWhenNoTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProviderTest\u003A\u003AtestGetValueReturnsEmptyWhenValueNullOrNonPositive\u0028\u0029",
+            "name": "testGetValueReturnsEmptyWhenValueNullOrNonPositive",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SelectOrRadioValueProviderTest.html#method_testGetValueReturnsEmptyWhenValueNullOrNonPositive"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProviderTest\u003A\u003AtestGetValueReturnsEmptyWhenRepoReturnsNull\u0028\u0029",
+            "name": "testGetValueReturnsEmptyWhenRepoReturnsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SelectOrRadioValueProviderTest.html#method_testGetValueReturnsEmptyWhenRepoReturnsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SelectOrRadioValueProviderTest\u003A\u003AtestGetValueHappyPathReturnsNameFromRepo\u0028\u0029",
+            "name": "testGetValueHappyPathReturnsNameFromRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SelectOrRadioValueProviderTest.html#method_testGetValueHappyPathReturnsNameFromRepo"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest",
             "name": "SubscriberProviderTest",
@@ -18461,6 +18591,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-subscription-repository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-subscription-service.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager",
             "name": "Manager",
             "summary": "",
@@ -18470,11 +18605,6 @@ Search.appendIndex(
             "name": "Provider",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-subscription-service-provider.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service",
-            "name": "Service",
-            "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-subscription-service.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator",
             "name": "Validator",

@@ -96,54 +96,185 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription.html">Subscription</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-messaging.html">Messaging</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-messaging-messagehandler.html">MessageHandler</a></li>
     </ul>
 
-    <article class="phpdocumentor-element -namespace">
-        <h2 class="phpdocumentor-content__title">Service</h2>
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    SubscriptionConfirmationMessageHandlerTest
+
+        <span class="phpdocumentor-element__extends">
+        extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
+    </span>
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-subscriptionconfirmationmessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandlerTest.php">SubscriptionConfirmationMessageHandlerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">22</span>
+
+    </aside>
 
         
+
+
+
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">covers</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                             
+                                    </dd>
+                                            </dl>
+
+
+
+
+
 <h3 id="toc">
     Table of Contents
-    <a href="namespaces/phplist-core-tests-unit-domain-subscription-service.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
 
-<h4 id="namespaces">
-    Namespaces
-    <a href="namespaces/phplist-core-tests-unit-domain-subscription-service.html#namespaces" class="headerlink"><i class="fas fa-link"></i></a>
+
+
+
+
+
+
+
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service-manager.html"><abbr title="\PhpList\Core\Tests\Unit\Domain\Subscription\Service\Manager">Manager</abbr></a></dt>
-            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service-provider.html"><abbr title="\PhpList\Core\Tests\Unit\Domain\Subscription\Service\Provider">Provider</abbr></a></dt>
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#method_testHandlesMissingListsGracefullyAndEmptyJoin">testHandlesMissingListsGracefullyAndEmptyJoin()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#method_testSendsEmailWithPersonalizedContentAndListNames">testSendsEmailWithPersonalizedContentAndListNames()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
     </dl>
 
 
-    <h4 id="toc-classes">
-        Classes
-        <a href="namespaces/phplist-core-tests-unit-domain-subscription-service.html#toc-classes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        
+
+        
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testHandlesMissingListsGracefullyAndEmptyJoin">
+        testHandlesMissingListsGracefullyAndEmptyJoin()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#method_testHandlesMissingListsGracefullyAndEmptyJoin" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
-    <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeValueResolverTest.html"><abbr title="\PhpList\Core\Tests\Unit\Domain\Subscription\Service\AttributeValueResolverTest">AttributeValueResolverTest</abbr></a></dt>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvExporterTest.html"><abbr title="\PhpList\Core\Tests\Unit\Domain\Subscription\Service\SubscriberCsvExporterTest">SubscriberCsvExporterTest</abbr></a></dt>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html"><abbr title="\PhpList\Core\Tests\Unit\Domain\Subscription\Service\SubscriberCsvImporterTest">SubscriberCsvImporterTest</abbr></a></dt>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html"><abbr title="\PhpList\Core\Tests\Unit\Domain\Subscription\Service\SubscriberDeletionServiceTest">SubscriberDeletionServiceTest</abbr></a></dt>    </dl>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-subscriptionconfirmationmessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandlerTest.php">SubscriptionConfirmationMessageHandlerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">93</span>
 
+    </aside>
 
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testHandlesMissingListsGracefullyAndEmptyJoin</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
 
+    
 
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testSendsEmailWithPersonalizedContentAndListNames">
+        testSendsEmailWithPersonalizedContentAndListNames()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#method_testSendsEmailWithPersonalizedContentAndListNames" class="headerlink"><i class="fas fa-link"></i></a>
 
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-subscriptionconfirmationmessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandlerTest.php">SubscriptionConfirmationMessageHandlerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
+    </aside>
 
-        
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testSendsEmailWithPersonalizedContentAndListNames</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+            </section>
+
         <div class="phpdocumentor-modal" id="source-view">
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Messaging/MessageHandler/SubscriptionConfirmationMessageHandlerTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -236,7 +367,7 @@
     </article>
                                 </section>
                 <section class="phpdocumentor-on-this-page__sidebar">
-                            
+                                
     <section class="phpdocumentor-on-this-page__content">
         <strong class="phpdocumentor-on-this-page__title">On this page</strong>
 
@@ -244,11 +375,18 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                                    <li><a href="namespaces/phplist-core-tests-unit-domain-subscription-service.html#toc-classes">Classes</a></li>
-                                                                                                                    </ul>
+                                                                                <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#toc-methods">Methods</a></li>
+                                    </ul>
             </li>
-
             
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#method_testHandlesMissingListsGracefullyAndEmptyJoin">testHandlesMissingListsGracefullyAndEmptyJoin()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#method_testSendsEmailWithPersonalizedContentAndListNames">testSendsEmailWithPersonalizedContentAndListNames()</a></li>
+                                    </ul>
+            </li>
                     </ul>
     </section>
 
@@ -266,7 +404,7 @@
     </section>
 </section>
         </div>
-        <a href="namespaces/phplist-core-tests-unit-domain-subscription-service.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriptionConfirmationMessageHandlerTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
