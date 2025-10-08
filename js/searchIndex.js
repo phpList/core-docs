@@ -10426,6 +10426,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#method_addHistory"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003AaddHistoryFromImport\u0028\u0029",
+            "name": "addHistoryFromImport",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#method_addHistoryFromImport"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003A\u0024repository",
             "name": "repository",
             "summary": "",
@@ -10886,11 +10891,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleFlushAndEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AsendSubscribeEmail\u0028\u0029",
-            "name": "sendSubscribeEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_sendSubscribeEmail"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AprocessAttributes\u0028\u0029",
             "name": "processAttributes",
             "summary": "Process\u0020subscriber\u0020attributes.",
@@ -10940,6 +10940,11 @@ Search.appendIndex(
             "name": "messageBus",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_messageBus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024subscriberHistoryManager",
+            "name": "subscriberHistoryManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_subscriberHistoryManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService",
             "name": "SubscriberDeletionService",
