@@ -10446,6 +10446,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#property_systemInfoCollector"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager",
             "name": "SubscriberListManager",
             "summary": "",
@@ -10885,6 +10890,11 @@ Search.appendIndex(
             "name": "handleInvalidEmail",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleInvalidEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AhandleSkipCase\u0028\u0029",
+            "name": "handleSkipCase",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleSkipCase"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AhandleFlushAndEmail\u0028\u0029",
             "name": "handleFlushAndEmail",
