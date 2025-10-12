@@ -8091,6 +8091,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024subscriberHistoryManager",
+            "name": "subscriberHistoryManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_subscriberHistoryManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\MboxBounceProcessor",
             "name": "MboxBounceProcessor",
             "summary": "",
@@ -8655,6 +8660,66 @@ Search.appendIndex(
             "name": "tableName",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-AttributeDefinitionDto.html#property_tableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto",
+            "name": "ChangeSetDto",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto\u003A\u003AgetChanges\u0028\u0029",
+            "name": "getChanges",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html#method_getChanges"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto\u003A\u003AhasChanges\u0028\u0029",
+            "name": "hasChanges",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html#method_hasChanges"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto\u003A\u003AhasField\u0028\u0029",
+            "name": "hasField",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html#method_hasField"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto\u003A\u003AgetFieldChange\u0028\u0029",
+            "name": "getFieldChange",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html#method_getFieldChange"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto\u003A\u003AgetOldValue\u0028\u0029",
+            "name": "getOldValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html#method_getOldValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto\u003A\u003AgetNewValue\u0028\u0029",
+            "name": "getNewValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html#method_getNewValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto\u003A\u003AtoArray\u0028\u0029",
+            "name": "toArray",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html#method_toArray"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto\u003A\u003AfromDoctrineChangeSet\u0028\u0029",
+            "name": "fromDoctrineChangeSet",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html#method_fromDoctrineChangeSet"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto\u003A\u003AIGNORED_ATTRIBUTES",
+            "name": "IGNORED_ATTRIBUTES",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html#constant_IGNORED_ATTRIBUTES"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ChangeSetDto\u003A\u003A\u0024changes",
+            "name": "changes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ChangeSetDto.html#property_changes"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\CreateSubscriberDto",
             "name": "CreateSubscriberDto",
@@ -10331,10 +10396,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#method_delete"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003AprocessAttributes\u0028\u0029",
+            "name": "processAttributes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#method_processAttributes"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A\u0024attributeRepository",
             "name": "attributeRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_attributeRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A\u0024attrDefinitionRepository",
+            "name": "attrDefinitionRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_attrDefinitionRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A\u0024entityManager",
             "name": "entityManager",
@@ -10426,10 +10501,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#method_addHistory"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003AaddHistoryFromChangeSet\u0028\u0029",
+            "name": "addHistoryFromChangeSet",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#method_addHistoryFromChangeSet"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003AaddHistoryFromImport\u0028\u0029",
             "name": "addHistoryFromImport",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#method_addHistoryFromImport"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003AaddHistoryFromApi\u0028\u0029",
+            "name": "addHistoryFromApi",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#method_addHistoryFromApi"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003AgetHistoryLines\u0028\u0029",
+            "name": "getHistoryLines",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#method_getHistoryLines"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003A\u0024repository",
             "name": "repository",
@@ -10571,6 +10661,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024subscriberHistoryManager",
+            "name": "subscriberHistoryManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager",
             "name": "SubscriptionManager",
             "summary": "",
@@ -10710,6 +10805,36 @@ Search.appendIndex(
             "name": "repo",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SelectOrRadioValueProvider.html#property_repo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProvider",
+            "name": "SubscriberAttributeChangeSetProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProvider\u003A\u003AgetAttributeChangeSet\u0028\u0029",
+            "name": "getAttributeChangeSet",
+            "summary": "Get\u0020the\u0020changes\u0020between\u0020the\u0020subscriber\u2019s\u0020existing\u0020attributes\u0020and\u0020new\u0020attribute\u0020data.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProvider.html#method_getAttributeChangeSet"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProvider\u003A\u003AgetMappedValues\u0028\u0029",
+            "name": "getMappedValues",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProvider.html#method_getMappedValues"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProvider\u003A\u003A\u0024resolver",
+            "name": "resolver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProvider.html#property_resolver"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProvider\u003A\u003A\u0024attributesRepository",
+            "name": "attributesRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProvider.html#property_attributesRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider",
             "name": "SubscriberProvider",
@@ -10858,7 +10983,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter",
             "name": "SubscriberCsvImporter",
-            "summary": "Service\u0020for\u0020importing\u0020subscribers\u0020from\u0020a\u0020CSV\u0020file.",
+            "summary": "phpcs\u003Aignore\u0020Generic.Commenting.Todo",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A__construct\u0028\u0029",
@@ -10901,11 +11026,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleFlushAndEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AprocessAttributes\u0028\u0029",
-            "name": "processAttributes",
-            "summary": "Process\u0020subscriber\u0020attributes.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_processAttributes"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024subscriberManager",
             "name": "subscriberManager",
             "summary": "",
@@ -10930,11 +11050,6 @@ Search.appendIndex(
             "name": "csvImporter",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_csvImporter"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024attrDefinitionRepository",
-            "name": "attrDefinitionRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_attrDefinitionRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024entityManager",
             "name": "entityManager",
