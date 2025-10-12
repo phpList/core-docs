@@ -10596,11 +10596,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_createSubscriber"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AsendConfirmationEmail\u0028\u0029",
-            "name": "sendConfirmationEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_sendConfirmationEmail"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AgetSubscriberById\u0028\u0029",
             "name": "getSubscriberById",
             "summary": "",
@@ -10650,11 +10645,6 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024messageBus",
-            "name": "messageBus",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_messageBus"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024subscriberDeletionService",
             "name": "subscriberDeletionService",
@@ -10730,6 +10720,11 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\AttributeValueProvider",
             "name": "AttributeValueProvider",
@@ -11026,10 +11021,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleSkipCase"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AhandleFlushAndEmail\u0028\u0029",
-            "name": "handleFlushAndEmail",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AprepareConfirmationMessage\u0028\u0029",
+            "name": "prepareConfirmationMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleFlushAndEmail"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_prepareConfirmationMessage"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024subscriberManager",
             "name": "subscriberManager",
@@ -17476,20 +17471,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndReturnsProperlyInitializedEntity"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberPersistsAndSendsEmail\u0028\u0029",
-            "name": "testCreateSubscriberPersistsAndSendsEmail",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberPersists\u0028\u0029",
+            "name": "testCreateSubscriberPersists",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testCreateSubscriberPersistsAndSendsEmail"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testCreateSubscriberPersists"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberWithConfirmationSendsConfirmationEmail\u0028\u0029",
-            "name": "testCreateSubscriberWithConfirmationSendsConfirmationEmail",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberWithConfirmation\u0028\u0029",
+            "name": "testCreateSubscriberWithConfirmation",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testCreateSubscriberWithConfirmationSendsConfirmationEmail"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testCreateSubscriberWithConfirmation"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail\u0028\u0029",
-            "name": "testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestCreateSubscriberWithoutConfirmation\u0028\u0029",
+            "name": "testCreateSubscriberWithoutConfirmation",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testCreateSubscriberWithoutConfirmationDoesNotSendConfirmationEmail"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#method_testCreateSubscriberWithoutConfirmation"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003AtestMarkAsConfirmedByUniqueIdConfirmsSubscriber\u0028\u0029",
             "name": "testMarkAsConfirmedByUniqueIdConfirmsSubscriber",
@@ -17505,11 +17500,6 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003A\u0024messageBus",
-            "name": "messageBus",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#property_messageBus"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003A\u0024subscriberManager",
             "name": "subscriberManager",
@@ -17565,6 +17555,11 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriptionManagerTest.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriptionManagerTest\u003A\u003A\u0024manager",
             "name": "manager",
