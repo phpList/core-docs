@@ -130,7 +130,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Repository/AdministratorTokenRepository.php"><a href="files/src-domain-identity-repository-administratortokenrepository.html"><abbr title="src/Domain/Identity/Repository/AdministratorTokenRepository.php">AdministratorTokenRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -211,6 +211,13 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html#method_getExpired">getExpired()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Identity-Model-AdministratorToken.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AdministratorToken">AdministratorToken</abbr></a>&gt;    </span>
+</dt>
+<dd>Get all expired tokens.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getFilteredAfterId">getFilteredAfterId()</a>
     <span>
                                 &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a>&gt;    </span>
@@ -229,13 +236,6 @@
                                 &nbsp;: void    </span>
 </dt>
 <dd>Removes $model and flushes the entity manager change list.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html#method_removeExpired">removeExpired()</a>
-    <span>
-                                &nbsp;: int    </span>
-</dt>
-<dd>Removes all expired tokens.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save">save()</a>
@@ -272,7 +272,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Repository/AdministratorTokenRepository.php"><a href="files/src-domain-identity-repository-administratortokenrepository.html"><abbr title="src/Domain/Identity/Repository/AdministratorTokenRepository.php">AdministratorTokenRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
@@ -365,6 +365,60 @@
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getExpired">
+        getExpired()
+        <a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html#method_getExpired" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Repository/AdministratorTokenRepository.php"><a href="files/src-domain-identity-repository-administratortokenrepository.html"><abbr title="src/Domain/Identity/Repository/AdministratorTokenRepository.php">AdministratorTokenRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">54</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get all expired tokens.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getExpired</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Identity-Model-AdministratorToken.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AdministratorToken">AdministratorToken</abbr></a>&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html#method_getExpired#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Identity-Model-AdministratorToken.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AdministratorToken">AdministratorToken</abbr></a>&gt;</span>
             </section>
 
 </article>
@@ -544,51 +598,6 @@ following the Law of Demeter.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_removeExpired">
-        removeExpired()
-        <a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html#method_removeExpired" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Repository/AdministratorTokenRepository.php"><a href="files/src-domain-identity-repository-administratortokenrepository.html"><abbr title="src/Domain/Identity/Repository/AdministratorTokenRepository.php">AdministratorTokenRepository.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">54</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Removes all expired tokens.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">removeExpired</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-        <section class="phpdocumentor-description"><p>This method should be called regularly to clean up the tokens.</p>
-</section>
-
-    
-    
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">int</span>
-                    &mdash;
-                <section class="phpdocumentor-description"><p>the number of removed tokens</p>
-</section>
-
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_save">
         save()
         <a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save" class="headerlink"><i class="fas fa-link"></i></a>
@@ -748,10 +757,10 @@ following the Law of Demeter.</p>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html#method_findOneUnexpiredByKey">findOneUnexpiredByKey()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html#method_getExpired">getExpired()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_persist">persist()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_remove">remove()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html#method_removeExpired">removeExpired()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save">save()</a></li>
                                     </ul>
             </li>

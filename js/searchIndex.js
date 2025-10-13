@@ -2411,6 +2411,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#property_tokenRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CleanUpOldSessionTokens\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#property_entityManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException",
             "name": "AdminAttributeCreationException",
             "summary": "",
@@ -3281,10 +3286,10 @@ Search.appendIndex(
             "summary": "Finds\u0020one\u0020unexpired\u0020token\u0020by\u0020the\u0020given\u0020key.\u0020Returns\u0020null\u0020if\u0020there\u0020is\u0020no\u0020match.",
             "url": "classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html#method_findOneUnexpiredByKey"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdministratorTokenRepository\u003A\u003AremoveExpired\u0028\u0029",
-            "name": "removeExpired",
-            "summary": "Removes\u0020all\u0020expired\u0020tokens.",
-            "url": "classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html#method_removeExpired"
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdministratorTokenRepository\u003A\u003AgetExpired\u0028\u0029",
+            "name": "getExpired",
+            "summary": "Get\u0020all\u0020expired\u0020tokens.",
+            "url": "classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html#method_getExpired"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdminLoginRepository",
             "name": "AdminLoginRepository",
@@ -11801,31 +11806,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Repository-AdministratorTokenRepositoryTest.html#method_testFindOneUnexpiredByKeyNotFindsUnexpiredTokenWithNonMatchingKey"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Repository\\AdministratorTokenRepositoryTest\u003A\u003AtestRemoveExpiredRemovesExpiredToken\u0028\u0029",
-            "name": "testRemoveExpiredRemovesExpiredToken",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Repository-AdministratorTokenRepositoryTest.html#method_testRemoveExpiredRemovesExpiredToken"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Repository\\AdministratorTokenRepositoryTest\u003A\u003AtestRemoveExpiredKeepsUnexpiredToken\u0028\u0029",
-            "name": "testRemoveExpiredKeepsUnexpiredToken",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Repository-AdministratorTokenRepositoryTest.html#method_testRemoveExpiredKeepsUnexpiredToken"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Repository\\AdministratorTokenRepositoryTest\u003A\u003AassertNotYear2037Yet\u0028\u0029",
-            "name": "assertNotYear2037Yet",
-            "summary": "Asserts\u0020that\u0020it\u0027s\u0020not\u0020year\u00202037\u0020yet\u0020\u0028which\u0020is\u0020the\u0020year\u0020the\u0020\u0022not\u0020expired\u0022\u0020token\u0020in\u0020the\u0020fixture\ndata\u0020set\u0020expires\u0029.",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Repository-AdministratorTokenRepositoryTest.html#method_assertNotYear2037Yet"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Repository\\AdministratorTokenRepositoryTest\u003A\u003AtestRemoveExpiredForNoExpiredTokensReturnsZero\u0028\u0029",
-            "name": "testRemoveExpiredForNoExpiredTokensReturnsZero",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Repository-AdministratorTokenRepositoryTest.html#method_testRemoveExpiredForNoExpiredTokensReturnsZero"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Repository\\AdministratorTokenRepositoryTest\u003A\u003AtestRemoveExpiredForOneExpiredTokenReturnsOne\u0028\u0029",
-            "name": "testRemoveExpiredForOneExpiredTokenReturnsOne",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Repository-AdministratorTokenRepositoryTest.html#method_testRemoveExpiredForOneExpiredTokenReturnsOne"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Repository\\AdministratorTokenRepositoryTest\u003A\u003AtestSavePersistsAndFlushesModel\u0028\u0029",
             "name": "testSavePersistsAndFlushesModel",
             "summary": "",
@@ -13511,35 +13491,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003AtestItRemovesAllExpiredTokensAndOutputsSuccess\u0028\u0029",
+            "name": "testItRemovesAllExpiredTokensAndOutputsSuccess",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testItRemovesAllExpiredTokensAndOutputsSuccess"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003AtestExecuteSuccessfully\u0028\u0029",
-            "name": "testExecuteSuccessfully",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003AtestItHandlesExceptionsAndOutputsFailure\u0028\u0029",
+            "name": "testItHandlesExceptionsAndOutputsFailure",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteSuccessfully"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003AtestExecuteWithNoExpiredTokens\u0028\u0029",
-            "name": "testExecuteWithNoExpiredTokens",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteWithNoExpiredTokens"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003AtestExecuteWithException\u0028\u0029",
-            "name": "testExecuteWithException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteWithException"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003A\u0024tokenRepository",
-            "name": "tokenRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#property_tokenRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Command\\CleanUpOldSessionTokensTest\u003A\u003A\u0024commandTester",
-            "name": "commandTester",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#property_commandTester"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testItHandlesExceptionsAndOutputsFailure"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest",
             "name": "AdminAttributeDefinitionTest",

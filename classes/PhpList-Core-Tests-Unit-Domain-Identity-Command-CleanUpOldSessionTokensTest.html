@@ -120,13 +120,15 @@
 
 <div class="phpdocumentor-label-line">
 
+    <div class="phpdocumentor-label phpdocumentor-label--success"><span>Final</span><span>Yes</span></div>
+
 
 </div>
 
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php"><a href="files/tests-unit-domain-identity-command-cleanupoldsessiontokenstest.html"><abbr title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php">CleanUpOldSessionTokensTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -153,25 +155,6 @@
 
 
 
-<h4 id="toc-properties">
-    Properties
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
-
-</h4>
-<dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#property_commandTester">$commandTester</a>
-    <span>
-                        &nbsp;: <abbr title="\Symfony\Component\Console\Tester\CommandTester">CommandTester</abbr>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#property_tokenRepository">$tokenRepository</a>
-    <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html"><abbr title="\PhpList\Core\Domain\Identity\Repository\AdministratorTokenRepository">AdministratorTokenRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
-</dt>
-
-    </dl>
 
 <h4 id="toc-methods">
     Methods
@@ -180,25 +163,13 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteSuccessfully">testExecuteSuccessfully()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testItHandlesExceptionsAndOutputsFailure">testItHandlesExceptionsAndOutputsFailure()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteWithException">testExecuteWithException()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteWithNoExpiredTokens">testExecuteWithNoExpiredTokens()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_setUp">setUp()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testItRemovesAllExpiredTokensAndOutputsSuccess">testItRemovesAllExpiredTokensAndOutputsSuccess()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -210,89 +181,6 @@
         
 
         
-    <section class="phpdocumentor-properties">
-        <h3 class="phpdocumentor-elements__header" id="properties">
-            Properties
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h3>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_commandTester">
-        $commandTester
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#property_commandTester" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php"><a href="files/tests-unit-domain-identity-command-cleanupoldsessiontokenstest.html"><abbr title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php">CleanUpOldSessionTokensTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">18</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Console\Tester\CommandTester">CommandTester</abbr></span>
-    <span class="phpdocumentor-signature__name">$commandTester</span>
-    </code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_tokenRepository">
-        $tokenRepository
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#property_tokenRepository" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php"><a href="files/tests-unit-domain-identity-command-cleanupoldsessiontokenstest.html"><abbr title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php">CleanUpOldSessionTokensTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">17</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorTokenRepository.html"><abbr title="\PhpList\Core\Domain\Identity\Repository\AdministratorTokenRepository">AdministratorTokenRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$tokenRepository</span>
-    </code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
@@ -306,22 +194,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testExecuteSuccessfully">
-        testExecuteSuccessfully()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteSuccessfully" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testItHandlesExceptionsAndOutputsFailure">
+        testItHandlesExceptionsAndOutputsFailure()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testItHandlesExceptionsAndOutputsFailure" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php"><a href="files/tests-unit-domain-identity-command-cleanupoldsessiontokenstest.html"><abbr title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php">CleanUpOldSessionTokensTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testExecuteSuccessfully</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testItHandlesExceptionsAndOutputsFailure</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -340,90 +228,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testExecuteWithException">
-        testExecuteWithException()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteWithException" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testItRemovesAllExpiredTokensAndOutputsSuccess">
+        testItRemovesAllExpiredTokensAndOutputsSuccess()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testItRemovesAllExpiredTokensAndOutputsSuccess" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php"><a href="files/tests-unit-domain-identity-command-cleanupoldsessiontokenstest.html"><abbr title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php">CleanUpOldSessionTokensTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testExecuteWithException</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testExecuteWithNoExpiredTokens">
-        testExecuteWithNoExpiredTokens()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteWithNoExpiredTokens" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php"><a href="files/tests-unit-domain-identity-command-cleanupoldsessiontokenstest.html"><abbr title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php">CleanUpOldSessionTokensTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">45</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testExecuteWithNoExpiredTokens</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_setUp">
-        setUp()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php"><a href="files/tests-unit-domain-identity-command-cleanupoldsessiontokenstest.html"><abbr title="tests/Unit/Domain/Identity/Command/CleanUpOldSessionTokensTest.php">CleanUpOldSessionTokensTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">20</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testItRemovesAllExpiredTokensAndOutputsSuccess</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -543,26 +363,16 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#toc-methods">Methods</a></li>
+                                                                                <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
-                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
-                <li>
-                    <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#property_commandTester">$commandTester</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#property_tokenRepository">$tokenRepository</a></li>
-                                            </ul>
-                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteSuccessfully">testExecuteSuccessfully()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteWithException">testExecuteWithException()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testExecuteWithNoExpiredTokens">testExecuteWithNoExpiredTokens()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testItHandlesExceptionsAndOutputsFailure">testItHandlesExceptionsAndOutputsFailure()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Identity-Command-CleanUpOldSessionTokensTest.html#method_testItRemovesAllExpiredTokensAndOutputsSuccess">testItRemovesAllExpiredTokensAndOutputsSuccess()</a></li>
                                     </ul>
             </li>
                     </ul>
