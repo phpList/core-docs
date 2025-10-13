@@ -1696,6 +1696,11 @@ Search.appendIndex(
             "summary": "Persists\u0020\u0024model\u0020and\u0020flushes\u0020the\u0020entity\u0020manager\u0020change\u0020list.",
             "url": "classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Repository\\AbstractRepository\u003A\u003Apersist\u0028\u0029",
+            "name": "persist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_persist"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Repository\\AbstractRepository\u003A\u003Aremove\u0028\u0029",
             "name": "remove",
             "summary": "Removes\u0020\u0024model\u0020and\u0020flushes\u0020the\u0020entity\u0020manager\u0020change\u0020list.",
@@ -3641,10 +3646,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_messagePreparator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A\u0024campaignProcessor",
-            "name": "campaignProcessor",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A\u0024messageBus",
+            "name": "messageBus",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_campaignProcessor"
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_messageBus"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A\u0024configProvider",
             "name": "configProvider",
@@ -3655,6 +3660,11 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\SendTestEmailCommand",
             "name": "SendTestEmailCommand",
@@ -3785,6 +3795,26 @@ Search.appendIndex(
             "name": "attachments",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-AsyncEmailMessage.html#property_attachments"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\CampaignProcessorMessage",
+            "name": "CampaignProcessorMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessorMessage.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\CampaignProcessorMessage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessorMessage.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\CampaignProcessorMessage\u003A\u003AgetMessageId\u0028\u0029",
+            "name": "getMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessorMessage.html#method_getMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\CampaignProcessorMessage\u003A\u003A\u0024messageId",
+            "name": "messageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessorMessage.html#property_messageId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\PasswordResetMessage",
             "name": "PasswordResetMessage",
@@ -3925,6 +3955,101 @@ Search.appendIndex(
             "name": "emailService",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-AsyncEmailMessageHandler.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler",
+            "name": "CampaignProcessorMessageHandler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AunconfirmSubscriber\u0028\u0029",
+            "name": "unconfirmSubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_unconfirmSubscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AupdateMessageStatus\u0028\u0029",
+            "name": "updateMessageStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_updateMessageStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AupdateUserMessageStatus\u0028\u0029",
+            "name": "updateUserMessageStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_updateUserMessageStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AhandleInvalidEmail\u0028\u0029",
+            "name": "handleInvalidEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_handleInvalidEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AhandleEmailSending\u0028\u0029",
+            "name": "handleEmailSending",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_handleEmailSending"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024mailer",
+            "name": "mailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024subscriberProvider",
+            "name": "subscriberProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_subscriberProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024messagePreparator",
+            "name": "messagePreparator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_messagePreparator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024timeLimiter",
+            "name": "timeLimiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_timeLimiter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024requeueHandler",
+            "name": "requeueHandler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_requeueHandler"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024subscriberHistoryManager",
+            "name": "subscriberHistoryManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_subscriberHistoryManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_messageRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler",
             "name": "PasswordResetMessageHandler",
@@ -6376,6 +6501,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getByStatusAndEmbargo"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AfindByIdAndStatus\u0028\u0029",
+            "name": "findByIdAndStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_findByIdAndStatus"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\SendProcessRepository",
             "name": "SendProcessRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -7035,11 +7165,6 @@ Search.appendIndex(
             "name": "logger",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#property_logger"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\RequeueHandler\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\RequeueHandler\u003A\u003A\u0024translator",
             "name": "translator",
@@ -7776,11 +7901,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#constant_LINT_TRACK_ENDPOINT"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_entityManager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
             "summary": "",
@@ -8015,86 +8135,6 @@ Search.appendIndex(
             "name": "getProtocol",
             "summary": "Returns\u0020a\u0020protocol\u0020name\u0020handled\u0020by\u0020this\u0020processor\u0020\u0028e.g.\u0020\u0022pop\u0022,\u0020\u0022mbox\u0022\u0029.",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-BounceProtocolProcessor.html#method_getProtocol"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor",
-            "name": "CampaignProcessor",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003Aprocess\u0028\u0029",
-            "name": "process",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_process"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003AunconfirmSubscriber\u0028\u0029",
-            "name": "unconfirmSubscriber",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_unconfirmSubscriber"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003AupdateMessageStatus\u0028\u0029",
-            "name": "updateMessageStatus",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateMessageStatus"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003AupdateUserMessageStatus\u0028\u0029",
-            "name": "updateUserMessageStatus",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#method_updateUserMessageStatus"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024mailer",
-            "name": "mailer",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_mailer"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024subscriberProvider",
-            "name": "subscriberProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_subscriberProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024messagePreparator",
-            "name": "messagePreparator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_messagePreparator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024logger",
-            "name": "logger",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_logger"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024userMessageRepository",
-            "name": "userMessageRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_userMessageRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024timeLimiter",
-            "name": "timeLimiter",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_timeLimiter"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024requeueHandler",
-            "name": "requeueHandler",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_requeueHandler"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024translator",
-            "name": "translator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_translator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\CampaignProcessor\u003A\u003A\u0024subscriberHistoryManager",
-            "name": "subscriberHistoryManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html#property_subscriberHistoryManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Processor\\MboxBounceProcessor",
             "name": "MboxBounceProcessor",
@@ -14441,10 +14481,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithMultipleCampaigns"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\ProcessQueueCommandTest\u003A\u003AtestExecuteWithProcessorException\u0028\u0029",
-            "name": "testExecuteWithProcessorException",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\ProcessQueueCommandTest\u003A\u003AtestExecuteWithDispatcherException\u0028\u0029",
+            "name": "testExecuteWithDispatcherException",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithProcessorException"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#method_testExecuteWithDispatcherException"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\ProcessQueueCommandTest\u003A\u003A\u0024messageRepository",
             "name": "messageRepository",
@@ -14456,10 +14496,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_messageProcessingPreparator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\ProcessQueueCommandTest\u003A\u003A\u0024campaignProcessor",
-            "name": "campaignProcessor",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\ProcessQueueCommandTest\u003A\u003A\u0024messageBus",
+            "name": "messageBus",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_campaignProcessor"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessQueueCommandTest.html#property_messageBus"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command\\ProcessQueueCommandTest\u003A\u003A\u0024lock",
             "name": "lock",
@@ -14555,6 +14595,106 @@ Search.appendIndex(
             "name": "testDefaultHtmlEmailIsFalse",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Message-SubscriberConfirmationMessageTest.html#method_testDefaultHtmlEmailIsFalse"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest",
+            "name": "CampaignProcessorMessageHandlerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeWhenCampaignNotFound\u0028\u0029",
+            "name": "testInvokeWhenCampaignNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWhenCampaignNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeWithNoSubscribers\u0028\u0029",
+            "name": "testInvokeWithNoSubscribers",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithNoSubscribers"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeWithInvalidSubscriberEmail\u0028\u0029",
+            "name": "testInvokeWithInvalidSubscriberEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithInvalidSubscriberEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeWithValidSubscriberEmail\u0028\u0029",
+            "name": "testInvokeWithValidSubscriberEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithValidSubscriberEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeWithMailerException\u0028\u0029",
+            "name": "testInvokeWithMailerException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithMailerException"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeWithMultipleSubscribers\u0028\u0029",
+            "name": "testInvokeWithMultipleSubscribers",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithMultipleSubscribers"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AcreateCampaignMock\u0028\u0029",
+            "name": "createCampaignMock",
+            "summary": "Creates\u0020a\u0020mock\u0020for\u0020the\u0020Message\u0020class\u0020with\u0020content",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_createCampaignMock"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024mailer",
+            "name": "mailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024subscriberProvider",
+            "name": "subscriberProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_subscriberProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024messagePreparator",
+            "name": "messagePreparator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messagePreparator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024handler",
+            "name": "handler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_handler"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024timeLimiter",
+            "name": "timeLimiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_timeLimiter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024requeueHandler",
+            "name": "requeueHandler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_requeueHandler"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest",
             "name": "PasswordResetMessageHandlerTest",
@@ -15661,11 +15801,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#property_logger"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003A\u0024em",
-            "name": "em",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#property_em"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003A\u0024output",
             "name": "output",
             "summary": "",
@@ -16326,11 +16461,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#method_testProcessMessageLinksWithLinksExtracted"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#property_entityManager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
             "summary": "",
@@ -16485,86 +16615,6 @@ Search.appendIndex(
             "name": "bounce",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-BounceDataProcessorTest.html#property_bounce"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest",
-            "name": "CampaignProcessorTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003AtestProcessWithNoSubscribers\u0028\u0029",
-            "name": "testProcessWithNoSubscribers",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#method_testProcessWithNoSubscribers"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003AtestProcessWithInvalidSubscriberEmail\u0028\u0029",
-            "name": "testProcessWithInvalidSubscriberEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#method_testProcessWithInvalidSubscriberEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003AtestProcessWithValidSubscriberEmail\u0028\u0029",
-            "name": "testProcessWithValidSubscriberEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#method_testProcessWithValidSubscriberEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003AtestProcessWithMailerException\u0028\u0029",
-            "name": "testProcessWithMailerException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#method_testProcessWithMailerException"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003AtestProcessWithMultipleSubscribers\u0028\u0029",
-            "name": "testProcessWithMultipleSubscribers",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#method_testProcessWithMultipleSubscribers"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003AtestProcessWithNullOutput\u0028\u0029",
-            "name": "testProcessWithNullOutput",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#method_testProcessWithNullOutput"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003AcreateCampaignMock\u0028\u0029",
-            "name": "createCampaignMock",
-            "summary": "Creates\u0020a\u0020mock\u0020for\u0020the\u0020Message\u0020class\u0020with\u0020content",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#method_createCampaignMock"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024mailer",
-            "name": "mailer",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_mailer"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024subscriberProvider",
-            "name": "subscriberProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_subscriberProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024messagePreparator",
-            "name": "messagePreparator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_messagePreparator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024logger",
-            "name": "logger",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_logger"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024output",
-            "name": "output",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_output"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\CampaignProcessorTest\u003A\u003A\u0024campaignProcessor",
-            "name": "campaignProcessor",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Processor-CampaignProcessorTest.html#property_campaignProcessor"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Processor\\MboxBounceProcessorTest",
             "name": "MboxBounceProcessorTest",

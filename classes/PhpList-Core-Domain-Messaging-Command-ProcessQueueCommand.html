@@ -124,7 +124,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/ProcessQueueCommand.php"><a href="files/src-domain-messaging-command-processqueuecommand.html"><abbr title="src/Domain/Messaging/Command/ProcessQueueCommand.php">ProcessQueueCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -132,6 +132,22 @@
 
 
 
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">SuppressWarnings</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>(&quot;PHPMD.CouplingBetweenObjects&quot;)</p>
+</section>
+
+                                    </dd>
+                                            </dl>
 
 
     <section class="phpdocumentor-attributes">
@@ -175,21 +191,27 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_campaignProcessor">$campaignProcessor</a>
-    <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Processor\CampaignProcessor">CampaignProcessor</abbr></a>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_configProvider">$configProvider</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_entityManager">$entityManager</a>
+    <span>
+                        &nbsp;: <abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_lockFactory">$lockFactory</a>
     <span>
                         &nbsp;: <abbr title="\Symfony\Component\Lock\LockFactory">LockFactory</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_messageBus">$messageBus</a>
+    <span>
+                        &nbsp;: <abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -250,9 +272,9 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_campaignProcessor">
-        $campaignProcessor
-        <a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_campaignProcessor" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_configProvider">
+        $configProvider
+        <a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_configProvider" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
@@ -260,7 +282,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/ProcessQueueCommand.php"><a href="files/src-domain-messaging-command-processqueuecommand.html"><abbr title="src/Domain/Messaging/Command/ProcessQueueCommand.php">ProcessQueueCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
@@ -268,8 +290,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Processor\CampaignProcessor">CampaignProcessor</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$campaignProcessor</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$configProvider</span>
     </code>
 
     
@@ -288,9 +310,9 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_configProvider">
-        $configProvider
-        <a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_configProvider" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_entityManager">
+        $entityManager
+        <a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_entityManager" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
@@ -298,7 +320,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/ProcessQueueCommand.php"><a href="files/src-domain-messaging-command-processqueuecommand.html"><abbr title="src/Domain/Messaging/Command/ProcessQueueCommand.php">ProcessQueueCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -306,8 +328,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$configProvider</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$entityManager</span>
     </code>
 
     
@@ -336,7 +358,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/ProcessQueueCommand.php"><a href="files/src-domain-messaging-command-processqueuecommand.html"><abbr title="src/Domain/Messaging/Command/ProcessQueueCommand.php">ProcessQueueCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -346,6 +368,44 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Lock\LockFactory">LockFactory</abbr></span>
     <span class="phpdocumentor-signature__name">$lockFactory</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_messageBus">
+        $messageBus
+        <a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_messageBus" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/ProcessQueueCommand.php"><a href="files/src-domain-messaging-command-processqueuecommand.html"><abbr title="src/Domain/Messaging/Command/ProcessQueueCommand.php">ProcessQueueCommand.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$messageBus</span>
     </code>
 
     
@@ -374,7 +434,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/ProcessQueueCommand.php"><a href="files/src-domain-messaging-command-processqueuecommand.html"><abbr title="src/Domain/Messaging/Command/ProcessQueueCommand.php">ProcessQueueCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
@@ -412,7 +472,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/ProcessQueueCommand.php"><a href="files/src-domain-messaging-command-processqueuecommand.html"><abbr title="src/Domain/Messaging/Command/ProcessQueueCommand.php">ProcessQueueCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -450,7 +510,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/ProcessQueueCommand.php"><a href="files/src-domain-messaging-command-processqueuecommand.html"><abbr title="src/Domain/Messaging/Command/ProcessQueueCommand.php">ProcessQueueCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -493,14 +553,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/ProcessQueueCommand.php"><a href="files/src-domain-messaging-command-processqueuecommand.html"><abbr title="src/Domain/Messaging/Command/ProcessQueueCommand.php">ProcessQueueCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Lock\LockFactory">LockFactory</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lockFactory</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messagePreparator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Processor\CampaignProcessor">CampaignProcessor</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaignProcessor</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Lock\LockFactory">LockFactory</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lockFactory</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messagePreparator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageBus</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -530,8 +590,8 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$campaignProcessor</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Processor-CampaignProcessor.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Processor\CampaignProcessor">CampaignProcessor</abbr></a></span>
+                <span class="phpdocumentor-signature__argument__name">$messageBus</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -546,6 +606,13 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$translator</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$entityManager</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -572,7 +639,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Command/ProcessQueueCommand.php"><a href="files/src-domain-messaging-command-processqueuecommand.html"><abbr title="src/Domain/Messaging/Command/ProcessQueueCommand.php">ProcessQueueCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
     </aside>
 
@@ -744,9 +811,10 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_campaignProcessor">$campaignProcessor</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_configProvider">$configProvider</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_entityManager">$entityManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_lockFactory">$lockFactory</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_messageBus">$messageBus</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_messagePreparator">$messagePreparator</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_messageRepository">$messageRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html#property_translator">$translator</a></li>
