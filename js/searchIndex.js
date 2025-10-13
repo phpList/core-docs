@@ -17691,6 +17691,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SelectOrRadioValueProviderTest.html#method_testGetValueHappyPathReturnsNameFromRepo"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest",
+            "name": "SubscriberAttributeChangeSetProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest\u003A\u003AtestNoChangesWhenNewAndExistingAreIdenticalCaseInsensitive\u0028\u0029",
+            "name": "testNoChangesWhenNewAndExistingAreIdenticalCaseInsensitive",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html#method_testNoChangesWhenNewAndExistingAreIdenticalCaseInsensitive"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest\u003A\u003AtestAddedAttributeAppearsWithNullOldValue\u0028\u0029",
+            "name": "testAddedAttributeAppearsWithNullOldValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html#method_testAddedAttributeAppearsWithNullOldValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest\u003A\u003AtestRemovedAttributeAppearsWithNullNewValue\u0028\u0029",
+            "name": "testRemovedAttributeAppearsWithNullNewValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html#method_testRemovedAttributeAppearsWithNullNewValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest\u003A\u003AtestChangedAttributeShowsOldAndNewValues\u0028\u0029",
+            "name": "testChangedAttributeShowsOldAndNewValues",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html#method_testChangedAttributeShowsOldAndNewValues"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest\u003A\u003AtestIgnoredAttributesAreExcluded\u0028\u0029",
+            "name": "testIgnoredAttributesAreExcluded",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html#method_testIgnoredAttributesAreExcluded"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest\u003A\u003AtestCaseInsensitiveKeyComparisonAndResultLowercasing\u0028\u0029",
+            "name": "testCaseInsensitiveKeyComparisonAndResultLowercasing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html#method_testCaseInsensitiveKeyComparisonAndResultLowercasing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest\u003A\u003Aattr\u0028\u0029",
+            "name": "attr",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html#method_attr"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest\u003A\u003A\u0024resolver",
+            "name": "resolver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html#property_resolver"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberAttributeChangeSetProviderTest\u003A\u003A\u0024provider",
+            "name": "provider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberAttributeChangeSetProviderTest.html#property_provider"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest",
             "name": "SubscriberProviderTest",
             "summary": "",
