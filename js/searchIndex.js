@@ -5071,6 +5071,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html#property_htmlEmail"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SyncCampaignProcessorMessage",
+            "name": "SyncCampaignProcessorMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SyncCampaignProcessorMessage.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SyncCampaignProcessorMessage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SyncCampaignProcessorMessage.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SyncCampaignProcessorMessage\u003A\u003AgetMessageId\u0028\u0029",
+            "name": "getMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SyncCampaignProcessorMessage.html#method_getMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SyncCampaignProcessorMessage\u003A\u003A\u0024messageId",
+            "name": "messageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SyncCampaignProcessorMessage.html#property_messageId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\AsyncEmailMessageHandler",
             "name": "AsyncEmailMessageHandler",
             "summary": "Handler\u0020for\u0020processing\u0020asynchronous\u0020email\u0020messages",
