@@ -173,6 +173,13 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_delete">delete()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Removes $model and flushes the entity manager change list.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a>
     <span>
                                 &nbsp;: array&lt;string|int, mixed&gt;    </span>
@@ -202,7 +209,6 @@
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Removes $model and flushes the entity manager change list.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save">save()</a>
@@ -225,6 +231,54 @@
             <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_delete">
+        delete()
+        <a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_delete" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Repository/AbstractRepository.php"><a href="files/src-domain-common-repository-abstractrepository.html"><abbr title="src/Domain/Common/Repository/AbstractRepository.php">AbstractRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">49</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Removes $model and flushes the entity manager change list.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">delete</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$model</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>This method allows controllers to not depend on the entity manager, but only on the repositories instead,
+following the Law of Demeter.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$model</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
                     <article
         class="phpdocumentor-element
             -method
@@ -468,12 +522,11 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Repository/AbstractRepository.php"><a href="files/src-domain-common-repository-abstractrepository.html"><abbr title="src/Domain/Common/Repository/AbstractRepository.php">AbstractRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Removes $model and flushes the entity manager change list.</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">remove</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$model</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
@@ -481,10 +534,7 @@
     <div class="phpdocumentor-label-line">
         </div>
     
-        <section class="phpdocumentor-description"><p>This method allows controllers to not depend on the entity manager, but only on the repositories instead,
-following the Law of Demeter.</p>
-</section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -665,6 +715,7 @@ following the Law of Demeter.</p>
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_delete">delete()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_getCountByMessageId">getCountByMessageId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
