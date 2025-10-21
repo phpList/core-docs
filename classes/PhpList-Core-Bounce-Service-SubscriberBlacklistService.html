@@ -95,12 +95,11 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-bounce.html">Bounce</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-bounce-service.html">Service</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-bounce-service-handler.html">Handler</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    BlacklistUserHandler
+    SubscriberBlacklistService
 
     
             <div class="phpdocumentor-element__package">
@@ -110,9 +109,6 @@
                             </ul>
         </div>
     
-            <span class="phpdocumentor-element__implements">
-            implements
-                            <a href="classes/PhpList-Core-Bounce-Service-Handler-BounceActionHandlerInterface.html"><abbr title="\PhpList\Core\Bounce\Service\Handler\BounceActionHandlerInterface">BounceActionHandlerInterface</abbr></a>                    </span>
     
     </h2>
 
@@ -122,9 +118,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/Handler/BlacklistUserHandler.php"><a href="files/src-bounce-service-handler-blacklistuserhandler.html"><abbr title="src/Bounce/Service/Handler/BlacklistUserHandler.php">BlacklistUserHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/SubscriberBlacklistService.php"><a href="files/src-bounce-service-subscriberblacklistservice.html"><abbr title="src/Bounce/Service/SubscriberBlacklistService.php">SubscriberBlacklistService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -139,19 +135,12 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
 
 
-    <h4 id="toc-interfaces">
-        Interfaces
-        <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/PhpList-Core-Bounce-Service-Handler-BounceActionHandlerInterface.html"><abbr title="\PhpList\Core\Bounce\Service\Handler\BounceActionHandlerInterface">BounceActionHandlerInterface</abbr></a></dt>    </dl>
 
 
 
@@ -160,24 +149,36 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#property_blacklistService">$blacklistService</a>
+    <a class="" href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_blacklistManager">$blacklistManager</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html"><abbr title="\PhpList\Core\Bounce\Service\SubscriberBlacklistService">SubscriberBlacklistService</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberBlacklistManager">SubscriberBlacklistManager</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#property_subscriberHistoryManager">$subscriberHistoryManager</a>
+    <a class="" href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_entityManager">$entityManager</a>
+    <span>
+                        &nbsp;: <abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_historyManager">$historyManager</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#property_translator">$translator</a>
+    <a class="" href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_requestStack">$requestStack</a>
+    <span>
+                        &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_translator">$translator</a>
     <span>
                         &nbsp;: <abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>            </span>
 </dt>
@@ -186,26 +187,20 @@
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#method_handle">handle()</a>
+    <a class="" href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#method_blacklist">blacklist()</a>
     <span>
                                 &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#method_supports">supports()</a>
-    <span>
-                                &nbsp;: bool    </span>
 </dt>
 
     </dl>
@@ -218,7 +213,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -228,17 +223,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_blacklistService">
-        $blacklistService
-        <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#property_blacklistService" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_blacklistManager">
+        $blacklistManager
+        <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_blacklistManager" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/Handler/BlacklistUserHandler.php"><a href="files/src-bounce-service-handler-blacklistuserhandler.html"><abbr title="src/Bounce/Service/Handler/BlacklistUserHandler.php">BlacklistUserHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/SubscriberBlacklistService.php"><a href="files/src-bounce-service-subscriberblacklistservice.html"><abbr title="src/Bounce/Service/SubscriberBlacklistService.php">SubscriberBlacklistService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -246,8 +241,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html"><abbr title="\PhpList\Core\Bounce\Service\SubscriberBlacklistService">SubscriberBlacklistService</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$blacklistService</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberBlacklistManager">SubscriberBlacklistManager</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$blacklistManager</span>
     </code>
 
     
@@ -266,17 +261,55 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_subscriberHistoryManager">
-        $subscriberHistoryManager
-        <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#property_subscriberHistoryManager" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_entityManager">
+        $entityManager
+        <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_entityManager" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/Handler/BlacklistUserHandler.php"><a href="files/src-bounce-service-handler-blacklistuserhandler.html"><abbr title="src/Bounce/Service/Handler/BlacklistUserHandler.php">BlacklistUserHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/SubscriberBlacklistService.php"><a href="files/src-bounce-service-subscriberblacklistservice.html"><abbr title="src/Bounce/Service/SubscriberBlacklistService.php">SubscriberBlacklistService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$entityManager</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_historyManager">
+        $historyManager
+        <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_historyManager" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/SubscriberBlacklistService.php"><a href="files/src-bounce-service-subscriberblacklistservice.html"><abbr title="src/Bounce/Service/SubscriberBlacklistService.php">SubscriberBlacklistService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -285,7 +318,45 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$subscriberHistoryManager</span>
+    <span class="phpdocumentor-signature__name">$historyManager</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_requestStack">
+        $requestStack
+        <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_requestStack" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/SubscriberBlacklistService.php"><a href="files/src-bounce-service-subscriberblacklistservice.html"><abbr title="src/Bounce/Service/SubscriberBlacklistService.php">SubscriberBlacklistService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span>
+    <span class="phpdocumentor-signature__name">$requestStack</span>
     </code>
 
     
@@ -306,15 +377,15 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_translator">
         $translator
-        <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#property_translator" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_translator" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/Handler/BlacklistUserHandler.php"><a href="files/src-bounce-service-handler-blacklistuserhandler.html"><abbr title="src/Bounce/Service/Handler/BlacklistUserHandler.php">BlacklistUserHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/SubscriberBlacklistService.php"><a href="files/src-bounce-service-subscriberblacklistservice.html"><abbr title="src/Bounce/Service/SubscriberBlacklistService.php">SubscriberBlacklistService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
@@ -340,7 +411,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -351,20 +422,20 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/Handler/BlacklistUserHandler.php"><a href="files/src-bounce-service-handler-blacklistuserhandler.html"><abbr title="src/Bounce/Service/Handler/BlacklistUserHandler.php">BlacklistUserHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/SubscriberBlacklistService.php"><a href="files/src-bounce-service-subscriberblacklistservice.html"><abbr title="src/Bounce/Service/SubscriberBlacklistService.php">SubscriberBlacklistService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html"><abbr title="\PhpList\Core\Bounce\Service\SubscriberBlacklistService">SubscriberBlacklistService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$blacklistService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberBlacklistManager">SubscriberBlacklistManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$blacklistManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$historyManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -373,15 +444,29 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span>
+                <span class="phpdocumentor-signature__argument__name">$entityManager</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$blacklistManager</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberBlacklistManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberBlacklistManager">SubscriberBlacklistManager</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$historyManager</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$blacklistService</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html"><abbr title="\PhpList\Core\Bounce\Service\SubscriberBlacklistService">SubscriberBlacklistService</abbr></a></span>
+                <span class="phpdocumentor-signature__argument__name">$requestStack</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -407,22 +492,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_handle">
-        handle()
-        <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#method_handle" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_blacklist">
+        blacklist()
+        <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#method_blacklist" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/Handler/BlacklistUserHandler.php"><a href="files/src-bounce-service-handler-blacklistuserhandler.html"><abbr title="src/Bounce/Service/Handler/BlacklistUserHandler.php">BlacklistUserHandler.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/SubscriberBlacklistService.php"><a href="files/src-bounce-service-subscriberblacklistservice.html"><abbr title="src/Bounce/Service/SubscriberBlacklistService.php">SubscriberBlacklistService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">handle</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$closureData</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">blacklist</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$reason</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -431,51 +516,14 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$closureData</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                <span class="phpdocumentor-signature__argument__name">$subscriber</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
-            </dl>
-
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_supports">
-        supports()
-        <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#method_supports" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Bounce/Service/Handler/BlacklistUserHandler.php"><a href="files/src-bounce-service-handler-blacklistuserhandler.html"><abbr title="src/Bounce/Service/Handler/BlacklistUserHandler.php">BlacklistUserHandler.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">27</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">supports</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$action</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$action</span>
+                <span class="phpdocumentor-signature__argument__name">$reason</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -484,14 +532,26 @@
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#method_blacklist#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">SuppressWarnings</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>(PHPMD.Superglobals)</p>
+</section>
+
+                                    </dd>
+                                            </dl>
 
     
 
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
-            </section>
-
+    
 </article>
             </section>
 
@@ -499,7 +559,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Bounce/Service/Handler/BlacklistUserHandler.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Bounce/Service/SubscriberBlacklistService.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -600,26 +660,27 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#property_blacklistService">$blacklistService</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#property_subscriberHistoryManager">$subscriberHistoryManager</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#property_translator">$translator</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_blacklistManager">$blacklistManager</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_entityManager">$entityManager</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_historyManager">$historyManager</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_requestStack">$requestStack</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_translator">$translator</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#method_handle">handle()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#method_supports">supports()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#method_blacklist">blacklist()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -639,7 +700,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Bounce-Service-Handler-BlacklistUserHandler.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

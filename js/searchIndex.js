@@ -61,6 +61,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Bounce-Command-ProcessBouncesCommand.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Command\\ProcessBouncesCommand\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Command-ProcessBouncesCommand.html#property_entityManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Bounce\\Exception\\ImapConnectionException",
             "name": "ImapConnectionException",
             "summary": "",
@@ -391,11 +396,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Bounce-Service-Handler-DecreaseCountConfirmUserAndDeleteBounceHandler.html#property_subscriberHistoryManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Handler\\DecreaseCountConfirmUserAndDeleteBounceHandler\u003A\u003A\u0024subscriberManager",
-            "name": "subscriberManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Bounce-Service-Handler-DecreaseCountConfirmUserAndDeleteBounceHandler.html#property_subscriberManager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Handler\\DecreaseCountConfirmUserAndDeleteBounceHandler\u003A\u003A\u0024bounceManager",
             "name": "bounceManager",
             "summary": "",
@@ -661,6 +661,101 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Bounce-Service-LockService.html#property_maxWaitCycles"
         },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager",
+            "name": "BounceManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_create"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_update"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_delete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_getAll"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003AgetById\u0028\u0029",
+            "name": "getById",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_getById"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003AlinkUserMessageBounce\u0028\u0029",
+            "name": "linkUserMessageBounce",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_linkUserMessageBounce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003AexistsUserMessageBounce\u0028\u0029",
+            "name": "existsUserMessageBounce",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_existsUserMessageBounce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003AfindByStatus\u0028\u0029",
+            "name": "findByStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_findByStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003AgetUserMessageBounceCount\u0028\u0029",
+            "name": "getUserMessageBounceCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_getUserMessageBounceCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003AfetchUserMessageBounceBatch\u0028\u0029",
+            "name": "fetchUserMessageBounceBatch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_fetchUserMessageBounceBatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003AgetUserMessageHistoryWithBounces\u0028\u0029",
+            "name": "getUserMessageHistoryWithBounces",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_getUserMessageHistoryWithBounces"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003AannounceDeletionMode\u0028\u0029",
+            "name": "announceDeletionMode",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#method_announceDeletionMode"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003A\u0024bounceRepository",
+            "name": "bounceRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#property_bounceRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003A\u0024userMessageBounceRepo",
+            "name": "userMessageBounceRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#property_userMessageBounceRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager\\BounceManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Manager-BounceManager.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Bounce\\Service\\MessageParser",
             "name": "MessageParser",
             "summary": "",
@@ -785,6 +880,11 @@ Search.appendIndex(
             "name": "purgeUnprocessed",
             "summary": "",
             "url": "classes/PhpList-Core-Bounce-Service-NativeBounceProcessingService.html#property_purgeUnprocessed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\NativeBounceProcessingService\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-NativeBounceProcessingService.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Processor\\AdvancedBounceRulesProcessor",
             "name": "AdvancedBounceRulesProcessor",
@@ -911,6 +1011,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Bounce-Service-Processor-BounceDataProcessor.html#property_subscriberHistoryManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Processor\\BounceDataProcessor\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-Processor-BounceDataProcessor.html#property_entityManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Processor\\BounceProtocolProcessor",
             "name": "BounceProtocolProcessor",
             "summary": "",
@@ -1035,6 +1140,46 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Bounce-Service-Processor-UnidentifiedBounceReprocessor.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\SubscriberBlacklistService",
+            "name": "SubscriberBlacklistService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\SubscriberBlacklistService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\SubscriberBlacklistService\u003A\u003Ablacklist\u0028\u0029",
+            "name": "blacklist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#method_blacklist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\SubscriberBlacklistService\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\SubscriberBlacklistService\u003A\u003A\u0024blacklistManager",
+            "name": "blacklistManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_blacklistManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\SubscriberBlacklistService\u003A\u003A\u0024historyManager",
+            "name": "historyManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_historyManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\SubscriberBlacklistService\u003A\u003A\u0024requestStack",
+            "name": "requestStack",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_requestStack"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\SubscriberBlacklistService\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Bounce-Service-SubscriberBlacklistService.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Bounce\\Service\\WebklexBounceProcessingService",
             "name": "WebklexBounceProcessingService",
@@ -7911,101 +8056,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#property_translator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager",
-            "name": "BounceManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003Acreate\u0028\u0029",
-            "name": "create",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_create"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003Aupdate\u0028\u0029",
-            "name": "update",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_update"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003Adelete\u0028\u0029",
-            "name": "delete",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_delete"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003AgetAll\u0028\u0029",
-            "name": "getAll",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_getAll"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003AgetById\u0028\u0029",
-            "name": "getById",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_getById"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003AlinkUserMessageBounce\u0028\u0029",
-            "name": "linkUserMessageBounce",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_linkUserMessageBounce"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003AexistsUserMessageBounce\u0028\u0029",
-            "name": "existsUserMessageBounce",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_existsUserMessageBounce"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003AfindByStatus\u0028\u0029",
-            "name": "findByStatus",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_findByStatus"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003AgetUserMessageBounceCount\u0028\u0029",
-            "name": "getUserMessageBounceCount",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_getUserMessageBounceCount"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003AfetchUserMessageBounceBatch\u0028\u0029",
-            "name": "fetchUserMessageBounceBatch",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_fetchUserMessageBounceBatch"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003AgetUserMessageHistoryWithBounces\u0028\u0029",
-            "name": "getUserMessageHistoryWithBounces",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_getUserMessageHistoryWithBounces"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003AannounceDeletionMode\u0028\u0029",
-            "name": "announceDeletionMode",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#method_announceDeletionMode"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003A\u0024bounceRepository",
-            "name": "bounceRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_bounceRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003A\u0024userMessageBounceRepo",
-            "name": "userMessageBounceRepo",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_userMessageBounceRepo"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003A\u0024logger",
-            "name": "logger",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_logger"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceManager\u003A\u003A\u0024translator",
-            "name": "translator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceManager.html#property_translator"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager",
             "name": "BounceRegexManager",
             "summary": "",
@@ -8330,11 +8380,6 @@ Search.appendIndex(
             "name": "templateRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#property_templateRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003A\u0024templateImageManager",
             "name": "templateImageManager",
@@ -10241,6 +10286,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_distinctUsersWithBouncesConfirmedNotBlacklisted"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AdecrementBounceCount\u0028\u0029",
+            "name": "decrementBounceCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_decrementBounceCount"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriptionRepository",
             "name": "SubscriptionRepository",
             "summary": "Repository\u0020for\u0020Subscription\u0020models.",
@@ -10701,11 +10751,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_updateFromImport"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AdecrementBounceCount\u0028\u0029",
-            "name": "decrementBounceCount",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_decrementBounceCount"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
             "summary": "",
@@ -10950,46 +10995,6 @@ Search.appendIndex(
             "name": "providers",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html#property_providers"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberBlacklistService",
-            "name": "SubscriberBlacklistService",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberBlacklistService\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberBlacklistService\u003A\u003Ablacklist\u0028\u0029",
-            "name": "blacklist",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html#method_blacklist"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberBlacklistService\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberBlacklistService\u003A\u003A\u0024blacklistManager",
-            "name": "blacklistManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html#property_blacklistManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberBlacklistService\u003A\u003A\u0024historyManager",
-            "name": "historyManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html#property_historyManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberBlacklistService\u003A\u003A\u0024requestStack",
-            "name": "requestStack",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html#property_requestStack"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberBlacklistService\u003A\u003A\u0024translator",
-            "name": "translator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberBlacklistService.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter",
             "name": "SubscriberCsvExporter",
@@ -18215,6 +18220,11 @@ Search.appendIndex(
             "name": "Handler",
             "summary": "",
             "url": "namespaces/phplist-core-bounce-service-handler.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Manager",
+            "name": "Manager",
+            "summary": "",
+            "url": "namespaces/phplist-core-bounce-service-manager.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Bounce\\Service\\Processor",
             "name": "Processor",
