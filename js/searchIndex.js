@@ -12926,11 +12926,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Bounce-Service-Handler-DecreaseCountConfirmUserAndDeleteBounceHandlerTest.html#property_historyManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Bounce\\Service\\Handler\\DecreaseCountConfirmUserAndDeleteBounceHandlerTest\u003A\u003A\u0024subscriberManager",
-            "name": "subscriberManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Bounce-Service-Handler-DecreaseCountConfirmUserAndDeleteBounceHandlerTest.html#property_subscriberManager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Bounce\\Service\\Handler\\DecreaseCountConfirmUserAndDeleteBounceHandlerTest\u003A\u003A\u0024bounceManager",
             "name": "bounceManager",
             "summary": "",
