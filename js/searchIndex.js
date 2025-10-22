@@ -13931,11 +13931,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testGetAllReturnsAllConfigsFromRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\ConfigManagerTest\u003A\u003AtestUpdateSavesConfigToRepository\u0028\u0029",
-            "name": "testUpdateSavesConfigToRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Manager-ConfigManagerTest.html#method_testUpdateSavesConfigToRepository"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Manager\\ConfigManagerTest\u003A\u003AtestCreateSavesNewConfigToRepository\u0028\u0029",
             "name": "testCreateSavesNewConfigToRepository",
             "summary": "",
