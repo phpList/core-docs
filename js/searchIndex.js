@@ -12561,6 +12561,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Bounce-Command-ProcessBouncesCommandTest.html#method_testForceOptionIsPassedToLockService"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Bounce\\Command\\ProcessBouncesCommandTest\u003A\u003AtestForceLockFailureReturnsFailureAndMessage\u0028\u0029",
+            "name": "testForceLockFailureReturnsFailureAndMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Bounce-Command-ProcessBouncesCommandTest.html#method_testForceLockFailureReturnsFailureAndMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Bounce\\Command\\ProcessBouncesCommandTest\u003A\u003AtestRulesBatchSizeOptionIsRespected\u0028\u0029",
+            "name": "testRulesBatchSizeOptionIsRespected",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Bounce-Command-ProcessBouncesCommandTest.html#method_testRulesBatchSizeOptionIsRespected"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Bounce\\Command\\ProcessBouncesCommandTest\u003A\u003AtestEntityManagerIsFlushedAfterLockAcquireAttempt\u0028\u0029",
+            "name": "testEntityManagerIsFlushedAfterLockAcquireAttempt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Bounce-Command-ProcessBouncesCommandTest.html#method_testEntityManagerIsFlushedAfterLockAcquireAttempt"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Bounce\\Command\\ProcessBouncesCommandTest\u003A\u003A\u0024lockService",
             "name": "lockService",
             "summary": "",
@@ -12600,6 +12615,11 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Bounce-Command-ProcessBouncesCommandTest.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Bounce\\Command\\ProcessBouncesCommandTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Bounce-Command-ProcessBouncesCommandTest.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Bounce\\Service\\BounceActionResolverTest",
             "name": "BounceActionResolverTest",
