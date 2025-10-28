@@ -1781,6 +1781,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-BounceProcessorPass.html#method_process"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter",
+            "name": "OnlyOrmTablesFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003A\u0024allow",
+            "name": "allow",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#property_allow"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003A\u0024em",
+            "name": "em",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#property_em"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\DoctrineMappingPass",
             "name": "DoctrineMappingPass",
             "summary": "",
@@ -2961,11 +2986,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-Interfaces-ModificationDate.html#method_getUpdatedAt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Interfaces\\ModificationDate\u003A\u003AupdateUpdatedAt\u0028\u0029",
-            "name": "updateUpdatedAt",
-            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
-            "url": "classes/PhpList-Core-Domain-Common-Model-Interfaces-ModificationDate.html#method_updateUpdatedAt"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Interfaces\\OwnableInterface",
             "name": "OwnableInterface",
             "summary": "",
@@ -3976,6 +3996,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method___construct"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getCreatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetUpdatedAt\u0028\u0029",
+            "name": "getUpdatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getUpdatedAt"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetLoginName\u0028\u0029",
             "name": "getLoginName",
             "summary": "",
@@ -3995,6 +4030,16 @@ Search.appendIndex(
             "name": "setEmail",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetNameLc\u0028\u0029",
+            "name": "getNameLc",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getNameLc"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AsetNameLc\u0028\u0029",
+            "name": "setNameLc",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setNameLc"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetPasswordHash\u0028\u0029",
             "name": "getPasswordHash",
@@ -4031,16 +4076,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setSuperUser"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AsetNameLc\u0028\u0029",
-            "name": "setNameLc",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setNameLc"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetNameLc\u0028\u0029",
-            "name": "getNameLc",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getNameLc"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AsetPrivileges\u0028\u0029",
             "name": "setPrivileges",
             "summary": "",
@@ -4056,26 +4091,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getPrivileges"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetCreatedAt\u0028\u0029",
-            "name": "getCreatedAt",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getCreatedAt"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetId\u0028\u0029",
-            "name": "getId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getId"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetUpdatedAt\u0028\u0029",
-            "name": "getUpdatedAt",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getUpdatedAt"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AupdateUpdatedAt\u0028\u0029",
-            "name": "updateUpdatedAt",
-            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_updateUpdatedAt"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AsetModifiedBy\u0028\u0029",
             "name": "setModifiedBy",
             "summary": "",
@@ -4090,6 +4105,16 @@ Search.appendIndex(
             "name": "owns",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_owns"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AonPrePersist\u0028\u0029",
+            "name": "onPrePersist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPrePersist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AonPreUpdate\u0028\u0029",
+            "name": "onPreUpdate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPreUpdate"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003A\u0024id",
             "name": "id",
@@ -6328,7 +6353,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AupdateUpdatedAt\u0028\u0029",
             "name": "updateUpdatedAt",
-            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_updateUpdatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003A\u0024id",
@@ -6938,7 +6963,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003AupdateUpdatedAt\u0028\u0029",
             "name": "updateUpdatedAt",
-            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#method_updateUpdatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003AgetFormat\u0028\u0029",
@@ -7193,7 +7218,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\SendProcess\u003A\u003AupdateUpdatedAt\u0028\u0029",
             "name": "updateUpdatedAt",
-            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-SendProcess.html#method_updateUpdatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\SendProcess\u003A\u003AgetStartedDate\u0028\u0029",
@@ -9313,7 +9338,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AupdateUpdatedAt\u0028\u0029",
             "name": "updateUpdatedAt",
-            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_updateUpdatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AisConfirmed\u0028\u0029",
@@ -9878,7 +9903,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberList\u003A\u003AupdateUpdatedAt\u0028\u0029",
             "name": "updateUpdatedAt",
-            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberList.html#method_updateUpdatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberList\u003A\u003AgetListMessages\u0028\u0029",
@@ -9988,7 +10013,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscription\u003A\u003AupdateUpdatedAt\u0028\u0029",
             "name": "updateUpdatedAt",
-            "summary": "Updates\u0020the\u0020modification\u0020date\u0020to\u0020be\u0020now.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscription.html#method_updateUpdatedAt"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscription\u003A\u003A\u0024createdAt",
@@ -10041,6 +10066,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#method_getBlacklistData"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003AsetBlacklistData\u0028\u0029",
+            "name": "setBlacklistData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#method_setBlacklistData"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003A\u0024email",
             "name": "email",
             "summary": "",
@@ -10060,6 +10090,16 @@ Search.appendIndex(
             "name": "UserBlacklistData",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003AgetBlacklist\u0028\u0029",
+            "name": "getBlacklist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#method_getBlacklist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003AsetBlacklist\u0028\u0029",
+            "name": "setBlacklist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#method_setBlacklist"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003AgetEmail\u0028\u0029",
             "name": "getEmail",
@@ -10091,10 +10131,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#method_setData"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003A\u0024email",
-            "name": "email",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003A\u0024blacklist",
+            "name": "blacklist",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#property_email"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#property_blacklist"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003A\u0024name",
             "name": "name",
@@ -11250,6 +11290,26 @@ Search.appendIndex(
             "name": "EmptyStartPageBundle",
             "summary": "This\u0020bundle\u0020is\u0020a\u0020placeholder\u0020that\u0020provides\u0020an\u0020empty\u0020start\u0020page.",
             "url": "classes/PhpList-Core-EmptyStartPageBundle-EmptyStartPageBundle.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901",
+            "name": "Version20251028092901",
+            "summary": "Manual\u0020Migration",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901.html#method_down"
         },                {
             "fqsen": "\\PhpList\\Core\\Routing\\ExtraLoader",
             "name": "ExtraLoader",
@@ -14566,20 +14626,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTest.html#method_testSetEmailAddressSetsEmailAddress"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest\u003A\u003AtestGetUpdatedAtInitiallyReturnsNull\u0028\u0029",
-            "name": "testGetUpdatedAtInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest\u003A\u003AtestGetUpdatedAtInitiallyReturnsNotNull\u0028\u0029",
+            "name": "testGetUpdatedAtInitiallyReturnsNotNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTest.html#method_testGetUpdatedAtInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTest.html#method_testGetUpdatedAtInitiallyReturnsNotNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest\u003A\u003AtestUpdateModificationDateSetsModificationDateToNow\u0028\u0029",
             "name": "testUpdateModificationDateSetsModificationDateToNow",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTest.html#method_testUpdateModificationDateSetsModificationDateToNow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest\u003A\u003AtestGetPasswordHashInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "testGetPasswordHashInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest\u003A\u003AtestGetPasswordHashInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetPasswordHashInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTest.html#method_testGetPasswordHashInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTest.html#method_testGetPasswordHashInitiallyReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTest\u003A\u003AtestSetPasswordHashSetsPasswordHash\u0028\u0029",
             "name": "testSetPasswordHashSetsPasswordHash",
@@ -18251,6 +18311,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-core.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine",
+            "name": "Doctrine",
+            "summary": "",
+            "url": "namespaces/phplist-core-core-doctrine.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Exception",
             "name": "Exception",
             "summary": "",
@@ -18555,6 +18620,11 @@ Search.appendIndex(
             "name": "EmptyStartPageBundle",
             "summary": "",
             "url": "namespaces/phplist-core-emptystartpagebundle.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations",
+            "name": "Migrations",
+            "summary": "",
+            "url": "namespaces/phplist-core-migrations.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Routing",
             "name": "Routing",

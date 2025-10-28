@@ -186,6 +186,9 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
         <dd class="phpdocumentor-argument-list__entry">
         $name: &#039;phplist_admin&#039;
     </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $uniqueConstraints: [new \Doctrine\ORM\Mapping\UniqueConstraint(name: &#039;loginnameidx&#039;, columns: [&#039;loginname&#039;])]
+    </dd>
     </dl>
             </section>
 
@@ -221,7 +224,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#property_createdAt">$createdAt</a>
     <span>
-                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>            </span>
+                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -257,7 +260,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#property_namelc">$namelc</a>
     <span>
-                        &nbsp;: string            </span>
+                        &nbsp;: string|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -269,7 +272,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#property_passwordHash">$passwordHash</a>
     <span>
-                        &nbsp;: string            </span>
+                        &nbsp;: string|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -287,7 +290,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#property_updatedAt">$updatedAt</a>
     <span>
-                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
+                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>            </span>
 </dt>
 
     </dl>
@@ -337,7 +340,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getNameLc">getNameLc()</a>
     <span>
-                                &nbsp;: string    </span>
+                                &nbsp;: string|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -349,7 +352,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getPasswordHash">getPasswordHash()</a>
     <span>
-                                &nbsp;: string    </span>
+                                &nbsp;: string|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -374,6 +377,18 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_isSuperUser">isSuperUser()</a>
     <span>
                                 &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPrePersist">onPrePersist()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPreUpdate">onPreUpdate()</a>
+    <span>
+                                &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -436,13 +451,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                                 &nbsp;: self    </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_updateUpdatedAt">updateUpdatedAt()</a>
-    <span>
-                                &nbsp;: <a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a>    </span>
-</dt>
-<dd>Updates the modification date to be now.</dd>
-
     </dl>
 
 
@@ -473,7 +481,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
@@ -481,9 +489,9 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">protected</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr></span>
+            <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
     <span class="phpdocumentor-signature__name">$createdAt</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -504,6 +512,9 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $type: &#039;datetime&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $nullable: true
     </dd>
     </dl>
             </section>
@@ -528,7 +539,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
     </aside>
 
@@ -538,7 +549,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type">bool</span>
     <span class="phpdocumentor-signature__name">$disabled</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">false</span></code>
 
     
     
@@ -555,7 +566,13 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
         #[<abbr title="\Doctrine\ORM\Mapping\Column">Column</abbr>]
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
+        $name: &#039;disabled&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
         $type: &#039;boolean&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $nullable: false
     </dd>
     </dl>
             </section>
@@ -580,7 +597,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
     </aside>
 
@@ -609,6 +626,15 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
         <dd class="phpdocumentor-argument-list__entry">
         $name: &#039;email&#039;
     </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $type: &#039;string&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $length: 255
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $nullable: false
+    </dd>
     </dl>
             </section>
 
@@ -632,7 +658,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -694,7 +720,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
     </aside>
 
@@ -723,6 +749,15 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
         <dd class="phpdocumentor-argument-list__entry">
         $name: &#039;loginname&#039;
     </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $type: &#039;string&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $length: 66
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $nullable: false
+    </dd>
     </dl>
             </section>
 
@@ -746,7 +781,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
     </aside>
 
@@ -756,7 +791,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type">string|null</span>
     <span class="phpdocumentor-signature__name">$modifiedBy</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -807,7 +842,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">46</span>
 
     </aside>
 
@@ -815,9 +850,9 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">string</span>
+            <span class="phpdocumentor-signature__type">string|null</span>
     <span class="phpdocumentor-signature__name">$namelc</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -835,6 +870,12 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
         $name: &#039;namelc&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $type: &#039;string&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $length: 255
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $nullable: true
@@ -862,7 +903,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
@@ -872,7 +913,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
     <span class="phpdocumentor-signature__name">$passwordChangeDate</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -920,7 +961,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
@@ -928,9 +969,9 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">string</span>
+            <span class="phpdocumentor-signature__type">string|null</span>
     <span class="phpdocumentor-signature__name">$passwordHash</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -948,6 +989,15 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     </dt>
         <dd class="phpdocumentor-argument-list__entry">
         $name: &#039;password&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $type: &#039;string&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $length: 255
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $nullable: true
     </dd>
     </dl>
             </section>
@@ -972,7 +1022,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 
     </aside>
 
@@ -982,7 +1032,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type">string|null</span>
     <span class="phpdocumentor-signature__name">$privileges</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -1030,7 +1080,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 
     </aside>
 
@@ -1040,7 +1090,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type">bool</span>
     <span class="phpdocumentor-signature__name">$superUser</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">false</span></code>
 
     
     
@@ -1061,6 +1111,9 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $type: &#039;boolean&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $nullable: false
     </dd>
     </dl>
             </section>
@@ -1085,7 +1138,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
@@ -1093,7 +1146,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr></span>
     <span class="phpdocumentor-signature__name">$updatedAt</span>
     </code>
 
@@ -1116,6 +1169,9 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
         $type: &#039;datetime&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $nullable: false
     </dd>
     </dl>
             </section>
@@ -1145,7 +1201,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
@@ -1179,7 +1235,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">191</span>
+    <span class="phpdocumentor-element-found-in__line">83</span>
 
     </aside>
 
@@ -1217,7 +1273,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">92</span>
+    <span class="phpdocumentor-element-found-in__line">104</span>
 
     </aside>
 
@@ -1255,7 +1311,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">196</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 
@@ -1293,7 +1349,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">93</span>
 
     </aside>
 
@@ -1331,7 +1387,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">221</span>
+    <span class="phpdocumentor-element-found-in__line">198</span>
 
     </aside>
 
@@ -1369,14 +1425,14 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">153</span>
+    <span class="phpdocumentor-element-found-in__line">115</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getNameLc</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getNameLc</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1389,7 +1445,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
             </section>
 
 </article>
@@ -1407,7 +1463,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">117</span>
+    <span class="phpdocumentor-element-found-in__line">138</span>
 
     </aside>
 
@@ -1445,14 +1501,14 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">104</span>
+    <span class="phpdocumentor-element-found-in__line">126</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getPasswordHash</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">getPasswordHash</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1465,7 +1521,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
             </section>
 
 </article>
@@ -1483,7 +1539,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">186</span>
+    <span class="phpdocumentor-element-found-in__line">187</span>
 
     </aside>
 
@@ -1498,22 +1554,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getPrivileges#tags" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">SuppressWarnings</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>(PHPMD.StaticAccess)</p>
-</section>
-
-                                    </dd>
-                                            </dl>
 
     
 
@@ -1537,7 +1577,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">201</span>
+    <span class="phpdocumentor-element-found-in__line">88</span>
 
     </aside>
 
@@ -1575,7 +1615,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">122</span>
+    <span class="phpdocumentor-element-found-in__line">143</span>
 
     </aside>
 
@@ -1613,7 +1653,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">134</span>
+    <span class="phpdocumentor-element-found-in__line">154</span>
 
     </aside>
 
@@ -1643,6 +1683,96 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_onPrePersist">
+        onPrePersist()
+        <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPrePersist" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">212</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">onPrePersist</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+    <section class="phpdocumentor-attributes">
+        <h5 class="phpdocumentor-elements__header" id="attributes">
+            Attributes <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPrePersist#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h5>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\PrePersist">PrePersist</abbr>]
+    </dt>
+    </dl>
+            </section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_onPreUpdate">
+        onPreUpdate()
+        <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPreUpdate" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">221</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">onPreUpdate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+    <section class="phpdocumentor-attributes">
+        <h5 class="phpdocumentor-elements__header" id="attributes">
+            Attributes <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPreUpdate#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h5>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\PreUpdate">PreUpdate</abbr>]
+    </dt>
+    </dl>
+            </section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_owns">
         owns()
         <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_owns" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1651,7 +1781,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">226</span>
+    <span class="phpdocumentor-element-found-in__line">203</span>
 
     </aside>
 
@@ -1699,7 +1829,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">127</span>
+    <span class="phpdocumentor-element-found-in__line">148</span>
 
     </aside>
 
@@ -1747,7 +1877,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">97</span>
+    <span class="phpdocumentor-element-found-in__line">109</span>
 
     </aside>
 
@@ -1795,7 +1925,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">85</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 
     </aside>
 
@@ -1843,7 +1973,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">215</span>
+    <span class="phpdocumentor-element-found-in__line">192</span>
 
     </aside>
 
@@ -1891,14 +2021,14 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">146</span>
+    <span class="phpdocumentor-element-found-in__line">120</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">setNameLc</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$nameLc</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+                    <span class="phpdocumentor-signature__name">setNameLc</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$nameLc</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1908,7 +2038,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$nameLc</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1939,14 +2069,14 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">109</span>
+    <span class="phpdocumentor-element-found-in__line">131</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">setPasswordHash</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$passwordHash</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+                    <span class="phpdocumentor-signature__name">setPasswordHash</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$passwordHash</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1956,7 +2086,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$passwordHash</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1987,7 +2117,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">158</span>
+    <span class="phpdocumentor-element-found-in__line">165</span>
 
     </aside>
 
@@ -2035,7 +2165,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">169</span>
+    <span class="phpdocumentor-element-found-in__line">174</span>
 
     </aside>
 
@@ -2067,15 +2197,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">SuppressWarnings</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>(PHPMD.StaticAccess)</p>
-</section>
-
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">throws</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
@@ -2103,7 +2224,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">139</span>
+    <span class="phpdocumentor-element-found-in__line">159</span>
 
     </aside>
 
@@ -2134,61 +2255,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">self</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_updateUpdatedAt">
-        updateUpdatedAt()
-        <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_updateUpdatedAt" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">206</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Updates the modification date to be now.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">updateUpdatedAt</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-    <section class="phpdocumentor-attributes">
-        <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_updateUpdatedAt#attributes" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h5>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\PrePersist">PrePersist</abbr>]
-    </dt>
-    </dl>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\PreUpdate">PreUpdate</abbr>]
-    </dt>
-    </dl>
-            </section>
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a></span>
             </section>
 
 </article>
@@ -2338,6 +2404,8 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getUpdatedAt">getUpdatedAt()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_isDisabled">isDisabled()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_isSuperUser">isSuperUser()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPrePersist">onPrePersist()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPreUpdate">onPreUpdate()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_owns">owns()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setDisabled">setDisabled()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setEmail">setEmail()</a></li>
@@ -2348,7 +2416,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setPrivileges">setPrivileges()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setPrivilegesFromArray">setPrivilegesFromArray()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setSuperUser">setSuperUser()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_updateUpdatedAt">updateUpdatedAt()</a></li>
                                     </ul>
             </li>
                     </ul>
