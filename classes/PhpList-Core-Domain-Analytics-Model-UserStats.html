@@ -268,7 +268,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Model-UserStats.html#property_value">$value</a>
     <span>
-                        &nbsp;: int            </span>
+                        &nbsp;: int|null            </span>
 </dt>
 
     </dl>
@@ -519,6 +519,9 @@
         $type: &#039;integer&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
+        $nullable: true
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
         $options: [&#039;default&#039; =&gt; 0]
     </dd>
     </dl>
@@ -610,9 +613,9 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">int</span>
+            <span class="phpdocumentor-signature__type">int|null</span>
     <span class="phpdocumentor-signature__name">$value</span>
-    </code>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
 
     
     
@@ -635,7 +638,10 @@
         $type: &#039;integer&#039;
     </dd>
         <dd class="phpdocumentor-argument-list__entry">
-        $nullable: false
+        $nullable: true
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $options: [&#039;default&#039; =&gt; 0]
     </dd>
     </dl>
             </section>

@@ -1801,10 +1801,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#property_allow"
         },                {
-            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003A\u0024em",
-            "name": "em",
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#property_em"
+            "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Core\\DoctrineMappingPass",
             "name": "DoctrineMappingPass",
@@ -3291,6 +3291,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-EventLog.html#method_getId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\EventLog\u003A\u003AsetCreatedTimestamps\u0028\u0029",
+            "name": "setCreatedTimestamps",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-EventLog.html#method_setCreatedTimestamps"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\EventLog\u003A\u003AgetEntered\u0028\u0029",
             "name": "getEntered",
             "summary": "",
@@ -3471,10 +3476,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-UrlCache.html#method_setLastModified"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\UrlCache\u003A\u003AsetAdded\u0028\u0029",
-            "name": "setAdded",
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\UrlCache\u003A\u003AsetCreatedTimestamps\u0028\u0029",
+            "name": "setCreatedTimestamps",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-UrlCache.html#method_setAdded"
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-UrlCache.html#method_setCreatedTimestamps"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\UrlCache\u003A\u003AsetContent\u0028\u0029",
             "name": "setContent",
@@ -6311,6 +6316,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AgetId\u0028\u0029",
             "name": "getId",
             "summary": "",
@@ -6340,11 +6350,6 @@ Search.appendIndex(
             "name": "getEntered",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_getEntered"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AsetEntered\u0028\u0029",
-            "name": "setEntered",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_setEntered"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AgetUpdatedAt\u0028\u0029",
             "name": "getUpdatedAt",
@@ -6961,10 +6966,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#method_getUpdatedAt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003AupdateUpdatedAt\u0028\u0029",
-            "name": "updateUpdatedAt",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003AsetCreatedTimestamps\u0028\u0029",
+            "name": "setCreatedTimestamps",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#method_updateUpdatedAt"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#method_setCreatedTimestamps"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003AtouchUpdatedTimestamp\u0028\u0029",
+            "name": "touchUpdatedTimestamp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message.html#method_touchUpdatedTimestamp"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\u003A\u003AgetFormat\u0028\u0029",
             "name": "getFormat",
@@ -10041,6 +10051,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003AgetEmail\u0028\u0029",
             "name": "getEmail",
             "summary": "",
@@ -10050,11 +10065,6 @@ Search.appendIndex(
             "name": "getAdded",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#method_getAdded"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003AsetEmail\u0028\u0029",
-            "name": "setEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklist.html#method_setEmail"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklist\u003A\u003AsetAdded\u0028\u0029",
             "name": "setAdded",
@@ -10115,11 +10125,6 @@ Search.appendIndex(
             "name": "getData",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#method_getData"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003AsetEmail\u0028\u0029",
-            "name": "setEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-UserBlacklistData.html#method_setEmail"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\UserBlacklistData\u003A\u003AsetName\u0028\u0029",
             "name": "setName",
@@ -11305,11 +11310,6 @@ Search.appendIndex(
             "name": "up",
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251028092901.html#method_up"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251028092901.html#method_down"
         },                {
             "fqsen": "\\PhpList\\Core\\Routing\\ExtraLoader",
             "name": "ExtraLoader",
