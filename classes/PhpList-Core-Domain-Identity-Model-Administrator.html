@@ -232,7 +232,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#property_createdAt">$createdAt</a>
     <span>
-                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>|null            </span>
+                        &nbsp;: <abbr title="\DateTime">DateTime</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -388,18 +388,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPrePersist">onPrePersist()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPreUpdate">onPreUpdate()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_owns">owns()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -459,6 +447,12 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                                 &nbsp;: self    </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setUpdatedAt">setUpdatedAt()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
     </dl>
 
 
@@ -497,9 +491,9 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">protected</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr>|null</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\DateTime">DateTime</abbr></span>
     <span class="phpdocumentor-signature__name">$createdAt</span>
-     = <span class="phpdocumentor-signature__default-value">null</span></code>
+    </code>
 
     
     
@@ -1707,96 +1701,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_onPrePersist">
-        onPrePersist()
-        <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPrePersist" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">212</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">onPrePersist</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-    <section class="phpdocumentor-attributes">
-        <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPrePersist#attributes" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h5>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\PrePersist">PrePersist</abbr>]
-    </dt>
-    </dl>
-            </section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_onPreUpdate">
-        onPreUpdate()
-        <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPreUpdate" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">221</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">onPreUpdate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-    <section class="phpdocumentor-attributes">
-        <h5 class="phpdocumentor-elements__header" id="attributes">
-            Attributes <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPreUpdate#attributes" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h5>
-                    <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Doctrine\ORM\Mapping\PreUpdate">PreUpdate</abbr>]
-    </dt>
-    </dl>
-            </section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_owns">
         owns()
         <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_owns" class="headerlink"><i class="fas fa-link"></i></a>
@@ -2291,6 +2195,51 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
             </section>
 
 </article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setUpdatedAt">
+        setUpdatedAt()
+        <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setUpdatedAt" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Model/Administrator.php"><a href="files/src-domain-identity-model-administrator.html"><abbr title="src/Domain/Identity/Model/Administrator.php">Administrator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">212</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setUpdatedAt</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+    <section class="phpdocumentor-attributes">
+        <h5 class="phpdocumentor-elements__header" id="attributes">
+            Attributes <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setUpdatedAt#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h5>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\PreUpdate">PreUpdate</abbr>]
+    </dt>
+    </dl>
+            </section>
+
+    
+</article>
             </section>
 
         <div class="phpdocumentor-modal" id="source-view">
@@ -2437,8 +2386,6 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getUpdatedAt">getUpdatedAt()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_isDisabled">isDisabled()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_isSuperUser">isSuperUser()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPrePersist">onPrePersist()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_onPreUpdate">onPreUpdate()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_owns">owns()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setDisabled">setDisabled()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setEmail">setEmail()</a></li>
@@ -2449,6 +2396,7 @@ selected lists (as the owner), send campaigns to these lists and edit subscriber
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setPrivileges">setPrivileges()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setPrivilegesFromArray">setPrivilegesFromArray()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setSuperUser">setSuperUser()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setUpdatedAt">setUpdatedAt()</a></li>
                                     </ul>
             </li>
                     </ul>
