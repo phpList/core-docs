@@ -9466,6 +9466,76 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_removeAttribute"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AisOptedIn\u0028\u0029",
+            "name": "isOptedIn",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_isOptedIn"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AsetOptedIn\u0028\u0029",
+            "name": "setOptedIn",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_setOptedIn"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AgetUuid\u0028\u0029",
+            "name": "getUuid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_getUuid"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AsetUuid\u0028\u0029",
+            "name": "setUuid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_setUuid"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AgetSubscribePage\u0028\u0029",
+            "name": "getSubscribePage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_getSubscribePage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AsetSubscribePage\u0028\u0029",
+            "name": "setSubscribePage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_setSubscribePage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AgetRssFrequency\u0028\u0029",
+            "name": "getRssFrequency",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_getRssFrequency"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AsetRssFrequency\u0028\u0029",
+            "name": "setRssFrequency",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_setRssFrequency"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AgetPassword\u0028\u0029",
+            "name": "getPassword",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_getPassword"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AsetPassword\u0028\u0029",
+            "name": "setPassword",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_setPassword"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AgetPasswordChanged\u0028\u0029",
+            "name": "getPasswordChanged",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_getPasswordChanged"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AsetPasswordChanged\u0028\u0029",
+            "name": "setPasswordChanged",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_setPasswordChanged"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AgetForeignKey\u0028\u0029",
+            "name": "getForeignKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_getForeignKey"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AsetForeignKey\u0028\u0029",
+            "name": "setForeignKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_setForeignKey"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -9561,10 +9631,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_passwordChanged"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003A\u0024foreignkey",
-            "name": "foreignkey",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003A\u0024foreignKey",
+            "name": "foreignKey",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_foreignkey"
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_foreignKey"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberAttributeDefinition",
             "name": "SubscriberAttributeDefinition",
