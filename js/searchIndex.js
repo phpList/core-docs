@@ -1796,10 +1796,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#method___invoke"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003AbuildAllowOnce\u0028\u0029",
+            "name": "buildAllowOnce",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#method_buildAllowOnce"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003A\u0024allow",
             "name": "allow",
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#property_allow"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003A\u0024allowPrefixes",
+            "name": "allowPrefixes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#property_allowPrefixes"
         },                {
             "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003A\u0024entityManager",
             "name": "entityManager",
@@ -11406,20 +11416,80 @@ Search.appendIndex(
             "summary": "This\u0020bundle\u0020is\u0020a\u0020placeholder\u0020that\u0020provides\u0020an\u0020empty\u0020start\u0020page.",
             "url": "classes/PhpList-Core-EmptyStartPageBundle-EmptyStartPageBundle.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901",
-            "name": "Version20251028092901",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySql",
+            "name": "Version20251028092901MySql",
             "summary": "Manual\u0020Migration",
-            "url": "classes/PhpList-Core-Migrations-Version20251028092901.html"
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySql.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901\u003A\u003AgetDescription\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySql\u003A\u003AgetDescription\u0028\u0029",
             "name": "getDescription",
             "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251028092901.html#method_getDescription"
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySql.html#method_getDescription"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901\u003A\u003Aup\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySql\u003A\u003Aup\u0028\u0029",
             "name": "up",
             "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251028092901.html#method_up"
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySql.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251029105320MySqlRelations",
+            "name": "Version20251029105320MySqlRelations",
+            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
+            "url": "classes/PhpList-Core-Migrations-Version20251029105320MySqlRelations.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251029105320MySqlRelations\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251029105320MySqlRelations.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251029105320MySqlRelations\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251029105320MySqlRelations.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251029105320MySqlRelations\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251029105320MySqlRelations.html#method_down"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030081120PostgreSqlPlatform",
+            "name": "Version20251030081120PostgreSqlPlatform",
+            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
+            "url": "classes/PhpList-Core-Migrations-Version20251030081120PostgreSqlPlatform.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030081120PostgreSqlPlatform\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251030081120PostgreSqlPlatform.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030081120PostgreSqlPlatform\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251030081120PostgreSqlPlatform.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030081120PostgreSqlPlatform\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251030081120PostgreSqlPlatform.html#method_down"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030083621MySqlRenameIndex",
+            "name": "Version20251030083621MySqlRenameIndex",
+            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
+            "url": "classes/PhpList-Core-Migrations-Version20251030083621MySqlRenameIndex.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030083621MySqlRenameIndex\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251030083621MySqlRenameIndex.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030083621MySqlRenameIndex\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251030083621MySqlRenameIndex.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030083621MySqlRenameIndex\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251030083621MySqlRenameIndex.html#method_down"
         },                {
             "fqsen": "\\PhpList\\Core\\Routing\\ExtraLoader",
             "name": "ExtraLoader",
