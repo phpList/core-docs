@@ -11416,80 +11416,60 @@ Search.appendIndex(
             "summary": "This\u0020bundle\u0020is\u0020a\u0020placeholder\u0020that\u0020provides\u0020an\u0020empty\u0020start\u0020page.",
             "url": "classes/PhpList-Core-EmptyStartPageBundle-EmptyStartPageBundle.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySql",
-            "name": "Version20251028092901MySql",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySqlInit",
+            "name": "Version20251028092901MySqlInit",
             "summary": "Manual\u0020Migration",
-            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySql.html"
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySql\u003A\u003AgetDescription\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySqlInit\u003A\u003AgetDescription\u0028\u0029",
             "name": "getDescription",
             "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySql.html#method_getDescription"
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_getDescription"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySql\u003A\u003Aup\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySqlInit\u003A\u003Aup\u0028\u0029",
             "name": "up",
             "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySql.html#method_up"
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_up"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251029105320MySqlRelations",
-            "name": "Version20251029105320MySqlRelations",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/PhpList-Core-Migrations-Version20251029105320MySqlRelations.html"
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate",
+            "name": "Version20251028092902MySqlUpdate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251029105320MySqlRelations\u003A\u003AgetDescription\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate\u003A\u003AgetDescription\u0028\u0029",
             "name": "getDescription",
             "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251029105320MySqlRelations.html#method_getDescription"
+            "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html#method_getDescription"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251029105320MySqlRelations\u003A\u003Aup\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate\u003A\u003Aup\u0028\u0029",
             "name": "up",
             "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251029105320MySqlRelations.html#method_up"
+            "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html#method_up"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251029105320MySqlRelations\u003A\u003Adown\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate\u003A\u003Adown\u0028\u0029",
             "name": "down",
             "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251029105320MySqlRelations.html#method_down"
+            "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html#method_down"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030081120PostgreSqlPlatform",
-            "name": "Version20251030081120PostgreSqlPlatform",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/PhpList-Core-Migrations-Version20251030081120PostgreSqlPlatform.html"
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251031072945PostGreInit",
+            "name": "Version20251031072945PostGreInit",
+            "summary": "\u26A0\uFE0F\u0020Wizard\u0020warning\u003A\nDoctrine\u0020will\u0020\u0060helpfully\u0060\u0020remove\u0020url\u0028255\u0029\u0020prefixes\u0020and\u0020add\u0020collations\u00205.7\u0020can\u2019t\u0020read.",
+            "url": "classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030081120PostgreSqlPlatform\u003A\u003AgetDescription\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251031072945PostGreInit\u003A\u003AgetDescription\u0028\u0029",
             "name": "getDescription",
             "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251030081120PostgreSqlPlatform.html#method_getDescription"
+            "url": "classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_getDescription"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030081120PostgreSqlPlatform\u003A\u003Aup\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251031072945PostGreInit\u003A\u003Aup\u0028\u0029",
             "name": "up",
             "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251030081120PostgreSqlPlatform.html#method_up"
+            "url": "classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_up"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030081120PostgreSqlPlatform\u003A\u003Adown\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251031072945PostGreInit\u003A\u003Adown\u0028\u0029",
             "name": "down",
             "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251030081120PostgreSqlPlatform.html#method_down"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030083621MySqlRenameIndex",
-            "name": "Version20251030083621MySqlRenameIndex",
-            "summary": "Auto\u002Dgenerated\u0020Migration\u003A\u0020Please\u0020modify\u0020to\u0020your\u0020needs\u0021",
-            "url": "classes/PhpList-Core-Migrations-Version20251030083621MySqlRenameIndex.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030083621MySqlRenameIndex\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251030083621MySqlRenameIndex.html#method_getDescription"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030083621MySqlRenameIndex\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251030083621MySqlRenameIndex.html#method_up"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251030083621MySqlRenameIndex\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251030083621MySqlRenameIndex.html#method_down"
+            "url": "classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_down"
         },                {
             "fqsen": "\\PhpList\\Core\\Routing\\ExtraLoader",
             "name": "ExtraLoader",
