@@ -14931,10 +14931,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTokenTest.html#method_testGenerateKeyCreatesDifferentKeysForEachCall"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTokenTest\u003A\u003AtestGetAdministratorInitiallyReturnsNull\u0028\u0029",
-            "name": "testGetAdministratorInitiallyReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTokenTest\u003A\u003AtestGetAdministratorReturnsConstructorProvidedAdministrator\u0028\u0029",
+            "name": "testGetAdministratorReturnsConstructorProvidedAdministrator",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTokenTest.html#method_testGetAdministratorInitiallyReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdministratorTokenTest.html#method_testGetAdministratorReturnsConstructorProvidedAdministrator"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdministratorTokenTest\u003A\u003A\u0024subject",
             "name": "subject",
