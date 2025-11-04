@@ -11506,6 +11506,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251103SeedInitialAdmin\u003A\u003AsetContainer\u0028\u0029",
+            "name": "setContainer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_setContainer"
+        },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251103SeedInitialAdmin\u003A\u003AgetDescription\u0028\u0029",
             "name": "getDescription",
             "summary": "",
@@ -11520,6 +11525,11 @@ Search.appendIndex(
             "name": "down",
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_down"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251103SeedInitialAdmin\u003A\u003A\u0024container",
+            "name": "container",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#property_container"
         },                {
             "fqsen": "\\PhpList\\Core\\Routing\\ExtraLoader",
             "name": "ExtraLoader",
