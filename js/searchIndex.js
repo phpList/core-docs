@@ -8941,6 +8941,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_email"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024foreignKey",
+            "name": "foreignKey",
+            "summary": "Optional\u0020external\u0020identifier\u0020used\u0020for\u0020matching\u0020existing\u0020subscribers\u0020during\u0020import.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_foreignKey"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024confirmed",
             "name": "confirmed",
             "summary": "",
@@ -10406,6 +10411,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findOneByUniqueId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AfindOneByForeignKey\u0028\u0029",
+            "name": "findOneByForeignKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findOneByForeignKey"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AfindSubscribersBySubscribedList\u0028\u0029",
             "name": "findSubscribersBySubscribedList",
             "summary": "",
@@ -10535,6 +10545,16 @@ Search.appendIndex(
             "name": "map",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#method_map"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper\u003A\u003AnormalizeData\u0028\u0029",
+            "name": "normalizeData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#method_normalizeData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper\u003A\u003AFK_HEADER",
+            "name": "FK_HEADER",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#constant_FK_HEADER"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper\u003A\u003AKNOWN_HEADERS",
             "name": "KNOWN_HEADERS",
@@ -11251,6 +11271,11 @@ Search.appendIndex(
             "summary": "Process\u0020a\u0020single\u0020row\u0020from\u0020the\u0020CSV\u0020file.",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_processRow"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AresolveSubscriber\u0028\u0029",
+            "name": "resolveSubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_resolveSubscriber"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AhandleInvalidEmail\u0028\u0029",
             "name": "handleInvalidEmail",
             "summary": "",
@@ -11265,6 +11290,11 @@ Search.appendIndex(
             "name": "prepareConfirmationMessage",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_prepareConfirmationMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003AgetHistoryListLines\u0028\u0029",
+            "name": "getHistoryListLines",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_getHistoryListLines"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024subscriberManager",
             "name": "subscriberManager",
@@ -11470,6 +11500,26 @@ Search.appendIndex(
             "name": "down",
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_down"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251103SeedInitialAdmin",
+            "name": "Version20251103SeedInitialAdmin",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251103SeedInitialAdmin\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251103SeedInitialAdmin\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251103SeedInitialAdmin\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_down"
         },                {
             "fqsen": "\\PhpList\\Core\\Routing\\ExtraLoader",
             "name": "ExtraLoader",

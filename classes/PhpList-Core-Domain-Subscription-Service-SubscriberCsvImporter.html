@@ -280,6 +280,12 @@ Service for importing subscribers from a CSV file.</p>
 <dd>Import subscribers without updating existing ones.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_getHistoryListLines">getHistoryListLines()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleInvalidEmail">handleInvalidEmail()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -303,6 +309,12 @@ Service for importing subscribers from a CSV file.</p>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\SubscriptionConfirmationMessage">SubscriptionConfirmationMessage</abbr></a>|null    </span>
 </dt>
 <dd>Process a single row from the CSV file.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_resolveSubscriber">resolveSubscriber()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
 
     </dl>
 
@@ -1039,6 +1051,61 @@ Service for importing subscribers from a CSV file.</p>
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getHistoryListLines">
+        getHistoryListLines()
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_getHistoryListLines" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">291</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">getHistoryListLines</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\SubscriberImportOptions">SubscriberImportOptions</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$subscriber</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$options</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\SubscriberImportOptions">SubscriberImportOptions</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_handleInvalidEmail">
         handleInvalidEmail()
         <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleInvalidEmail" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1047,7 +1114,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">229</span>
+    <span class="phpdocumentor-element-found-in__line">239</span>
 
     </aside>
 
@@ -1109,7 +1176,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">249</span>
+    <span class="phpdocumentor-element-found-in__line">259</span>
 
     </aside>
 
@@ -1171,7 +1238,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">263</span>
+    <span class="phpdocumentor-element-found-in__line">273</span>
 
     </aside>
 
@@ -1293,6 +1360,54 @@ Service for importing subscribers from a CSV file.</p>
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriptionConfirmationMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\SubscriptionConfirmationMessage">SubscriptionConfirmationMessage</abbr></a>|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_resolveSubscriber">
+        resolveSubscriber()
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_resolveSubscriber" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">223</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">resolveSubscriber</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\ImportSubscriberDto">ImportSubscriberDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dto</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dto</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\ImportSubscriberDto">ImportSubscriberDto</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
             </section>
 
 </article>
@@ -1430,10 +1545,12 @@ Service for importing subscribers from a CSV file.</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_importAndUpdateFromCsv">importAndUpdateFromCsv()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_importFromCsv">importFromCsv()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_importNewFromCsv">importNewFromCsv()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_getHistoryListLines">getHistoryListLines()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleInvalidEmail">handleInvalidEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_handleSkipCase">handleSkipCase()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_prepareConfirmationMessage">prepareConfirmationMessage()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_processRow">processRow()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#method_resolveSubscriber">resolveSubscriber()</a></li>
                                     </ul>
             </li>
                     </ul>

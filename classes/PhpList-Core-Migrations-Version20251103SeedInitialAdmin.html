@@ -93,15 +93,16 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription.html">Subscription</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription-service.html">Service</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-migrations.html">Migrations</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    CsvRowToDtoMapper
+    Version20251103SeedInitialAdmin
 
+        <span class="phpdocumentor-element__extends">
+        extends <abbr title="\Doctrine\Migrations\AbstractMigration">AbstractMigration</abbr>
+    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -115,13 +116,15 @@
 
 <div class="phpdocumentor-label-line">
 
+    <div class="phpdocumentor-label phpdocumentor-label--success"><span>Final</span><span>Yes</span></div>
+
 
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/CsvRowToDtoMapper.php"><a href="files/src-domain-subscription-service-csvrowtodtomapper.html"><abbr title="src/Domain/Subscription/Service/CsvRowToDtoMapper.php">CsvRowToDtoMapper.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251103SeedInitialAdmin.php"><a href="files/src-migrations-version20251103seedinitialadmin.html"><abbr title="src/Migrations/Version20251103SeedInitialAdmin.php">Version20251103SeedInitialAdmin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">9</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 
     </aside>
 
@@ -136,7 +139,7 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -146,44 +149,31 @@
 
 
 
-<h4 id="toc-constants">
-    Constants
-    <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
-
-</h4>
-<dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#constant_FK_HEADER">FK_HEADER</a>
-    <span>
-        &nbsp;= &#039;foreignkey&#039;                            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#constant_KNOWN_HEADERS">KNOWN_HEADERS</a>
-    <span>
-        &nbsp;= [&#039;email&#039;, &#039;confirmed&#039;, &#039;blacklisted&#039;, &#039;html_email&#039;, &#039;disabled&#039;, &#039;extra_data&#039;, &#039;foreignkey&#039;]                            </span>
-</dt>
-
-    </dl>
 
 
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#method_map">map()</a>
+    <a class="" href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_down">down()</a>
     <span>
-                                &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\ImportSubscriberDto">ImportSubscriberDto</abbr></a>    </span>
+                                &nbsp;: void    </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#method_normalizeData">normalizeData()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_getDescription">getDescription()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_up">up()</a>
+    <span>
+                                &nbsp;: void    </span>
 </dt>
 
     </dl>
@@ -191,82 +181,13 @@
 
 
         
-    <section class="phpdocumentor-constants">
-        <h3 class="phpdocumentor-elements__header" id="constants">
-            Constants
-            <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
-
-        </h3>
-                    <article class="phpdocumentor-element -constant -private ">
-    <h4 class="phpdocumentor-element__name" id="constant_FK_HEADER">
-        FK_HEADER
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#constant_FK_HEADER" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/CsvRowToDtoMapper.php"><a href="files/src-domain-subscription-service-csvrowtodtomapper.html"><abbr title="src/Domain/Subscription/Service/CsvRowToDtoMapper.php">CsvRowToDtoMapper.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">11</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">FK_HEADER</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;foreignkey&#039;</span>
-</code>
-
-
-    
-    
-    
-
-    
-
-</article>
-                    <article class="phpdocumentor-element -constant -private ">
-    <h4 class="phpdocumentor-element__name" id="constant_KNOWN_HEADERS">
-        KNOWN_HEADERS
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#constant_KNOWN_HEADERS" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/CsvRowToDtoMapper.php"><a href="files/src-domain-subscription-service-csvrowtodtomapper.html"><abbr title="src/Domain/Subscription/Service/CsvRowToDtoMapper.php">CsvRowToDtoMapper.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">12</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">KNOWN_HEADERS</span>
-    = <span class="phpdocumentor-signature__default-value">[&#039;email&#039;, &#039;confirmed&#039;, &#039;blacklisted&#039;, &#039;html_email&#039;, &#039;disabled&#039;, &#039;extra_data&#039;, &#039;foreignkey&#039;]</span>
-</code>
-
-
-    
-    
-    
-
-    
-
-</article>
-            </section>
 
         
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -275,22 +196,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_map">
-        map()
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#method_map" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_down">
+        down()
+        <a href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_down" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/CsvRowToDtoMapper.php"><a href="files/src-domain-subscription-service-csvrowtodtomapper.html"><abbr title="src/Domain/Subscription/Service/CsvRowToDtoMapper.php">CsvRowToDtoMapper.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251103SeedInitialAdmin.php"><a href="files/src-migrations-version20251103seedinitialadmin.html"><abbr title="src/Migrations/Version20251103SeedInitialAdmin.php">Version20251103SeedInitialAdmin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">map</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$row</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\ImportSubscriberDto">ImportSubscriberDto</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">down</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\DBAL\Schema\Schema">Schema</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$schema</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -299,8 +220,8 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$row</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                <span class="phpdocumentor-signature__argument__name">$schema</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\DBAL\Schema\Schema">Schema</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -311,34 +232,68 @@
 
     
 
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDescription">
+        getDescription()
+        <a href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_getDescription" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251103SeedInitialAdmin.php"><a href="files/src-migrations-version20251103seedinitialadmin.html"><abbr title="src/Migrations/Version20251103SeedInitialAdmin.php">Version20251103SeedInitialAdmin.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getDescription</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\ImportSubscriberDto">ImportSubscriberDto</abbr></a></span>
+        <span class="phpdocumentor-signature__response_type">string</span>
             </section>
 
 </article>
                     <article
         class="phpdocumentor-element
             -method
-            -private
+            -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_normalizeData">
-        normalizeData()
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#method_normalizeData" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_up">
+        up()
+        <a href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_up" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/CsvRowToDtoMapper.php"><a href="files/src-domain-subscription-service-csvrowtodtomapper.html"><abbr title="src/Domain/Subscription/Service/CsvRowToDtoMapper.php">CsvRowToDtoMapper.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251103SeedInitialAdmin.php"><a href="files/src-migrations-version20251103seedinitialadmin.html"><abbr title="src/Migrations/Version20251103SeedInitialAdmin.php">Version20251103SeedInitialAdmin.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">normalizeData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$row</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">up</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\DBAL\Schema\Schema">Schema</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$schema</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -347,8 +302,8 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$row</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                <span class="phpdocumentor-signature__argument__name">$schema</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\DBAL\Schema\Schema">Schema</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -359,11 +314,7 @@
 
     
 
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
-            </section>
-
+    
 </article>
             </section>
 
@@ -371,7 +322,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Subscription/Service/CsvRowToDtoMapper.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Migrations/Version20251103SeedInitialAdmin.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -472,24 +423,17 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                        <li><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#toc-constants">Constants</a></li>
-                                                                                <li><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#toc-methods">Methods</a></li>
+                                                                                <li><a href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
-                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
-                <li>
-                    <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#constant_FK_HEADER">FK_HEADER</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#constant_KNOWN_HEADERS">KNOWN_HEADERS</a></li>
-                                            </ul>
-                </li>
             
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#method_map">map()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#method_normalizeData">normalizeData()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_down">down()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_getDescription">getDescription()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_up">up()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -509,7 +453,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
