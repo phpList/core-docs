@@ -3811,6 +3811,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#property_entityManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand",
+            "name": "ImportDefaultsCommand",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#method_execute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003AallPrivilegesGranted\u0028\u0029",
+            "name": "allPrivilegesGranted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#method_allPrivilegesGranted"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003ADEFAULT_LOGIN",
+            "name": "DEFAULT_LOGIN",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#constant_DEFAULT_LOGIN"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003ADEFAULT_EMAIL",
+            "name": "DEFAULT_EMAIL",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#constant_DEFAULT_EMAIL"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003A\u0024administratorRepository",
+            "name": "administratorRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#property_administratorRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003A\u0024administratorManager",
+            "name": "administratorManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#property_administratorManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#property_entityManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException",
             "name": "AdminAttributeCreationException",
             "summary": "",
@@ -11500,26 +11545,6 @@ Search.appendIndex(
             "name": "down",
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_down"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251103SeedInitialAdmin",
-            "name": "Version20251103SeedInitialAdmin",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251103SeedInitialAdmin\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_getDescription"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251103SeedInitialAdmin\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_up"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251103SeedInitialAdmin\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20251103SeedInitialAdmin.html#method_down"
         },                {
             "fqsen": "\\PhpList\\Core\\Routing\\ExtraLoader",
             "name": "ExtraLoader",
