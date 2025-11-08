@@ -10551,60 +10551,60 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html#method_findOneByEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter",
-            "name": "CsvImporter",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\ArrayToDtoMapper",
+            "name": "ArrayToDtoMapper",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-ArrayToDtoMapper.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter\u003A\u003Aimport\u0028\u0029",
-            "name": "import",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html#method_import"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter\u003A\u003A\u0024rowMapper",
-            "name": "rowMapper",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html#property_rowMapper"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter\u003A\u003A\u0024validator",
-            "name": "validator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html#property_validator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvImporter\u003A\u003A\u0024translator",
-            "name": "translator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html#property_translator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper",
-            "name": "CsvRowToDtoMapper",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper\u003A\u003Amap\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\ArrayToDtoMapper\u003A\u003Amap\u0028\u0029",
             "name": "map",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#method_map"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-ArrayToDtoMapper.html#method_map"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper\u003A\u003AnormalizeData\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\ArrayToDtoMapper\u003A\u003AnormalizeData\u0028\u0029",
             "name": "normalizeData",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#method_normalizeData"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-ArrayToDtoMapper.html#method_normalizeData"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper\u003A\u003AFK_HEADER",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\ArrayToDtoMapper\u003A\u003AFK_HEADER",
             "name": "FK_HEADER",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#constant_FK_HEADER"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-ArrayToDtoMapper.html#constant_FK_HEADER"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvRowToDtoMapper\u003A\u003AKNOWN_HEADERS",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\ArrayToDtoMapper\u003A\u003AKNOWN_HEADERS",
             "name": "KNOWN_HEADERS",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvRowToDtoMapper.html#constant_KNOWN_HEADERS"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-ArrayToDtoMapper.html#constant_KNOWN_HEADERS"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvToDtoImporter",
+            "name": "CsvToDtoImporter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvToDtoImporter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvToDtoImporter\u003A\u003AparseAndValidate\u0028\u0029",
+            "name": "parseAndValidate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html#method_parseAndValidate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvToDtoImporter\u003A\u003A\u0024rowMapper",
+            "name": "rowMapper",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html#property_rowMapper"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvToDtoImporter\u003A\u003A\u0024validator",
+            "name": "validator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html#property_validator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\CsvToDtoImporter\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager",
             "name": "AttributeDefinitionManager",
@@ -11288,7 +11288,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter",
             "name": "SubscriberCsvImporter",
-            "summary": "phpcs\u003Aignore\u0020Generic.Commenting.Todo",
+            "summary": "Handles\u0020full\u0020subscriber\u0020import\u0020workflow,\u0020including\u0020DB\u0020transactions\u0020and\u0020message\u0020dispatching.",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A__construct\u0028\u0029",
@@ -11361,10 +11361,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_subscriberRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024csvImporter",
-            "name": "csvImporter",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024csvToDtoImporter",
+            "name": "csvToDtoImporter",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_csvImporter"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_csvToDtoImporter"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024entityManager",
             "name": "entityManager",

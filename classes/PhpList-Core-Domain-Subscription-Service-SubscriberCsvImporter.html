@@ -121,13 +121,17 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">phpcs:ignore Generic.Commenting.Todo</p>
+            <p class="phpdocumentor-summary">Handles full subscriber import workflow, including DB transactions and message dispatching.</p>
 
 
+    <section class="phpdocumentor-description"><p>Note: Although this lives in the Service namespace, it acts as an <em>application service</em> —
+it orchestrates multiple domain services and manages transactions/flushes directly.
+This is an intentional exception for this complex import use case.</p>
+</section>
 
 
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -137,16 +141,6 @@
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">todo:</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>check if dryRun will work (some function flush)
-Service for importing subscribers from a CSV file.</p>
-</section>
-
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
                     <span class="phpdocumentor-tag__name">SuppressWarnings</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
@@ -197,9 +191,9 @@ Service for importing subscribers from a CSV file.</p>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_csvImporter">$csvImporter</a>
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_csvToDtoImporter">$csvToDtoImporter</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\CsvImporter">CsvImporter</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\CsvToDtoImporter">CsvToDtoImporter</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -346,7 +340,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -374,9 +368,9 @@ Service for importing subscribers from a CSV file.</p>
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_csvImporter">
-        $csvImporter
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_csvImporter" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_csvToDtoImporter">
+        $csvToDtoImporter
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_csvToDtoImporter" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
@@ -384,7 +378,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -392,8 +386,8 @@ Service for importing subscribers from a CSV file.</p>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\CsvImporter">CsvImporter</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$csvImporter</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\CsvToDtoImporter">CsvToDtoImporter</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$csvToDtoImporter</span>
     </code>
 
     
@@ -422,7 +416,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -460,7 +454,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
     </aside>
 
@@ -498,7 +492,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
@@ -536,7 +530,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
@@ -574,7 +568,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
@@ -612,7 +606,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -650,7 +644,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">43</span>
 
     </aside>
 
@@ -693,14 +687,14 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberManager">SubscriberManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberAttributeManager">SubscriberAttributeManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriptionManager">SubscriptionManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriptionManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\CsvImporter">CsvImporter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$csvImporter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageBus</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberManager">SubscriberManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberAttributeManager">SubscriberAttributeManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriptionManager">SubscriptionManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriptionManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\CsvToDtoImporter">CsvToDtoImporter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$csvToDtoImporter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageBus</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -737,8 +731,8 @@ Service for importing subscribers from a CSV file.</p>
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$csvImporter</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvImporter.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\CsvImporter">CsvImporter</abbr></a></span>
+                <span class="phpdocumentor-signature__argument__name">$csvToDtoImporter</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\CsvToDtoImporter">CsvToDtoImporter</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -793,7 +787,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">140</span>
+    <span class="phpdocumentor-element-found-in__line">144</span>
 
     </aside>
 
@@ -885,7 +879,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">74</span>
 
     </aside>
 
@@ -967,7 +961,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">159</span>
+    <span class="phpdocumentor-element-found-in__line">163</span>
 
     </aside>
 
@@ -1059,7 +1053,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">291</span>
+    <span class="phpdocumentor-element-found-in__line">296</span>
 
     </aside>
 
@@ -1114,7 +1108,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">239</span>
+    <span class="phpdocumentor-element-found-in__line">243</span>
 
     </aside>
 
@@ -1176,7 +1170,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">259</span>
+    <span class="phpdocumentor-element-found-in__line">264</span>
 
     </aside>
 
@@ -1238,7 +1232,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">273</span>
+    <span class="phpdocumentor-element-found-in__line">278</span>
 
     </aside>
 
@@ -1307,7 +1301,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">175</span>
+    <span class="phpdocumentor-element-found-in__line">179</span>
 
     </aside>
 
@@ -1377,7 +1371,7 @@ Service for importing subscribers from a CSV file.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvImporter.php"><a href="files/src-domain-subscription-service-subscribercsvimporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvImporter.php">SubscriberCsvImporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">223</span>
+    <span class="phpdocumentor-element-found-in__line">227</span>
 
     </aside>
 
@@ -1527,7 +1521,7 @@ Service for importing subscribers from a CSV file.</p>
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_attributeManager">$attributeManager</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_csvImporter">$csvImporter</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_csvToDtoImporter">$csvToDtoImporter</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_entityManager">$entityManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_messageBus">$messageBus</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_subscriberHistoryManager">$subscriberHistoryManager</a></li>
