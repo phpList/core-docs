@@ -12821,6 +12821,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-DynamicListAttrManagerFunctionalTest.html#method_testCreateInsertAndFetchOptionsEndToEnd"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Service\\DynamicListAttrManagerFunctionalTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-DynamicListAttrManagerFunctionalTest.html#method_tearDown"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Service\\DynamicListAttrManagerFunctionalTest\u003A\u003A\u0024repo",
             "name": "repo",
             "summary": "",
