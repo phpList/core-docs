@@ -10431,10 +10431,40 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method___construct"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003Atransactional\u0028\u0029",
+            "name": "transactional",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_transactional"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AdenormalizeAll\u0028\u0029",
             "name": "denormalizeAll",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_denormalizeAll"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AinsertOne\u0028\u0029",
+            "name": "insertOne",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_insertOne"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AinsertMany\u0028\u0029",
+            "name": "insertMany",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_insertMany"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AupdateById\u0028\u0029",
+            "name": "updateById",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_updateById"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AdeleteById\u0028\u0029",
+            "name": "deleteById",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_deleteById"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AexistsById\u0028\u0029",
+            "name": "existsById",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_existsById"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AfetchOptionNames\u0028\u0029",
             "name": "fetchOptionNames",
@@ -10836,25 +10866,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#method_updateRowsById"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManager\u003A\u003AcreateFromDtos\u0028\u0029",
-            "name": "createFromDtos",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#method_createFromDtos"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManager\u003A\u003A\u0024prefix",
-            "name": "prefix",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_prefix"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManager\u003A\u003A\u0024dynamicListAttrRepository",
             "name": "dynamicListAttrRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_dynamicListAttrRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManager\u003A\u003A\u0024connection",
-            "name": "connection",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_connection"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager",
             "name": "DynamicListAttrTablesManager",
@@ -10886,10 +10901,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrTablesManager.html#property_definitionRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager\u003A\u003A\u0024connection",
-            "name": "connection",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager\u003A\u003A\u0024schemaManager",
+            "name": "schemaManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrTablesManager.html#property_connection"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrTablesManager.html#property_schemaManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager",
             "name": "SubscribePageManager",
@@ -17601,11 +17616,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrManagerTest.html#property_listAttrRepo"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManagerTest\u003A\u003A\u0024connection",
-            "name": "connection",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrManagerTest.html#property_connection"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManagerTest",
             "name": "DynamicListAttrTablesManagerTest",
             "summary": "",
@@ -17641,10 +17651,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrTablesManagerTest.html#property_definitionRepo"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManagerTest\u003A\u003A\u0024connection",
-            "name": "connection",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManagerTest\u003A\u003A\u0024schema",
+            "name": "schema",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrTablesManagerTest.html#property_connection"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrTablesManagerTest.html#property_schema"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest",
             "name": "SubscribePageManagerTest",
