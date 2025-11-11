@@ -10541,6 +10541,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html#method_getForSubscriber"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeValueRepository\u003A\u003AexistsByAttributeAndValue\u0028\u0029",
+            "name": "existsByAttributeAndValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html#method_existsByAttributeAndValue"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryRepository",
             "name": "SubscriberHistoryRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -10833,7 +10838,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManager\u003A\u003AinsertOptions\u0028\u0029",
             "name": "insertOptions",
-            "summary": "Seed\u0020options\u0020into\u0020the\u0020just\u002Dcreated\u0020options\u0020table.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#method_insertOptions"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManager\u003A\u003AsyncOptions\u0028\u0029",
@@ -10853,12 +10858,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManager\u003A\u003AsplitOptionsSet\u0028\u0029",
             "name": "splitOptionsSet",
-            "summary": "",
+            "summary": "Splits\u0020the\u0020dynamic\u0020list\u0020attribute\u0020set\u0020into\u0020lookup\u0020maps.",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#method_splitOptionsSet"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManager\u003A\u003AsplitCurrentSet\u0028\u0029",
             "name": "splitCurrentSet",
-            "summary": "",
+            "summary": "Splits\u0020the\u0020current\u0020dynamic\u0020list\u0020attribute\u0020set\u0020into\u0020lookup\u0020maps.",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#method_splitCurrentSet"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManager\u003A\u003AupdateRowsById\u0028\u0029",
@@ -10870,6 +10875,11 @@ Search.appendIndex(
             "name": "dynamicListAttrRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_dynamicListAttrRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManager\u003A\u003A\u0024attributeValueRepo",
+            "name": "attributeValueRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_attributeValueRepo"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager",
             "name": "DynamicListAttrTablesManager",
@@ -12841,10 +12851,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-DynamicListAttrManagerFunctionalTest.html#method_tearDown"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Service\\DynamicListAttrManagerFunctionalTest\u003A\u003A\u0024repo",
-            "name": "repo",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Service\\DynamicListAttrManagerFunctionalTest\u003A\u003A\u0024dynamicListAttrRepo",
+            "name": "dynamicListAttrRepo",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-DynamicListAttrManagerFunctionalTest.html#property_repo"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Service-DynamicListAttrManagerFunctionalTest.html#property_dynamicListAttrRepo"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Service\\DynamicListAttrManagerFunctionalTest\u003A\u003A\u0024manager",
             "name": "manager",
@@ -17615,6 +17625,11 @@ Search.appendIndex(
             "name": "listAttrRepo",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrManagerTest.html#property_listAttrRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManagerTest\u003A\u003A\u0024subscriberAttributeValueRepo",
+            "name": "subscriberAttributeValueRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrManagerTest.html#property_subscriberAttributeValueRepo"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManagerTest",
             "name": "DynamicListAttrTablesManagerTest",

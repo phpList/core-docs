@@ -122,7 +122,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php"><a href="files/src-domain-subscription-service-manager-dynamiclistattrmanager.html"><abbr title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php">DynamicListAttrManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
@@ -156,6 +156,12 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_attributeValueRepo">$attributeValueRepo</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberAttributeValueRepository">SubscriberAttributeValueRepository</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_dynamicListAttrRepository">$dynamicListAttrRepository</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\DynamicListAttrRepository">DynamicListAttrRepository</abbr></a>            </span>
@@ -180,7 +186,6 @@
     <span>
                                 &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
-<dd>Seed options into the just-created options table.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#method_syncOptions">syncOptions()</a>
@@ -203,14 +208,16 @@
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#method_splitCurrentSet">splitCurrentSet()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{0: array<int,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>, 1: array<string,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>}">DynamicListAttrDto>}</abbr>    </span>
 </dt>
+<dd>Splits the current dynamic list attribute set into lookup maps.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#method_splitOptionsSet">splitOptionsSet()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: <abbr title="array{0: array<int,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>, 1: array<string,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>}">DynamicListAttrDto>}</abbr>    </span>
 </dt>
+<dd>Splits the dynamic list attribute set into lookup maps.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#method_updateRowsById">updateRowsById()</a>
@@ -238,6 +245,44 @@
             -private
                                                 -read-only                    "
 >
+    <h4 class="phpdocumentor-element__name" id="property_attributeValueRepo">
+        $attributeValueRepo
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_attributeValueRepo" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php"><a href="files/src-domain-subscription-service-manager-dynamiclistattrmanager.html"><abbr title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php">DynamicListAttrManager.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberAttributeValueRepository">SubscriberAttributeValueRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$attributeValueRepo</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_dynamicListAttrRepository">
         $dynamicListAttrRepository
         <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_dynamicListAttrRepository" class="headerlink"><i class="fas fa-link"></i></a>
@@ -248,7 +293,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php"><a href="files/src-domain-subscription-service-manager-dynamiclistattrmanager.html"><abbr title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php">DynamicListAttrManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
@@ -291,14 +336,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php"><a href="files/src-domain-subscription-service-manager-dynamiclistattrmanager.html"><abbr title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php">DynamicListAttrManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\DynamicListAttrRepository">DynamicListAttrRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dynamicListAttrRepository</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\DynamicListAttrRepository">DynamicListAttrRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dynamicListAttrRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberAttributeValueRepository">SubscriberAttributeValueRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeValueRepo</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -309,6 +354,13 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$dynamicListAttrRepository</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\DynamicListAttrRepository">DynamicListAttrRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$attributeValueRepo</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberAttributeValueRepository">SubscriberAttributeValueRepository</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -339,8 +391,7 @@
 
     </aside>
 
-        <p class="phpdocumentor-summary">Seed options into the just-created options table.</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">insertOptions</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listTable</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-DynamicListAttrDto.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto">DynamicListAttrDto</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$rawOptions</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$usedOrders</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
@@ -356,9 +407,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>logical table (without global prefix)</p>
-</section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$rawOptions</span>
@@ -455,7 +504,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php"><a href="files/src-domain-subscription-service-manager-dynamiclistattrmanager.html"><abbr title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php">DynamicListAttrManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">150</span>
+    <span class="phpdocumentor-element-found-in__line">151</span>
 
     </aside>
 
@@ -510,7 +559,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">optionHasReferences</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listTable</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">optionHasReferences</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listTable</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$optionId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -526,7 +575,7 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$id</span>
+                <span class="phpdocumentor-signature__argument__name">$optionId</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -558,14 +607,15 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php"><a href="files/src-domain-subscription-service-manager-dynamiclistattrmanager.html"><abbr title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php">DynamicListAttrManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">195</span>
+    <span class="phpdocumentor-element-found-in__line">213</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Splits the current dynamic list attribute set into lookup maps.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">splitCurrentSet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listTable</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">splitCurrentSet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listTable</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{0: array<int,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>, 1: array<string,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>}">DynamicListAttrDto>}</abbr></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -588,7 +638,7 @@
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{0: array<int,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>, 1: array<string,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>}">DynamicListAttrDto>}</abbr></span>
             </section>
 
 </article>
@@ -606,14 +656,15 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php"><a href="files/src-domain-subscription-service-manager-dynamiclistattrmanager.html"><abbr title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php">DynamicListAttrManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">161</span>
+    <span class="phpdocumentor-element-found-in__line">170</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Splits the dynamic list attribute set into lookup maps.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">splitOptionsSet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$usedOrders</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">splitOptionsSet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$usedOrders</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{0: array<int,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>, 1: array<string,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>}">DynamicListAttrDto>}</abbr></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -643,7 +694,7 @@
 
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{0: array<int,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>, 1: array<string,\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto>}">DynamicListAttrDto>}</abbr></span>
             </section>
 
 </article>
@@ -661,7 +712,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php"><a href="files/src-domain-subscription-service-manager-dynamiclistattrmanager.html"><abbr title="src/Domain/Subscription/Service/Manager/DynamicListAttrManager.php">DynamicListAttrManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">209</span>
+    <span class="phpdocumentor-element-found-in__line">227</span>
 
     </aside>
 
@@ -824,6 +875,7 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_attributeValueRepo">$attributeValueRepo</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_dynamicListAttrRepository">$dynamicListAttrRepository</a></li>
                                             </ul>
                 </li>
