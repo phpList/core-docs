@@ -10933,12 +10933,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager\u003A\u003AresolveTableName\u0028\u0029",
             "name": "resolveTableName",
-            "summary": "Resolve\u0020an\u0020available\u0020snake_case\u0020table\u0020name\u0020for\u0020a\u0020multi\u002Dvalued\u0020attribute.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrTablesManager.html#method_resolveTableName"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager\u003A\u003AcreateOptionsTableIfNotExists\u0028\u0029",
             "name": "createOptionsTableIfNotExists",
-            "summary": "Ensure\u0020a\u0020dynamic\u0020options\u0020table\u0020exists\u0020for\u0020the\u0020given\u0020list.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrTablesManager.html#method_createOptionsTableIfNotExists"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager\u003A\u003A\u0024prefix",
