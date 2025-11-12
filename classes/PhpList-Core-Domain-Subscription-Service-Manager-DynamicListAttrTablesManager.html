@@ -192,13 +192,14 @@
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Creates an option table dynamically if it does not already exist.</dd>
+<dd>Ensure a dynamic options table exists for the given list.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrTablesManager.html#method_resolveTableName">resolveTableName()</a>
     <span>
                                 &nbsp;: string|null    </span>
 </dt>
+<dd>Resolve an available snake_case table name for a multi-valued attribute.</dd>
 
     </dl>
 
@@ -414,11 +415,11 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Manager/DynamicListAttrTablesManager.php"><a href="files/src-domain-subscription-service-manager-dynamiclistattrtablesmanager.html"><abbr title="src/Domain/Subscription/Service/Manager/DynamicListAttrTablesManager.php">DynamicListAttrTablesManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Creates an option table dynamically if it does not already exist.</p>
+        <p class="phpdocumentor-summary">Ensure a dynamic options table exists for the given list.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -427,8 +428,8 @@
     <div class="phpdocumentor-label-line">
         </div>
     
-        <section class="phpdocumentor-description"><p>Dispatches a <a href="classes/PhpList-Core-Domain-Subscription-Message-DynamicTableMessage.html"><abbr title="\PhpList\Core\Domain\Subscription\Message\DynamicTableMessage">DynamicTableMessage</abbr></a> through the message bus to handle
-creation of the specified table with the given name and prefix.</p>
+        <section class="phpdocumentor-description"><p>Dispatches a DynamicTableMessage with the full table name (configured prefix + provided base)
+to request creation of the table if it does not already exist.</p>
 </section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
@@ -438,7 +439,7 @@ creation of the specified table with the given name and prefix.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>The base name of the list table to ensure exists.</p>
+                    <section class="phpdocumentor-description"><p>The base name of the list table (suffix appended to the configured prefix).</p>
 </section>
 
             </dd>
@@ -464,11 +465,12 @@ creation of the specified table with the given name and prefix.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Manager/DynamicListAttrTablesManager.php"><a href="files/src-domain-subscription-service-manager-dynamiclistattrtablesmanager.html"><abbr title="src/Domain/Subscription/Service/Manager/DynamicListAttrTablesManager.php">DynamicListAttrTablesManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Resolve an available snake_case table name for a multi-valued attribute.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">resolveTableName</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\AttributeTypeEnum">AttributeTypeEnum</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$type</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
@@ -484,14 +486,18 @@ creation of the specified table with the given name and prefix.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>The candidate name to convert to snake_case.</p>
+</section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$type</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\AttributeTypeEnum">AttributeTypeEnum</abbr></a>|null</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>The attribute type; must indicate a multi-valued attribute to resolve a table name.</p>
+</section>
+
             </dd>
             </dl>
 
@@ -502,6 +508,10 @@ creation of the specified table with the given name and prefix.</p>
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">string|null</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The chosen table name (snake_case, without prefix) if $type indicates a multi-valued attribute; <code class="prettyprint">null</code> if $type is null or not multi-valued.</p>
+</section>
+
             </section>
 
 </article>
