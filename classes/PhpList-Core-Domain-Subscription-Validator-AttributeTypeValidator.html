@@ -124,7 +124,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Validator/AttributeTypeValidator.php"><a href="files/src-domain-subscription-validator-attributetypevalidator.html"><abbr title="src/Domain/Subscription/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -165,7 +165,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#constant_VALID_TYPES">VALID_TYPES</a>
     <span>
-        &nbsp;= [&#039;textline&#039;, &#039;checkbox&#039;, &#039;checkboxgroup&#039;, &#039;radio&#039;, &#039;select&#039;, &#039;hidden&#039;, &#039;textarea&#039;, &#039;date&#039;]                            </span>
+        &nbsp;= [\PhpList\Core\Domain\Common\Model\AttributeTypeEnum::TextLine, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Hidden, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::CreditCardNo, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Select, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Date, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Checkbox, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::TextArea, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Radio, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::CheckboxGroup]                            </span>
 </dt>
 
     </dl>
@@ -203,6 +203,12 @@
                                 &nbsp;: void    </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method_normalizeToEnum">normalizeToEnum()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html"><abbr title="\PhpList\Core\Domain\Common\Model\AttributeTypeEnum">AttributeTypeEnum</abbr></a>    </span>
+</dt>
+
     </dl>
 
 
@@ -224,7 +230,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Validator/AttributeTypeValidator.php"><a href="files/src-domain-subscription-validator-attributetypevalidator.html"><abbr title="src/Domain/Subscription/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
@@ -234,7 +240,7 @@
     <span class="phpdocumentor-signature__visibility">private</span>
         <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">VALID_TYPES</span>
-    = <span class="phpdocumentor-signature__default-value">[&#039;textline&#039;, &#039;checkbox&#039;, &#039;checkboxgroup&#039;, &#039;radio&#039;, &#039;select&#039;, &#039;hidden&#039;, &#039;textarea&#039;, &#039;date&#039;]</span>
+    = <span class="phpdocumentor-signature__default-value">[\PhpList\Core\Domain\Common\Model\AttributeTypeEnum::TextLine, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Hidden, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::CreditCardNo, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Select, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Date, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Checkbox, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::TextArea, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Radio, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::CheckboxGroup]</span>
 </code>
 
 
@@ -271,7 +277,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Validator/AttributeTypeValidator.php"><a href="files/src-domain-subscription-validator-attributetypevalidator.html"><abbr title="src/Domain/Subscription/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -314,7 +320,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Validator/AttributeTypeValidator.php"><a href="files/src-domain-subscription-validator-attributetypevalidator.html"><abbr title="src/Domain/Subscription/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -358,7 +364,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Validator/AttributeTypeValidator.php"><a href="files/src-domain-subscription-validator-attributetypevalidator.html"><abbr title="src/Domain/Subscription/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -394,6 +400,71 @@
     
 
     
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_normalizeToEnum">
+        normalizeToEnum()
+        <a href="classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method_normalizeToEnum" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Validator/AttributeTypeValidator.php"><a href="files/src-domain-subscription-validator-attributetypevalidator.html"><abbr title="src/Domain/Subscription/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">57</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">normalizeToEnum</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html"><abbr title="\PhpList\Core\Domain\Common\Model\AttributeTypeEnum">AttributeTypeEnum</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method_normalizeToEnum#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\Symfony\Component\Validator\Exception\ValidatorException">ValidatorException</abbr></span>
+                                                            
+                                                 <section class="phpdocumentor-description"><p>if value cannot be converted to AttributeTypeEnum</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html"><abbr title="\PhpList\Core\Domain\Common\Model\AttributeTypeEnum">AttributeTypeEnum</abbr></a></span>
+            </section>
+
 </article>
             </section>
 
@@ -526,6 +597,7 @@
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method_validate">validate()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method_normalizeToEnum">normalizeToEnum()</a></li>
                                     </ul>
             </li>
                     </ul>

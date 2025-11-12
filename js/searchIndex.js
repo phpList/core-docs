@@ -2956,6 +2956,86 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Mail-NativeImapMailReader.html#property_password"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum",
+            "name": "AttributeTypeEnum",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003Aequals\u0028\u0029",
+            "name": "equals",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#method_equals"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003AisMultiValued\u0028\u0029",
+            "name": "isMultiValued",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#method_isMultiValued"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003AcanTransitionTo\u0028\u0029",
+            "name": "canTransitionTo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#method_canTransitionTo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003AassertTransitionAllowed\u0028\u0029",
+            "name": "assertTransitionAllowed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#method_assertTransitionAllowed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003AText",
+            "name": "Text",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_Text"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003ANumber",
+            "name": "Number",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_Number"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003ADate",
+            "name": "Date",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_Date"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003ASelect",
+            "name": "Select",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_Select"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003ACheckbox",
+            "name": "Checkbox",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_Checkbox"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003ACheckboxGroup",
+            "name": "CheckboxGroup",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_CheckboxGroup"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003ARadio",
+            "name": "Radio",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_Radio"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003AHidden",
+            "name": "Hidden",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_Hidden"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003ATextLine",
+            "name": "TextLine",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_TextLine"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003ACreditCardNo",
+            "name": "CreditCardNo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_CreditCardNo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\AttributeTypeEnum\u003A\u003ATextArea",
+            "name": "TextArea",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_TextArea"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\FilterRequestInterface",
             "name": "FilterRequestInterface",
             "summary": "",
@@ -3966,11 +4046,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html#method_setRequired"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeDefinition\u003A\u003AsetTableName\u0028\u0029",
-            "name": "setTableName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html#method_setTableName"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeDefinition\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -4496,11 +4571,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminAttributeDefinitionDto.html#property_required"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminAttributeDefinitionDto\u003A\u003A\u0024tableName",
-            "name": "tableName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminAttributeDefinitionDto.html#property_tableName"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\CreateAdministratorDto",
             "name": "CreateAdministratorDto",
             "summary": "",
@@ -4995,6 +5065,36 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-SessionManager.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator",
+            "name": "AttributeTypeValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_validate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator\u003A\u003AnormalizeToEnum\u0028\u0029",
+            "name": "normalizeToEnum",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_normalizeToEnum"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator\u003A\u003AVALID_TYPES",
+            "name": "VALID_TYPES",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#constant_VALID_TYPES"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand",
             "name": "ProcessQueueCommand",
@@ -8866,71 +8966,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#property_schemaManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum",
-            "name": "AttributeTypeEnum",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003Aequals\u0028\u0029",
-            "name": "equals",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#method_equals"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003AisMultiValued\u0028\u0029",
-            "name": "isMultiValued",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#method_isMultiValued"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003AcanTransitionTo\u0028\u0029",
-            "name": "canTransitionTo",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#method_canTransitionTo"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003AassertTransitionAllowed\u0028\u0029",
-            "name": "assertTransitionAllowed",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#method_assertTransitionAllowed"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003AText",
-            "name": "Text",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#enumcase_Text"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003ANumber",
-            "name": "Number",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#enumcase_Number"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003ADate",
-            "name": "Date",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#enumcase_Date"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003ASelect",
-            "name": "Select",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#enumcase_Select"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003ACheckbox",
-            "name": "Checkbox",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#enumcase_Checkbox"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003AMultiSelect",
-            "name": "MultiSelect",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#enumcase_MultiSelect"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003ACheckboxGroup",
-            "name": "CheckboxGroup",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#enumcase_CheckboxGroup"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum\u003A\u003ARadio",
-            "name": "Radio",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-AttributeTypeEnum.html#enumcase_Radio"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\AttributeDefinitionDto",
             "name": "AttributeDefinitionDto",
             "summary": "",
@@ -11765,6 +11800,11 @@ Search.appendIndex(
             "name": "validate",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method_validate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003AnormalizeToEnum\u0028\u0029",
+            "name": "normalizeToEnum",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method_normalizeToEnum"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003AVALID_TYPES",
             "name": "VALID_TYPES",
@@ -15050,21 +15090,6 @@ Search.appendIndex(
             "name": "testGetTableNameReturnsTableName",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testGetTableNameReturnsTableName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetTableNameSetsTableName\u0028\u0029",
-            "name": "testSetTableNameSetsTableName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetTableNameSetsTableName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetTableNameReturnsInstance\u0028\u0029",
-            "name": "testSetTableNameReturnsInstance",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetTableNameReturnsInstance"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003AtestSetTableNameCanSetNull\u0028\u0029",
-            "name": "testSetTableNameCanSetNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Model-AdminAttributeDefinitionTest.html#method_testSetTableNameCanSetNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Model\\AdminAttributeDefinitionTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -19086,6 +19111,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-common-mail.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model",
+            "name": "Model",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-common-model.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter",
             "name": "Filter",
             "summary": "",
@@ -19095,11 +19125,6 @@ Search.appendIndex(
             "name": "Interfaces",
             "summary": "",
             "url": "namespaces/phplist-core-domain-common-model-interfaces.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model",
-            "name": "Model",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain-common-model.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Repository",
             "name": "Repository",
@@ -19195,6 +19220,11 @@ Search.appendIndex(
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-domain-identity-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator",
+            "name": "Validator",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-identity-validator.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command",
             "name": "Command",
@@ -19296,11 +19326,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-subscription-messagehandler.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model",
-            "name": "Model",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain-subscription-model.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto",
             "name": "Dto",
             "summary": "",
@@ -19310,6 +19335,11 @@ Search.appendIndex(
             "name": "Filter",
             "summary": "",
             "url": "namespaces/phplist-core-domain-subscription-model-filter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model",
+            "name": "Model",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-subscription-model.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository",
             "name": "Repository",

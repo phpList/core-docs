@@ -94,14 +94,13 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-configuration.html">Configuration</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-configuration-service.html">Service</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-configuration-service-provider.html">Provider</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-identity.html">Identity</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-identity-validator.html">Validator</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    DefaultConfigProvider
+    AttributeTypeValidator
 
     
             <div class="phpdocumentor-element__package">
@@ -111,6 +110,9 @@
                             </ul>
         </div>
     
+            <span class="phpdocumentor-element__implements">
+            implements
+                            <a href="classes/PhpList-Core-Domain-Common-Validator-ValidatorInterface.html"><abbr title="\PhpList\Core\Domain\Common\Validator\ValidatorInterface">ValidatorInterface</abbr></a>                    </span>
     
     </h2>
 
@@ -120,9 +122,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Validator/AttributeTypeValidator.php"><a href="files/src-domain-identity-validator-attributetypevalidator.html"><abbr title="src/Domain/Identity/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">10</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
@@ -137,33 +139,46 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
 
 
+    <h4 id="toc-interfaces">
+        Interfaces
+        <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <dl class="phpdocumentor-table-of-contents">
+                    <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/PhpList-Core-Domain-Common-Validator-ValidatorInterface.html"><abbr title="\PhpList\Core\Domain\Common\Validator\ValidatorInterface">ValidatorInterface</abbr></a></dt>    </dl>
 
 
 
 
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#constant_VALID_TYPES">VALID_TYPES</a>
+    <span>
+        &nbsp;= [\PhpList\Core\Domain\Common\Model\AttributeTypeEnum::TextLine, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Hidden]                            </span>
+</dt>
+
+    </dl>
 
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_defaults">$defaults</a>
-    <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
-</dt>
-<dd>Holds all default configuration values</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_translator">$translator</a>
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#property_translator">$translator</a>
     <span>
                         &nbsp;: <abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>            </span>
 </dt>
@@ -172,34 +187,26 @@
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_get">get()</a>
-    <span>
-                                &nbsp;: mixed    </span>
-</dt>
-<dd>Get a single default config item by key</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_has">has()</a>
-    <span>
-                                &nbsp;: bool    </span>
-</dt>
-<dd>Check if a config key exists</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_init">init()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_validate">validate()</a>
     <span>
                                 &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_normalizeToEnum">normalizeToEnum()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html"><abbr title="\PhpList\Core\Domain\Common\Model\AttributeTypeEnum">AttributeTypeEnum</abbr></a>    </span>
 </dt>
 
     </dl>
@@ -207,12 +214,50 @@
 
 
         
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_VALID_TYPES">
+        VALID_TYPES
+        <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#constant_VALID_TYPES" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Validator/AttributeTypeValidator.php"><a href="files/src-domain-identity-validator-attributetypevalidator.html"><abbr title="src/Domain/Identity/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">21</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">VALID_TYPES</span>
+    = <span class="phpdocumentor-signature__default-value">[\PhpList\Core\Domain\Common\Model\AttributeTypeEnum::TextLine, \PhpList\Core\Domain\Common\Model\AttributeTypeEnum::Hidden]</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+            </section>
 
         
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -220,58 +265,19 @@
             phpdocumentor-element
             -property
             -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_defaults">
-        $defaults
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_defaults" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">16</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Holds all default configuration values</p>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
-    <span class="phpdocumentor-signature__name">$defaults</span>
-     = <span class="phpdocumentor-signature__default-value">[]</span></code>
-
-    
-    
-    
-
-    
-
-    
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
+                                                -read-only                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_translator">
         $translator
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_translator" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#property_translator" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                            </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Validator/AttributeTypeValidator.php"><a href="files/src-domain-identity-validator-attributetypevalidator.html"><abbr title="src/Domain/Identity/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -297,7 +303,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -308,13 +314,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Validator/AttributeTypeValidator.php"><a href="files/src-domain-identity-validator-attributetypevalidator.html"><abbr title="src/Domain/Identity/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -350,23 +356,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_get">
-        get()
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_get" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_validate">
+        validate()
+        <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_validate" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Validator/AttributeTypeValidator.php"><a href="files/src-domain-identity-validator-attributetypevalidator.html"><abbr title="src/Domain/Identity/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">570</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Get a single default config item by key</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">get</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$default</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">validate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Common-Model-ValidationContext.html"><abbr title="\PhpList\Core\Domain\Common\Model\ValidationContext">ValidationContext</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -375,15 +380,15 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$key</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$default</span>
-                : <span class="phpdocumentor-signature__argument__return-type">mixed|null</span>
+                <span class="phpdocumentor-signature__argument__name">$context</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Common-Model-ValidationContext.html"><abbr title="\PhpList\Core\Domain\Common\Model\ValidationContext">ValidationContext</abbr></a></span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -399,26 +404,25 @@
                     <article
         class="phpdocumentor-element
             -method
-            -public
+            -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_has">
-        has()
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_has" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_normalizeToEnum">
+        normalizeToEnum()
+        <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_normalizeToEnum" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Validator/AttributeTypeValidator.php"><a href="files/src-domain-identity-validator-attributetypevalidator.html"><abbr title="src/Domain/Identity/Validator/AttributeTypeValidator.php">AttributeTypeValidator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">580</span>
+    <span class="phpdocumentor-element-found-in__line">51</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Check if a config key exists</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">has</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">normalizeToEnum</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html"><abbr title="\PhpList\Core\Domain\Common\Model\AttributeTypeEnum">AttributeTypeEnum</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -427,8 +431,8 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$key</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -436,56 +440,19 @@
             </dl>
 
     
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_init">
-        init()
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_init" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php"><a href="files/src-domain-configuration-service-provider-defaultconfigprovider.html"><abbr title="src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php">DefaultConfigProvider.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">23</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">init</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_init#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_normalizeToEnum#tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
                                     <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">SuppressWarnings</span>
+                    <span class="phpdocumentor-tag__name">throws</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>(PHPMD.ExcessiveMethodLength)</p>
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\InvalidArgumentException">InvalidArgumentException</abbr></span>
+                                                            
+                                                 <section class="phpdocumentor-description"><p>if value cannot be converted to AttributeTypeEnum</p>
 </section>
 
                                     </dd>
@@ -493,7 +460,11 @@
 
     
 
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html"><abbr title="\PhpList\Core\Domain\Common\Model\AttributeTypeEnum">AttributeTypeEnum</abbr></a></span>
+            </section>
+
 </article>
             </section>
 
@@ -501,7 +472,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Configuration/Service/Provider/DefaultConfigProvider.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Identity/Validator/AttributeTypeValidator.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -602,26 +573,31 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#toc-methods">Methods</a></li>
+                                        <li><a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#toc-constants">Constants</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#constant_VALID_TYPES">VALID_TYPES</a></li>
+                                            </ul>
+                </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_defaults">$defaults</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_translator">$translator</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#property_translator">$translator</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_get">get()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_has">has()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#method_init">init()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_validate">validate()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_normalizeToEnum">normalizeToEnum()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -641,7 +617,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
