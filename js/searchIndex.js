@@ -10938,7 +10938,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager\u003A\u003AcreateOptionsTableIfNotExists\u0028\u0029",
             "name": "createOptionsTableIfNotExists",
-            "summary": "",
+            "summary": "Creates\u0020an\u0020option\u0020table\u0020dynamically\u0020if\u0020it\u0020does\u0020not\u0020already\u0020exist.",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrTablesManager.html#method_createOptionsTableIfNotExists"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager\u003A\u003A\u0024prefix",

@@ -192,6 +192,7 @@
     <span>
                                 &nbsp;: void    </span>
 </dt>
+<dd>Creates an option table dynamically if it does not already exist.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrTablesManager.html#method_resolveTableName">resolveTableName()</a>
@@ -413,11 +414,12 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Manager/DynamicListAttrTablesManager.php"><a href="files/src-domain-subscription-service-manager-dynamiclistattrtablesmanager.html"><abbr title="src/Domain/Subscription/Service/Manager/DynamicListAttrTablesManager.php">DynamicListAttrTablesManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Creates an option table dynamically if it does not already exist.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">createOptionsTableIfNotExists</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listTable</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
@@ -425,7 +427,10 @@
     <div class="phpdocumentor-label-line">
         </div>
     
-    
+        <section class="phpdocumentor-description"><p>Dispatches a <a href="classes/PhpList-Core-Domain-Subscription-Message-DynamicTableMessage.html"><abbr title="\PhpList\Core\Domain\Subscription\Message\DynamicTableMessage">DynamicTableMessage</abbr></a> through the message bus to handle
+creation of the specified table with the given name and prefix.</p>
+</section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -433,7 +438,9 @@
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"><p>The base name of the list table to ensure exists.</p>
+</section>
+
             </dd>
             </dl>
 
