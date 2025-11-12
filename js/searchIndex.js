@@ -8826,6 +8826,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Exception-SubscriptionCreationException.html#property_statusCode"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Message\\DynamicTableMessage",
+            "name": "DynamicTableMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Message-DynamicTableMessage.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Message\\DynamicTableMessage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Message-DynamicTableMessage.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Message\\DynamicTableMessage\u003A\u003AgetTableName\u0028\u0029",
+            "name": "getTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Message-DynamicTableMessage.html#method_getTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Message\\DynamicTableMessage\u003A\u003A\u0024tableName",
+            "name": "tableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Message-DynamicTableMessage.html#property_tableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandler",
+            "name": "DynamicTableMessageHandler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandler\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandler\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandler\u003A\u003A\u0024schemaManager",
+            "name": "schemaManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#property_schemaManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\AttributeTypeEnum",
             "name": "AttributeTypeEnum",
             "summary": "",
@@ -10911,10 +10951,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrTablesManager.html#property_definitionRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager\u003A\u003A\u0024schemaManager",
-            "name": "schemaManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager\u003A\u003A\u0024messageBus",
+            "name": "messageBus",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrTablesManager.html#property_schemaManager"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrTablesManager.html#property_messageBus"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager",
             "name": "SubscribePageManager",
@@ -13085,6 +13125,26 @@ Search.appendIndex(
             "name": "testClassIsRegisteredAsSingletonInContainer",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#method_testClassIsRegisteredAsSingletonInContainer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Support\\DBAL\\FakeDriverException",
+            "name": "FakeDriverException",
+            "summary": "Lightweight\u0020test\u0020double\u0020for\u0020Doctrine\u0020DBAL\u0020driver\u0020exceptions.",
+            "url": "classes/PhpList-Core-Tests-Support-DBAL-FakeDriverException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Support\\DBAL\\FakeDriverException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Support-DBAL-FakeDriverException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Support\\DBAL\\FakeDriverException\u003A\u003AgetSQLState\u0028\u0029",
+            "name": "getSQLState",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Support-DBAL-FakeDriverException.html#method_getSQLState"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Support\\DBAL\\FakeDriverException\u003A\u003A\u0024sqlState",
+            "name": "sqlState",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Support-DBAL-FakeDriverException.html#property_sqlState"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Support\\Interfaces\\TestMarker",
             "name": "TestMarker",
@@ -17251,6 +17311,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#property_validator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandlerTest",
+            "name": "DynamicTableMessageHandlerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandlerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandlerTest\u003A\u003AtestInvokeCreatesTableWhenNotExists\u0028\u0029",
+            "name": "testInvokeCreatesTableWhenNotExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeCreatesTableWhenNotExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandlerTest\u003A\u003AtestInvokeDoesNothingWhenTableAlreadyExists\u0028\u0029",
+            "name": "testInvokeDoesNothingWhenTableAlreadyExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeDoesNothingWhenTableAlreadyExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandlerTest\u003A\u003AtestInvokeThrowsForInvalidTableName\u0028\u0029",
+            "name": "testInvokeThrowsForInvalidTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeThrowsForInvalidTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandlerTest\u003A\u003AtestInvokeSwallowsTableExistsRace\u0028\u0029",
+            "name": "testInvokeSwallowsTableExistsRace",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeSwallowsTableExistsRace"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandlerTest\u003A\u003A\u0024schemaManager",
+            "name": "schemaManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#property_schemaManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Model\\SubscriberTest",
             "name": "SubscriberTest",
             "summary": "Testcase.",
@@ -17656,20 +17751,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrTablesManagerTest.html#method_testResolveTableNameSnakeCasesAndEnsuresUniqueness"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManagerTest\u003A\u003AtestCreateOptionsTableIfNotExistsCreatesOnlyWhenMissing\u0028\u0029",
-            "name": "testCreateOptionsTableIfNotExistsCreatesOnlyWhenMissing",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManagerTest\u003A\u003AtestCreateOptionsTableIfNotExistsDispatchesMessage\u0028\u0029",
+            "name": "testCreateOptionsTableIfNotExistsDispatchesMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrTablesManagerTest.html#method_testCreateOptionsTableIfNotExistsCreatesOnlyWhenMissing"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrTablesManagerTest.html#method_testCreateOptionsTableIfNotExistsDispatchesMessage"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManagerTest\u003A\u003A\u0024definitionRepo",
             "name": "definitionRepo",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrTablesManagerTest.html#property_definitionRepo"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManagerTest\u003A\u003A\u0024schema",
-            "name": "schema",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManagerTest\u003A\u003A\u0024bus",
+            "name": "bus",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrTablesManagerTest.html#property_schema"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-DynamicListAttrTablesManagerTest.html#property_bus"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest",
             "name": "SubscribePageManagerTest",
@@ -19191,6 +19286,16 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-subscription.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Message",
+            "name": "Message",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-subscription-message.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\MessageHandler",
+            "name": "MessageHandler",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-subscription-messagehandler.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model",
             "name": "Model",
             "summary": "",
@@ -19371,15 +19476,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-integration-security.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Support\\Interfaces",
-            "name": "Interfaces",
+            "fqsen": "\\PhpList\\Core\\Tests\\Support\\DBAL",
+            "name": "DBAL",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-support-interfaces.html"
+            "url": "namespaces/phplist-core-tests-support-dbal.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Support",
             "name": "Support",
             "summary": "",
             "url": "namespaces/phplist-core-tests-support.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Support\\Interfaces",
+            "name": "Interfaces",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-support-interfaces.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\System\\ApplicationBundle",
             "name": "ApplicationBundle",
@@ -19556,15 +19666,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging-validator.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Model",
-            "name": "Model",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\MessageHandler",
+            "name": "MessageHandler",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-subscription-model.html"
+            "url": "namespaces/phplist-core-tests-unit-domain-subscription-messagehandler.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription",
             "name": "Subscription",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-subscription.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Model",
+            "name": "Model",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-subscription-model.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository",
             "name": "Repository",

@@ -93,21 +93,15 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription.html">Subscription</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service.html">Service</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service-manager.html">Manager</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription.html">Subscription</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription-messagehandler.html">MessageHandler</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    AttributeDefinitionManagerTest
+    DynamicTableMessageHandler
 
-        <span class="phpdocumentor-element__extends">
-        extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
-    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -125,9 +119,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/MessageHandler/DynamicTableMessageHandler.php"><a href="files/src-domain-subscription-messagehandler-dynamictablemessagehandler.html"><abbr title="src/Domain/Subscription/MessageHandler/DynamicTableMessageHandler.php">DynamicTableMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -137,12 +131,23 @@
 
 
 
+    <section class="phpdocumentor-attributes">
+        <h5 class="phpdocumentor-elements__header" id="attributes">
+            Attributes <a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h5>
+                    <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Symfony\Component\Messenger\Attribute\AsMessageHandler">AsMessageHandler</abbr>]
+    </dt>
+    </dl>
+            </section>
 
 
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -154,39 +159,34 @@
 
 
 
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#property_schemaManager">$schemaManager</a>
+    <span>
+                        &nbsp;: <abbr title="\Doctrine\DBAL\Schema\AbstractSchemaManager">AbstractSchemaManager</abbr>            </span>
+</dt>
+
+    </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateAttributeDefinition">testCreateAttributeDefinition()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#method___construct">__construct()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateThrowsWhenAttributeAlreadyExists">testCreateThrowsWhenAttributeAlreadyExists()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testDeleteAttributeDefinition">testDeleteAttributeDefinition()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateAttributeDefinition">testUpdateAttributeDefinition()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateThrowsWhenAnotherAttributeWithSameNameExists">testUpdateThrowsWhenAnotherAttributeWithSameNameExists()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#method___invoke">__invoke()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -198,11 +198,56 @@
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_schemaManager">
+        $schemaManager
+        <a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#property_schemaManager" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/MessageHandler/DynamicTableMessageHandler.php"><a href="files/src-domain-subscription-messagehandler-dynamictablemessagehandler.html"><abbr title="src/Domain/Subscription/MessageHandler/DynamicTableMessageHandler.php">DynamicTableMessageHandler.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\DBAL\Schema\AbstractSchemaManager">AbstractSchemaManager</abbr></span>
+    <span class="phpdocumentor-signature__name">$schemaManager</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -211,28 +256,38 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreateAttributeDefinition">
-        testCreateAttributeDefinition()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateAttributeDefinition" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/MessageHandler/DynamicTableMessageHandler.php"><a href="files/src-domain-subscription-messagehandler-dynamictablemessagehandler.html"><abbr title="src/Domain/Subscription/MessageHandler/DynamicTableMessageHandler.php">DynamicTableMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreateAttributeDefinition</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\DBAL\Schema\AbstractSchemaManager">AbstractSchemaManager</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$schemaManager</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$schemaManager</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\DBAL\Schema\AbstractSchemaManager">AbstractSchemaManager</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
     
 
     
@@ -245,131 +300,54 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreateThrowsWhenAttributeAlreadyExists">
-        testCreateThrowsWhenAttributeAlreadyExists()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateThrowsWhenAttributeAlreadyExists" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___invoke">
+        __invoke()
+        <a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#method___invoke" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/MessageHandler/DynamicTableMessageHandler.php"><a href="files/src-domain-subscription-messagehandler-dynamictablemessagehandler.html"><abbr title="src/Domain/Subscription/MessageHandler/DynamicTableMessageHandler.php">DynamicTableMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreateThrowsWhenAttributeAlreadyExists</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">__invoke</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Message-DynamicTableMessage.html"><abbr title="\PhpList\Core\Domain\Subscription\Message\DynamicTableMessage">DynamicTableMessage</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$message</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-    
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$message</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Message-DynamicTableMessage.html"><abbr title="\PhpList\Core\Domain\Subscription\Message\DynamicTableMessage">DynamicTableMessage</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#method___invoke#tags" class="headerlink"><i class="fas fa-link"></i></a>
 
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testDeleteAttributeDefinition">
-        testDeleteAttributeDefinition()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testDeleteAttributeDefinition" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">175</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testDeleteAttributeDefinition</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testUpdateAttributeDefinition">
-        testUpdateAttributeDefinition()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateAttributeDefinition" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">101</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testUpdateAttributeDefinition</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-    
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testUpdateThrowsWhenAnotherAttributeWithSameNameExists">
-        testUpdateThrowsWhenAnotherAttributeWithSameNameExists()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateThrowsWhenAnotherAttributeWithSameNameExists" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">139</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testUpdateThrowsWhenAnotherAttributeWithSameNameExists</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\InvalidArgumentException">InvalidArgumentException</abbr></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
 
     
 
@@ -381,7 +359,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Subscription/MessageHandler/DynamicTableMessageHandler.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -482,19 +460,23 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#property_schemaManager">$schemaManager</a></li>
+                                            </ul>
+                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateAttributeDefinition">testCreateAttributeDefinition()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateThrowsWhenAttributeAlreadyExists">testCreateThrowsWhenAttributeAlreadyExists()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testDeleteAttributeDefinition">testDeleteAttributeDefinition()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateAttributeDefinition">testUpdateAttributeDefinition()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateThrowsWhenAnotherAttributeWithSameNameExists">testUpdateThrowsWhenAnotherAttributeWithSameNameExists()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#method___invoke">__invoke()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -514,7 +496,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Subscription-MessageHandler-DynamicTableMessageHandler.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

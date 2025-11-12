@@ -97,13 +97,12 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription.html">Subscription</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service.html">Service</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service-manager.html">Manager</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-messagehandler.html">MessageHandler</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    AttributeDefinitionManagerTest
+    DynamicTableMessageHandlerTest
 
         <span class="phpdocumentor-element__extends">
         extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
@@ -125,9 +124,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php"><a href="files/tests-unit-domain-subscription-messagehandler-dynamictablemessagehandlertest.html"><abbr title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php">DynamicTableMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -142,7 +141,7 @@
 
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -154,39 +153,52 @@
 
 
 
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#property_schemaManager">$schemaManager</a>
+    <span>
+                        &nbsp;: <abbr title="\Doctrine\DBAL\Schema\AbstractSchemaManager">AbstractSchemaManager</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+    </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateAttributeDefinition">testCreateAttributeDefinition()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeCreatesTableWhenNotExists">testInvokeCreatesTableWhenNotExists()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateThrowsWhenAttributeAlreadyExists">testCreateThrowsWhenAttributeAlreadyExists()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeDoesNothingWhenTableAlreadyExists">testInvokeDoesNothingWhenTableAlreadyExists()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testDeleteAttributeDefinition">testDeleteAttributeDefinition()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeSwallowsTableExistsRace">testInvokeSwallowsTableExistsRace()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateAttributeDefinition">testUpdateAttributeDefinition()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeThrowsForInvalidTableName">testInvokeThrowsForInvalidTableName()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateThrowsWhenAnotherAttributeWithSameNameExists">testUpdateThrowsWhenAnotherAttributeWithSameNameExists()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_setUp">setUp()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -198,11 +210,56 @@
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_schemaManager">
+        $schemaManager
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#property_schemaManager" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php"><a href="files/tests-unit-domain-subscription-messagehandler-dynamictablemessagehandlertest.html"><abbr title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php">DynamicTableMessageHandlerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\DBAL\Schema\AbstractSchemaManager">AbstractSchemaManager</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$schemaManager</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -211,22 +268,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreateAttributeDefinition">
-        testCreateAttributeDefinition()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateAttributeDefinition" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testInvokeCreatesTableWhenNotExists">
+        testInvokeCreatesTableWhenNotExists()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeCreatesTableWhenNotExists" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php"><a href="files/tests-unit-domain-subscription-messagehandler-dynamictablemessagehandlertest.html"><abbr title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php">DynamicTableMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreateAttributeDefinition</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testInvokeCreatesTableWhenNotExists</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -245,22 +302,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreateThrowsWhenAttributeAlreadyExists">
-        testCreateThrowsWhenAttributeAlreadyExists()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateThrowsWhenAttributeAlreadyExists" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testInvokeDoesNothingWhenTableAlreadyExists">
+        testInvokeDoesNothingWhenTableAlreadyExists()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeDoesNothingWhenTableAlreadyExists" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php"><a href="files/tests-unit-domain-subscription-messagehandler-dynamictablemessagehandlertest.html"><abbr title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php">DynamicTableMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">90</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreateThrowsWhenAttributeAlreadyExists</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testInvokeDoesNothingWhenTableAlreadyExists</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -279,22 +336,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testDeleteAttributeDefinition">
-        testDeleteAttributeDefinition()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testDeleteAttributeDefinition" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testInvokeSwallowsTableExistsRace">
+        testInvokeSwallowsTableExistsRace()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeSwallowsTableExistsRace" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php"><a href="files/tests-unit-domain-subscription-messagehandler-dynamictablemessagehandlertest.html"><abbr title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php">DynamicTableMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">175</span>
+    <span class="phpdocumentor-element-found-in__line">130</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testDeleteAttributeDefinition</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testInvokeSwallowsTableExistsRace</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -313,22 +370,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testUpdateAttributeDefinition">
-        testUpdateAttributeDefinition()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateAttributeDefinition" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testInvokeThrowsForInvalidTableName">
+        testInvokeThrowsForInvalidTableName()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeThrowsForInvalidTableName" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php"><a href="files/tests-unit-domain-subscription-messagehandler-dynamictablemessagehandlertest.html"><abbr title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php">DynamicTableMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">111</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testUpdateAttributeDefinition</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testInvokeThrowsForInvalidTableName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -344,25 +401,25 @@
                     <article
         class="phpdocumentor-element
             -method
-            -public
+            -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testUpdateThrowsWhenAnotherAttributeWithSameNameExists">
-        testUpdateThrowsWhenAnotherAttributeWithSameNameExists()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateThrowsWhenAnotherAttributeWithSameNameExists" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_setUp">
+        setUp()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-attributedefinitionmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php">AttributeDefinitionManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php"><a href="files/tests-unit-domain-subscription-messagehandler-dynamictablemessagehandlertest.html"><abbr title="tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php">DynamicTableMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">139</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testUpdateThrowsWhenAnotherAttributeWithSameNameExists</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -381,7 +438,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Subscription/Service/Manager/AttributeDefinitionManagerTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Subscription/MessageHandler/DynamicTableMessageHandlerTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -482,19 +539,26 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#property_schemaManager">$schemaManager</a></li>
+                                            </ul>
+                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateAttributeDefinition">testCreateAttributeDefinition()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testCreateThrowsWhenAttributeAlreadyExists">testCreateThrowsWhenAttributeAlreadyExists()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testDeleteAttributeDefinition">testDeleteAttributeDefinition()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateAttributeDefinition">testUpdateAttributeDefinition()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#method_testUpdateThrowsWhenAnotherAttributeWithSameNameExists">testUpdateThrowsWhenAnotherAttributeWithSameNameExists()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeCreatesTableWhenNotExists">testInvokeCreatesTableWhenNotExists()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeDoesNothingWhenTableAlreadyExists">testInvokeDoesNothingWhenTableAlreadyExists()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeSwallowsTableExistsRace">testInvokeSwallowsTableExistsRace()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_testInvokeThrowsForInvalidTableName">testInvokeThrowsForInvalidTableName()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#method_setUp">setUp()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -514,7 +578,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-AttributeDefinitionManagerTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-MessageHandler-DynamicTableMessageHandlerTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
