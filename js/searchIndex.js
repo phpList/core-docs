@@ -10551,10 +10551,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_fetchSingleOptionName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AexistsByName\u0028\u0029",
-            "name": "existsByName",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AisNameTakenByOtherRecord\u0028\u0029",
+            "name": "isNameTakenByOtherRecord",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_existsByName"
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_isNameTakenByOtherRecord"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\DynamicListAttrRepository\u003A\u003AgetAll\u0028\u0029",
             "name": "getAll",

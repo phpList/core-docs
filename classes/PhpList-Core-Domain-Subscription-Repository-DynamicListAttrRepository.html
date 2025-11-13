@@ -199,12 +199,6 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_existsByName">existsByName()</a>
-    <span>
-                                &nbsp;: bool    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_fetchOptionNames">fetchOptionNames()</a>
     <span>
                                 &nbsp;: array&lt;int, string&gt;    </span>
@@ -232,6 +226,12 @@
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_insertOne">insertOne()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-DynamicListAttrDto.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto">DynamicListAttrDto</abbr></a>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_isNameTakenByOtherRecord">isNameTakenByOtherRecord()</a>
+    <span>
+                                &nbsp;: bool    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -564,61 +564,6 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_existsByName">
-        existsByName()
-        <a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_existsByName" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/DynamicListAttrRepository.php"><a href="files/src-domain-subscription-repository-dynamiclistattrrepository.html"><abbr title="src/Domain/Subscription/Repository/DynamicListAttrRepository.php">DynamicListAttrRepository.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">154</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">existsByName</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listTable</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-DynamicListAttrDto.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto">DynamicListAttrDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dto</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$listTable</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$dto</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-DynamicListAttrDto.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto">DynamicListAttrDto</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-    
-
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_fetchOptionNames">
         fetchOptionNames()
         <a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_fetchOptionNames" class="headerlink"><i class="fas fa-link"></i></a>
@@ -917,6 +862,61 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_isNameTakenByOtherRecord">
+        isNameTakenByOtherRecord()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_isNameTakenByOtherRecord" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/DynamicListAttrRepository.php"><a href="files/src-domain-subscription-repository-dynamiclistattrrepository.html"><abbr title="src/Domain/Subscription/Repository/DynamicListAttrRepository.php">DynamicListAttrRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">154</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">isNameTakenByOtherRecord</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listTable</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-DynamicListAttrDto.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto">DynamicListAttrDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dto</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$listTable</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dto</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Dto-DynamicListAttrDto.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Dto\DynamicListAttrDto">DynamicListAttrDto</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_transactional">
         transactional()
         <a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_transactional" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1203,12 +1203,12 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_deleteById">deleteById()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_existsById">existsById()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_existsByName">existsByName()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_fetchOptionNames">fetchOptionNames()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_fetchSingleOptionName">fetchSingleOptionName()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_getAll">getAll()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_insertMany">insertMany()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_insertOne">insertOne()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_isNameTakenByOtherRecord">isNameTakenByOtherRecord()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_transactional">transactional()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_updateById">updateById()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#method_denormalizeAll">denormalizeAll()</a></li>
