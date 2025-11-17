@@ -9941,6 +9941,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberAttributeDefinition.html#method_setTableName"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberAttributeDefinition\u003A\u003AsetOptions\u0028\u0029",
+            "name": "setOptions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberAttributeDefinition.html#method_setOptions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberAttributeDefinition\u003A\u003AgetOptions\u0028\u0029",
+            "name": "getOptions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberAttributeDefinition.html#method_getOptions"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberAttributeDefinition\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -9975,6 +9985,11 @@ Search.appendIndex(
             "name": "tableName",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberAttributeDefinition.html#property_tableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberAttributeDefinition\u003A\u003A\u0024options",
+            "name": "options",
+            "summary": "Doctrine\u0020does\u0020NOT\u0020map\u0020this\u0020property.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberAttributeDefinition.html#property_options"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberAttributeValue",
             "name": "SubscriberAttributeValue",
@@ -10581,6 +10596,26 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository\u003A\u003AhydrateOptionsForAll\u0028\u0029",
+            "name": "hydrateOptionsForAll",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html#method_hydrateOptionsForAll"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository\u003A\u003AhydrateOptions\u0028\u0029",
+            "name": "hydrateOptions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html#method_hydrateOptions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository\u003A\u003AgetAfterId\u0028\u0029",
+            "name": "getAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html#method_getAfterId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository\u003A\u003AfindOneByName\u0028\u0029",
             "name": "findOneByName",
             "summary": "",
@@ -10590,6 +10625,11 @@ Search.appendIndex(
             "name": "existsByTableName",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html#method_existsByTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository\u003A\u003A\u0024dynamicListAttrRepository",
+            "name": "dynamicListAttrRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html#property_dynamicListAttrRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeValueRepository",
             "name": "SubscriberAttributeValueRepository",
