@@ -10596,10 +10596,10 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository\u003A\u003AsetDynamicListAttrRepository\u0028\u0029",
+            "name": "setDynamicListAttrRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html#method_setDynamicListAttrRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository\u003A\u003AhydrateOptionsForAll\u0028\u0029",
             "name": "hydrateOptionsForAll",
