@@ -6401,11 +6401,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateMessageDto.html#method_getTemplateId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateMessageDto\u003A\u003A\u0024messageId",
-            "name": "messageId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateMessageDto.html#property_messageId"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateMessageDto\u003A\u003A\u0024content",
             "name": "content",
             "summary": "",
