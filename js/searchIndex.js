@@ -4616,11 +4616,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-UpdateAdministratorDto.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\UpdateAdministratorDto\u003A\u003A\u0024administratorId",
-            "name": "administratorId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-UpdateAdministratorDto.html#property_administratorId"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\UpdateAdministratorDto\u003A\u003A\u0024loginName",
             "name": "loginName",
             "summary": "",
@@ -6440,6 +6435,51 @@ Search.appendIndex(
             "name": "templateId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateMessageDto.html#property_templateId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateTemplateDto",
+            "name": "UpdateTemplateDto",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateTemplateDto\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateTemplateDto\u003A\u003A\u0024title",
+            "name": "title",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html#property_title"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateTemplateDto\u003A\u003A\u0024content",
+            "name": "content",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html#property_content"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateTemplateDto\u003A\u003A\u0024text",
+            "name": "text",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html#property_text"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateTemplateDto\u003A\u003A\u0024fileContent",
+            "name": "fileContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html#property_fileContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateTemplateDto\u003A\u003A\u0024shouldCheckLinks",
+            "name": "shouldCheckLinks",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html#property_shouldCheckLinks"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateTemplateDto\u003A\u003A\u0024shouldCheckImages",
+            "name": "shouldCheckImages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html#property_shouldCheckImages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateTemplateDto\u003A\u003A\u0024shouldCheckExternalImages",
+            "name": "shouldCheckExternalImages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html#property_shouldCheckExternalImages"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter",
             "name": "MessageFilter",
@@ -9240,11 +9280,6 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-UpdateSubscriberDto.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\UpdateSubscriberDto\u003A\u003A\u0024subscriberId",
-            "name": "subscriberId",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-UpdateSubscriberDto.html#property_subscriberId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\UpdateSubscriberDto\u003A\u003A\u0024email",
             "name": "email",
@@ -17086,6 +17121,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#method_setUp"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003AtestUpdateTemplateSuccessfully\u0028\u0029",
+            "name": "testUpdateTemplateSuccessfully",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#method_testUpdateTemplateSuccessfully"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003AtestCreateTemplateSuccessfully\u0028\u0029",
             "name": "testCreateTemplateSuccessfully",
             "summary": "",
@@ -18125,11 +18165,6 @@ Search.appendIndex(
             "name": "subscriberRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#property_subscriberRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberManagerTest.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberManagerTest\u003A\u003A\u0024subscriberManager",
             "name": "subscriberManager",
