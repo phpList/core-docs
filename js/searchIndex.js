@@ -5191,6 +5191,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Exception-InvalidDtoTypeException.html#method___construct"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\MessageSizeLimitExceededException",
+            "name": "MessageSizeLimitExceededException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-MessageSizeLimitExceededException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\MessageSizeLimitExceededException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-MessageSizeLimitExceededException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\MessageSizeLimitExceededException\u003A\u003AgetActualSize\u0028\u0029",
+            "name": "getActualSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-MessageSizeLimitExceededException.html#method_getActualSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\MessageSizeLimitExceededException\u003A\u003AgetMaxSize\u0028\u0029",
+            "name": "getMaxSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-MessageSizeLimitExceededException.html#method_getMaxSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\MessageSizeLimitExceededException\u003A\u003A\u0024actualSize",
+            "name": "actualSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-MessageSizeLimitExceededException.html#property_actualSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\MessageSizeLimitExceededException\u003A\u003A\u0024maxSize",
+            "name": "maxSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-MessageSizeLimitExceededException.html#property_maxSize"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\AsyncEmailMessage",
             "name": "AsyncEmailMessage",
             "summary": "Message\u0020class\u0020for\u0020asynchronous\u0020email\u0020processing",
@@ -5471,6 +5501,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_handleEmailSending"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AcheckMessageSizeOrSuspendCampaign\u0028\u0029",
+            "name": "checkMessageSizeOrSuspendCampaign",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_checkMessageSizeOrSuspendCampaign"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AcalculateEmailSize\u0028\u0029",
+            "name": "calculateEmailSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_calculateEmailSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024maxMailSize",
+            "name": "maxMailSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_maxMailSize"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024mailer",
             "name": "mailer",
             "summary": "",
@@ -5495,6 +5540,11 @@ Search.appendIndex(
             "name": "logger",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_cache"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024userMessageRepository",
             "name": "userMessageRepository",
@@ -5525,6 +5575,16 @@ Search.appendIndex(
             "name": "messageRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024eventLogManager",
+            "name": "eventLogManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_eventLogManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024messageDataManager",
+            "name": "messageDataManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_messageDataManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler",
             "name": "PasswordResetMessageHandler",
@@ -7981,6 +8041,11 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageDataRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageDataRepository\u003A\u003AfindByIdAndName\u0028\u0029",
+            "name": "findByIdAndName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageDataRepository.html#method_findByIdAndName"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository",
             "name": "MessageRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -8436,6 +8501,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ListMessageManager.html#property_entityManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager",
+            "name": "MessageDataManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003AsetMessageData\u0028\u0029",
+            "name": "setMessageData",
+            "summary": "Mirrors\u0020the\u0020legacy\u0020setMessageData\u0020behavior\u0020with\u0020safe\u0020sanitization\u0020and\u0020persistence.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_setMessageData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003AdisableJavascript\u0028\u0029",
+            "name": "disableJavascript",
+            "summary": "Remove\u0020potentially\u0020harmful\u0020JavaScript\u0020from\u0020HTML\u0020content.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_disableJavascript"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003AnormalizeValueByName\u0028\u0029",
+            "name": "normalizeValueByName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_normalizeValueByName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003AgetOrCreateMessageDataEntity\u0028\u0029",
+            "name": "getOrCreateMessageDataEntity",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_getOrCreateMessageDataEntity"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003A\u0024messageDataRepository",
+            "name": "messageDataRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#property_messageDataRepository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager",
             "name": "MessageManager",
             "summary": "",
@@ -8681,10 +8781,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#method_replaceLinks"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003ALINT_TRACK_ENDPOINT",
-            "name": "LINT_TRACK_ENDPOINT",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003ALINK_TRACK_ENDPOINT",
+            "name": "LINK_TRACK_ENDPOINT",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#constant_LINT_TRACK_ENDPOINT"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#constant_LINK_TRACK_ENDPOINT"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
@@ -8705,6 +8805,11 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003A\u0024userPersonalizer",
+            "name": "userPersonalizer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_userPersonalizer"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer",
             "name": "RateLimitedCampaignMailer",
@@ -10715,6 +10820,11 @@ Search.appendIndex(
             "name": "getListsByMessage",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getListsByMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AgetAllActive\u0028\u0029",
+            "name": "getAllActive",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getAllActive"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageDataRepository",
             "name": "SubscriberPageDataRepository",
@@ -17240,6 +17350,11 @@ Search.appendIndex(
             "name": "linkTrackService",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#property_linkTrackService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024userPersonalizer",
+            "name": "userPersonalizer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#property_userPersonalizer"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024output",
             "name": "output",

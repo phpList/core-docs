@@ -121,7 +121,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -130,10 +130,8 @@
 
 
 
-
-
-
-
+    
+    
 <h3 id="toc">
     Table of Contents
     <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -153,7 +151,7 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#constant_LINT_TRACK_ENDPOINT">LINT_TRACK_ENDPOINT</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#constant_LINK_TRACK_ENDPOINT">LINK_TRACK_ENDPOINT</a>
     <span>
         &nbsp;= &#039;/api/v2/link-track&#039;                            </span>
 </dt>
@@ -189,6 +187,12 @@
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_translator">$translator</a>
     <span>
                         &nbsp;: <abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_userPersonalizer">$userPersonalizer</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\UserPersonalizer">UserPersonalizer</abbr></a>            </span>
 </dt>
 
     </dl>
@@ -242,16 +246,16 @@
 
         </h3>
                     <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_LINT_TRACK_ENDPOINT">
-        LINT_TRACK_ENDPOINT
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#constant_LINT_TRACK_ENDPOINT" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="constant_LINK_TRACK_ENDPOINT">
+        LINK_TRACK_ENDPOINT
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#constant_LINK_TRACK_ENDPOINT" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -260,7 +264,7 @@
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">LINT_TRACK_ENDPOINT</span>
+    <span class="phpdocumentor-signature__name">LINK_TRACK_ENDPOINT</span>
     = <span class="phpdocumentor-signature__default-value">&#039;/api/v2/link-track&#039;</span>
 </code>
 
@@ -269,9 +273,8 @@
     
     
 
-    
-
-</article>
+        
+    </article>
             </section>
 
         
@@ -286,19 +289,19 @@
             phpdocumentor-element
             -property
             -private
-                                                                    "
+                                                -read-only                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_linkTrackService">
         $linkTrackService
         <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_linkTrackService" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                            </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -314,9 +317,8 @@
     
     
 
-    
-
-    
+        
+        
 
 </article>
                     <article
@@ -324,19 +326,19 @@
             phpdocumentor-element
             -property
             -private
-                                                                    "
+                                                -read-only                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_messageRepository">
         $messageRepository
         <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_messageRepository" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                            </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -352,9 +354,8 @@
     
     
 
-    
-
-    
+        
+        
 
 </article>
                     <article
@@ -362,19 +363,19 @@
             phpdocumentor-element
             -property
             -private
-                                                                    "
+                                                -read-only                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_subscriberRepository">
         $subscriberRepository
         <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_subscriberRepository" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                            </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -390,9 +391,8 @@
     
     
 
-    
-
-    
+        
+        
 
 </article>
                     <article
@@ -400,19 +400,19 @@
             phpdocumentor-element
             -property
             -private
-                                                                    "
+                                                -read-only                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_translator">
         $translator
         <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_translator" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                            </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
@@ -428,9 +428,45 @@
     
     
 
-    
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_userPersonalizer">
+        $userPersonalizer
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_userPersonalizer" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">26</span>
+
+    </aside>
 
     
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\UserPersonalizer">UserPersonalizer</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$userPersonalizer</span>
+    </code>
+
+    
+    
+    
+
+        
+        
 
 </article>
             </section>
@@ -455,14 +491,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\LinkTrackService">LinkTrackService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkTrackService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\LinkTrackService">LinkTrackService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkTrackService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\UserPersonalizer">UserPersonalizer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userPersonalizer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -471,29 +507,36 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$subscriberRepository</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$subscriberRepository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$messageRepository</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$messageRepository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$linkTrackService</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\LinkTrackService">LinkTrackService</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$linkTrackService</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\LinkTrackService">LinkTrackService</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$translator</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
+                <span class="phpdocumentor-argument-list__argument__name">$translator</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$userPersonalizer</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\UserPersonalizer">UserPersonalizer</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -502,8 +545,8 @@
 
     
 
+        
     
-
     
 </article>
                     <article
@@ -520,14 +563,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">ensureCampaignsHaveUuid</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">ensureCampaignsHaveUuid</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -536,8 +579,8 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$output</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr></span>
+                <span class="phpdocumentor-argument-list__argument__name">$output</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -546,8 +589,8 @@
 
     
 
+        
     
-
     
 </article>
                     <article
@@ -564,14 +607,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">ensureSubscribersHaveUuid</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">ensureSubscribersHaveUuid</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$output</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -580,8 +623,8 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$output</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr></span>
+                <span class="phpdocumentor-argument-list__argument__name">$output</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\Console\Output\OutputInterface">OutputInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -590,8 +633,8 @@
 
     
 
+        
     
-
     
 </article>
                     <article
@@ -608,7 +651,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
     </aside>
 
@@ -616,7 +659,7 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">processMessageLinks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$message</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">processMessageLinks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$message</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -625,15 +668,15 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$message</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$message</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$userId</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                <span class="phpdocumentor-argument-list__argument__name">$subscriber</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -642,8 +685,8 @@
 
     
 
+        
     
-
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
@@ -664,14 +707,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessageProcessingPreparator.php"><a href="files/src-domain-messaging-service-messageprocessingpreparator.html"><abbr title="src/Domain/Messaging/Service/MessageProcessingPreparator.php">MessageProcessingPreparator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">98</span>
+    <span class="phpdocumentor-element-found-in__line">94</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">replaceLinks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$savedLinks</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlText</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">replaceLinks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$savedLinks</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlText</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -680,15 +723,15 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$savedLinks</span>
-                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                <span class="phpdocumentor-argument-list__argument__name">$savedLinks</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$htmlText</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                <span class="phpdocumentor-argument-list__argument__name">$htmlText</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -697,8 +740,8 @@
 
     
 
+        
     
-
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">string</span>
@@ -820,7 +863,7 @@
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#constant_LINT_TRACK_ENDPOINT">LINT_TRACK_ENDPOINT</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#constant_LINK_TRACK_ENDPOINT">LINK_TRACK_ENDPOINT</a></li>
                                             </ul>
                 </li>
             
@@ -831,6 +874,7 @@
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_messageRepository">$messageRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_subscriberRepository">$subscriberRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_translator">$translator</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_userPersonalizer">$userPersonalizer</a></li>
                                             </ul>
                 </li>
             
