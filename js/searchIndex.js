@@ -5586,6 +5586,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_messageDataManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024precacheService",
+            "name": "precacheService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_precacheService"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler",
             "name": "PasswordResetMessageHandler",
             "summary": "",
@@ -8755,6 +8760,51 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService",
+            "name": "MessagePrecacheService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AgetOrCacheBaseMessageContent\u0028\u0029",
+            "name": "getOrCacheBaseMessageContent",
+            "summary": "Retrieve\u0020the\u0020base\u0020\u0028unpersonalized\u0029\u0020message\u0020content\u0020for\u0020a\u0020campaign\u0020from\u0020cache,\nor\u0020cache\u0020it\u0020on\u0020first\u0020access.\u0020Legacy\u002Dlike\u0020behavior\u003A\u0020handle\u0020\u005BURL\u003A\u005D\u0020token\u0020fetch\nand\u0020basic\u0020placeholder\u0020replacements.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_getOrCacheBaseMessageContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AfetchRemoteContent\u0028\u0029",
+            "name": "fetchRemoteContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_fetchRemoteContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AbuildBasicReplacements\u0028\u0029",
+            "name": "buildBasicReplacements",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_buildBasicReplacements"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AparseFromField\u0028\u0029",
+            "name": "parseFromField",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_parseFromField"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AapplyReplacements\u0028\u0029",
+            "name": "applyReplacements",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_applyReplacements"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AgetFromCache\u0028\u0029",
+            "name": "getFromCache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_getFromCache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_cache"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator",
             "name": "MessageProcessingPreparator",
@@ -16151,6 +16201,11 @@ Search.appendIndex(
             "summary": "Creates\u0020a\u0020mock\u0020for\u0020the\u0020Message\u0020class\u0020with\u0020content",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_createCampaignMock"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AcreateContentMock\u0028\u0029",
+            "name": "createContentMock",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_createContentMock"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024mailer",
             "name": "mailer",
             "summary": "",
@@ -16186,25 +16241,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messageRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024userMessageRepository",
-            "name": "userMessageRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_userMessageRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024timeLimiter",
-            "name": "timeLimiter",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_timeLimiter"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024requeueHandler",
-            "name": "requeueHandler",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_requeueHandler"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024translator",
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024precacheService",
+            "name": "precacheService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_precacheService"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest",
             "name": "PasswordResetMessageHandlerTest",
