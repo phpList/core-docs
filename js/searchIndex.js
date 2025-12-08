@@ -8516,11 +8516,6 @@ Search.appendIndex(
             "summary": "Mirrors\u0020the\u0020legacy\u0020setMessageData\u0020behavior\u0020with\u0020safe\u0020sanitization\u0020and\u0020persistence.",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_setMessageData"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003AdisableJavascript\u0028\u0029",
-            "name": "disableJavascript",
-            "summary": "Remove\u0020potentially\u0020harmful\u0020JavaScript\u0020from\u0020HTML\u0020content.",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_disableJavascript"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003AnormalizeValueByName\u0028\u0029",
             "name": "normalizeValueByName",
             "summary": "",
@@ -8540,6 +8535,11 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003A\u0024purifier",
+            "name": "purifier",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#property_purifier"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager",
             "name": "MessageManager",

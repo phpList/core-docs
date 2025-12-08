@@ -122,7 +122,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/MessageDataManager.php"><a href="files/src-domain-messaging-service-manager-messagedatamanager.html"><abbr title="src/Domain/Messaging/Service/Manager/MessageDataManager.php">MessageDataManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
 
     </aside>
 
@@ -165,6 +165,12 @@
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageDataRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageDataRepository">MessageDataRepository</abbr></a>            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#property_purifier">$purifier</a>
+    <span>
+                        &nbsp;: <abbr title="\HTMLPurifier">HTMLPurifier</abbr>            </span>
+</dt>
+
     </dl>
 
 <h4 id="toc-methods">
@@ -185,13 +191,6 @@
                                 &nbsp;: void    </span>
 </dt>
 <dd>Mirrors the legacy setMessageData behavior with safe sanitization and persistence.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_disableJavascript">disableJavascript()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-<dd>Remove potentially harmful JavaScript from HTML content.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_getOrCreateMessageDataEntity">getOrCreateMessageDataEntity()</a>
@@ -235,7 +234,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/MessageDataManager.php"><a href="files/src-domain-messaging-service-manager-messagedatamanager.html"><abbr title="src/Domain/Messaging/Service/Manager/MessageDataManager.php">MessageDataManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -272,7 +271,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/MessageDataManager.php"><a href="files/src-domain-messaging-service-manager-messagedatamanager.html"><abbr title="src/Domain/Messaging/Service/Manager/MessageDataManager.php">MessageDataManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -282,6 +281,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageDataRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageDataRepository">MessageDataRepository</abbr></a></span>
     <span class="phpdocumentor-signature__name">$messageDataRepository</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_purifier">
+        $purifier
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#property_purifier" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/MessageDataManager.php"><a href="files/src-domain-messaging-service-manager-messagedatamanager.html"><abbr title="src/Domain/Messaging/Service/Manager/MessageDataManager.php">MessageDataManager.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\HTMLPurifier">HTMLPurifier</abbr></span>
+    <span class="phpdocumentor-signature__name">$purifier</span>
     </code>
 
     
@@ -314,14 +350,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/MessageDataManager.php"><a href="files/src-domain-messaging-service-manager-messagedatamanager.html"><abbr title="src/Domain/Messaging/Service/Manager/MessageDataManager.php">MessageDataManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageDataRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageDataRepository">MessageDataRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageDataRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageDataRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageDataRepository">MessageDataRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageDataRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\HTMLPurifier">HTMLPurifier</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$purifier</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -339,6 +375,13 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$entityManager</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$purifier</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\HTMLPurifier">HTMLPurifier</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -365,7 +408,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/MessageDataManager.php"><a href="files/src-domain-messaging-service-manager-messagedatamanager.html"><abbr title="src/Domain/Messaging/Service/Manager/MessageDataManager.php">MessageDataManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -416,58 +459,6 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_disableJavascript">
-        disableJavascript()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_disableJavascript" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/MessageDataManager.php"><a href="files/src-domain-messaging-service-manager-messagedatamanager.html"><abbr title="src/Domain/Messaging/Service/Manager/MessageDataManager.php">MessageDataManager.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">77</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Remove potentially harmful JavaScript from HTML content.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">disableJavascript</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-        <section class="phpdocumentor-description"><p>This is a conservative cleaner: removes &lt;script> blocks, javascript: URLs,
-and inline event handlers (on*) attributes.</p>
-</section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$html</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getOrCreateMessageDataEntity">
         getOrCreateMessageDataEntity()
         <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_getOrCreateMessageDataEntity" class="headerlink"><i class="fas fa-link"></i></a>
@@ -476,7 +467,7 @@ and inline event handlers (on*) attributes.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/MessageDataManager.php"><a href="files/src-domain-messaging-service-manager-messagedatamanager.html"><abbr title="src/Domain/Messaging/Service/Manager/MessageDataManager.php">MessageDataManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">84</span>
 
     </aside>
 
@@ -527,7 +518,7 @@ and inline event handlers (on*) attributes.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/MessageDataManager.php"><a href="files/src-domain-messaging-service-manager-messagedatamanager.html"><abbr title="src/Domain/Messaging/Service/Manager/MessageDataManager.php">MessageDataManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">90</span>
+    <span class="phpdocumentor-element-found-in__line">73</span>
 
     </aside>
 
@@ -681,6 +672,7 @@ and inline event handlers (on*) attributes.</p>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#property_entityManager">$entityManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#property_messageDataRepository">$messageDataRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#property_purifier">$purifier</a></li>
                                             </ul>
                 </li>
             
@@ -689,7 +681,6 @@ and inline event handlers (on*) attributes.</p>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_setMessageData">setMessageData()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_disableJavascript">disableJavascript()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_getOrCreateMessageDataEntity">getOrCreateMessageDataEntity()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_normalizeValueByName">normalizeValueByName()</a></li>
                                     </ul>
