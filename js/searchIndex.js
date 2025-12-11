@@ -5591,6 +5591,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_precacheService"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024userPersonalizer",
+            "name": "userPersonalizer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_userPersonalizer"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler",
             "name": "PasswordResetMessageHandler",
             "summary": "",
@@ -8860,11 +8865,6 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_translator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003A\u0024userPersonalizer",
-            "name": "userPersonalizer",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_userPersonalizer"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\RateLimitedCampaignMailer",
             "name": "RateLimitedCampaignMailer",
@@ -17400,11 +17400,6 @@ Search.appendIndex(
             "name": "linkTrackService",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#property_linkTrackService"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024userPersonalizer",
-            "name": "userPersonalizer",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#property_userPersonalizer"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024output",
             "name": "output",
