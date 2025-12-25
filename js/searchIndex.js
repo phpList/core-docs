@@ -2851,6 +2851,161 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Exception-MailboxConnectionException.html#method___construct"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService",
+            "name": "ExternalImageService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AgetFromCache\u0028\u0029",
+            "name": "getFromCache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_getFromCache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003Acache\u0028\u0029",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AremoveOldFilesInCache\u0028\u0029",
+            "name": "removeOldFilesInCache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_removeOldFilesInCache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AgenerateLocalFileName\u0028\u0029",
+            "name": "generateLocalFileName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_generateLocalFileName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AdownloadUsingCurl\u0028\u0029",
+            "name": "downloadUsingCurl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_downloadUsingCurl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AdownloadUsingFileGetContent\u0028\u0029",
+            "name": "downloadUsingFileGetContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_downloadUsingFileGetContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AisCacheableUrl\u0028\u0029",
+            "name": "isCacheableUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_isCacheableUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AensureCacheDirectory\u0028\u0029",
+            "name": "ensureCacheDirectory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_ensureCacheDirectory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AisValidCacheFile\u0028\u0029",
+            "name": "isValidCacheFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_isValidCacheFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AwriteCacheFile\u0028\u0029",
+            "name": "writeCacheFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_writeCacheFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024externalCacheDir",
+            "name": "externalCacheDir",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_externalCacheDir"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024tempDir",
+            "name": "tempDir",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_tempDir"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024externalImageMaxAge",
+            "name": "externalImageMaxAge",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_externalImageMaxAge"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024externalImageMaxSize",
+            "name": "externalImageMaxSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_externalImageMaxSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024externalImageTimeout",
+            "name": "externalImageTimeout",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_externalImageTimeout"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Html2Text",
+            "name": "Html2Text",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Html2Text.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Html2Text\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Html2Text.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Html2Text\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Html2Text.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Html2Text\u003A\u003AWORD_WRAP",
+            "name": "WORD_WRAP",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Html2Text.html#constant_WORD_WRAP"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Html2Text\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Html2Text.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\HtmlUrlRewriter",
+            "name": "HtmlUrlRewriter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-HtmlUrlRewriter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\HtmlUrlRewriter\u003A\u003AaddAbsoluteResources\u0028\u0029",
+            "name": "addAbsoluteResources",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-HtmlUrlRewriter.html#method_addAbsoluteResources"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\HtmlUrlRewriter\u003A\u003AabsolutizeUrl\u0028\u0029",
+            "name": "absolutizeUrl",
+            "summary": "Convert\u0020\u0024url\u0020to\u0020an\u0020absolute\u0020URL\u0020based\u0020on\u0020\u0024baseUrl.",
+            "url": "classes/PhpList-Core-Domain-Common-HtmlUrlRewriter.html#method_absolutizeUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\HtmlUrlRewriter\u003A\u003AnormalizePath\u0028\u0029",
+            "name": "normalizePath",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-HtmlUrlRewriter.html#method_normalizePath"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\HtmlUrlRewriter\u003A\u003ArewriteSrcset\u0028\u0029",
+            "name": "rewriteSrcset",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-HtmlUrlRewriter.html#method_rewriteSrcset"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\HtmlUrlRewriter\u003A\u003ArewriteCssUrls\u0028\u0029",
+            "name": "rewriteCssUrls",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-HtmlUrlRewriter.html#method_rewriteCssUrls"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\HtmlUrlRewriter\u003A\u003AshouldReturnAsIs\u0028\u0029",
+            "name": "shouldReturnAsIs",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-HtmlUrlRewriter.html#method_shouldReturnAsIs"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\IspRestrictionsProvider",
             "name": "IspRestrictionsProvider",
             "summary": "",
@@ -3036,6 +3191,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-AttributeTypeEnum.html#enumcase_TextArea"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\ContentTransferEncoding",
+            "name": "ContentTransferEncoding",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-ContentTransferEncoding.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\ContentTransferEncoding\u003A\u003ASevenBit",
+            "name": "SevenBit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-ContentTransferEncoding.html#enumcase_SevenBit"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\ContentTransferEncoding\u003A\u003AEightBit",
+            "name": "EightBit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-ContentTransferEncoding.html#enumcase_EightBit"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\ContentTransferEncoding\u003A\u003ABase64",
+            "name": "Base64",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-ContentTransferEncoding.html#enumcase_Base64"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\ContentTransferEncoding\u003A\u003AQuotedPrintable",
+            "name": "QuotedPrintable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-ContentTransferEncoding.html#enumcase_QuotedPrintable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\ContentTransferEncoding\u003A\u003ABinary",
+            "name": "Binary",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-ContentTransferEncoding.html#enumcase_Binary"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\FilterRequestInterface",
             "name": "FilterRequestInterface",
             "summary": "",
@@ -3151,6 +3336,76 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-ValidationContext.html#property_options"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher",
+            "name": "RemotePageFetcher",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003AfetchUrlDirect\u0028\u0029",
+            "name": "fetchUrlDirect",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#method_fetchUrlDirect"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003AexpandURL\u0028\u0029",
+            "name": "expandURL",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#method_expandURL"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003AprepareUrl\u0028\u0029",
+            "name": "prepareUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#method_prepareUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003A\u0024httpClient",
+            "name": "httpClient",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#property_httpClient"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#property_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003A\u0024urlCacheRepository",
+            "name": "urlCacheRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#property_urlCacheRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003A\u0024eventLogManager",
+            "name": "eventLogManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#property_eventLogManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003A\u0024htmlUrlRewriter",
+            "name": "htmlUrlRewriter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#property_htmlUrlRewriter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\RemotePageFetcher\u003A\u003A\u0024defaultTtl",
+            "name": "defaultTtl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-RemotePageFetcher.html#property_defaultTtl"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Repository\\AbstractRepository",
             "name": "AbstractRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -3240,6 +3495,16 @@ Search.appendIndex(
             "name": "defaultKeys",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-SystemInfoCollector.html#property_defaultKeys"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\TextParser",
+            "name": "TextParser",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-TextParser.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\TextParser\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-TextParser.html#method___invoke"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\ValidatorInterface",
             "name": "ValidatorInterface",
@@ -3375,6 +3640,96 @@ Search.appendIndex(
             "name": "Website",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_Website"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AMessageFromAddress",
+            "name": "MessageFromAddress",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_MessageFromAddress"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AMessageFromName",
+            "name": "MessageFromName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_MessageFromName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AMessageReplyToAddress",
+            "name": "MessageReplyToAddress",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_MessageReplyToAddress"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ASystemMessageTemplate",
+            "name": "SystemMessageTemplate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_SystemMessageTemplate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AAlwaysAddGoogleTracking",
+            "name": "AlwaysAddGoogleTracking",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_AlwaysAddGoogleTracking"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AAdminAddress",
+            "name": "AdminAddress",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_AdminAddress"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ADefaultMessageTemplate",
+            "name": "DefaultMessageTemplate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_DefaultMessageTemplate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AMessageFooter",
+            "name": "MessageFooter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_MessageFooter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AForwardFooter",
+            "name": "ForwardFooter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_ForwardFooter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ANotifyStartDefault",
+            "name": "NotifyStartDefault",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_NotifyStartDefault"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ANotifyEndDefault",
+            "name": "NotifyEndDefault",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_NotifyEndDefault"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AWordWrap",
+            "name": "WordWrap",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_WordWrap"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ARemoteUrlAppend",
+            "name": "RemoteUrlAppend",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_RemoteUrlAppend"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AOrganisationLogo",
+            "name": "OrganisationLogo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_OrganisationLogo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003APoweredByImage",
+            "name": "PoweredByImage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_PoweredByImage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003APoweredByText",
+            "name": "PoweredByText",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_PoweredByText"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AUploadImageRoot",
+            "name": "UploadImageRoot",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_UploadImageRoot"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003APageRoot",
+            "name": "PageRoot",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_PageRoot"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\EventLog",
             "name": "EventLog",
@@ -3635,6 +3990,16 @@ Search.appendIndex(
             "name": "UrlCacheRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Configuration-Repository-UrlCacheRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository\\UrlCacheRepository\u003A\u003AfindByUrlAndLastModified\u0028\u0029",
+            "name": "findByUrlAndLastModified",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Repository-UrlCacheRepository.html#method_findByUrlAndLastModified"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository\\UrlCacheRepository\u003A\u003AgetByUrl\u0028\u0029",
+            "name": "getByUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Repository-UrlCacheRepository.html#method_getByUrl"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\LegacyUrlBuilder",
             "name": "LegacyUrlBuilder",
@@ -4046,6 +4411,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html#method_setRequired"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeDefinition\u003A\u003AgetAttributeValues\u0028\u0029",
+            "name": "getAttributeValues",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html#method_getAttributeValues"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeDefinition\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -4080,6 +4450,11 @@ Search.appendIndex(
             "name": "tableName",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html#property_tableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeDefinition\u003A\u003A\u0024attributeValues",
+            "name": "attributeValues",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-AdminAttributeDefinition.html#property_attributeValues"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeValue",
             "name": "AdminAttributeValue",
@@ -4251,6 +4626,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_setUpdatedAt"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003AgetOwnedLists\u0028\u0029",
+            "name": "getOwnedLists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#method_getOwnedLists"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -4310,6 +4690,11 @@ Search.appendIndex(
             "name": "privileges",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#property_privileges"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Administrator\u003A\u003A\u0024ownedLists",
+            "name": "ownedLists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Administrator.html#property_ownedLists"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdministratorToken",
             "name": "AdministratorToken",
@@ -4741,6 +5126,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminAttributeDefinitionRepository.html#method_findOneByName"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdminAttributeDefinitionRepository\u003A\u003AgetForAdmin\u0028\u0029",
+            "name": "getForAdmin",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminAttributeDefinitionRepository.html#method_getForAdmin"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdminAttributeDefinitionRepository\u003A\u003AgetAllWithEmptyValues\u0028\u0029",
+            "name": "getAllWithEmptyValues",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminAttributeDefinitionRepository.html#method_getAllWithEmptyValues"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdminAttributeValueRepository",
             "name": "AdminAttributeValueRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -4770,6 +5165,11 @@ Search.appendIndex(
             "name": "findOneByLoginCredentials",
             "summary": "Finds\u0020the\u0020Administrator\u0020with\u0020the\u0020given\u0020login\u0020credentials.\u0020Returns\u0020null\u0020if\u0020there\u0020is\u0020no\u0020match,\ni.e.,\u0020if\u0020the\u0020login\u0020credentials\u0020are\u0020incorrect.",
             "url": "classes/PhpList-Core-Domain-Identity-Repository-AdministratorRepository.html#method_findOneByLoginCredentials"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdministratorRepository\u003A\u003AgetMessageRelatedAdmins\u0028\u0029",
+            "name": "getMessageRelatedAdmins",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Repository-AdministratorRepository.html#method_getMessageRelatedAdmins"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Repository\\AdministratorRepository\u003A\u003A\u0024hashGenerator",
             "name": "hashGenerator",
@@ -5171,6 +5571,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-SendTestEmailCommand.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriber",
+            "name": "InjectedByHeaderSubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriber\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriber\u003A\u003AgetSubscribedEvents\u0028\u0029",
+            "name": "getSubscribedEvents",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#method_getSubscribedEvents"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriber\u003A\u003AonMessage\u0028\u0029",
+            "name": "onMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#method_onMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriber\u003A\u003A\u0024requestStack",
+            "name": "requestStack",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#property_requestStack"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\InvalidContextTypeException",
             "name": "InvalidContextTypeException",
             "summary": "",
@@ -5190,6 +5615,16 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Exception-InvalidDtoTypeException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\MessageCacheMissingException",
+            "name": "MessageCacheMissingException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-MessageCacheMissingException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\MessageCacheMissingException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-MessageCacheMissingException.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\MessageSizeLimitExceededException",
             "name": "MessageSizeLimitExceededException",
@@ -5511,6 +5946,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_calculateEmailSize"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AhandleAdminNotifications\u0028\u0029",
+            "name": "handleAdminNotifications",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_handleAdminNotifications"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AprocessSubscribersForCampaign\u0028\u0029",
+            "name": "processSubscribersForCampaign",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_processSubscribersForCampaign"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024maxMailSize",
             "name": "maxMailSize",
             "summary": "",
@@ -5520,6 +5965,11 @@ Search.appendIndex(
             "name": "mailer",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024rateLimitedCampaignMailer",
+            "name": "rateLimitedCampaignMailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_rateLimitedCampaignMailer"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024entityManager",
             "name": "entityManager",
@@ -5595,6 +6045,21 @@ Search.appendIndex(
             "name": "userPersonalizer",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_userPersonalizer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024messageDataLoader",
+            "name": "messageDataLoader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_messageDataLoader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024emailBuilder",
+            "name": "emailBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_emailBuilder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024messageEnvelope",
+            "name": "messageEnvelope",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_messageEnvelope"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler",
             "name": "PasswordResetMessageHandler",
@@ -6430,6 +6895,106 @@ Search.appendIndex(
             "name": "getTemplateId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageDtoInterface.html#method_getTemplateId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto",
+            "name": "MessagePrecacheDto",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024replyToEmail",
+            "name": "replyToEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_replyToEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024replyToName",
+            "name": "replyToName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_replyToName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024fromName",
+            "name": "fromName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_fromName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024fromEmail",
+            "name": "fromEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_fromEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024to",
+            "name": "to",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_to"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024content",
+            "name": "content",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_content"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024textContent",
+            "name": "textContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_textContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024footer",
+            "name": "footer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_footer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024textFooter",
+            "name": "textFooter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_textFooter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024htmlFooter",
+            "name": "htmlFooter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_htmlFooter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024htmlFormatted",
+            "name": "htmlFormatted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_htmlFormatted"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024sendFormat",
+            "name": "sendFormat",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_sendFormat"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024template",
+            "name": "template",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_template"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024templateText",
+            "name": "templateText",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_templateText"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024templateId",
+            "name": "templateId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_templateId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024userSpecificUrl",
+            "name": "userSpecificUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_userSpecificUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024googleTrack",
+            "name": "googleTrack",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_googleTrack"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024adminAttributes",
+            "name": "adminAttributes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_adminAttributes"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateMessageDto",
             "name": "UpdateMessageDto",
@@ -8056,6 +8621,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageDataRepository.html#method_findByIdAndName"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageDataRepository\u003A\u003AgetForMessage\u0028\u0029",
+            "name": "getForMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageDataRepository.html#method_getForMessage"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository",
             "name": "MessageRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -8095,6 +8665,11 @@ Search.appendIndex(
             "name": "findByIdAndStatus",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_findByIdAndStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AgetNonEmptyFields\u0028\u0029",
+            "name": "getNonEmptyFields",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getNonEmptyFields"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\SendProcessRepository",
             "name": "SendProcessRepository",
@@ -8136,10 +8711,30 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateImageRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\TemplateImageRepository\u003A\u003AfindByFilename\u0028\u0029",
+            "name": "findByFilename",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateImageRepository.html#method_findByFilename"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\TemplateImageRepository\u003A\u003AfindById\u0028\u0029",
+            "name": "findById",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateImageRepository.html#method_findById"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\TemplateImageRepository\u003A\u003AfindByTemplateIdAndFilename\u0028\u0029",
+            "name": "findByTemplateIdAndFilename",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateImageRepository.html#method_findByTemplateIdAndFilename"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\TemplateRepository",
             "name": "TemplateRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\TemplateRepository\u003A\u003AfindOneById\u0028\u0029",
+            "name": "findOneById",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateRepository.html#method_findOneById"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository",
             "name": "UserMessageBounceRepository",
@@ -8190,6 +8785,111 @@ Search.appendIndex(
             "name": "countSentSince",
             "summary": "Counts\u0020how\u0020many\u0020user\u0020messages\u0020have\u0020status\u0020\u0022sent\u0022\u0020since\u0020the\u0020given\u0020time.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_countSentSince"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder",
+            "name": "EmailBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003AbuildPhplistEmail\u0028\u0029",
+            "name": "buildPhplistEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_buildPhplistEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003AvalidateRecipientAndSubject\u0028\u0029",
+            "name": "validateRecipientAndSubject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_validateRecipientAndSubject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003ApassesBlacklistCheck\u0028\u0029",
+            "name": "passesBlacklistCheck",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_passesBlacklistCheck"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003AresolveDestinationEmailAndMessage\u0028\u0029",
+            "name": "resolveDestinationEmailAndMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_resolveDestinationEmailAndMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003AcreateBaseEmail\u0028\u0029",
+            "name": "createBaseEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_createBaseEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003AapplyContentAndFormatting\u0028\u0029",
+            "name": "applyContentAndFormatting",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_applyContentAndFormatting"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024eventLogManager",
+            "name": "eventLogManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_eventLogManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024blacklistRepository",
+            "name": "blacklistRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_blacklistRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024subscriberHistoryManager",
+            "name": "subscriberHistoryManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_subscriberHistoryManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024systemMailConstructor",
+            "name": "systemMailConstructor",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_systemMailConstructor"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024templateImageEmbedder",
+            "name": "templateImageEmbedder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_templateImageEmbedder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024googleSenderId",
+            "name": "googleSenderId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_googleSenderId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024useAmazonSes",
+            "name": "useAmazonSes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_useAmazonSes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024usePrecedenceHeader",
+            "name": "usePrecedenceHeader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_usePrecedenceHeader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024devVersion",
+            "name": "devVersion",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_devVersion"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\EmailBuilder\u003A\u003A\u0024devEmail",
+            "name": "devEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_devEmail"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\MessageBuilder",
             "name": "MessageBuilder",
@@ -8666,6 +9366,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_delete"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AparseLogoPlaceholders\u0028\u0029",
+            "name": "parseLogoPlaceholders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_parseLogoPlaceholders"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AcreateCachedLogoImage\u0028\u0029",
+            "name": "createCachedLogoImage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_createCachedLogoImage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AdecodeLogoImageData\u0028\u0029",
+            "name": "decodeLogoImageData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_decodeLogoImageData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AcalculateDimensions\u0028\u0029",
+            "name": "calculateDimensions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_calculateDimensions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AresizeImageIfNecessary\u0028\u0029",
+            "name": "resizeImageIfNecessary",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_resizeImageIfNecessary"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AIMAGE_MIME_TYPES",
             "name": "IMAGE_MIME_TYPES",
             "summary": "",
@@ -8676,10 +9401,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_templateImageRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_entityManager"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_configProvider"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager",
             "name": "TemplateManager",
@@ -8766,6 +9491,111 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader",
+            "name": "MessageDataLoader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003AgetDateArray\u0028\u0029",
+            "name": "getDateArray",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method_getDateArray"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003AbuildDefaultMessageData\u0028\u0029",
+            "name": "buildDefaultMessageData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method_buildDefaultMessageData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003AmergeNonEmptyFields\u0028\u0029",
+            "name": "mergeNonEmptyFields",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method_mergeNonEmptyFields"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003AmergeStoredMessageData\u0028\u0029",
+            "name": "mergeStoredMessageData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method_mergeStoredMessageData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003AnormaliseScheduleFields\u0028\u0029",
+            "name": "normaliseScheduleFields",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method_normaliseScheduleFields"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003ApopulateTargetLists\u0028\u0029",
+            "name": "populateTargetLists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method_populateTargetLists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003AensureSendUrlAndMethod\u0028\u0029",
+            "name": "ensureSendUrlAndMethod",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method_ensureSendUrlAndMethod"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003AnormaliseFromField\u0028\u0029",
+            "name": "normaliseFromField",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method_normaliseFromField"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003AcleanupSelections\u0028\u0029",
+            "name": "cleanupSelections",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method_cleanupSelections"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003AderiveCampaignTitle\u0028\u0029",
+            "name": "deriveCampaignTitle",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#method_deriveCampaignTitle"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003AAS_FORMAT_FIELDS",
+            "name": "AS_FORMAT_FIELDS",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#constant_AS_FORMAT_FIELDS"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003ASCHEDULE_FIELDS",
+            "name": "SCHEDULE_FIELDS",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#constant_SCHEDULE_FIELDS"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003A\u0024messageFromAddress",
+            "name": "messageFromAddress",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#property_messageFromAddress"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003A\u0024messageDataRepository",
+            "name": "messageDataRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#property_messageDataRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003A\u0024defaultMessageAge",
+            "name": "defaultMessageAge",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#property_defaultMessageAge"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService",
             "name": "MessagePrecacheService",
             "summary": "",
@@ -8776,40 +9606,115 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AgetOrCacheBaseMessageContent\u0028\u0029",
-            "name": "getOrCacheBaseMessageContent",
-            "summary": "Retrieve\u0020the\u0020base\u0020\u0028unpersonalized\u0029\u0020message\u0020content\u0020for\u0020a\u0020campaign\u0020from\u0020cache,\nor\u0020cache\u0020it\u0020on\u0020first\u0020access.\u0020Legacy\u002Dlike\u0020behavior\u003A\u0020handle\u0020\u005BURL\u003A\u005D\u0020token\u0020fetch\nand\u0020basic\u0020placeholder\u0020replacements.",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_getOrCacheBaseMessageContent"
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AprecacheMessage\u0028\u0029",
+            "name": "precacheMessage",
+            "summary": "Retrieve\u0020the\u0020base\u0020\u0028unpersonalized\u0029\u0020message\u0020content\u0020for\u0020a\u0020campaign\u0020from\u0020cache,\nor\u0020cache\u0020it\u0020on\u0020first\u0020access.\u0020Handle\u0020\u005BURL\u003A\u005D\u0020token\u0020fetch\u0020and\u0020basic\u0020placeholder\u0020replacements.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_precacheMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AfetchRemoteContent\u0028\u0029",
-            "name": "fetchRemoteContent",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AisHtml\u0028\u0029",
+            "name": "isHtml",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_fetchRemoteContent"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_isHtml"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AbuildBasicReplacements\u0028\u0029",
-            "name": "buildBasicReplacements",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003ApopulateReplyTo\u0028\u0029",
+            "name": "populateReplyTo",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_buildBasicReplacements"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_populateReplyTo"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AparseFromField\u0028\u0029",
-            "name": "parseFromField",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003ApopulateBasicFields\u0028\u0029",
+            "name": "populateBasicFields",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_parseFromField"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_populateBasicFields"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AapplyReplacements\u0028\u0029",
-            "name": "applyReplacements",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AapplyTemplate\u0028\u0029",
+            "name": "applyTemplate",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_applyReplacements"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_applyTemplate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AgetFromCache\u0028\u0029",
-            "name": "getFromCache",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AapplyRemoteContentIfPresent\u0028\u0029",
+            "name": "applyRemoteContentIfPresent",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_getFromCache"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_applyRemoteContentIfPresent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AapplyBasicReplacements\u0028\u0029",
+            "name": "applyBasicReplacements",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_applyBasicReplacements"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003ApopulateAdminAttributes\u0028\u0029",
+            "name": "populateAdminAttributes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_populateAdminAttributes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AREPLACE_KEYS",
+            "name": "REPLACE_KEYS",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#constant_REPLACE_KEYS"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024cache",
             "name": "cache",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024html2Text",
+            "name": "html2Text",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_html2Text"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024textParser",
+            "name": "textParser",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_textParser"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024templateRepository",
+            "name": "templateRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_templateRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024remotePageFetcher",
+            "name": "remotePageFetcher",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_remotePageFetcher"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024eventLogManager",
+            "name": "eventLogManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_eventLogManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024adminAttreDefRepository",
+            "name": "adminAttreDefRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_adminAttreDefRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024adminRepository",
+            "name": "adminRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_adminRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024templateImageManager",
+            "name": "templateImageManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_templateImageManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024useManualTextPart",
+            "name": "useManualTextPart",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_useManualTextPart"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024uploadImageDir",
+            "name": "uploadImageDir",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_uploadImageDir"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024publicSchema",
+            "name": "publicSchema",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_publicSchema"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator",
             "name": "MessageProcessingPreparator",
@@ -8980,6 +9885,161 @@ Search.appendIndex(
             "name": "mailqueueThrottle",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-SendRateLimiter.html#property_mailqueueThrottle"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SystemMailConstructor",
+            "name": "SystemMailConstructor",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SystemMailConstructor.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SystemMailConstructor\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SystemMailConstructor.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SystemMailConstructor\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SystemMailConstructor.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SystemMailConstructor\u003A\u003AbuildMessageBodies\u0028\u0029",
+            "name": "buildMessageBodies",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SystemMailConstructor.html#method_buildMessageBodies"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SystemMailConstructor\u003A\u003A\u0024poweredByText",
+            "name": "poweredByText",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SystemMailConstructor.html#property_poweredByText"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SystemMailConstructor\u003A\u003A\u0024html2Text",
+            "name": "html2Text",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SystemMailConstructor.html#property_html2Text"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SystemMailConstructor\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SystemMailConstructor.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SystemMailConstructor\u003A\u003A\u0024templateRepository",
+            "name": "templateRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SystemMailConstructor.html#property_templateRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SystemMailConstructor\u003A\u003A\u0024templateImageManager",
+            "name": "templateImageManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SystemMailConstructor.html#property_templateImageManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SystemMailConstructor\u003A\u003A\u0024poweredByPhplist",
+            "name": "poweredByPhplist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-SystemMailConstructor.html#property_poweredByPhplist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder",
+            "name": "TemplateImageEmbedder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003AgetFilesystemImage\u0028\u0029",
+            "name": "getFilesystemImage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#method_getFilesystemImage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003AaddHtmlImage\u0028\u0029",
+            "name": "addHtmlImage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#method_addHtmlImage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003AaddStringEmbeddedImage\u0028\u0029",
+            "name": "addStringEmbeddedImage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#method_addStringEmbeddedImage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003AfilesystemImageExists\u0028\u0029",
+            "name": "filesystemImageExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#method_filesystemImageExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003AgetTemplateImage\u0028\u0029",
+            "name": "getTemplateImage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#method_getTemplateImage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A\u0024embedExternalImages",
+            "name": "embedExternalImages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#property_embedExternalImages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003AembedTemplateImages\u0028\u0029",
+            "name": "embedTemplateImages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#method_embedTemplateImages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003AembedFilesystemImages\u0028\u0029",
+            "name": "embedFilesystemImages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#method_embedFilesystemImages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A\u0024mimeMap",
+            "name": "mimeMap",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#property_mimeMap"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A\u0024attachment",
+            "name": "attachment",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#property_attachment"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A\u0024configManager",
+            "name": "configManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#property_configManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A\u0024externalImageService",
+            "name": "externalImageService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#property_externalImageService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A\u0024templateImageRepository",
+            "name": "templateImageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#property_templateImageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A\u0024documentRoot",
+            "name": "documentRoot",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#property_documentRoot"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A\u0024editorImagesDir",
+            "name": "editorImagesDir",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#property_editorImagesDir"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A\u0024embedUploadedImages",
+            "name": "embedUploadedImages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#property_embedUploadedImages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\TemplateImageEmbedder\u003A\u003A\u0024uploadImagesDir",
+            "name": "uploadImagesDir",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html#property_uploadImagesDir"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator\\TemplateImageValidator",
             "name": "TemplateImageValidator",
@@ -11011,6 +12071,11 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\UserBlacklistRepository\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\UserBlacklistRepository\u003A\u003AfindBlacklistInfoByEmail\u0028\u0029",
             "name": "findBlacklistInfoByEmail",
             "summary": "",
@@ -11020,6 +12085,16 @@ Search.appendIndex(
             "name": "findOneByEmail",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html#method_findOneByEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\UserBlacklistRepository\u003A\u003AisEmailBlacklisted\u0028\u0029",
+            "name": "isEmailBlacklisted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html#method_isEmailBlacklisted"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\UserBlacklistRepository\u003A\u003A\u0024blacklistGraceTime",
+            "name": "blacklistGraceTime",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html#property_blacklistGraceTime"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\ArrayToDtoMapper",
             "name": "ArrayToDtoMapper",
@@ -14751,6 +15826,81 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-ClientIpResolverTest.html#property_requestStack"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest",
+            "name": "RemotePageFetcherTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003AcreateFetcher\u0028\u0029",
+            "name": "createFetcher",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#method_createFetcher"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003AtestReturnsContentFromPsrCacheWhenFresh\u0028\u0029",
+            "name": "testReturnsContentFromPsrCacheWhenFresh",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#method_testReturnsContentFromPsrCacheWhenFresh"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003AtestReturnsContentFromDbCacheWhenFresh\u0028\u0029",
+            "name": "testReturnsContentFromDbCacheWhenFresh",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#method_testReturnsContentFromDbCacheWhenFresh"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003AtestFetchesAndCachesWhenNoFreshCache\u0028\u0029",
+            "name": "testFetchesAndCachesWhenNoFreshCache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#method_testFetchesAndCachesWhenNoFreshCache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003AtestHttpFailureReturnsEmptyStringAndNoCacheSet\u0028\u0029",
+            "name": "testHttpFailureReturnsEmptyStringAndNoCacheSet",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#method_testHttpFailureReturnsEmptyStringAndNoCacheSet"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003AtestUrlExpansionAndPlaceholderSubstitution\u0028\u0029",
+            "name": "testUrlExpansionAndPlaceholderSubstitution",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#method_testUrlExpansionAndPlaceholderSubstitution"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003A\u0024httpClient",
+            "name": "httpClient",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#property_httpClient"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#property_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003A\u0024urlCacheRepository",
+            "name": "urlCacheRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#property_urlCacheRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003A\u0024eventLogManager",
+            "name": "eventLogManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#property_eventLogManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003A\u0024htmlUrlRewriter",
+            "name": "htmlUrlRewriter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#property_htmlUrlRewriter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\RemotePageFetcherTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-RemotePageFetcherTest.html#property_entityManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Repository\\CursorPaginationTraitTest",
             "name": "CursorPaginationTraitTest",
             "summary": "",
@@ -14840,6 +15990,46 @@ Search.appendIndex(
             "name": "requestStack",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-SystemInfoCollectorTest.html#property_requestStack"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\TextParserTest",
+            "name": "TextParserTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-TextParserTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\TextParserTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-TextParserTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\TextParserTest\u003A\u003AtestEmailIsMadeClickable\u0028\u0029",
+            "name": "testEmailIsMadeClickable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-TextParserTest.html#method_testEmailIsMadeClickable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\TextParserTest\u003A\u003AtestHttpUrlAutoLinkAndPeriodOutside\u0028\u0029",
+            "name": "testHttpUrlAutoLinkAndPeriodOutside",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-TextParserTest.html#method_testHttpUrlAutoLinkAndPeriodOutside"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\TextParserTest\u003A\u003AtestWwwAutoLink\u0028\u0029",
+            "name": "testWwwAutoLink",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-TextParserTest.html#method_testWwwAutoLink"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\TextParserTest\u003A\u003AtestNewlinesBecomeBrAndLeadingTrim\u0028\u0029",
+            "name": "testNewlinesBecomeBrAndLeadingTrim",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-TextParserTest.html#method_testNewlinesBecomeBrAndLeadingTrim"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\TextParserTest\u003A\u003AtestParensAndDollarPreserved\u0028\u0029",
+            "name": "testParensAndDollarPreserved",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-TextParserTest.html#method_testParensAndDollarPreserved"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\TextParserTest\u003A\u003A\u0024parser",
+            "name": "parser",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-TextParserTest.html#property_parser"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\LegacyUrlBuilderTest",
             "name": "LegacyUrlBuilderTest",
@@ -16251,6 +17441,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_precacheService"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024symfonyMailer",
+            "name": "symfonyMailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_symfonyMailer"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest",
             "name": "PasswordResetMessageHandlerTest",
             "summary": "",
@@ -17256,10 +18456,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#property_templateImageRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#property_entityManager"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#property_configProvider"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003A\u0024manager",
             "name": "manager",
@@ -17340,6 +18540,36 @@ Search.appendIndex(
             "name": "logger",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MaxProcessTimeLimiterTest.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageDataLoaderTest",
+            "name": "MessageDataLoaderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageDataLoaderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageDataLoaderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageDataLoaderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageDataLoaderTest\u003A\u003AtestLoadsMessageDataMergesAndParses\u0028\u0029",
+            "name": "testLoadsMessageDataMergesAndParses",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageDataLoaderTest.html#method_testLoadsMessageDataMergesAndParses"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageDataLoaderTest\u003A\u003A\u0024config",
+            "name": "config",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageDataLoaderTest.html#property_config"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageDataLoaderTest\u003A\u003A\u0024messageDataRepository",
+            "name": "messageDataRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageDataLoaderTest.html#property_messageDataRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageDataLoaderTest\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageDataLoaderTest.html#property_messageRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest",
             "name": "MessageProcessingPreparatorTest",
@@ -19465,6 +20695,11 @@ Search.appendIndex(
             "name": "Messaging",
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\EventSubscriber",
+            "name": "EventSubscriber",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-eventsubscriber.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception",
             "name": "Exception",
