@@ -5596,6 +5596,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#property_requestStack"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\DevEmailNotConfiguredException",
+            "name": "DevEmailNotConfiguredException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-DevEmailNotConfiguredException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\DevEmailNotConfiguredException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-DevEmailNotConfiguredException.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\InvalidContextTypeException",
             "name": "InvalidContextTypeException",
             "summary": "",
