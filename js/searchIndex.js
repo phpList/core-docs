@@ -17341,6 +17341,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-SendTestEmailCommandTest.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest",
+            "name": "InjectedByHeaderSubscriberTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003AtestNoHeaderWhenNoCurrentRequest\u0028\u0029",
+            "name": "testNoHeaderWhenNoCurrentRequest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_testNoHeaderWhenNoCurrentRequest"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003AtestNoHeaderWhenMessageIsNotEmail\u0028\u0029",
+            "name": "testNoHeaderWhenMessageIsNotEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_testNoHeaderWhenMessageIsNotEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003AtestNoHeaderWhenRunningInCliEvenWithRequestAndEmail\u0028\u0029",
+            "name": "testNoHeaderWhenRunningInCliEvenWithRequestAndEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_testNoHeaderWhenRunningInCliEvenWithRequestAndEmail"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Message\\SubscriberConfirmationMessageTest",
             "name": "SubscriberConfirmationMessageTest",
             "summary": "",
@@ -21125,6 +21145,11 @@ Search.appendIndex(
             "name": "Messaging",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber",
+            "name": "EventSubscriber",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-eventsubscriber.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Message",
             "name": "Message",
