@@ -5946,16 +5946,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_handleEmailSending"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AcheckMessageSizeOrSuspendCampaign\u0028\u0029",
-            "name": "checkMessageSizeOrSuspendCampaign",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_checkMessageSizeOrSuspendCampaign"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AcalculateEmailSize\u0028\u0029",
-            "name": "calculateEmailSize",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_calculateEmailSize"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003AhandleAdminNotifications\u0028\u0029",
             "name": "handleAdminNotifications",
             "summary": "",
@@ -5965,11 +5955,6 @@ Search.appendIndex(
             "name": "processSubscribersForCampaign",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#method_processSubscribersForCampaign"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024maxMailSize",
-            "name": "maxMailSize",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_maxMailSize"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024mailer",
             "name": "mailer",
@@ -6036,16 +6021,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_messageRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024eventLogManager",
-            "name": "eventLogManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_eventLogManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024messageDataManager",
-            "name": "messageDataManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_messageDataManager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024precacheService",
             "name": "precacheService",
             "summary": "",
@@ -6065,6 +6040,11 @@ Search.appendIndex(
             "name": "emailBuilder",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_emailBuilder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024mailSizeChecker",
+            "name": "mailSizeChecker",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html#property_mailSizeChecker"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandler\u003A\u003A\u0024messageEnvelope",
             "name": "messageEnvelope",
@@ -9055,6 +9035,51 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MailSizeChecker",
+            "name": "MailSizeChecker",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MailSizeChecker.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MailSizeChecker\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MailSizeChecker.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MailSizeChecker\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MailSizeChecker.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MailSizeChecker\u003A\u003AcalculateEmailSize\u0028\u0029",
+            "name": "calculateEmailSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MailSizeChecker.html#method_calculateEmailSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MailSizeChecker\u003A\u003A\u0024maxMailSize",
+            "name": "maxMailSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MailSizeChecker.html#property_maxMailSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MailSizeChecker\u003A\u003A\u0024eventLogManager",
+            "name": "eventLogManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MailSizeChecker.html#property_eventLogManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MailSizeChecker\u003A\u003A\u0024messageDataManager",
+            "name": "messageDataManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MailSizeChecker.html#property_messageDataManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MailSizeChecker\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MailSizeChecker.html#property_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MailSizeChecker\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MailSizeChecker.html#property_logger"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager",
             "name": "BounceRegexManager",
@@ -18255,6 +18280,66 @@ Search.appendIndex(
             "name": "output",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#property_output"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest",
+            "name": "MailSizeCheckerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest\u003A\u003AcreateMessageWithId\u0028\u0029",
+            "name": "createMessageWithId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html#method_createMessageWithId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest\u003A\u003AcreateEmail\u0028\u0029",
+            "name": "createEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html#method_createEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest\u003A\u003AtestDisabledMaxMailSizeDoesNothingAndSkipsCache\u0028\u0029",
+            "name": "testDisabledMaxMailSizeDoesNothingAndSkipsCache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html#method_testDisabledMaxMailSizeDoesNothingAndSkipsCache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest\u003A\u003AtestCacheMissCalculatesAndStoresAndDoesNotThrow\u0028\u0029",
+            "name": "testCacheMissCalculatesAndStoresAndDoesNotThrow",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html#method_testCacheMissCalculatesAndStoresAndDoesNotThrow"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest\u003A\u003AtestThrowsWhenCachedSizeExceedsLimitAndLogsAndEvents\u0028\u0029",
+            "name": "testThrowsWhenCachedSizeExceedsLimitAndLogsAndEvents",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html#method_testThrowsWhenCachedSizeExceedsLimitAndLogsAndEvents"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest\u003A\u003AtestReturnsWhenCachedSizeWithinLimit\u0028\u0029",
+            "name": "testReturnsWhenCachedSizeWithinLimit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html#method_testReturnsWhenCachedSizeWithinLimit"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest\u003A\u003A\u0024eventLogManager",
+            "name": "eventLogManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html#property_eventLogManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest\u003A\u003A\u0024messageDataManager",
+            "name": "messageDataManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html#property_messageDataManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html#property_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MailSizeCheckerTest\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MailSizeCheckerTest.html#property_logger"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\BounceManagerTest",
             "name": "BounceManagerTest",
