@@ -3886,6 +3886,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-I18n.html#property_translation"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\OutputFormat",
+            "name": "OutputFormat",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\OutputFormat\u003A\u003AHtml",
+            "name": "Html",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html#enumcase_Html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\OutputFormat\u003A\u003AText",
+            "name": "Text",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html#enumcase_Text"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\UrlCache",
             "name": "UrlCache",
             "summary": "",
@@ -4230,6 +4245,21 @@ Search.appendIndex(
             "name": "attributeValueResolver",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_attributeValueResolver"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003A\u0024subscriberListRepository",
+            "name": "subscriberListRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_subscriberListRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer\u003A\u003A\u0024preferencePageShowPrivateLists",
+            "name": "preferencePageShowPrivateLists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-UserPersonalizer.html#property_preferencePageShowPrivateLists"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CleanUpOldSessionTokens",
             "name": "CleanUpOldSessionTokens",
@@ -11975,6 +12005,16 @@ Search.appendIndex(
             "name": "getAllActive",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getAllActive"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AgetListNames\u0028\u0029",
+            "name": "getListNames",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getListNames"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AgetActiveListNamesForSubscriber\u0028\u0029",
+            "name": "getActiveListNamesForSubscriber",
+            "summary": "Returns\u0020the\u0020names\u0020of\u0020lists\u0020the\u0020given\u0020subscriber\u0020is\u0020subscribed\u0020to.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getActiveListNamesForSubscriber"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageDataRepository",
             "name": "SubscriberPageDataRepository",
