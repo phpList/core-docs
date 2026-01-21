@@ -121,7 +121,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/PlaceholderResolver.php"><a href="files/src-domain-configuration-service-placeholderresolver.html"><abbr title="src/Domain/Configuration/Service/PlaceholderResolver.php">PlaceholderResolver.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">7</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
@@ -153,9 +153,21 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_providers">$providers</a>
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_patternResolvers">$patternResolvers</a>
     <span>
-                        &nbsp;: array&lt;string, callable(): string&gt;            </span>
+                        &nbsp;: array&lt;int, array{pattern: string, resolver: callable}&gt;            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_resolvers">$resolvers</a>
+    <span>
+                        &nbsp;: array&lt;string, callable&gt;            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_supportingResolvers">$supportingResolvers</a>
+    <span>
+                        &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Configuration-Service-Placeholder-SupportingPlaceholderResolverInterface.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Placeholder\SupportingPlaceholderResolverInterface">SupportingPlaceholderResolverInterface</abbr></a>&gt;            </span>
 </dt>
 
     </dl>
@@ -173,9 +185,33 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_registerPattern">registerPattern()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_registerSupporting">registerSupporting()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_resolve">resolve()</a>
     <span>
-                                &nbsp;: string|null    </span>
+                                &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_normalizePlaceholderKey">normalizePlaceholderKey()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_resolveSinglePlaceholder">resolveSinglePlaceholder()</a>
+    <span>
+                                &nbsp;: string    </span>
 </dt>
 
     </dl>
@@ -198,9 +234,9 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_providers">
-        $providers
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_providers" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_patternResolvers">
+        $patternResolvers
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_patternResolvers" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
@@ -208,7 +244,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/PlaceholderResolver.php"><a href="files/src-domain-configuration-service-placeholderresolver.html"><abbr title="src/Domain/Configuration/Service/PlaceholderResolver.php">PlaceholderResolver.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">10</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -216,8 +252,82 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">array&lt;string, callable(): string&gt;</span>
-    <span class="phpdocumentor-signature__name">$providers</span>
+            <span class="phpdocumentor-signature__type">array&lt;int, array{pattern: string, resolver: callable}&gt;</span>
+    <span class="phpdocumentor-signature__name">$patternResolvers</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_resolvers">
+        $resolvers
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_resolvers" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/PlaceholderResolver.php"><a href="files/src-domain-configuration-service-placeholderresolver.html"><abbr title="src/Domain/Configuration/Service/PlaceholderResolver.php">PlaceholderResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">array&lt;string, callable&gt;</span>
+    <span class="phpdocumentor-signature__name">$resolvers</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_supportingResolvers">
+        $supportingResolvers
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_supportingResolvers" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/PlaceholderResolver.php"><a href="files/src-domain-configuration-service-placeholderresolver.html"><abbr title="src/Domain/Configuration/Service/PlaceholderResolver.php">PlaceholderResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Configuration-Service-Placeholder-SupportingPlaceholderResolverInterface.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Placeholder\SupportingPlaceholderResolverInterface">SupportingPlaceholderResolverInterface</abbr></a>&gt;</span>
+    <span class="phpdocumentor-signature__name">$supportingResolvers</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
     
@@ -250,14 +360,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/PlaceholderResolver.php"><a href="files/src-domain-configuration-service-placeholderresolver.html"><abbr title="src/Domain/Configuration/Service/PlaceholderResolver.php">PlaceholderResolver.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">register</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$token</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">callable&nbsp;</span><span class="phpdocumentor-signature__argument__name">$provider</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">register</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">callable&nbsp;</span><span class="phpdocumentor-signature__argument__name">$resolver</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -266,15 +376,110 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$token</span>
+                <span class="phpdocumentor-argument-list__argument__name">$name</span>
                 : <span class="phpdocumentor-argument-list__argument__type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$provider</span>
+                <span class="phpdocumentor-argument-list__argument__name">$resolver</span>
                 : <span class="phpdocumentor-argument-list__argument__type">callable</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_registerPattern">
+        registerPattern()
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_registerPattern" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/PlaceholderResolver.php"><a href="files/src-domain-configuration-service-placeholderresolver.html"><abbr title="src/Domain/Configuration/Service/PlaceholderResolver.php">PlaceholderResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">27</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">registerPattern</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pattern</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">callable&nbsp;</span><span class="phpdocumentor-signature__argument__name">$resolver</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$pattern</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$resolver</span>
+                : <span class="phpdocumentor-argument-list__argument__type">callable</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_registerSupporting">
+        registerSupporting()
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_registerSupporting" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/PlaceholderResolver.php"><a href="files/src-domain-configuration-service-placeholderresolver.html"><abbr title="src/Domain/Configuration/Service/PlaceholderResolver.php">PlaceholderResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">32</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">registerSupporting</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Placeholder-SupportingPlaceholderResolverInterface.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Placeholder\SupportingPlaceholderResolverInterface">SupportingPlaceholderResolverInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$resolver</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$resolver</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Placeholder-SupportingPlaceholderResolverInterface.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Placeholder\SupportingPlaceholderResolverInterface">SupportingPlaceholderResolverInterface</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -301,14 +506,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/PlaceholderResolver.php"><a href="files/src-domain-configuration-service-placeholderresolver.html"><abbr title="src/Domain/Configuration/Service/PlaceholderResolver.php">PlaceholderResolver.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">resolve</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$input</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+                    <span class="phpdocumentor-signature__name">resolve</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Model-Dto-PlaceholderContext.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Dto\PlaceholderContext">PlaceholderContext</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -317,8 +522,15 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$input</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                <span class="phpdocumentor-argument-list__argument__name">$value</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$context</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Model-Dto-PlaceholderContext.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Dto\PlaceholderContext">PlaceholderContext</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -331,7 +543,110 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string|null</span>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_normalizePlaceholderKey">
+        normalizePlaceholderKey()
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_normalizePlaceholderKey" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/PlaceholderResolver.php"><a href="files/src-domain-configuration-service-placeholderresolver.html"><abbr title="src/Domain/Configuration/Service/PlaceholderResolver.php">PlaceholderResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">58</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">normalizePlaceholderKey</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$rawKey</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$rawKey</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_resolveSinglePlaceholder">
+        resolveSinglePlaceholder()
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_resolveSinglePlaceholder" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/PlaceholderResolver.php"><a href="files/src-domain-configuration-service-placeholderresolver.html"><abbr title="src/Domain/Configuration/Service/PlaceholderResolver.php">PlaceholderResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">68</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">resolveSinglePlaceholder</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$matches</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Model-Dto-PlaceholderContext.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Dto\PlaceholderContext">PlaceholderContext</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$context</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$matches</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$context</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Model-Dto-PlaceholderContext.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Dto\PlaceholderContext">PlaceholderContext</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
             </section>
 
 </article>
@@ -450,7 +765,9 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_providers">$providers</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_patternResolvers">$patternResolvers</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_resolvers">$resolvers</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#property_supportingResolvers">$supportingResolvers</a></li>
                                             </ul>
                 </li>
             
@@ -458,7 +775,11 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_register">register()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_registerPattern">registerPattern()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_registerSupporting">registerSupporting()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_resolve">resolve()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_normalizePlaceholderKey">normalizePlaceholderKey()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-PlaceholderResolver.html#method_resolveSinglePlaceholder">resolveSinglePlaceholder()</a></li>
                                     </ul>
             </li>
                     </ul>
