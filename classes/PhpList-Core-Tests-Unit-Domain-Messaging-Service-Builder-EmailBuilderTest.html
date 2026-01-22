@@ -127,7 +127,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -189,6 +189,18 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_mailConstructor">$mailConstructor</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-MailContentBuilderInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\MailContentBuilderInterface">MailContentBuilderInterface</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_pdfGenerator">$pdfGenerator</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Common-PdfGenerator.html"><abbr title="\PhpList\Core\Domain\Common\PdfGenerator">PdfGenerator</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_subscriberHistoryManager">$subscriberHistoryManager</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
@@ -201,15 +213,21 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_systemMailConstructor">$systemMailConstructor</a>
-    <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-SystemMailContentBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\SystemMailContentBuilder">SystemMailContentBuilder</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_templateImageEmbedder">$templateImageEmbedder</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\TemplateImageEmbedder">TemplateImageEmbedder</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_translator">$translator</a>
+    <span>
+                        &nbsp;: <abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_urlBuilder">$urlBuilder</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Service-LegacyUrlBuilder.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\LegacyUrlBuilder">LegacyUrlBuilder</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
     </dl>
@@ -221,13 +239,43 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testBuildsEmailWithExpectedHeadersAndBodiesInDevMode">testBuildsEmailWithExpectedHeadersAndBodiesInDevMode()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testApplyCampaignHeaders">testApplyCampaignHeaders()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testReturnsNullWhenBlacklistedAndHistoryUpdated">testReturnsNullWhenBlacklistedAndHistoryUpdated()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testAttachmentAdderFailureThrows">testAttachmentAdderFailureThrows()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testBlacklistReturnsNullAndMarksHistory">testBlacklistReturnsNullAndMarksHistory()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testBuildsHtmlPreferredWithAttachments">testBuildsHtmlPreferredWithAttachments()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testPdfFormatWhenHtmlPreferred">testPdfFormatWhenHtmlPreferred()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testPrefersTextWhenNoHtmlContent">testPrefersTextWhenNoHtmlContent()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testReplyToExplicitAndTestMailFallback">testReplyToExplicitAndTestMailFallback()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -244,6 +292,12 @@
                                 &nbsp;: void    </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testTextAndPdfFormatWhenNotHtmlPreferred">testTextAndPdfFormatWhenNotHtmlPreferred()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_setUp">setUp()</a>
     <span>
@@ -251,7 +305,7 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_createBuilder">createBuilder()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_makeBuilder">makeBuilder()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\EmailBuilder">EmailBuilder</abbr></a>    </span>
 </dt>
@@ -286,7 +340,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -323,7 +377,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -360,7 +414,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -397,7 +451,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -461,6 +515,80 @@
             -private
                                                                     "
 >
+    <h4 class="phpdocumentor-element__name" id="property_mailConstructor">
+        $mailConstructor
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_mailConstructor" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">38</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-MailContentBuilderInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\MailContentBuilderInterface">MailContentBuilderInterface</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$mailConstructor</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_pdfGenerator">
+        $pdfGenerator
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_pdfGenerator" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">41</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Common-PdfGenerator.html"><abbr title="\PhpList\Core\Domain\Common\PdfGenerator">PdfGenerator</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$pdfGenerator</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_subscriberHistoryManager">
         $subscriberHistoryManager
         <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_subscriberHistoryManager" class="headerlink"><i class="fas fa-link"></i></a>
@@ -471,7 +599,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
@@ -508,7 +636,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
@@ -518,43 +646,6 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$subscriberRepository</span>
-    </code>
-
-    
-    
-    
-
-        
-        
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_systemMailConstructor">
-        $systemMailConstructor
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_systemMailConstructor" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">34</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-SystemMailContentBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\SystemMailContentBuilder">SystemMailContentBuilder</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$systemMailConstructor</span>
     </code>
 
     
@@ -582,7 +673,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -592,6 +683,80 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\TemplateImageEmbedder">TemplateImageEmbedder</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$templateImageEmbedder</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_translator">
+        $translator
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_translator" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">43</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$translator</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_urlBuilder">
+        $urlBuilder
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_urlBuilder" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">40</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-LegacyUrlBuilder.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\LegacyUrlBuilder">LegacyUrlBuilder</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$urlBuilder</span>
     </code>
 
     
@@ -616,22 +781,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testBuildsEmailWithExpectedHeadersAndBodiesInDevMode">
-        testBuildsEmailWithExpectedHeadersAndBodiesInDevMode()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testBuildsEmailWithExpectedHeadersAndBodiesInDevMode" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testApplyCampaignHeaders">
+        testApplyCampaignHeaders()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testApplyCampaignHeaders" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
+    <span class="phpdocumentor-element-found-in__line">360</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testBuildsEmailWithExpectedHeadersAndBodiesInDevMode</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testApplyCampaignHeaders</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -650,22 +815,192 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testReturnsNullWhenBlacklistedAndHistoryUpdated">
-        testReturnsNullWhenBlacklistedAndHistoryUpdated()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testReturnsNullWhenBlacklistedAndHistoryUpdated" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testAttachmentAdderFailureThrows">
+        testAttachmentAdderFailureThrows()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testAttachmentAdderFailureThrows" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">119</span>
+    <span class="phpdocumentor-element-found-in__line">394</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testReturnsNullWhenBlacklistedAndHistoryUpdated</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testAttachmentAdderFailureThrows</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testBlacklistReturnsNullAndMarksHistory">
+        testBlacklistReturnsNullAndMarksHistory()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testBlacklistReturnsNullAndMarksHistory" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">133</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testBlacklistReturnsNullAndMarksHistory</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testBuildsHtmlPreferredWithAttachments">
+        testBuildsHtmlPreferredWithAttachments()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testBuildsHtmlPreferredWithAttachments" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">164</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testBuildsHtmlPreferredWithAttachments</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testPdfFormatWhenHtmlPreferred">
+        testPdfFormatWhenHtmlPreferred()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testPdfFormatWhenHtmlPreferred" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">250</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testPdfFormatWhenHtmlPreferred</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testPrefersTextWhenNoHtmlContent">
+        testPrefersTextWhenNoHtmlContent()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testPrefersTextWhenNoHtmlContent" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">210</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testPrefersTextWhenNoHtmlContent</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testReplyToExplicitAndTestMailFallback">
+        testReplyToExplicitAndTestMailFallback()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testReplyToExplicitAndTestMailFallback" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">315</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testReplyToExplicitAndTestMailFallback</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -692,7 +1027,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">94</span>
+    <span class="phpdocumentor-element-found-in__line">106</span>
 
     </aside>
 
@@ -726,7 +1061,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">107</span>
+    <span class="phpdocumentor-element-found-in__line">120</span>
 
     </aside>
 
@@ -734,6 +1069,40 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testReturnsNullWhenMissingSubject</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testTextAndPdfFormatWhenNotHtmlPreferred">
+        testTextAndPdfFormatWhenNotHtmlPreferred()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testTextAndPdfFormatWhenNotHtmlPreferred" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">283</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testTextAndPdfFormatWhenNotHtmlPreferred</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -760,7 +1129,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
@@ -786,22 +1155,22 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_createBuilder">
-        createBuilder()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_createBuilder" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_makeBuilder">
+        makeBuilder()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_makeBuilder" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php"><a href="files/tests-unit-domain-messaging-service-builder-emailbuildertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Builder/EmailBuilderTest.php">EmailBuilderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">createBuilder</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$googleSenderId</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">'gsender'</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useAmazonSes</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$usePrecedenceHeader</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$devVersion</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$devEmail</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">'dev@example.com'</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\EmailBuilder">EmailBuilder</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">makeBuilder</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$googleSenderId</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">'g-123'</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useAmazonSes</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$usePrecedenceHeader</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$devVersion</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$devEmail</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">'dev@example.com'</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\EmailBuilder">EmailBuilder</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -812,7 +1181,7 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$googleSenderId</span>
                 : <span class="phpdocumentor-argument-list__argument__type">string</span>
-                 = <span class="phpdocumentor-argument-list__argument__default-value">'gsender'</span>            </dt>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">'g-123'</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -976,22 +1345,31 @@
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_configProvider">$configProvider</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_eventLogManager">$eventLogManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_logger">$logger</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_mailConstructor">$mailConstructor</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_pdfGenerator">$pdfGenerator</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_subscriberHistoryManager">$subscriberHistoryManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_subscriberRepository">$subscriberRepository</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_systemMailConstructor">$systemMailConstructor</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_templateImageEmbedder">$templateImageEmbedder</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_translator">$translator</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#property_urlBuilder">$urlBuilder</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testBuildsEmailWithExpectedHeadersAndBodiesInDevMode">testBuildsEmailWithExpectedHeadersAndBodiesInDevMode()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testReturnsNullWhenBlacklistedAndHistoryUpdated">testReturnsNullWhenBlacklistedAndHistoryUpdated()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testApplyCampaignHeaders">testApplyCampaignHeaders()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testAttachmentAdderFailureThrows">testAttachmentAdderFailureThrows()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testBlacklistReturnsNullAndMarksHistory">testBlacklistReturnsNullAndMarksHistory()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testBuildsHtmlPreferredWithAttachments">testBuildsHtmlPreferredWithAttachments()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testPdfFormatWhenHtmlPreferred">testPdfFormatWhenHtmlPreferred()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testPrefersTextWhenNoHtmlContent">testPrefersTextWhenNoHtmlContent()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testReplyToExplicitAndTestMailFallback">testReplyToExplicitAndTestMailFallback()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testReturnsNullWhenMissingRecipient">testReturnsNullWhenMissingRecipient()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testReturnsNullWhenMissingSubject">testReturnsNullWhenMissingSubject()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_testTextAndPdfFormatWhenNotHtmlPreferred">testTextAndPdfFormatWhenNotHtmlPreferred()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_setUp">setUp()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_createBuilder">createBuilder()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-EmailBuilderTest.html#method_makeBuilder">makeBuilder()</a></li>
                                     </ul>
             </li>
                     </ul>

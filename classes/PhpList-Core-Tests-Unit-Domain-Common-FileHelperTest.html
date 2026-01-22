@@ -95,13 +95,13 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-bounce.html">Bounce</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-bounce-service.html">Service</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-common.html">Common</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    WebklexImapClientFactoryTest
+    FileHelperTest
 
         <span class="phpdocumentor-element__extends">
         extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
@@ -123,9 +123,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Bounce/Service/WebklexImapClientFactoryTest.php"><a href="files/tests-unit-bounce-service-webkleximapclientfactorytest.html"><abbr title="tests/Unit/Bounce/Service/WebklexImapClientFactoryTest.php">WebklexImapClientFactoryTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/FileHelperTest.php"><a href="files/tests-unit-domain-common-filehelpertest.html"><abbr title="tests/Unit/Domain/Common/FileHelperTest.php">FileHelperTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
@@ -138,7 +138,7 @@
     
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -152,38 +152,56 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#property_manager">$manager</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#property_tmpDir">$tmpDir</a>
     <span>
-                        &nbsp;: <abbr title="\Webklex\PHPIMAP\ClientManager">ClientManager</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+                        &nbsp;: string            </span>
 </dt>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#method_testGetFolderNameDefaultsToInbox">testGetFolderNameDefaultsToInbox()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testIsValidFile">testIsValidFile()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#method_testMakeForMailboxBuildsClientWithConfiguredParams">testMakeForMailboxBuildsClientWithConfiguredParams()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testReadFileContents">testReadFileContents()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testWriteFileToDirectoryCreatesFileWithExtensionAndContents">testWriteFileToDirectoryCreatesFileWithExtensionAndContents()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testWriteFileToDirectoryUsesDefaultNameWhenMissing">testWriteFileToDirectoryUsesDefaultNameWhenMissing()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#method_setUp">setUp()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_setUp">setUp()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_tearDown">tearDown()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -198,7 +216,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -208,17 +226,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_manager">
-        $manager
-        <a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#property_manager" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_tmpDir">
+        $tmpDir
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#property_tmpDir" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Bounce/Service/WebklexImapClientFactoryTest.php"><a href="files/tests-unit-bounce-service-webkleximapclientfactorytest.html"><abbr title="tests/Unit/Bounce/Service/WebklexImapClientFactoryTest.php">WebklexImapClientFactoryTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/FileHelperTest.php"><a href="files/tests-unit-domain-common-filehelpertest.html"><abbr title="tests/Unit/Domain/Common/FileHelperTest.php">FileHelperTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
@@ -226,8 +244,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Webklex\PHPIMAP\ClientManager">ClientManager</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$manager</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$tmpDir</span>
     </code>
 
     
@@ -243,7 +261,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -252,22 +270,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testGetFolderNameDefaultsToInbox">
-        testGetFolderNameDefaultsToInbox()
-        <a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#method_testGetFolderNameDefaultsToInbox" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testIsValidFile">
+        testIsValidFile()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testIsValidFile" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Bounce/Service/WebklexImapClientFactoryTest.php"><a href="files/tests-unit-bounce-service-webkleximapclientfactorytest.html"><abbr title="tests/Unit/Bounce/Service/WebklexImapClientFactoryTest.php">WebklexImapClientFactoryTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/FileHelperTest.php"><a href="files/tests-unit-domain-common-filehelpertest.html"><abbr title="tests/Unit/Domain/Common/FileHelperTest.php">FileHelperTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testGetFolderNameDefaultsToInbox</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testIsValidFile</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -286,22 +304,90 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testMakeForMailboxBuildsClientWithConfiguredParams">
-        testMakeForMailboxBuildsClientWithConfiguredParams()
-        <a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#method_testMakeForMailboxBuildsClientWithConfiguredParams" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testReadFileContents">
+        testReadFileContents()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testReadFileContents" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Bounce/Service/WebklexImapClientFactoryTest.php"><a href="files/tests-unit-bounce-service-webkleximapclientfactorytest.html"><abbr title="tests/Unit/Bounce/Service/WebklexImapClientFactoryTest.php">WebklexImapClientFactoryTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/FileHelperTest.php"><a href="files/tests-unit-domain-common-filehelpertest.html"><abbr title="tests/Unit/Domain/Common/FileHelperTest.php">FileHelperTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testMakeForMailboxBuildsClientWithConfiguredParams</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testReadFileContents</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testWriteFileToDirectoryCreatesFileWithExtensionAndContents">
+        testWriteFileToDirectoryCreatesFileWithExtensionAndContents()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testWriteFileToDirectoryCreatesFileWithExtensionAndContents" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/FileHelperTest.php"><a href="files/tests-unit-domain-common-filehelpertest.html"><abbr title="tests/Unit/Domain/Common/FileHelperTest.php">FileHelperTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">64</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testWriteFileToDirectoryCreatesFileWithExtensionAndContents</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testWriteFileToDirectoryUsesDefaultNameWhenMissing">
+        testWriteFileToDirectoryUsesDefaultNameWhenMissing()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testWriteFileToDirectoryUsesDefaultNameWhenMissing" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/FileHelperTest.php"><a href="files/tests-unit-domain-common-filehelpertest.html"><abbr title="tests/Unit/Domain/Common/FileHelperTest.php">FileHelperTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">77</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testWriteFileToDirectoryUsesDefaultNameWhenMissing</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -322,13 +408,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_setUp">
         setUp()
-        <a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Bounce/Service/WebklexImapClientFactoryTest.php"><a href="files/tests-unit-bounce-service-webkleximapclientfactorytest.html"><abbr title="tests/Unit/Bounce/Service/WebklexImapClientFactoryTest.php">WebklexImapClientFactoryTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/FileHelperTest.php"><a href="files/tests-unit-domain-common-filehelpertest.html"><abbr title="tests/Unit/Domain/Common/FileHelperTest.php">FileHelperTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -348,13 +434,47 @@
     
     
 </article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_tearDown">
+        tearDown()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_tearDown" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Common/FileHelperTest.php"><a href="files/tests-unit-domain-common-filehelpertest.html"><abbr title="tests/Unit/Domain/Common/FileHelperTest.php">FileHelperTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">tearDown</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
             </section>
 
         <div class="phpdocumentor-modal" id="source-view">
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Bounce/Service/WebklexImapClientFactoryTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Common/FileHelperTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -455,24 +575,27 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#property_manager">$manager</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#property_tmpDir">$tmpDir</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#method_testGetFolderNameDefaultsToInbox">testGetFolderNameDefaultsToInbox()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#method_testMakeForMailboxBuildsClientWithConfiguredParams">testMakeForMailboxBuildsClientWithConfiguredParams()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testIsValidFile">testIsValidFile()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testReadFileContents">testReadFileContents()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testWriteFileToDirectoryCreatesFileWithExtensionAndContents">testWriteFileToDirectoryCreatesFileWithExtensionAndContents()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testWriteFileToDirectoryUsesDefaultNameWhenMissing">testWriteFileToDirectoryUsesDefaultNameWhenMissing()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_tearDown">tearDown()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -492,7 +615,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Tests-Unit-Bounce-Service-WebklexImapClientFactoryTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
