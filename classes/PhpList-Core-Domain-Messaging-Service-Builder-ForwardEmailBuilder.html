@@ -101,10 +101,10 @@
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    SystemEmailBuilder
+    ForwardEmailBuilder
 
         <span class="phpdocumentor-element__extends">
-        extends <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\BaseEmailBuilder">BaseEmailBuilder</abbr></a>
+        extends <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\EmailBuilder">EmailBuilder</abbr></a>
     </span>
     
             <div class="phpdocumentor-element__package">
@@ -123,9 +123,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-systememailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php">SystemEmailBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/ForwardEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-forwardemailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/ForwardEmailBuilder.php">ForwardEmailBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -135,7 +135,7 @@
 
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
@@ -148,13 +148,22 @@
 </section>
 
                                     </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">SuppressWarnings</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>(&quot;PHPMD.CouplingBetweenObjects&quot;)</p>
+</section>
+
+                                    </dd>
                                             </dl>
 
     
     
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -168,10 +177,16 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_attachmentAdder">$attachmentAdder</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentAdder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\AttachmentAdder">AttachmentAdder</abbr></a>            </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#property_blacklistRepository">$blacklistRepository</a>
     <span>
@@ -215,9 +230,15 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#property_mailConstructor">$mailConstructor</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_mailContentBuilder">$mailContentBuilder</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-SystemMailContentBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\SystemMailContentBuilder">SystemMailContentBuilder</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-CampaignMailContentBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\CampaignMailContentBuilder">CampaignMailContentBuilder</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_pdfGenerator">$pdfGenerator</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Common-PdfGenerator.html"><abbr title="\PhpList\Core\Domain\Common\PdfGenerator">PdfGenerator</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
@@ -233,9 +254,21 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#property_templateImageEmbedder">$templateImageEmbedder</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_templateImageEmbedder">$templateImageEmbedder</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\TemplateImageEmbedder">TemplateImageEmbedder</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_translator">$translator</a>
+    <span>
+                        &nbsp;: <abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_urlBuilder">$urlBuilder</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Service-LegacyUrlBuilder.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\LegacyUrlBuilder">LegacyUrlBuilder</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -protected">
@@ -250,30 +283,48 @@
                         &nbsp;: bool            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#property_httpReceivedStampBuilder">$httpReceivedStampBuilder</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\HttpReceivedStampBuilder">HttpReceivedStampBuilder</abbr></a>            </span>
+</dt>
+
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_buildCampaignEmail">buildCampaignEmail()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#method_applyCampaignHeaders">applyCampaignHeaders()</a>
     <span>
-                                &nbsp;: <abbr title="\Symfony\Component\Mime\Email">Email</abbr>|null    </span>
+                                &nbsp;: <abbr title="\Symfony\Component\Mime\Email">Email</abbr>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_buildSystemEmail">buildSystemEmail()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_applyContentAndFormatting">applyContentAndFormatting()</a>
     <span>
-                                &nbsp;: <abbr title="\Symfony\Component\Mime\Email">Email</abbr>|null    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\OutputFormat">OutputFormat</abbr></a>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_buildCampaignEmail">buildCampaignEmail()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#method_buildForwardEmail">buildForwardEmail()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
@@ -283,21 +334,27 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_addSystemHeaders">addSystemHeaders()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_applyPdfFormat">applyPdfFormat()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\OutputFormat">OutputFormat</abbr></a>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_applyContentAndFormatting">applyContentAndFormatting()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_applyTextAndPdfFormat">applyTextAndPdfFormat()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\OutputFormat">OutputFormat</abbr></a>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#method_createBaseEmail">createBaseEmail()</a>
     <span>
                                 &nbsp;: <abbr title="\Symfony\Component\Mime\Email">Email</abbr>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_normalizeSendFormat">normalizeSendFormat()</a>
+    <span>
+                                &nbsp;: string    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
@@ -310,6 +367,12 @@
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#method_resolveDestinationEmail">resolveDestinationEmail()</a>
     <span>
                                 &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_shouldPreferHtml">shouldPreferHtml()</a>
+    <span>
+                                &nbsp;: bool    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
@@ -328,9 +391,46 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_attachmentAdder">
+        $attachmentAdder
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_attachmentAdder" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">45</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentAdder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\AttachmentAdder">AttachmentAdder</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$attachmentAdder</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
                     <article
         class="
             phpdocumentor-element
@@ -597,17 +697,17 @@
             -protected
                                                 -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_mailConstructor">
-        $mailConstructor
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#property_mailConstructor" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_mailContentBuilder">
+        $mailContentBuilder
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_mailContentBuilder" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-systememailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php">SystemEmailBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -615,8 +715,45 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">protected</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-SystemMailContentBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\SystemMailContentBuilder">SystemMailContentBuilder</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$mailConstructor</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-CampaignMailContentBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\CampaignMailContentBuilder">CampaignMailContentBuilder</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$mailContentBuilder</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_pdfGenerator">
+        $pdfGenerator
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_pdfGenerator" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">44</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Common-PdfGenerator.html"><abbr title="\PhpList\Core\Domain\Common\PdfGenerator">PdfGenerator</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$pdfGenerator</span>
     </code>
 
     
@@ -710,15 +847,15 @@
 >
     <h4 class="phpdocumentor-element__name" id="property_templateImageEmbedder">
         $templateImageEmbedder
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#property_templateImageEmbedder" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_templateImageEmbedder" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-systememailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php">SystemEmailBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -728,6 +865,80 @@
         <span class="phpdocumentor-signature__visibility">protected</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\TemplateImageEmbedder">TemplateImageEmbedder</abbr></a></span>
     <span class="phpdocumentor-signature__name">$templateImageEmbedder</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_translator">
+        $translator
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_translator" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">46</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$translator</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_urlBuilder">
+        $urlBuilder
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_urlBuilder" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">43</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-LegacyUrlBuilder.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\LegacyUrlBuilder">LegacyUrlBuilder</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$urlBuilder</span>
     </code>
 
     
@@ -812,12 +1023,49 @@
         
 
 </article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_httpReceivedStampBuilder">
+        $httpReceivedStampBuilder
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#property_httpReceivedStampBuilder" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/ForwardEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-forwardemailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/ForwardEmailBuilder.php">ForwardEmailBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">43</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\HttpReceivedStampBuilder">HttpReceivedStampBuilder</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$httpReceivedStampBuilder</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
             </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -828,20 +1076,20 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-systememailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php">SystemEmailBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/ForwardEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-forwardemailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/ForwardEmailBuilder.php">ForwardEmailBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-EventLogManager.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Manager\EventLogManager">EventLogManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$eventLogManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\UserBlacklistRepository">UserBlacklistRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$blacklistRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-SystemMailContentBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\SystemMailContentBuilder">SystemMailContentBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mailConstructor</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\TemplateImageEmbedder">TemplateImageEmbedder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$templateImageEmbedder</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$googleSenderId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useAmazonSes</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$usePrecedenceHeader</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$devVersion</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$devEmail</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-EventLogManager.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Manager\EventLogManager">EventLogManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$eventLogManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\UserBlacklistRepository">UserBlacklistRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$blacklistRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-CampaignMailContentBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\CampaignMailContentBuilder">CampaignMailContentBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mailContentBuilder</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-TemplateImageEmbedder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\TemplateImageEmbedder">TemplateImageEmbedder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$templateImageEmbedder</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-LegacyUrlBuilder.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\LegacyUrlBuilder">LegacyUrlBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$urlBuilder</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Common-PdfGenerator.html"><abbr title="\PhpList\Core\Domain\Common\PdfGenerator">PdfGenerator</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pdfGenerator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentAdder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\AttachmentAdder">AttachmentAdder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attachmentAdder</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\HttpReceivedStampBuilder">HttpReceivedStampBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$httpReceivedStampBuilder</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$googleSenderId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useAmazonSes</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$usePrecedenceHeader</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$devVersion</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$devEmail</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -885,8 +1133,15 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$mailConstructor</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-SystemMailContentBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\SystemMailContentBuilder">SystemMailContentBuilder</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$logger</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$mailContentBuilder</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-CampaignMailContentBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\CampaignMailContentBuilder">CampaignMailContentBuilder</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -899,8 +1154,36 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$logger</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr></span>
+                <span class="phpdocumentor-argument-list__argument__name">$urlBuilder</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-LegacyUrlBuilder.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\LegacyUrlBuilder">LegacyUrlBuilder</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$pdfGenerator</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Common-PdfGenerator.html"><abbr title="\PhpList\Core\Domain\Common\PdfGenerator">PdfGenerator</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$attachmentAdder</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentAdder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\AttachmentAdder">AttachmentAdder</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$translator</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$httpReceivedStampBuilder</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\HttpReceivedStampBuilder">HttpReceivedStampBuilder</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -954,22 +1237,167 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_buildCampaignEmail">
-        buildCampaignEmail()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_buildCampaignEmail" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_applyCampaignHeaders">
+        applyCampaignHeaders()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#method_applyCampaignHeaders" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-systememailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php">SystemEmailBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/ForwardEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-forwardemailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/ForwardEmailBuilder.php">ForwardEmailBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">123</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">buildCampaignEmail</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$skipBlacklistCheck</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>|null</span></code>
+                    <span class="phpdocumentor-signature__name">applyCampaignHeaders</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$email</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$subscriber</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_applyContentAndFormatting">
+        applyContentAndFormatting()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_applyContentAndFormatting" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">146</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">applyContentAndFormatting</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlMessage</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$textMessage</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlPref</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwarded</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\OutputFormat">OutputFormat</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$email</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$htmlMessage</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$textMessage</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$messageId</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$data</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$htmlPref</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$forwarded</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\OutputFormat">OutputFormat</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_buildCampaignEmail">
+        buildCampaignEmail()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_buildCampaignEmail" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">68</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">buildCampaignEmail</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$skipBlacklistCheck</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$inBlast</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlPref</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$isTestMail</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -998,56 +1426,22 @@
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>|null</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_buildSystemEmail">
-        buildSystemEmail()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_buildSystemEmail" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-systememailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php">SystemEmailBuilder.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">96</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">buildSystemEmail</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$skipBlacklistCheck</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>|null</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$data</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a></span>
-                            </dt>
+                <span class="phpdocumentor-argument-list__argument__name">$inBlast</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">true</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$skipBlacklistCheck</span>
+                <span class="phpdocumentor-argument-list__argument__name">$htmlPref</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$isTestMail</span>
                 : <span class="phpdocumentor-argument-list__argument__type">bool|null</span>
                  = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -1061,7 +1455,104 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>|null</span>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_buildForwardEmail">
+        buildForwardEmail()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#method_buildForwardEmail" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/ForwardEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-forwardemailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/ForwardEmailBuilder.php">ForwardEmailBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">71</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">buildForwardEmail</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardedBy</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlPref</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fromName</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fromEmail</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardedPersonalNote</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$messageId</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$email</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$forwardedBy</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$data</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$htmlPref</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$fromName</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$fromEmail</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$forwardedPersonalNote</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|null</span>
             </section>
 
 </article>
@@ -1143,22 +1634,22 @@
             -protected
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_addSystemHeaders">
-        addSystemHeaders()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_addSystemHeaders" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_applyPdfFormat">
+        applyPdfFormat()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_applyPdfFormat" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-systememailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php">SystemEmailBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">133</span>
+    <span class="phpdocumentor-element-found-in__line">227</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">addSystemHeaders</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$originalTo</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$destinationEmail</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$inBlast</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">applyPdfFormat</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$textMessage</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlPref</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwarded</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\OutputFormat">OutputFormat</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1169,78 +1660,6 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$email</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$originalTo</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$destinationEmail</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$inBlast</span>
-                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_applyContentAndFormatting">
-        applyContentAndFormatting()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_applyContentAndFormatting" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php"><a href="files/src-domain-messaging-service-builder-systememailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php">SystemEmailBuilder.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">138</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">applyContentAndFormatting</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlMessage</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$textMessage</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$email</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$htmlMessage</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1259,13 +1678,107 @@
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$htmlPref</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$forwarded</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
 
         
     
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\OutputFormat">OutputFormat</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_applyTextAndPdfFormat">
+        applyTextAndPdfFormat()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_applyTextAndPdfFormat" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">249</span>
+
+    </aside>
+
     
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">applyTextAndPdfFormat</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$textMessage</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlPref</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwarded</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\OutputFormat">OutputFormat</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$email</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$textMessage</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$messageId</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$htmlPref</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$forwarded</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\OutputFormat">OutputFormat</abbr></a></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -1333,6 +1846,54 @@
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_normalizeSendFormat">
+        normalizeSendFormat()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_normalizeSendFormat" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">214</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">normalizeSendFormat</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sendFormat</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$sendFormat</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
             </section>
 
 </article>
@@ -1445,6 +2006,68 @@
             -protected
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_shouldPreferHtml">
+        shouldPreferHtml()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_shouldPreferHtml" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/EmailBuilder.php"><a href="files/src-domain-messaging-service-builder-emailbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/EmailBuilder.php">EmailBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">195</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">shouldPreferHtml</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlMessage</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$htmlPref</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$htmlMessage</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$htmlPref</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$email</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\Mime\Email">Email</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_validateRecipientAndSubject">
         validateRecipientAndSubject()
         <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#method_validateRecipientAndSubject" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1500,7 +2123,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Service/Builder/SystemEmailBuilder.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Service/Builder/ForwardEmailBuilder.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -1601,14 +2224,15 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_attachmentAdder">$attachmentAdder</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#property_blacklistRepository">$blacklistRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#property_configProvider">$configProvider</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#property_devEmail">$devEmail</a></li>
@@ -1616,27 +2240,35 @@
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#property_eventLogManager">$eventLogManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#property_googleSenderId">$googleSenderId</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#property_logger">$logger</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#property_mailConstructor">$mailConstructor</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_mailContentBuilder">$mailContentBuilder</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_pdfGenerator">$pdfGenerator</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#property_subscriberHistoryManager">$subscriberHistoryManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#property_subscriberRepository">$subscriberRepository</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#property_templateImageEmbedder">$templateImageEmbedder</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_templateImageEmbedder">$templateImageEmbedder</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_translator">$translator</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#property_urlBuilder">$urlBuilder</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#property_useAmazonSes">$useAmazonSes</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#property_usePrecedenceHeader">$usePrecedenceHeader</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#property_httpReceivedStampBuilder">$httpReceivedStampBuilder</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_buildCampaignEmail">buildCampaignEmail()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_buildSystemEmail">buildSystemEmail()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#method_applyCampaignHeaders">applyCampaignHeaders()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_applyContentAndFormatting">applyContentAndFormatting()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_buildCampaignEmail">buildCampaignEmail()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#method_buildForwardEmail">buildForwardEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#method_addBaseCampaignHeaders">addBaseCampaignHeaders()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_addSystemHeaders">addSystemHeaders()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#method_applyContentAndFormatting">applyContentAndFormatting()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_applyPdfFormat">applyPdfFormat()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_applyTextAndPdfFormat">applyTextAndPdfFormat()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#method_createBaseEmail">createBaseEmail()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_normalizeSendFormat">normalizeSendFormat()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#method_passesBlacklistCheck">passesBlacklistCheck()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#method_resolveDestinationEmail">resolveDestinationEmail()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html#method_shouldPreferHtml">shouldPreferHtml()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-BaseEmailBuilder.html#method_validateRecipientAndSubject">validateRecipientAndSubject()</a></li>
                                     </ul>
             </li>
@@ -1657,7 +2289,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

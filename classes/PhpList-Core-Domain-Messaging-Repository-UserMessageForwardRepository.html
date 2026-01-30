@@ -130,7 +130,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageForwardRepository.php"><a href="files/src-domain-messaging-repository-usermessageforwardrepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageForwardRepository.php">UserMessageForwardRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -178,6 +178,12 @@
 <dd>Removes $model and flushes the entity manager change list.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_findByEmailAndMessage">findByEmailAndMessage()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\UserMessageForward">UserMessageForward</abbr></a>|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a>
     <span>
                                 &nbsp;: array&lt;string|int, mixed&gt;    </span>
@@ -185,6 +191,12 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_getCountByMessageId">getCountByMessageId()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_getCountByUserSince">getCountByUserSince()</a>
     <span>
                                 &nbsp;: int    </span>
 </dt>
@@ -283,6 +295,61 @@ following the Law of Demeter.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_findByEmailAndMessage">
+        findByEmailAndMessage()
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_findByEmailAndMessage" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageForwardRepository.php"><a href="files/src-domain-messaging-repository-usermessageforwardrepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageForwardRepository.php">UserMessageForwardRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">42</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">findByEmailAndMessage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\UserMessageForward">UserMessageForward</abbr></a>|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$email</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$messageId</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-UserMessageForward.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\UserMessageForward">UserMessageForward</abbr></a>|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getAfterId">
         getAfterId()
         <a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId" class="headerlink"><i class="fas fa-link"></i></a>
@@ -350,7 +417,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageForwardRepository.php"><a href="files/src-domain-messaging-repository-usermessageforwardrepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageForwardRepository.php">UserMessageForwardRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -368,6 +435,61 @@ following the Law of Demeter.</p>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$messageId</span>
                 : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getCountByUserSince">
+        getCountByUserSince()
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_getCountByUserSince" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageForwardRepository.php"><a href="files/src-domain-messaging-repository-usermessageforwardrepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageForwardRepository.php">UserMessageForwardRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">28</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getCountByUserSince</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$user</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\DateTimeInterface">DateTimeInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cutoff</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$user</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$cutoff</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\DateTimeInterface">DateTimeInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -714,8 +836,10 @@ following the Law of Demeter.</p>
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_delete">delete()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_findByEmailAndMessage">findByEmailAndMessage()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_getCountByMessageId">getCountByMessageId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_getCountByUserSince">getCountByUserSince()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_persist">persist()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_remove">remove()</a></li>

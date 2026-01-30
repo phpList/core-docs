@@ -177,6 +177,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_keepForwardedAttributes">$keepForwardedAttributes</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_patternResolvers">$patternResolvers</a>
     <span>
                         &nbsp;: iterable&lt;string|int, <a href="classes/PhpList-Core-Domain-Configuration-Service-Placeholder-PatternValueResolverInterface.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Placeholder\PatternValueResolverInterface">PatternValueResolverInterface</abbr></a>&gt;            </span>
@@ -408,6 +414,57 @@
             -private
                                                 -read-only                    "
 >
+    <h4 class="phpdocumentor-element__name" id="property_keepForwardedAttributes">
+        $keepForwardedAttributes
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_keepForwardedAttributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/MessagePlaceholderProcessor.php"><a href="files/src-domain-configuration-service-messageplaceholderprocessor.html"><abbr title="src/Domain/Configuration/Service/MessagePlaceholderProcessor.php">MessagePlaceholderProcessor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$keepForwardedAttributes</span>
+    </code>
+
+    
+    
+    
+
+        
+            <section class="phpdocumentor-attributes">
+            <h5 class="phpdocumentor-elements__header" id="attributes">
+                Attributes <a href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_keepForwardedAttributes#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+            </h5>
+                            <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Symfony\Component\DependencyInjection\Attribute\Autowire">Autowire</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        &#039;%phplist.keep_forwarded_attributes%&#039;
+    </dd>
+    </dl>
+                    </section>
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_patternResolvers">
         $patternResolvers
         <a href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_patternResolvers" class="headerlink"><i class="fas fa-link"></i></a>
@@ -541,7 +598,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$config</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberAttributeValueRepository">SubscriberAttributeValueRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributesRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Resolver\AttributeValueResolver">AttributeValueResolver</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeValueResolver</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">iterable&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$placeholderResolvers</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">iterable&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$patternResolvers</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">iterable&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$supportingResolvers</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$alwaysAddUserTrack</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$config</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberAttributeValueRepository">SubscriberAttributeValueRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributesRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Resolver\AttributeValueResolver">AttributeValueResolver</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeValueResolver</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">iterable&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$placeholderResolvers</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">iterable&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$patternResolvers</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">iterable&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$supportingResolvers</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$alwaysAddUserTrack</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$keepForwardedAttributes</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -598,6 +655,13 @@
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$keepForwardedAttributes</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -620,14 +684,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/MessagePlaceholderProcessor.php"><a href="files/src-domain-configuration-service-messageplaceholderprocessor.html"><abbr title="src/Domain/Configuration/Service/MessagePlaceholderProcessor.php">MessagePlaceholderProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">process</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$user</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\OutputFormat">OutputFormat</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$format</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messagePrecacheDto</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaignId</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardedBy</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+                    <span class="phpdocumentor-signature__name">process</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$receiver</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Model-OutputFormat.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\OutputFormat">OutputFormat</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$format</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messagePrecacheDto</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaignId</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardedBy</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -643,7 +707,7 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$user</span>
+                <span class="phpdocumentor-argument-list__argument__name">$receiver</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -672,7 +736,7 @@
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$forwardedBy</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>|null</span>
                  = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -703,7 +767,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/MessagePlaceholderProcessor.php"><a href="files/src-domain-configuration-service-messageplaceholderprocessor.html"><abbr title="src/Domain/Configuration/Service/MessagePlaceholderProcessor.php">MessagePlaceholderProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">116</span>
+    <span class="phpdocumentor-element-found-in__line">121</span>
 
     </aside>
 
@@ -758,7 +822,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/MessagePlaceholderProcessor.php"><a href="files/src-domain-configuration-service-messageplaceholderprocessor.html"><abbr title="src/Domain/Configuration/Service/MessagePlaceholderProcessor.php">MessagePlaceholderProcessor.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">97</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 
     </aside>
 
@@ -918,6 +982,7 @@
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_attributesRepository">$attributesRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_attributeValueResolver">$attributeValueResolver</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_config">$config</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_keepForwardedAttributes">$keepForwardedAttributes</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_patternResolvers">$patternResolvers</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_placeholderResolvers">$placeholderResolvers</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#property_supportingResolvers">$supportingResolvers</a></li>

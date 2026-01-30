@@ -93,21 +93,16 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription.html">Subscription</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service.html">Service</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service-manager.html">Manager</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-service.html">Service</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-service-builder.html">Builder</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    SubscriberAttributeManagerTest
+    HttpReceivedStampBuilder
 
-        <span class="phpdocumentor-element__extends">
-        extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
-    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -125,9 +120,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 
     </aside>
 
@@ -140,7 +135,7 @@
     
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -152,41 +147,42 @@
 
 
 
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname">$hostname</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_requestStack">$requestStack</a>
+    <span>
+                        &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>            </span>
+</dt>
+
+    </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsWhenValueAndDefaultAreNull">testCreateFailsWhenValueAndDefaultAreNull()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method___construct">__construct()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateNewSubscriberAttribute">testCreateNewSubscriberAttribute()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method_buildStamp">buildStamp()</a>
     <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testDeleteSubscriberAttribute">testDeleteSubscriberAttribute()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testGetSubscriberAttribute">testGetSubscriberAttribute()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testUpdateExistingSubscriberAttribute">testUpdateExistingSubscriberAttribute()</a>
-    <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: string|null    </span>
 </dt>
 
     </dl>
@@ -196,11 +192,106 @@
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_hostname">
+        $hostname
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">15</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$hostname</span>
+    </code>
+
+    
+    
+    
+
+        
+            <section class="phpdocumentor-attributes">
+            <h5 class="phpdocumentor-elements__header" id="attributes">
+                Attributes <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+            </h5>
+                            <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Symfony\Component\DependencyInjection\Attribute\Autowire">Autowire</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        &#039;%app.rest_api_domain%&#039;
+    </dd>
+    </dl>
+                    </section>
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_requestStack">
+        $requestStack
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_requestStack" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span>
+    <span class="phpdocumentor-signature__name">$requestStack</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -209,28 +300,45 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreateFailsWhenValueAndDefaultAreNull">
-        testCreateFailsWhenValueAndDefaultAreNull()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsWhenValueAndDefaultAreNull" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">90</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreateFailsWhenValueAndDefaultAreNull</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hostname</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$requestStack</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$hostname</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
     
 
         
@@ -243,22 +351,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreateNewSubscriberAttribute">
-        testCreateNewSubscriberAttribute()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateNewSubscriberAttribute" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_buildStamp">
+        buildStamp()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method_buildStamp" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreateNewSubscriberAttribute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">buildStamp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -269,109 +377,11 @@
 
         
     
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testDeleteSubscriberAttribute">
-        testDeleteSubscriberAttribute()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testDeleteSubscriberAttribute" class="headerlink"><i class="fas fa-link"></i></a>
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+            </section>
 
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">141</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testDeleteSubscriberAttribute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testGetSubscriberAttribute">
-        testGetSubscriberAttribute()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testGetSubscriberAttribute" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">116</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testGetSubscriberAttribute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testUpdateExistingSubscriberAttribute">
-        testUpdateExistingSubscriberAttribute()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testUpdateExistingSubscriberAttribute" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberattributemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php">SubscriberAttributeManagerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">57</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testUpdateExistingSubscriberAttribute</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
 </article>
             </section>
 
@@ -379,7 +389,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Subscription/Service/Manager/SubscriberAttributeManagerTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -480,19 +490,24 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname">$hostname</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_requestStack">$requestStack</a></li>
+                                            </ul>
+                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateFailsWhenValueAndDefaultAreNull">testCreateFailsWhenValueAndDefaultAreNull()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testCreateNewSubscriberAttribute">testCreateNewSubscriberAttribute()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testDeleteSubscriberAttribute">testDeleteSubscriberAttribute()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testGetSubscriberAttribute">testGetSubscriberAttribute()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#method_testUpdateExistingSubscriberAttribute">testUpdateExistingSubscriberAttribute()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method_buildStamp">buildStamp()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -512,7 +527,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberAttributeManagerTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

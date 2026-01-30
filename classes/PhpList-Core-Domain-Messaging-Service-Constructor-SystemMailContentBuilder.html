@@ -111,9 +111,6 @@
                             </ul>
         </div>
     
-            <span class="phpdocumentor-element__implements">
-            implements
-                            <a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-MailContentBuilderInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\MailContentBuilderInterface">MailContentBuilderInterface</abbr></a>                    </span>
     
     </h2>
 
@@ -144,13 +141,6 @@
 
 
 
-    <h4 id="toc-interfaces">
-        Interfaces
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-SystemMailContentBuilder.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-MailContentBuilderInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Constructor\MailContentBuilderInterface">MailContentBuilderInterface</abbr></a></dt>    </dl>
 
 
 
@@ -216,9 +206,8 @@
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-SystemMailContentBuilder.html#method___invoke">__invoke()</a>
     <span>
-                                &nbsp;: array{0: string, 1: string}    </span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
-<dd>Build HTML and Text representations of a message body using a given subject.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Constructor-SystemMailContentBuilder.html#method_buildMessageBodies">buildMessageBodies()</a>
@@ -559,11 +548,10 @@
 
     </aside>
 
-        <p class="phpdocumentor-summary">Build HTML and Text representations of a message body using a given subject.</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__invoke</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messagePrecacheDto</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaignId</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array{0: string, 1: string}</span></code>
+                    <span class="phpdocumentor-signature__name">__invoke</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messagePrecacheDto</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -576,15 +564,6 @@
                 : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>The message precache data containing content and subject</p>
-</section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$campaignId</span>
-                : <span class="phpdocumentor-argument-list__argument__type">int|null</span>
-                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
             </dl>
@@ -595,11 +574,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array{0: string, 1: string}</span>
-                    &mdash;
-                <section class="phpdocumentor-description"><p>[htmlContent, textContent]</p>
-</section>
-
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
             </section>
 
 </article>
