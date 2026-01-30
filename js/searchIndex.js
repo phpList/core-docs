@@ -1891,6 +1891,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-ParameterProvider.html#property_config"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Version",
+            "name": "Version",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Version.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Version\u003A\u003AVERSION",
+            "name": "VERSION",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Version.html#constant_VERSION"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Exception\\MissingMessageIdException",
             "name": "MissingMessageIdException",
             "summary": "",
@@ -6171,6 +6181,91 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Repository-AdminPasswordRequestRepository.html#method_findOneByToken"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender",
+            "name": "AdminCopyEmailSender",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender\u003A\u003A__invoke\u0028\u0029",
+            "name": "__invoke",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender\u003A\u003AresolveRecipientEmails\u0028\u0029",
+            "name": "resolveRecipientEmails",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html#method_resolveRecipientEmails"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender\u003A\u003A\u0024systemEmailBuilder",
+            "name": "systemEmailBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html#property_systemEmailBuilder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender\u003A\u003A\u0024mailer",
+            "name": "mailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender\u003A\u003A\u0024sendListAdminCopy",
+            "name": "sendListAdminCopy",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html#property_sendListAdminCopy"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender\u003A\u003A\u0024bounceEmail",
+            "name": "bounceEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html#property_bounceEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender\u003A\u003A\u0024installationName",
+            "name": "installationName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html#property_installationName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminNotifier",
+            "name": "AdminNotifier",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminNotifier.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminNotifier\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminNotifier.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminNotifier\u003A\u003AnotifyForwardFailed\u0028\u0029",
+            "name": "notifyForwardFailed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminNotifier.html#method_notifyForwardFailed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminNotifier\u003A\u003AnotifyForwardSucceeded\u0028\u0029",
+            "name": "notifyForwardSucceeded",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminNotifier.html#method_notifyForwardSucceeded"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminNotifier\u003A\u003A\u0024adminCopyEmailSender",
+            "name": "adminCopyEmailSender",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminNotifier.html#property_adminCopyEmailSender"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminNotifier\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminNotifier.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminNotifier\u003A\u003A\u0024eventLogManager",
+            "name": "eventLogManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminNotifier.html#property_eventLogManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Manager\\AdminAttributeDefinitionManager",
             "name": "AdminAttributeDefinitionManager",
             "summary": "",
@@ -7900,6 +7995,76 @@ Search.appendIndex(
             "name": "getTemplateId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageDtoInterface.html#method_getTemplateId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto",
+            "name": "MessageForwardDto",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003AgetEmails\u0028\u0029",
+            "name": "getEmails",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#method_getEmails"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003AgetUid\u0028\u0029",
+            "name": "getUid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#method_getUid"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003AgetCutoff\u0028\u0029",
+            "name": "getCutoff",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#method_getCutoff"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003AgetFromName\u0028\u0029",
+            "name": "getFromName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#method_getFromName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003AgetFromEmail\u0028\u0029",
+            "name": "getFromEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#method_getFromEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003AgetNote\u0028\u0029",
+            "name": "getNote",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#method_getNote"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003A\u0024emails",
+            "name": "emails",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#property_emails"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003A\u0024uid",
+            "name": "uid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#property_uid"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003A\u0024cutoff",
+            "name": "cutoff",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#property_cutoff"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003A\u0024fromName",
+            "name": "fromName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#property_fromName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003A\u0024fromEmail",
+            "name": "fromEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#property_fromEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003A\u0024note",
+            "name": "note",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#property_note"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto",
             "name": "MessagePrecacheDto",
@@ -9831,51 +9996,6 @@ Search.appendIndex(
             "summary": "Counts\u0020how\u0020many\u0020user\u0020messages\u0020have\u0020status\u0020\u0022sent\u0022\u0020since\u0020the\u0020given\u0020time.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_countSentSince"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AdminCopyEmailSender",
-            "name": "AdminCopyEmailSender",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-AdminCopyEmailSender.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AdminCopyEmailSender\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-AdminCopyEmailSender.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AdminCopyEmailSender\u003A\u003A__invoke\u0028\u0029",
-            "name": "__invoke",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-AdminCopyEmailSender.html#method___invoke"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AdminCopyEmailSender\u003A\u003A\u0024configProvider",
-            "name": "configProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-AdminCopyEmailSender.html#property_configProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AdminCopyEmailSender\u003A\u003A\u0024systemEmailBuilder",
-            "name": "systemEmailBuilder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-AdminCopyEmailSender.html#property_systemEmailBuilder"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AdminCopyEmailSender\u003A\u003A\u0024mailer",
-            "name": "mailer",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-AdminCopyEmailSender.html#property_mailer"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AdminCopyEmailSender\u003A\u003A\u0024sendListAdminCopy",
-            "name": "sendListAdminCopy",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-AdminCopyEmailSender.html#property_sendListAdminCopy"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AdminCopyEmailSender\u003A\u003A\u0024bounceEmail",
-            "name": "bounceEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-AdminCopyEmailSender.html#property_bounceEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AdminCopyEmailSender\u003A\u003A\u0024installationName",
-            "name": "installationName",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-AdminCopyEmailSender.html#property_installationName"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AttachmentAdder",
             "name": "AttachmentAdder",
             "summary": "",
@@ -10176,6 +10296,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method_buildStamp"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\HttpReceivedStampBuilder\u003A\u003AgetHostByAddr\u0028\u0029",
+            "name": "getHostByAddr",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method_getHostByAddr"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\HttpReceivedStampBuilder\u003A\u003A\u0024requestStack",
             "name": "requestStack",
             "summary": "",
@@ -10475,6 +10600,161 @@ Search.appendIndex(
             "name": "bounceEmail",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-EmailService.html#property_bounceEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardContentService",
+            "name": "ForwardContentService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardContentService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardContentService\u003A\u003AgetContents\u0028\u0029",
+            "name": "getContents",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#method_getContents"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardContentService\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardContentService\u003A\u003A\u0024messagePreparator",
+            "name": "messagePreparator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_messagePreparator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardContentService\u003A\u003A\u0024forwardEmailBuilder",
+            "name": "forwardEmailBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardEmailBuilder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardDeliveryService",
+            "name": "ForwardDeliveryService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardDeliveryService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardDeliveryService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardDeliveryService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardDeliveryService\u003A\u003Asend\u0028\u0029",
+            "name": "send",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardDeliveryService.html#method_send"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardDeliveryService\u003A\u003AmarkSent\u0028\u0029",
+            "name": "markSent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardDeliveryService.html#method_markSent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardDeliveryService\u003A\u003AmarkFailed\u0028\u0029",
+            "name": "markFailed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardDeliveryService.html#method_markFailed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardDeliveryService\u003A\u003A\u0024mailer",
+            "name": "mailer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardDeliveryService.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardDeliveryService\u003A\u003A\u0024messageForwardManager",
+            "name": "messageForwardManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardDeliveryService.html#property_messageForwardManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardDeliveryService\u003A\u003A\u0024bounceEmail",
+            "name": "bounceEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardDeliveryService.html#property_bounceEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingGuard",
+            "name": "ForwardingGuard",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingGuard\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingGuard\u003A\u003AassertCanForward\u0028\u0029",
+            "name": "assertCanForward",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html#method_assertCanForward"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingGuard\u003A\u003AhasAlreadyBeenSent\u0028\u0029",
+            "name": "hasAlreadyBeenSent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html#method_hasAlreadyBeenSent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingGuard\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingGuard\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingGuard\u003A\u003A\u0024forwardRepository",
+            "name": "forwardRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html#property_forwardRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingGuard\u003A\u003A\u0024forwardMessageCount",
+            "name": "forwardMessageCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html#property_forwardMessageCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService",
+            "name": "ForwardingStatsService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingStatsService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingStatsService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService\u003A\u003AincrementFriendsCount\u0028\u0029",
+            "name": "incrementFriendsCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingStatsService.html#method_incrementFriendsCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService\u003A\u003AupdateFriendsCount\u0028\u0029",
+            "name": "updateFriendsCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingStatsService.html#method_updateFriendsCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService\u003A\u003AloadFriendsCount\u0028\u0029",
+            "name": "loadFriendsCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingStatsService.html#method_loadFriendsCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService\u003A\u003A\u0024forwardFriendCountAttribute",
+            "name": "forwardFriendCountAttribute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingStatsService.html#property_forwardFriendCountAttribute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService\u003A\u003A\u0024friendCount",
+            "name": "friendCount",
+            "summary": "Cached\u0020friend\u0020counts\u0020for\u0020this\u0020request.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingStatsService.html#property_friendCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService\u003A\u003A\u0024subscriberAttributeValueRepo",
+            "name": "subscriberAttributeValueRepo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingStatsService.html#property_subscriberAttributeValueRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService\u003A\u003A\u0024subscriberAttributeManager",
+            "name": "subscriberAttributeManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingStatsService.html#property_subscriberAttributeManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\RequeueHandler",
             "name": "RequeueHandler",
@@ -11131,110 +11411,45 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#method_forward"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003AhandleFail\u0028\u0029",
-            "name": "handleFail",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024guard",
+            "name": "guard",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#method_handleFail"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_guard"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003AhandleSuccess\u0028\u0029",
-            "name": "handleSuccess",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024forwardDeliveryService",
+            "name": "forwardDeliveryService",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#method_handleSuccess"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024forwardFriendCountAttribute",
-            "name": "forwardFriendCountAttribute",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_forwardFriendCountAttribute"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024forwardRepository",
-            "name": "forwardRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_forwardRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024subscriberRepository",
-            "name": "subscriberRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_subscriberRepository"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_forwardDeliveryService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024messageDataLoader",
             "name": "messageDataLoader",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_messageDataLoader"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024translator",
-            "name": "translator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_translator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024userMessageRepository",
-            "name": "userMessageRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_userMessageRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024subscriberAttributeValueRepo",
-            "name": "subscriberAttributeValueRepo",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_subscriberAttributeValueRepo"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024subscriberListRepository",
             "name": "subscriberListRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_subscriberListRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024cache",
-            "name": "cache",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024forwardContentService",
+            "name": "forwardContentService",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_cache"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024messagePreparator",
-            "name": "messagePreparator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_messagePreparator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024forwardEmailBuilder",
-            "name": "forwardEmailBuilder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_forwardEmailBuilder"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_forwardContentService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024precacheService",
             "name": "precacheService",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_precacheService"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024eventLogManager",
-            "name": "eventLogManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024adminNotifier",
+            "name": "adminNotifier",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_eventLogManager"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_adminNotifier"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024mailer",
-            "name": "mailer",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024forwardingStatsService",
+            "name": "forwardingStatsService",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_mailer"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024adminCopyEmailSender",
-            "name": "adminCopyEmailSender",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_adminCopyEmailSender"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024messageForwardManager",
-            "name": "messageForwardManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_messageForwardManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024subscriberAttributeManager",
-            "name": "subscriberAttributeManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_subscriberAttributeManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024bounceEmail",
-            "name": "bounceEmail",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_bounceEmail"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024forwardMessageCount",
-            "name": "forwardMessageCount",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_forwardMessageCount"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_forwardingStatsService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService",
             "name": "MessagePrecacheService",
@@ -11710,6 +11925,16 @@ Search.appendIndex(
             "name": "statusCode",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Exception-AttributeDefinitionCreationException.html#property_statusCode"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\AttributeNotAllowedException",
+            "name": "AttributeNotAllowedException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Exception-AttributeNotAllowedException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\AttributeNotAllowedException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Exception-AttributeNotAllowedException.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\AttributeTypeChangeNotAllowed",
             "name": "AttributeTypeChangeNotAllowed",
@@ -14011,11 +14236,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#method_processAttributes"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003AsaveUserAttribute\u0028\u0029",
-            "name": "saveUserAttribute",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#method_saveUserAttribute"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A\u0024attributeRepository",
             "name": "attributeRepository",
             "summary": "",
@@ -14035,26 +14255,6 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_translator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A\u0024configProvider",
-            "name": "configProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_configProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A\u0024dynamicTablesManager",
-            "name": "dynamicTablesManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_dynamicTablesManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A\u0024dynamicListAttrManager",
-            "name": "dynamicListAttrManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_dynamicListAttrManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager\u003A\u003A\u0024maxAvatarSize",
-            "name": "maxAvatarSize",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html#property_maxAvatarSize"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberBlacklistManager",
             "name": "SubscriberBlacklistManager",
@@ -18186,15 +18386,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-FooterValueResolverTest.html#method_testName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Placeholder\\FooterValueResolverTest\u003A\u003AtestReturnsDtoFooterWhenNotForwarded_Text\u0028\u0029",
-            "name": "testReturnsDtoFooterWhenNotForwarded_Text",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Placeholder\\FooterValueResolverTest\u003A\u003AtestReturnsDtoFooterWhenNotForwardedText\u0028\u0029",
+            "name": "testReturnsDtoFooterWhenNotForwardedText",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-FooterValueResolverTest.html#method_testReturnsDtoFooterWhenNotForwarded_Text"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-FooterValueResolverTest.html#method_testReturnsDtoFooterWhenNotForwardedText"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Placeholder\\FooterValueResolverTest\u003A\u003AtestReturnsDtoFooterWhenNotForwarded_Html\u0028\u0029",
-            "name": "testReturnsDtoFooterWhenNotForwarded_Html",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Placeholder\\FooterValueResolverTest\u003A\u003AtestReturnsDtoFooterWhenNotForwardedHtml\u0028\u0029",
+            "name": "testReturnsDtoFooterWhenNotForwardedHtml",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-FooterValueResolverTest.html#method_testReturnsDtoFooterWhenNotForwarded_Html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-FooterValueResolverTest.html#method_testReturnsDtoFooterWhenNotForwardedHtml"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Placeholder\\FooterValueResolverTest\u003A\u003AtestForwardedAlternativeUsesStripslashesFooter\u0028\u0029",
             "name": "testForwardedAlternativeUsesStripslashesFooter",
@@ -23991,15 +24191,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-identity-repository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Manager",
-            "name": "Manager",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain-identity-service-manager.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service",
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-domain-identity-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Manager",
+            "name": "Manager",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-identity-service-manager.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator",
             "name": "Validator",

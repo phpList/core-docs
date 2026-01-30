@@ -96,12 +96,11 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-service.html">Service</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-service-builder.html">Builder</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    HttpReceivedStampBuilder
+    ForwardContentService
 
     
             <div class="phpdocumentor-element__package">
@@ -120,9 +119,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
@@ -135,7 +134,7 @@
     
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -149,46 +148,46 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname">$hostname</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_cache">$cache</a>
     <span>
-                        &nbsp;: string            </span>
+                        &nbsp;: <abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_requestStack">$requestStack</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardEmailBuilder">$forwardEmailBuilder</a>
     <span>
-                        &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\ForwardEmailBuilder">ForwardEmailBuilder</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_messagePreparator">$messagePreparator</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a>            </span>
 </dt>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method_buildStamp">buildStamp()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#method_getContents">getContents()</a>
     <span>
-                                &nbsp;: string|null    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method_getHostByAddr">getHostByAddr()</a>
-    <span>
-                                &nbsp;: string|null    </span>
+                                &nbsp;: <abbr title="array{\Symfony\Component\Mime\Email, \PhpList\Core\Domain\Configuration\Model\OutputFormat}">OutputFormat}</abbr>|null    </span>
 </dt>
 
     </dl>
@@ -201,7 +200,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -211,17 +210,17 @@
             -private
                                                 -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_hostname">
-        $hostname
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_cache">
+        $cache
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_cache" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -229,8 +228,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$hostname</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$cache</span>
     </code>
 
     
@@ -238,20 +237,6 @@
     
 
         
-            <section class="phpdocumentor-attributes">
-            <h5 class="phpdocumentor-elements__header" id="attributes">
-                Attributes <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname#attributes" class="headerlink"><i class="fas fa-link"></i></a>
-
-            </h5>
-                            <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Symfony\Component\DependencyInjection\Attribute\Autowire">Autowire</abbr>]
-    </dt>
-        <dd class="phpdocumentor-argument-list__entry">
-        &#039;%app.rest_api_domain%&#039;
-    </dd>
-    </dl>
-                    </section>
         
 
 </article>
@@ -262,17 +247,17 @@
             -private
                                                 -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_requestStack">
-        $requestStack
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_requestStack" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_forwardEmailBuilder">
+        $forwardEmailBuilder
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardEmailBuilder" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
@@ -280,8 +265,45 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span>
-    <span class="phpdocumentor-signature__name">$requestStack</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\ForwardEmailBuilder">ForwardEmailBuilder</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$forwardEmailBuilder</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_messagePreparator">
+        $messagePreparator
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_messagePreparator" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$messagePreparator</span>
     </code>
 
     
@@ -297,7 +319,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -308,20 +330,20 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hostname</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cache</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messagePreparator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\ForwardEmailBuilder">ForwardEmailBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardEmailBuilder</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -330,15 +352,22 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$requestStack</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span>
+                <span class="phpdocumentor-argument-list__argument__name">$cache</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$hostname</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                <span class="phpdocumentor-argument-list__argument__name">$messagePreparator</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$forwardEmailBuilder</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\ForwardEmailBuilder">ForwardEmailBuilder</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -357,60 +386,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_buildStamp">
-        buildStamp()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method_buildStamp" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getContents">
+        getContents()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#method_getContents" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">buildStamp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string|null</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getHostByAddr">
-        getHostByAddr()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method_getHostByAddr" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">46</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">getHostByAddr</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ipAddress</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+                    <span class="phpdocumentor-signature__name">getContents</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaign</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardingSubscriber</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$friendEmail</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessageForwardDto">MessageForwardDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardDto</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="array{\Symfony\Component\Mime\Email, \PhpList\Core\Domain\Configuration\Model\OutputFormat}">OutputFormat}</abbr>|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -419,8 +410,29 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$ipAddress</span>
+                <span class="phpdocumentor-argument-list__argument__name">$campaign</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$forwardingSubscriber</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$friendEmail</span>
                 : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$forwardDto</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessageForwardDto">MessageForwardDto</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -433,7 +445,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string|null</span>
+        <span class="phpdocumentor-signature__response_type"><abbr title="array{\Symfony\Component\Mime\Email, \PhpList\Core\Domain\Configuration\Model\OutputFormat}">OutputFormat}</abbr>|null</span>
             </section>
 
 </article>
@@ -443,7 +455,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Service/ForwardContentService.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -544,25 +556,25 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname">$hostname</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_requestStack">$requestStack</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_cache">$cache</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardEmailBuilder">$forwardEmailBuilder</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_messagePreparator">$messagePreparator</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method_buildStamp">buildStamp()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#method_getHostByAddr">getHostByAddr()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#method_getContents">getContents()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -582,7 +594,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
