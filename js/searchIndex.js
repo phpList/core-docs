@@ -4321,6 +4321,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#method_appendContent"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\MessagePlaceholderProcessor\u003A\u003AregisterAttributeResolvers\u0028\u0029",
+            "name": "registerAttributeResolvers",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#method_registerAttributeResolvers"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\MessagePlaceholderProcessor\u003A\u003A\u0024config",
             "name": "config",
             "summary": "",
@@ -5075,11 +5080,6 @@ Search.appendIndex(
             "name": "getValue",
             "summary": "Get\u0020configuration\u0020value\u0020by\u0020its\u0020key,\u0020from\u0020settings\u0020or\u0020default\u0020configs\u0020or\u0020default\u0020value\u0020\u0028if\u0020provided\u0029",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#method_getValue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003AgetBoolValue\u0028\u0029",
-            "name": "getBoolValue",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#method_getBoolValue"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003AgetValueWithNamespace\u0028\u0029",
             "name": "getValueWithNamespace",
@@ -10743,8 +10743,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService\u003A\u003A\u0024friendCount",
             "name": "friendCount",
-            "summary": "Cached\u0020friend\u0020counts\u0020for\u0020this\u0020request.",
+            "summary": "Cached\u0020friend\u0020counts\u0020for\u0020this\u0020request\u0020\/\u0020service\u0020instance.",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingStatsService.html#property_friendCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService\u003A\u003A\u0024friendCountSubscriberId",
+            "name": "friendCountSubscriberId",
+            "summary": "Subscriber\u0020ID\u0020for\u0020which\u0020the\u0020cache\u0020is\u0020valid.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingStatsService.html#property_friendCountSubscriberId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService\u003A\u003A\u0024subscriberAttributeValueRepo",
             "name": "subscriberAttributeValueRepo",
