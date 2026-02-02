@@ -10496,10 +10496,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Constructor-CampaignMailContentBuilder.html#property_placeholderProcessor"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilder\u003A\u003A\u0024forwardPersonalNote",
-            "name": "forwardPersonalNote",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilder\u003A\u003A\u0024forwardPersonalNoteSize",
+            "name": "forwardPersonalNoteSize",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Constructor-CampaignMailContentBuilder.html#property_forwardPersonalNote"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Constructor-CampaignMailContentBuilder.html#property_forwardPersonalNoteSize"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Constructor\\SystemMailContentBuilder",
             "name": "SystemMailContentBuilder",
