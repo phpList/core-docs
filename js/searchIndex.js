@@ -8016,11 +8016,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#method_getUid"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003AgetCutoff\u0028\u0029",
-            "name": "getCutoff",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#method_getCutoff"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003AgetFromName\u0028\u0029",
             "name": "getFromName",
             "summary": "",
@@ -8045,11 +8040,6 @@ Search.appendIndex(
             "name": "uid",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#property_uid"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003A\u0024cutoff",
-            "name": "cutoff",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessageForwardDto.html#property_cutoff"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessageForwardDto\u003A\u003A\u0024fromName",
             "name": "fromName",
@@ -10691,6 +10681,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html#method_hasAlreadyBeenSent"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingGuard\u003A\u003AgetForwardCutoffDate\u0028\u0029",
+            "name": "getForwardCutoffDate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html#method_getForwardCutoffDate"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingGuard\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
             "summary": "",
@@ -10710,6 +10705,11 @@ Search.appendIndex(
             "name": "forwardMessageCount",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html#property_forwardMessageCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingGuard\u003A\u003A\u0024forwardEmailPeriod",
+            "name": "forwardEmailPeriod",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardingGuard.html#property_forwardEmailPeriod"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardingStatsService",
             "name": "ForwardingStatsService",
