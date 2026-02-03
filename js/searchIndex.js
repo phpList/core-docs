@@ -6676,6 +6676,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Exception-DevEmailNotConfiguredException.html#method___construct"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\EmailBlacklistedException",
+            "name": "EmailBlacklistedException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-EmailBlacklistedException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\EmailBlacklistedException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-EmailBlacklistedException.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\ForwardLimitExceededException",
             "name": "ForwardLimitExceededException",
             "summary": "",
@@ -6705,6 +6715,16 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Exception-InvalidDtoTypeException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\InvalidRecipientOrSubjectException",
+            "name": "InvalidRecipientOrSubjectException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-InvalidRecipientOrSubjectException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\InvalidRecipientOrSubjectException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-InvalidRecipientOrSubjectException.html#method___construct"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\MessageCacheMissingException",
             "name": "MessageCacheMissingException",
@@ -7795,6 +7815,66 @@ Search.appendIndex(
             "name": "shouldCheckExternalImages",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-CreateTemplateDto.html#property_shouldCheckExternalImages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingRecipientResult",
+            "name": "ForwardingRecipientResult",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingRecipientResult.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingRecipientResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingRecipientResult.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingRecipientResult\u003A\u003A\u0024email",
+            "name": "email",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingRecipientResult.html#property_email"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingRecipientResult\u003A\u003A\u0024status",
+            "name": "status",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingRecipientResult.html#property_status"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingRecipientResult\u003A\u003A\u0024reason",
+            "name": "reason",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingRecipientResult.html#property_reason"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingResult",
+            "name": "ForwardingResult",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingResult.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingResult.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingResult\u003A\u003A\u0024totalRequested",
+            "name": "totalRequested",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingResult.html#property_totalRequested"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingResult\u003A\u003A\u0024totalSent",
+            "name": "totalSent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingResult.html#property_totalSent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingResult\u003A\u003A\u0024totalFailed",
+            "name": "totalFailed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingResult.html#property_totalFailed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingResult\u003A\u003A\u0024totalAlreadySent",
+            "name": "totalAlreadySent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingResult.html#property_totalAlreadySent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingResult\u003A\u003A\u0024recipients",
+            "name": "recipients",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-ForwardingResult.html#property_recipients"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\Message\\MessageContentDto",
             "name": "MessageContentDto",
@@ -11415,6 +11495,11 @@ Search.appendIndex(
             "name": "forward",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#method_forward"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003AhandleFailure\u0028\u0029",
+            "name": "handleFailure",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#method_handleFailure"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024guard",
             "name": "guard",
@@ -22376,15 +22461,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageForwardServiceTest.html#method_testPrecacheFailureNotifiesAndMarksFailed"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageForwardServiceTest\u003A\u003AtestContentNullTriggersFailureFlow\u0028\u0029",
-            "name": "testContentNullTriggersFailureFlow",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageForwardServiceTest.html#method_testContentNullTriggersFailureFlow"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageForwardServiceTest\u003A\u003AtestSuccessfulFlowSendsAndUpdatesEverything\u0028\u0029",
             "name": "testSuccessfulFlowSendsAndUpdatesEverything",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageForwardServiceTest.html#method_testSuccessfulFlowSendsAndUpdatesEverything"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageForwardServiceTest\u003A\u003AtestGetContentsThrowsEmailBlacklistedIsHandledAsFailureAndReportedInResult\u0028\u0029",
+            "name": "testGetContentsThrowsEmailBlacklistedIsHandledAsFailureAndReportedInResult",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageForwardServiceTest.html#method_testGetContentsThrowsEmailBlacklistedIsHandledAsFailureAndReportedInResult"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageForwardServiceTest\u003A\u003AtestGetContentsThrowsInvalidRecipientIsHandledAsFailureAndReportedInResult\u0028\u0029",
+            "name": "testGetContentsThrowsInvalidRecipientIsHandledAsFailureAndReportedInResult",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageForwardServiceTest.html#method_testGetContentsThrowsInvalidRecipientIsHandledAsFailureAndReportedInResult"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageForwardServiceTest\u003A\u003AtestPrecacheFailureAlsoReflectedInForwardingResult\u0028\u0029",
+            "name": "testPrecacheFailureAlsoReflectedInForwardingResult",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageForwardServiceTest.html#method_testPrecacheFailureAlsoReflectedInForwardingResult"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageForwardServiceTest\u003A\u003AtestMixedScenarioAggregatesResultsAndSideEffects\u0028\u0029",
+            "name": "testMixedScenarioAggregatesResultsAndSideEffects",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageForwardServiceTest.html#method_testMixedScenarioAggregatesResultsAndSideEffects"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageForwardServiceTest\u003A\u003A\u0024guard",
             "name": "guard",
