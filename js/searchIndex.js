@@ -8596,26 +8596,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageFormat.html#method_incrementAsTextAndPdf"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageFormat\u003A\u003AgetFormatOptions\u0028\u0029",
-            "name": "getFormatOptions",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageFormat.html#method_getFormatOptions"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageFormat\u003A\u003AFORMAT_TEXT",
-            "name": "FORMAT_TEXT",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageFormat.html#constant_FORMAT_TEXT"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageFormat\u003A\u003AFORMAT_HTML",
-            "name": "FORMAT_HTML",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageFormat.html#constant_FORMAT_HTML"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageFormat\u003A\u003AFORMAT_PDF",
-            "name": "FORMAT_PDF",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageFormat.html#constant_FORMAT_PDF"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageFormat\u003A\u003A\u0024htmlFormatted",
             "name": "htmlFormatted",
             "summary": "",
