@@ -220,7 +220,7 @@
     <span>
                                 &nbsp;: array&lt;string|int, array&lt;string|int, string&gt;&gt;    </span>
 </dt>
-<dd>Finds the bundles class in all installed modules.</dd>
+<dd>Finds the bundle classes declared by all installed packages (including the root package).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Composer-ModuleFinder.html#method_findGeneralConfiguration">findGeneralConfiguration()</a>
@@ -234,7 +234,7 @@
     <span>
                                 &nbsp;: array&lt;string|int, array&lt;string|int, mixed&gt;&gt;    </span>
 </dt>
-<dd>Finds the routes in all installed modules.</dd>
+<dd>Finds the routes declared by all installed packages (including the root package).</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Composer-ModuleFinder.html#method_injectPackageRepository">injectPackageRepository()</a>
@@ -379,7 +379,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ModuleFinder.php"><a href="files/src-composer-modulefinder.html"><abbr title="src/Composer/ModuleFinder.php">ModuleFinder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">128</span>
+    <span class="phpdocumentor-element-found-in__line">133</span>
 
     </aside>
 
@@ -420,7 +420,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ModuleFinder.php"><a href="files/src-composer-modulefinder.html"><abbr title="src/Composer/ModuleFinder.php">ModuleFinder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">276</span>
+    <span class="phpdocumentor-element-found-in__line">286</span>
 
     </aside>
 
@@ -461,7 +461,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ModuleFinder.php"><a href="files/src-composer-modulefinder.html"><abbr title="src/Composer/ModuleFinder.php">ModuleFinder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">211</span>
+    <span class="phpdocumentor-element-found-in__line">221</span>
 
     </aside>
 
@@ -502,11 +502,11 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ModuleFinder.php"><a href="files/src-composer-modulefinder.html"><abbr title="src/Composer/ModuleFinder.php">ModuleFinder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Finds the bundles class in all installed modules.</p>
+        <p class="phpdocumentor-summary">Finds the bundle classes declared by all installed packages (including the root package).</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -515,7 +515,11 @@
     <div class="phpdocumentor-label-line">
         </div>
     
-    
+        <section class="phpdocumentor-description"><p>We intentionally scan all packages, not only those with a specific type, because the root
+package or other dependencies can also declare bundles via the &quot;extra.phplist/core.bundles&quot;
+section in their composer.json.</p>
+</section>
+
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -540,8 +544,8 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, string&gt;&gt;</span>
                     &mdash;
-                <section class="phpdocumentor-description"><p>class names of the bundles of all installed phpList modules:
-['module package name' =&gt; ['bundle class name 1', 'bundle class name 2']]</p>
+                <section class="phpdocumentor-description"><p>class names of the bundles grouped by package name:
+['package name' =&gt; ['Bundle\Class\Name1', 'Bundle\Class\Name2']]</p>
 </section>
 
             </section>
@@ -561,7 +565,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ModuleFinder.php"><a href="files/src-composer-modulefinder.html"><abbr title="src/Composer/ModuleFinder.php">ModuleFinder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">223</span>
+    <span class="phpdocumentor-element-found-in__line">233</span>
 
     </aside>
 
@@ -619,11 +623,11 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ModuleFinder.php"><a href="files/src-composer-modulefinder.html"><abbr title="src/Composer/ModuleFinder.php">ModuleFinder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
+    <span class="phpdocumentor-element-found-in__line">150</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Finds the routes in all installed modules.</p>
+        <p class="phpdocumentor-summary">Finds the routes declared by all installed packages (including the root package).</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
@@ -632,7 +636,11 @@
     <div class="phpdocumentor-label-line">
         </div>
     
-    
+        <section class="phpdocumentor-description"><p>We intentionally scan all packages, not only those with a specific type, because the root
+package or other dependencies can also declare routes via the &quot;extra.phplist/core.routes&quot;
+section in their composer.json.</p>
+</section>
+
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -657,8 +665,8 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">array&lt;string|int, array&lt;string|int, mixed&gt;&gt;</span>
                     &mdash;
-                <section class="phpdocumentor-description"><p>class names of the routes of all installed phpList modules:
-['route name' =&gt; [route configuration]</p>
+                <section class="phpdocumentor-description"><p>routes keyed by prefixed route name:
+['vendor/package.route_name' =&gt; [route configuration]]</p>
 </section>
 
             </section>
@@ -722,7 +730,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ModuleFinder.php"><a href="files/src-composer-modulefinder.html"><abbr title="src/Composer/ModuleFinder.php">ModuleFinder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">73</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 
@@ -784,7 +792,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ModuleFinder.php"><a href="files/src-composer-modulefinder.html"><abbr title="src/Composer/ModuleFinder.php">ModuleFinder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">251</span>
+    <span class="phpdocumentor-element-found-in__line">261</span>
 
     </aside>
 
@@ -846,7 +854,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ModuleFinder.php"><a href="files/src-composer-modulefinder.html"><abbr title="src/Composer/ModuleFinder.php">ModuleFinder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">111</span>
+    <span class="phpdocumentor-element-found-in__line">116</span>
 
     </aside>
 
@@ -906,7 +914,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ModuleFinder.php"><a href="files/src-composer-modulefinder.html"><abbr title="src/Composer/ModuleFinder.php">ModuleFinder.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">174</span>
+    <span class="phpdocumentor-element-found-in__line">184</span>
 
     </aside>
 

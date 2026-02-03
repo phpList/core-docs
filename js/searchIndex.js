@@ -1363,7 +1363,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Composer\\ModuleFinder\u003A\u003AfindBundleClasses\u0028\u0029",
             "name": "findBundleClasses",
-            "summary": "Finds\u0020the\u0020bundles\u0020class\u0020in\u0020all\u0020installed\u0020modules.",
+            "summary": "Finds\u0020the\u0020bundle\u0020classes\u0020declared\u0020by\u0020all\u0020installed\u0020packages\u0020\u0028including\u0020the\u0020root\u0020package\u0029.",
             "url": "classes/PhpList-Core-Composer-ModuleFinder.html#method_findBundleClasses"
         },                {
             "fqsen": "\\PhpList\\Core\\Composer\\ModuleFinder\u003A\u003AvalidateBundlesSectionInExtra\u0028\u0029",
@@ -1383,7 +1383,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Composer\\ModuleFinder\u003A\u003AfindRoutes\u0028\u0029",
             "name": "findRoutes",
-            "summary": "Finds\u0020the\u0020routes\u0020in\u0020all\u0020installed\u0020modules.",
+            "summary": "Finds\u0020the\u0020routes\u0020declared\u0020by\u0020all\u0020installed\u0020packages\u0020\u0028including\u0020the\u0020root\u0020package\u0029.",
             "url": "classes/PhpList-Core-Composer-ModuleFinder.html#method_findRoutes"
         },                {
             "fqsen": "\\PhpList\\Core\\Composer\\ModuleFinder\u003A\u003AvalidateRoutesSectionInExtra\u0028\u0029",
@@ -1900,6 +1900,16 @@ Search.appendIndex(
             "name": "VERSION",
             "summary": "",
             "url": "classes/PhpList-Core-Core-Version.html#constant_VERSION"
+        },                {
+            "fqsen": "\\PhpList\\Core\\DependencyInjection\\PhpListCoreExtension",
+            "name": "PhpListCoreExtension",
+            "summary": "",
+            "url": "classes/PhpList-Core-DependencyInjection-PhpListCoreExtension.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\DependencyInjection\\PhpListCoreExtension\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/PhpList-Core-DependencyInjection-PhpListCoreExtension.html#method_load"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Exception\\MissingMessageIdException",
             "name": "MissingMessageIdException",
@@ -15106,6 +15116,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_down"
         },                {
+            "fqsen": "\\PhpList\\Core\\PhpListCoreBundle",
+            "name": "PhpListCoreBundle",
+            "summary": "",
+            "url": "classes/PhpList-Core-PhpListCoreBundle.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Routing\\ExtraLoader",
             "name": "ExtraLoader",
             "summary": "This\u0020loader\u0020can\u0020dynamically\u0020load\u0020additional\u0020routes.",
@@ -24516,16 +24531,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-bounce.html"
         },                {
-            "fqsen": "\\PhpList\\Core",
-            "name": "Core",
-            "summary": "",
-            "url": "namespaces/phplist-core.html"
-        },                {
-            "fqsen": "\\PhpList",
-            "name": "PhpList",
-            "summary": "",
-            "url": "namespaces/phplist.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\Bounce\\Exception",
             "name": "Exception",
             "summary": "",
@@ -24565,6 +24570,11 @@ Search.appendIndex(
             "name": "Doctrine",
             "summary": "",
             "url": "namespaces/phplist-core-core-doctrine.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\DependencyInjection",
+            "name": "DependencyInjection",
+            "summary": "",
+            "url": "namespaces/phplist-core-dependencyinjection.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Exception",
             "name": "Exception",
@@ -24915,6 +24925,16 @@ Search.appendIndex(
             "name": "Migrations",
             "summary": "",
             "url": "namespaces/phplist-core-migrations.html"
+        },                {
+            "fqsen": "\\PhpList\\Core",
+            "name": "Core",
+            "summary": "",
+            "url": "namespaces/phplist-core.html"
+        },                {
+            "fqsen": "\\PhpList",
+            "name": "PhpList",
+            "summary": "",
+            "url": "namespaces/phplist.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Routing",
             "name": "Routing",
