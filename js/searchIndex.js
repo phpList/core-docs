@@ -3861,6 +3861,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_AutoCreateAttributes"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ARemoteProcessingSecret",
+            "name": "RemoteProcessingSecret",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_RemoteProcessingSecret"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ANotifyAdminLogin",
+            "name": "NotifyAdminLogin",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_NotifyAdminLogin"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Dto\\PlaceholderContext",
             "name": "PlaceholderContext",
             "summary": "",
@@ -6225,6 +6235,11 @@ Search.appendIndex(
             "name": "mailer",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html#property_mailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-AdminCopyEmailSender.html#property_logger"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\AdminCopyEmailSender\u003A\u003A\u0024sendListAdminCopy",
             "name": "sendListAdminCopy",
@@ -15116,6 +15131,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_down"
         },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260204094237",
+            "name": "Version20260204094237",
+            "summary": "\u26A0\uFE0F\u0020Wizard\u0020warning\u003A\nDoctrine\u0020will\u0020\u0060helpfully\u0060\u0020remove\u0020url\u0028255\u0029\u0020prefixes\u0020and\u0020add\u0020collations\u00205.7\u0020can\u2019t\u0020read.",
+            "url": "classes/PhpList-Core-Migrations-Version20260204094237.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260204094237\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260204094237.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260204094237\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260204094237.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260204094237\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260204094237.html#method_down"
+        },                {
             "fqsen": "\\PhpList\\Core\\PhpListCoreBundle",
             "name": "PhpListCoreBundle",
             "summary": "",
@@ -19340,11 +19375,6 @@ Search.appendIndex(
             "name": "testGetReturnsArrayShapeForKnownKey",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_testGetReturnsArrayShapeForKnownKey"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestGetReturnsProvidedDefaultWhenUnknownKey\u0028\u0029",
-            "name": "testGetReturnsProvidedDefaultWhenUnknownKey",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_testGetReturnsProvidedDefaultWhenUnknownKey"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestRemoteProcessingSecretIsRandomHexOfExpectedLength\u0028\u0029",
             "name": "testRemoteProcessingSecretIsRandomHexOfExpectedLength",
