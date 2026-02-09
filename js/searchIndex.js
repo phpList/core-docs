@@ -21096,6 +21096,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-AttachmentAdderTest.html#property_fileHelper"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\AttachmentDownloadServiceTest",
+            "name": "AttachmentDownloadServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-AttachmentDownloadServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\AttachmentDownloadServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-AttachmentDownloadServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\AttachmentDownloadServiceTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-AttachmentDownloadServiceTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\AttachmentDownloadServiceTest\u003A\u003AtestThrowsWhenFilenameIsEmpty\u0028\u0029",
+            "name": "testThrowsWhenFilenameIsEmpty",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-AttachmentDownloadServiceTest.html#method_testThrowsWhenFilenameIsEmpty"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\AttachmentDownloadServiceTest\u003A\u003AtestThrowsWhenFileDoesNotExist\u0028\u0029",
+            "name": "testThrowsWhenFileDoesNotExist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-AttachmentDownloadServiceTest.html#method_testThrowsWhenFileDoesNotExist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\AttachmentDownloadServiceTest\u003A\u003AtestReturnsDownloadableWithExplicitMimeType\u0028\u0029",
+            "name": "testReturnsDownloadableWithExplicitMimeType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-AttachmentDownloadServiceTest.html#method_testReturnsDownloadableWithExplicitMimeType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\AttachmentDownloadServiceTest\u003A\u003AtestGuessesMimeTypeAndProvidesStream\u0028\u0029",
+            "name": "testGuessesMimeTypeAndProvidesStream",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-AttachmentDownloadServiceTest.html#method_testGuessesMimeTypeAndProvidesStream"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\AttachmentDownloadServiceTest\u003A\u003A\u0024tempDir",
+            "name": "tempDir",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-AttachmentDownloadServiceTest.html#property_tempDir"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\EmailBuilderTest",
             "name": "EmailBuilderTest",
             "summary": "",
