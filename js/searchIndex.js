@@ -6691,6 +6691,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Exception-AttachmentException.html#method___construct"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\AttachmentFileNotFoundException",
+            "name": "AttachmentFileNotFoundException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-AttachmentFileNotFoundException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\AttachmentFileNotFoundException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Exception-AttachmentFileNotFoundException.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\DevEmailNotConfiguredException",
             "name": "DevEmailNotConfiguredException",
             "summary": "",
@@ -7840,6 +7850,36 @@ Search.appendIndex(
             "name": "shouldCheckExternalImages",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-CreateTemplateDto.html#property_shouldCheckExternalImages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DownloadableAttachment",
+            "name": "DownloadableAttachment",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DownloadableAttachment.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DownloadableAttachment\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DownloadableAttachment.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DownloadableAttachment\u003A\u003A\u0024filename",
+            "name": "filename",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DownloadableAttachment.html#property_filename"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DownloadableAttachment\u003A\u003A\u0024mimeType",
+            "name": "mimeType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DownloadableAttachment.html#property_mimeType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DownloadableAttachment\u003A\u003A\u0024size",
+            "name": "size",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DownloadableAttachment.html#property_size"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DownloadableAttachment\u003A\u003A\u0024content",
+            "name": "content",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DownloadableAttachment.html#property_content"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\ForwardingRecipientResult",
             "name": "ForwardingRecipientResult",
@@ -10165,6 +10205,26 @@ Search.appendIndex(
             "name": "attachmentRepositoryPath",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-AttachmentAdder.html#property_attachmentRepositoryPath"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AttachmentDownloadService",
+            "name": "AttachmentDownloadService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AttachmentDownloadService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AttachmentDownloadService\u003A\u003AgetDownloadable\u0028\u0029",
+            "name": "getDownloadable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_getDownloadable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AttachmentDownloadService\u003A\u003A\u0024attachmentRepositoryPath",
+            "name": "attachmentRepositoryPath",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#property_attachmentRepositoryPath"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\BaseEmailBuilder",
             "name": "BaseEmailBuilder",
