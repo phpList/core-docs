@@ -6696,11 +6696,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Exception-AttachmentFileNotFoundException.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\AttachmentFileNotFoundException\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Exception-AttachmentFileNotFoundException.html#method___construct"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\DevEmailNotConfiguredException",
             "name": "DevEmailNotConfiguredException",
             "summary": "",
