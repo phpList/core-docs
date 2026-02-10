@@ -121,7 +121,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/AttachmentDownloadService.php"><a href="files/src-domain-messaging-service-attachmentdownloadservice.html"><abbr title="src/Domain/Messaging/Service/AttachmentDownloadService.php">AttachmentDownloadService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -158,6 +158,12 @@
                         &nbsp;: string            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#property_subscriberRepository">$subscriberRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>            </span>
+</dt>
+
     </dl>
 
 <h4 id="toc-methods">
@@ -176,6 +182,18 @@
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_getDownloadable">getDownloadable()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-DownloadableAttachment.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\DownloadableAttachment">DownloadableAttachment</abbr></a>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_validateFilePath">validateFilePath()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_validateUid">validateUid()</a>
+    <span>
+                                &nbsp;: void    </span>
 </dt>
 
     </dl>
@@ -208,7 +226,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/AttachmentDownloadService.php"><a href="files/src-domain-messaging-service-attachmentdownloadservice.html"><abbr title="src/Domain/Messaging/Service/AttachmentDownloadService.php">AttachmentDownloadService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -242,6 +260,43 @@
         
 
 </article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_subscriberRepository">
+        $subscriberRepository
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#property_subscriberRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/AttachmentDownloadService.php"><a href="files/src-domain-messaging-service-attachmentdownloadservice.html"><abbr title="src/Domain/Messaging/Service/AttachmentDownloadService.php">AttachmentDownloadService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$subscriberRepository</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
             </section>
 
             <section class="phpdocumentor-methods">
@@ -264,14 +319,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/AttachmentDownloadService.php"><a href="files/src-domain-messaging-service-attachmentdownloadservice.html"><abbr title="src/Domain/Messaging/Service/AttachmentDownloadService.php">AttachmentDownloadService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attachmentRepositoryPath</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">'/tmp'</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attachmentRepositoryPath</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">'/tmp'</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -279,6 +334,13 @@
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$subscriberRepository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$attachmentRepositoryPath</span>
                 : <span class="phpdocumentor-argument-list__argument__type">string</span>
@@ -308,14 +370,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/AttachmentDownloadService.php"><a href="files/src-domain-messaging-service-attachmentdownloadservice.html"><abbr title="src/Domain/Messaging/Service/AttachmentDownloadService.php">AttachmentDownloadService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getDownloadable</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Attachment.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Attachment">Attachment</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attachment</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-DownloadableAttachment.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\DownloadableAttachment">DownloadableAttachment</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">getDownloadable</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Attachment.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Attachment">Attachment</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attachment</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uid</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-DownloadableAttachment.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\DownloadableAttachment">DownloadableAttachment</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -326,6 +388,13 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$attachment</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Attachment.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Attachment">Attachment</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$uid</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -341,6 +410,105 @@
         <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-DownloadableAttachment.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\DownloadableAttachment">DownloadableAttachment</abbr></a></span>
             </section>
 
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_validateFilePath">
+        validateFilePath()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_validateFilePath" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/AttachmentDownloadService.php"><a href="files/src-domain-messaging-service-attachmentdownloadservice.html"><abbr title="src/Domain/Messaging/Service/AttachmentDownloadService.php">AttachmentDownloadService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">61</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">validateFilePath</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$filename</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$original</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$filename</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$original</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_validateUid">
+        validateUid()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_validateUid" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/AttachmentDownloadService.php"><a href="files/src-domain-messaging-service-attachmentdownloadservice.html"><abbr title="src/Domain/Messaging/Service/AttachmentDownloadService.php">AttachmentDownloadService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">51</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">validateUid</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uid</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$uid</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
 </article>
             </section>
 
@@ -458,6 +626,7 @@
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#property_attachmentRepositoryPath">$attachmentRepositoryPath</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#property_subscriberRepository">$subscriberRepository</a></li>
                                             </ul>
                 </li>
             
@@ -466,6 +635,8 @@
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_getDownloadable">getDownloadable()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_validateFilePath">validateFilePath()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_validateUid">validateUid()</a></li>
                                     </ul>
             </li>
                     </ul>

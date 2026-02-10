@@ -7391,6 +7391,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Attachment.html#method_setSize"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Attachment\u003A\u003AFORWARD",
+            "name": "FORWARD",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Attachment.html#constant_FORWARD"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Attachment\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -10215,6 +10220,21 @@ Search.appendIndex(
             "name": "getDownloadable",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_getDownloadable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AttachmentDownloadService\u003A\u003AvalidateUid\u0028\u0029",
+            "name": "validateUid",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_validateUid"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AttachmentDownloadService\u003A\u003AvalidateFilePath\u0028\u0029",
+            "name": "validateFilePath",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#method_validateFilePath"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AttachmentDownloadService\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#property_subscriberRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AttachmentDownloadService\u003A\u003A\u0024attachmentRepositoryPath",
             "name": "attachmentRepositoryPath",
