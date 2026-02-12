@@ -154,15 +154,15 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname">$hostname</a>
-    <span>
-                        &nbsp;: string            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_requestStack">$requestStack</a>
     <span>
                         &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_restApiBaseUrl">$restApiBaseUrl</a>
+    <span>
+                        &nbsp;: string            </span>
 </dt>
 
     </dl>
@@ -211,57 +211,6 @@
             -private
                                                 -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_hostname">
-        $hostname
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">15</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">$hostname</span>
-    </code>
-
-    
-    
-    
-
-        
-            <section class="phpdocumentor-attributes">
-            <h5 class="phpdocumentor-elements__header" id="attributes">
-                Attributes <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname#attributes" class="headerlink"><i class="fas fa-link"></i></a>
-
-            </h5>
-                            <dl class="phpdocumentor-argument-list">
-    <dt class="phpdocumentor-argument-list__entry">
-        #[<abbr title="\Symfony\Component\DependencyInjection\Attribute\Autowire">Autowire</abbr>]
-    </dt>
-        <dd class="phpdocumentor-argument-list__entry">
-        &#039;%app.rest_api_domain%&#039;
-    </dd>
-    </dl>
-                    </section>
-        
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                -read-only                    "
->
     <h4 class="phpdocumentor-element__name" id="property_requestStack">
         $requestStack
         <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_requestStack" class="headerlink"><i class="fas fa-link"></i></a>
@@ -289,6 +238,57 @@
     
 
         
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_restApiBaseUrl">
+        $restApiBaseUrl
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_restApiBaseUrl" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php"><a href="files/src-domain-messaging-service-builder-httpreceivedstampbuilder.html"><abbr title="src/Domain/Messaging/Service/Builder/HttpReceivedStampBuilder.php">HttpReceivedStampBuilder.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">15</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$restApiBaseUrl</span>
+    </code>
+
+    
+    
+    
+
+        
+            <section class="phpdocumentor-attributes">
+            <h5 class="phpdocumentor-elements__header" id="attributes">
+                Attributes <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_restApiBaseUrl#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+            </h5>
+                            <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Symfony\Component\DependencyInjection\Attribute\Autowire">Autowire</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        &#039;%app.rest_api_base_url%&#039;
+    </dd>
+    </dl>
+                    </section>
         
 
 </article>
@@ -321,7 +321,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hostname</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$restApiBaseUrl</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -337,7 +337,7 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$hostname</span>
+                <span class="phpdocumentor-argument-list__argument__name">$restApiBaseUrl</span>
                 : <span class="phpdocumentor-argument-list__argument__type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -552,8 +552,8 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname">$hostname</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_requestStack">$requestStack</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_restApiBaseUrl">$restApiBaseUrl</a></li>
                                             </ul>
                 </li>
             

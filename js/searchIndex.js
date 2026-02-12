@@ -5066,10 +5066,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Placeholder-UserTrackValueResolver.html#property_config"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Placeholder\\UserTrackValueResolver\u003A\u003A\u0024restApiDomain",
-            "name": "restApiDomain",
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Placeholder\\UserTrackValueResolver\u003A\u003A\u0024restApiBaseUrl",
+            "name": "restApiBaseUrl",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Service-Placeholder-UserTrackValueResolver.html#property_restApiDomain"
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Placeholder-UserTrackValueResolver.html#property_restApiBaseUrl"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\PlaceholderResolver",
             "name": "PlaceholderResolver",
@@ -10506,10 +10506,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_requestStack"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\HttpReceivedStampBuilder\u003A\u003A\u0024hostname",
-            "name": "hostname",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\HttpReceivedStampBuilder\u003A\u003A\u0024restApiBaseUrl",
+            "name": "restApiBaseUrl",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_hostname"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_restApiBaseUrl"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\MessageBuilder",
             "name": "MessageBuilder",
@@ -17880,6 +17880,66 @@ Search.appendIndex(
             "name": "linkTrackRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_linkTrackRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest",
+            "name": "UserMessageServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003AtestReturnsEarlyWhenSubscriberNotFound\u0028\u0029",
+            "name": "testReturnsEarlyWhenSubscriberNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#method_testReturnsEarlyWhenSubscriberNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003AtestReturnsEarlyWhenMessageNotFound\u0028\u0029",
+            "name": "testReturnsEarlyWhenMessageNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#method_testReturnsEarlyWhenMessageNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003AtestReturnsEarlyWhenUserMessageNotFound\u0028\u0029",
+            "name": "testReturnsEarlyWhenUserMessageNotFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#method_testReturnsEarlyWhenUserMessageNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003AtestHappyPathPersistsUserMessageViewAndMarksViewed\u0028\u0029",
+            "name": "testHappyPathPersistsUserMessageViewAndMarksViewed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#method_testHappyPathPersistsUserMessageViewAndMarksViewed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003AtestHandlesMissingOptionalMetadataGracefully\u0028\u0029",
+            "name": "testHandlesMissingOptionalMetadataGracefully",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#method_testHandlesMissingOptionalMetadataGracefully"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\ClientIpResolverTest",
             "name": "ClientIpResolverTest",
