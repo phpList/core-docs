@@ -10011,6 +10011,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getByOwnerId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AfindById\u0028\u0029",
+            "name": "findById",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_findById"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
             "name": "getFilteredAfterId",
             "summary": "",

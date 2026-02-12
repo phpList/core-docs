@@ -175,6 +175,12 @@
 <dd>Removes $model and flushes the entity manager change list.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_findById">findById()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_findByIdAndStatus">findByIdAndStatus()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>|null    </span>
@@ -189,7 +195,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getByOwnerId">getByOwnerId()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&gt;    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -309,6 +315,54 @@ following the Law of Demeter.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_findById">
+        findById()
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_findById" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">40</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">findById</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$id</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_findByIdAndStatus">
         findByIdAndStatus()
         <a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_findByIdAndStatus" class="headerlink"><i class="fas fa-link"></i></a>
@@ -317,7 +371,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">92</span>
+    <span class="phpdocumentor-element-found-in__line">102</span>
 
     </aside>
 
@@ -410,14 +464,14 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getByOwnerId</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ownerId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getByOwnerId</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ownerId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -440,7 +494,7 @@ following the Law of Demeter.</p>
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&gt;</span>
             </section>
 
 </article>
@@ -458,7 +512,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">91</span>
 
     </aside>
 
@@ -513,7 +567,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
@@ -575,7 +629,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">68</span>
 
     </aside>
 
@@ -623,7 +677,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 
     </aside>
 
@@ -671,7 +725,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">79</span>
 
     </aside>
 
@@ -953,6 +1007,7 @@ following the Law of Demeter.</p>
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_delete">delete()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_findById">findById()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_findByIdAndStatus">findByIdAndStatus()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_findCampaignsWithoutUuid">findCampaignsWithoutUuid()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getByOwnerId">getByOwnerId()</a></li>
