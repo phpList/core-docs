@@ -2526,6 +2526,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Model-UserMessageView.html#method_setViewed"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Model\\UserMessageView\u003A\u003AsetViewedNow\u0028\u0029",
+            "name": "setViewedNow",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Model-UserMessageView.html#method_setViewedNow"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Model\\UserMessageView\u003A\u003AsetIp\u0028\u0029",
             "name": "setIp",
             "summary": "",
@@ -2840,6 +2845,41 @@ Search.appendIndex(
             "name": "userMessageViewRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#property_userMessageViewRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\UserMessageService",
+            "name": "UserMessageService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-UserMessageService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\UserMessageService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-UserMessageService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\UserMessageService\u003A\u003AtrackUserMessageView\u0028\u0029",
+            "name": "trackUserMessageView",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-UserMessageService.html#method_trackUserMessageView"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\UserMessageService\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-UserMessageService.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\UserMessageService\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-UserMessageService.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\UserMessageService\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-UserMessageService.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\UserMessageService\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-UserMessageService.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\ClientIpResolver",
             "name": "ClientIpResolver",
@@ -9666,6 +9706,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessage.html#method_setStatus"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessage\u003A\u003AisViewed\u0028\u0029",
+            "name": "isViewed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessage.html#method_isViewed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessage\u003A\u003AsetViewedNow\u0028\u0029",
+            "name": "setViewedNow",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessage.html#method_setViewedNow"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessage\u003A\u003A\u0024user",
             "name": "user",
             "summary": "",
@@ -10101,10 +10151,10 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository\u003A\u003AfindOneByUserAndMessage\u0028\u0029",
-            "name": "findOneByUserAndMessage",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository\u003A\u003AfindByUserAndMessage\u0028\u0029",
+            "name": "findByUserAndMessage",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_findOneByUserAndMessage"
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_findByUserAndMessage"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository\u003A\u003AcountSentSince\u0028\u0029",
             "name": "countSentSince",
