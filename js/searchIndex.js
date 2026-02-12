@@ -8771,6 +8771,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageMetadata.html#method_setViews"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageMetadata\u003A\u003AincrementViews\u0028\u0029",
+            "name": "incrementViews",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageMetadata.html#method_incrementViews"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageMetadata\u003A\u003AgetViews\u0028\u0029",
             "name": "getViews",
             "summary": "",
