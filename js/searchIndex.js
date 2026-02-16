@@ -21761,11 +21761,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Constructor-CampaignMailContentBuilderTest.html#method_makeBuilder"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilderTest\u003A\u003AtestThrowsWhenSubscriberNotFound\u0028\u0029",
-            "name": "testThrowsWhenSubscriberNotFound",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Constructor-CampaignMailContentBuilderTest.html#method_testThrowsWhenSubscriberNotFound"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilderTest\u003A\u003AtestBuildsHtmlFormattedGeneratesTextViaHtml2Text\u0028\u0029",
             "name": "testBuildsHtmlFormattedGeneratesTextViaHtml2Text",
             "summary": "",
