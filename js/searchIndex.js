@@ -8266,11 +8266,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_fromEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024to",
-            "name": "to",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_to"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024subject",
             "name": "subject",
             "summary": "",
