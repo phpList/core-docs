@@ -12626,10 +12626,40 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getUpdatedDateTo"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetIsConfirmed\u0028\u0029",
+            "name": "getIsConfirmed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getIsConfirmed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetIsBlacklisted\u0028\u0029",
+            "name": "getIsBlacklisted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getIsBlacklisted"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetColumns\u0028\u0029",
             "name": "getColumns",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getColumns"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetSortBy\u0028\u0029",
+            "name": "getSortBy",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getSortBy"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetSortDirection\u0028\u0029",
+            "name": "getSortDirection",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getSortDirection"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetFindColumn\u0028\u0029",
+            "name": "getFindColumn",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getFindColumn"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetFindValue\u0028\u0029",
+            "name": "getFindValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getFindValue"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024listId",
             "name": "listId",
@@ -12666,10 +12696,40 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_updatedDateTo"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024isConfirmed",
+            "name": "isConfirmed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_isConfirmed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024isBlacklisted",
+            "name": "isBlacklisted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_isBlacklisted"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024columns",
             "name": "columns",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_columns"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024sortBy",
+            "name": "sortBy",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_sortBy"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024sortDirection",
+            "name": "sortDirection",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_sortDirection"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024findColumn",
+            "name": "findColumn",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_findColumn"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024findValue",
+            "name": "findValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_findValue"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberHistoryFilter",
             "name": "SubscriberHistoryFilter",
@@ -14060,6 +14120,11 @@ Search.appendIndex(
             "name": "getFilteredAfterId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getFilteredAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AapplyTimeFilter\u0028\u0029",
+            "name": "applyTimeFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_applyTimeFilter"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AfindSubscriberWithSubscriptions\u0028\u0029",
             "name": "findSubscriberWithSubscriptions",
