@@ -93,21 +93,15 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests.html">Tests</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription.html">Subscription</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service.html">Service</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service-manager.html">Manager</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-common.html">Common</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-common-model.html">Model</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    SubscriberListManagerTest
+    PaginatedResult
 
-        <span class="phpdocumentor-element__extends">
-        extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
-    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -125,9 +119,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberlistmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php">SubscriberListManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/PaginatedResult.php"><a href="files/src-domain-common-model-paginatedresult.html"><abbr title="src/Domain/Common/Model/PaginatedResult.php">PaginatedResult.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
@@ -135,12 +129,26 @@
 
 
 
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">template</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                             
+                                    </dd>
+                                            </dl>
 
     
     
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -154,52 +162,46 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#property_manager">$manager</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_items">$items</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberListManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberListManager">SubscriberListManager</abbr></a>            </span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#property_subscriberListRepository">$subscriberListRepository</a>
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_lastId">$lastId</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberListRepository">SubscriberListRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+                        &nbsp;: int            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_limit">$limit</a>
+    <span>
+                        &nbsp;: int            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_total">$total</a>
+    <span>
+                        &nbsp;: int            </span>
 </dt>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testCreateSubscriberList">testCreateSubscriberList()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#method___construct">__construct()</a>
     <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testDeleteSubscriberList">testDeleteSubscriberList()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testGetPaginated">testGetPaginated()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_setUp">setUp()</a>
-    <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: mixed    </span>
 </dt>
 
     </dl>
@@ -212,36 +214,36 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
         class="
             phpdocumentor-element
             -property
-            -private
-                                                                    "
+            -public
+                                                -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_manager">
-        $manager
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#property_manager" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_items">
+        $items
+        <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_items" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                            </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberlistmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php">SubscriberListManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/PaginatedResult.php"><a href="files/src-domain-common-model-paginatedresult.html"><abbr title="src/Domain/Common/Model/PaginatedResult.php">PaginatedResult.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberListManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberListManager">SubscriberListManager</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$manager</span>
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$items</span>
     </code>
 
     
@@ -256,29 +258,103 @@
         class="
             phpdocumentor-element
             -property
-            -private
-                                                                    "
+            -public
+                                                -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_subscriberListRepository">
-        $subscriberListRepository
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#property_subscriberListRepository" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_lastId">
+        $lastId
+        <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_lastId" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                            </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberlistmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php">SubscriberListManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/PaginatedResult.php"><a href="files/src-domain-common-model-paginatedresult.html"><abbr title="src/Domain/Common/Model/PaginatedResult.php">PaginatedResult.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
     
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberListRepository">SubscriberListRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$subscriberListRepository</span>
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$lastId</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_limit">
+        $limit
+        <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_limit" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/PaginatedResult.php"><a href="files/src-domain-common-model-paginatedresult.html"><abbr title="src/Domain/Common/Model/PaginatedResult.php">PaginatedResult.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$limit</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_total">
+        $total
+        <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_total" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/PaginatedResult.php"><a href="files/src-domain-common-model-paginatedresult.html"><abbr title="src/Domain/Common/Model/PaginatedResult.php">PaginatedResult.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$total</span>
     </code>
 
     
@@ -294,7 +370,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -303,130 +379,59 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreateSubscriberList">
-        testCreateSubscriberList()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testCreateSubscriberList" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberlistmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php">SubscriberListManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/PaginatedResult.php"><a href="files/src-domain-common-model-paginatedresult.html"><abbr title="src/Domain/Common/Model/PaginatedResult.php">PaginatedResult.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreateSubscriberList</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;int, <abbr title="\PhpList\Core\Domain\Common\Model\T">T</abbr>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$items</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$total</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$limit</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lastId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-    
-    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$items</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;int, <abbr title="\PhpList\Core\Domain\Common\Model\T">T</abbr>&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$total</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$limit</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$lastId</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
 
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testDeleteSubscriberList">
-        testDeleteSubscriberList()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testDeleteSubscriberList" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberlistmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php">SubscriberListManagerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">67</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testDeleteSubscriberList</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testGetPaginated">
-        testGetPaginated()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testGetPaginated" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberlistmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php">SubscriberListManagerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">52</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testGetPaginated</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_setUp">
-        setUp()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberlistmanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php">SubscriberListManagerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">21</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
     
 
         
@@ -439,7 +444,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Subscription/Service/Manager/SubscriberListManagerTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Common/Model/PaginatedResult.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -540,26 +545,25 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#property_manager">$manager</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#property_subscriberListRepository">$subscriberListRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_items">$items</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_lastId">$lastId</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_limit">$limit</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_total">$total</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testCreateSubscriberList">testCreateSubscriberList()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testDeleteSubscriberList">testDeleteSubscriberList()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_testGetPaginated">testGetPaginated()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#method___construct">__construct()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -579,7 +583,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberListManagerTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

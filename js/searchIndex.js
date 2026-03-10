@@ -3396,6 +3396,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-IspRestrictions.html#property_raw"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\PaginatedResult",
+            "name": "PaginatedResult",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\PaginatedResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\PaginatedResult\u003A\u003A\u0024items",
+            "name": "items",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_items"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\PaginatedResult\u003A\u003A\u0024total",
+            "name": "total",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_total"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\PaginatedResult\u003A\u003A\u0024limit",
+            "name": "limit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_limit"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\PaginatedResult\u003A\u003A\u0024lastId",
+            "name": "lastId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_lastId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\ValidationContext",
             "name": "ValidationContext",
             "summary": "",
@@ -3570,11 +3600,6 @@ Search.appendIndex(
             "name": "getFilteredAfterId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Repository-Interfaces-PaginatableRepositoryInterface.html#method_getFilteredAfterId"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Repository\\Interfaces\\PaginatableRepositoryInterface\u003A\u003Acount\u0028\u0029",
-            "name": "count",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Repository-Interfaces-PaginatableRepositoryInterface.html#method_count"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\SystemInfoCollector",
             "name": "SystemInfoCollector",
