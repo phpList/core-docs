@@ -12686,16 +12686,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getColumns"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetSortBy\u0028\u0029",
-            "name": "getSortBy",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getSortBy"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetSortDirection\u0028\u0029",
-            "name": "getSortDirection",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#method_getSortDirection"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003AgetFindColumn\u0028\u0029",
             "name": "getFindColumn",
             "summary": "",
@@ -12755,16 +12745,6 @@ Search.appendIndex(
             "name": "columns",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_columns"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024sortBy",
-            "name": "sortBy",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_sortBy"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024sortDirection",
-            "name": "sortDirection",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberFilter.html#property_sortDirection"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberFilter\u003A\u003A\u0024findColumn",
             "name": "findColumn",
