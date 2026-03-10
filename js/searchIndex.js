@@ -3406,6 +3406,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#method___construct"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\PaginatedResult\u003A\u003AgetItems\u0028\u0029",
+            "name": "getItems",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#method_getItems"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\PaginatedResult\u003A\u003AgetTotal\u0028\u0029",
+            "name": "getTotal",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#method_getTotal"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\PaginatedResult\u003A\u003AgetLimit\u0028\u0029",
+            "name": "getLimit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#method_getLimit"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\PaginatedResult\u003A\u003AgetLastId\u0028\u0029",
+            "name": "getLastId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#method_getLastId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\PaginatedResult\u003A\u003A\u0024items",
             "name": "items",
             "summary": "",
