@@ -13141,6 +13141,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_setForeignKey"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AgetHistory\u0028\u0029",
+            "name": "getHistory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_getHistory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003AsetHistory\u0028\u0029",
+            "name": "setHistory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#method_setHistory"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -13240,6 +13250,11 @@ Search.appendIndex(
             "name": "foreignKey",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_foreignKey"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003A\u0024history",
+            "name": "history",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_history"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberAttributeDefinition",
             "name": "SubscriberAttributeDefinition",
@@ -14051,6 +14066,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html#method_getFilteredAfterId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryRepository\u003A\u003AgetBySubscriber\u0028\u0029",
+            "name": "getBySubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html#method_getBySubscriber"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository",
             "name": "SubscriberListRepository",
             "summary": "Repository\u0020for\u0020SubscriberList\u0020models.",
@@ -14751,6 +14771,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_getSubscriberById"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AgetSubscriberDetails\u0028\u0029",
+            "name": "getSubscriberDetails",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#method_getSubscriberDetails"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003AupdateSubscriber\u0028\u0029",
             "name": "updateSubscriber",
             "summary": "",
@@ -14805,6 +14830,11 @@ Search.appendIndex(
             "name": "subscriberHistoryManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024subscriberHistoryRepository",
+            "name": "subscriberHistoryRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager",
             "name": "SubscriptionManager",
