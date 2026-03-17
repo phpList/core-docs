@@ -12601,11 +12601,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-UpdateSubscriberDto.html#property_disabled"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\UpdateSubscriberDto\u003A\u003A\u0024additionalData",
-            "name": "additionalData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-UpdateSubscriberDto.html#property_additionalData"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Filter\\SubscriberAttributeValueFilter",
             "name": "SubscriberAttributeValueFilter",
             "summary": "",
