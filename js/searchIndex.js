@@ -2691,6 +2691,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html#method_countByMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\UserMessageViewRepository\u003A\u003AcountBetween\u0028\u0029",
+            "name": "countBetween",
+            "summary": "Counts\u0020views\u0020between\u0020two\u0020dates.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html#method_countBetween"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\UserStatsRepository",
             "name": "UserStatsRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -2720,6 +2725,21 @@ Search.appendIndex(
             "name": "getTopDomains",
             "summary": "Get\u0020top\u0020domains\u0020with\u0020more\u0020than\u00205\u0020subscribers",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getTopDomains"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetSummaryStatistics\u0028\u0029",
+            "name": "getSummaryStatistics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getSummaryStatistics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AcalculateRate\u0028\u0029",
+            "name": "calculateRate",
+            "summary": "Calculate\u0020rate\u0020as\u0020a\u0020percentage.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_calculateRate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AcalculateChange\u0028\u0029",
+            "name": "calculateChange",
+            "summary": "Calculate\u0020percentage\u0020change\u0020between\u0020current\u0020and\u0020previous\u0020value.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_calculateChange"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetDomainConfirmationStatistics\u0028\u0029",
             "name": "getDomainConfirmationStatistics",
@@ -2765,6 +2785,16 @@ Search.appendIndex(
             "name": "subscriberRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024userMessageViewRepository",
+            "name": "userMessageViewRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_userMessageViewRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService",
             "name": "LinkTrackService",
@@ -10086,6 +10116,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getNonEmptyFields"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AcountActiveBetween\u0028\u0029",
+            "name": "countActiveBetween",
+            "summary": "Counts\u0020active\u0020campaigns\u0020between\u0020two\u0020dates.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_countActiveBetween"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\SendProcessRepository",
             "name": "SendProcessRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -10161,6 +10196,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCountByMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AcountBetween\u0028\u0029",
+            "name": "countBetween",
+            "summary": "Counts\u0020bounces\u0020between\u0020two\u0020dates.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_countBetween"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AexistsByMessageIdAndUserId\u0028\u0029",
             "name": "existsByMessageIdAndUserId",
             "summary": "",
@@ -10205,6 +10245,11 @@ Search.appendIndex(
             "name": "findByUserAndMessage",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_findByUserAndMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository\u003A\u003AcountSentBetween\u0028\u0029",
+            "name": "countSentBetween",
+            "summary": "Counts\u0020how\u0020many\u0020user\u0020messages\u0020have\u0020status\u0020\u0022sent\u0022\u0020between\u0020the\u0020given\u0020dates.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_countSentBetween"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository\u003A\u003AcountSentSince\u0028\u0029",
             "name": "countSentSince",
@@ -14206,6 +14251,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getDataById"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AcountCreatedBetween\u0028\u0029",
+            "name": "countCreatedBetween",
+            "summary": "Counts\u0020subscribers\u0020created\u0020between\u0020two\u0020dates.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_countCreatedBetween"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriptionRepository",
             "name": "SubscriptionRepository",
             "summary": "Repository\u0020for\u0020Subscription\u0020models.",
@@ -17901,6 +17951,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetTopLocalParts"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetSummaryStatistics\u0028\u0029",
+            "name": "testGetSummaryStatistics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetSummaryStatistics"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024subject",
             "name": "subject",
             "summary": "",
@@ -17935,6 +17990,16 @@ Search.appendIndex(
             "name": "subscriberRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024userMessageViewRepository",
+            "name": "userMessageViewRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_userMessageViewRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest",
             "name": "LinkTrackServiceTest",
