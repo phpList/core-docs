@@ -2671,6 +2671,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html#method_findByUrlUserIdAndMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\LinkTrackRepository\u003A\u003AcountBetween\u0028\u0029",
+            "name": "countBetween",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html#method_countBetween"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\LinkTrackUmlClickRepository",
             "name": "LinkTrackUmlClickRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -2755,6 +2760,16 @@ Search.appendIndex(
             "name": "getTopLocalParts",
             "summary": "Get\u0020top\u0020local\u002Dparts\u0020of\u0020email\u0020addresses",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getTopLocalParts"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetCampaignPerformance\u0028\u0029",
+            "name": "getCampaignPerformance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getCampaignPerformance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetRecentCampaigns\u0028\u0029",
+            "name": "getRecentCampaigns",
+            "summary": "Get\u0020recent\u0020campaigns\u0020with\u0020their\u0020performance\u0020rates",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getRecentCampaigns"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024linkTrackManager",
             "name": "linkTrackManager",
@@ -2851,6 +2866,11 @@ Search.appendIndex(
             "summary": "Get\u0020link\u0020tracks\u0020by\u0020message\u0020ID",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html#method_getLinkTracksByMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager\u003A\u003AcountClicksBetween\u0028\u0029",
+            "name": "countClicksBetween",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html#method_countClicksBetween"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager\u003A\u003A\u0024linkTrackRepository",
             "name": "linkTrackRepository",
             "summary": "",
@@ -2870,6 +2890,11 @@ Search.appendIndex(
             "name": "countViewsByMessageId",
             "summary": "Count\u0020views\u0020by\u0020message\u0020ID",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#method_countViewsByMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003AcountViewsBetween\u0028\u0029",
+            "name": "countViewsBetween",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#method_countViewsBetween"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003A\u0024userMessageViewRepository",
             "name": "userMessageViewRepository",
