@@ -3366,6 +3366,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-Filter-FilterRequestInterface.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\FilterRequestInterface\u003A\u003AgetLastId\u0028\u0029",
+            "name": "getLastId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-FilterRequestInterface.html#method_getLastId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\FilterRequestInterface\u003A\u003AgetLimit\u0028\u0029",
+            "name": "getLimit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-FilterRequestInterface.html#method_getLimit"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait",
+            "name": "PaginatedFilterTrait",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003AsetLastId\u0028\u0029",
+            "name": "setLastId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_setLastId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003AgetLastId\u0028\u0029",
+            "name": "getLastId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_getLastId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003AsetLimit\u0028\u0029",
+            "name": "setLimit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_setLimit"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003AgetLimit\u0028\u0029",
+            "name": "getLimit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_getLimit"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003A\u0024lastId",
+            "name": "lastId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#property_lastId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003A\u0024limit",
+            "name": "limit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#property_limit"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Interfaces\\CreationDate",
             "name": "CreationDate",
             "summary": "This\u0020interface\u0020communicates\u0020that\u0020a\u0020domain\u0020model\u0020has\u0020a\u0020creation\u0020date.",
@@ -3663,7 +3708,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Repository\\CursorPaginationTrait\u003A\u003AgetFilteredAfterId\u0028\u0029",
             "name": "getFilteredAfterId",
-            "summary": "Get\u0020filtered\u0020\u002B\u0020paginated\u0020messages\u0020for\u0020a\u0020given\u0020owner\u0020and\u0020status.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getFilteredAfterId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Repository\\Interfaces\\PaginatableRepositoryInterface",
@@ -8570,6 +8615,26 @@ Search.appendIndex(
             "name": "owner",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#property_owner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\SubscriberListFilter",
+            "name": "SubscriberListFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-SubscriberListFilter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\SubscriberListFilter\u003A\u003AgetOwner\u0028\u0029",
+            "name": "getOwner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-SubscriberListFilter.html#method_getOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\SubscriberListFilter\u003A\u003AsetOwner\u0028\u0029",
+            "name": "setOwner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-SubscriberListFilter.html#method_setOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\SubscriberListFilter\u003A\u003A\u0024owner",
+            "name": "owner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-SubscriberListFilter.html#property_owner"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage",
             "name": "ListMessage",
@@ -14156,6 +14221,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getAllActive"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getFilteredAfterId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AgetListNames\u0028\u0029",
             "name": "getListNames",
             "summary": "",
@@ -18401,15 +18471,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Repository-CursorPaginationTraitTest.html#method_testGetAfterIdReturnsResults"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Repository\\CursorPaginationTraitTest\u003A\u003AtestGetFilteredAfterIdWithNullFilterDelegates\u0028\u0029",
-            "name": "testGetFilteredAfterIdWithNullFilterDelegates",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Repository\\CursorPaginationTraitTest\u003A\u003AtestGetFilteredAfterIdDelegates\u0028\u0029",
+            "name": "testGetFilteredAfterIdDelegates",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Repository-CursorPaginationTraitTest.html#method_testGetFilteredAfterIdWithNullFilterDelegates"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Repository-CursorPaginationTraitTest.html#method_testGetFilteredAfterIdDelegates"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Repository\\CursorPaginationTraitTest\u003A\u003AtestGetFilteredAfterIdWithFilterThrows\u0028\u0029",
-            "name": "testGetFilteredAfterIdWithFilterThrows",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Repository\\CursorPaginationTraitTest\u003A\u003AtestGetFilteredAfterIdUsesFilterPaginationValues\u0028\u0029",
+            "name": "testGetFilteredAfterIdUsesFilterPaginationValues",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Repository-CursorPaginationTraitTest.html#method_testGetFilteredAfterIdWithFilterThrows"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Repository-CursorPaginationTraitTest.html#method_testGetFilteredAfterIdUsesFilterPaginationValues"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Repository\\CursorPaginationTraitTest\u003A\u003A\u0024qb",
             "name": "qb",

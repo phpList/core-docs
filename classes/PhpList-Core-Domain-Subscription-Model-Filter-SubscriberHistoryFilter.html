@@ -115,6 +115,9 @@
             implements
                             <a href="classes/PhpList-Core-Domain-Common-Model-Filter-FilterRequestInterface.html"><abbr title="\PhpList\Core\Domain\Common\Model\Filter\FilterRequestInterface">FilterRequestInterface</abbr></a>                    </span>
     
+            <span class="phpdocumentor-element__extends">
+            uses
+                            <a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html"><abbr title="\PhpList\Core\Domain\Common\Model\Filter\PaginatedFilterTrait">PaginatedFilterTrait</abbr></a>                    </span>
     </h2>
 
 <div class="phpdocumentor-label-line">
@@ -125,7 +128,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php"><a href="files/src-domain-subscription-model-filter-subscriberhistoryfilter.html"><abbr title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php">SubscriberHistoryFilter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
@@ -176,6 +179,18 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#property_lastId">$lastId</a>
+    <span>
+                        &nbsp;: int            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#property_limit">$limit</a>
+    <span>
+                        &nbsp;: int            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#property_subscriber">$subscriber</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>|null            </span>
@@ -214,6 +229,18 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_getLastId">getLastId()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_getLimit">getLimit()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method_getSubscriber">getSubscriber()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>|null    </span>
@@ -223,6 +250,18 @@
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method_getSummery">getSummery()</a>
     <span>
                                 &nbsp;: string|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_setLastId">setLastId()</a>
+    <span>
+                                &nbsp;: self    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_setLimit">setLimit()</a>
+    <span>
+                                &nbsp;: self    </span>
 </dt>
 
     </dl>
@@ -255,7 +294,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php"><a href="files/src-domain-subscription-model-filter-subscriberhistoryfilter.html"><abbr title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php">SubscriberHistoryFilter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -292,7 +331,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php"><a href="files/src-domain-subscription-model-filter-subscriberhistoryfilter.html"><abbr title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php">SubscriberHistoryFilter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -319,6 +358,80 @@
             -private
                                                                     "
 >
+    <h4 class="phpdocumentor-element__name" id="property_lastId">
+        $lastId
+        <a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#property_lastId" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php"><a href="files/src-domain-common-model-filter-paginatedfiltertrait.html"><abbr title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php">PaginatedFilterTrait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">9</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$lastId</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_limit">
+        $limit
+        <a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#property_limit" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php"><a href="files/src-domain-common-model-filter-paginatedfiltertrait.html"><abbr title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php">PaginatedFilterTrait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">10</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$limit</span>
+     = <span class="phpdocumentor-signature__default-value">50</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_subscriber">
         $subscriber
         <a href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#property_subscriber" class="headerlink"><i class="fas fa-link"></i></a>
@@ -329,7 +442,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php"><a href="files/src-domain-subscription-model-filter-subscriberhistoryfilter.html"><abbr title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php">SubscriberHistoryFilter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -366,7 +479,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php"><a href="files/src-domain-subscription-model-filter-subscriberhistoryfilter.html"><abbr title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php">SubscriberHistoryFilter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -408,14 +521,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php"><a href="files/src-domain-subscription-model-filter-subscriberhistoryfilter.html"><abbr title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php">SubscriberHistoryFilter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ip</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\DateTimeImmutable">DateTimeImmutable</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dateFrom</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$summery</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ip</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\DateTimeImmutable">DateTimeImmutable</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dateFrom</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$summery</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lastId</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$limit</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">50</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -451,6 +564,20 @@
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$lastId</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$limit</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">50</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -473,7 +600,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php"><a href="files/src-domain-subscription-model-filter-subscriberhistoryfilter.html"><abbr title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php">SubscriberHistoryFilter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
     </aside>
 
@@ -511,7 +638,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php"><a href="files/src-domain-subscription-model-filter-subscriberhistoryfilter.html"><abbr title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php">SubscriberHistoryFilter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -541,6 +668,82 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getLastId">
+        getLastId()
+        <a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_getLastId" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php"><a href="files/src-domain-common-model-filter-paginatedfiltertrait.html"><abbr title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php">PaginatedFilterTrait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getLastId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getLimit">
+        getLimit()
+        <a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_getLimit" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php"><a href="files/src-domain-common-model-filter-paginatedfiltertrait.html"><abbr title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php">PaginatedFilterTrait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getLimit</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getSubscriber">
         getSubscriber()
         <a href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method_getSubscriber" class="headerlink"><i class="fas fa-link"></i></a>
@@ -549,7 +752,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php"><a href="files/src-domain-subscription-model-filter-subscriberhistoryfilter.html"><abbr title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php">SubscriberHistoryFilter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
@@ -587,7 +790,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php"><a href="files/src-domain-subscription-model-filter-subscriberhistoryfilter.html"><abbr title="src/Domain/Subscription/Model/Filter/SubscriberHistoryFilter.php">SubscriberHistoryFilter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
     </aside>
 
@@ -608,6 +811,102 @@
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">string|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setLastId">
+        setLastId()
+        <a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_setLastId" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php"><a href="files/src-domain-common-model-filter-paginatedfiltertrait.html"><abbr title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php">PaginatedFilterTrait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">12</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setLastId</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$lastId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$lastId</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">self</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setLimit">
+        setLimit()
+        <a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_setLimit" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php"><a href="files/src-domain-common-model-filter-paginatedfiltertrait.html"><abbr title="src/Domain/Common/Model/Filter/PaginatedFilterTrait.php">PaginatedFilterTrait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setLimit</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$limit</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$limit</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">self</span>
             </section>
 
 </article>
@@ -728,6 +1027,8 @@
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#property_dateFrom">$dateFrom</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#property_ip">$ip</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#property_lastId">$lastId</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#property_limit">$limit</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#property_subscriber">$subscriber</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#property_summery">$summery</a></li>
                                             </ul>
@@ -739,8 +1040,12 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method_getDateFrom">getDateFrom()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method_getIp">getIp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_getLastId">getLastId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_getLimit">getLimit()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method_getSubscriber">getSubscriber()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#method_getSummery">getSummery()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_setLastId">setLastId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_setLimit">setLimit()</a></li>
                                     </ul>
             </li>
                     </ul>
