@@ -3386,40 +3386,40 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-Filter-FilterRequestInterface.html#method_setLimit"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait",
-            "name": "PaginatedFilterTrait",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilter",
+            "name": "PaginatedFilter",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html"
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilter.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003AsetLastId\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilter\u003A\u003AsetLastId\u0028\u0029",
             "name": "setLastId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_setLastId"
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilter.html#method_setLastId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003AgetLastId\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilter\u003A\u003AgetLastId\u0028\u0029",
             "name": "getLastId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_getLastId"
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilter.html#method_getLastId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003AsetLimit\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilter\u003A\u003AsetLimit\u0028\u0029",
             "name": "setLimit",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_setLimit"
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilter.html#method_setLimit"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003AgetLimit\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilter\u003A\u003AgetLimit\u0028\u0029",
             "name": "getLimit",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#method_getLimit"
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilter.html#method_getLimit"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003A\u0024lastId",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilter\u003A\u003A\u0024lastId",
             "name": "lastId",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#property_lastId"
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilter.html#property_lastId"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait\u003A\u003A\u0024limit",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilter\u003A\u003A\u0024limit",
             "name": "limit",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilterTrait.html#property_limit"
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-PaginatedFilter.html#property_limit"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Interfaces\\CreationDate",
             "name": "CreationDate",
