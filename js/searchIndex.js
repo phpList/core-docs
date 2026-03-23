@@ -21341,10 +21341,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Model-SubscriberListTest.html#method_testSetNameSetsName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\SubscriberListTest\u003A\u003AtestGetDescriptionInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "testGetDescriptionInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\SubscriberListTest\u003A\u003AtestGetDescriptionInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetDescriptionInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Model-SubscriberListTest.html#method_testGetDescriptionInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Model-SubscriberListTest.html#method_testGetDescriptionInitiallyReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\SubscriberListTest\u003A\u003AtestSetDescriptionSetsDescription\u0028\u0029",
             "name": "testSetDescriptionSetsDescription",
