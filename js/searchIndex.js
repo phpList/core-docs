@@ -3376,6 +3376,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-Filter-FilterRequestInterface.html#method_getLimit"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\FilterRequestInterface\u003A\u003AsetLastId\u0028\u0029",
+            "name": "setLastId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-FilterRequestInterface.html#method_setLastId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\FilterRequestInterface\u003A\u003AsetLimit\u0028\u0029",
+            "name": "setLimit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Filter-FilterRequestInterface.html#method_setLimit"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\PaginatedFilterTrait",
             "name": "PaginatedFilterTrait",
             "summary": "",
