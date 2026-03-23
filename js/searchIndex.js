@@ -12601,6 +12601,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-CreateSubscriberListDto.html#property_description"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\CreateSubscriberListDto\u003A\u003A\u0024category",
+            "name": "category",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-CreateSubscriberListDto.html#property_category"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\CreateSubscriberListDto\u003A\u003A\u0024subjectPrefix",
+            "name": "subjectPrefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-CreateSubscriberListDto.html#property_subjectPrefix"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\CreateSubscriberListDto\u003A\u003A\u0024rssFeed",
+            "name": "rssFeed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-CreateSubscriberListDto.html#property_rssFeed"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\DynamicListAttrDto",
             "name": "DynamicListAttrDto",
             "summary": "",
@@ -14880,6 +14895,11 @@ Search.appendIndex(
             "name": "createSubscriberList",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberListManager.html#method_createSubscriberList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager\u003A\u003AupdateSubscriberList\u0028\u0029",
+            "name": "updateSubscriberList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberListManager.html#method_updateSubscriberList"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberListManager\u003A\u003AgetPaginated\u0028\u0029",
             "name": "getPaginated",
