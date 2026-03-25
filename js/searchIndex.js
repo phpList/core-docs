@@ -15266,6 +15266,16 @@ Search.appendIndex(
             "summary": "Configure\u0020the\u0020response\u0020for\u0020CSV\u0020download.",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_configureResponse"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AnormalizerSubscriberData\u0028\u0029",
+            "name": "normalizerSubscriberData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_normalizerSubscriberData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AnormalizeNullable\u0028\u0029",
+            "name": "normalizeNullable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_normalizeNullable"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003A\u0024attributeManager",
             "name": "attributeManager",
             "summary": "",
