@@ -14326,6 +14326,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getFilteredAfterId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AapplyListIdFilter\u0028\u0029",
+            "name": "applyListIdFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_applyListIdFilter"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AapplyTimeFilter\u0028\u0029",
             "name": "applyTimeFilter",
             "summary": "",
@@ -15280,6 +15285,11 @@ Search.appendIndex(
             "name": "attributeManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_attributeManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003A\u0024attributeValueResolver",
+            "name": "attributeValueResolver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_attributeValueResolver"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
