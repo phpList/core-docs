@@ -8936,10 +8936,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageMetadata.html#method_setStatus"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageMetadata\u003A\u003AisProcessed\u0028\u0029",
-            "name": "isProcessed",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageMetadata\u003A\u003AgetProcessed\u0028\u0029",
+            "name": "getProcessed",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageMetadata.html#method_isProcessed"
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageMetadata.html#method_getProcessed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageMetadata\u003A\u003AincrementProcessed\u0028\u0029",
+            "name": "incrementProcessed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageMetadata.html#method_incrementProcessed"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageMetadata\u003A\u003AsetProcessed\u0028\u0029",
             "name": "setProcessed",
