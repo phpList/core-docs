@@ -2696,6 +2696,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html#method_countByMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\UserMessageViewRepository\u003A\u003AuniqueByMessageId\u0028\u0029",
+            "name": "uniqueByMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html#method_uniqueByMessageId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\UserMessageViewRepository\u003A\u003AcountBetween\u0028\u0029",
             "name": "countBetween",
             "summary": "Counts\u0020views\u0020between\u0020two\u0020dates.",
@@ -2890,6 +2895,11 @@ Search.appendIndex(
             "name": "countViewsByMessageId",
             "summary": "Count\u0020views\u0020by\u0020message\u0020ID",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#method_countViewsByMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003AcountUniqueViewsByMessageId\u0028\u0029",
+            "name": "countUniqueViewsByMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#method_countUniqueViewsByMessageId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003AcountViewsBetween\u0028\u0029",
             "name": "countViewsBetween",
