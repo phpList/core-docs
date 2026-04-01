@@ -11511,6 +11511,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_createMessage"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003AcopyAsDraftMessage\u0028\u0029",
+            "name": "copyAsDraftMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_copyAsDraftMessage"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003AupdateMessage\u0028\u0029",
             "name": "updateMessage",
             "summary": "",
@@ -22825,6 +22830,11 @@ Search.appendIndex(
             "name": "MessageManagerTest",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageManagerTest\u003A\u003AtestCopyAsDraftMessagePersistsClonedDraftMessage\u0028\u0029",
+            "name": "testCopyAsDraftMessagePersistsClonedDraftMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageManagerTest.html#method_testCopyAsDraftMessagePersistsClonedDraftMessage"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageManagerTest\u003A\u003AtestCreateMessageReturnsPersistedMessage\u0028\u0029",
             "name": "testCreateMessageReturnsPersistedMessage",
