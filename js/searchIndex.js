@@ -7101,10 +7101,35 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessorMessage.html#method_getMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\CampaignProcessorMessage\u003A\u003AgetListIds\u0028\u0029",
+            "name": "getListIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessorMessage.html#method_getListIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\CampaignProcessorMessage\u003A\u003A\u0024messageId",
             "name": "messageId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessorMessage.html#property_messageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\CampaignProcessorMessage\u003A\u003A\u0024listIds",
+            "name": "listIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessorMessage.html#property_listIds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\CampaignProcessorMessageInterface",
+            "name": "CampaignProcessorMessageInterface",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessorMessageInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\CampaignProcessorMessageInterface\u003A\u003AgetMessageId\u0028\u0029",
+            "name": "getMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessorMessageInterface.html#method_getMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\CampaignProcessorMessageInterface\u003A\u003AgetListIds\u0028\u0029",
+            "name": "getListIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessorMessageInterface.html#method_getListIds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\PasswordResetMessage",
             "name": "PasswordResetMessage",
@@ -7241,10 +7266,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-SyncCampaignProcessorMessage.html#method_getMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SyncCampaignProcessorMessage\u003A\u003AgetListIds\u0028\u0029",
+            "name": "getListIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SyncCampaignProcessorMessage.html#method_getListIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SyncCampaignProcessorMessage\u003A\u003A\u0024messageId",
             "name": "messageId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-SyncCampaignProcessorMessage.html#property_messageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SyncCampaignProcessorMessage\u003A\u003A\u0024listIds",
+            "name": "listIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SyncCampaignProcessorMessage.html#property_listIds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\AsyncEmailMessageHandler",
             "name": "AsyncEmailMessageHandler",
@@ -14256,6 +14291,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getListsByMessage"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AgetListIdsByMessage\u0028\u0029",
+            "name": "getListIdsByMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getListIdsByMessage"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AgetAllActive\u0028\u0029",
             "name": "getAllActive",
             "summary": "",
@@ -15211,10 +15251,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider\u003A\u003AgetSubscribersForMessage\u0028\u0029",
-            "name": "getSubscribersForMessage",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider\u003A\u003AgetSubscribersForMessageOrLists\u0028\u0029",
+            "name": "getSubscribersForMessageOrLists",
             "summary": "Get\u0020subscribers\u0020for\u0020a\u0020message",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method_getSubscribersForMessage"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method_getSubscribersForMessageOrLists"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
