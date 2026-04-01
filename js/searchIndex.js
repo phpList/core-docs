@@ -2856,11 +2856,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_paramProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_entityManager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager",
             "name": "LinkTrackManager",
             "summary": "",
