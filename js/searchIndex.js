@@ -8231,11 +8231,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageFormatDto.html#property_sendFormat"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\Message\\MessageFormatDto\u003A\u003A\u0024formatOptions",
-            "name": "formatOptions",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageFormatDto.html#property_formatOptions"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\Message\\MessageMetadataDto",
             "name": "MessageMetadataDto",
             "summary": "",
