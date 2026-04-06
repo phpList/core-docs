@@ -94,14 +94,14 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription.html">Subscription</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription-service.html">Service</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription-service-provider.html">Provider</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-message.html">Message</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-message-campaignprocessor.html">CampaignProcessor</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    SubscriberProvider
+    CampaignProcessorMessage
 
     
             <div class="phpdocumentor-element__package">
@@ -111,6 +111,9 @@
                             </ul>
         </div>
     
+            <span class="phpdocumentor-element__implements">
+            implements
+                            <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessageInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\CampaignProcessor\CampaignProcessorMessageInterface">CampaignProcessorMessageInterface</abbr></a>                    </span>
     
     </h2>
 
@@ -120,9 +123,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Provider/SubscriberProvider.php"><a href="files/src-domain-subscription-service-provider-subscriberprovider.html"><abbr title="src/Domain/Subscription/Service/Provider/SubscriberProvider.php">SubscriberProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php"><a href="files/src-domain-messaging-message-campaignprocessor-campaignprocessormessage.html"><abbr title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php">CampaignProcessorMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">7</span>
 
     </aside>
 
@@ -135,12 +138,19 @@
     
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
 
 
+    <h4 id="toc-interfaces">
+        Interfaces
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <dl class="phpdocumentor-table-of-contents">
+                    <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessageInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\CampaignProcessor\CampaignProcessorMessageInterface">CampaignProcessorMessageInterface</abbr></a></dt>    </dl>
 
 
 
@@ -149,42 +159,47 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#property_subscriberListRepository">$subscriberListRepository</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#property_listIds">$listIds</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberListRepository">SubscriberListRepository</abbr></a>            </span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#property_subscriberRepository">$subscriberRepository</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#property_messageId">$messageId</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>            </span>
+                        &nbsp;: int            </span>
 </dt>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method___construct">__construct()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method_getSubscribersForMessageOrLists">getSubscribersForMessageOrLists()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#method_getListIds">getListIds()</a>
     <span>
-                                &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;    </span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
-<dd>Get subscribers for a message</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#method_getMessageId">getMessageId()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
 
     </dl>
 
@@ -196,7 +211,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -206,17 +221,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_subscriberListRepository">
-        $subscriberListRepository
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#property_subscriberListRepository" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_listIds">
+        $listIds
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#property_listIds" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Provider/SubscriberProvider.php"><a href="files/src-domain-subscription-service-provider-subscriberprovider.html"><abbr title="src/Domain/Subscription/Service/Provider/SubscriberProvider.php">SubscriberProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php"><a href="files/src-domain-messaging-message-campaignprocessor-campaignprocessormessage.html"><abbr title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php">CampaignProcessorMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
@@ -224,8 +239,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberListRepository">SubscriberListRepository</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$subscriberListRepository</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$listIds</span>
     </code>
 
     
@@ -243,17 +258,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_subscriberRepository">
-        $subscriberRepository
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#property_subscriberRepository" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_messageId">
+        $messageId
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#property_messageId" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Provider/SubscriberProvider.php"><a href="files/src-domain-subscription-service-provider-subscriberprovider.html"><abbr title="src/Domain/Subscription/Service/Provider/SubscriberProvider.php">SubscriberProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php"><a href="files/src-domain-messaging-message-campaignprocessor-campaignprocessormessage.html"><abbr title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php">CampaignProcessorMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">9</span>
 
     </aside>
 
@@ -261,8 +276,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$subscriberRepository</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$messageId</span>
     </code>
 
     
@@ -278,7 +293,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -289,20 +304,20 @@
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Provider/SubscriberProvider.php"><a href="files/src-domain-subscription-service-provider-subscriberprovider.html"><abbr title="src/Domain/Subscription/Service/Provider/SubscriberProvider.php">SubscriberProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php"><a href="files/src-domain-messaging-message-campaignprocessor-campaignprocessormessage.html"><abbr title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php">CampaignProcessorMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberListRepository">SubscriberListRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberListRepository</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageId</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listIds</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -311,16 +326,16 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$subscriberRepository</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$messageId</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$subscriberListRepository</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberListRepository">SubscriberListRepository</abbr></a></span>
-                            </dt>
+                <span class="phpdocumentor-argument-list__argument__name">$listIds</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">[]</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -338,57 +353,73 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getSubscribersForMessageOrLists">
-        getSubscribersForMessageOrLists()
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method_getSubscribersForMessageOrLists" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getListIds">
+        getListIds()
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#method_getListIds" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Provider/SubscriberProvider.php"><a href="files/src-domain-subscription-service-provider-subscriberprovider.html"><abbr title="src/Domain/Subscription/Service/Provider/SubscriberProvider.php">SubscriberProvider.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php"><a href="files/src-domain-messaging-message-campaignprocessor-campaignprocessormessage.html"><abbr title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php">CampaignProcessorMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Get subscribers for a message</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getSubscribersForMessageOrLists</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessageInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\CampaignProcessor\CampaignProcessorMessageInterface">CampaignProcessorMessageInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaign</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getListIds</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$data</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessageInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\CampaignProcessor\CampaignProcessorMessageInterface">CampaignProcessorMessageInterface</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$campaign</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
+    
     
 
         
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;</span>
-                    &mdash;
-                <section class="phpdocumentor-description"><p>Array of subscribers</p>
-</section>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
 
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getMessageId">
+        getMessageId()
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#method_getMessageId" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php"><a href="files/src-domain-messaging-message-campaignprocessor-campaignprocessormessage.html"><abbr title="src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php">CampaignProcessorMessage.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getMessageId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
             </section>
 
 </article>
@@ -398,7 +429,7 @@
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Subscription/Service/Provider/SubscriberProvider.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Domain/Messaging/Message/CampaignProcessor/CampaignProcessorMessage.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -499,24 +530,25 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#property_subscriberListRepository">$subscriberListRepository</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#property_subscriberRepository">$subscriberRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#property_listIds">$listIds</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#property_messageId">$messageId</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method_getSubscribersForMessageOrLists">getSubscribersForMessageOrLists()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#method_getListIds">getListIds()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#method_getMessageId">getMessageId()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -536,7 +568,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
