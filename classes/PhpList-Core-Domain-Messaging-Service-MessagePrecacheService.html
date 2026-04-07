@@ -248,6 +248,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_ttl">$ttl</a>
+    <span>
+                        &nbsp;: int|null            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_uploadImageDir">$uploadImageDir</a>
     <span>
                         &nbsp;: string            </span>
@@ -787,6 +793,43 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
             -private
                                                 -read-only                    "
 >
+    <h4 class="phpdocumentor-element__name" id="property_ttl">
+        $ttl
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_ttl" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">40</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">int|null</span>
+    <span class="phpdocumentor-signature__name">$ttl</span>
+     = <span class="phpdocumentor-signature__default-value">3600</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_uploadImageDir">
         $uploadImageDir
         <a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_uploadImageDir" class="headerlink"><i class="fas fa-link"></i></a>
@@ -883,7 +926,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cache</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Common-Html2Text.html"><abbr title="\PhpList\Core\Domain\Common\Html2Text">Html2Text</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html2Text</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Common-TextParser.html"><abbr title="\PhpList\Core\Domain\Common\TextParser">TextParser</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$textParser</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-TemplateRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\TemplateRepository">TemplateRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$templateRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Common-RemotePageFetcher.html"><abbr title="\PhpList\Core\Domain\Common\RemotePageFetcher">RemotePageFetcher</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$remotePageFetcher</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-EventLogManager.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Manager\EventLogManager">EventLogManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$eventLogManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Identity-Repository-AdminAttributeDefinitionRepository.html"><abbr title="\PhpList\Core\Domain\Identity\Repository\AdminAttributeDefinitionRepository">AdminAttributeDefinitionRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$adminAttreDefRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorRepository.html"><abbr title="\PhpList\Core\Domain\Identity\Repository\AdministratorRepository">AdministratorRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$adminRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Manager\TemplateImageManager">TemplateImageManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$templateImageManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useManualTextPart</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uploadImageDir</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$publicSchema</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cache</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Common-Html2Text.html"><abbr title="\PhpList\Core\Domain\Common\Html2Text">Html2Text</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html2Text</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Common-TextParser.html"><abbr title="\PhpList\Core\Domain\Common\TextParser">TextParser</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$textParser</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-TemplateRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\TemplateRepository">TemplateRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$templateRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Common-RemotePageFetcher.html"><abbr title="\PhpList\Core\Domain\Common\RemotePageFetcher">RemotePageFetcher</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$remotePageFetcher</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-EventLogManager.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Manager\EventLogManager">EventLogManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$eventLogManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Identity-Repository-AdminAttributeDefinitionRepository.html"><abbr title="\PhpList\Core\Domain\Identity\Repository\AdminAttributeDefinitionRepository">AdminAttributeDefinitionRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$adminAttreDefRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Identity-Repository-AdministratorRepository.html"><abbr title="\PhpList\Core\Domain\Identity\Repository\AdministratorRepository">AdministratorRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$adminRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Manager\TemplateImageManager">TemplateImageManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$templateImageManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useManualTextPart</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uploadImageDir</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$publicSchema</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ttl</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">3600</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -982,6 +1025,13 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$ttl</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">3600</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -1004,7 +1054,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">48</span>
 
     </aside>
 
@@ -1013,7 +1063,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">precacheMessage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaign</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$loadedMessageData</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardContent</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">precacheMessage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaign</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$loadedMessageData</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardContent</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$isTest</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1037,6 +1087,13 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$forwardContent</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$isTest</span>
                 : <span class="phpdocumentor-argument-list__argument__type">bool|null</span>
                  = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -1068,7 +1125,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">207</span>
+    <span class="phpdocumentor-element-found-in__line">218</span>
 
     </aside>
 
@@ -1119,7 +1176,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">178</span>
+    <span class="phpdocumentor-element-found-in__line">189</span>
 
     </aside>
 
@@ -1174,7 +1231,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">166</span>
+    <span class="phpdocumentor-element-found-in__line">177</span>
 
     </aside>
 
@@ -1225,7 +1282,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
+    <span class="phpdocumentor-element-found-in__line">112</span>
 
     </aside>
 
@@ -1273,7 +1330,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">222</span>
+    <span class="phpdocumentor-element-found-in__line">233</span>
 
     </aside>
 
@@ -1324,7 +1381,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">142</span>
 
     </aside>
 
@@ -1382,7 +1439,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">106</span>
+    <span class="phpdocumentor-element-found-in__line">117</span>
 
     </aside>
 
@@ -1559,6 +1616,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_templateImageManager">$templateImageManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_templateRepository">$templateRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_textParser">$textParser</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_ttl">$ttl</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_uploadImageDir">$uploadImageDir</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_useManualTextPart">$useManualTextPart</a></li>
                                             </ul>

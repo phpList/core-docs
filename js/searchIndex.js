@@ -7531,11 +7531,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-TestCampaignProcessorMessageHandler.html#property_mailer"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\TestCampaignProcessorMessageHandler\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-TestCampaignProcessorMessageHandler.html#property_entityManager"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\TestCampaignProcessorMessageHandler\u003A\u003A\u0024subscriberProvider",
             "name": "subscriberProvider",
             "summary": "",
@@ -12185,6 +12180,11 @@ Search.appendIndex(
             "name": "publicSchema",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_publicSchema"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003A\u0024ttl",
+            "name": "ttl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#property_ttl"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator",
             "name": "MessageProcessingPreparator",
