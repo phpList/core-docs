@@ -4561,6 +4561,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#method_registerAttributeResolvers"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\MessagePlaceholderProcessor\u003A\u003AmaskFooterPlaceholders\u0028\u0029",
+            "name": "maskFooterPlaceholders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#method_maskFooterPlaceholders"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\MessagePlaceholderProcessor\u003A\u003ArestoreFooterPlaceholders\u0028\u0029",
+            "name": "restoreFooterPlaceholders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#method_restoreFooterPlaceholders"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\MessagePlaceholderProcessor\u003A\u003AregisterNestedResolvers\u0028\u0029",
+            "name": "registerNestedResolvers",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-MessagePlaceholderProcessor.html#method_registerNestedResolvers"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\MessagePlaceholderProcessor\u003A\u003A\u0024config",
             "name": "config",
             "summary": "",
@@ -18975,6 +18990,11 @@ Search.appendIndex(
             "name": "testCustomResolversFromIterablesAreApplied",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-MessagePlaceholderProcessorTest.html#method_testCustomResolversFromIterablesAreApplied"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\MessagePlaceholderProcessorTest\u003A\u003AtestFooterContentIsResolvedForNestedPlaceholders\u0028\u0029",
+            "name": "testFooterContentIsResolvedForNestedPlaceholders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-MessagePlaceholderProcessorTest.html#method_testFooterContentIsResolvedForNestedPlaceholders"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\MessagePlaceholderProcessorTest\u003A\u003A\u0024config",
             "name": "config",
