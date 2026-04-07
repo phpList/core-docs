@@ -2856,6 +2856,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_paramProvider"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_entityManager"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager",
             "name": "LinkTrackManager",
             "summary": "",
@@ -7520,11 +7525,6 @@ Search.appendIndex(
             "name": "mailer",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-TestCampaignProcessorMessageHandler.html#property_mailer"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\TestCampaignProcessorMessageHandler\u003A\u003A\u0024rateLimitedCampaignMailer",
-            "name": "rateLimitedCampaignMailer",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-TestCampaignProcessorMessageHandler.html#property_rateLimitedCampaignMailer"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\TestCampaignProcessorMessageHandler\u003A\u003A\u0024entityManager",
             "name": "entityManager",
