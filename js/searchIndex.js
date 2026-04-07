@@ -8346,11 +8346,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageContentDto.html#property_text"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\Message\\MessageContentDto\u003A\u003A\u0024textMessage",
-            "name": "textMessage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageContentDto.html#property_textMessage"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\Message\\MessageContentDto\u003A\u003A\u0024footer",
             "name": "footer",
             "summary": "",
@@ -10941,10 +10936,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-MessageContentBuilder.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilder\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-MessageContentBuilder.html#method___construct"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilder\u003A\u003Abuild\u0028\u0029",
             "name": "build",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-MessageContentBuilder.html#method_build"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilder\u003A\u003A\u0024html2Text",
+            "name": "html2Text",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-MessageContentBuilder.html#property_html2Text"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilder",
             "name": "MessageFormatBuilder",
@@ -22121,6 +22126,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#method_testBuildsMessageContentSuccessfully"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AtestBuildsPlainTextMessageFromHtmlText\u0028\u0029",
+            "name": "testBuildsPlainTextMessageFromHtmlText",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#method_testBuildsPlainTextMessageFromHtmlText"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
             "name": "testThrowsExceptionOnInvalidDto",
             "summary": "",
@@ -22130,6 +22140,11 @@ Search.appendIndex(
             "name": "builder",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#property_builder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageContentBuilderTest\u003A\u003A\u0024html2Text",
+            "name": "html2Text",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageContentBuilderTest.html#property_html2Text"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest",
             "name": "MessageFormatBuilderTest",
