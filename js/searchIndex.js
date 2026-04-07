@@ -1911,6 +1911,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-DependencyInjection-PhpListCoreExtension.html#method_load"
         },                {
+            "fqsen": "\\PhpList\\Core\\DependencyInjection\\PhpListCoreExtension\u003A\u003A\u0024configFiles",
+            "name": "configFiles",
+            "summary": "",
+            "url": "classes/PhpList-Core-DependencyInjection-PhpListCoreExtension.html#property_configFiles"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Exception\\MissingMessageIdException",
             "name": "MissingMessageIdException",
             "summary": "",
