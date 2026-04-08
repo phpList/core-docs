@@ -22101,6 +22101,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#method_testUpdatesExistingMessage"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024templateRepository",
+            "name": "templateRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageBuilderTest.html#property_templateRepository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageBuilderTest\u003A\u003A\u0024formatBuilder",
             "name": "formatBuilder",
             "summary": "",
