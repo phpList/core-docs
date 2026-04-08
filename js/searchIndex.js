@@ -8376,11 +8376,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageFormatDto.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\Message\\MessageFormatDto\u003A\u003A\u0024htmlFormated",
-            "name": "htmlFormated",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-Message-MessageFormatDto.html#property_htmlFormated"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\Message\\MessageFormatDto\u003A\u003A\u0024sendFormat",
             "name": "sendFormat",
             "summary": "",
@@ -22171,25 +22166,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestBuildSetsHtmlFormattedToFalseWhenContentIsPlainText\u0028\u0029",
+            "name": "testBuildSetsHtmlFormattedToFalseWhenContentIsPlainText",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_setUp"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_testBuildSetsHtmlFormattedToFalseWhenContentIsPlainText"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestBuildsMessageFormatSuccessfully\u0028\u0029",
-            "name": "testBuildsMessageFormatSuccessfully",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestBuildSetsHtmlFormattedToTrueWhenContentContainsHtml\u0028\u0029",
+            "name": "testBuildSetsHtmlFormattedToTrueWhenContentContainsHtml",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_testBuildsMessageFormatSuccessfully"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_testBuildSetsHtmlFormattedToTrueWhenContentContainsHtml"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AtestThrowsExceptionOnInvalidDto\u0028\u0029",
-            "name": "testThrowsExceptionOnInvalidDto",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003AcreateDto\u0028\u0029",
+            "name": "createDto",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_testThrowsExceptionOnInvalidDto"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageFormatBuilderTest\u003A\u003A\u0024builder",
-            "name": "builder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#property_builder"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-MessageFormatBuilderTest.html#method_createDto"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\MessageOptionsBuilderTest",
             "name": "MessageOptionsBuilderTest",
