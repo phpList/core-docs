@@ -11686,6 +11686,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_getMessagesByOwner"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003AcanBeSubmitted\u0028\u0029",
+            "name": "canBeSubmitted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_canBeSubmitted"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003AisFilled\u0028\u0029",
+            "name": "isFilled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_isFilled"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003A\u0024messageRepository",
             "name": "messageRepository",
             "summary": "",
@@ -23020,6 +23030,16 @@ Search.appendIndex(
             "name": "testUpdateMessageReturnsUpdatedMessage",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageManagerTest.html#method_testUpdateMessageReturnsUpdatedMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageManagerTest\u003A\u003AtestUpdateStatusThrowsWhenSubmittedWithoutListMessage\u0028\u0029",
+            "name": "testUpdateStatusThrowsWhenSubmittedWithoutListMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageManagerTest.html#method_testUpdateStatusThrowsWhenSubmittedWithoutListMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageManagerTest\u003A\u003AtestUpdateStatusSetsSubmittedWhenRequiredFieldsAndListArePresent\u0028\u0029",
+            "name": "testUpdateStatusSetsSubmittedWhenRequiredFieldsAndListArePresent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageManagerTest.html#method_testUpdateStatusSetsSubmittedWhenRequiredFieldsAndListArePresent"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\SendProcessManagerTest",
             "name": "SendProcessManagerTest",
