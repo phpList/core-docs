@@ -8811,10 +8811,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#method_setOwner"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter\u003A\u003AgetSubject\u0028\u0029",
+            "name": "getSubject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#method_getSubject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter\u003A\u003AsetSubject\u0028\u0029",
+            "name": "setSubject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#method_setSubject"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter\u003A\u003A\u0024owner",
             "name": "owner",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#property_owner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#property_subject"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\SubscriberListFilter",
             "name": "SubscriberListFilter",
@@ -9005,6 +9020,11 @@ Search.appendIndex(
             "name": "getSendFormat",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageFormat.html#method_getSendFormat"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageFormat\u003A\u003AisInvitation\u0028\u0029",
+            "name": "isInvitation",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageFormat.html#method_isInvitation"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageFormat\u003A\u003AsetSendFormat\u0028\u0029",
             "name": "setSendFormat",
