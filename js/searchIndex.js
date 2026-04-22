@@ -8251,6 +8251,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-CreateTemplateDto.html#property_shouldCheckExternalImages"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\CreateTemplateDto\u003A\u003A\u0024listOrder",
+            "name": "listOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-CreateTemplateDto.html#property_listOrder"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DownloadableAttachment",
             "name": "DownloadableAttachment",
             "summary": "",
@@ -8795,6 +8800,11 @@ Search.appendIndex(
             "name": "shouldCheckExternalImages",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html#property_shouldCheckExternalImages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\UpdateTemplateDto\u003A\u003A\u0024listOrder",
+            "name": "listOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html#property_listOrder"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter",
             "name": "MessageFilter",
@@ -10505,6 +10515,11 @@ Search.appendIndex(
             "name": "findOneById",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateRepository.html#method_findOneById"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\TemplateRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateRepository.html#method_getFilteredAfterId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository",
             "name": "UserMessageBounceRepository",
