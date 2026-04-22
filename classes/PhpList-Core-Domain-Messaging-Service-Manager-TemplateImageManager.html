@@ -173,6 +173,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_imageProvider">$imageProvider</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ImageProvider.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Manager\ImageProvider">ImageProvider</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_templateImageRepository">$templateImageRepository</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-TemplateImageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\TemplateImageRepository">TemplateImageRepository</abbr></a>            </span>
@@ -232,6 +238,12 @@
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_decodeLogoImageData">decodeLogoImageData()</a>
     <span>
                                 &nbsp;: string|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_ensurePoweredByImageExists">ensurePoweredByImageExists()</a>
+    <span>
+                                &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
@@ -352,6 +364,43 @@
             -private
                                                 -read-only                    "
 >
+    <h4 class="phpdocumentor-element__name" id="property_imageProvider">
+        $imageProvider
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_imageProvider" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ImageProvider.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Manager\ImageProvider">ImageProvider</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$imageProvider</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_templateImageRepository">
         $templateImageRepository
         <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_templateImageRepository" class="headerlink"><i class="fas fa-link"></i></a>
@@ -411,7 +460,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-TemplateImageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\TemplateImageRepository">TemplateImageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$templateImageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-TemplateImageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\TemplateImageRepository">TemplateImageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$templateImageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ImageProvider.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Manager\ImageProvider">ImageProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$imageProvider</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -429,6 +478,13 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$configProvider</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$imageProvider</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-ImageProvider.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Manager\ImageProvider">ImageProvider</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -455,7 +511,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">116</span>
+    <span class="phpdocumentor-element-found-in__line">135</span>
 
     </aside>
 
@@ -499,7 +555,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
@@ -554,7 +610,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">94</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 
     </aside>
 
@@ -598,7 +654,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
     </aside>
 
@@ -646,7 +702,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">99</span>
+    <span class="phpdocumentor-element-found-in__line">118</span>
 
     </aside>
 
@@ -694,7 +750,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">180</span>
+    <span class="phpdocumentor-element-found-in__line">197</span>
 
     </aside>
 
@@ -749,7 +805,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">165</span>
+    <span class="phpdocumentor-element-found-in__line">184</span>
 
     </aside>
 
@@ -789,6 +845,50 @@
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_ensurePoweredByImageExists">
+        ensurePoweredByImageExists()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_ensurePoweredByImageExists" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">55</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">ensurePoweredByImageExists</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Template.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Template">Template</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$template</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$template</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Template.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Template">Template</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_extractImagesFromHtml">
         extractImagesFromHtml()
         <a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_extractImagesFromHtml" class="headerlink"><i class="fas fa-link"></i></a>
@@ -797,7 +897,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">96</span>
 
     </aside>
 
@@ -845,7 +945,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">85</span>
 
     </aside>
 
@@ -893,7 +993,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
@@ -941,7 +1041,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php"><a href="files/src-domain-messaging-service-manager-templateimagemanager.html"><abbr title="src/Domain/Messaging/Service/Manager/TemplateImageManager.php">TemplateImageManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">195</span>
+    <span class="phpdocumentor-element-found-in__line">212</span>
 
     </aside>
 
@@ -1133,6 +1233,7 @@
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_configProvider">$configProvider</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_imageProvider">$imageProvider</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_templateImageRepository">$templateImageRepository</a></li>
                                             </ul>
                 </li>
@@ -1148,6 +1249,7 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_parseLogoPlaceholders">parseLogoPlaceholders()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_calculateDimensions">calculateDimensions()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_decodeLogoImageData">decodeLogoImageData()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_ensurePoweredByImageExists">ensurePoweredByImageExists()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_extractImagesFromHtml">extractImagesFromHtml()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_extractTemplateImagesFromContent">extractTemplateImagesFromContent()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_guessMimeType">guessMimeType()</a></li>

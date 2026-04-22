@@ -10491,6 +10491,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateImageRepository.html#method_findByTemplateIdAndFilename"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\TemplateImageRepository\u003A\u003ApoweredByImageExists\u0028\u0029",
+            "name": "poweredByImageExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateImageRepository.html#method_poweredByImageExists"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\TemplateRepository",
             "name": "TemplateRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -11561,6 +11566,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRuleManager.html#property_bounceRelationRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ImageProvider",
+            "name": "ImageProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ImageProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ImageProvider\u003A\u003AgetFallbackLogo\u0028\u0029",
+            "name": "getFallbackLogo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ImageProvider.html#method_getFallbackLogo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ImageProvider\u003A\u003AgetPoweredByImage\u0028\u0029",
+            "name": "getPoweredByImage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ImageProvider.html#method_getPoweredByImage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ImageProvider\u003A\u003ANEW_POWERED_IMAGE",
+            "name": "NEW_POWERED_IMAGE",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ImageProvider.html#constant_NEW_POWERED_IMAGE"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ImageProvider\u003A\u003AIMAGE_CONTENT",
+            "name": "IMAGE_CONTENT",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-ImageProvider.html#constant_IMAGE_CONTENT"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\ListMessageManager",
             "name": "ListMessageManager",
             "summary": "",
@@ -11771,6 +11801,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_createImagesFromImagePaths"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AensurePoweredByImageExists\u0028\u0029",
+            "name": "ensurePoweredByImageExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_ensurePoweredByImageExists"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AguessMimeType\u0028\u0029",
             "name": "guessMimeType",
             "summary": "",
@@ -11835,6 +11870,11 @@ Search.appendIndex(
             "name": "configProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003A\u0024imageProvider",
+            "name": "imageProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#property_imageProvider"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager",
             "name": "TemplateManager",
