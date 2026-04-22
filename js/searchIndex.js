@@ -11911,6 +11911,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#method_delete"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003AlistDefaults\u0028\u0029",
+            "name": "listDefaults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#method_listDefaults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003AcreateDefaultTemplate\u0028\u0029",
+            "name": "createDefaultTemplate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#method_createDefaultTemplate"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003A\u0024templateRepository",
             "name": "templateRepository",
             "summary": "",
@@ -11931,6 +11941,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#property_templateImageValidator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateManager\u003A\u003A\u0024defaultTemplateMapper",
+            "name": "defaultTemplateMapper",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateManager.html#property_defaultTemplateMapper"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\UserMessageForwardManager",
             "name": "UserMessageForwardManager",
             "summary": "",
@@ -11950,6 +11965,46 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-UserMessageForwardManager.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapper",
+            "name": "DefaultTemplateMapper",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Mapper-DefaultTemplateMapper.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapper\u003A\u003Alist\u0028\u0029",
+            "name": "list",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Mapper-DefaultTemplateMapper.html#method_list"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapper\u003A\u003AfindByKey\u0028\u0029",
+            "name": "findByKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Mapper-DefaultTemplateMapper.html#method_findByKey"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapper\u003A\u003AloadContent\u0028\u0029",
+            "name": "loadContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Mapper-DefaultTemplateMapper.html#method_loadContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapper\u003A\u003AloadDefaultTemplatesMap\u0028\u0029",
+            "name": "loadDefaultTemplatesMap",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Mapper-DefaultTemplateMapper.html#method_loadDefaultTemplatesMap"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapper\u003A\u003AcheckRequiredFields\u0028\u0029",
+            "name": "checkRequiredFields",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Mapper-DefaultTemplateMapper.html#method_checkRequiredFields"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapper\u003A\u003ADEFAULT_TEMPLATES_DIR",
+            "name": "DEFAULT_TEMPLATES_DIR",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Mapper-DefaultTemplateMapper.html#constant_DEFAULT_TEMPLATES_DIR"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapper\u003A\u003ADEFAULT_TEMPLATES_MAP_FILE",
+            "name": "DEFAULT_TEMPLATES_MAP_FILE",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Mapper-DefaultTemplateMapper.html#constant_DEFAULT_TEMPLATES_MAP_FILE"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MaxProcessTimeLimiter",
             "name": "MaxProcessTimeLimiter",
@@ -23241,6 +23296,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#method_testDeleteTemplate"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003AtestListDefaultsReturnsDefaultTemplateDefinitions\u0028\u0029",
+            "name": "testListDefaultsReturnsDefaultTemplateDefinitions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#method_testListDefaultsReturnsDefaultTemplateDefinitions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003AtestCreateDefaultTemplateCreatesTemplateByKey\u0028\u0029",
+            "name": "testCreateDefaultTemplateCreatesTemplateByKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#method_testCreateDefaultTemplateCreatesTemplateByKey"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003AtestCreateDefaultTemplateThrowsForUnknownKey\u0028\u0029",
+            "name": "testCreateDefaultTemplateThrowsForUnknownKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#method_testCreateDefaultTemplateThrowsForUnknownKey"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003A\u0024templateRepository",
             "name": "templateRepository",
             "summary": "",
@@ -23260,6 +23330,11 @@ Search.appendIndex(
             "name": "templateImageValidator",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#property_templateImageValidator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003A\u0024defaultTemplateMapper",
+            "name": "defaultTemplateMapper",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateManagerTest.html#property_defaultTemplateMapper"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateManagerTest\u003A\u003A\u0024manager",
             "name": "manager",
@@ -23295,6 +23370,41 @@ Search.appendIndex(
             "name": "expectedStatus",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-UserMessageForwardManagerTest.html#property_expectedStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapperTest",
+            "name": "DefaultTemplateMapperTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Mapper-DefaultTemplateMapperTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapperTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Mapper-DefaultTemplateMapperTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapperTest\u003A\u003AtestListReturnsConfiguredDefaults\u0028\u0029",
+            "name": "testListReturnsConfiguredDefaults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Mapper-DefaultTemplateMapperTest.html#method_testListReturnsConfiguredDefaults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapperTest\u003A\u003AtestFindByKeyReturnsExpectedTemplate\u0028\u0029",
+            "name": "testFindByKeyReturnsExpectedTemplate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Mapper-DefaultTemplateMapperTest.html#method_testFindByKeyReturnsExpectedTemplate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapperTest\u003A\u003AtestFindByKeyThrowsForUnknownKey\u0028\u0029",
+            "name": "testFindByKeyThrowsForUnknownKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Mapper-DefaultTemplateMapperTest.html#method_testFindByKeyThrowsForUnknownKey"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapperTest\u003A\u003AtestLoadContentReadsTemplateFile\u0028\u0029",
+            "name": "testLoadContentReadsTemplateFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Mapper-DefaultTemplateMapperTest.html#method_testLoadContentReadsTemplateFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Mapper\\DefaultTemplateMapperTest\u003A\u003A\u0024mapper",
+            "name": "mapper",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Mapper-DefaultTemplateMapperTest.html#property_mapper"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MaxProcessTimeLimiterTest",
             "name": "MaxProcessTimeLimiterTest",
@@ -25776,6 +25886,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-service-manager.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Mapper",
+            "name": "Mapper",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-service-mapper.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator",
             "name": "Validator",
             "summary": "",
@@ -26190,6 +26305,11 @@ Search.appendIndex(
             "name": "Manager",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging-service-manager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Mapper",
+            "name": "Mapper",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-service-mapper.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Validator",
             "name": "Validator",
