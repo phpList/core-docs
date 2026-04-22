@@ -11801,6 +11801,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_createImagesFromImagePaths"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AremoveExistingTemplateImage\u0028\u0029",
+            "name": "removeExistingTemplateImage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_removeExistingTemplateImage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AextractImageData\u0028\u0029",
+            "name": "extractImageData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-TemplateImageManager.html#method_extractImageData"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\TemplateImageManager\u003A\u003AensurePoweredByImageExists\u0028\u0029",
             "name": "ensurePoweredByImageExists",
             "summary": "",
@@ -23166,6 +23176,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_testCreateImagesFromImagePaths"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AtestCreateImagesFromImagePathsStoresImageDataAndReplacesExistingImage\u0028\u0029",
+            "name": "testCreateImagesFromImagePathsStoresImageDataAndReplacesExistingImage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_testCreateImagesFromImagePathsStoresImageDataAndReplacesExistingImage"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AtestGuessMimeType\u0028\u0029",
             "name": "testGuessMimeType",
             "summary": "",
@@ -23180,6 +23195,11 @@ Search.appendIndex(
             "name": "testDeleteTemplateImage",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_testDeleteTemplateImage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AONE_PIXEL_PNG",
+            "name": "ONE_PIXEL_PNG",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#constant_ONE_PIXEL_PNG"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003A\u0024templateImageRepository",
             "name": "templateImageRepository",
