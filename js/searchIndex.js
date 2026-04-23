@@ -10351,6 +10351,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_findByStatus"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\BounceRepository\u003A\u003AgetCampaignBounceTotals\u0028\u0029",
+            "name": "getCampaignBounceTotals",
+            "summary": "Returns\u0020bounce\u0020totals\u0020grouped\u0020by\u0020campaign,\u0020matching\u0020legacy\u0020msgbounces\u0020listing\u0020data.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getCampaignBounceTotals"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository",
             "name": "ListMessageRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -10530,6 +10535,11 @@ Search.appendIndex(
             "name": "getCountByMessageId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCountByMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AgetListBounceTotals\u0028\u0029",
+            "name": "getListBounceTotals",
+            "summary": "Returns\u0020bounce\u0020totals\u0020per\u0020subscriber\u0020for\u0020a\u0020specific\u0020list.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getListBounceTotals"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AcountBetween\u0028\u0029",
             "name": "countBetween",
@@ -16775,6 +16785,31 @@ Search.appendIndex(
             "name": "templateRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-TemplateRepositoryTest.html#property_templateRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceRepositoryTest",
+            "name": "UserMessageBounceRepositoryTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceRepositoryTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceRepositoryTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceRepositoryTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceRepositoryTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceRepositoryTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceRepositoryTest\u003A\u003AtestGetListBounceTotalsReturnsAggregatedBouncesPerSubscriberForList\u0028\u0029",
+            "name": "testGetListBounceTotalsReturnsAggregatedBouncesPerSubscriberForList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceRepositoryTest.html#method_testGetListBounceTotalsReturnsAggregatedBouncesPerSubscriberForList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceRepositoryTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceRepositoryTest.html#property_repository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Fixtures\\SubscriberFixture",
             "name": "SubscriberFixture",
