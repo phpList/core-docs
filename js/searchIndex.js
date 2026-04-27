@@ -8136,6 +8136,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceStatus.html#enumcase_UnidentifiedBounce"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\BounceView",
+            "name": "BounceView",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-BounceView.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\BounceView\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-BounceView.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\BounceView\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-BounceView.html#property_id"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\BounceView\u003A\u003A\u0024status",
+            "name": "status",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-BounceView.html#property_status"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\BounceView\u003A\u003A\u0024comment",
+            "name": "comment",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-BounceView.html#property_comment"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\BounceView\u003A\u003A\u0024date",
+            "name": "date",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-BounceView.html#property_date"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\BounceView\u003A\u003A\u0024messageId",
+            "name": "messageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-BounceView.html#property_messageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\BounceView\u003A\u003A\u0024messageSubject",
+            "name": "messageSubject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-BounceView.html#property_messageSubject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\BounceView\u003A\u003A\u0024subscriberId",
+            "name": "subscriberId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-BounceView.html#property_subscriberId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\BounceView\u003A\u003A\u0024subscriberEmail",
+            "name": "subscriberEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-BounceView.html#property_subscriberEmail"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\CreateMessageDto",
             "name": "CreateMessageDto",
             "summary": "",
@@ -8805,6 +8855,41 @@ Search.appendIndex(
             "name": "listOrder",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-UpdateTemplateDto.html#property_listOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\BounceFilter",
+            "name": "BounceFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-BounceFilter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\BounceFilter\u003A\u003AgetListId\u0028\u0029",
+            "name": "getListId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-BounceFilter.html#method_getListId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\BounceFilter\u003A\u003AsetListId\u0028\u0029",
+            "name": "setListId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-BounceFilter.html#method_setListId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\BounceFilter\u003A\u003AgetStatus\u0028\u0029",
+            "name": "getStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-BounceFilter.html#method_getStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\BounceFilter\u003A\u003AsetStatus\u0028\u0029",
+            "name": "setStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-BounceFilter.html#method_setStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\BounceFilter\u003A\u003A\u0024listId",
+            "name": "listId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-BounceFilter.html#property_listId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\BounceFilter\u003A\u003A\u0024status",
+            "name": "status",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-BounceFilter.html#property_status"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter",
             "name": "MessageFilter",
@@ -10355,6 +10440,11 @@ Search.appendIndex(
             "name": "getCampaignBounceTotals",
             "summary": "Returns\u0020bounce\u0020totals\u0020grouped\u0020by\u0020campaign,\u0020matching\u0020legacy\u0020msgbounces\u0020listing\u0020data.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getCampaignBounceTotals"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\BounceRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getFilteredAfterId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository",
             "name": "ListMessageRepository",
