@@ -7921,6 +7921,61 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Bounce.html#property_comment"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction",
+            "name": "BounceAction",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003ABlacklistUser",
+            "name": "BlacklistUser",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html#enumcase_BlacklistUser"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003ABlacklistEmailAndDeleteBounce",
+            "name": "BlacklistEmailAndDeleteBounce",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html#enumcase_BlacklistEmailAndDeleteBounce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003ABlacklistEmail",
+            "name": "BlacklistEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html#enumcase_BlacklistEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003ABlacklistUserAndDeleteBounce",
+            "name": "BlacklistUserAndDeleteBounce",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html#enumcase_BlacklistUserAndDeleteBounce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003ADecreaseCountConfirmUserAndDeleteBounce",
+            "name": "DecreaseCountConfirmUserAndDeleteBounce",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html#enumcase_DecreaseCountConfirmUserAndDeleteBounce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003ADeleteBounce",
+            "name": "DeleteBounce",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html#enumcase_DeleteBounce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003ADeleteUserAndBounce",
+            "name": "DeleteUserAndBounce",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html#enumcase_DeleteUserAndBounce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003ADeleteUser",
+            "name": "DeleteUser",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html#enumcase_DeleteUser"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003AUnconfirmUserAndDeleteBounce",
+            "name": "UnconfirmUserAndDeleteBounce",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html#enumcase_UnconfirmUserAndDeleteBounce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003AUnconfirmUser",
+            "name": "UnconfirmUser",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html#enumcase_UnconfirmUser"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceRegex",
             "name": "BounceRegex",
             "summary": "",
