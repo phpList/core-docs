@@ -7926,6 +7926,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003Avalues\u0028\u0029",
+            "name": "values",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceAction.html#method_values"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\BounceAction\u003A\u003ABlacklistUser",
             "name": "BlacklistUser",
             "summary": "",
