@@ -8966,20 +8966,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_getMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AsetMessage\u0028\u0029",
-            "name": "setMessage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_setMessage"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AgetList\u0028\u0029",
             "name": "getList",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_getList"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AsetList\u0028\u0029",
-            "name": "setList",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-ListMessage.html#method_setList"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage\u003A\u003AgetEntered\u0028\u0029",
             "name": "getEntered",
