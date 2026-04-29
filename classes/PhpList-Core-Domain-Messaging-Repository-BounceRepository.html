@@ -190,13 +190,6 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getCampaignBounceTotals">getCampaignBounceTotals()</a>
-    <span>
-                                &nbsp;: array&lt;int, array{messageId: int, subject: string, totalBounces: int}&gt;    </span>
-</dt>
-<dd>Returns bounce totals grouped by campaign, matching legacy msgbounces listing data.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getFilteredAfterId">getFilteredAfterId()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html"><abbr title="\PhpList\Core\Domain\Common\Model\PaginatedResult">PaginatedResult</abbr></a>&lt;string|int, <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-BounceView.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\BounceView">BounceView</abbr></a>&gt;    </span>
@@ -396,57 +389,6 @@ following the Law of Demeter.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getCampaignBounceTotals">
-        getCampaignBounceTotals()
-        <a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getCampaignBounceTotals" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/BounceRepository.php"><a href="files/src-domain-messaging-repository-bouncerepository.html"><abbr title="src/Domain/Messaging/Repository/BounceRepository.php">BounceRepository.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">37</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Returns bounce totals grouped by campaign, matching legacy msgbounces listing data.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getCampaignBounceTotals</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ownerId</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array{messageId: int, subject: string, totalBounces: int}&gt;</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$ownerId</span>
-                : <span class="phpdocumentor-argument-list__argument__type">int|null</span>
-                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>Limit results to campaigns owned by this admin when provided.</p>
-</section>
-
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;int, array{messageId: int, subject: string, totalBounces: int}&gt;</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_getFilteredAfterId">
         getFilteredAfterId()
         <a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getFilteredAfterId" class="headerlink"><i class="fas fa-link"></i></a>
@@ -455,7 +397,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/BounceRepository.php"><a href="files/src-domain-messaging-repository-bouncerepository.html"><abbr title="src/Domain/Messaging/Repository/BounceRepository.php">BounceRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -743,7 +685,6 @@ following the Law of Demeter.</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_delete">delete()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_findByStatus">findByStatus()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getCampaignBounceTotals">getCampaignBounceTotals()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_persist">persist()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_remove">remove()</a></li>

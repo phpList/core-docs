@@ -10436,11 +10436,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_findByStatus"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\BounceRepository\u003A\u003AgetCampaignBounceTotals\u0028\u0029",
-            "name": "getCampaignBounceTotals",
-            "summary": "Returns\u0020bounce\u0020totals\u0020grouped\u0020by\u0020campaign,\u0020matching\u0020legacy\u0020msgbounces\u0020listing\u0020data.",
-            "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getCampaignBounceTotals"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\BounceRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
             "name": "getFilteredAfterId",
             "summary": "",
@@ -10630,6 +10625,11 @@ Search.appendIndex(
             "name": "getListBounceTotals",
             "summary": "Returns\u0020bounce\u0020totals\u0020per\u0020subscriber\u0020for\u0020a\u0020specific\u0020list.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getListBounceTotals"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AgetCampaignBounceTotals\u0028\u0029",
+            "name": "getCampaignBounceTotals",
+            "summary": "Returns\u0020bounce\u0020totals\u0020grouped\u0020by\u0020campaign,\u0020matching\u0020legacy\u0020msgbounces\u0020listing\u0020data.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCampaignBounceTotals"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AcountBetween\u0028\u0029",
             "name": "countBetween",
