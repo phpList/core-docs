@@ -11641,10 +11641,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003AcreateOrUpdateFromPattern\u0028\u0029",
-            "name": "createOrUpdateFromPattern",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
             "summary": "Creates\u0020or\u0020updates\u0020\u0028if\u0020exists\u0029\u0020a\u0020BounceRegex\u0020from\u0020a\u0020raw\u0020regex\u0020pattern.",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#method_createOrUpdateFromPattern"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#method_create"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#method_update"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003AgetAll\u0028\u0029",
             "name": "getAll",
