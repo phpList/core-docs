@@ -15186,11 +15186,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_createPage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AgetAllSubscribePages\u0028\u0029",
-            "name": "getAllSubscribePages",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_getAllSubscribePages"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AupdatePage\u0028\u0029",
             "name": "updatePage",
             "summary": "",
