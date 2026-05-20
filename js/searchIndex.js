@@ -15186,10 +15186,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_createPage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AgetPage\u0028\u0029",
-            "name": "getPage",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AgetAllSubscribePages\u0028\u0029",
+            "name": "getAllSubscribePages",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_getPage"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_getAllSubscribePages"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AupdatePage\u0028\u0029",
             "name": "updatePage",
@@ -15230,11 +15230,6 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024translator",
-            "name": "translator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager",
             "name": "SubscriberAttributeManager",
@@ -24560,16 +24555,6 @@ Search.appendIndex(
             "name": "testCreatePageCreatesAndSaves",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testCreatePageCreatesAndSaves"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestGetPageReturnsPage\u0028\u0029",
-            "name": "testGetPageReturnsPage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageReturnsPage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestGetPageThrowsWhenNotFound\u0028\u0029",
-            "name": "testGetPageThrowsWhenNotFound",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageThrowsWhenNotFound"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestUpdatePageUpdatesProvidedFieldsAndFlushes\u0028\u0029",
             "name": "testUpdatePageUpdatesProvidedFieldsAndFlushes",
