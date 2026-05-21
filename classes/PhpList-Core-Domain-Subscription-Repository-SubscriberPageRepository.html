@@ -133,7 +133,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberPageRepository.php"><a href="files/src-domain-subscription-repository-subscriberpagerepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberPageRepository.php">SubscriberPageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
@@ -181,9 +181,9 @@
 <dd>Removes $model and flushes the entity manager change list.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_findPagesWithData">findPagesWithData()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_findPageWithData">findPageWithData()</a>
     <span>
-                                &nbsp;: array&lt;string|int, <abbr title="array{page: \PhpList\Core\Domain\Subscription\Model\SubscribePage, data: \PhpList\Core\Domain\Subscription\Model\SubscribePageData}">SubscribePageData}</abbr>&gt;    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscribePage">SubscribePage</abbr></a>|null    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
@@ -193,7 +193,7 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getFilteredAfterId">getFilteredAfterId()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_getFilteredAfterId">getFilteredAfterId()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html"><abbr title="\PhpList\Core\Domain\Common\Model\PaginatedResult">PaginatedResult</abbr></a>    </span>
 </dt>
@@ -216,6 +216,12 @@
                                 &nbsp;: void    </span>
 </dt>
 <dd>Persists $model and flushes the entity manager change list.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_loadPageData">loadPageData()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscribePage">SubscribePage</abbr></a>    </span>
+</dt>
 
     </dl>
 
@@ -285,22 +291,22 @@ following the Law of Demeter.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_findPagesWithData">
-        findPagesWithData()
-        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_findPagesWithData" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_findPageWithData">
+        findPageWithData()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_findPageWithData" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberPageRepository.php"><a href="files/src-domain-subscription-repository-subscriberpagerepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberPageRepository.php">SubscriberPageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">findPagesWithData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pageId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <abbr title="array{page: \PhpList\Core\Domain\Subscription\Model\SubscribePage, data: \PhpList\Core\Domain\Subscription\Model\SubscribePageData}">SubscribePageData}</abbr>&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">findPageWithData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pageId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscribePage">SubscribePage</abbr></a>|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -323,7 +329,7 @@ following the Law of Demeter.</p>
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, <abbr title="array{page: \PhpList\Core\Domain\Subscription\Model\SubscribePage, data: \PhpList\Core\Domain\Subscription\Model\SubscribePageData}">SubscribePageData}</abbr>&gt;</span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscribePage">SubscribePage</abbr></a>|null</span>
             </section>
 
 </article>
@@ -394,13 +400,13 @@ following the Law of Demeter.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getFilteredAfterId">
         getFilteredAfterId()
-        <a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getFilteredAfterId" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_getFilteredAfterId" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Common/Repository/CursorPaginationTrait.php"><a href="files/src-domain-common-repository-cursorpaginationtrait.html"><abbr title="src/Domain/Common/Repository/CursorPaginationTrait.php">CursorPaginationTrait.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberPageRepository.php"><a href="files/src-domain-subscription-repository-subscriberpagerepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberPageRepository.php">SubscriberPageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -570,6 +576,54 @@ following the Law of Demeter.</p>
     
     
 </article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_loadPageData">
+        loadPageData()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_loadPageData" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberPageRepository.php"><a href="files/src-domain-subscription-repository-subscriberpagerepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberPageRepository.php">SubscriberPageRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">92</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">loadPageData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$result</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscribePage">SubscribePage</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$result</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscribePage">SubscribePage</abbr></a></span>
+            </section>
+
+</article>
             </section>
 
         
@@ -593,12 +647,13 @@ following the Law of Demeter.</p>
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_delete">delete()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_findPagesWithData">findPagesWithData()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_findPageWithData">findPageWithData()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_persist">persist()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_remove">remove()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save">save()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_loadPageData">loadPageData()</a></li>
                                     </ul>
             </li>
                     </ul>

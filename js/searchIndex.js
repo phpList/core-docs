@@ -13506,6 +13506,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html#method_getOwner"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscribePage\u003A\u003AgetData\u0028\u0029",
+            "name": "getData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html#method_getData"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscribePage\u003A\u003AsetTitle\u0028\u0029",
             "name": "setTitle",
             "summary": "",
@@ -13520,6 +13525,11 @@ Search.appendIndex(
             "name": "setOwner",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html#method_setOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscribePage\u003A\u003AsetData\u0028\u0029",
+            "name": "setData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html#method_setData"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscribePage\u003A\u003A\u0024id",
             "name": "id",
@@ -13540,6 +13550,11 @@ Search.appendIndex(
             "name": "owner",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html#property_owner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscribePage\u003A\u003A\u0024data",
+            "name": "data",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscribePage.html#property_data"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscribePageData",
             "name": "SubscribePageData",
@@ -14806,10 +14821,20 @@ Search.appendIndex(
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageRepository\u003A\u003AfindPagesWithData\u0028\u0029",
-            "name": "findPagesWithData",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageRepository\u003A\u003AfindPageWithData\u0028\u0029",
+            "name": "findPageWithData",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_findPagesWithData"
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_findPageWithData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_getFilteredAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageRepository\u003A\u003AloadPageData\u0028\u0029",
+            "name": "loadPageData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageRepository.html#method_loadPageData"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository",
             "name": "SubscriberRepository",
@@ -15181,10 +15206,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method___construct"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AfindPage\u0028\u0029",
+            "name": "findPage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_findPage"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AcreatePage\u0028\u0029",
             "name": "createPage",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_createPage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AsyncPageData\u0028\u0029",
+            "name": "syncPageData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_syncPageData"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AupdatePage\u0028\u0029",
             "name": "updatePage",
@@ -24590,6 +24625,36 @@ Search.appendIndex(
             "name": "testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSyncPageDataWithEmptyExistingDataCreatesNewEntries\u0028\u0029",
+            "name": "testSyncPageDataWithEmptyExistingDataCreatesNewEntries",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataWithEmptyExistingDataCreatesNewEntries"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSyncPageDataUpdatesExistingEntries\u0028\u0029",
+            "name": "testSyncPageDataUpdatesExistingEntries",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataUpdatesExistingEntries"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSyncPageDataRemovesExistingEntriesNotInNewData\u0028\u0029",
+            "name": "testSyncPageDataRemovesExistingEntriesNotInNewData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataRemovesExistingEntriesNotInNewData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSyncPageDataWithMixedOperationsCreateUpdateDelete\u0028\u0029",
+            "name": "testSyncPageDataWithMixedOperationsCreateUpdateDelete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataWithMixedOperationsCreateUpdateDelete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSyncPageDataWithEmptyDataRemovesAllExistingEntries\u0028\u0029",
+            "name": "testSyncPageDataWithEmptyDataRemovesAllExistingEntries",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataWithEmptyDataRemovesAllExistingEntries"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSyncPageDataPreservesExistingDataObjectsWhenKeepingEntries\u0028\u0029",
+            "name": "testSyncPageDataPreservesExistingDataObjectsWhenKeepingEntries",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataPreservesExistingDataObjectsWhenKeepingEntries"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003A\u0024pageRepository",
             "name": "pageRepository",
