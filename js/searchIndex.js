@@ -15261,10 +15261,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_entityManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024subscribePageConfigMigrationEnabled",
-            "name": "subscribePageConfigMigrationEnabled",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024parallelUseWithPhpList3",
+            "name": "parallelUseWithPhpList3",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_subscribePageConfigMigrationEnabled"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_parallelUseWithPhpList3"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager",
             "name": "SubscriberAttributeManager",
@@ -15805,6 +15805,26 @@ Search.appendIndex(
             "name": "copyToPageData",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#method_copyToPageData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003AgetConfigValues\u0028\u0029",
+            "name": "getConfigValues",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#method_getConfigValues"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003AindexPageDataByName\u0028\u0029",
+            "name": "indexPageDataByName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#method_indexPageDataByName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003AsyncPageData\u0028\u0029",
+            "name": "syncPageData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#method_syncPageData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003AupdateExistingPageData\u0028\u0029",
+            "name": "updateExistingPageData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#method_updateExistingPageData"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003AcopyToConfig\u0028\u0029",
             "name": "copyToConfig",
