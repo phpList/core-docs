@@ -15241,11 +15241,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_getPageData"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AsetPageData\u0028\u0029",
-            "name": "setPageData",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_setPageData"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024pageRepository",
             "name": "pageRepository",
             "summary": "",
@@ -15256,10 +15251,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_pageDataRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024configMigrationService",
+            "name": "configMigrationService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_configMigrationService"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024entityManager",
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024subscribePageConfigMigrationEnabled",
+            "name": "subscribePageConfigMigrationEnabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_subscribePageConfigMigrationEnabled"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManager",
             "name": "SubscriberAttributeManager",
@@ -15785,6 +15790,46 @@ Search.appendIndex(
             "name": "providers",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html#property_providers"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService",
+            "name": "SubscribePageConfigMigrationService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003AcopyToPageData\u0028\u0029",
+            "name": "copyToPageData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#method_copyToPageData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003AcopyToConfig\u0028\u0029",
+            "name": "copyToConfig",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#method_copyToConfig"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003ASUBSCRIBE_PAGE_SUFFIXES",
+            "name": "SUBSCRIBE_PAGE_SUFFIXES",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#constant_SUBSCRIBE_PAGE_SUFFIXES"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003A\u0024configRepository",
+            "name": "configRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#property_configRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003A\u0024pageDataRepository",
+            "name": "pageDataRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#property_pageDataRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter",
             "name": "SubscriberCsvExporter",
@@ -20381,11 +20426,6 @@ Search.appendIndex(
             "summary": "Utility\u003A\u0020pick\u0020a\u0020non\u002Dboolean\u0020enum\u0020case\u0020\u0028i.e.,\u0020anything\u0020except\u0020MaintenanceMode\u0029.",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_pickNonBooleanCase"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003ApickNamespacedCasePair\u0028\u0029",
-            "name": "pickNamespacedCasePair",
-            "summary": "Utility\u003A\u0020pick\u0020a\u0020namespaced\u0020case\u0020\u0022parent\u003Achild\u0022\u0020where\u0020parent\u0020exists\u0020as\u0020its\u0020own\u0020case.",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_pickNamespacedCasePair"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestIsEnabledRejectsNonBooleanKeys\u0028\u0029",
             "name": "testIsEnabledRejectsNonBooleanKeys",
             "summary": "",
@@ -20431,10 +20471,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueWithNamespacePrefersFullValue"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestGetValueWithNamespaceFallsBackToParentWhenFullEmpty\u0028\u0029",
-            "name": "testGetValueWithNamespaceFallsBackToParentWhenFullEmpty",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestGetValueWithNamespaceSupportsStringNamespacedKey\u0028\u0029",
+            "name": "testGetValueWithNamespaceSupportsStringNamespacedKey",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueWithNamespaceFallsBackToParentWhenFullEmpty"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueWithNamespaceSupportsStringNamespacedKey"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003A\u0024repo",
             "name": "repo",
@@ -24581,6 +24621,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_setUp"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AcreateManager\u0028\u0029",
+            "name": "createManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_createManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestFindPageReturnsPageFromRepositoryWithoutRefetchWhenMigrationMakesNoChanges\u0028\u0029",
+            "name": "testFindPageReturnsPageFromRepositoryWithoutRefetchWhenMigrationMakesNoChanges",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageReturnsPageFromRepositoryWithoutRefetchWhenMigrationMakesNoChanges"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestFindPageRefetchesWhenMigrationChangesPageData\u0028\u0029",
+            "name": "testFindPageRefetchesWhenMigrationChangesPageData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageRefetchesWhenMigrationChangesPageData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestFindPageReturnsNullWhenMissing\u0028\u0029",
+            "name": "testFindPageReturnsNullWhenMissing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageReturnsNullWhenMissing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestFindPageSkipsConfigMigrationWhenFeatureIsDisabled\u0028\u0029",
+            "name": "testFindPageSkipsConfigMigrationWhenFeatureIsDisabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageSkipsConfigMigrationWhenFeatureIsDisabled"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestCreatePageCreatesAndSaves\u0028\u0029",
             "name": "testCreatePageCreatesAndSaves",
             "summary": "",
@@ -24606,30 +24671,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testDeletePageCallsRepositoryRemove"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestGetPageDataReturnsStringWhenFound\u0028\u0029",
-            "name": "testGetPageDataReturnsStringWhenFound",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageDataReturnsStringWhenFound"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestGetPageDataReturnsNullWhenNotFound\u0028\u0029",
-            "name": "testGetPageDataReturnsNullWhenNotFound",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageDataReturnsNullWhenNotFound"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSetPageDataUpdatesExistingDataAndFlushes\u0028\u0029",
-            "name": "testSetPageDataUpdatesExistingDataAndFlushes",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetPageDataUpdatesExistingDataAndFlushes"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes\u0028\u0029",
-            "name": "testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSyncPageDataWithEmptyExistingDataCreatesNewEntries\u0028\u0029",
             "name": "testSyncPageDataWithEmptyExistingDataCreatesNewEntries",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataWithEmptyExistingDataCreatesNewEntries"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSyncPageDataCallsCopyToConfigWhenFeatureIsEnabled\u0028\u0029",
+            "name": "testSyncPageDataCallsCopyToConfigWhenFeatureIsEnabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataCallsCopyToConfigWhenFeatureIsEnabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSyncPageDataSkipsCopyToConfigWhenFeatureIsDisabled\u0028\u0029",
+            "name": "testSyncPageDataSkipsCopyToConfigWhenFeatureIsDisabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataSkipsCopyToConfigWhenFeatureIsDisabled"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestSyncPageDataUpdatesExistingEntries\u0028\u0029",
             "name": "testSyncPageDataUpdatesExistingEntries",
@@ -24665,6 +24720,11 @@ Search.appendIndex(
             "name": "pageDataRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_pageDataRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003A\u0024configMigrationService",
+            "name": "configMigrationService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_configMigrationService"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003A\u0024entityManager",
             "name": "entityManager",
@@ -25180,6 +25240,71 @@ Search.appendIndex(
             "name": "subscriberProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#property_subscriberProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest",
+            "name": "SubscribePageConfigMigrationServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003AtestCopyToPageDataSkipsPagesWithoutId\u0028\u0029",
+            "name": "testCopyToPageDataSkipsPagesWithoutId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#method_testCopyToPageDataSkipsPagesWithoutId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003AtestCopyToPageDataSkipsWhenNoConfigValuesFound\u0028\u0029",
+            "name": "testCopyToPageDataSkipsWhenNoConfigValuesFound",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#method_testCopyToPageDataSkipsWhenNoConfigValuesFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003AtestCopyToPageDataSyncsExistingAndAddsMissingEntriesThenFlushes\u0028\u0029",
+            "name": "testCopyToPageDataSyncsExistingAndAddsMissingEntriesThenFlushes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#method_testCopyToPageDataSyncsExistingAndAddsMissingEntriesThenFlushes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003AtestCopyToConfigSkipsPagesWithoutId\u0028\u0029",
+            "name": "testCopyToConfigSkipsPagesWithoutId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#method_testCopyToConfigSkipsPagesWithoutId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003AtestCopyToConfigSkipsUnsupportedDataKeys\u0028\u0029",
+            "name": "testCopyToConfigSkipsUnsupportedDataKeys",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#method_testCopyToConfigSkipsUnsupportedDataKeys"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003AtestCopyToConfigCreatesMissingConfigRows\u0028\u0029",
+            "name": "testCopyToConfigCreatesMissingConfigRows",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#method_testCopyToConfigCreatesMissingConfigRows"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003AtestCopyToConfigUpdatesExistingRowsWithoutPersist\u0028\u0029",
+            "name": "testCopyToConfigUpdatesExistingRowsWithoutPersist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#method_testCopyToConfigUpdatesExistingRowsWithoutPersist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003A\u0024configRepository",
+            "name": "configRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#property_configRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003A\u0024pageDataRepository",
+            "name": "pageDataRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#property_pageDataRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest\u003A\u003A\u0024service",
+            "name": "service",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#property_service"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExporterTest",
             "name": "SubscriberCsvExporterTest",

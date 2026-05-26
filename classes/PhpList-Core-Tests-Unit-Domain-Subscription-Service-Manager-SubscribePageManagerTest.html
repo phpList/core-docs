@@ -130,7 +130,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -161,6 +161,12 @@
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_configMigrationService">$configMigrationService</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\SubscribePageConfigMigrationService">SubscribePageConfigMigrationService</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_entityManager">$entityManager</a>
     <span>
@@ -206,13 +212,25 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageDataReturnsNullWhenNotFound">testGetPageDataReturnsNullWhenNotFound()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageRefetchesWhenMigrationChangesPageData">testFindPageRefetchesWhenMigrationChangesPageData()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageDataReturnsStringWhenFound">testGetPageDataReturnsStringWhenFound()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageReturnsNullWhenMissing">testFindPageReturnsNullWhenMissing()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageReturnsPageFromRepositoryWithoutRefetchWhenMigrationMakesNoChanges">testFindPageReturnsPageFromRepositoryWithoutRefetchWhenMigrationMakesNoChanges()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageSkipsConfigMigrationWhenFeatureIsDisabled">testFindPageSkipsConfigMigrationWhenFeatureIsDisabled()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -224,13 +242,7 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes">testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetPageDataUpdatesExistingDataAndFlushes">testSetPageDataUpdatesExistingDataAndFlushes()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataCallsCopyToConfigWhenFeatureIsEnabled">testSyncPageDataCallsCopyToConfigWhenFeatureIsEnabled()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -243,6 +255,12 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataRemovesExistingEntriesNotInNewData">testSyncPageDataRemovesExistingEntriesNotInNewData()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataSkipsCopyToConfigWhenFeatureIsDisabled">testSyncPageDataSkipsCopyToConfigWhenFeatureIsDisabled()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -289,6 +307,12 @@
                                 &nbsp;: void    </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_createManager">createManager()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscribePageManager">SubscribePageManager</abbr></a>    </span>
+</dt>
+
     </dl>
 
 
@@ -309,6 +333,43 @@
             -private
                                                                     "
 >
+    <h4 class="phpdocumentor-element__name" id="property_configMigrationService">
+        $configMigrationService
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_configMigrationService" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">22</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\SubscribePageConfigMigrationService">SubscribePageConfigMigrationService</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$configMigrationService</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_entityManager">
         $entityManager
         <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_entityManager" class="headerlink"><i class="fas fa-link"></i></a>
@@ -319,7 +380,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -356,7 +417,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -393,7 +454,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -430,7 +491,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
@@ -472,7 +533,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">119</span>
 
     </aside>
 
@@ -506,7 +567,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">107</span>
+    <span class="phpdocumentor-element-found-in__line">189</span>
 
     </aside>
 
@@ -532,22 +593,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testGetPageDataReturnsNullWhenNotFound">
-        testGetPageDataReturnsNullWhenNotFound()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageDataReturnsNullWhenNotFound" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testFindPageRefetchesWhenMigrationChangesPageData">
+        testFindPageRefetchesWhenMigrationChangesPageData()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageRefetchesWhenMigrationChangesPageData" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">136</span>
+    <span class="phpdocumentor-element-found-in__line">66</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testGetPageDataReturnsNullWhenNotFound</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testFindPageRefetchesWhenMigrationChangesPageData</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -566,22 +627,90 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testGetPageDataReturnsStringWhenFound">
-        testGetPageDataReturnsStringWhenFound()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageDataReturnsStringWhenFound" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testFindPageReturnsNullWhenMissing">
+        testFindPageReturnsNullWhenMissing()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageReturnsNullWhenMissing" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">119</span>
+    <span class="phpdocumentor-element-found-in__line">86</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testGetPageDataReturnsStringWhenFound</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testFindPageReturnsNullWhenMissing</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testFindPageReturnsPageFromRepositoryWithoutRefetchWhenMigrationMakesNoChanges">
+        testFindPageReturnsPageFromRepositoryWithoutRefetchWhenMigrationMakesNoChanges()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageReturnsPageFromRepositoryWithoutRefetchWhenMigrationMakesNoChanges" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testFindPageReturnsPageFromRepositoryWithoutRefetchWhenMigrationMakesNoChanges</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testFindPageSkipsConfigMigrationWhenFeatureIsDisabled">
+        testFindPageSkipsConfigMigrationWhenFeatureIsDisabled()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageSkipsConfigMigrationWhenFeatureIsDisabled" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">101</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testFindPageSkipsConfigMigrationWhenFeatureIsDisabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -608,7 +737,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">93</span>
+    <span class="phpdocumentor-element-found-in__line">175</span>
 
     </aside>
 
@@ -634,56 +763,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes">
-        testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testSyncPageDataCallsCopyToConfigWhenFeatureIsEnabled">
+        testSyncPageDataCallsCopyToConfigWhenFeatureIsEnabled()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataCallsCopyToConfigWhenFeatureIsEnabled" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">172</span>
+    <span class="phpdocumentor-element-found-in__line">231</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testSetPageDataUpdatesExistingDataAndFlushes">
-        testSetPageDataUpdatesExistingDataAndFlushes()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetPageDataUpdatesExistingDataAndFlushes" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">150</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testSetPageDataUpdatesExistingDataAndFlushes</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testSyncPageDataCallsCopyToConfigWhenFeatureIsEnabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -710,7 +805,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">357</span>
+    <span class="phpdocumentor-element-found-in__line">404</span>
 
     </aside>
 
@@ -744,7 +839,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">261</span>
+    <span class="phpdocumentor-element-found-in__line">308</span>
 
     </aside>
 
@@ -752,6 +847,40 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testSyncPageDataRemovesExistingEntriesNotInNewData</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testSyncPageDataSkipsCopyToConfigWhenFeatureIsDisabled">
+        testSyncPageDataSkipsCopyToConfigWhenFeatureIsDisabled()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataSkipsCopyToConfigWhenFeatureIsDisabled" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">253</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testSyncPageDataSkipsCopyToConfigWhenFeatureIsDisabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -778,7 +907,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">228</span>
+    <span class="phpdocumentor-element-found-in__line">275</span>
 
     </aside>
 
@@ -812,7 +941,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">329</span>
+    <span class="phpdocumentor-element-found-in__line">376</span>
 
     </aside>
 
@@ -846,7 +975,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">198</span>
+    <span class="phpdocumentor-element-found-in__line">201</span>
 
     </aside>
 
@@ -880,7 +1009,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">291</span>
+    <span class="phpdocumentor-element-found-in__line">338</span>
 
     </aside>
 
@@ -914,7 +1043,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">74</span>
+    <span class="phpdocumentor-element-found-in__line">156</span>
 
     </aside>
 
@@ -948,7 +1077,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">135</span>
 
     </aside>
 
@@ -982,7 +1111,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -1001,6 +1130,54 @@
         
     
     
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_createManager">
+        createManager()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_createManager" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscribepagemanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscribePageManagerTest.php">SubscribePageManagerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">createManager</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscribePageConfigMigrationEnabled</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscribePageManager">SubscribePageManager</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$subscribePageConfigMigrationEnabled</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscribePageManager">SubscribePageManager</abbr></a></span>
+            </section>
+
 </article>
             </section>
 
@@ -1024,6 +1201,7 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_configMigrationService">$configMigrationService</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_entityManager">$entityManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_manager">$manager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_pageDataRepository">$pageDataRepository</a></li>
@@ -1036,13 +1214,15 @@
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testCreatePageCreatesAndSaves">testCreatePageCreatesAndSaves()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testDeletePageCallsRepositoryRemove">testDeletePageCallsRepositoryRemove()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageDataReturnsNullWhenNotFound">testGetPageDataReturnsNullWhenNotFound()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testGetPageDataReturnsStringWhenFound">testGetPageDataReturnsStringWhenFound()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageRefetchesWhenMigrationChangesPageData">testFindPageRefetchesWhenMigrationChangesPageData()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageReturnsNullWhenMissing">testFindPageReturnsNullWhenMissing()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageReturnsPageFromRepositoryWithoutRefetchWhenMigrationMakesNoChanges">testFindPageReturnsPageFromRepositoryWithoutRefetchWhenMigrationMakesNoChanges()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageSkipsConfigMigrationWhenFeatureIsDisabled">testFindPageSkipsConfigMigrationWhenFeatureIsDisabled()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetActiveSetsFlagButNDoesotFlush">testSetActiveSetsFlagButNDoesotFlush()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes">testSetPageDataCreatesNewWhenMissingAndPersistsAndFlushes()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSetPageDataUpdatesExistingDataAndFlushes">testSetPageDataUpdatesExistingDataAndFlushes()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataCallsCopyToConfigWhenFeatureIsEnabled">testSyncPageDataCallsCopyToConfigWhenFeatureIsEnabled()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataPreservesExistingDataObjectsWhenKeepingEntries">testSyncPageDataPreservesExistingDataObjectsWhenKeepingEntries()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataRemovesExistingEntriesNotInNewData">testSyncPageDataRemovesExistingEntriesNotInNewData()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataSkipsCopyToConfigWhenFeatureIsDisabled">testSyncPageDataSkipsCopyToConfigWhenFeatureIsDisabled()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataUpdatesExistingEntries">testSyncPageDataUpdatesExistingEntries()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataWithEmptyDataRemovesAllExistingEntries">testSyncPageDataWithEmptyDataRemovesAllExistingEntries()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataWithEmptyExistingDataCreatesNewEntries">testSyncPageDataWithEmptyExistingDataCreatesNewEntries()</a></li>
@@ -1050,6 +1230,7 @@
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testUpdatePageLeavesNullFieldsUntouched">testUpdatePageLeavesNullFieldsUntouched()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testUpdatePageUpdatesProvidedFieldsAndFlushes">testUpdatePageUpdatesProvidedFieldsAndFlushes()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_createManager">createManager()</a></li>
                                     </ul>
             </li>
                     </ul>
