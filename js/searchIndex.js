@@ -24756,6 +24756,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_manager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003A\u0024page",
+            "name": "page",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_page"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscriberAttributeManagerTest",
             "name": "SubscriberAttributeManagerTest",
             "summary": "",
