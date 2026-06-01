@@ -14781,10 +14781,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getListIdsByMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AgetAllActive\u0028\u0029",
-            "name": "getAllActive",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AgetPublicByIds\u0028\u0029",
+            "name": "getPublicByIds",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getAllActive"
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getPublicByIds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
             "name": "getFilteredAfterId",
@@ -15211,6 +15211,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_findPage"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AfindPublicPage\u0028\u0029",
+            "name": "findPublicPage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_findPublicPage"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AcreatePage\u0028\u0029",
             "name": "createPage",
             "summary": "",
@@ -15260,6 +15265,11 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024placeholderProcessor",
+            "name": "placeholderProcessor",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#property_placeholderProcessor"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024parallelUseWithPhpList3",
             "name": "parallelUseWithPhpList3",
@@ -15850,6 +15860,41 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePageConfigMigrationService.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePagePlaceholderProcessor",
+            "name": "SubscribePagePlaceholderProcessor",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePagePlaceholderProcessor.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePagePlaceholderProcessor\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePagePlaceholderProcessor.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePagePlaceholderProcessor\u003A\u003Aprocess\u0028\u0029",
+            "name": "process",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePagePlaceholderProcessor.html#method_process"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePagePlaceholderProcessor\u003A\u003AbuildReplacements\u0028\u0029",
+            "name": "buildReplacements",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePagePlaceholderProcessor.html#method_buildReplacements"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePagePlaceholderProcessor\u003A\u003AresolveListNames\u0028\u0029",
+            "name": "resolveListNames",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePagePlaceholderProcessor.html#method_resolveListNames"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePagePlaceholderProcessor\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePagePlaceholderProcessor.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePagePlaceholderProcessor\u003A\u003A\u0024subscriberListRepository",
+            "name": "subscriberListRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscribePagePlaceholderProcessor.html#property_subscriberListRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter",
             "name": "SubscriberCsvExporter",
@@ -25330,6 +25375,16 @@ Search.appendIndex(
             "name": "service",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePageConfigMigrationServiceTest.html#property_service"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePagePlaceholderProcessorTest",
+            "name": "SubscribePagePlaceholderProcessorTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePagePlaceholderProcessorTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePagePlaceholderProcessorTest\u003A\u003AtestItProcessesPlaceholders\u0028\u0029",
+            "name": "testItProcessesPlaceholders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscribePagePlaceholderProcessorTest.html#method_testItProcessesPlaceholders"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvExporterTest",
             "name": "SubscriberCsvExporterTest",
