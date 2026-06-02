@@ -14701,6 +14701,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html#method_findOneByName"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository\u003A\u003AgetByIds\u0028\u0029",
+            "name": "getByIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html#method_getByIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository\u003A\u003AexistsByTableName\u0028\u0029",
             "name": "existsByTableName",
             "summary": "",
