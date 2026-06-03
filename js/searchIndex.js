@@ -15251,6 +15251,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_getPageData"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003AextractLegacyOverrides\u0028\u0029",
+            "name": "extractLegacyOverrides",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscribePageManager.html#method_extractLegacyOverrides"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscribePageManager\u003A\u003A\u0024pageRepository",
             "name": "pageRepository",
             "summary": "",
