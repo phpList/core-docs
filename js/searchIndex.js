@@ -24721,6 +24721,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPageSkipsConfigMigrationWhenFeatureIsDisabled"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestFindPublicPageReturnsNullWhenMissing\u0028\u0029",
+            "name": "testFindPublicPageReturnsNullWhenMissing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPublicPageReturnsNullWhenMissing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestFindPublicPageProcessesResolvedPage\u0028\u0029",
+            "name": "testFindPublicPageProcessesResolvedPage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPublicPageProcessesResolvedPage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestFindPublicPageProcessesRefetchedPageWhenMigrationChangesData\u0028\u0029",
+            "name": "testFindPublicPageProcessesRefetchedPageWhenMigrationChangesData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPublicPageProcessesRefetchedPageWhenMigrationChangesData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestFindPublicPageSkipsMigrationWhenFeatureIsDisabled\u0028\u0029",
+            "name": "testFindPublicPageSkipsMigrationWhenFeatureIsDisabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testFindPublicPageSkipsMigrationWhenFeatureIsDisabled"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestCreatePageCreatesAndSaves\u0028\u0029",
             "name": "testCreatePageCreatesAndSaves",
             "summary": "",
@@ -24786,6 +24806,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testSyncPageDataPreservesExistingDataObjectsWhenKeepingEntries"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestExtractLegacyOverridesReturnsParsedOverridesForAttributeKeysOnly\u0028\u0029",
+            "name": "testExtractLegacyOverridesReturnsParsedOverridesForAttributeKeysOnly",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testExtractLegacyOverridesReturnsParsedOverridesForAttributeKeysOnly"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003AtestExtractLegacyOverridesHandlesMissingSegments\u0028\u0029",
+            "name": "testExtractLegacyOverridesHandlesMissingSegments",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#method_testExtractLegacyOverridesHandlesMissingSegments"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003A\u0024pageRepository",
             "name": "pageRepository",
             "summary": "",
@@ -24805,6 +24835,11 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003A\u0024placeholderProcessor",
+            "name": "placeholderProcessor",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscribePageManagerTest.html#property_placeholderProcessor"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\SubscribePageManagerTest\u003A\u003A\u0024manager",
             "name": "manager",
