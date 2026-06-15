@@ -125,7 +125,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Manager/ConfigManager.php"><a href="files/src-domain-configuration-service-manager-configmanager.html"><abbr title="src/Domain/Configuration/Service/Manager/ConfigManager.php">ConfigManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
@@ -162,6 +162,12 @@
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Repository-ConfigRepository.html"><abbr title="\PhpList\Core\Domain\Configuration\Repository\ConfigRepository">ConfigRepository</abbr></a>            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#property_parallelUseWithPhpList3">$parallelUseWithPhpList3</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+
     </dl>
 
 <h4 id="toc-methods">
@@ -189,18 +195,18 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getAll">getAll()</a>
-    <span>
-                                &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Configuration-Model-Config.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Config">Config</abbr></a>&gt;    </span>
-</dt>
-<dd>Get all configuration items</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getByItem">getByItem()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_findByKey">findByKey()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Model-Config.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Config">Config</abbr></a>|null    </span>
 </dt>
 <dd>Get a configuration item by its key</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getAllEditable">getAllEditable()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Configuration-Model-Config.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Config">Config</abbr></a>&gt;    </span>
+</dt>
+<dd>Get all configuration items</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_update">update()</a>
@@ -227,19 +233,19 @@
             phpdocumentor-element
             -property
             -private
-                                                                    "
+                                                -read-only                    "
 >
     <h4 class="phpdocumentor-element__name" id="property_configRepository">
         $configRepository
         <a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#property_configRepository" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                            </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Manager/ConfigManager.php"><a href="files/src-domain-configuration-service-manager-configmanager.html"><abbr title="src/Domain/Configuration/Service/Manager/ConfigManager.php">ConfigManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">15</span>
 
     </aside>
 
@@ -256,6 +262,57 @@
     
 
         
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_parallelUseWithPhpList3">
+        $parallelUseWithPhpList3
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#property_parallelUseWithPhpList3" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Manager/ConfigManager.php"><a href="files/src-domain-configuration-service-manager-configmanager.html"><abbr title="src/Domain/Configuration/Service/Manager/ConfigManager.php">ConfigManager.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$parallelUseWithPhpList3</span>
+    </code>
+
+    
+    
+    
+
+        
+            <section class="phpdocumentor-attributes">
+            <h5 class="phpdocumentor-elements__header" id="property_parallelUseWithPhpList3_attributes">
+                Attributes <a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#property_parallelUseWithPhpList3_attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+            </h5>
+                            <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Symfony\Component\DependencyInjection\Attribute\Autowire">Autowire</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        &#039;%parallel_use_with_phplist3%&#039;
+    </dd>
+    </dl>
+                    </section>
         
 
 </article>
@@ -281,14 +338,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Manager/ConfigManager.php"><a href="files/src-domain-configuration-service-manager-configmanager.html"><abbr title="src/Domain/Configuration/Service/Manager/ConfigManager.php">ConfigManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Repository-ConfigRepository.html"><abbr title="\PhpList\Core\Domain\Configuration\Repository\ConfigRepository">ConfigRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configRepository</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Repository-ConfigRepository.html"><abbr title="\PhpList\Core\Domain\Configuration\Repository\ConfigRepository">ConfigRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$parallelUseWithPhpList3</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -299,6 +356,13 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$configRepository</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Repository-ConfigRepository.html"><abbr title="\PhpList\Core\Domain\Configuration\Repository\ConfigRepository">ConfigRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$parallelUseWithPhpList3</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -325,7 +389,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Manager/ConfigManager.php"><a href="files/src-domain-configuration-service-manager-configmanager.html"><abbr title="src/Domain/Configuration/Service/Manager/ConfigManager.php">ConfigManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
@@ -390,7 +454,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Manager/ConfigManager.php"><a href="files/src-domain-configuration-service-manager-configmanager.html"><abbr title="src/Domain/Configuration/Service/Manager/ConfigManager.php">ConfigManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">83</span>
 
     </aside>
 
@@ -426,54 +490,15 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getAll">
-        getAll()
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getAll" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_findByKey">
+        findByKey()
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_findByKey" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Manager/ConfigManager.php"><a href="files/src-domain-configuration-service-manager-configmanager.html"><abbr title="src/Domain/Configuration/Service/Manager/ConfigManager.php">ConfigManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Get all configuration items</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getAll</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Configuration-Model-Config.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Config">Config</abbr></a>&gt;</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Configuration-Model-Config.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Config">Config</abbr></a>&gt;</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getByItem">
-        getByItem()
-        <a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getByItem" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Manager/ConfigManager.php"><a href="files/src-domain-configuration-service-manager-configmanager.html"><abbr title="src/Domain/Configuration/Service/Manager/ConfigManager.php">ConfigManager.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -481,7 +506,7 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getByItem</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$item</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Configuration-Model-Config.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Config">Config</abbr></a>|null</span></code>
+                    <span class="phpdocumentor-signature__name">findByKey</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$item</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Configuration-Model-Config.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Config">Config</abbr></a>|null</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -514,6 +539,45 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getAllEditable">
+        getAllEditable()
+        <a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getAllEditable" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Manager/ConfigManager.php"><a href="files/src-domain-configuration-service-manager-configmanager.html"><abbr title="src/Domain/Configuration/Service/Manager/ConfigManager.php">ConfigManager.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">34</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get all configuration items</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getAllEditable</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Configuration-Model-Config.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Config">Config</abbr></a>&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Configuration-Model-Config.html"><abbr title="\PhpList\Core\Domain\Configuration\Model\Config">Config</abbr></a>&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_update">
         update()
         <a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_update" class="headerlink"><i class="fas fa-link"></i></a>
@@ -522,7 +586,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Configuration/Service/Manager/ConfigManager.php"><a href="files/src-domain-configuration-service-manager-configmanager.html"><abbr title="src/Domain/Configuration/Service/Manager/ConfigManager.php">ConfigManager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 
     </aside>
 
@@ -597,6 +661,7 @@
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#property_configRepository">$configRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#property_parallelUseWithPhpList3">$parallelUseWithPhpList3</a></li>
                                             </ul>
                 </li>
             
@@ -606,8 +671,8 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_create">create()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_delete">delete()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getAll">getAll()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getByItem">getByItem()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_findByKey">findByKey()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getAllEditable">getAllEditable()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_update">update()</a></li>
                                     </ul>
             </li>

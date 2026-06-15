@@ -4411,6 +4411,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Repository-ConfigRepository.html#method_findValueByItem"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository\\ConfigRepository\u003A\u003AfindByKey\u0028\u0029",
+            "name": "findByKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Repository-ConfigRepository.html#method_findByKey"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository\\EventLogRepository",
             "name": "EventLogRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -4471,15 +4476,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003AgetByItem\u0028\u0029",
-            "name": "getByItem",
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003AfindByKey\u0028\u0029",
+            "name": "findByKey",
             "summary": "Get\u0020a\u0020configuration\u0020item\u0020by\u0020its\u0020key",
-            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getByItem"
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_findByKey"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003AgetAll\u0028\u0029",
-            "name": "getAll",
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003AgetAllEditable\u0028\u0029",
+            "name": "getAllEditable",
             "summary": "Get\u0020all\u0020configuration\u0020items",
-            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getAll"
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#method_getAllEditable"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003Aupdate\u0028\u0029",
             "name": "update",
@@ -4500,6 +4505,11 @@ Search.appendIndex(
             "name": "configRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#property_configRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\ConfigManager\u003A\u003A\u0024parallelUseWithPhpList3",
+            "name": "parallelUseWithPhpList3",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Manager-ConfigManager.html#property_parallelUseWithPhpList3"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Manager\\EventLogManager",
             "name": "EventLogManager",
