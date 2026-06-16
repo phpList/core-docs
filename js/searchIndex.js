@@ -4086,6 +4086,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_NotifyAdminLogin"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Dto\\CreateConfigDto",
+            "name": "CreateConfigDto",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Dto-CreateConfigDto.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Dto\\CreateConfigDto\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Dto-CreateConfigDto.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Dto\\CreateConfigDto\u003A\u003A\u0024key",
+            "name": "key",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Dto-CreateConfigDto.html#property_key"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Dto\\CreateConfigDto\u003A\u003A\u0024value",
+            "name": "value",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Dto-CreateConfigDto.html#property_value"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Dto\\CreateConfigDto\u003A\u003A\u0024editable",
+            "name": "editable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Dto-CreateConfigDto.html#property_editable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Dto\\CreateConfigDto\u003A\u003A\u0024type",
+            "name": "type",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-Dto-CreateConfigDto.html#property_type"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Dto\\PlaceholderContext",
             "name": "PlaceholderContext",
             "summary": "",
