@@ -14846,6 +14846,11 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020names\u0020of\u0020lists\u0020the\u0020given\u0020subscriber\u0020is\u0020subscribed\u0020to.",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_getActiveListNamesForSubscriber"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository\u003A\u003AfindById\u0028\u0029",
+            "name": "findById",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberListRepository.html#method_findById"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberPageDataRepository",
             "name": "SubscriberPageDataRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
