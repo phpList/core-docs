@@ -2761,6 +2761,11 @@ Search.appendIndex(
             "summary": "Get\u0020domains\u0020with\u0020most\u0020unconfirmed\u0020subscribers",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getDomainConfirmationStatistics"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AextractDomain\u0028\u0029",
+            "name": "extractDomain",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_extractDomain"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AformatStat\u0028\u0029",
             "name": "formatStat",
             "summary": "",
