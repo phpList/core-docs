@@ -2981,6 +2981,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-ClientIpResolver.html#property_requestStack"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\InvalidUploadException",
+            "name": "InvalidUploadException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Exception-InvalidUploadException.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\MailboxConnectionException",
             "name": "MailboxConnectionException",
             "summary": "",
@@ -2991,105 +2996,35 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Exception-MailboxConnectionException.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService",
-            "name": "ExternalImageService",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\MissingUploadException",
+            "name": "MissingUploadException",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html"
+            "url": "classes/PhpList-Core-Domain-Common-Exception-MissingUploadException.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\StorageException",
+            "name": "StorageException",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Common-Exception-StorageException.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AgetFromCache\u0028\u0029",
-            "name": "getFromCache",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\UnsupportedExtensionException",
+            "name": "UnsupportedExtensionException",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_getFromCache"
+            "url": "classes/PhpList-Core-Domain-Common-Exception-UnsupportedExtensionException.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003Acache\u0028\u0029",
-            "name": "cache",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\UnsupportedMimeTypeException",
+            "name": "UnsupportedMimeTypeException",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_cache"
+            "url": "classes/PhpList-Core-Domain-Common-Exception-UnsupportedMimeTypeException.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AremoveOldFilesInCache\u0028\u0029",
-            "name": "removeOldFilesInCache",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\UploadException",
+            "name": "UploadException",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_removeOldFilesInCache"
+            "url": "classes/PhpList-Core-Domain-Common-Exception-UploadException.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AgenerateLocalFileName\u0028\u0029",
-            "name": "generateLocalFileName",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\UploadTooLargeException",
+            "name": "UploadTooLargeException",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_generateLocalFileName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AdownloadUsingCurl\u0028\u0029",
-            "name": "downloadUsingCurl",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_downloadUsingCurl"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AdownloadUsingFileGetContent\u0028\u0029",
-            "name": "downloadUsingFileGetContent",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_downloadUsingFileGetContent"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AisCacheableUrl\u0028\u0029",
-            "name": "isCacheableUrl",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_isCacheableUrl"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AensureCacheDirectory\u0028\u0029",
-            "name": "ensureCacheDirectory",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_ensureCacheDirectory"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AisValidCacheFile\u0028\u0029",
-            "name": "isValidCacheFile",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_isValidCacheFile"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003AwriteCacheFile\u0028\u0029",
-            "name": "writeCacheFile",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#method_writeCacheFile"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024externalCacheDir",
-            "name": "externalCacheDir",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_externalCacheDir"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024configProvider",
-            "name": "configProvider",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_configProvider"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024logger",
-            "name": "logger",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_logger"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024tempDir",
-            "name": "tempDir",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_tempDir"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024externalImageMaxAge",
-            "name": "externalImageMaxAge",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_externalImageMaxAge"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024externalImageMaxSize",
-            "name": "externalImageMaxSize",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_externalImageMaxSize"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024verifySsl",
-            "name": "verifySsl",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_verifySsl"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\ExternalImageService\u003A\u003A\u0024externalImageTimeout",
-            "name": "externalImageTimeout",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-ExternalImageService.html#property_externalImageTimeout"
+            "url": "classes/PhpList-Core-Domain-Common-Exception-UploadTooLargeException.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\FileHelper",
             "name": "FileHelper",
@@ -3581,6 +3516,126 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html#property_lastId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile",
+            "name": "StoredFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile\u003A\u003AgetFilename\u0028\u0029",
+            "name": "getFilename",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html#method_getFilename"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile\u003A\u003AgetPath\u0028\u0029",
+            "name": "getPath",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html#method_getPath"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile\u003A\u003AgetMimeType\u0028\u0029",
+            "name": "getMimeType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html#method_getMimeType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile\u003A\u003AgetSize\u0028\u0029",
+            "name": "getSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html#method_getSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile\u003A\u003AgetExtension\u0028\u0029",
+            "name": "getExtension",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html#method_getExtension"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile\u003A\u003A\u0024filename",
+            "name": "filename",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html#property_filename"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile\u003A\u003A\u0024path",
+            "name": "path",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html#property_path"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile\u003A\u003A\u0024mimeType",
+            "name": "mimeType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html#property_mimeType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile\u003A\u003A\u0024size",
+            "name": "size",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html#property_size"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\StoredFile\u003A\u003A\u0024extension",
+            "name": "extension",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-StoredFile.html#property_extension"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult",
+            "name": "UploadResult",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult\u003A\u003AgetFilename\u0028\u0029",
+            "name": "getFilename",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html#method_getFilename"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult\u003A\u003AgetUrl\u0028\u0029",
+            "name": "getUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html#method_getUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult\u003A\u003AgetMimeType\u0028\u0029",
+            "name": "getMimeType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html#method_getMimeType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult\u003A\u003AgetSize\u0028\u0029",
+            "name": "getSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html#method_getSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult\u003A\u003AgetExtension\u0028\u0029",
+            "name": "getExtension",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html#method_getExtension"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult\u003A\u003A\u0024filename",
+            "name": "filename",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html#property_filename"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult\u003A\u003A\u0024url",
+            "name": "url",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html#property_url"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult\u003A\u003A\u0024mimeType",
+            "name": "mimeType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html#property_mimeType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult\u003A\u003A\u0024size",
+            "name": "size",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html#property_size"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\UploadResult\u003A\u003A\u0024extension",
+            "name": "extension",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-UploadResult.html#property_extension"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\ValidationContext",
             "name": "ValidationContext",
             "summary": "",
@@ -3756,6 +3811,206 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Repository-Interfaces-PaginatableRepositoryInterface.html#method_getFilteredAfterId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\DirectoryListingService",
+            "name": "DirectoryListingService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-DirectoryListingService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\DirectoryListingService\u003A\u003Alist\u0028\u0029",
+            "name": "list",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-DirectoryListingService.html#method_list"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\DirectoryListingService\u003A\u003AreadDirectory\u0028\u0029",
+            "name": "readDirectory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-DirectoryListingService.html#method_readDirectory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\DirectoryListingService\u003A\u003AsortFiles\u0028\u0029",
+            "name": "sortFiles",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-DirectoryListingService.html#method_sortFiles"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\DirectoryListingService\u003A\u003AcreateEntry\u0028\u0029",
+            "name": "createEntry",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-DirectoryListingService.html#method_createEntry"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService",
+            "name": "ExternalImageService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003AgetFromCache\u0028\u0029",
+            "name": "getFromCache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#method_getFromCache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003Acache\u0028\u0029",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#method_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003AremoveOldFilesInCache\u0028\u0029",
+            "name": "removeOldFilesInCache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#method_removeOldFilesInCache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003AgenerateLocalFileName\u0028\u0029",
+            "name": "generateLocalFileName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#method_generateLocalFileName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003AdownloadUsingCurl\u0028\u0029",
+            "name": "downloadUsingCurl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#method_downloadUsingCurl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003AdownloadUsingFileGetContent\u0028\u0029",
+            "name": "downloadUsingFileGetContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#method_downloadUsingFileGetContent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003AisCacheableUrl\u0028\u0029",
+            "name": "isCacheableUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#method_isCacheableUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003AensureCacheDirectory\u0028\u0029",
+            "name": "ensureCacheDirectory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#method_ensureCacheDirectory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003AisValidCacheFile\u0028\u0029",
+            "name": "isValidCacheFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#method_isValidCacheFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003AwriteCacheFile\u0028\u0029",
+            "name": "writeCacheFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#method_writeCacheFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003A\u0024externalCacheDir",
+            "name": "externalCacheDir",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#property_externalCacheDir"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003A\u0024tempDir",
+            "name": "tempDir",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#property_tempDir"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003A\u0024externalImageMaxAge",
+            "name": "externalImageMaxAge",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#property_externalImageMaxAge"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003A\u0024externalImageMaxSize",
+            "name": "externalImageMaxSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#property_externalImageMaxSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003A\u0024verifySsl",
+            "name": "verifySsl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#property_verifySsl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\ExternalImageService\u003A\u003A\u0024externalImageTimeout",
+            "name": "externalImageTimeout",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-ExternalImageService.html#property_externalImageTimeout"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\UploadService",
+            "name": "UploadService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-UploadService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\UploadService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-UploadService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\UploadService\u003A\u003Aupload\u0028\u0029",
+            "name": "upload",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-UploadService.html#method_upload"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\UploadService\u003A\u003AgenerateFilename\u0028\u0029",
+            "name": "generateFilename",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-UploadService.html#method_generateFilename"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\UploadService\u003A\u003A\u0024validator",
+            "name": "validator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-UploadService.html#property_validator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\UploadService\u003A\u003A\u0024storage",
+            "name": "storage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-UploadService.html#property_storage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\UploadService\u003A\u003A\u0024requestStack",
+            "name": "requestStack",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-UploadService.html#property_requestStack"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\UploadService\u003A\u003A\u0024uploadDirectory",
+            "name": "uploadDirectory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-UploadService.html#property_uploadDirectory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Storage\\LocalUploadStorage",
+            "name": "LocalUploadStorage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Storage-LocalUploadStorage.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Storage\\LocalUploadStorage\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Storage-LocalUploadStorage.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Storage\\LocalUploadStorage\u003A\u003Astore\u0028\u0029",
+            "name": "store",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Storage-LocalUploadStorage.html#method_store"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Storage\\LocalUploadStorage\u003A\u003A\u0024projectDir",
+            "name": "projectDir",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Storage-LocalUploadStorage.html#property_projectDir"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Storage\\LocalUploadStorage\u003A\u003A\u0024uploadDirectory",
+            "name": "uploadDirectory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Storage-LocalUploadStorage.html#property_uploadDirectory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Storage\\UploadStorageInterface",
+            "name": "UploadStorageInterface",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Storage-UploadStorageInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Storage\\UploadStorageInterface\u003A\u003Astore\u0028\u0029",
+            "name": "store",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Storage-UploadStorageInterface.html#method_store"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\SystemInfoCollector",
             "name": "SystemInfoCollector",
             "summary": "",
@@ -3801,290 +4056,80 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-TextParser.html#method___invoke"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Exception\\InvalidUploadException",
-            "name": "InvalidUploadException",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadDirectoryValidator",
+            "name": "UploadDirectoryValidator",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Exception-InvalidUploadException.html"
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadDirectoryValidator.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Exception\\MissingUploadException",
-            "name": "MissingUploadException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Exception-MissingUploadException.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Exception\\StorageException",
-            "name": "StorageException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Exception-StorageException.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Exception\\UnsupportedExtensionException",
-            "name": "UnsupportedExtensionException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Exception-UnsupportedExtensionException.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Exception\\UnsupportedMimeTypeException",
-            "name": "UnsupportedMimeTypeException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Exception-UnsupportedMimeTypeException.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Exception\\UploadException",
-            "name": "UploadException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Exception-UploadException.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Exception\\UploadTooLargeException",
-            "name": "UploadTooLargeException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Exception-UploadTooLargeException.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\LocalUploadStorage",
-            "name": "LocalUploadStorage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-LocalUploadStorage.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\LocalUploadStorage\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadDirectoryValidator\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-LocalUploadStorage.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadDirectoryValidator.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\LocalUploadStorage\u003A\u003Astore\u0028\u0029",
-            "name": "store",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-LocalUploadStorage.html#method_store"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\LocalUploadStorage\u003A\u003A\u0024projectDir",
-            "name": "projectDir",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-LocalUploadStorage.html#property_projectDir"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\LocalUploadStorage\u003A\u003A\u0024uploadDirectory",
-            "name": "uploadDirectory",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-LocalUploadStorage.html#property_uploadDirectory"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile",
-            "name": "StoredFile",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile\u003A\u003AgetFilename\u0028\u0029",
-            "name": "getFilename",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html#method_getFilename"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile\u003A\u003AgetPath\u0028\u0029",
-            "name": "getPath",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html#method_getPath"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile\u003A\u003AgetMimeType\u0028\u0029",
-            "name": "getMimeType",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html#method_getMimeType"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile\u003A\u003AgetSize\u0028\u0029",
-            "name": "getSize",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html#method_getSize"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile\u003A\u003AgetExtension\u0028\u0029",
-            "name": "getExtension",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html#method_getExtension"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile\u003A\u003A\u0024filename",
-            "name": "filename",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html#property_filename"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile\u003A\u003A\u0024path",
-            "name": "path",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html#property_path"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile\u003A\u003A\u0024mimeType",
-            "name": "mimeType",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html#property_mimeType"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile\u003A\u003A\u0024size",
-            "name": "size",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html#property_size"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\StoredFile\u003A\u003A\u0024extension",
-            "name": "extension",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-StoredFile.html#property_extension"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\UploadStorageInterface",
-            "name": "UploadStorageInterface",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-UploadStorageInterface.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage\\UploadStorageInterface\u003A\u003Astore\u0028\u0029",
-            "name": "store",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-Storage-UploadStorageInterface.html#method_store"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult",
-            "name": "UploadResult",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult\u003A\u003AgetFilename\u0028\u0029",
-            "name": "getFilename",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html#method_getFilename"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult\u003A\u003AgetUrl\u0028\u0029",
-            "name": "getUrl",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html#method_getUrl"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult\u003A\u003AgetMimeType\u0028\u0029",
-            "name": "getMimeType",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html#method_getMimeType"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult\u003A\u003AgetSize\u0028\u0029",
-            "name": "getSize",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html#method_getSize"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult\u003A\u003AgetExtension\u0028\u0029",
-            "name": "getExtension",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html#method_getExtension"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult\u003A\u003A\u0024filename",
-            "name": "filename",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html#property_filename"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult\u003A\u003A\u0024url",
-            "name": "url",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html#property_url"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult\u003A\u003A\u0024mimeType",
-            "name": "mimeType",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html#property_mimeType"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult\u003A\u003A\u0024size",
-            "name": "size",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html#property_size"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadResult\u003A\u003A\u0024extension",
-            "name": "extension",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadResult.html#property_extension"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadService",
-            "name": "UploadService",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadService.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadService\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadService.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadService\u003A\u003Aupload\u0028\u0029",
-            "name": "upload",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadService.html#method_upload"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadService\u003A\u003AgenerateFilename\u0028\u0029",
-            "name": "generateFilename",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadService.html#method_generateFilename"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadService\u003A\u003A\u0024validator",
-            "name": "validator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadService.html#property_validator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadService\u003A\u003A\u0024storage",
-            "name": "storage",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadService.html#property_storage"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadService\u003A\u003A\u0024requestStack",
-            "name": "requestStack",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadService.html#property_requestStack"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadService\u003A\u003A\u0024uploadDirectory",
-            "name": "uploadDirectory",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadService.html#property_uploadDirectory"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadValidator",
-            "name": "UploadValidator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadValidator.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadValidator\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadValidator.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadValidator\u003A\u003Avalidate\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadDirectoryValidator\u003A\u003Avalidate\u0028\u0029",
             "name": "validate",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadValidator.html#method_validate"
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadDirectoryValidator.html#method_validate"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadValidator\u003A\u003AvalidateUploadedFile\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadDirectoryValidator\u003A\u003A\u0024publicPath",
+            "name": "publicPath",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadDirectoryValidator.html#property_publicPath"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator",
+            "name": "UploadValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#method_validate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator\u003A\u003AvalidateUploadedFile\u0028\u0029",
             "name": "validateUploadedFile",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadValidator.html#method_validateUploadedFile"
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#method_validateUploadedFile"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadValidator\u003A\u003AvalidateMimeType\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator\u003A\u003AvalidateMimeType\u0028\u0029",
             "name": "validateMimeType",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadValidator.html#method_validateMimeType"
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#method_validateMimeType"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadValidator\u003A\u003AvalidateExtension\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator\u003A\u003AvalidateExtension\u0028\u0029",
             "name": "validateExtension",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadValidator.html#method_validateExtension"
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#method_validateExtension"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadValidator\u003A\u003AvalidateSize\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator\u003A\u003AvalidateSize\u0028\u0029",
             "name": "validateSize",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadValidator.html#method_validateSize"
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#method_validateSize"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadValidator\u003A\u003AparseSizeLimit\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator\u003A\u003AparseSizeLimit\u0028\u0029",
             "name": "parseSizeLimit",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadValidator.html#method_parseSizeLimit"
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#method_parseSizeLimit"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadValidator\u003A\u003A\u0024allowedMimeTypes",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator\u003A\u003A\u0024allowedMimeTypes",
             "name": "allowedMimeTypes",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadValidator.html#property_allowedMimeTypes"
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#property_allowedMimeTypes"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadValidator\u003A\u003A\u0024allowedExtensions",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator\u003A\u003A\u0024allowedExtensions",
             "name": "allowedExtensions",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadValidator.html#property_allowedExtensions"
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#property_allowedExtensions"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\UploadValidator\u003A\u003A\u0024maxSize",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator\u003A\u003A\u0024maxSize",
             "name": "maxSize",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Common-Upload-UploadValidator.html#property_maxSize"
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#property_maxSize"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\ValidatorInterface",
             "name": "ValidatorInterface",
@@ -19601,6 +19646,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Repository-DummyRepository.html#property_queryBuilder"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\UploadServiceTest",
+            "name": "UploadServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-UploadServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\UploadServiceTest\u003A\u003AtestUploadReturnsResultAndGeneratesUniqueFilenames\u0028\u0029",
+            "name": "testUploadReturnsResultAndGeneratesUniqueFilenames",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-UploadServiceTest.html#method_testUploadReturnsResultAndGeneratesUniqueFilenames"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\UploadServiceTest\u003A\u003AtestUploadPropagatesStorageExceptions\u0028\u0029",
+            "name": "testUploadPropagatesStorageExceptions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-UploadServiceTest.html#method_testUploadPropagatesStorageExceptions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Storage\\LocalUploadStorageTest",
+            "name": "LocalUploadStorageTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Storage-LocalUploadStorageTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Storage\\LocalUploadStorageTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Storage-LocalUploadStorageTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Storage\\LocalUploadStorageTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Storage-LocalUploadStorageTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Storage\\LocalUploadStorageTest\u003A\u003AtestStoreCreatesDirectoryAndMovesFile\u0028\u0029",
+            "name": "testStoreCreatesDirectoryAndMovesFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Storage-LocalUploadStorageTest.html#method_testStoreCreatesDirectoryAndMovesFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Storage\\LocalUploadStorageTest\u003A\u003AtestStoreWrapsFileExceptions\u0028\u0029",
+            "name": "testStoreWrapsFileExceptions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Storage-LocalUploadStorageTest.html#method_testStoreWrapsFileExceptions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Storage\\LocalUploadStorageTest\u003A\u003A\u0024projectDir",
+            "name": "projectDir",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Storage-LocalUploadStorageTest.html#property_projectDir"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Storage\\LocalUploadStorageTest\u003A\u003A\u0024uploadDirectory",
+            "name": "uploadDirectory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Storage-LocalUploadStorageTest.html#property_uploadDirectory"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\SystemInfoCollectorTest",
             "name": "SystemInfoCollectorTest",
             "summary": "",
@@ -19671,100 +19766,50 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-TextParserTest.html#property_parser"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\Storage\\LocalUploadStorageTest",
-            "name": "LocalUploadStorageTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-Storage-LocalUploadStorageTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\Storage\\LocalUploadStorageTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-Storage-LocalUploadStorageTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\Storage\\LocalUploadStorageTest\u003A\u003AtearDown\u0028\u0029",
-            "name": "tearDown",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-Storage-LocalUploadStorageTest.html#method_tearDown"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\Storage\\LocalUploadStorageTest\u003A\u003AtestStoreCreatesDirectoryAndMovesFile\u0028\u0029",
-            "name": "testStoreCreatesDirectoryAndMovesFile",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-Storage-LocalUploadStorageTest.html#method_testStoreCreatesDirectoryAndMovesFile"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\Storage\\LocalUploadStorageTest\u003A\u003AtestStoreWrapsFileExceptions\u0028\u0029",
-            "name": "testStoreWrapsFileExceptions",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-Storage-LocalUploadStorageTest.html#method_testStoreWrapsFileExceptions"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\Storage\\LocalUploadStorageTest\u003A\u003A\u0024projectDir",
-            "name": "projectDir",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-Storage-LocalUploadStorageTest.html#property_projectDir"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\Storage\\LocalUploadStorageTest\u003A\u003A\u0024uploadDirectory",
-            "name": "uploadDirectory",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-Storage-LocalUploadStorageTest.html#property_uploadDirectory"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadServiceTest",
-            "name": "UploadServiceTest",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadServiceTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadServiceTest\u003A\u003AtestUploadReturnsResultAndGeneratesUniqueFilenames\u0028\u0029",
-            "name": "testUploadReturnsResultAndGeneratesUniqueFilenames",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadServiceTest.html#method_testUploadReturnsResultAndGeneratesUniqueFilenames"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadServiceTest\u003A\u003AtestUploadPropagatesStorageExceptions\u0028\u0029",
-            "name": "testUploadPropagatesStorageExceptions",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadServiceTest.html#method_testUploadPropagatesStorageExceptions"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadValidatorTest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Validator\\UploadValidatorTest",
             "name": "UploadValidatorTest",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadValidatorTest.html"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Validator-UploadValidatorTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadValidatorTest\u003A\u003AtestValidateAcceptsConfiguredImageFormats\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Validator\\UploadValidatorTest\u003A\u003AtestValidateAcceptsConfiguredImageFormats\u0028\u0029",
             "name": "testValidateAcceptsConfiguredImageFormats",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadValidatorTest.html#method_testValidateAcceptsConfiguredImageFormats"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Validator-UploadValidatorTest.html#method_testValidateAcceptsConfiguredImageFormats"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadValidatorTest\u003A\u003AtestValidateRejectsMissingFile\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Validator\\UploadValidatorTest\u003A\u003AtestValidateRejectsMissingFile\u0028\u0029",
             "name": "testValidateRejectsMissingFile",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadValidatorTest.html#method_testValidateRejectsMissingFile"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Validator-UploadValidatorTest.html#method_testValidateRejectsMissingFile"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadValidatorTest\u003A\u003AtestValidateRejectsInvalidUpload\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Validator\\UploadValidatorTest\u003A\u003AtestValidateRejectsInvalidUpload\u0028\u0029",
             "name": "testValidateRejectsInvalidUpload",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadValidatorTest.html#method_testValidateRejectsInvalidUpload"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Validator-UploadValidatorTest.html#method_testValidateRejectsInvalidUpload"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadValidatorTest\u003A\u003AtestValidateRejectsUnsupportedMimeType\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Validator\\UploadValidatorTest\u003A\u003AtestValidateRejectsUnsupportedMimeType\u0028\u0029",
             "name": "testValidateRejectsUnsupportedMimeType",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadValidatorTest.html#method_testValidateRejectsUnsupportedMimeType"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Validator-UploadValidatorTest.html#method_testValidateRejectsUnsupportedMimeType"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadValidatorTest\u003A\u003AtestValidateRejectsUnsupportedExtension\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Validator\\UploadValidatorTest\u003A\u003AtestValidateRejectsUnsupportedExtension\u0028\u0029",
             "name": "testValidateRejectsUnsupportedExtension",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadValidatorTest.html#method_testValidateRejectsUnsupportedExtension"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Validator-UploadValidatorTest.html#method_testValidateRejectsUnsupportedExtension"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadValidatorTest\u003A\u003AtestValidateRejectsOversizedUpload\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Validator\\UploadValidatorTest\u003A\u003AtestValidateRejectsOversizedUpload\u0028\u0029",
             "name": "testValidateRejectsOversizedUpload",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadValidatorTest.html#method_testValidateRejectsOversizedUpload"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Validator-UploadValidatorTest.html#method_testValidateRejectsOversizedUpload"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadValidatorTest\u003A\u003AtestValidateRejectsMissingExtension\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Validator\\UploadValidatorTest\u003A\u003AtestValidateRejectsMissingExtension\u0028\u0029",
             "name": "testValidateRejectsMissingExtension",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadValidatorTest.html#method_testValidateRejectsMissingExtension"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Validator-UploadValidatorTest.html#method_testValidateRejectsMissingExtension"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\UploadValidatorTest\u003A\u003AcreateFileMock\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Validator\\UploadValidatorTest\u003A\u003AcreateFileMock\u0028\u0029",
             "name": "createFileMock",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Upload-UploadValidatorTest.html#method_createFileMock"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Validator-UploadValidatorTest.html#method_createFileMock"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\LegacyUrlBuilderTest",
             "name": "LegacyUrlBuilderTest",
@@ -26606,20 +26651,15 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-common-repository-interfaces.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Exception",
-            "name": "Exception",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service",
+            "name": "Service",
             "summary": "",
-            "url": "namespaces/phplist-core-domain-common-upload-exception.html"
+            "url": "namespaces/phplist-core-domain-common-service.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload\\Storage",
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Storage",
             "name": "Storage",
             "summary": "",
-            "url": "namespaces/phplist-core-domain-common-upload-storage.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Upload",
-            "name": "Upload",
-            "summary": "",
-            "url": "namespaces/phplist-core-domain-common-upload.html"
+            "url": "namespaces/phplist-core-domain-common-storage.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator",
             "name": "Validator",
@@ -27126,15 +27166,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-common-repository.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload\\Storage",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service",
+            "name": "Service",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-common-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Storage",
             "name": "Storage",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-common-upload-storage.html"
+            "url": "namespaces/phplist-core-tests-unit-domain-common-storage.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Upload",
-            "name": "Upload",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Validator",
+            "name": "Validator",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-common-upload.html"
+            "url": "namespaces/phplist-core-tests-unit-domain-common-validator.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service",
             "name": "Service",
