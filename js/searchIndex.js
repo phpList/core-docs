@@ -3321,6 +3321,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Model-ContentTransferEncoding.html#enumcase_Binary"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Dto\\DirectoryEntryDto",
+            "name": "DirectoryEntryDto",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Dto-DirectoryEntryDto.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Dto\\DirectoryEntryDto\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Dto-DirectoryEntryDto.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Dto\\DirectoryEntryDto\u003A\u003A\u0024name",
+            "name": "name",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Dto-DirectoryEntryDto.html#property_name"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Dto\\DirectoryEntryDto\u003A\u003A\u0024path",
+            "name": "path",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Dto-DirectoryEntryDto.html#property_path"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Dto\\DirectoryEntryDto\u003A\u003A\u0024size",
+            "name": "size",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Dto-DirectoryEntryDto.html#property_size"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Dto\\DirectoryEntryDto\u003A\u003A\u0024type",
+            "name": "type",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Dto-DirectoryEntryDto.html#property_type"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Dto\\DirectoryEntryDto\u003A\u003A\u0024modified",
+            "name": "modified",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Model-Dto-DirectoryEntryDto.html#property_modified"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter\\FilterRequestInterface",
             "name": "FilterRequestInterface",
             "summary": "",
@@ -19646,6 +19681,61 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Repository-DummyRepository.html#property_queryBuilder"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest",
+            "name": "DirectoryListingServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-DirectoryListingServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-DirectoryListingServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-DirectoryListingServiceTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest\u003A\u003AtestListReturnsFilesAndDirectories\u0028\u0029",
+            "name": "testListReturnsFilesAndDirectories",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-DirectoryListingServiceTest.html#method_testListReturnsFilesAndDirectories"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest\u003A\u003AtestListSortsDirectoriesBeforeFilesThenAlphabetically\u0028\u0029",
+            "name": "testListSortsDirectoriesBeforeFilesThenAlphabetically",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-DirectoryListingServiceTest.html#method_testListSortsDirectoriesBeforeFilesThenAlphabetically"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest\u003A\u003AtestListBuildsPathFromDirectoryAndFileName\u0028\u0029",
+            "name": "testListBuildsPathFromDirectoryAndFileName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-DirectoryListingServiceTest.html#method_testListBuildsPathFromDirectoryAndFileName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest\u003A\u003AtestListSetsSizeAndTypeForFiles\u0028\u0029",
+            "name": "testListSetsSizeAndTypeForFiles",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-DirectoryListingServiceTest.html#method_testListSetsSizeAndTypeForFiles"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest\u003A\u003AtestListSetsSizeZeroAndTypeForDirectories\u0028\u0029",
+            "name": "testListSetsSizeZeroAndTypeForDirectories",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-DirectoryListingServiceTest.html#method_testListSetsSizeZeroAndTypeForDirectories"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest\u003A\u003AtestListExcludesDotAndDotDotEntries\u0028\u0029",
+            "name": "testListExcludesDotAndDotDotEntries",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-DirectoryListingServiceTest.html#method_testListExcludesDotAndDotDotEntries"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest\u003A\u003AtestListThrowsRuntimeExceptionWhenDirectoryCannotBeRead\u0028\u0029",
+            "name": "testListThrowsRuntimeExceptionWhenDirectoryCannotBeRead",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-DirectoryListingServiceTest.html#method_testListThrowsRuntimeExceptionWhenDirectoryCannotBeRead"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest\u003A\u003A\u0024realPath",
+            "name": "realPath",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Service-DirectoryListingServiceTest.html#property_realPath"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\UploadServiceTest",
             "name": "UploadServiceTest",
             "summary": "",
@@ -26630,6 +26720,11 @@ Search.appendIndex(
             "name": "Model",
             "summary": "",
             "url": "namespaces/phplist-core-domain-common-model.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Dto",
+            "name": "Dto",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-common-model-dto.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Model\\Filter",
             "name": "Filter",
