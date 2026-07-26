@@ -1526,11 +1526,6 @@ Search.appendIndex(
             "summary": "Clears\u0020the\u0020caches\u0020of\u0020all\u0020environments.\u0020This\u0020does\u0020not\u0020warm\u0020the\u0020caches.",
             "url": "classes/PhpList-Core-Composer-ScriptHandler.html#method_clearAllCaches"
         },                {
-            "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003AcreateParametersConfiguration\u0028\u0029",
-            "name": "createParametersConfiguration",
-            "summary": "Creates\u0020config\/parameters.yml\u0020\u0028the\u0020parameters\u0020configuration\u0020file\u0029.",
-            "url": "classes/PhpList-Core-Composer-ScriptHandler.html#method_createParametersConfiguration"
-        },                {
             "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003AcreateDotenvConfiguration\u0028\u0029",
             "name": "createDotenvConfiguration",
             "summary": "Creates\u0020the\u0020.env\u0020file\u0020\u0028the\u0020environment\u0020variables\u0020consumed\u0020by\u0020the\u0020parameters\u0020configuration\u0029\nby\u0020copying\u0020it\u0020from\u0020.env.dist,\u0020generating\u0020a\u0020fresh\u0020app\u0020secret\u0020in\u0020the\u0020process.",
@@ -1556,20 +1551,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Composer-ScriptHandler.html#constant_ROUTES_CONFIGURATION_FILE"
         },                {
-            "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003APARAMETERS_CONFIGURATION_FILE",
-            "name": "PARAMETERS_CONFIGURATION_FILE",
-            "summary": "",
-            "url": "classes/PhpList-Core-Composer-ScriptHandler.html#constant_PARAMETERS_CONFIGURATION_FILE"
-        },                {
             "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003AGENERAL_CONFIGURATION_FILE",
             "name": "GENERAL_CONFIGURATION_FILE",
             "summary": "",
             "url": "classes/PhpList-Core-Composer-ScriptHandler.html#constant_GENERAL_CONFIGURATION_FILE"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003APARAMETERS_TEMPLATE_FILE",
-            "name": "PARAMETERS_TEMPLATE_FILE",
-            "summary": "",
-            "url": "classes/PhpList-Core-Composer-ScriptHandler.html#constant_PARAMETERS_TEMPLATE_FILE"
         },                {
             "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003ADOTENV_FILE",
             "name": "DOTENV_FILE",
