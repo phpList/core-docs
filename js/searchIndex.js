@@ -5946,6 +5946,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#property_entityManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003A\u0024defaultAdminPassword",
+            "name": "defaultAdminPassword",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#property_defaultAdminPassword"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException",
             "name": "AdminAttributeCreationException",
             "summary": "",
