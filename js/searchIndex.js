@@ -10031,11 +10031,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Suspended"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ARequeued",
-            "name": "Requeued",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Requeued"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus",
             "name": "UserMessageStatus",
             "summary": "",
