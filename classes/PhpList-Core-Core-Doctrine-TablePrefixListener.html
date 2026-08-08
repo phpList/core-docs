@@ -96,16 +96,14 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-migrations.html">Migrations</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-core.html">Core</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-core-doctrine.html">Doctrine</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    Version20251028092901MySqlInit
+    TablePrefixListener
 
-        <span class="phpdocumentor-element__extends">
-        extends <a href="classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html"><abbr title="\PhpList\Core\Migrations\AbstractPrefixedMigration">AbstractPrefixedMigration</abbr></a>
-    </span>
     
             <div class="phpdocumentor-element__package">
             in package
@@ -119,29 +117,40 @@
 
 <div class="phpdocumentor-label-line">
 
-    <div class="phpdocumentor-label phpdocumentor-label--success"><span>Final</span><span>Yes</span></div>
-
 
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251028092901MySqlInit.php"><a href="files/src-migrations-version20251028092901mysqlinit.html"><abbr title="src/Migrations/Version20251028092901MySqlInit.php">Version20251028092901MySqlInit.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/TablePrefixListener.php"><a href="files/src-core-doctrine-tableprefixlistener.html"><abbr title="src/Core/Doctrine/TablePrefixListener.php">TablePrefixListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">11</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Manual Migration</p>
-
+        
 
 
 
 
     
+            <section class="phpdocumentor-attributes">
+            <h5 class="phpdocumentor-elements__header" id="attributes">
+                Attributes <a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+            </h5>
+                            <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\Bundle\DoctrineBundle\Attribute\AsDoctrineListener">AsDoctrineListener</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $event: \Doctrine\ORM\Events::loadClassMetadata
+    </dd>
+    </dl>
+                    </section>
     
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -153,27 +162,34 @@
 
 
 
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#property_tablePrefix">$tablePrefix</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+
+    </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_getDescription">getDescription()</a>
+    <a class="" href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method___construct">__construct()</a>
     <span>
-                                &nbsp;: string    </span>
+                                &nbsp;: mixed    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_up">up()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_addSql">addSql()</a>
+    <a class="" href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_loadClassMetadata">loadClassMetadata()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -185,11 +201,55 @@
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_tablePrefix">
+        $tablePrefix
+        <a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#property_tablePrefix" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/TablePrefixListener.php"><a href="files/src-core-doctrine-tableprefixlistener.html"><abbr title="src/Core/Doctrine/TablePrefixListener.php">TablePrefixListener.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$tablePrefix</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -198,60 +258,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getDescription">
-        getDescription()
-        <a href="classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_getDescription" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251028092901MySqlInit.php"><a href="files/src-migrations-version20251028092901mysqlinit.html"><abbr title="src/Migrations/Version20251028092901MySqlInit.php">Version20251028092901MySqlInit.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/TablePrefixListener.php"><a href="files/src-core-doctrine-tableprefixlistener.html"><abbr title="src/Core/Doctrine/TablePrefixListener.php">TablePrefixListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getDescription</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_up">
-        up()
-        <a href="classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_up" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251028092901MySqlInit.php"><a href="files/src-migrations-version20251028092901mysqlinit.html"><abbr title="src/Migrations/Version20251028092901MySqlInit.php">Version20251028092901MySqlInit.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">20</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">up</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Doctrine\DBAL\Schema\Schema">Schema</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$schema</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tablePrefix</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -260,8 +282,8 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$schema</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Doctrine\DBAL\Schema\Schema">Schema</abbr></span>
+                <span class="phpdocumentor-argument-list__argument__name">$tablePrefix</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -277,25 +299,25 @@
                     <article
         class="phpdocumentor-element
             -method
-            -protected
+            -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_addSql">
-        addSql()
-        <a href="classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_addSql" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_loadClassMetadata">
+        loadClassMetadata()
+        <a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_loadClassMetadata" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/AbstractPrefixedMigration.php"><a href="files/src-migrations-abstractprefixedmigration.html"><abbr title="src/Migrations/AbstractPrefixedMigration.php">AbstractPrefixedMigration.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/TablePrefixListener.php"><a href="files/src-core-doctrine-tableprefixlistener.html"><abbr title="src/Core/Doctrine/TablePrefixListener.php">TablePrefixListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                    <span class="phpdocumentor-signature__name">addSql</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sql</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$params</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$types</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">loadClassMetadata</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Doctrine\ORM\Event\LoadClassMetadataEventArgs">LoadClassMetadataEventArgs</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$eventArgs</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -304,23 +326,9 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$sql</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                <span class="phpdocumentor-argument-list__argument__name">$eventArgs</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Doctrine\ORM\Event\LoadClassMetadataEventArgs">LoadClassMetadataEventArgs</abbr></span>
                             </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$params</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
-                 = <span class="phpdocumentor-argument-list__argument__default-value">[]</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$types</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
-                 = <span class="phpdocumentor-argument-list__argument__default-value">[]</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -346,17 +354,23 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                <li><a href="classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#property_tablePrefix">$tablePrefix</a></li>
+                                            </ul>
+                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_getDescription">getDescription()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_up">up()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_addSql">addSql()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_loadClassMetadata">loadClassMetadata()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -376,7 +390,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

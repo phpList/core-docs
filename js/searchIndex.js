@@ -1831,6 +1831,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#property_entityManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener",
+            "name": "TablePrefixListener",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener\u003A\u003AloadClassMetadata\u0028\u0029",
+            "name": "loadClassMetadata",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_loadClassMetadata"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener\u003A\u003A\u0024tablePrefix",
+            "name": "tablePrefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#property_tablePrefix"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\DoctrineMappingPass",
             "name": "DoctrineMappingPass",
             "summary": "",
@@ -16621,6 +16641,26 @@ Search.appendIndex(
             "summary": "This\u0020bundle\u0020is\u0020a\u0020placeholder\u0020that\u0020provides\u0020an\u0020empty\u0020start\u0020page.",
             "url": "classes/PhpList-Core-EmptyStartPageBundle-EmptyStartPageBundle.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration",
+            "name": "AbstractPrefixedMigration",
+            "summary": "Migrations\u0020only\u0020receive\u0020a\u0020Connection\u0020and\u0020a\u0020Logger\u0020from\u0020Doctrine\u0027s\u0020migration\u0020factory\u0020\u0028no\u0020DI\u0020container\u0020access\u0029,\nso\u0020the\u0020configured\u0020table\u0020prefix\u0020is\u0020read\u0020directly\u0020from\u0020the\u0020environment\u0020here\u0020rather\u0020than\u0020injected.",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003AaddSql\u0028\u0029",
+            "name": "addSql",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_addSql"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003AgetTablePrefix\u0028\u0029",
+            "name": "getTablePrefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_getTablePrefix"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003ADEFAULT_PREFIX",
+            "name": "DEFAULT_PREFIX",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#constant_DEFAULT_PREFIX"
+        },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySqlInit",
             "name": "Version20251028092901MySqlInit",
             "summary": "Manual\u0020Migration",
@@ -16638,7 +16678,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate",
             "name": "Version20251028092902MySqlUpdate",
-            "summary": "",
+            "summary": "Migrations\u0020only\u0020receive\u0020a\u0020Connection\u0020and\u0020a\u0020Logger\u0020from\u0020Doctrine\u0027s\u0020migration\u0020factory\u0020\u0028no\u0020DI\u0020container\u0020access\u0029,\nso\u0020the\u0020configured\u0020table\u0020prefix\u0020is\u0020read\u0020directly\u0020from\u0020the\u0020environment\u0020here\u0020rather\u0020than\u0020injected.",
             "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate\u003A\u003AgetDescription\u0028\u0029",
