@@ -649,7 +649,7 @@ and loads the configuration.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">194</span>
+    <span class="phpdocumentor-element-found-in__line">217</span>
 
     </aside>
 
@@ -773,7 +773,7 @@ and loads the configuration.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">236</span>
+    <span class="phpdocumentor-element-found-in__line">259</span>
 
     </aside>
 
@@ -827,7 +827,7 @@ and loads the configuration.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">280</span>
+    <span class="phpdocumentor-element-found-in__line">303</span>
 
     </aside>
 
@@ -891,7 +891,7 @@ this method will be the phpList4-core package path.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">248</span>
+    <span class="phpdocumentor-element-found-in__line">271</span>
 
     </aside>
 
@@ -930,7 +930,7 @@ this method will be the phpList4-core package path.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">260</span>
+    <span class="phpdocumentor-element-found-in__line">283</span>
 
     </aside>
 
@@ -1238,7 +1238,7 @@ this method will be the phpList4-core package path.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">179</span>
+    <span class="phpdocumentor-element-found-in__line">202</span>
 
     </aside>
 
@@ -1289,7 +1289,7 @@ this method will be the phpList4-core package path.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">221</span>
+    <span class="phpdocumentor-element-found-in__line">244</span>
 
     </aside>
 
@@ -1331,7 +1331,7 @@ this method will be the phpList4-core package path.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">209</span>
+    <span class="phpdocumentor-element-found-in__line">232</span>
 
     </aside>
 
@@ -1449,7 +1449,7 @@ this method will be the phpList4-core package path.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Bootstrap.php"><a href="files/src-core-bootstrap.html"><abbr title="src/Core/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">162</span>
+    <span class="phpdocumentor-element-found-in__line">168</span>
 
     </aside>
 
@@ -1463,9 +1463,36 @@ following the standard &quot;.env&quot; -&gt; &quot;.env.local&quot; -&gt; &quot
     <div class="phpdocumentor-label-line">
         </div>
     
+        <section class="phpdocumentor-description"><p>&quot;.env.dist&quot; is a template only and must never be used to source real configuration: Symfony Dotenv
+would otherwise silently load it (with its literal placeholder values) whenever &quot;.env&quot; is missing.</p>
+</section>
+
     
     
-    
+    <h5 class="phpdocumentor-tag-list__heading" id="method_loadEnvironmentVariables_tags">
+        Tags
+        <a href="classes/PhpList-Core-Core-Bootstrap.html#method_loadEnvironmentVariables_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\RuntimeException">RuntimeException</abbr></span>
+                                                                                        <section class="phpdocumentor-description"><p>if &quot;.env&quot; does not exist, or PHPLIST_SECRET was not resolved to a real value</p>
+</section>
+
+                                    </dd>
+                                <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">SuppressWarnings</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                                                            <section class="phpdocumentor-description"><p>(&quot;PHPMD.Superglobals&quot;)</p>
+</section>
+
+                                    </dd>
+                        </dl>
 
         
     
