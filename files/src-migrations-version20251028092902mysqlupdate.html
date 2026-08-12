@@ -121,7 +121,8 @@
 
     </h4>
     <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html"><abbr title="\PhpList\Core\Migrations\Version20251028092902MySqlUpdate">Version20251028092902MySqlUpdate</abbr></a></dt>    </dl>
+                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html"><abbr title="\PhpList\Core\Migrations\Version20251028092902MySqlUpdate">Version20251028092902MySqlUpdate</abbr></a></dt><dd>Migrations only receive a Connection and a Logger from Doctrine&#039;s migration factory (no DI container access),
+so the configured table prefix is read directly from the environment here rather than injected.</dd>    </dl>
 
 
 

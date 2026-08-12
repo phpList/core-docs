@@ -180,6 +180,18 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_DOTENV_FILE">DOTENV_FILE</a>
+    <span>
+        &nbsp;: string&nbsp;= &#039;/.env&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_DOTENV_TEMPLATE_FILE">DOTENV_TEMPLATE_FILE</a>
+    <span>
+        &nbsp;: string&nbsp;= &#039;/.env.dist&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_GENERAL_CONFIGURATION_FILE">GENERAL_CONFIGURATION_FILE</a>
     <span>
         &nbsp;: string&nbsp;= &#039;/config/config_modules.yml&#039;                            </span>
@@ -189,12 +201,6 @@
     <a class="" href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_PARAMETERS_CONFIGURATION_FILE">PARAMETERS_CONFIGURATION_FILE</a>
     <span>
         &nbsp;: string&nbsp;= &#039;/config/parameters.yml&#039;                            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a class="" href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_PARAMETERS_TEMPLATE_FILE">PARAMETERS_TEMPLATE_FILE</a>
-    <span>
-        &nbsp;: string&nbsp;= &#039;/config/parameters.yml.dist&#039;                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
@@ -234,6 +240,14 @@
 </dt>
 <dd>Creates config/bundles.yml
 (the configuration file for the Symfony bundles provided by the modules).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Composer-ScriptHandler.html#method_createDotenvConfiguration">createDotenvConfiguration()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Creates the .env file (the environment variables consumed by the parameters configuration)
+by copying it from .env.dist, generating a fresh app secret in the process.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Composer-ScriptHandler.html#method_createGeneralConfiguration">createGeneralConfiguration()</a>
@@ -387,6 +401,66 @@
         
     </article>
                     <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_DOTENV_FILE">
+        DOTENV_FILE
+        <a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_DOTENV_FILE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">44</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">DOTENV_FILE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;/.env&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_DOTENV_TEMPLATE_FILE">
+        DOTENV_TEMPLATE_FILE
+        <a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_DOTENV_TEMPLATE_FILE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">49</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">DOTENV_TEMPLATE_FILE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;/.env.dist&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_GENERAL_CONFIGURATION_FILE">
         GENERAL_CONFIGURATION_FILE
         <a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_GENERAL_CONFIGURATION_FILE" class="headerlink"><i class="fas fa-link"></i></a>
@@ -396,7 +470,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -426,7 +500,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">54</span>
 
     </aside>
 
@@ -437,36 +511,6 @@
         <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">PARAMETERS_CONFIGURATION_FILE</span>
     = <span class="phpdocumentor-signature__default-value">&#039;/config/parameters.yml&#039;</span>
-</code>
-
-
-    
-    
-    
-
-        
-    </article>
-                    <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_PARAMETERS_TEMPLATE_FILE">
-        PARAMETERS_TEMPLATE_FILE
-        <a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_PARAMETERS_TEMPLATE_FILE" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">49</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-        <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">PARAMETERS_TEMPLATE_FILE</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;/config/parameters.yml.dist&#039;</span>
 </code>
 
 
@@ -530,7 +574,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">261</span>
+    <span class="phpdocumentor-element-found-in__line">266</span>
 
     </aside>
 
@@ -565,7 +609,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">86</span>
 
     </aside>
 
@@ -628,7 +672,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">191</span>
+    <span class="phpdocumentor-element-found-in__line">196</span>
 
     </aside>
 
@@ -666,6 +710,42 @@
             -public
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_createDotenvConfiguration">
+        createDotenvConfiguration()
+        <a href="classes/PhpList-Core-Composer-ScriptHandler.html#method_createDotenvConfiguration" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">278</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Creates the .env file (the environment variables consumed by the parameters configuration)
+by copying it from .env.dist, generating a fresh app secret in the process.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">createDotenvConfiguration</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_createGeneralConfiguration">
         createGeneralConfiguration()
         <a href="classes/PhpList-Core-Composer-ScriptHandler.html#method_createGeneralConfiguration" class="headerlink"><i class="fas fa-link"></i></a>
@@ -674,7 +754,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">295</span>
+    <span class="phpdocumentor-element-found-in__line">317</span>
 
     </aside>
 
@@ -719,7 +799,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">272</span>
+    <span class="phpdocumentor-element-found-in__line">301</span>
 
     </aside>
 
@@ -754,7 +834,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">98</span>
+    <span class="phpdocumentor-element-found-in__line">103</span>
 
     </aside>
 
@@ -817,7 +897,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">232</span>
+    <span class="phpdocumentor-element-found-in__line">237</span>
 
     </aside>
 
@@ -863,7 +943,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">154</span>
+    <span class="phpdocumentor-element-found-in__line">159</span>
 
     </aside>
 
@@ -908,7 +988,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">173</span>
+    <span class="phpdocumentor-element-found-in__line">178</span>
 
     </aside>
 
@@ -956,7 +1036,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">245</span>
+    <span class="phpdocumentor-element-found-in__line">250</span>
 
     </aside>
 
@@ -1004,7 +1084,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">213</span>
+    <span class="phpdocumentor-element-found-in__line">218</span>
 
     </aside>
 
@@ -1073,7 +1153,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
     </aside>
 
@@ -1131,7 +1211,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
@@ -1173,7 +1253,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">134</span>
+    <span class="phpdocumentor-element-found-in__line">139</span>
 
     </aside>
 
@@ -1223,7 +1303,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Composer/ScriptHandler.php"><a href="files/src-composer-scripthandler.html"><abbr title="src/Composer/ScriptHandler.php">ScriptHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">111</span>
+    <span class="phpdocumentor-element-found-in__line">116</span>
 
     </aside>
 
@@ -1292,9 +1372,10 @@
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_BUNDLE_CONFIGURATION_FILE">BUNDLE_CONFIGURATION_FILE</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_CORE_PACKAGE_NAME">CORE_PACKAGE_NAME</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_DOTENV_FILE">DOTENV_FILE</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_DOTENV_TEMPLATE_FILE">DOTENV_TEMPLATE_FILE</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_GENERAL_CONFIGURATION_FILE">GENERAL_CONFIGURATION_FILE</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_PARAMETERS_CONFIGURATION_FILE">PARAMETERS_CONFIGURATION_FILE</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_PARAMETERS_TEMPLATE_FILE">PARAMETERS_TEMPLATE_FILE</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#constant_ROUTES_CONFIGURATION_FILE">ROUTES_CONFIGURATION_FILE</a></li>
                                             </ul>
                 </li>
@@ -1306,6 +1387,7 @@
                                             <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#method_clearAllCaches">clearAllCaches()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#method_createBinaries">createBinaries()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#method_createBundleConfiguration">createBundleConfiguration()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#method_createDotenvConfiguration">createDotenvConfiguration()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#method_createGeneralConfiguration">createGeneralConfiguration()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#method_createParametersConfiguration">createParametersConfiguration()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Composer-ScriptHandler.html#method_createPublicWebDirectory">createPublicWebDirectory()</a></li>
