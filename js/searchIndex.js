@@ -1526,11 +1526,6 @@ Search.appendIndex(
             "summary": "Clears\u0020the\u0020caches\u0020of\u0020all\u0020environments.\u0020This\u0020does\u0020not\u0020warm\u0020the\u0020caches.",
             "url": "classes/PhpList-Core-Composer-ScriptHandler.html#method_clearAllCaches"
         },                {
-            "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003AcreateDotenvConfiguration\u0028\u0029",
-            "name": "createDotenvConfiguration",
-            "summary": "Creates\u0020the\u0020.env\u0020file\u0020\u0028the\u0020environment\u0020variables\u0020consumed\u0020by\u0020the\u0020parameters\u0020configuration\u0029\nby\u0020copying\u0020it\u0020from\u0020.env.dist,\u0020generating\u0020a\u0020fresh\u0020app\u0020secret\u0020in\u0020the\u0020process.",
-            "url": "classes/PhpList-Core-Composer-ScriptHandler.html#method_createDotenvConfiguration"
-        },                {
             "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003AcreateParametersConfiguration\u0028\u0029",
             "name": "createParametersConfiguration",
             "summary": "Creates\u0020config\/parameters.yml\u0020\u0028the\u0020parameters\u0020configuration\u0020file\u0029.",
@@ -1556,25 +1551,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Composer-ScriptHandler.html#constant_ROUTES_CONFIGURATION_FILE"
         },                {
+            "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003APARAMETERS_CONFIGURATION_FILE",
+            "name": "PARAMETERS_CONFIGURATION_FILE",
+            "summary": "",
+            "url": "classes/PhpList-Core-Composer-ScriptHandler.html#constant_PARAMETERS_CONFIGURATION_FILE"
+        },                {
             "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003AGENERAL_CONFIGURATION_FILE",
             "name": "GENERAL_CONFIGURATION_FILE",
             "summary": "",
             "url": "classes/PhpList-Core-Composer-ScriptHandler.html#constant_GENERAL_CONFIGURATION_FILE"
         },                {
-            "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003ADOTENV_FILE",
-            "name": "DOTENV_FILE",
+            "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003APARAMETERS_TEMPLATE_FILE",
+            "name": "PARAMETERS_TEMPLATE_FILE",
             "summary": "",
-            "url": "classes/PhpList-Core-Composer-ScriptHandler.html#constant_DOTENV_FILE"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003ADOTENV_TEMPLATE_FILE",
-            "name": "DOTENV_TEMPLATE_FILE",
-            "summary": "",
-            "url": "classes/PhpList-Core-Composer-ScriptHandler.html#constant_DOTENV_TEMPLATE_FILE"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Composer\\ScriptHandler\u003A\u003APARAMETERS_CONFIGURATION_FILE",
-            "name": "PARAMETERS_CONFIGURATION_FILE",
-            "summary": "",
-            "url": "classes/PhpList-Core-Composer-ScriptHandler.html#constant_PARAMETERS_CONFIGURATION_FILE"
+            "url": "classes/PhpList-Core-Composer-ScriptHandler.html#constant_PARAMETERS_TEMPLATE_FILE"
         },                {
             "fqsen": "\\PhpList\\Core\\Core\\ApplicationKernel",
             "name": "ApplicationKernel",
@@ -1711,11 +1701,6 @@ Search.appendIndex(
             "summary": "The\u0020main\u0020entry\u0020point\u0020called\u0020at\u0020every\u0020request\u0020usually\u0020from\u0020global\u0020scope.\u0020Checks\u0020if\u0020everything\u0020is\u0020correct\nand\u0020loads\u0020the\u0020configuration.",
             "url": "classes/PhpList-Core-Core-Bootstrap.html#method_configure"
         },                {
-            "fqsen": "\\PhpList\\Core\\Core\\Bootstrap\u003A\u003AloadEnvironmentVariables\u0028\u0029",
-            "name": "loadEnvironmentVariables",
-            "summary": "Loads\u0020environment\u0020variables\u0020from\u0020the\u0020application\u0027s\u0020\u0022.env\u0022\u0020files\u0020\u0028if\u0020present\u0029\u0020using\u0020Symfony\u0020Dotenv,\nfollowing\u0020the\u0020standard\u0020\u0022.env\u0022\u0020\u002D\u003E\u0020\u0022.env.local\u0022\u0020\u002D\u003E\u0020\u0022.env.\u0024environment\u0022\u0020\u002D\u003E\u0020\u0022.env.\u0024environment.local\u0022\u0020cascade.",
-            "url": "classes/PhpList-Core-Core-Bootstrap.html#method_loadEnvironmentVariables"
-        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Bootstrap\u003A\u003AassertConfigureHasBeenCalled\u0028\u0029",
             "name": "assertConfigureHasBeenCalled",
             "summary": "Makes\u0020sure\u0020that\u0020configure\u0020has\u0020been\u0020called\u0020before.",
@@ -1830,26 +1815,6 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener",
-            "name": "TablePrefixListener",
-            "summary": "",
-            "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener\u003A\u003AloadClassMetadata\u0028\u0029",
-            "name": "loadClassMetadata",
-            "summary": "",
-            "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_loadClassMetadata"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener\u003A\u003A\u0024tablePrefix",
-            "name": "tablePrefix",
-            "summary": "",
-            "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#property_tablePrefix"
         },                {
             "fqsen": "\\PhpList\\Core\\Core\\DoctrineMappingPass",
             "name": "DoctrineMappingPass",
@@ -5966,11 +5931,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#property_entityManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003A\u0024defaultAdminPassword",
-            "name": "defaultAdminPassword",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#property_defaultAdminPassword"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException",
             "name": "AdminAttributeCreationException",
             "summary": "",
@@ -10050,6 +10010,11 @@ Search.appendIndex(
             "name": "Suspended",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Suspended"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\MessageStatus\u003A\u003ARequeued",
+            "name": "Requeued",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html#enumcase_Requeued"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message\\UserMessageStatus",
             "name": "UserMessageStatus",
@@ -16641,26 +16606,6 @@ Search.appendIndex(
             "summary": "This\u0020bundle\u0020is\u0020a\u0020placeholder\u0020that\u0020provides\u0020an\u0020empty\u0020start\u0020page.",
             "url": "classes/PhpList-Core-EmptyStartPageBundle-EmptyStartPageBundle.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration",
-            "name": "AbstractPrefixedMigration",
-            "summary": "Migrations\u0020only\u0020receive\u0020a\u0020Connection\u0020and\u0020a\u0020Logger\u0020from\u0020Doctrine\u0027s\u0020migration\u0020factory\u0020\u0028no\u0020DI\u0020container\u0020access\u0029,\nso\u0020the\u0020configured\u0020table\u0020prefix\u0020is\u0020read\u0020directly\u0020from\u0020the\u0020environment\u0020here\u0020rather\u0020than\u0020injected.",
-            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003AaddSql\u0028\u0029",
-            "name": "addSql",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_addSql"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003AgetTablePrefix\u0028\u0029",
-            "name": "getTablePrefix",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_getTablePrefix"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003ADEFAULT_PREFIX",
-            "name": "DEFAULT_PREFIX",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#constant_DEFAULT_PREFIX"
-        },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySqlInit",
             "name": "Version20251028092901MySqlInit",
             "summary": "Manual\u0020Migration",
@@ -16678,7 +16623,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate",
             "name": "Version20251028092902MySqlUpdate",
-            "summary": "Migrations\u0020only\u0020receive\u0020a\u0020Connection\u0020and\u0020a\u0020Logger\u0020from\u0020Doctrine\u0027s\u0020migration\u0020factory\u0020\u0028no\u0020DI\u0020container\u0020access\u0029,\nso\u0020the\u0020configured\u0020table\u0020prefix\u0020is\u0020read\u0020directly\u0020from\u0020the\u0020environment\u0020here\u0020rather\u0020than\u0020injected.",
+            "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate\u003A\u003AgetDescription\u0028\u0029",
