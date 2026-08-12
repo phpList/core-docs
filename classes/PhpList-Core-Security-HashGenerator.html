@@ -168,10 +168,11 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a class="" href="classes/PhpList-Core-Security-HashGenerator.html#constant_PASSWORD_HASH_ALGORITHM">PASSWORD_HASH_ALGORITHM</a>
+    <a class="" href="classes/PhpList-Core-Security-HashGenerator.html#constant_LEGACY_PASSWORD_HASH_ALGORITHM">LEGACY_PASSWORD_HASH_ALGORITHM</a>
     <span>
         &nbsp;: string&nbsp;= &#039;sha256&#039;                            </span>
 </dt>
+<dd>Legacy algorithm that older password hashes in the database may still use.</dd>
 
     </dl>
 
@@ -189,6 +190,21 @@
                                 &nbsp;: string    </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Security-HashGenerator.html#method_isLegacyHash">isLegacyHash()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Checks whether $hash was created by the old, unsalted sha256-based scheme
+rather than by {@see createPasswordHash()}.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Security-HashGenerator.html#method_verifyPassword">verifyPassword()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Checks a plaintext password against a stored hash.</dd>
+
     </dl>
 
 
@@ -201,25 +217,26 @@
 
         </h3>
                     <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_PASSWORD_HASH_ALGORITHM">
-        PASSWORD_HASH_ALGORITHM
-        <a href="classes/PhpList-Core-Security-HashGenerator.html#constant_PASSWORD_HASH_ALGORITHM" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="constant_LEGACY_PASSWORD_HASH_ALGORITHM">
+        LEGACY_PASSWORD_HASH_ALGORITHM
+        <a href="classes/PhpList-Core-Security-HashGenerator.html#constant_LEGACY_PASSWORD_HASH_ALGORITHM" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Security/HashGenerator.php"><a href="files/src-security-hashgenerator.html"><abbr title="src/Security/HashGenerator.php">HashGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Legacy algorithm that older password hashes in the database may still use.</p>
+
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">string</span>
-    <span class="phpdocumentor-signature__name">PASSWORD_HASH_ALGORITHM</span>
+    <span class="phpdocumentor-signature__name">LEGACY_PASSWORD_HASH_ALGORITHM</span>
     = <span class="phpdocumentor-signature__default-value">&#039;sha256&#039;</span>
 </code>
 
@@ -254,7 +271,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Security/HashGenerator.php"><a href="files/src-security-hashgenerator.html"><abbr title="src/Security/HashGenerator.php">HashGenerator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -288,6 +305,116 @@
             </section>
 
 </article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_isLegacyHash">
+        isLegacyHash()
+        <a href="classes/PhpList-Core-Security-HashGenerator.html#method_isLegacyHash" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Security/HashGenerator.php"><a href="files/src-security-hashgenerator.html"><abbr title="src/Security/HashGenerator.php">HashGenerator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Checks whether $hash was created by the old, unsalted sha256-based scheme
+rather than by {@see createPasswordHash()}.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">isLegacyHash</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hash</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$hash</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_verifyPassword">
+        verifyPassword()
+        <a href="classes/PhpList-Core-Security-HashGenerator.html#method_verifyPassword" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Security/HashGenerator.php"><a href="files/src-security-hashgenerator.html"><abbr title="src/Security/HashGenerator.php">HashGenerator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Checks a plaintext password against a stored hash.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">verifyPassword</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$plainTextPassword</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hash</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Hashes created by <abbr title="\PhpList\Core\Security\createPasswordHash()">createPasswordHash()</abbr> are verified with <code class="prettyprint">password_verify()</code>.
+As a fallback, this also accepts hashes created by the old, unsalted
+sha256-based scheme, so administrators with pre-existing hashes can still log in.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$plainTextPassword</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$hash</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
             </section>
 
         
@@ -309,7 +436,7 @@
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Security-HashGenerator.html#constant_PASSWORD_HASH_ALGORITHM">PASSWORD_HASH_ALGORITHM</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Security-HashGenerator.html#constant_LEGACY_PASSWORD_HASH_ALGORITHM">LEGACY_PASSWORD_HASH_ALGORITHM</a></li>
                                             </ul>
                 </li>
             
@@ -318,6 +445,8 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Security-HashGenerator.html#method_createPasswordHash">createPasswordHash()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Security-HashGenerator.html#method_isLegacyHash">isLegacyHash()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Security-HashGenerator.html#method_verifyPassword">verifyPassword()</a></li>
                                     </ul>
             </li>
                     </ul>

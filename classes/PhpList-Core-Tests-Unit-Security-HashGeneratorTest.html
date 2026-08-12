@@ -189,19 +189,49 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes">testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes">testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash">testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCreatesPasswordHashCompatibleHash">testCreatePasswordHashCreatesPasswordHashCompatibleHash()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCreates64CharacterHash">testCreatePasswordHashCreates64CharacterHash()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testIsLegacyHashForPasswordHashHashReturnsFalse">testIsLegacyHashForPasswordHashHashReturnsFalse()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testIsLegacyHashForSha256HashReturnsTrue">testIsLegacyHashForSha256HashReturnsTrue()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndHashReturnsTrue">testVerifyPasswordForMatchingPasswordAndHashReturnsTrue()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue">testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse">testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse">testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -276,22 +306,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes">
-        testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes()
-        <a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes">
+        testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes()
+        <a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Security/HashGeneratorTest.php"><a href="files/tests-unit-security-hashgeneratortest.html"><abbr title="tests/Unit/Security/HashGeneratorTest.php">HashGeneratorTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -310,43 +340,9 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash">
-        testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash()
-        <a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Security/HashGeneratorTest.php"><a href="files/tests-unit-security-hashgeneratortest.html"><abbr title="tests/Unit/Security/HashGeneratorTest.php">HashGeneratorTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">30</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testCreatePasswordHashCreates64CharacterHash">
-        testCreatePasswordHashCreates64CharacterHash()
-        <a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCreates64CharacterHash" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testCreatePasswordHashCreatesPasswordHashCompatibleHash">
+        testCreatePasswordHashCreatesPasswordHashCompatibleHash()
+        <a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCreatesPasswordHashCompatibleHash" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
@@ -359,7 +355,211 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testCreatePasswordHashCreates64CharacterHash</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testCreatePasswordHashCreatesPasswordHashCompatibleHash</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testIsLegacyHashForPasswordHashHashReturnsFalse">
+        testIsLegacyHashForPasswordHashHashReturnsFalse()
+        <a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testIsLegacyHashForPasswordHashHashReturnsFalse" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Security/HashGeneratorTest.php"><a href="files/tests-unit-security-hashgeneratortest.html"><abbr title="tests/Unit/Security/HashGeneratorTest.php">HashGeneratorTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">78</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testIsLegacyHashForPasswordHashHashReturnsFalse</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testIsLegacyHashForSha256HashReturnsTrue">
+        testIsLegacyHashForSha256HashReturnsTrue()
+        <a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testIsLegacyHashForSha256HashReturnsTrue" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Security/HashGeneratorTest.php"><a href="files/tests-unit-security-hashgeneratortest.html"><abbr title="tests/Unit/Security/HashGeneratorTest.php">HashGeneratorTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">71</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testIsLegacyHashForSha256HashReturnsTrue</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testVerifyPasswordForMatchingPasswordAndHashReturnsTrue">
+        testVerifyPasswordForMatchingPasswordAndHashReturnsTrue()
+        <a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndHashReturnsTrue" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Security/HashGeneratorTest.php"><a href="files/tests-unit-security-hashgeneratortest.html"><abbr title="tests/Unit/Security/HashGeneratorTest.php">HashGeneratorTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">41</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testVerifyPasswordForMatchingPasswordAndHashReturnsTrue</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue">
+        testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue()
+        <a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Security/HashGeneratorTest.php"><a href="files/tests-unit-security-hashgeneratortest.html"><abbr title="tests/Unit/Security/HashGeneratorTest.php">HashGeneratorTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">56</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse">
+        testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse()
+        <a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Security/HashGeneratorTest.php"><a href="files/tests-unit-security-hashgeneratortest.html"><abbr title="tests/Unit/Security/HashGeneratorTest.php">HashGeneratorTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">49</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse">
+        testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse()
+        <a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Security/HashGeneratorTest.php"><a href="files/tests-unit-security-hashgeneratortest.html"><abbr title="tests/Unit/Security/HashGeneratorTest.php">HashGeneratorTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">64</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -435,9 +635,14 @@
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes">testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash">testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCreates64CharacterHash">testCreatePasswordHashCreates64CharacterHash()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes">testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCreatesPasswordHashCompatibleHash">testCreatePasswordHashCreatesPasswordHashCompatibleHash()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testIsLegacyHashForPasswordHashHashReturnsFalse">testIsLegacyHashForPasswordHashHashReturnsFalse()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testIsLegacyHashForSha256HashReturnsTrue">testIsLegacyHashForSha256HashReturnsTrue()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndHashReturnsTrue">testVerifyPasswordForMatchingPasswordAndHashReturnsTrue()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue">testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse">testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse">testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_setUp">setUp()</a></li>
                                     </ul>
             </li>

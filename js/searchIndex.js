@@ -16811,10 +16811,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Security-HashGenerator.html#method_createPasswordHash"
         },                {
-            "fqsen": "\\PhpList\\Core\\Security\\HashGenerator\u003A\u003APASSWORD_HASH_ALGORITHM",
-            "name": "PASSWORD_HASH_ALGORITHM",
-            "summary": "",
-            "url": "classes/PhpList-Core-Security-HashGenerator.html#constant_PASSWORD_HASH_ALGORITHM"
+            "fqsen": "\\PhpList\\Core\\Security\\HashGenerator\u003A\u003AverifyPassword\u0028\u0029",
+            "name": "verifyPassword",
+            "summary": "Checks\u0020a\u0020plaintext\u0020password\u0020against\u0020a\u0020stored\u0020hash.",
+            "url": "classes/PhpList-Core-Security-HashGenerator.html#method_verifyPassword"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Security\\HashGenerator\u003A\u003AisLegacyHash\u0028\u0029",
+            "name": "isLegacyHash",
+            "summary": "Checks\u0020whether\u0020\u0024hash\u0020was\u0020created\u0020by\u0020the\u0020old,\u0020unsalted\u0020sha256\u002Dbased\u0020scheme\nrather\u0020than\u0020by\u0020\u007B\u0040see\u0020createPasswordHash\u0028\u0029\u007D.",
+            "url": "classes/PhpList-Core-Security-HashGenerator.html#method_isLegacyHash"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Security\\HashGenerator\u003A\u003ALEGACY_PASSWORD_HASH_ALGORITHM",
+            "name": "LEGACY_PASSWORD_HASH_ALGORITHM",
+            "summary": "Legacy\u0020algorithm\u0020that\u0020older\u0020password\u0020hashes\u0020in\u0020the\u0020database\u0020may\u0020still\u0020use.",
+            "url": "classes/PhpList-Core-Security-HashGenerator.html#constant_LEGACY_PASSWORD_HASH_ALGORITHM"
         },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\ContainsInstanceAssertionTrait",
             "name": "ContainsInstanceAssertionTrait",
@@ -26641,20 +26651,45 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCreates64CharacterHash\u0028\u0029",
-            "name": "testCreatePasswordHashCreates64CharacterHash",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCreatesPasswordHashCompatibleHash\u0028\u0029",
+            "name": "testCreatePasswordHashCreatesPasswordHashCompatibleHash",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCreates64CharacterHash"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCreatesPasswordHashCompatibleHash"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash\u0028\u0029",
-            "name": "testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes\u0028\u0029",
+            "name": "testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesSameHash"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes\u0028\u0029",
-            "name": "testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForMatchingPasswordAndHashReturnsTrue\u0028\u0029",
+            "name": "testVerifyPasswordForMatchingPasswordAndHashReturnsTrue",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithDifferentPasswordsCreatesDifferentHashes"
+            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndHashReturnsTrue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse\u0028\u0029",
+            "name": "testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue\u0028\u0029",
+            "name": "testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse\u0028\u0029",
+            "name": "testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestIsLegacyHashForSha256HashReturnsTrue\u0028\u0029",
+            "name": "testIsLegacyHashForSha256HashReturnsTrue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testIsLegacyHashForSha256HashReturnsTrue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestIsLegacyHashForPasswordHashHashReturnsFalse\u0028\u0029",
+            "name": "testIsLegacyHashForPasswordHashHashReturnsFalse",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testIsLegacyHashForPasswordHashHashReturnsFalse"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003A\u0024subject",
             "name": "subject",
