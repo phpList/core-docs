@@ -2716,6 +2716,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html#method_countBetween"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\LinkTrackRepository\u003A\u003AcountGroupedByDay\u0028\u0029",
+            "name": "countGroupedByDay",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html#method_countGroupedByDay"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\LinkTrackRepository\u003A\u003AcountUniqueClickersByMessageIds\u0028\u0029",
+            "name": "countUniqueClickersByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html#method_countUniqueClickersByMessageIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\LinkTrackUmlClickRepository",
             "name": "LinkTrackUmlClickRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -2745,6 +2755,16 @@ Search.appendIndex(
             "name": "countBetween",
             "summary": "Counts\u0020views\u0020between\u0020two\u0020dates.",
             "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html#method_countBetween"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\UserMessageViewRepository\u003A\u003AcountGroupedByDay\u0028\u0029",
+            "name": "countGroupedByDay",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html#method_countGroupedByDay"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\UserMessageViewRepository\u003A\u003AcountByMessageIds\u0028\u0029",
+            "name": "countByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html#method_countByMessageIds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\UserStatsRepository",
             "name": "UserStatsRepository",
@@ -2926,6 +2946,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html#method_countClicksBetween"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager\u003A\u003AcountClicksGroupedByDay\u0028\u0029",
+            "name": "countClicksGroupedByDay",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html#method_countClicksGroupedByDay"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager\u003A\u003AcountUniqueClickersByMessageIds\u0028\u0029",
+            "name": "countUniqueClickersByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html#method_countUniqueClickersByMessageIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager\u003A\u003A\u0024linkTrackRepository",
             "name": "linkTrackRepository",
             "summary": "",
@@ -2955,6 +2985,16 @@ Search.appendIndex(
             "name": "countViewsBetween",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#method_countViewsBetween"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003AcountViewsGroupedByDay\u0028\u0029",
+            "name": "countViewsGroupedByDay",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#method_countViewsGroupedByDay"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003AcountViewsByMessageIds\u0028\u0029",
+            "name": "countViewsByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#method_countViewsByMessageIds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003A\u0024userMessageViewRepository",
             "name": "userMessageViewRepository",
@@ -19280,6 +19320,16 @@ Search.appendIndex(
             "name": "testGetSummaryStatistics",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetSummaryStatistics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetCampaignPerformance\u0028\u0029",
+            "name": "testGetCampaignPerformance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetCampaignPerformance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetRecentCampaigns\u0028\u0029",
+            "name": "testGetRecentCampaigns",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetRecentCampaigns"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024subject",
             "name": "subject",
