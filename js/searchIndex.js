@@ -9466,6 +9466,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#method_setSubject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter\u003A\u003AgetStatus\u0028\u0029",
+            "name": "getStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#method_getStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter\u003A\u003AsetStatus\u0028\u0029",
+            "name": "setStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#method_setStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter\u003A\u003AgetSortOrder\u0028\u0029",
+            "name": "getSortOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#method_getSortOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter\u003A\u003AsetSortOrder\u0028\u0029",
+            "name": "setSortOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#method_setSortOrder"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter\u003A\u003A\u0024owner",
             "name": "owner",
             "summary": "",
@@ -9475,6 +9495,16 @@ Search.appendIndex(
             "name": "subject",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter\u003A\u003A\u0024status",
+            "name": "status",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#property_status"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\MessageFilter\u003A\u003A\u0024sortOrder",
+            "name": "sortOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-MessageFilter.html#property_sortOrder"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\SubscriberListFilter",
             "name": "SubscriberListFilter",
@@ -16786,6 +16816,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_down"
         },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260820120000MySqlAddMessageStatusIndex",
+            "name": "Version20260820120000MySqlAddMessageStatusIndex",
+            "summary": "Migrations\u0020only\u0020receive\u0020a\u0020Connection\u0020and\u0020a\u0020Logger\u0020from\u0020Doctrine\u0027s\u0020migration\u0020factory\u0020\u0028no\u0020DI\u0020container\u0020access\u0029,\nso\u0020the\u0020configured\u0020table\u0020prefix\u0020is\u0020read\u0020directly\u0020from\u0020the\u0020environment\u0020here\u0020rather\u0020than\u0020injected.",
+            "url": "classes/PhpList-Core-Migrations-Version20260820120000MySqlAddMessageStatusIndex.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260820120000MySqlAddMessageStatusIndex\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260820120000MySqlAddMessageStatusIndex.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260820120000MySqlAddMessageStatusIndex\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260820120000MySqlAddMessageStatusIndex.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260820120000MySqlAddMessageStatusIndex\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260820120000MySqlAddMessageStatusIndex.html#method_down"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260820120001PostGreAddMessageStatusIndex",
+            "name": "Version20260820120001PostGreAddMessageStatusIndex",
+            "summary": "Migrations\u0020only\u0020receive\u0020a\u0020Connection\u0020and\u0020a\u0020Logger\u0020from\u0020Doctrine\u0027s\u0020migration\u0020factory\u0020\u0028no\u0020DI\u0020container\u0020access\u0029,\nso\u0020the\u0020configured\u0020table\u0020prefix\u0020is\u0020read\u0020directly\u0020from\u0020the\u0020environment\u0020here\u0020rather\u0020than\u0020injected.",
+            "url": "classes/PhpList-Core-Migrations-Version20260820120001PostGreAddMessageStatusIndex.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260820120001PostGreAddMessageStatusIndex\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260820120001PostGreAddMessageStatusIndex.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260820120001PostGreAddMessageStatusIndex\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260820120001PostGreAddMessageStatusIndex.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260820120001PostGreAddMessageStatusIndex\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260820120001PostGreAddMessageStatusIndex.html#method_down"
+        },                {
             "fqsen": "\\PhpList\\Core\\PhpListCoreBundle",
             "name": "PhpListCoreBundle",
             "summary": "",
@@ -17475,6 +17545,31 @@ Search.appendIndex(
             "name": "testMessageTimestampsAreSetOnPersist",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testMessageTimestampsAreSetOnPersist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003ApersistMessage\u0028\u0029",
+            "name": "persistMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_persistMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestGetFilteredAfterIdFiltersBySingleStatus\u0028\u0029",
+            "name": "testGetFilteredAfterIdFiltersBySingleStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdFiltersBySingleStatus"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestGetFilteredAfterIdFiltersByMultipleCommaSeparatedStatuses\u0028\u0029",
+            "name": "testGetFilteredAfterIdFiltersByMultipleCommaSeparatedStatuses",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdFiltersByMultipleCommaSeparatedStatuses"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestGetFilteredAfterIdDefaultsToAscendingOrder\u0028\u0029",
+            "name": "testGetFilteredAfterIdDefaultsToAscendingOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdDefaultsToAscendingOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestGetFilteredAfterIdSortsDescendingAndCursorsBackward\u0028\u0029",
+            "name": "testGetFilteredAfterIdSortsDescendingAndCursorsBackward",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdSortsDescendingAndCursorsBackward"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003A\u0024messageRepository",
             "name": "messageRepository",

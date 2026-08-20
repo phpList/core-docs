@@ -132,7 +132,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -202,6 +202,30 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdDefaultsToAscendingOrder">testGetFilteredAfterIdDefaultsToAscendingOrder()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdFiltersByMultipleCommaSeparatedStatuses">testGetFilteredAfterIdFiltersByMultipleCommaSeparatedStatuses()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdFiltersBySingleStatus">testGetFilteredAfterIdFiltersBySingleStatus()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdSortsDescendingAndCursorsBackward">testGetFilteredAfterIdSortsDescendingAndCursorsBackward()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testMessageIsPersistedAndFetchedCorrectly">testMessageIsPersistedAndFetchedCorrectly()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -265,6 +289,12 @@
                                 &nbsp;: void    </span>
 </dt>
 <dd>Initializes the Bootstrap and Doctrine EntityManager.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_persistMessage">persistMessage()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>    </span>
+</dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_runForMySql">runForMySql()</a>
@@ -419,7 +449,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -461,7 +491,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
+    <span class="phpdocumentor-element-found-in__line">71</span>
 
     </aside>
 
@@ -469,6 +499,142 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testGetByOwnerIdReturnsOnlyOwnedMessages</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testGetFilteredAfterIdDefaultsToAscendingOrder">
+        testGetFilteredAfterIdDefaultsToAscendingOrder()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdDefaultsToAscendingOrder" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">182</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testGetFilteredAfterIdDefaultsToAscendingOrder</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testGetFilteredAfterIdFiltersByMultipleCommaSeparatedStatuses">
+        testGetFilteredAfterIdFiltersByMultipleCommaSeparatedStatuses()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdFiltersByMultipleCommaSeparatedStatuses" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">167</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testGetFilteredAfterIdFiltersByMultipleCommaSeparatedStatuses</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testGetFilteredAfterIdFiltersBySingleStatus">
+        testGetFilteredAfterIdFiltersBySingleStatus()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdFiltersBySingleStatus" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">152</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testGetFilteredAfterIdFiltersBySingleStatus</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testGetFilteredAfterIdSortsDescendingAndCursorsBackward">
+        testGetFilteredAfterIdSortsDescendingAndCursorsBackward()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdSortsDescendingAndCursorsBackward" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">195</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testGetFilteredAfterIdSortsDescendingAndCursorsBackward</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -495,7 +661,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 
@@ -529,7 +695,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">117</span>
+    <span class="phpdocumentor-element-found-in__line">118</span>
 
     </aside>
 
@@ -658,7 +824,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -727,7 +893,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -889,6 +1055,61 @@
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_persistMessage">
+        persistMessage()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_persistMessage" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">136</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">persistMessage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\MessageStatus">MessageStatus</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$status</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subject</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$status</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageStatus.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\MessageStatus">MessageStatus</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$subject</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_runForMySql">
         runForMySql()
         <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_runForMySql" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1018,6 +1239,10 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetByOwnerIdReturnsOnlyOwnedMessages">testGetByOwnerIdReturnsOnlyOwnedMessages()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdDefaultsToAscendingOrder">testGetFilteredAfterIdDefaultsToAscendingOrder()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdFiltersByMultipleCommaSeparatedStatuses">testGetFilteredAfterIdFiltersByMultipleCommaSeparatedStatuses()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdFiltersBySingleStatus">testGetFilteredAfterIdFiltersBySingleStatus()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdSortsDescendingAndCursorsBackward">testGetFilteredAfterIdSortsDescendingAndCursorsBackward()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testMessageIsPersistedAndFetchedCorrectly">testMessageIsPersistedAndFetchedCorrectly()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testMessageTimestampsAreSetOnPersist">testMessageTimestampsAreSetOnPersist()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadFixtures">loadFixtures()</a></li>
@@ -1028,6 +1253,7 @@
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tearDownDatabaseTest">tearDownDatabaseTest()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-SimilarDatesAssertionTrait.html#method_assertSimilarDates">assertSimilarDates()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeBootstrap">initializeBootstrap()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_persistMessage">persistMessage()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_runForMySql">runForMySql()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_runForSqlite">runForSqlite()</a></li>
                                     </ul>
