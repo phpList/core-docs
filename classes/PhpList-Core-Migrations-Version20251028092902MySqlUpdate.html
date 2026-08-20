@@ -185,6 +185,16 @@ so the configured table prefix is read directly from the environment here rather
                                 &nbsp;: void    </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_renameOrCreateIndex">renameOrCreateIndex()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Legacy phpList dumps don&#039;t all carry the same set of index names (older exports predate
+some indexes entirely), so a hardcoded RENAME INDEX can fail against a given dump. This
+renames whichever of the candidate legacy names is actually present, or creates the target
+index fresh if none of them are.</dd>
+
     </dl>
 
 
@@ -213,7 +223,7 @@ so the configured table prefix is read directly from the environment here rather
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251028092902MySqlUpdate.php"><a href="files/src-migrations-version20251028092902mysqlupdate.html"><abbr title="src/Migrations/Version20251028092902MySqlUpdate.php">Version20251028092902MySqlUpdate.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">165</span>
+    <span class="phpdocumentor-element-found-in__line">192</span>
 
     </aside>
 
@@ -339,7 +349,7 @@ so the configured table prefix is read directly from the environment here rather
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/AbstractPrefixedMigration.php"><a href="files/src-migrations-abstractprefixedmigration.html"><abbr title="src/Migrations/AbstractPrefixedMigration.php">AbstractPrefixedMigration.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -383,6 +393,82 @@ so the configured table prefix is read directly from the environment here rather
     
     
 </article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_renameOrCreateIndex">
+        renameOrCreateIndex()
+        <a href="classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_renameOrCreateIndex" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/AbstractPrefixedMigration.php"><a href="files/src-migrations-abstractprefixedmigration.html"><abbr title="src/Migrations/AbstractPrefixedMigration.php">AbstractPrefixedMigration.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">37</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Legacy phpList dumps don&#039;t all carry the same set of index names (older exports predate
+some indexes entirely), so a hardcoded RENAME INDEX can fail against a given dump. This
+renames whichever of the candidate legacy names is actually present, or creates the target
+index fresh if none of them are.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">renameOrCreateIndex</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Doctrine\DBAL\Schema\Schema">Schema</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$schema</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tableName</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$possibleOldIndexNames</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$newIndexName</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$columns</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$schema</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Doctrine\DBAL\Schema\Schema">Schema</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$tableName</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$possibleOldIndexNames</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$newIndexName</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$columns</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
             </section>
 
         
@@ -409,6 +495,7 @@ so the configured table prefix is read directly from the environment here rather
                                             <li class=""><a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html#method_getDescription">getDescription()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html#method_up">up()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_addSql">addSql()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_renameOrCreateIndex">renameOrCreateIndex()</a></li>
                                     </ul>
             </li>
                     </ul>

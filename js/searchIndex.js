@@ -16691,6 +16691,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_addSql"
         },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003ArenameOrCreateIndex\u0028\u0029",
+            "name": "renameOrCreateIndex",
+            "summary": "Legacy\u0020phpList\u0020dumps\u0020don\u0027t\u0020all\u0020carry\u0020the\u0020same\u0020set\u0020of\u0020index\u0020names\u0020\u0028older\u0020exports\u0020predate\nsome\u0020indexes\u0020entirely\u0029,\u0020so\u0020a\u0020hardcoded\u0020RENAME\u0020INDEX\u0020can\u0020fail\u0020against\u0020a\u0020given\u0020dump.\u0020This\nrenames\u0020whichever\u0020of\u0020the\u0020candidate\u0020legacy\u0020names\u0020is\u0020actually\u0020present,\u0020or\u0020creates\u0020the\u0020target\nindex\u0020fresh\u0020if\u0020none\u0020of\u0020them\u0020are.",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_renameOrCreateIndex"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003AgetPrefixedTableName\u0028\u0029",
+            "name": "getPrefixedTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_getPrefixedTableName"
+        },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003AgetTablePrefix\u0028\u0029",
             "name": "getTablePrefix",
             "summary": "",
@@ -16715,6 +16725,26 @@ Search.appendIndex(
             "name": "up",
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlEngineUpdate",
+            "name": "Version20251028092902MySqlEngineUpdate",
+            "summary": "Migrations\u0020only\u0020receive\u0020a\u0020Connection\u0020and\u0020a\u0020Logger\u0020from\u0020Doctrine\u0027s\u0020migration\u0020factory\u0020\u0028no\u0020DI\u0020container\u0020access\u0029,\nso\u0020the\u0020configured\u0020table\u0020prefix\u0020is\u0020read\u0020directly\u0020from\u0020the\u0020environment\u0020here\u0020rather\u0020than\u0020injected.",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlEngineUpdate\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlEngineUpdate\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlEngineUpdate\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_down"
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate",
             "name": "Version20251028092902MySqlUpdate",
@@ -16755,26 +16785,6 @@ Search.appendIndex(
             "name": "down",
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_down"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260204094237",
-            "name": "Version20260204094237",
-            "summary": "\u26A0\uFE0F\u0020Wizard\u0020warning\u003A\nDoctrine\u0020will\u0020\u0060helpfully\u0060\u0020remove\u0020url\u0028255\u0029\u0020prefixes\u0020and\u0020add\u0020collations\u00205.7\u0020can\u2019t\u0020read.",
-            "url": "classes/PhpList-Core-Migrations-Version20260204094237.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260204094237\u003A\u003AgetDescription\u0028\u0029",
-            "name": "getDescription",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20260204094237.html#method_getDescription"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260204094237\u003A\u003Aup\u0028\u0029",
-            "name": "up",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20260204094237.html#method_up"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260204094237\u003A\u003Adown\u0028\u0029",
-            "name": "down",
-            "summary": "",
-            "url": "classes/PhpList-Core-Migrations-Version20260204094237.html#method_down"
         },                {
             "fqsen": "\\PhpList\\Core\\PhpListCoreBundle",
             "name": "PhpListCoreBundle",

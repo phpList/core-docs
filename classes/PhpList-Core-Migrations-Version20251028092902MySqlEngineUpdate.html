@@ -101,7 +101,7 @@
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    Version20251031072945PostGreInit
+    Version20251028092902MySqlEngineUpdate
 
         <span class="phpdocumentor-element__extends">
         extends <a href="classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html"><abbr title="\PhpList\Core\Migrations\AbstractPrefixedMigration">AbstractPrefixedMigration</abbr></a>
@@ -125,19 +125,16 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251031072945PostGreInit.php"><a href="files/src-migrations-version20251031072945postgreinit.html"><abbr title="src/Migrations/Version20251031072945PostGreInit.php">Version20251031072945PostGreInit.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251028092902MySqlEngineUpdate.php"><a href="files/src-migrations-version20251028092902mysqlengineupdate.html"><abbr title="src/Migrations/Version20251028092902MySqlEngineUpdate.php">Version20251028092902MySqlEngineUpdate.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">⚠️ Wizard warning:
-Doctrine will `helpfully` remove url(255) prefixes and add collations 5.7 can’t read.</p>
+            <p class="phpdocumentor-summary">Migrations only receive a Connection and a Logger from Doctrine&#039;s migration factory (no DI container access),
+so the configured table prefix is read directly from the environment here rather than injected.</p>
 
 
-    <section class="phpdocumentor-description"><p>Review the SQL unless you enjoy debugging key length errors at 2 AM.</p>
-<p>Ex: phplist_linktrack_forward phplist_linktrack_forward_urlindex (but there are more)</p>
-</section>
 
 
 
@@ -145,7 +142,7 @@ Doctrine will `helpfully` remove url(255) prefixes and add collations 5.7 can’
     
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -160,24 +157,24 @@ Doctrine will `helpfully` remove url(255) prefixes and add collations 5.7 can’
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_down">down()</a>
+    <a class="" href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_down">down()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_getDescription">getDescription()</a>
+    <a class="" href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_getDescription">getDescription()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_up">up()</a>
+    <a class="" href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_up">up()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -209,7 +206,7 @@ index fresh if none of them are.</dd>
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -220,13 +217,13 @@ index fresh if none of them are.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method_down">
         down()
-        <a href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_down" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_down" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251031072945PostGreInit.php"><a href="files/src-migrations-version20251031072945postgreinit.html"><abbr title="src/Migrations/Version20251031072945PostGreInit.php">Version20251031072945PostGreInit.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251028092902MySqlEngineUpdate.php"><a href="files/src-migrations-version20251028092902mysqlengineupdate.html"><abbr title="src/Migrations/Version20251028092902MySqlEngineUpdate.php">Version20251028092902MySqlEngineUpdate.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">212</span>
+    <span class="phpdocumentor-element-found-in__line">56</span>
 
     </aside>
 
@@ -264,13 +261,13 @@ index fresh if none of them are.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method_getDescription">
         getDescription()
-        <a href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_getDescription" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_getDescription" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251031072945PostGreInit.php"><a href="files/src-migrations-version20251031072945postgreinit.html"><abbr title="src/Migrations/Version20251031072945PostGreInit.php">Version20251031072945PostGreInit.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251028092902MySqlEngineUpdate.php"><a href="files/src-migrations-version20251028092902mysqlengineupdate.html"><abbr title="src/Migrations/Version20251028092902MySqlEngineUpdate.php">Version20251028092902MySqlEngineUpdate.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
@@ -302,13 +299,13 @@ index fresh if none of them are.</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method_up">
         up()
-        <a href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_up" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_up" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251031072945PostGreInit.php"><a href="files/src-migrations-version20251031072945postgreinit.html"><abbr title="src/Migrations/Version20251031072945PostGreInit.php">Version20251031072945PostGreInit.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Migrations/Version20251028092902MySqlEngineUpdate.php"><a href="files/src-migrations-version20251028092902mysqlengineupdate.html"><abbr title="src/Migrations/Version20251028092902MySqlEngineUpdate.php">Version20251028092902MySqlEngineUpdate.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -486,7 +483,7 @@ index fresh if none of them are.</p>
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                <li><a href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#toc-methods">Methods</a></li>
+                                                                                <li><a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
@@ -494,9 +491,9 @@ index fresh if none of them are.</p>
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_down">down()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_getDescription">getDescription()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#method_up">up()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_down">down()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_getDescription">getDescription()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#method_up">up()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_addSql">addSql()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_renameOrCreateIndex">renameOrCreateIndex()</a></li>
                                     </ul>
@@ -518,7 +515,7 @@ index fresh if none of them are.</p>
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Migrations-Version20251031072945PostGreInit.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Migrations-Version20251028092902MySqlEngineUpdate.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
