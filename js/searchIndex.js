@@ -5961,55 +5961,50 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html#property_entityManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand",
-            "name": "ImportDefaultsCommand",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CreateAdminCommand",
+            "name": "CreateAdminCommand",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html"
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CreateAdminCommand\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#method___construct"
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003Aexecute\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CreateAdminCommand\u003A\u003Aconfigure\u0028\u0029",
+            "name": "configure",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html#method_configure"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CreateAdminCommand\u003A\u003Aexecute\u0028\u0029",
             "name": "execute",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#method_execute"
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html#method_execute"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003AallPrivilegesGranted\u0028\u0029",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CreateAdminCommand\u003A\u003AresolveValue\u0028\u0029",
+            "name": "resolveValue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html#method_resolveValue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CreateAdminCommand\u003A\u003AallPrivilegesGranted\u0028\u0029",
             "name": "allPrivilegesGranted",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#method_allPrivilegesGranted"
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html#method_allPrivilegesGranted"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003ADEFAULT_LOGIN",
-            "name": "DEFAULT_LOGIN",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#constant_DEFAULT_LOGIN"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003ADEFAULT_EMAIL",
-            "name": "DEFAULT_EMAIL",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#constant_DEFAULT_EMAIL"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003A\u0024administratorRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CreateAdminCommand\u003A\u003A\u0024administratorRepository",
             "name": "administratorRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#property_administratorRepository"
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html#property_administratorRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003A\u0024administratorManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CreateAdminCommand\u003A\u003A\u0024administratorManager",
             "name": "administratorManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#property_administratorManager"
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html#property_administratorManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003A\u0024entityManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CreateAdminCommand\u003A\u003A\u0024entityManager",
             "name": "entityManager",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#property_entityManager"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\ImportDefaultsCommand\u003A\u003A\u0024defaultAdminPassword",
-            "name": "defaultAdminPassword",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Command-ImportDefaultsCommand.html#property_defaultAdminPassword"
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html#property_entityManager"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException",
             "name": "AdminAttributeCreationException",
