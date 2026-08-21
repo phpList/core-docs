@@ -1846,6 +1846,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_loadClassMetadata"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener\u003A\u003APREFIXED_NAMESPACES",
+            "name": "PREFIXED_NAMESPACES",
+            "summary": "Namespace\u0020prefixes\u0020of\u0020entities\u0020that\u0020should\u0020be\u0020prefixed\u0020with\u0020the\u0020app\u0027s\u0020table\u0020prefix.\u0020Bundles\u0020that\u0020ship\ntheir\u0020own\u0020entities\u0020\u0028e.g.\u0020TatevikGr\\RssFeedBundle\u0029\u0020don\u0027t\u0020know\u0020about\u0020this\u0020convention\u0020on\u0020their\u0020own,\u0020so\ntheir\u0020namespace\u0020has\u0020to\u0020be\u0020opted\u0020in\u0020here\u0020explicitly.",
+            "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#constant_PREFIXED_NAMESPACES"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener\u003A\u003A\u0024tablePrefix",
             "name": "tablePrefix",
             "summary": "",
