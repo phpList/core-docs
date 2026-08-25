@@ -206,6 +206,13 @@
 <dd>Counts subscribers created between two dates.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_countWithValidEmail">countWithValidEmail()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>Counts subscribers whose email address contains an &#039;@&#039;.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_decrementBounceCount">decrementBounceCount()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -273,6 +280,13 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getDomainConfirmationStatistics">getDomainConfirmationStatistics()</a>
+    <span>
+                                &nbsp;: array&lt;int, array{domain: string, total: int|string, confirmed: int|string, unconfirmed: int|string, blacklisted: int|string}&gt;    </span>
+</dt>
+<dd>Returns per-domain confirmed/unconfirmed/blacklisted subscriber counts, ordered by unconfirmed count.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getFilteredAfterId">getFilteredAfterId()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html"><abbr title="\PhpList\Core\Domain\Common\Model\PaginatedResult">PaginatedResult</abbr></a>&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;    </span>
@@ -283,6 +297,20 @@
     <span>
                                 &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;    </span>
 </dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopDomains">getTopDomains()</a>
+    <span>
+                                &nbsp;: array&lt;int, array{domain: string, subscribers: int|string}&gt;    </span>
+</dt>
+<dd>Returns the top domains (by subscriber count) among subscribers with a valid email address.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopLocalParts">getTopLocalParts()</a>
+    <span>
+                                &nbsp;: array&lt;int, array{localPart: string, count: int|string}&gt;    </span>
+</dt>
+<dd>Returns the top local-parts (by subscriber count) among subscribers with a valid email address.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_incrementBounceCount">incrementBounceCount()</a>
@@ -399,6 +427,45 @@
             </dd>
             </dl>
 
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_countWithValidEmail">
+        countWithValidEmail()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_countWithValidEmail" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">415</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Counts subscribers whose email address contains an &#039;@&#039;.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">countWithValidEmail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
     
 
         
@@ -919,6 +986,57 @@ following the Law of Demeter.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getDomainConfirmationStatistics">
+        getDomainConfirmationStatistics()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getDomainConfirmationStatistics" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">375</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns per-domain confirmed/unconfirmed/blacklisted subscriber counts, ordered by unconfirmed count.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getDomainConfirmationStatistics</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$limit</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array{domain: string, total: int|string, confirmed: int|string, unconfirmed: int|string, blacklisted: int|string}&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Aggregation happens in SQL so only $limit rows are ever loaded into memory.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$limit</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, array{domain: string, total: int|string, confirmed: int|string, unconfirmed: int|string, blacklisted: int|string}&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getFilteredAfterId">
         getFilteredAfterId()
         <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getFilteredAfterId" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1033,6 +1151,115 @@ following the Law of Demeter.</p>
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getTopDomains">
+        getTopDomains()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopDomains" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">353</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the top domains (by subscriber count) among subscribers with a valid email address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getTopDomains</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$limit</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$minSubscribers</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array{domain: string, subscribers: int|string}&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Aggregation happens in SQL so only $limit rows are ever loaded into memory.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$limit</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$minSubscribers</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, array{domain: string, subscribers: int|string}&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getTopLocalParts">
+        getTopLocalParts()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopLocalParts" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">399</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the top local-parts (by subscriber count) among subscribers with a valid email address.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getTopLocalParts</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$limit</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array{localPart: string, count: int|string}&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Aggregation happens in SQL so only $limit rows are ever loaded into memory.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$limit</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, array{localPart: string, count: int|string}&gt;</span>
             </section>
 
 </article>
@@ -1477,6 +1704,7 @@ following the Law of Demeter.</p>
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_countCreatedBetween">countCreatedBetween()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_countWithValidEmail">countWithValidEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_decrementBounceCount">decrementBounceCount()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_delete">delete()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_distinctUsersWithBouncesConfirmedNotBlacklisted">distinctUsersWithBouncesConfirmedNotBlacklisted()</a></li>
@@ -1488,8 +1716,11 @@ following the Law of Demeter.</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findSubscriberWithSubscriptions">findSubscriberWithSubscriptions()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getByEmails">getByEmails()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getDataById">getDataById()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getDomainConfirmationStatistics">getDomainConfirmationStatistics()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSubscribersBySubscribedListId">getSubscribersBySubscribedListId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopDomains">getTopDomains()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopLocalParts">getTopLocalParts()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_incrementBounceCount">incrementBounceCount()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_isEmailBlacklisted">isEmailBlacklisted()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_markConfirmed">markConfirmed()</a></li>

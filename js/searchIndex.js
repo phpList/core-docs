@@ -2821,11 +2821,6 @@ Search.appendIndex(
             "summary": "Get\u0020domains\u0020with\u0020most\u0020unconfirmed\u0020subscribers",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getDomainConfirmationStatistics"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AextractDomain\u0028\u0029",
-            "name": "extractDomain",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_extractDomain"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AformatStat\u0028\u0029",
             "name": "formatStat",
             "summary": "",
@@ -15460,6 +15455,26 @@ Search.appendIndex(
             "name": "getByEmails",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getByEmails"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AgetTopDomains\u0028\u0029",
+            "name": "getTopDomains",
+            "summary": "Returns\u0020the\u0020top\u0020domains\u0020\u0028by\u0020subscriber\u0020count\u0029\u0020among\u0020subscribers\u0020with\u0020a\u0020valid\u0020email\u0020address.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopDomains"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AgetDomainConfirmationStatistics\u0028\u0029",
+            "name": "getDomainConfirmationStatistics",
+            "summary": "Returns\u0020per\u002Ddomain\u0020confirmed\/unconfirmed\/blacklisted\u0020subscriber\u0020counts,\u0020ordered\u0020by\u0020unconfirmed\u0020count.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getDomainConfirmationStatistics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AgetTopLocalParts\u0028\u0029",
+            "name": "getTopLocalParts",
+            "summary": "Returns\u0020the\u0020top\u0020local\u002Dparts\u0020\u0028by\u0020subscriber\u0020count\u0029\u0020among\u0020subscribers\u0020with\u0020a\u0020valid\u0020email\u0020address.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopLocalParts"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AcountWithValidEmail\u0028\u0029",
+            "name": "countWithValidEmail",
+            "summary": "Counts\u0020subscribers\u0020whose\u0020email\u0020address\u0020contains\u0020an\u0020\u0027\u0040\u0027.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_countWithValidEmail"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriptionRepository",
             "name": "SubscriptionRepository",
