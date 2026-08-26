@@ -22271,10 +22271,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Model-SubscriberListTest.html#method_testSetNameSetsName"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\SubscriberListTest\u003A\u003AtestGetDescriptionInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "testGetDescriptionInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\SubscriberListTest\u003A\u003AtestGetDescriptionInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetDescriptionInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Model-SubscriberListTest.html#method_testGetDescriptionInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Model-SubscriberListTest.html#method_testGetDescriptionInitiallyReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\SubscriberListTest\u003A\u003AtestSetDescriptionSetsDescription\u0028\u0029",
             "name": "testSetDescriptionSetsDescription",
@@ -22311,10 +22311,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Model-SubscriberListTest.html#method_testSetPublicSetsPublic"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\SubscriberListTest\u003A\u003AtestGetCategoryInitiallyReturnsEmptyString\u0028\u0029",
-            "name": "testGetCategoryInitiallyReturnsEmptyString",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\SubscriberListTest\u003A\u003AtestGetCategoryInitiallyReturnsNull\u0028\u0029",
+            "name": "testGetCategoryInitiallyReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Model-SubscriberListTest.html#method_testGetCategoryInitiallyReturnsEmptyString"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Model-SubscriberListTest.html#method_testGetCategoryInitiallyReturnsNull"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Model\\SubscriberListTest\u003A\u003AtestSetCategorySetsCategory\u0028\u0029",
             "name": "testSetCategorySetsCategory",
