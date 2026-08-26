@@ -6,7 +6,10 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
     <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -126,7 +129,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -135,10 +138,8 @@
 
 
 
-
-
-
-
+    
+    
 <h3 id="toc">
     Table of Contents
     <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
@@ -175,6 +176,12 @@
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_consecutiveBounceHandler">$consecutiveBounceHandler</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-ConsecutiveBounceHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\ConsecutiveBounceHandler">ConsecutiveBounceHandler</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_entityManager">$entityManager</a>
+    <span>
+                        &nbsp;: <abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -216,6 +223,12 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testEntityManagerIsFlushedAfterLockAcquireAttempt">testEntityManagerIsFlushedAfterLockAcquireAttempt()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testExecuteWhenLockNotAcquired">testExecuteWhenLockNotAcquired()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -228,6 +241,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testForceLockFailureReturnsFailureAndMessage">testForceLockFailureReturnsFailureAndMessage()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testForceOptionIsPassedToLockService">testForceOptionIsPassedToLockService()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -235,6 +254,12 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testProcessingFlowWhenProcessorThrowsException">testProcessingFlowWhenProcessorThrowsException()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testRulesBatchSizeOptionIsRespected">testRulesBatchSizeOptionIsRespected()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -281,7 +306,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -297,9 +322,8 @@
     
     
 
-    
-
-    
+        
+        
 
 </article>
                     <article
@@ -319,7 +343,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -335,9 +359,8 @@
     
     
 
-    
-
-    
+        
+        
 
 </article>
                     <article
@@ -357,7 +380,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -373,9 +396,45 @@
     
     
 
-    
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_entityManager">
+        $entityManager
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_entityManager" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+
+    </aside>
 
     
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$entityManager</span>
+    </code>
+
+    
+    
+    
+
+        
+        
 
 </article>
                     <article
@@ -395,7 +454,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -411,9 +470,8 @@
     
     
 
-    
-
-    
+        
+        
 
 </article>
                     <article
@@ -433,7 +491,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
@@ -449,9 +507,8 @@
     
     
 
-    
-
-    
+        
+        
 
 </article>
                     <article
@@ -471,7 +528,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -487,9 +544,8 @@
     
     
 
-    
-
-    
+        
+        
 
 </article>
                     <article
@@ -509,7 +565,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -525,9 +581,8 @@
     
     
 
-    
-
-    
+        
+        
 
 </article>
                     <article
@@ -547,7 +602,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -563,9 +618,8 @@
     
     
 
-    
-
-    
+        
+        
 
 </article>
             </section>
@@ -582,6 +636,40 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_testEntityManagerIsFlushedAfterLockAcquireAttempt">
+        testEntityManagerIsFlushedAfterLockAcquireAttempt()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testEntityManagerIsFlushedAfterLockAcquireAttempt" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">253</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testEntityManagerIsFlushedAfterLockAcquireAttempt</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_testExecuteWhenLockNotAcquired">
         testExecuteWhenLockNotAcquired()
         <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testExecuteWhenLockNotAcquired" class="headerlink"><i class="fas fa-link"></i></a>
@@ -590,7 +678,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">60</span>
 
     </aside>
 
@@ -606,8 +694,8 @@
     
     
 
+        
     
-
     
 </article>
                     <article
@@ -624,7 +712,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">80</span>
 
     </aside>
 
@@ -640,8 +728,42 @@
     
     
 
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testForceLockFailureReturnsFailureAndMessage">
+        testForceLockFailureReturnsFailureAndMessage()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testForceLockFailureReturnsFailureAndMessage" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">206</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testForceLockFailureReturnsFailureAndMessage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
     
 
+        
+    
     
 </article>
                     <article
@@ -658,7 +780,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">188</span>
+    <span class="phpdocumentor-element-found-in__line">192</span>
 
     </aside>
 
@@ -674,8 +796,8 @@
     
     
 
+        
     
-
     
 </article>
                     <article
@@ -692,7 +814,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">153</span>
+    <span class="phpdocumentor-element-found-in__line">157</span>
 
     </aside>
 
@@ -708,8 +830,42 @@
     
     
 
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testRulesBatchSizeOptionIsRespected">
+        testRulesBatchSizeOptionIsRespected()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testRulesBatchSizeOptionIsRespected" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">226</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testRulesBatchSizeOptionIsRespected</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
     
 
+        
+    
     
 </article>
                     <article
@@ -726,7 +882,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">100</span>
+    <span class="phpdocumentor-element-found-in__line">104</span>
 
     </aside>
 
@@ -742,8 +898,8 @@
     
     
 
+        
     
-
     
 </article>
                     <article
@@ -760,7 +916,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php"><a href="files/tests-unit-domain-messaging-command-processbouncescommandtest.html"><abbr title="tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php">ProcessBouncesCommandTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
@@ -776,106 +932,13 @@
     
     
 
+        
     
-
     
 </article>
             </section>
 
-        <div class="phpdocumentor-modal" id="source-view">
-    <div class="phpdocumentor-modal-bg" data-exit-button></div>
-    <div class="phpdocumentor-modal-container">
-        <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/tests/Unit/Domain/Messaging/Command/ProcessBouncesCommandTest.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
-        </div>
-        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
-    </div>
-</div>
-
-    <script type="text/javascript">
-        (function () {
-            function loadExternalCodeSnippet(el, url, line) {
-                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
-                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
-                    const language = 'php';
-
-                    const code = document.createElement('code');
-                    code.className = 'language-' + language;
-                    pre.textContent = '';
-                    pre.setAttribute('data-line', line)
-                    code.textContent = 'Loading…';
-                    pre.appendChild(code);
-
-                    var xhr = new XMLHttpRequest();
-
-                    xhr.open('GET', src, true);
-
-                    xhr.onreadystatechange = function () {
-                        if (xhr.readyState !== 4) {
-                            return;
-                        }
-
-                        if (xhr.status < 400 && xhr.responseText) {
-                            code.textContent = xhr.responseText;
-                            Prism.highlightElement(code);
-                            d=document.getElementsByClassName("line-numbers");
-                            d[0].scrollTop = d[0].children[1].offsetTop;
-                            return;
-                        }
-
-                        if (xhr.status === 404) {
-                            code.textContent = '✖ Error: File could not be found';
-                            return;
-                        }
-
-                        if (xhr.status >= 400) {
-                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
-                            return;
-                        }
-
-                        code.textContent = '✖ Error: An unknown error occurred';
-                    };
-
-                    xhr.send(null);
-                });
-            }
-
-            const modalButtons = document.querySelectorAll("[data-modal]");
-            const openedAsLocalFile = window.location.protocol === 'file:';
-            if (modalButtons.length > 0 && openedAsLocalFile) {
-                console.warn(
-                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
-                    'browsers block XHR requests when a page is opened this way'
-                );
-            }
-
-            modalButtons.forEach(function (trigger) {
-                if (openedAsLocalFile) {
-                    trigger.setAttribute("hidden", "hidden");
-                }
-
-                trigger.addEventListener("click", function (event) {
-                    event.preventDefault();
-                    const modal = document.getElementById(trigger.dataset.modal);
-                    if (!modal) {
-                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
-                        return;
-                    }
-                    modal.classList.add("phpdocumentor-modal__open");
-
-                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
-                    const exits = modal.querySelectorAll("[data-exit-button]");
-                    exits.forEach(function (exit) {
-                        exit.addEventListener("click", function (event) {
-                            event.preventDefault();
-                            modal.classList.remove("phpdocumentor-modal__open");
-                        });
-                    });
-                });
-            });
-        })();
-    </script>
-
+        
     </article>
                                 </section>
                 <section class="phpdocumentor-on-this-page__sidebar">
@@ -898,6 +961,7 @@
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_advancedRulesProcessor">$advancedRulesProcessor</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_commandTester">$commandTester</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_consecutiveBounceHandler">$consecutiveBounceHandler</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_entityManager">$entityManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_lockService">$lockService</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_logger">$logger</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#property_protocolProcessor">$protocolProcessor</a></li>
@@ -909,10 +973,13 @@
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testEntityManagerIsFlushedAfterLockAcquireAttempt">testEntityManagerIsFlushedAfterLockAcquireAttempt()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testExecuteWhenLockNotAcquired">testExecuteWhenLockNotAcquired()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testExecuteWithUnsupportedProtocol">testExecuteWithUnsupportedProtocol()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testForceLockFailureReturnsFailureAndMessage">testForceLockFailureReturnsFailureAndMessage()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testForceOptionIsPassedToLockService">testForceOptionIsPassedToLockService()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testProcessingFlowWhenProcessorThrowsException">testProcessingFlowWhenProcessorThrowsException()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testRulesBatchSizeOptionIsRespected">testRulesBatchSizeOptionIsRespected()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_testSuccessfulProcessingFlow">testSuccessfulProcessingFlow()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Command-ProcessBouncesCommandTest.html#method_setUp">setUp()</a></li>
                                     </ul>
