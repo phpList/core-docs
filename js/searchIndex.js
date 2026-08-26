@@ -3056,6 +3056,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-ClientIpResolver.html#property_requestStack"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\AttributeDefinitionCreationException",
+            "name": "AttributeDefinitionCreationException",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Exception-AttributeDefinitionCreationException.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\AttributeDefinitionCreationException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Exception-AttributeDefinitionCreationException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\AttributeDefinitionCreationException\u003A\u003AgetStatusCode\u0028\u0029",
+            "name": "getStatusCode",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Exception-AttributeDefinitionCreationException.html#method_getStatusCode"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\AttributeDefinitionCreationException\u003A\u003A\u0024statusCode",
+            "name": "statusCode",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Exception-AttributeDefinitionCreationException.html#property_statusCode"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Exception\\InvalidUploadException",
             "name": "InvalidUploadException",
             "summary": "",
@@ -4165,6 +4185,36 @@ Search.appendIndex(
             "name": "__invoke",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-TextParser.html#method___invoke"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\AbstractAttributeTypeValidator",
+            "name": "AbstractAttributeTypeValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-AbstractAttributeTypeValidator.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\AbstractAttributeTypeValidator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-AbstractAttributeTypeValidator.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\AbstractAttributeTypeValidator\u003A\u003AgetValidTypes\u0028\u0029",
+            "name": "getValidTypes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-AbstractAttributeTypeValidator.html#method_getValidTypes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\AbstractAttributeTypeValidator\u003A\u003Avalidate\u0028\u0029",
+            "name": "validate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-AbstractAttributeTypeValidator.html#method_validate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\AbstractAttributeTypeValidator\u003A\u003AnormalizeToEnum\u0028\u0029",
+            "name": "normalizeToEnum",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-AbstractAttributeTypeValidator.html#method_normalizeToEnum"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\AbstractAttributeTypeValidator\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-AbstractAttributeTypeValidator.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadDirectoryValidator",
             "name": "UploadDirectoryValidator",
@@ -6026,26 +6076,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Exception-AdminAttributeCreationException.html#property_statusCode"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AttributeDefinitionCreationException",
-            "name": "AttributeDefinitionCreationException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Exception-AttributeDefinitionCreationException.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AttributeDefinitionCreationException\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Exception-AttributeDefinitionCreationException.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AttributeDefinitionCreationException\u003A\u003AgetStatusCode\u0028\u0029",
-            "name": "getStatusCode",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Exception-AttributeDefinitionCreationException.html#method_getStatusCode"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AttributeDefinitionCreationException\u003A\u003A\u0024statusCode",
-            "name": "statusCode",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Exception-AttributeDefinitionCreationException.html#property_statusCode"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeDefinition",
             "name": "AdminAttributeDefinition",
             "summary": "",
@@ -7261,30 +7291,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator\u003A\u003AgetValidTypes\u0028\u0029",
+            "name": "getValidTypes",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator\u003A\u003Avalidate\u0028\u0029",
-            "name": "validate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_validate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator\u003A\u003AnormalizeToEnum\u0028\u0029",
-            "name": "normalizeToEnum",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_normalizeToEnum"
+            "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#method_getValidTypes"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator\u003A\u003AVALID_TYPES",
             "name": "VALID_TYPES",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#constant_VALID_TYPES"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator\\AttributeTypeValidator\u003A\u003A\u0024translator",
-            "name": "translator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Validator-AttributeTypeValidator.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand",
             "name": "ProcessQueueCommand",
@@ -13356,26 +13371,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Validator-TemplateLinkValidator.html#property_translator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\AttributeDefinitionCreationException",
-            "name": "AttributeDefinitionCreationException",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Exception-AttributeDefinitionCreationException.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\AttributeDefinitionCreationException\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Exception-AttributeDefinitionCreationException.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\AttributeDefinitionCreationException\u003A\u003AgetStatusCode\u0028\u0029",
-            "name": "getStatusCode",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Exception-AttributeDefinitionCreationException.html#method_getStatusCode"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\AttributeDefinitionCreationException\u003A\u003A\u0024statusCode",
-            "name": "statusCode",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Exception-AttributeDefinitionCreationException.html#property_statusCode"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\AttributeNotAllowedException",
             "name": "AttributeNotAllowedException",
             "summary": "",
@@ -16681,30 +16676,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003AgetValidTypes\u0028\u0029",
+            "name": "getValidTypes",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003Avalidate\u0028\u0029",
-            "name": "validate",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method_validate"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003AnormalizeToEnum\u0028\u0029",
-            "name": "normalizeToEnum",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method_normalizeToEnum"
+            "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#method_getValidTypes"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003AVALID_TYPES",
             "name": "VALID_TYPES",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#constant_VALID_TYPES"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator\u003A\u003A\u0024translator",
-            "name": "translator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Validator-AttributeTypeValidator.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\EmptyStartPageBundle\\Controller\\DefaultController",
             "name": "DefaultController",
