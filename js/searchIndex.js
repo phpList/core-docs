@@ -5686,6 +5686,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-AdminNotifier.html#property_eventLogManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Authentication",
+            "name": "Authentication",
+            "summary": "This\u0020class\u0020takes\u0020care\u0020of\u0020authenticating\u0020users\u0020and\u0020API\u0020clients.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Authentication.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Authentication\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Authentication\u0020constructor.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Authentication.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Authentication\u003A\u003AauthenticateByApiKey\u0028\u0029",
+            "name": "authenticateByApiKey",
+            "summary": "Tries\u0020to\u0020authenticate\u0020an\u0020administrator\u0020using\u0020the\u0020API\u0020key\u0020provided\u0020in\u0020the\u0020basic\u0020auth\u0020password\u0020contained\u0020in\u0020the\nrequest\u0020headers.\u0020\u0028The\u0020basic\u0020auth\u0020user\u0020will\u0020be\u0020ignored.\u0029",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Authentication.html#method_authenticateByApiKey"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Authentication\u003A\u003A\u0024tokenRepository",
+            "name": "tokenRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Authentication.html#property_tokenRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\HashGenerator",
+            "name": "HashGenerator",
+            "summary": "This\u0020class\u0020provides\u0020functions\u0020for\u0020working\u0020with\u0020secure\u0020hashes.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-HashGenerator.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\HashGenerator\u003A\u003AcreatePasswordHash\u0028\u0029",
+            "name": "createPasswordHash",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-HashGenerator.html#method_createPasswordHash"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\HashGenerator\u003A\u003AverifyPassword\u0028\u0029",
+            "name": "verifyPassword",
+            "summary": "Checks\u0020a\u0020plaintext\u0020password\u0020against\u0020a\u0020stored\u0020hash.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-HashGenerator.html#method_verifyPassword"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\HashGenerator\u003A\u003AisLegacyHash\u0028\u0029",
+            "name": "isLegacyHash",
+            "summary": "Checks\u0020whether\u0020\u0024hash\u0020was\u0020created\u0020by\u0020the\u0020old,\u0020unsalted\u0020sha256\u002Dbased\u0020scheme\nrather\u0020than\u0020by\u0020\u007B\u0040see\u0020createPasswordHash\u0028\u0029\u007D.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-HashGenerator.html#method_isLegacyHash"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\HashGenerator\u003A\u003ALEGACY_PASSWORD_HASH_ALGORITHM",
+            "name": "LEGACY_PASSWORD_HASH_ALGORITHM",
+            "summary": "Legacy\u0020algorithm\u0020that\u0020older\u0020password\u0020hashes\u0020in\u0020the\u0020database\u0020may\u0020still\u0020use.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-HashGenerator.html#constant_LEGACY_PASSWORD_HASH_ALGORITHM"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Manager\\AdminAttributeDefinitionManager",
             "name": "AdminAttributeDefinitionManager",
             "summary": "",
@@ -16891,51 +16936,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Routing-ExtraLoader.html#property_applicationStructure"
         },                {
-            "fqsen": "\\PhpList\\Core\\Security\\Authentication",
-            "name": "Authentication",
-            "summary": "This\u0020class\u0020takes\u0020care\u0020of\u0020authenticating\u0020users\u0020and\u0020API\u0020clients.",
-            "url": "classes/PhpList-Core-Security-Authentication.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Security\\Authentication\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Authentication\u0020constructor.",
-            "url": "classes/PhpList-Core-Security-Authentication.html#method___construct"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Security\\Authentication\u003A\u003AauthenticateByApiKey\u0028\u0029",
-            "name": "authenticateByApiKey",
-            "summary": "Tries\u0020to\u0020authenticate\u0020an\u0020administrator\u0020using\u0020the\u0020API\u0020key\u0020provided\u0020in\u0020the\u0020basic\u0020auth\u0020password\u0020contained\u0020in\u0020the\nrequest\u0020headers.\u0020\u0028The\u0020basic\u0020auth\u0020user\u0020will\u0020be\u0020ignored.\u0029",
-            "url": "classes/PhpList-Core-Security-Authentication.html#method_authenticateByApiKey"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Security\\Authentication\u003A\u003A\u0024tokenRepository",
-            "name": "tokenRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Security-Authentication.html#property_tokenRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Security\\HashGenerator",
-            "name": "HashGenerator",
-            "summary": "This\u0020class\u0020provides\u0020functions\u0020for\u0020working\u0020with\u0020secure\u0020hashes.",
-            "url": "classes/PhpList-Core-Security-HashGenerator.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Security\\HashGenerator\u003A\u003AcreatePasswordHash\u0028\u0029",
-            "name": "createPasswordHash",
-            "summary": "",
-            "url": "classes/PhpList-Core-Security-HashGenerator.html#method_createPasswordHash"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Security\\HashGenerator\u003A\u003AverifyPassword\u0028\u0029",
-            "name": "verifyPassword",
-            "summary": "Checks\u0020a\u0020plaintext\u0020password\u0020against\u0020a\u0020stored\u0020hash.",
-            "url": "classes/PhpList-Core-Security-HashGenerator.html#method_verifyPassword"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Security\\HashGenerator\u003A\u003AisLegacyHash\u0028\u0029",
-            "name": "isLegacyHash",
-            "summary": "Checks\u0020whether\u0020\u0024hash\u0020was\u0020created\u0020by\u0020the\u0020old,\u0020unsalted\u0020sha256\u002Dbased\u0020scheme\nrather\u0020than\u0020by\u0020\u007B\u0040see\u0020createPasswordHash\u0028\u0029\u007D.",
-            "url": "classes/PhpList-Core-Security-HashGenerator.html#method_isLegacyHash"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Security\\HashGenerator\u003A\u003ALEGACY_PASSWORD_HASH_ALGORITHM",
-            "name": "LEGACY_PASSWORD_HASH_ALGORITHM",
-            "summary": "Legacy\u0020algorithm\u0020that\u0020older\u0020password\u0020hashes\u0020in\u0020the\u0020database\u0020may\u0020still\u0020use.",
-            "url": "classes/PhpList-Core-Security-HashGenerator.html#constant_LEGACY_PASSWORD_HASH_ALGORITHM"
-        },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\ContainsInstanceAssertionTrait",
             "name": "ContainsInstanceAssertionTrait",
             "summary": "This\u0020trait\u0020provides\u0020the\u0020assertContainsInstanceOf\u0020method.",
@@ -17460,6 +17460,81 @@ Search.appendIndex(
             "name": "repository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Repository-AdministratorTokenRepositoryTest.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest",
+            "name": "AuthenticationTest",
+            "summary": "Testcase.",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestSubjectIsAvailableViaContainer\u0028\u0029",
+            "name": "testSubjectIsAvailableViaContainer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_testSubjectIsAvailableViaContainer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestClassIsRegisteredAsSingletonInContainer\u0028\u0029",
+            "name": "testClassIsRegisteredAsSingletonInContainer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_testClassIsRegisteredAsSingletonInContainer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\HashGeneratorTest",
+            "name": "HashGeneratorTest",
+            "summary": "Testcase.",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-HashGeneratorTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-HashGeneratorTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-HashGeneratorTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AtestSubjectIsAvailableViaContainer\u0028\u0029",
+            "name": "testSubjectIsAvailableViaContainer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-HashGeneratorTest.html#method_testSubjectIsAvailableViaContainer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AtestClassIsRegisteredAsSingletonInContainer\u0028\u0029",
+            "name": "testClassIsRegisteredAsSingletonInContainer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-HashGeneratorTest.html#method_testClassIsRegisteredAsSingletonInContainer"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest",
             "name": "PermissionCheckerTest",
@@ -18115,81 +18190,6 @@ Search.appendIndex(
             "name": "kernel",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Routing-ExtraLoaderTest.html#property_kernel"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest",
-            "name": "AuthenticationTest",
-            "summary": "Testcase.",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtearDown\u0028\u0029",
-            "name": "tearDown",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_tearDown"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestSubjectIsAvailableViaContainer\u0028\u0029",
-            "name": "testSubjectIsAvailableViaContainer",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testSubjectIsAvailableViaContainer"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestClassIsRegisteredAsSingletonInContainer\u0028\u0029",
-            "name": "testClassIsRegisteredAsSingletonInContainer",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testClassIsRegisteredAsSingletonInContainer"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator\u0028\u0029",
-            "name": "testAuthenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyReturnsMatchingAdministrator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull\u0028\u0029",
-            "name": "testAuthenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull\u0028\u0029",
-            "name": "testAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull\u0028\u0029",
-            "name": "testAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\AuthenticationTest\u003A\u003A\u0024subject",
-            "name": "subject",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-AuthenticationTest.html#property_subject"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest",
-            "name": "HashGeneratorTest",
-            "summary": "Testcase.",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003AtearDown\u0028\u0029",
-            "name": "tearDown",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#method_tearDown"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003AtestSubjectIsAvailableViaContainer\u0028\u0029",
-            "name": "testSubjectIsAvailableViaContainer",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#method_testSubjectIsAvailableViaContainer"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security\\HashGeneratorTest\u003A\u003AtestClassIsRegisteredAsSingletonInContainer\u0028\u0029",
-            "name": "testClassIsRegisteredAsSingletonInContainer",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Security-HashGeneratorTest.html#method_testClassIsRegisteredAsSingletonInContainer"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Support\\DBAL\\FakeDriverException",
             "name": "FakeDriverException",
@@ -21490,6 +21490,106 @@ Search.appendIndex(
             "name": "eventLogManager",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AdminNotifierTest.html#property_eventLogManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AuthenticationTest",
+            "name": "AuthenticationTest",
+            "summary": "Testcase.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AuthenticationTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AuthenticationTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AuthenticationTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003A\u0024tokenRepository",
+            "name": "tokenRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-AuthenticationTest.html#property_tokenRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\HashGeneratorTest",
+            "name": "HashGeneratorTest",
+            "summary": "Testcase.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCreatesPasswordHashCompatibleHash\u0028\u0029",
+            "name": "testCreatePasswordHashCreatesPasswordHashCompatibleHash",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html#method_testCreatePasswordHashCreatesPasswordHashCompatibleHash"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes\u0028\u0029",
+            "name": "testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForMatchingPasswordAndHashReturnsTrue\u0028\u0029",
+            "name": "testVerifyPasswordForMatchingPasswordAndHashReturnsTrue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndHashReturnsTrue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse\u0028\u0029",
+            "name": "testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue\u0028\u0029",
+            "name": "testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse\u0028\u0029",
+            "name": "testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AtestIsLegacyHashForSha256HashReturnsTrue\u0028\u0029",
+            "name": "testIsLegacyHashForSha256HashReturnsTrue",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html#method_testIsLegacyHashForSha256HashReturnsTrue"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003AtestIsLegacyHashForPasswordHashHashReturnsFalse\u0028\u0029",
+            "name": "testIsLegacyHashForPasswordHashHashReturnsFalse",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html#method_testIsLegacyHashForPasswordHashHashReturnsFalse"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\HashGeneratorTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html#property_subject"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest",
             "name": "PasswordManagerTest",
@@ -26711,106 +26811,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Routing-ExtraLoaderTest.html#property_subject"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest",
-            "name": "AuthenticationTest",
-            "summary": "Testcase.",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator\u0028\u0029",
-            "name": "testAuthenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyInBasicAuthReturnsMatchingAdministrator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull\u0028\u0029",
-            "name": "testAuthenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyInBasicAuthWithoutAdministratorReturnsNull"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull\u0028\u0029",
-            "name": "testAuthenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithInvalidApiKeyInBasicAuthReturnsNull"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull\u0028\u0029",
-            "name": "testAuthenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithEmptyApiKeyInBasicAuthReturnsNull"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull\u0028\u0029",
-            "name": "testAuthenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#method_testAuthenticateByApiKeyWithMissingApiKeyInBasicAuthReturnsNull"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003A\u0024subject",
-            "name": "subject",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#property_subject"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\AuthenticationTest\u003A\u003A\u0024tokenRepository",
-            "name": "tokenRepository",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-AuthenticationTest.html#property_tokenRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest",
-            "name": "HashGeneratorTest",
-            "summary": "Testcase.",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_setUp"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCreatesPasswordHashCompatibleHash\u0028\u0029",
-            "name": "testCreatePasswordHashCreatesPasswordHashCompatibleHash",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCreatesPasswordHashCompatibleHash"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes\u0028\u0029",
-            "name": "testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testCreatePasswordHashCalledTwoTimesWithSamePasswordCreatesDifferentHashes"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForMatchingPasswordAndHashReturnsTrue\u0028\u0029",
-            "name": "testVerifyPasswordForMatchingPasswordAndHashReturnsTrue",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndHashReturnsTrue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse\u0028\u0029",
-            "name": "testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndHashReturnsFalse"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue\u0028\u0029",
-            "name": "testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForMatchingPasswordAndLegacyHashReturnsTrue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse\u0028\u0029",
-            "name": "testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testVerifyPasswordForNonMatchingPasswordAndLegacyHashReturnsFalse"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestIsLegacyHashForSha256HashReturnsTrue\u0028\u0029",
-            "name": "testIsLegacyHashForSha256HashReturnsTrue",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testIsLegacyHashForSha256HashReturnsTrue"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003AtestIsLegacyHashForPasswordHashHashReturnsFalse\u0028\u0029",
-            "name": "testIsLegacyHashForPasswordHashHashReturnsFalse",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#method_testIsLegacyHashForPasswordHashHashReturnsFalse"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security\\HashGeneratorTest\u003A\u003A\u0024subject",
-            "name": "subject",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Security-HashGeneratorTest.html#property_subject"
-        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
@@ -27236,11 +27236,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-routing.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Security",
-            "name": "Security",
-            "summary": "",
-            "url": "namespaces/phplist-core-security.html"
-        },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits",
             "name": "Traits",
             "summary": "",
@@ -27345,11 +27340,6 @@ Search.appendIndex(
             "name": "Routing",
             "summary": "",
             "url": "namespaces/phplist-core-tests-integration-routing.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Security",
-            "name": "Security",
-            "summary": "",
-            "url": "namespaces/phplist-core-tests-integration-security.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Support\\DBAL",
             "name": "DBAL",
@@ -27615,10 +27605,5 @@ Search.appendIndex(
             "name": "Routing",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-routing.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Security",
-            "name": "Security",
-            "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-security.html"
         }            ]
 );
