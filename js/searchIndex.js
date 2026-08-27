@@ -3421,56 +3421,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-Filter-EventLogFilter.html#property_dateTo"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\I18n",
-            "name": "I18n",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-I18n.html"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\I18n\u003A\u003AgetLan\u0028\u0029",
-            "name": "getLan",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-I18n.html#method_getLan"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\I18n\u003A\u003AsetLan\u0028\u0029",
-            "name": "setLan",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-I18n.html#method_setLan"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\I18n\u003A\u003AgetOriginal\u0028\u0029",
-            "name": "getOriginal",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-I18n.html#method_getOriginal"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\I18n\u003A\u003AsetOriginal\u0028\u0029",
-            "name": "setOriginal",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-I18n.html#method_setOriginal"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\I18n\u003A\u003AgetTranslation\u0028\u0029",
-            "name": "getTranslation",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-I18n.html#method_getTranslation"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\I18n\u003A\u003AsetTranslation\u0028\u0029",
-            "name": "setTranslation",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-I18n.html#method_setTranslation"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\I18n\u003A\u003A\u0024lan",
-            "name": "lan",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-I18n.html#property_lan"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\I18n\u003A\u003A\u0024original",
-            "name": "original",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-I18n.html#property_original"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\I18n\u003A\u003A\u0024translation",
-            "name": "translation",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Model-I18n.html#property_translation"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\OutputFormat",
             "name": "OutputFormat",
             "summary": "",
@@ -3600,11 +3550,6 @@ Search.appendIndex(
             "name": "getFilteredAfterId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Repository-EventLogRepository.html#method_getFilteredAfterId"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository\\I18nRepository",
-            "name": "I18nRepository",
-            "summary": "Base\u0020class\u0020for\u0020repositories.",
-            "url": "classes/PhpList-Core-Domain-Configuration-Repository-I18nRepository.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Repository\\UrlCacheRepository",
             "name": "UrlCacheRepository",
@@ -16890,6 +16835,26 @@ Search.appendIndex(
             "name": "down",
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20260820120001PostGreAddMessageStatusIndex.html#method_down"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260827065637",
+            "name": "Version20260827065637",
+            "summary": "\u26A0\uFE0F\u0020Wizard\u0020warning\u003A\nDoctrine\u0020will\u0020\u0060helpfully\u0060\u0020remove\u0020url\u0028255\u0029\u0020prefixes\u0020and\u0020add\u0020collations\u00205.7\u0020can\u2019t\u0020read.",
+            "url": "classes/PhpList-Core-Migrations-Version20260827065637.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260827065637\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260827065637.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260827065637\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260827065637.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260827065637\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260827065637.html#method_down"
         },                {
             "fqsen": "\\PhpList\\Core\\PhpListCoreBundle",
             "name": "PhpListCoreBundle",
