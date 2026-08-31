@@ -16856,6 +16856,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20260827065637.html#method_down"
         },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260831120000CleanupOrphanedUserAttributeTableNames",
+            "name": "Version20260831120000CleanupOrphanedUserAttributeTableNames",
+            "summary": "phplist_user_attribute.tablename\u0020points\u0020at\u0020a\u0020dynamically\u0020created\u0020options\u0020table\n\u0028e.g.\u0020select\/radio\/checkbox\u0020attributes\u0029\u0020named\u0020\u007BDATABASE_PREFIX\u007D\u007BLIST_TABLE_PREFIX\u007D\u007Btablename\u007D.",
+            "url": "classes/PhpList-Core-Migrations-Version20260831120000CleanupOrphanedUserAttributeTableNames.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260831120000CleanupOrphanedUserAttributeTableNames\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260831120000CleanupOrphanedUserAttributeTableNames.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260831120000CleanupOrphanedUserAttributeTableNames\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260831120000CleanupOrphanedUserAttributeTableNames.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260831120000CleanupOrphanedUserAttributeTableNames\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260831120000CleanupOrphanedUserAttributeTableNames.html#method_down"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260831120000CleanupOrphanedUserAttributeTableNames\u003A\u003AgetEnv\u0028\u0029",
+            "name": "getEnv",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260831120000CleanupOrphanedUserAttributeTableNames.html#method_getEnv"
+        },                {
             "fqsen": "\\PhpList\\Core\\PhpListCoreBundle",
             "name": "PhpListCoreBundle",
             "summary": "",
