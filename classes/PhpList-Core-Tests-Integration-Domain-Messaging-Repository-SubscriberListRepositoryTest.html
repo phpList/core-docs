@@ -342,6 +342,17 @@
 <dd>Asserts that $expected and $actual are similar, i.e., less than than 2 seconds apart.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_filterMissingTables">filterMissingTables()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Creating tables one class at a time (rather than in a single createSchema() call for all
+of them) would break foreign key ordering: a single-class createSchema() call emits that
+class&#039;s own ADD CONSTRAINT statements immediately, which fails if a table it references
+hasn&#039;t been (re)created yet. Passing the whole batch of missing classes to createSchema()
+lets Doctrine order all CREATE TABLE statements before any ADD CONSTRAINT statements.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeBootstrap">initializeBootstrap()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -359,6 +370,17 @@
     <span>
                                 &nbsp;: void    </span>
 </dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tableExistsIgnoringSchemaFilter">tableExistsIgnoringSchemaFilter()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Doesn&#039;t use the DBAL schema manager&#039;s tablesExist() here: the &#039;default&#039; connection has
+OnlyOrmTablesFilter registered as a doctrine.dbal.schema_filter, which hides tables mapped
+from bundles outside the project namespace (e.g. TatevikGr\RssFeedBundle&#039;s phplist_item_data),
+so tablesExist() would always report them as missing. Querying the platform&#039;s own table
+catalog directly bypasses that filter.</dd>
 
     </dl>
 
@@ -1305,6 +1327,59 @@
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_filterMissingTables">
+        filterMissingTables()
+        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_filterMissingTables" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">127</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Creating tables one class at a time (rather than in a single createSchema() call for all
+of them) would break foreign key ordering: a single-class createSchema() call emits that
+class&#039;s own ADD CONSTRAINT statements immediately, which fails if a table it references
+hasn&#039;t been (re)created yet. Passing the whole batch of missing classes to createSchema()
+lets Doctrine order all CREATE TABLE statements before any ADD CONSTRAINT statements.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">filterMissingTables</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$metadata</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$metadata</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_initializeBootstrap">
         initializeBootstrap()
         <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeBootstrap" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1413,7 +1488,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">112</span>
+    <span class="phpdocumentor-element-found-in__line">107</span>
 
     </aside>
 
@@ -1449,6 +1524,59 @@
         
     
     
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_tableExistsIgnoringSchemaFilter">
+        tableExistsIgnoringSchemaFilter()
+        <a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tableExistsIgnoringSchemaFilter" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/TestingSupport/Traits/DatabaseTestTrait.php"><a href="files/src-testingsupport-traits-databasetesttrait.html"><abbr title="src/TestingSupport/Traits/DatabaseTestTrait.php">DatabaseTestTrait.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">142</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Doesn&#039;t use the DBAL schema manager&#039;s tablesExist() here: the &#039;default&#039; connection has
+OnlyOrmTablesFilter registered as a doctrine.dbal.schema_filter, which hides tables mapped
+from bundles outside the project namespace (e.g. TatevikGr\RssFeedBundle&#039;s phplist_item_data),
+so tablesExist() would always report them as missing. Querying the platform&#039;s own table
+catalog directly bypasses that filter.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">tableExistsIgnoringSchemaFilter</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tableName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$tableName</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
             </section>
 
@@ -1503,9 +1631,11 @@
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-SubscriberListRepositoryTest.html#method_tearDown">tearDown()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tearDownDatabaseTest">tearDownDatabaseTest()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-SimilarDatesAssertionTrait.html#method_assertSimilarDates">assertSimilarDates()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_filterMissingTables">filterMissingTables()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeBootstrap">initializeBootstrap()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_runForMySql">runForMySql()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_runForSqlite">runForSqlite()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tableExistsIgnoringSchemaFilter">tableExistsIgnoringSchemaFilter()</a></li>
                                     </ul>
             </li>
                     </ul>

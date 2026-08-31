@@ -16991,6 +16991,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_runForSqlite"
         },                {
+            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AfilterMissingTables\u0028\u0029",
+            "name": "filterMissingTables",
+            "summary": "Creating\u0020tables\u0020one\u0020class\u0020at\u0020a\u0020time\u0020\u0028rather\u0020than\u0020in\u0020a\u0020single\u0020createSchema\u0028\u0029\u0020call\u0020for\u0020all\nof\u0020them\u0029\u0020would\u0020break\u0020foreign\u0020key\u0020ordering\u003A\u0020a\u0020single\u002Dclass\u0020createSchema\u0028\u0029\u0020call\u0020emits\u0020that\nclass\u0027s\u0020own\u0020ADD\u0020CONSTRAINT\u0020statements\u0020immediately,\u0020which\u0020fails\u0020if\u0020a\u0020table\u0020it\u0020references\nhasn\u0027t\u0020been\u0020\u0028re\u0029created\u0020yet.\u0020Passing\u0020the\u0020whole\u0020batch\u0020of\u0020missing\u0020classes\u0020to\u0020createSchema\u0028\u0029\nlets\u0020Doctrine\u0020order\u0020all\u0020CREATE\u0020TABLE\u0020statements\u0020before\u0020any\u0020ADD\u0020CONSTRAINT\u0020statements.",
+            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_filterMissingTables"
+        },                {
+            "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003AtableExistsIgnoringSchemaFilter\u0028\u0029",
+            "name": "tableExistsIgnoringSchemaFilter",
+            "summary": "Doesn\u0027t\u0020use\u0020the\u0020DBAL\u0020schema\u0020manager\u0027s\u0020tablesExist\u0028\u0029\u0020here\u003A\u0020the\u0020\u0027default\u0027\u0020connection\u0020has\nOnlyOrmTablesFilter\u0020registered\u0020as\u0020a\u0020doctrine.dbal.schema_filter,\u0020which\u0020hides\u0020tables\u0020mapped\nfrom\u0020bundles\u0020outside\u0020the\u0020project\u0020namespace\u0020\u0028e.g.\u0020TatevikGr\\RssFeedBundle\u0027s\u0020phplist_item_data\u0029,\nso\u0020tablesExist\u0028\u0029\u0020would\u0020always\u0020report\u0020them\u0020as\u0020missing.\u0020Querying\u0020the\u0020platform\u0027s\u0020own\u0020table\ncatalog\u0020directly\u0020bypasses\u0020that\u0020filter.",
+            "url": "classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tableExistsIgnoringSchemaFilter"
+        },                {
             "fqsen": "\\PhpList\\Core\\TestingSupport\\Traits\\DatabaseTestTrait\u003A\u003A\u0024bootstrap",
             "name": "bootstrap",
             "summary": "",
