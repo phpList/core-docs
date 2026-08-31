@@ -466,6 +466,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#method_buildAllowOnce"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003AisProjectOwned\u0028\u0029",
+            "name": "isProjectOwned",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#method_isProjectOwned"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003APROJECT_NAMESPACES",
+            "name": "PROJECT_NAMESPACES",
+            "summary": "Namespace\u0020prefixes\u0020of\u0020entities\u0020considered\u0020\u0022owned\u0022\u0020by\u0020this\u0020project.\u0020Entities\u0020mapped\u0020from\nelsewhere\u0020\u0028e.g.\u0020TatevikGr\\RssFeedBundle,\u0020which\u0020registers\u0020its\u0020own\u0020ORM\u0020mapping\u0029\u0020are\u0020excluded\u0020from\nthe\u0020allowlist\u0020so\u0020that\u0020doctrine\u003Amigrations\u003Adiff\u0020doesn\u0027t\u0020propose\u0020schema\u0020changes\u0020for\u0020them\u0020\u002D\u0020those\nbundles\u0020ship\u0020and\u0020run\u0020their\u0020own\u0020migrations.",
+            "url": "classes/PhpList-Core-Core-Doctrine-OnlyOrmTablesFilter.html#constant_PROJECT_NAMESPACES"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter\u003A\u003A\u0024allow",
             "name": "allow",
             "summary": "",
