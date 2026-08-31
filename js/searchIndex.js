@@ -16871,6 +16871,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20260831120000CleanupOrphanedUserAttributeTableNames.html#method_up"
         },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260831120000CleanupOrphanedUserAttributeTableNames\u003A\u003AtableExists\u0028\u0029",
+            "name": "tableExists",
+            "summary": "Doesn\u0027t\u0020use\u0020the\u0020DBAL\u0020schema\u0020manager\u0020here\u003A\u0020the\u0020\u0027default\u0027\u0020connection\u0020has\nOnlyOrmTablesFilter\u0020registered\u0020as\u0020a\u0020doctrine.dbal.schema_filter,\u0020which\u0020hides\u0020any\ntable\u0020not\u0020backed\u0020by\u0020ORM\u0020entity\u0020metadata.\u0020Dynamic\u0020list\u002Dattribute\u0020tables\u0020like\nphplist_listattr_countries\u0020are\u0020created\u0020ad\u002Dhoc\u0020and\u0020aren\u0027t\u0020mapped\u0020entities,\u0020so\ntablesExist\u0028\u0029\u0020would\u0020always\u0020report\u0020them\u0020as\u0020missing.\u0020Querying\u0020information_schema\ndirectly\u0020bypasses\u0020that\u0020filter.",
+            "url": "classes/PhpList-Core-Migrations-Version20260831120000CleanupOrphanedUserAttributeTableNames.html#method_tableExists"
+        },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20260831120000CleanupOrphanedUserAttributeTableNames\u003A\u003Adown\u0028\u0029",
             "name": "down",
             "summary": "",
