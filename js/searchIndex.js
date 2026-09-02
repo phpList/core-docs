@@ -13516,6 +13516,76 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientInterface.html#method_search"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\InitSearchIndicesCommand",
+            "name": "InitSearchIndicesCommand",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-InitSearchIndicesCommand.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\InitSearchIndicesCommand\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-InitSearchIndicesCommand.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\InitSearchIndicesCommand\u003A\u003Aconfigure\u0028\u0029",
+            "name": "configure",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-InitSearchIndicesCommand.html#method_configure"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\InitSearchIndicesCommand\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-InitSearchIndicesCommand.html#method_execute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\InitSearchIndicesCommand\u003A\u003A\u0024registry",
+            "name": "registry",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-InitSearchIndicesCommand.html#property_registry"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\InitSearchIndicesCommand\u003A\u003A\u0024indexer",
+            "name": "indexer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-InitSearchIndicesCommand.html#property_indexer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\ReindexSearchCommand",
+            "name": "ReindexSearchCommand",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-ReindexSearchCommand.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\ReindexSearchCommand\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-ReindexSearchCommand.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\ReindexSearchCommand\u003A\u003Aconfigure\u0028\u0029",
+            "name": "configure",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-ReindexSearchCommand.html#method_configure"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\ReindexSearchCommand\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-ReindexSearchCommand.html#method_execute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\ReindexSearchCommand\u003A\u003AreindexProvider\u0028\u0029",
+            "name": "reindexProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-ReindexSearchCommand.html#method_reindexProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\ReindexSearchCommand\u003A\u003ADEFAULT_BATCH_SIZE",
+            "name": "DEFAULT_BATCH_SIZE",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-ReindexSearchCommand.html#constant_DEFAULT_BATCH_SIZE"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\ReindexSearchCommand\u003A\u003A\u0024registry",
+            "name": "registry",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-ReindexSearchCommand.html#property_registry"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\ReindexSearchCommand\u003A\u003A\u0024indexer",
+            "name": "indexer",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-ReindexSearchCommand.html#property_indexer"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Exception\\SearchBackendUnavailableException",
             "name": "SearchBackendUnavailableException",
             "summary": "The\u0020one\u0020exception\u0020type\u0020that\u0020leaves\u0020this\u0020bounded\u0020context\u0020for\u0020any\u0020Elasticsearch\u0020failure\u0020\u0028connection,\ntimeout,\u00204xx\/5xx\u0020response\u0029.\u0020Callers\u0020\u002D\u0020in\u0020this\u0020repo\u0020and\u0020in\u0020downstream\u0020consumers\u0020\u002D\u0020catch\u0020this\u0020instead\nof\u0020coupling\u0020to\u0020the\u0020vendor\u0020client\u0027s\u0020exception\u0020hierarchy.",
@@ -14396,6 +14466,126 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Filter-SubscriberHistoryFilter.html#property_summery"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Interfaces\\SubscriberHistoryRecordInterface",
+            "name": "SubscriberHistoryRecordInterface",
+            "summary": "The\u0020read\u0020shape\u0020shared\u0020by\u0020the\u0020Doctrine\u002Dbacked\u0020SubscriberHistory\u0020entity\u0020and\u0020the\u0020flat\nSubscriberHistoryReadModel\u0020built\u0020from\u0020Elasticsearch\u0020hits,\u0020so\u0020both\u0020SubscriberHistoryManager\u0020and\nSubscriberManager\u0020can\u0020read\u0020history\u0020rows\u0020without\u0020caring\u0020which\u0020backend\u0020produced\u0020them.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Interfaces-SubscriberHistoryRecordInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Interfaces\\SubscriberHistoryRecordInterface\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Interfaces-SubscriberHistoryRecordInterface.html#method_getId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Interfaces\\SubscriberHistoryRecordInterface\u003A\u003AgetSubscriberId\u0028\u0029",
+            "name": "getSubscriberId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Interfaces-SubscriberHistoryRecordInterface.html#method_getSubscriberId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Interfaces\\SubscriberHistoryRecordInterface\u003A\u003AgetIp\u0028\u0029",
+            "name": "getIp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Interfaces-SubscriberHistoryRecordInterface.html#method_getIp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Interfaces\\SubscriberHistoryRecordInterface\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Interfaces-SubscriberHistoryRecordInterface.html#method_getCreatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Interfaces\\SubscriberHistoryRecordInterface\u003A\u003AgetSummary\u0028\u0029",
+            "name": "getSummary",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Interfaces-SubscriberHistoryRecordInterface.html#method_getSummary"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Interfaces\\SubscriberHistoryRecordInterface\u003A\u003AgetDetail\u0028\u0029",
+            "name": "getDetail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Interfaces-SubscriberHistoryRecordInterface.html#method_getDetail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Interfaces\\SubscriberHistoryRecordInterface\u003A\u003AgetSystemInfo\u0028\u0029",
+            "name": "getSystemInfo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Interfaces-SubscriberHistoryRecordInterface.html#method_getSystemInfo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel",
+            "name": "SubscriberHistoryReadModel",
+            "summary": "Flat\u0020projection\u0020of\u0020a\u0020history\u0020row\u0020as\u0020read\u0020back\u0020from\u0020Elasticsearch\u0020\u002D\u0020no\u0020Doctrine\u0020association.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#method_getId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003AgetSubscriberId\u0028\u0029",
+            "name": "getSubscriberId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#method_getSubscriberId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003AgetIp\u0028\u0029",
+            "name": "getIp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#method_getIp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#method_getCreatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003AgetSummary\u0028\u0029",
+            "name": "getSummary",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#method_getSummary"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003AgetDetail\u0028\u0029",
+            "name": "getDetail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#method_getDetail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003AgetSystemInfo\u0028\u0029",
+            "name": "getSystemInfo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#method_getSystemInfo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#property_id"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003A\u0024subscriberId",
+            "name": "subscriberId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#property_subscriberId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003A\u0024ip",
+            "name": "ip",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#property_ip"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003A\u0024createdAt",
+            "name": "createdAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#property_createdAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003A\u0024summary",
+            "name": "summary",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#property_summary"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003A\u0024detail",
+            "name": "detail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#property_detail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel\\SubscriberHistoryReadModel\u003A\u003A\u0024systemInfo",
+            "name": "systemInfo",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-ReadModel-SubscriberHistoryReadModel.html#property_systemInfo"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscribePage",
             "name": "SubscribePage",
             "summary": "",
@@ -15046,6 +15236,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberHistory.html#method_getSubscriber"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberHistory\u003A\u003AgetSubscriberId\u0028\u0029",
+            "name": "getSubscriberId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberHistory.html#method_getSubscriberId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberHistory\u003A\u003AgetIp\u0028\u0029",
             "name": "getIp",
             "summary": "",
@@ -15095,6 +15290,26 @@ Search.appendIndex(
             "name": "setSystemInfo",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberHistory.html#method_setSystemInfo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberHistory\u003A\u003AgetSearchIndexName\u0028\u0029",
+            "name": "getSearchIndexName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberHistory.html#method_getSearchIndexName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberHistory\u003A\u003AgetSearchDocumentId\u0028\u0029",
+            "name": "getSearchDocumentId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberHistory.html#method_getSearchDocumentId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberHistory\u003A\u003AtoSearchDocument\u0028\u0029",
+            "name": "toSearchDocument",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberHistory.html#method_toSearchDocument"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberHistory\u003A\u003ASEARCH_INDEX_NAME",
+            "name": "SEARCH_INDEX_NAME",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberHistory.html#constant_SEARCH_INDEX_NAME"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberHistory\u003A\u003A\u0024id",
             "name": "id",
@@ -15576,6 +15791,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-DynamicListAttrRepository.html#property_serializer"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\Interfaces\\SubscriberHistoryReaderInterface",
+            "name": "SubscriberHistoryReaderInterface",
+            "summary": "Implemented\u0020by\u0020SubscriberHistoryRepository\u0020\u0028Doctrine\/DB\u0029\u0020and\u0020SubscriberHistoryElasticsearchReader\n\u0028Elasticsearch\u0029.\u0020SubscriberHistoryManager\u0020and\u0020SubscriberManager\u0020are\u0020aliased\u0020to\u0020whichever\u0020one\u0020reads\nare\u0020configured\u0020to\u0020use\u0020\u002D\u0020see\u0020config\/services\/repositories.yml.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-Interfaces-SubscriberHistoryReaderInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\Interfaces\\SubscriberHistoryReaderInterface\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-Interfaces-SubscriberHistoryReaderInterface.html#method_getFilteredAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\Interfaces\\SubscriberHistoryReaderInterface\u003A\u003AgetBySubscriber\u0028\u0029",
+            "name": "getBySubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-Interfaces-SubscriberHistoryReaderInterface.html#method_getBySubscriber"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberAttributeDefinitionRepository",
             "name": "SubscriberAttributeDefinitionRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -15655,6 +15885,51 @@ Search.appendIndex(
             "name": "findOneBySubscriberAndAttributeName",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html#method_findOneBySubscriberAndAttributeName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader",
+            "name": "SubscriberHistoryElasticsearchReader",
+            "summary": "ES\u002Dbacked\u0020counterpart\u0020of\u0020SubscriberHistoryRepository.\u0020Read\u002Donly\u0020\u002D\u0020dual\u002Dwrite\u0020is\u0020handled\u0020entirely\nby\u0020SearchIndexDoctrineListener,\u0020not\u0020by\u0020this\u0020class.\u0020Any\u0020Elasticsearch\u0020failure\u0020surfaces\u0020as\nSearchBackendUnavailableException\u0020\u0028via\u0020ElasticsearchClientInterface\u0029\u0020with\u0020no\u0020fallback\u0020to\u0020the\u0020database.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html#method_getFilteredAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader\u003A\u003AgetBySubscriber\u0028\u0029",
+            "name": "getBySubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html#method_getBySubscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader\u003A\u003Ahydrate\u0028\u0029",
+            "name": "hydrate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html#method_hydrate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader\u003A\u003AresolvePhysicalIndexName\u0028\u0029",
+            "name": "resolvePhysicalIndexName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html#method_resolvePhysicalIndexName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader\u003A\u003AINDEX_ALIAS",
+            "name": "INDEX_ALIAS",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html#constant_INDEX_ALIAS"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html#property_client"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader\u003A\u003A\u0024indexPrefix",
+            "name": "indexPrefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html#property_indexPrefix"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryRepository",
             "name": "SubscriberHistoryRepository",
@@ -16371,10 +16646,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#method_getHistoryLines"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003A\u0024repository",
-            "name": "repository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003A\u0024reader",
+            "name": "reader",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#property_repository"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html#property_reader"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberHistoryManager\u003A\u003A\u0024clientIpResolver",
             "name": "clientIpResolver",
@@ -16516,10 +16791,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryManager"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024subscriberHistoryRepository",
-            "name": "subscriberHistoryRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriberManager\u003A\u003A\u0024subscriberHistoryReader",
+            "name": "subscriberHistoryReader",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryRepository"
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryReader"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\SubscriptionManager",
             "name": "SubscriptionManager",
@@ -16740,6 +17015,56 @@ Search.appendIndex(
             "name": "providers",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html#property_providers"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryIndexDefinition",
+            "name": "SubscriberHistoryIndexDefinition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryIndexDefinition.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryIndexDefinition\u003A\u003AgetIndexAlias\u0028\u0029",
+            "name": "getIndexAlias",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryIndexDefinition.html#method_getIndexAlias"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryIndexDefinition\u003A\u003AgetMapping\u0028\u0029",
+            "name": "getMapping",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryIndexDefinition.html#method_getMapping"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryIndexDefinition\u003A\u003AgetSettings\u0028\u0029",
+            "name": "getSettings",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryIndexDefinition.html#method_getSettings"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryReindexProvider",
+            "name": "SubscriberHistoryReindexProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryReindexProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryReindexProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryReindexProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryReindexProvider\u003A\u003AgetAlias\u0028\u0029",
+            "name": "getAlias",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryReindexProvider.html#method_getAlias"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryReindexProvider\u003A\u003AcountAll\u0028\u0029",
+            "name": "countAll",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryReindexProvider.html#method_countAll"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryReindexProvider\u003A\u003AfetchBatch\u0028\u0029",
+            "name": "fetchBatch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryReindexProvider.html#method_fetchBatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryReindexProvider\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryReindexProvider.html#property_repository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationService",
             "name": "SubscribePageConfigMigrationService",
@@ -26156,6 +26481,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-DynamicListAttrRepositoryTest.html#method_testFetchSingleOptionNameReturnsNullWhenNotFound"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReaderTest",
+            "name": "SubscriberHistoryElasticsearchReaderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReaderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReaderTest\u003A\u003AtestGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults\u0028\u0029",
+            "name": "testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReaderTest\u003A\u003AtestGetFilteredAfterIdRejectsWrongFilterType\u0028\u0029",
+            "name": "testGetFilteredAfterIdRejectsWrongFilterType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetFilteredAfterIdRejectsWrongFilterType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReaderTest\u003A\u003AtestGetBySubscriberSortsDescending\u0028\u0029",
+            "name": "testGetBySubscriberSortsDescending",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetBySubscriberSortsDescending"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReaderTest\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#property_client"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReaderTest\u003A\u003A\u0024reader",
+            "name": "reader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#property_reader"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest",
             "name": "SubscriberRepositoryTest",
             "summary": "Testcase.",
@@ -27001,6 +27361,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#property_subscriberProvider"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryIndexDefinitionTest",
+            "name": "SubscriberHistoryIndexDefinitionTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryIndexDefinitionTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryIndexDefinitionTest\u003A\u003AtestAliasMatchesEntitySearchIndexName\u0028\u0029",
+            "name": "testAliasMatchesEntitySearchIndexName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryIndexDefinitionTest.html#method_testAliasMatchesEntitySearchIndexName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryIndexDefinitionTest\u003A\u003AtestMappingDeclaresExpectedFields\u0028\u0029",
+            "name": "testMappingDeclaresExpectedFields",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryIndexDefinitionTest.html#method_testMappingDeclaresExpectedFields"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryIndexDefinitionTest\u003A\u003AtestSettingsAreEmptyByDefault\u0028\u0029",
+            "name": "testSettingsAreEmptyByDefault",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryIndexDefinitionTest.html#method_testSettingsAreEmptyByDefault"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryReindexProviderTest",
+            "name": "SubscriberHistoryReindexProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryReindexProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryReindexProviderTest\u003A\u003AtestAliasMatchesEntitySearchIndexName\u0028\u0029",
+            "name": "testAliasMatchesEntitySearchIndexName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryReindexProviderTest.html#method_testAliasMatchesEntitySearchIndexName"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscribePageConfigMigrationServiceTest",
             "name": "SubscribePageConfigMigrationServiceTest",
             "summary": "",
@@ -27706,6 +28096,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-search.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command",
+            "name": "Command",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-search-command.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Exception",
             "name": "Exception",
             "summary": "",
@@ -27771,6 +28166,16 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-subscription-model-filter.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Interfaces",
+            "name": "Interfaces",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-subscription-model-interfaces.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\ReadModel",
+            "name": "ReadModel",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-subscription-model-readmodel.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model",
             "name": "Model",
             "summary": "",
@@ -27780,6 +28185,11 @@ Search.appendIndex(
             "name": "Repository",
             "summary": "",
             "url": "namespaces/phplist-core-domain-subscription-repository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\Interfaces",
+            "name": "Interfaces",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-subscription-repository-interfaces.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service",
             "name": "Service",
@@ -27800,6 +28210,11 @@ Search.appendIndex(
             "name": "Resolver",
             "summary": "",
             "url": "namespaces/phplist-core-domain-subscription-service-resolver.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search",
+            "name": "Search",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-subscription-service-search.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator",
             "name": "Validator",
@@ -28205,6 +28620,11 @@ Search.appendIndex(
             "name": "Provider",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-subscription-service-provider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search",
+            "name": "Search",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-subscription-service-search.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator",
             "name": "Validator",

@@ -100,13 +100,12 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit.html">Unit</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain.html">Domain</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription.html">Subscription</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service.html">Service</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-service-manager.html">Manager</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-tests-unit-domain-subscription-repository.html">Repository</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    SubscriberHistoryManagerTest
+    SubscriberHistoryElasticsearchReaderTest
 
         <span class="phpdocumentor-element__extends">
         extends <abbr title="\PHPUnit\Framework\TestCase">TestCase</abbr>
@@ -128,9 +127,9 @@
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberhistorymanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php">SubscriberHistoryManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php"><a href="files/tests-unit-domain-subscription-repository-subscriberhistoryelasticsearchreadertest.html"><abbr title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php">SubscriberHistoryElasticsearchReaderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 
     </aside>
 
@@ -143,7 +142,7 @@
     
 <h3 id="toc">
     Table of Contents
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
@@ -157,44 +156,50 @@
 
 <h4 id="toc-properties">
     Properties
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#property_subscriberHistoryRepository">$subscriberHistoryRepository</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#property_client">$client</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-Interfaces-SubscriberHistoryReaderInterface.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\Interfaces\SubscriberHistoryReaderInterface">SubscriberHistoryReaderInterface</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientInterface.html"><abbr title="\PhpList\Core\Domain\Search\Client\ElasticsearchClientInterface">ElasticsearchClientInterface</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#property_subscriptionHistoryService">$subscriptionHistoryService</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#property_reader">$reader</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberHistoryElasticsearchReader">SubscriberHistoryElasticsearchReader</abbr></a>            </span>
 </dt>
 
     </dl>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_testGetHistoryCallsRepositoryWithCorrectParameters">testGetHistoryCallsRepositoryWithCorrectParameters()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetBySubscriberSortsDescending">testGetBySubscriberSortsDescending()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray">testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults">testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetFilteredAfterIdRejectsWrongFilterType">testGetFilteredAfterIdRejectsWrongFilterType()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_setUp">setUp()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_setUp">setUp()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -209,7 +214,7 @@
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -219,17 +224,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_subscriberHistoryRepository">
-        $subscriberHistoryRepository
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#property_subscriberHistoryRepository" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_client">
+        $client
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#property_client" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberhistorymanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php">SubscriberHistoryManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php"><a href="files/tests-unit-domain-subscription-repository-subscriberhistoryelasticsearchreadertest.html"><abbr title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php">SubscriberHistoryElasticsearchReaderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -237,8 +242,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-Interfaces-SubscriberHistoryReaderInterface.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\Interfaces\SubscriberHistoryReaderInterface">SubscriberHistoryReaderInterface</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$subscriberHistoryRepository</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientInterface.html"><abbr title="\PhpList\Core\Domain\Search\Client\ElasticsearchClientInterface">ElasticsearchClientInterface</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$client</span>
     </code>
 
     
@@ -256,17 +261,17 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_subscriptionHistoryService">
-        $subscriptionHistoryService
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#property_subscriptionHistoryService" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_reader">
+        $reader
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#property_reader" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberhistorymanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php">SubscriberHistoryManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php"><a href="files/tests-unit-domain-subscription-repository-subscriberhistoryelasticsearchreadertest.html"><abbr title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php">SubscriberHistoryElasticsearchReaderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -274,8 +279,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$subscriptionHistoryService</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberHistoryElasticsearchReader">SubscriberHistoryElasticsearchReader</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$reader</span>
     </code>
 
     
@@ -291,7 +296,7 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -300,22 +305,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testGetHistoryCallsRepositoryWithCorrectParameters">
-        testGetHistoryCallsRepositoryWithCorrectParameters()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_testGetHistoryCallsRepositoryWithCorrectParameters" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testGetBySubscriberSortsDescending">
+        testGetBySubscriberSortsDescending()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetBySubscriberSortsDescending" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberhistorymanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php">SubscriberHistoryManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php"><a href="files/tests-unit-domain-subscription-repository-subscriberhistoryelasticsearchreadertest.html"><abbr title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php">SubscriberHistoryElasticsearchReaderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">75</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testGetHistoryCallsRepositoryWithCorrectParameters</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testGetBySubscriberSortsDescending</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -334,22 +339,56 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray">
-        testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults">
+        testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberhistorymanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php">SubscriberHistoryManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php"><a href="files/tests-unit-domain-subscription-repository-subscriberhistoryelasticsearchreadertest.html"><abbr title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php">SubscriberHistoryElasticsearchReaderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testGetFilteredAfterIdRejectsWrongFilterType">
+        testGetFilteredAfterIdRejectsWrongFilterType()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetFilteredAfterIdRejectsWrongFilterType" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php"><a href="files/tests-unit-domain-subscription-repository-subscriberhistoryelasticsearchreadertest.html"><abbr title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php">SubscriberHistoryElasticsearchReaderTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">67</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testGetFilteredAfterIdRejectsWrongFilterType</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -370,13 +409,13 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_setUp">
         setUp()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php"><a href="files/tests-unit-domain-subscription-service-manager-subscriberhistorymanagertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/Manager/SubscriberHistoryManagerTest.php">SubscriberHistoryManagerTest.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php"><a href="files/tests-unit-domain-subscription-repository-subscriberhistoryelasticsearchreadertest.html"><abbr title="tests/Unit/Domain/Subscription/Repository/SubscriberHistoryElasticsearchReaderTest.php">SubscriberHistoryElasticsearchReaderTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -410,25 +449,26 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#toc-properties">Properties</a></li>
-                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#property_subscriberHistoryRepository">$subscriberHistoryRepository</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#property_subscriptionHistoryService">$subscriptionHistoryService</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#property_client">$client</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#property_reader">$reader</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_testGetHistoryCallsRepositoryWithCorrectParameters">testGetHistoryCallsRepositoryWithCorrectParameters()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray">testGetHistoryReturnsEmptyArrayWhenRepositoryReturnsEmptyArray()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetBySubscriberSortsDescending">testGetBySubscriberSortsDescending()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults">testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetFilteredAfterIdRejectsWrongFilterType">testGetFilteredAfterIdRejectsWrongFilterType()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_setUp">setUp()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -448,7 +488,7 @@
     </section>
 </section>
         </div>
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Manager-SubscriberHistoryManagerTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

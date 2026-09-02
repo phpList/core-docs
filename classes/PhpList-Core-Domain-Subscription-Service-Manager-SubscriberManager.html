@@ -175,9 +175,9 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryRepository">$subscriberHistoryRepository</a>
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryReader">$subscriberHistoryReader</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberHistoryRepository">SubscriberHistoryRepository</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-Interfaces-SubscriberHistoryReaderInterface.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\Interfaces\SubscriberHistoryReaderInterface">SubscriberHistoryReaderInterface</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -391,9 +391,9 @@
             -private
                                                 -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_subscriberHistoryRepository">
-        $subscriberHistoryRepository
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryRepository" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_subscriberHistoryReader">
+        $subscriberHistoryReader
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryReader" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
@@ -409,8 +409,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberHistoryRepository">SubscriberHistoryRepository</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$subscriberHistoryRepository</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-Interfaces-SubscriberHistoryReaderInterface.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\Interfaces\SubscriberHistoryReaderInterface">SubscriberHistoryReaderInterface</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$subscriberHistoryReader</span>
     </code>
 
     
@@ -524,7 +524,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\SubscriberDeletionService">SubscriberDeletionService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberDeletionService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberHistoryRepository">SubscriberHistoryRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryRepository</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\SubscriberDeletionService">SubscriberDeletionService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberDeletionService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-Interfaces-SubscriberHistoryReaderInterface.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\Interfaces\SubscriberHistoryReaderInterface">SubscriberHistoryReaderInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryReader</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -568,8 +568,8 @@
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$subscriberHistoryRepository</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberHistoryRepository">SubscriberHistoryRepository</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$subscriberHistoryReader</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-Interfaces-SubscriberHistoryReaderInterface.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\Interfaces\SubscriberHistoryReaderInterface">SubscriberHistoryReaderInterface</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1056,7 +1056,7 @@
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_entityManager">$entityManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberDeletionService">$subscriberDeletionService</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryManager">$subscriberHistoryManager</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryRepository">$subscriberHistoryRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberHistoryReader">$subscriberHistoryReader</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_subscriberRepository">$subscriberRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberManager.html#property_translator">$translator</a></li>
                                             </ul>
