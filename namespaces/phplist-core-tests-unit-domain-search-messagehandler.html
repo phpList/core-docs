@@ -121,7 +121,10 @@
 
     </h4>
     <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Tests-Unit-Domain-Search-MessageHandler-IndexDocumentMessageHandlerTest.html"><abbr title="\PhpList\Core\Tests\Unit\Domain\Search\MessageHandler\IndexDocumentMessageHandlerTest">IndexDocumentMessageHandlerTest</abbr></a></dt>    </dl>
+                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Tests-Unit-Domain-Search-MessageHandler-IndexDocumentMessageHandlerRevisionOrderingTest.html"><abbr title="\PhpList\Core\Tests\Unit\Domain\Search\MessageHandler\IndexDocumentMessageHandlerRevisionOrderingTest">IndexDocumentMessageHandlerRevisionOrderingTest</abbr></a></dt><dd>Drives IndexDocumentMessageHandler through the real ElasticsearchIndexer against a fake client that
+models Elasticsearch&#039;s `version_type: external_gte` semantics, so it exercises the full
+revision-propagation path (message -&gt; handler -&gt; indexer -&gt; client) rather than mocking away the
+exact ordering guarantee under test.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Tests-Unit-Domain-Search-MessageHandler-IndexDocumentMessageHandlerTest.html"><abbr title="\PhpList\Core\Tests\Unit\Domain\Search\MessageHandler\IndexDocumentMessageHandlerTest">IndexDocumentMessageHandlerTest</abbr></a></dt>    </dl>
 
 
 

@@ -182,6 +182,12 @@ the point of an async dual-write).</p>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Search-Model-SearchOperation.html"><abbr title="\PhpList\Core\Domain\Search\Model\SearchOperation">SearchOperation</abbr></a>            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#property_revision">$revision</a>
+    <span>
+                        &nbsp;: int            </span>
+</dt>
+
     </dl>
 
 <h4 id="toc-methods">
@@ -218,6 +224,12 @@ the point of an async dual-write).</p>
     <a class="" href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#method_getOperation">getOperation()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Search-Model-SearchOperation.html"><abbr title="\PhpList\Core\Domain\Search\Model\SearchOperation">SearchOperation</abbr></a>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#method_getRevision">getRevision()</a>
+    <span>
+                                &nbsp;: int    </span>
 </dt>
 
     </dl>
@@ -381,6 +393,43 @@ the point of an async dual-write).</p>
         
 
 </article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_revision">
+        $revision
+        <a href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#property_revision" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Search/Message/IndexDocumentMessage.php"><a href="files/src-domain-search-message-indexdocumentmessage.html"><abbr title="src/Domain/Search/Message/IndexDocumentMessage.php">IndexDocumentMessage.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">22</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$revision</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
             </section>
 
             <section class="phpdocumentor-methods">
@@ -410,7 +459,7 @@ the point of an async dual-write).</p>
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indexName</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$documentId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$document</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Search-Model-SearchOperation.html"><abbr title="\PhpList\Core\Domain\Search\Model\SearchOperation">SearchOperation</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$operation</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indexName</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$documentId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$document</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Search-Model-SearchOperation.html"><abbr title="\PhpList\Core\Domain\Search\Model\SearchOperation">SearchOperation</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$operation</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$revision</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -446,6 +495,13 @@ the point of an async dual-write).</p>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$revision</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -468,7 +524,7 @@ the point of an async dual-write).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Search/Message/IndexDocumentMessage.php"><a href="files/src-domain-search-message-indexdocumentmessage.html"><abbr title="src/Domain/Search/Message/IndexDocumentMessage.php">IndexDocumentMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">37</span>
 
     </aside>
 
@@ -506,7 +562,7 @@ the point of an async dual-write).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Search/Message/IndexDocumentMessage.php"><a href="files/src-domain-search-message-indexdocumentmessage.html"><abbr title="src/Domain/Search/Message/IndexDocumentMessage.php">IndexDocumentMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -544,7 +600,7 @@ the point of an async dual-write).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Search/Message/IndexDocumentMessage.php"><a href="files/src-domain-search-message-indexdocumentmessage.html"><abbr title="src/Domain/Search/Message/IndexDocumentMessage.php">IndexDocumentMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -582,7 +638,7 @@ the point of an async dual-write).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Search/Message/IndexDocumentMessage.php"><a href="files/src-domain-search-message-indexdocumentmessage.html"><abbr title="src/Domain/Search/Message/IndexDocumentMessage.php">IndexDocumentMessage.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -603,6 +659,44 @@ the point of an async dual-write).</p>
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Search-Model-SearchOperation.html"><abbr title="\PhpList\Core\Domain\Search\Model\SearchOperation">SearchOperation</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getRevision">
+        getRevision()
+        <a href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#method_getRevision" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Search/Message/IndexDocumentMessage.php"><a href="files/src-domain-search-message-indexdocumentmessage.html"><abbr title="src/Domain/Search/Message/IndexDocumentMessage.php">IndexDocumentMessage.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getRevision</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
             </section>
 
 </article>
@@ -632,6 +726,7 @@ the point of an async dual-write).</p>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#property_documentId">$documentId</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#property_indexName">$indexName</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#property_operation">$operation</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#property_revision">$revision</a></li>
                                             </ul>
                 </li>
             
@@ -643,6 +738,7 @@ the point of an async dual-write).</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#method_getDocumentId">getDocumentId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#method_getIndexName">getIndexName()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#method_getOperation">getOperation()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#method_getRevision">getRevision()</a></li>
                                     </ul>
             </li>
                     </ul>

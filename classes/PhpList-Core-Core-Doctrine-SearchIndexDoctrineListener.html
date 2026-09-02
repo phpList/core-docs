@@ -252,6 +252,16 @@ more important guarantee of never indexing/deleting a row that was rolled back.<
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_nextRevision">nextRevision()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>Wall-clock microseconds, not a per-process counter: a delayed Messenger retry carries the
+revision assigned when it was originally queued, and must stay comparable against revisions
+assigned by other PHP processes/workers for the same document so the indexer (via Elasticsearch
+external versioning) can tell a stale retry apart from a newer write.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_queue">queue()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -578,6 +588,48 @@ more important guarantee of never indexing/deleting a row that was rolled back.<
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_nextRevision">
+        nextRevision()
+        <a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_nextRevision" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">95</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Wall-clock microseconds, not a per-process counter: a delayed Messenger retry carries the
+revision assigned when it was originally queued, and must stay comparable against revisions
+assigned by other PHP processes/workers for the same document so the indexer (via Elasticsearch
+external versioning) can tell a stale retry apart from a newer write.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">nextRevision</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_queue">
         queue()
         <a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_queue" class="headerlink"><i class="fas fa-link"></i></a>
@@ -658,6 +710,7 @@ more important guarantee of never indexing/deleting a row that was rolled back.<
                                             <li class=""><a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_postPersist">postPersist()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_postRemove">postRemove()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_postUpdate">postUpdate()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_nextRevision">nextRevision()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_queue">queue()</a></li>
                                     </ul>
             </li>

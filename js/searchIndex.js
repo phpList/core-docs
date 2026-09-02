@@ -526,6 +526,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_queue"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\SearchIndexDoctrineListener\u003A\u003AnextRevision\u0028\u0029",
+            "name": "nextRevision",
+            "summary": "Wall\u002Dclock\u0020microseconds,\u0020not\u0020a\u0020per\u002Dprocess\u0020counter\u003A\u0020a\u0020delayed\u0020Messenger\u0020retry\u0020carries\u0020the\nrevision\u0020assigned\u0020when\u0020it\u0020was\u0020originally\u0020queued,\u0020and\u0020must\u0020stay\u0020comparable\u0020against\u0020revisions\nassigned\u0020by\u0020other\u0020PHP\u0020processes\/workers\u0020for\u0020the\u0020same\u0020document\u0020so\u0020the\u0020indexer\u0020\u0028via\u0020Elasticsearch\nexternal\u0020versioning\u0029\u0020can\u0020tell\u0020a\u0020stale\u0020retry\u0020apart\u0020from\u0020a\u0020newer\u0020write.",
+            "url": "classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_nextRevision"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\SearchIndexDoctrineListener\u003A\u003A\u0024pending",
             "name": "pending",
             "summary": "",
@@ -13428,12 +13433,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Client\\ElasticsearchClientAdapter\u003A\u003Aindex\u0028\u0029",
             "name": "index",
-            "summary": "",
+            "summary": "Returns\u0020quietly\u0020\u0028idempotent\u0029\u0020if\u0020\u0024revision\u0020is\u0020older\u0020than\u0020the\u0020revision\u0020currently\u0020stored\u0020for\u0020this\ndocument\u0020\u002D\u0020a\u0020delayed\u0020retry\u0020of\u0020a\u0020stale\u0020write\u0020must\u0020never\u0020resurrect\/overwrite\u0020newer\u0020state.",
             "url": "classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientAdapter.html#method_index"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Client\\ElasticsearchClientAdapter\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
-            "summary": "Returns\u0020quietly\u0020\u0028idempotent\u0029\u0020if\u0020the\u0020document\u0020does\u0020not\u0020exist.",
+            "summary": "Returns\u0020quietly\u0020\u0028idempotent\u0029\u0020if\u0020the\u0020document\u0020does\u0020not\u0020exist,\u0020or\u0020if\u0020\u0024revision\u0020is\u0020older\u0020than\u0020the\nrevision\u0020currently\u0020stored\u0020for\u0020this\u0020document.",
             "url": "classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientAdapter.html#method_delete"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Client\\ElasticsearchClientAdapter\u003A\u003AindexExists\u0028\u0029",
@@ -13466,6 +13471,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientAdapter.html#constant_HTTP_NOT_FOUND"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Client\\ElasticsearchClientAdapter\u003A\u003AHTTP_CONFLICT",
+            "name": "HTTP_CONFLICT",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientAdapter.html#constant_HTTP_CONFLICT"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Client\\ElasticsearchClientAdapter\u003A\u003A\u0024client",
             "name": "client",
             "summary": "",
@@ -13488,12 +13498,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Client\\ElasticsearchClientInterface\u003A\u003Aindex\u0028\u0029",
             "name": "index",
-            "summary": "",
+            "summary": "Returns\u0020quietly\u0020\u0028idempotent\u0029\u0020if\u0020\u0024revision\u0020is\u0020older\u0020than\u0020the\u0020revision\u0020currently\u0020stored\u0020for\u0020this\ndocument\u0020\u002D\u0020a\u0020delayed\u0020retry\u0020of\u0020a\u0020stale\u0020write\u0020must\u0020never\u0020resurrect\/overwrite\u0020newer\u0020state.",
             "url": "classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientInterface.html#method_index"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Client\\ElasticsearchClientInterface\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
-            "summary": "Returns\u0020quietly\u0020\u0028idempotent\u0029\u0020if\u0020the\u0020document\u0020does\u0020not\u0020exist.",
+            "summary": "Returns\u0020quietly\u0020\u0028idempotent\u0029\u0020if\u0020the\u0020document\u0020does\u0020not\u0020exist,\u0020or\u0020if\u0020\u0024revision\u0020is\u0020older\u0020than\u0020the\nrevision\u0020currently\u0020stored\u0020for\u0020this\u0020document.",
             "url": "classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientInterface.html#method_delete"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Client\\ElasticsearchClientInterface\u003A\u003AindexExists\u0028\u0029",
@@ -13621,6 +13631,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#method_getOperation"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Message\\IndexDocumentMessage\u003A\u003AgetRevision\u0028\u0029",
+            "name": "getRevision",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#method_getRevision"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Message\\IndexDocumentMessage\u003A\u003A\u0024indexName",
             "name": "indexName",
             "summary": "",
@@ -13640,6 +13655,11 @@ Search.appendIndex(
             "name": "operation",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#property_operation"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Message\\IndexDocumentMessage\u003A\u003A\u0024revision",
+            "name": "revision",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Message-IndexDocumentMessage.html#property_revision"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\MessageHandler\\IndexDocumentMessageHandler",
             "name": "IndexDocumentMessageHandler",
@@ -15915,11 +15935,6 @@ Search.appendIndex(
             "name": "resolvePhysicalIndexName",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html#method_resolvePhysicalIndexName"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader\u003A\u003AINDEX_ALIAS",
-            "name": "INDEX_ALIAS",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReader.html#constant_INDEX_ALIAS"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader\u003A\u003A\u0024client",
             "name": "client",
@@ -19370,6 +19385,11 @@ Search.appendIndex(
             "name": "testPostFlushDispatchesBufferedIndexMessage",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SearchIndexDoctrineListenerTest.html#method_testPostFlushDispatchesBufferedIndexMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SearchIndexDoctrineListenerTest\u003A\u003AtestRevisionsAreMonotonicallyIncreasingAcrossFlushes\u0028\u0029",
+            "name": "testRevisionsAreMonotonicallyIncreasingAcrossFlushes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SearchIndexDoctrineListenerTest.html#method_testRevisionsAreMonotonicallyIncreasingAcrossFlushes"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SearchIndexDoctrineListenerTest\u003A\u003AtestPostRemoveBuffersDeleteOperationWithEmptyDocument\u0028\u0029",
             "name": "testPostRemoveBuffersDeleteOperationWithEmptyDocument",
@@ -26151,6 +26171,91 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#property_validator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake\\InMemoryVersionedElasticsearchClient",
+            "name": "InMemoryVersionedElasticsearchClient",
+            "summary": "Mirrors\u0020real\u0020Elasticsearch\u0027s\u0020\u0060version_type\u003A\u0020external_gte\u0060\u0020semantics\u0020well\u0020enough\u0020to\u0020test\nrevision\u002Dbased\u0020conflict\u0020rejection\u0020without\u0020a\u0020live\u0020cluster\u003A\u0020index\u0028\u0029\/delete\u0028\u0029\u0020are\u0020no\u002Dops\u0020whenever\n\u0024revision\u0020is\u0020older\u0020than\u0020the\u0020revision\u0020last\u0020accepted\u0020for\u0020that\u0020document.\u0020The\u0020real\u0020vendor\u0020\u0060Client\u0060\u0020is\n\u0060final\u0060,\u0020so\u0020this\u0020is\u0020the\u0020only\u0020way\u0020to\u0020unit\u002Dtest\u0020that\u0020ordering\u0020guarantee.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Fake-InMemoryVersionedElasticsearchClient.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake\\InMemoryVersionedElasticsearchClient\u003A\u003Aindex\u0028\u0029",
+            "name": "index",
+            "summary": "Returns\u0020quietly\u0020\u0028idempotent\u0029\u0020if\u0020\u0024revision\u0020is\u0020older\u0020than\u0020the\u0020revision\u0020currently\u0020stored\u0020for\u0020this\ndocument\u0020\u002D\u0020a\u0020delayed\u0020retry\u0020of\u0020a\u0020stale\u0020write\u0020must\u0020never\u0020resurrect\/overwrite\u0020newer\u0020state.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Fake-InMemoryVersionedElasticsearchClient.html#method_index"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake\\InMemoryVersionedElasticsearchClient\u003A\u003Adelete\u0028\u0029",
+            "name": "delete",
+            "summary": "Returns\u0020quietly\u0020\u0028idempotent\u0029\u0020if\u0020the\u0020document\u0020does\u0020not\u0020exist,\u0020or\u0020if\u0020\u0024revision\u0020is\u0020older\u0020than\u0020the\nrevision\u0020currently\u0020stored\u0020for\u0020this\u0020document.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Fake-InMemoryVersionedElasticsearchClient.html#method_delete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake\\InMemoryVersionedElasticsearchClient\u003A\u003AgetDocument\u0028\u0029",
+            "name": "getDocument",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Fake-InMemoryVersionedElasticsearchClient.html#method_getDocument"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake\\InMemoryVersionedElasticsearchClient\u003A\u003AindexExists\u0028\u0029",
+            "name": "indexExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Fake-InMemoryVersionedElasticsearchClient.html#method_indexExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake\\InMemoryVersionedElasticsearchClient\u003A\u003AcreateIndex\u0028\u0029",
+            "name": "createIndex",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Fake-InMemoryVersionedElasticsearchClient.html#method_createIndex"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake\\InMemoryVersionedElasticsearchClient\u003A\u003AupdateMapping\u0028\u0029",
+            "name": "updateMapping",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Fake-InMemoryVersionedElasticsearchClient.html#method_updateMapping"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake\\InMemoryVersionedElasticsearchClient\u003A\u003Asearch\u0028\u0029",
+            "name": "search",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Fake-InMemoryVersionedElasticsearchClient.html#method_search"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake\\InMemoryVersionedElasticsearchClient\u003A\u003A\u0024revisions",
+            "name": "revisions",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Fake-InMemoryVersionedElasticsearchClient.html#property_revisions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake\\InMemoryVersionedElasticsearchClient\u003A\u003A\u0024documents",
+            "name": "documents",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Fake-InMemoryVersionedElasticsearchClient.html#property_documents"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\MessageHandler\\IndexDocumentMessageHandlerRevisionOrderingTest",
+            "name": "IndexDocumentMessageHandlerRevisionOrderingTest",
+            "summary": "Drives\u0020IndexDocumentMessageHandler\u0020through\u0020the\u0020real\u0020ElasticsearchIndexer\u0020against\u0020a\u0020fake\u0020client\u0020that\nmodels\u0020Elasticsearch\u0027s\u0020\u0060version_type\u003A\u0020external_gte\u0060\u0020semantics,\u0020so\u0020it\u0020exercises\u0020the\u0020full\nrevision\u002Dpropagation\u0020path\u0020\u0028message\u0020\u002D\u003E\u0020handler\u0020\u002D\u003E\u0020indexer\u0020\u002D\u003E\u0020client\u0029\u0020rather\u0020than\u0020mocking\u0020away\u0020the\nexact\u0020ordering\u0020guarantee\u0020under\u0020test.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-MessageHandler-IndexDocumentMessageHandlerRevisionOrderingTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\MessageHandler\\IndexDocumentMessageHandlerRevisionOrderingTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-MessageHandler-IndexDocumentMessageHandlerRevisionOrderingTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\MessageHandler\\IndexDocumentMessageHandlerRevisionOrderingTest\u003A\u003AtestDelayedRetryOfOlderUpdateDoesNotOverwriteNewerUpdate\u0028\u0029",
+            "name": "testDelayedRetryOfOlderUpdateDoesNotOverwriteNewerUpdate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-MessageHandler-IndexDocumentMessageHandlerRevisionOrderingTest.html#method_testDelayedRetryOfOlderUpdateDoesNotOverwriteNewerUpdate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\MessageHandler\\IndexDocumentMessageHandlerRevisionOrderingTest\u003A\u003AtestDelayedRetryOfOlderUpdateDoesNotResurrectDeletedDocument\u0028\u0029",
+            "name": "testDelayedRetryOfOlderUpdateDoesNotResurrectDeletedDocument",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-MessageHandler-IndexDocumentMessageHandlerRevisionOrderingTest.html#method_testDelayedRetryOfOlderUpdateDoesNotResurrectDeletedDocument"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\MessageHandler\\IndexDocumentMessageHandlerRevisionOrderingTest\u003A\u003AtestNewerUpdateAfterADeleteIsStillApplied\u0028\u0029",
+            "name": "testNewerUpdateAfterADeleteIsStillApplied",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-MessageHandler-IndexDocumentMessageHandlerRevisionOrderingTest.html#method_testNewerUpdateAfterADeleteIsStillApplied"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\MessageHandler\\IndexDocumentMessageHandlerRevisionOrderingTest\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-MessageHandler-IndexDocumentMessageHandlerRevisionOrderingTest.html#property_client"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\MessageHandler\\IndexDocumentMessageHandlerRevisionOrderingTest\u003A\u003A\u0024handler",
+            "name": "handler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-MessageHandler-IndexDocumentMessageHandlerRevisionOrderingTest.html#property_handler"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\MessageHandler\\IndexDocumentMessageHandlerTest",
             "name": "IndexDocumentMessageHandlerTest",
             "summary": "",
@@ -26495,6 +26600,11 @@ Search.appendIndex(
             "name": "testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReaderTest\u003A\u003AtestGetFilteredAfterIdPaginatesAcrossTwoPagesWithoutRepeatingResults\u0028\u0029",
+            "name": "testGetFilteredAfterIdPaginatesAcrossTwoPagesWithoutRepeatingResults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryElasticsearchReaderTest.html#method_testGetFilteredAfterIdPaginatesAcrossTwoPagesWithoutRepeatingResults"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReaderTest\u003A\u003AtestGetFilteredAfterIdRejectsWrongFilterType\u0028\u0029",
             "name": "testGetFilteredAfterIdRejectsWrongFilterType",
@@ -28571,15 +28681,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging-validator.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\MessageHandler",
-            "name": "MessageHandler",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake",
+            "name": "Fake",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-search-messagehandler.html"
+            "url": "namespaces/phplist-core-tests-unit-domain-search-fake.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search",
             "name": "Search",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-search.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\MessageHandler",
+            "name": "MessageHandler",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-search-messagehandler.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Service",
             "name": "Service",
