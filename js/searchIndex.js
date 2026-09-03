@@ -9816,6 +9816,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#constant_SEARCH_INDEX_NAME"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AMAX_RESULTS_BY_USER",
+            "name": "MAX_RESULTS_BY_USER",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#constant_MAX_RESULTS_BY_USER"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -15841,6 +15846,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberHistory.html#constant_SEARCH_INDEX_NAME"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberHistory\u003A\u003AMAX_RESULTS_BY_USER",
+            "name": "MAX_RESULTS_BY_USER",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-SubscriberHistory.html#constant_MAX_RESULTS_BY_USER"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\SubscriberHistory\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -19150,6 +19160,16 @@ Search.appendIndex(
             "name": "testGetListBounceTotalsReturnsAggregatedBouncesPerSubscriberForList",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceRepositoryTest.html#method_testGetListBounceTotalsReturnsAggregatedBouncesPerSubscriberForList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceRepositoryTest\u003A\u003AtestGetFilteredAfterIdAdvancesCursorAcrossConsecutivePages\u0028\u0029",
+            "name": "testGetFilteredAfterIdAdvancesCursorAcrossConsecutivePages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceRepositoryTest.html#method_testGetFilteredAfterIdAdvancesCursorAcrossConsecutivePages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceRepositoryTest\u003A\u003AtestGetFilteredAfterIdKeepsInputLastIdWhenPageIsEmpty\u0028\u0029",
+            "name": "testGetFilteredAfterIdKeepsInputLastIdWhenPageIsEmpty",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceRepositoryTest.html#method_testGetFilteredAfterIdKeepsInputLastIdWhenPageIsEmpty"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceRepositoryTest\u003A\u003A\u0024repository",
             "name": "repository",
