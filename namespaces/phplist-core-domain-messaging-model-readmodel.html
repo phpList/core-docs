@@ -98,43 +98,29 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging.html">Messaging</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-messaging-model.html">Model</a></li>
     </ul>
 
     <article class="phpdocumentor-element -namespace">
-        <h2 class="phpdocumentor-content__title">Repository</h2>
+        <h2 class="phpdocumentor-content__title">ReadModel</h2>
 
         
 <h3 id="toc">
     Table of Contents
-    <a href="namespaces/phplist-core-domain-messaging-repository.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="namespaces/phplist-core-domain-messaging-model-readmodel.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
 
-<h4 id="namespaces">
-    Namespaces
-    <a href="namespaces/phplist-core-domain-messaging-repository.html#namespaces" class="headerlink"><i class="fas fa-link"></i></a>
-
-</h4>
-<dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/phplist-core-domain-messaging-repository-interfaces.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\Interfaces">Interfaces</abbr></a></dt>
-    </dl>
 
 
     <h4 id="toc-classes">
         Classes
-        <a href="namespaces/phplist-core-domain-messaging-repository.html#toc-classes" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="namespaces/phplist-core-domain-messaging-model-readmodel.html#toc-classes" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-AttachmentRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\AttachmentRepository">AttachmentRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRegexBounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\BounceRegexBounceRepository">BounceRegexBounceRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRegexRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\BounceRegexRepository">BounceRegexRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\BounceRepository">BounceRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-ListMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\ListMessageRepository">ListMessageRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageAttachmentRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageAttachmentRepository">MessageAttachmentRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageDataRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageDataRepository">MessageDataRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-SendProcessRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\SendProcessRepository">SendProcessRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-TemplateImageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\TemplateImageRepository">TemplateImageRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-TemplateRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\TemplateRepository">TemplateRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageBounceElasticsearchHybridReader">UserMessageBounceElasticsearchHybridReader</abbr></a></dt><dd>Reporting/joining queries that correlate Elasticsearch-backed bounce data with related entities
-that live in MySQL only (Subscriber/Subscription, Message, Bounce, UserMessage). These aren&#039;t
-&quot;the ES implementation of UserMessageBounceReaderInterface&quot; - a plain ES reader has no business
-running Doctrine joins - they&#039;re a distinct concern: legacy report/processing queries that used to
-join straight onto the (now potentially huge) user_message_bounce table in one SQL statement, and
-now get the bounce side of that join from Elasticsearch instead, merging in PHP.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageBounceElasticsearchReader">UserMessageBounceElasticsearchReader</abbr></a></dt><dd>ES-backed counterpart of UserMessageBounceRepository. Read-only - dual-write is handled entirely
-by SearchIndexDoctrineListener, not by this class. Any Elasticsearch failure surfaces as
-SearchBackendUnavailableException (via ElasticsearchClientInterface) with no fallback to the database.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageBounceRepository">UserMessageBounceRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageForwardRepository">UserMessageForwardRepository</abbr></a></dt><dd>Base class for repositories.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a></dt><dd>Base class for repositories.</dd>    </dl>
+                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\ReadModel\UserMessageBounceReadModel">UserMessageBounceReadModel</abbr></a></dt><dd>Flat projection of a bounce-link row as read back from Elasticsearch - no Doctrine association.</dd>    </dl>
 
 
 
@@ -158,7 +144,7 @@ SearchBackendUnavailableException (via ElasticsearchClientInterface) with no fal
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                                    <li><a href="namespaces/phplist-core-domain-messaging-repository.html#toc-classes">Classes</a></li>
+                                                                                                    <li><a href="namespaces/phplist-core-domain-messaging-model-readmodel.html#toc-classes">Classes</a></li>
                                                                                                                     </ul>
             </li>
 
@@ -180,7 +166,7 @@ SearchBackendUnavailableException (via ElasticsearchClientInterface) with no fal
     </section>
 </section>
         </div>
-        <a href="namespaces/phplist-core-domain-messaging-repository.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="namespaces/phplist-core-domain-messaging-model-readmodel.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

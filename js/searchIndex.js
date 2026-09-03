@@ -511,6 +511,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_postUpdate"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\SearchIndexDoctrineListener\u003A\u003ApreRemove\u0028\u0029",
+            "name": "preRemove",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#method_preRemove"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\SearchIndexDoctrineListener\u003A\u003ApostRemove\u0028\u0029",
             "name": "postRemove",
             "summary": "",
@@ -535,6 +540,11 @@ Search.appendIndex(
             "name": "pending",
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_pending"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\SearchIndexDoctrineListener\u003A\u003A\u0024removalKeys",
+            "name": "removalKeys",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_removalKeys"
         },                {
             "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\SearchIndexDoctrineListener\u003A\u003A\u0024messageBus",
             "name": "messageBus",
@@ -1566,10 +1576,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_messageRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024messageBounceRepository",
-            "name": "messageBounceRepository",
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024messageBounceReader",
+            "name": "messageBounceReader",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_messageBounceRepository"
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_messageBounceReader"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024messageForwardRepository",
             "name": "messageForwardRepository",
@@ -8321,6 +8331,86 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-SubscriberListFilter.html#property_owner"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\UserMessageBounceFilter",
+            "name": "UserMessageBounceFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-UserMessageBounceFilter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\UserMessageBounceFilter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-UserMessageBounceFilter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\UserMessageBounceFilter\u003A\u003AgetUserId\u0028\u0029",
+            "name": "getUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-UserMessageBounceFilter.html#method_getUserId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\UserMessageBounceFilter\u003A\u003AgetMessageId\u0028\u0029",
+            "name": "getMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-UserMessageBounceFilter.html#method_getMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\UserMessageBounceFilter\u003A\u003AgetBounceId\u0028\u0029",
+            "name": "getBounceId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-UserMessageBounceFilter.html#method_getBounceId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\UserMessageBounceFilter\u003A\u003AgetDateFrom\u0028\u0029",
+            "name": "getDateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-UserMessageBounceFilter.html#method_getDateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\UserMessageBounceFilter\u003A\u003A\u0024userId",
+            "name": "userId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-UserMessageBounceFilter.html#property_userId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\UserMessageBounceFilter\u003A\u003A\u0024messageId",
+            "name": "messageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-UserMessageBounceFilter.html#property_messageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\UserMessageBounceFilter\u003A\u003A\u0024bounceId",
+            "name": "bounceId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-UserMessageBounceFilter.html#property_bounceId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Filter\\UserMessageBounceFilter\u003A\u003A\u0024dateFrom",
+            "name": "dateFrom",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Filter-UserMessageBounceFilter.html#property_dateFrom"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Interfaces\\UserMessageBounceRecordInterface",
+            "name": "UserMessageBounceRecordInterface",
+            "summary": "The\u0020read\u0020shape\u0020shared\u0020by\u0020the\u0020Doctrine\u002Dbacked\u0020UserMessageBounce\u0020entity\u0020and\u0020the\u0020flat\nUserMessageBounceReadModel\u0020built\u0020from\u0020Elasticsearch\u0020hits,\u0020so\u0020both\u0020database\u0020and\nElasticsearch\u002Dbacked\u0020readers\u0020can\u0020be\u0020consumed\u0020without\u0020caring\u0020which\u0020backend\u0020produced\u0020them.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Interfaces-UserMessageBounceRecordInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Interfaces\\UserMessageBounceRecordInterface\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Interfaces-UserMessageBounceRecordInterface.html#method_getId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Interfaces\\UserMessageBounceRecordInterface\u003A\u003AgetUserId\u0028\u0029",
+            "name": "getUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Interfaces-UserMessageBounceRecordInterface.html#method_getUserId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Interfaces\\UserMessageBounceRecordInterface\u003A\u003AgetMessageId\u0028\u0029",
+            "name": "getMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Interfaces-UserMessageBounceRecordInterface.html#method_getMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Interfaces\\UserMessageBounceRecordInterface\u003A\u003AgetBounceId\u0028\u0029",
+            "name": "getBounceId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Interfaces-UserMessageBounceRecordInterface.html#method_getBounceId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Interfaces\\UserMessageBounceRecordInterface\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Interfaces-UserMessageBounceRecordInterface.html#method_getCreatedAt"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ListMessage",
             "name": "ListMessage",
             "summary": "",
@@ -9221,6 +9311,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-MessageData.html#property_data"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel",
+            "name": "UserMessageBounceReadModel",
+            "summary": "Flat\u0020projection\u0020of\u0020a\u0020bounce\u002Dlink\u0020row\u0020as\u0020read\u0020back\u0020from\u0020Elasticsearch\u0020\u002D\u0020no\u0020Doctrine\u0020association.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel\u003A\u003AgetId\u0028\u0029",
+            "name": "getId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html#method_getId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel\u003A\u003AgetUserId\u0028\u0029",
+            "name": "getUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html#method_getUserId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel\u003A\u003AgetMessageId\u0028\u0029",
+            "name": "getMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html#method_getMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel\u003A\u003AgetBounceId\u0028\u0029",
+            "name": "getBounceId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html#method_getBounceId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html#method_getCreatedAt"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel\u003A\u003A\u0024id",
+            "name": "id",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html#property_id"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel\u003A\u003A\u0024userId",
+            "name": "userId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html#property_userId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel\u003A\u003A\u0024messageId",
+            "name": "messageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html#property_messageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel\u003A\u003A\u0024bounceId",
+            "name": "bounceId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html#property_bounceId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel\\UserMessageBounceReadModel\u003A\u003A\u0024createdAt",
+            "name": "createdAt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-ReadModel-UserMessageBounceReadModel.html#property_createdAt"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\SendProcess",
             "name": "SendProcess",
             "summary": "",
@@ -9641,6 +9791,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_setBounceId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AgetSearchIndexName\u0028\u0029",
+            "name": "getSearchIndexName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_getSearchIndexName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AgetSearchDocumentId\u0028\u0029",
+            "name": "getSearchDocumentId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_getSearchDocumentId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003AtoSearchDocument\u0028\u0029",
+            "name": "toSearchDocument",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#method_toSearchDocument"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003ASEARCH_INDEX_NAME",
+            "name": "SEARCH_INDEX_NAME",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html#constant_SEARCH_INDEX_NAME"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\UserMessageBounce\u003A\u003A\u0024id",
             "name": "id",
             "summary": "",
@@ -9805,6 +9975,36 @@ Search.appendIndex(
             "name": "getFilteredAfterId",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getFilteredAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReaderInterface",
+            "name": "UserMessageBounceReaderInterface",
+            "summary": "Implemented\u0020by\u0020UserMessageBounceRepository\u0020\u0028Doctrine\/DB\u0029\u0020and\u0020UserMessageBounceElasticsearchReader\n\u0028Elasticsearch\u0029.\u0020Consumers\u0020are\u0020aliased\u0020to\u0020whichever\u0020one\u0020reads\u0020are\u0020configured\u0020to\u0020use\u0020\u002D\u0020see\nconfig\/services\/repositories.yml.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReaderInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReaderInterface\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReaderInterface.html#method_getFilteredAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReaderInterface\u003A\u003AgetByUserId\u0028\u0029",
+            "name": "getByUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReaderInterface.html#method_getByUserId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReaderInterface\u003A\u003AgetCountByMessageId\u0028\u0029",
+            "name": "getCountByMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReaderInterface.html#method_getCountByMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReaderInterface\u003A\u003AcountBetween\u0028\u0029",
+            "name": "countBetween",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReaderInterface.html#method_countBetween"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReaderInterface\u003A\u003AexistsByMessageIdAndUserId\u0028\u0029",
+            "name": "existsByMessageIdAndUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReaderInterface.html#method_existsByMessageIdAndUserId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository",
             "name": "ListMessageRepository",
@@ -9976,10 +10176,155 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateRepository.html#method_getFilteredAfterId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader",
+            "name": "UserMessageBounceElasticsearchHybridReader",
+            "summary": "Reporting\/joining\u0020queries\u0020that\u0020correlate\u0020Elasticsearch\u002Dbacked\u0020bounce\u0020data\u0020with\u0020related\u0020entities\nthat\u0020live\u0020in\u0020MySQL\u0020only\u0020\u0028Subscriber\/Subscription,\u0020Message,\u0020Bounce,\u0020UserMessage\u0029.\u0020These\u0020aren\u0027t\n\u0022the\u0020ES\u0020implementation\u0020of\u0020UserMessageBounceReaderInterface\u0022\u0020\u002D\u0020a\u0020plain\u0020ES\u0020reader\u0020has\u0020no\u0020business\nrunning\u0020Doctrine\u0020joins\u0020\u002D\u0020they\u0027re\u0020a\u0020distinct\u0020concern\u003A\u0020legacy\u0020report\/processing\u0020queries\u0020that\u0020used\u0020to\njoin\u0020straight\u0020onto\u0020the\u0020\u0028now\u0020potentially\u0020huge\u0029\u0020user_message_bounce\u0020table\u0020in\u0020one\u0020SQL\u0020statement,\u0020and\nnow\u0020get\u0020the\u0020bounce\u0020side\u0020of\u0020that\u0020join\u0020from\u0020Elasticsearch\u0020instead,\u0020merging\u0020in\u0020PHP.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003AgetListBounceTotals\u0028\u0029",
+            "name": "getListBounceTotals",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_getListBounceTotals"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003AgetCampaignBounceTotals\u0028\u0029",
+            "name": "getCampaignBounceTotals",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_getCampaignBounceTotals"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003AgetPaginatedWithJoinNoRelation\u0028\u0029",
+            "name": "getPaginatedWithJoinNoRelation",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_getPaginatedWithJoinNoRelation"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003AgetUserMessageHistoryWithBounces\u0028\u0029",
+            "name": "getUserMessageHistoryWithBounces",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_getUserMessageHistoryWithBounces"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003AfetchDocsByUserId\u0028\u0029",
+            "name": "fetchDocsByUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_fetchDocsByUserId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003AgroupByMessageId\u0028\u0029",
+            "name": "groupByMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_groupByMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003AbounceIdsUsedIn\u0028\u0029",
+            "name": "bounceIdsUsedIn",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_bounceIdsUsedIn"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003AfindBouncesByIdIndexedById\u0028\u0029",
+            "name": "findBouncesByIdIndexedById",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_findBouncesByIdIndexedById"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003Ahydrate\u0028\u0029",
+            "name": "hydrate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_hydrate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003AcountsByTermsField\u0028\u0029",
+            "name": "countsByTermsField",
+            "summary": "Aggregates\u0020document\u0020counts\u0020by\u0020an\u0020exact\u002Dmatch\u0020field,\u0020restricted\u0020to\u0020a\u0020given\u0020set\u0020of\u0020ids\u0020\u002D\u0020used\u0020to\ncorrelate\u0020bounce\u0020counts\u0020\u0028Elasticsearch\u0029\u0020with\u0020rows\u0020from\u0020a\u0020small,\u0020non\u002D\u0022big\u0020table\u0022\u0020DB\u0020query\n\u0028subscribers\u0020in\u0020a\u0020list,\u0020messages\u0020owned\u0020by\u0020an\u0020admin\u0029\u0020without\u0020joining\u0020across\u0020data\u0020stores.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_countsByTermsField"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003AresolvePhysicalIndexName\u0028\u0029",
+            "name": "resolvePhysicalIndexName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_resolvePhysicalIndexName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_client"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003A\u0024indexPrefix",
+            "name": "indexPrefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_indexPrefix"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader",
+            "name": "UserMessageBounceElasticsearchReader",
+            "summary": "ES\u002Dbacked\u0020counterpart\u0020of\u0020UserMessageBounceRepository.\u0020Read\u002Donly\u0020\u002D\u0020dual\u002Dwrite\u0020is\u0020handled\u0020entirely\nby\u0020SearchIndexDoctrineListener,\u0020not\u0020by\u0020this\u0020class.\u0020Any\u0020Elasticsearch\u0020failure\u0020surfaces\u0020as\nSearchBackendUnavailableException\u0020\u0028via\u0020ElasticsearchClientInterface\u0029\u0020with\u0020no\u0020fallback\u0020to\u0020the\u0020database.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getFilteredAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003AgetByUserId\u0028\u0029",
+            "name": "getByUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getByUserId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003AgetCountByMessageId\u0028\u0029",
+            "name": "getCountByMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getCountByMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003AcountBetween\u0028\u0029",
+            "name": "countBetween",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_countBetween"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003AexistsByMessageIdAndUserId\u0028\u0029",
+            "name": "existsByMessageIdAndUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_existsByMessageIdAndUserId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003Ahydrate\u0028\u0029",
+            "name": "hydrate",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_hydrate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003AresolvePhysicalIndexName\u0028\u0029",
+            "name": "resolvePhysicalIndexName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_resolvePhysicalIndexName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#property_client"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003A\u0024indexPrefix",
+            "name": "indexPrefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#property_indexPrefix"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository",
             "name": "UserMessageBounceRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getFilteredAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AgetByUserId\u0028\u0029",
+            "name": "getByUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getByUserId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AgetCountByMessageId\u0028\u0029",
             "name": "getCountByMessageId",
@@ -12955,6 +13300,56 @@ Search.appendIndex(
             "name": "limiter",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html#property_limiter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Search\\UserMessageBounceIndexDefinition",
+            "name": "UserMessageBounceIndexDefinition",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Search-UserMessageBounceIndexDefinition.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Search\\UserMessageBounceIndexDefinition\u003A\u003AgetIndexAlias\u0028\u0029",
+            "name": "getIndexAlias",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Search-UserMessageBounceIndexDefinition.html#method_getIndexAlias"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Search\\UserMessageBounceIndexDefinition\u003A\u003AgetMapping\u0028\u0029",
+            "name": "getMapping",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Search-UserMessageBounceIndexDefinition.html#method_getMapping"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Search\\UserMessageBounceIndexDefinition\u003A\u003AgetSettings\u0028\u0029",
+            "name": "getSettings",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Search-UserMessageBounceIndexDefinition.html#method_getSettings"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Search\\UserMessageBounceReindexProvider",
+            "name": "UserMessageBounceReindexProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Search-UserMessageBounceReindexProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Search\\UserMessageBounceReindexProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Search-UserMessageBounceReindexProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Search\\UserMessageBounceReindexProvider\u003A\u003AgetAlias\u0028\u0029",
+            "name": "getAlias",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Search-UserMessageBounceReindexProvider.html#method_getAlias"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Search\\UserMessageBounceReindexProvider\u003A\u003AcountAll\u0028\u0029",
+            "name": "countAll",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Search-UserMessageBounceReindexProvider.html#method_countAll"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Search\\UserMessageBounceReindexProvider\u003A\u003AfetchBatch\u0028\u0029",
+            "name": "fetchBatch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Search-UserMessageBounceReindexProvider.html#method_fetchBatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Search\\UserMessageBounceReindexProvider\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Search-UserMessageBounceReindexProvider.html#property_repository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\SendRateLimiter",
             "name": "SendRateLimiter",
@@ -18531,6 +18926,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-TemplateRepositoryTest.html#property_templateRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReaderTest",
+            "name": "UserMessageBounceElasticsearchHybridReaderTest",
+            "summary": "Covers\u0020the\u0020hybrid\u0020reader\u0020methods\u0020that\u0020combine\u0020Elasticsearch\u0020\u0028mocked\u0020here\u0029\u0020with\u0020real\u0020DB\u0020joins\nagainst\u0020Subscriber\/Subscription,\u0020Message,\u0020Bounce\u0020and\u0020UserMessage\u0020\u002D\u0020the\u0020ElasticsearchClientInterface\nmock\u0020stands\u0020in\u0020for\u0020the\u0020\u0022big\u0020table\u0022\u0020side,\u0020while\u0020everything\u0020else\u0020is\u0020a\u0020real\u0020Doctrine\u0020entity\u0020persisted\nagainst\u0020SQLite\u0020via\u0020DatabaseTestTrait,\u0020mirroring\u0020UserMessageBounceRepositoryTest\u0027s\u0020fixtures.",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReaderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReaderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReaderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReaderTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReaderTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReaderTest\u003A\u003AtestGetListBounceTotalsMergesElasticsearchCountsWithSubscriberData\u0028\u0029",
+            "name": "testGetListBounceTotalsMergesElasticsearchCountsWithSubscriberData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReaderTest.html#method_testGetListBounceTotalsMergesElasticsearchCountsWithSubscriberData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReaderTest\u003A\u003AtestGetCampaignBounceTotalsMergesElasticsearchCountsWithMessageData\u0028\u0029",
+            "name": "testGetCampaignBounceTotalsMergesElasticsearchCountsWithMessageData",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReaderTest.html#method_testGetCampaignBounceTotalsMergesElasticsearchCountsWithMessageData"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReaderTest\u003A\u003AtestGetPaginatedWithJoinNoRelationHydratesMatchingBounceEntitiesAndSkipsMissingOnes\u0028\u0029",
+            "name": "testGetPaginatedWithJoinNoRelationHydratesMatchingBounceEntitiesAndSkipsMissingOnes",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReaderTest.html#method_testGetPaginatedWithJoinNoRelationHydratesMatchingBounceEntitiesAndSkipsMissingOnes"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReaderTest\u003A\u003AtestGetUserMessageHistoryWithBouncesMergesSentMessagesWithBounceDocs\u0028\u0029",
+            "name": "testGetUserMessageHistoryWithBouncesMergesSentMessagesWithBounceDocs",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReaderTest.html#method_testGetUserMessageHistoryWithBouncesMergesSentMessagesWithBounceDocs"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReaderTest\u003A\u003AcreateMessage\u0028\u0029",
+            "name": "createMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReaderTest.html#method_createMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReaderTest\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReaderTest.html#property_client"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReaderTest\u003A\u003A\u0024reader",
+            "name": "reader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReaderTest.html#property_reader"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageBounceRepositoryTest",
             "name": "UserMessageBounceRepositoryTest",
             "summary": "",
@@ -19526,10 +19971,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_messageRepository"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024userMessageBounceRepository",
-            "name": "userMessageBounceRepository",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024userMessageBounceReader",
+            "name": "userMessageBounceReader",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_userMessageBounceRepository"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_userMessageBounceReader"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024userMessageForwardRepository",
             "name": "userMessageForwardRepository",
@@ -23226,6 +23671,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-SubscriberListRepositoryTest.html#property_subject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest",
+            "name": "UserMessageBounceElasticsearchReaderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest\u003A\u003AtestGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults\u0028\u0029",
+            "name": "testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#method_testGetFilteredAfterIdQueriesPrefixedIndexAndHydratesResults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest\u003A\u003AtestGetFilteredAfterIdPaginatesAcrossTwoPagesWithoutRepeatingResults\u0028\u0029",
+            "name": "testGetFilteredAfterIdPaginatesAcrossTwoPagesWithoutRepeatingResults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#method_testGetFilteredAfterIdPaginatesAcrossTwoPagesWithoutRepeatingResults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest\u003A\u003AtestGetFilteredAfterIdRejectsWrongFilterType\u0028\u0029",
+            "name": "testGetFilteredAfterIdRejectsWrongFilterType",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#method_testGetFilteredAfterIdRejectsWrongFilterType"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest\u003A\u003AtestGetByUserIdSortsDescending\u0028\u0029",
+            "name": "testGetByUserIdSortsDescending",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#method_testGetByUserIdSortsDescending"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest\u003A\u003AtestGetCountByMessageIdQueriesTotalHitsForMessage\u0028\u0029",
+            "name": "testGetCountByMessageIdQueriesTotalHitsForMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#method_testGetCountByMessageIdQueriesTotalHitsForMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest\u003A\u003AtestCountBetweenQueriesTimeRange\u0028\u0029",
+            "name": "testCountBetweenQueriesTimeRange",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#method_testCountBetweenQueriesTimeRange"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest\u003A\u003AtestExistsByMessageIdAndUserIdReturnsTrueWhenHitsExist\u0028\u0029",
+            "name": "testExistsByMessageIdAndUserIdReturnsTrueWhenHitsExist",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#method_testExistsByMessageIdAndUserIdReturnsTrueWhenHitsExist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest\u003A\u003AtestExistsByMessageIdAndUserIdReturnsFalseWhenNoHits\u0028\u0029",
+            "name": "testExistsByMessageIdAndUserIdReturnsFalseWhenNoHits",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#method_testExistsByMessageIdAndUserIdReturnsFalseWhenNoHits"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#property_client"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest\u003A\u003A\u0024reader",
+            "name": "reader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#property_reader"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\AttachmentAdderTest",
             "name": "AttachmentAdderTest",
             "summary": "",
@@ -25906,6 +26411,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-RateLimitedCampaignMailerTest.html#property_sut"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Search\\UserMessageBounceIndexDefinitionTest",
+            "name": "UserMessageBounceIndexDefinitionTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Search-UserMessageBounceIndexDefinitionTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Search\\UserMessageBounceIndexDefinitionTest\u003A\u003AtestAliasMatchesEntitySearchIndexName\u0028\u0029",
+            "name": "testAliasMatchesEntitySearchIndexName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Search-UserMessageBounceIndexDefinitionTest.html#method_testAliasMatchesEntitySearchIndexName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Search\\UserMessageBounceIndexDefinitionTest\u003A\u003AtestMappingDeclaresExpectedFields\u0028\u0029",
+            "name": "testMappingDeclaresExpectedFields",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Search-UserMessageBounceIndexDefinitionTest.html#method_testMappingDeclaresExpectedFields"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Search\\UserMessageBounceIndexDefinitionTest\u003A\u003AtestSettingsAreEmptyByDefault\u0028\u0029",
+            "name": "testSettingsAreEmptyByDefault",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Search-UserMessageBounceIndexDefinitionTest.html#method_testSettingsAreEmptyByDefault"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Search\\UserMessageBounceReindexProviderTest",
+            "name": "UserMessageBounceReindexProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Search-UserMessageBounceReindexProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Search\\UserMessageBounceReindexProviderTest\u003A\u003AtestAliasMatchesEntitySearchIndexName\u0028\u0029",
+            "name": "testAliasMatchesEntitySearchIndexName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Search-UserMessageBounceReindexProviderTest.html#method_testAliasMatchesEntitySearchIndexName"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\SendRateLimiterTest",
             "name": "SendRateLimiterTest",
             "summary": "",
@@ -28146,15 +28681,30 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-model-filter.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Interfaces",
+            "name": "Interfaces",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-model-interfaces.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Message",
             "name": "Message",
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-model-message.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\ReadModel",
+            "name": "ReadModel",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-model-readmodel.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository",
             "name": "Repository",
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-repository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces",
+            "name": "Interfaces",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-repository-interfaces.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service",
             "name": "Service",
@@ -28190,6 +28740,11 @@ Search.appendIndex(
             "name": "Processor",
             "summary": "",
             "url": "namespaces/phplist-core-domain-messaging-service-processor.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Search",
+            "name": "Search",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-messaging-service-search.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Validator",
             "name": "Validator",
@@ -28675,6 +29230,11 @@ Search.appendIndex(
             "name": "Processor",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging-service-processor.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Search",
+            "name": "Search",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-messaging-service-search.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Validator",
             "name": "Validator",
