@@ -551,6 +551,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_messageBus"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\SearchIndexDoctrineListener\u003A\u003A\u0024enabled",
+            "name": "enabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_enabled"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener",
             "name": "TablePrefixListener",
             "summary": "",
@@ -10006,6 +10011,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReaderInterface.html#method_existsByMessageIdAndUserId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReportReaderInterface",
+            "name": "UserMessageBounceReportReaderInterface",
+            "summary": "Implemented\u0020by\u0020UserMessageBounceRepository\u0020\u0028Doctrine\/DB,\u0020plain\u0020SQL\u0020joins\u0029\u0020and\nUserMessageBounceElasticsearchHybridReader\u0020\u0028Elasticsearch\u0020bounce\u0020counts\u0020merged\u0020with\u0020MySQL\nSubscriber\/Message\u0020data\u0029.\u0020Consumers\u0020are\u0020aliased\u0020to\u0020whichever\u0020one\u0020reads\u0020are\u0020configured\u0020to\u0020use\u0020\u002D\nsee\u0020config\/services\/repositories.yml.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReportReaderInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReportReaderInterface\u003A\u003AgetListBounceTotals\u0028\u0029",
+            "name": "getListBounceTotals",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReportReaderInterface.html#method_getListBounceTotals"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReportReaderInterface\u003A\u003AgetCampaignBounceTotals\u0028\u0029",
+            "name": "getCampaignBounceTotals",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReportReaderInterface.html#method_getCampaignBounceTotals"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\ListMessageRepository",
             "name": "ListMessageRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -10176,6 +10196,61 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-TemplateRepository.html#method_getFilteredAfterId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader",
+            "name": "UserMessageBounceConfigurableReader",
+            "summary": "Read\u002Dside\u0020half\u0020of\u0020making\u0020Elasticsearch\u0020fully\u0020optional\u0020\u0028see\u0020docs\/ElasticsearchSearch.md\u0020and\nSearchIndexDoctrineListener\u0020for\u0020the\u0020write\u002Dside\u0020half\u0029\u003A\u0020delegates\u0020to\u0020the\u0020Elasticsearch\u0020reader\u0020when\nelasticsearch.enabled\u0020is\u0020true,\u0020otherwise\u0020to\u0020the\u0020plain\u0020Doctrine\u0020repository.\u0020This\u0020is\u0020what\nUserMessageBounceReaderInterface\u0020is\u0020aliased\u0020to\u0020in\u0020config\/services\/repositories.yml,\u0020so\u0020no\u0020consumer\nneeds\u0020to\u0020know\u0020which\u0020backend\u0020is\u0020active.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#method_getFilteredAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003AgetByUserId\u0028\u0029",
+            "name": "getByUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#method_getByUserId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003AgetCountByMessageId\u0028\u0029",
+            "name": "getCountByMessageId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#method_getCountByMessageId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003AcountBetween\u0028\u0029",
+            "name": "countBetween",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#method_countBetween"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003AexistsByMessageIdAndUserId\u0028\u0029",
+            "name": "existsByMessageIdAndUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#method_existsByMessageIdAndUserId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003AactiveReader\u0028\u0029",
+            "name": "activeReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#method_activeReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003A\u0024databaseReader",
+            "name": "databaseReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#property_databaseReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003A\u0024elasticsearchReader",
+            "name": "elasticsearchReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#property_elasticsearchReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003A\u0024elasticsearchEnabled",
+            "name": "elasticsearchEnabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#property_elasticsearchEnabled"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader",
             "name": "UserMessageBounceElasticsearchHybridReader",
             "summary": "Reporting\/joining\u0020queries\u0020that\u0020correlate\u0020Elasticsearch\u002Dbacked\u0020bounce\u0020data\u0020with\u0020related\u0020entities\nthat\u0020live\u0020in\u0020MySQL\u0020only\u0020\u0028Subscriber\/Subscription,\u0020Message,\u0020Bounce,\u0020UserMessage\u0029.\u0020These\u0020aren\u0027t\n\u0022the\u0020ES\u0020implementation\u0020of\u0020UserMessageBounceReaderInterface\u0022\u0020\u002D\u0020a\u0020plain\u0020ES\u0020reader\u0020has\u0020no\u0020business\nrunning\u0020Doctrine\u0020joins\u0020\u002D\u0020they\u0027re\u0020a\u0020distinct\u0020concern\u003A\u0020legacy\u0020report\/processing\u0020queries\u0020that\u0020used\u0020to\njoin\u0020straight\u0020onto\u0020the\u0020\u0028now\u0020potentially\u0020huge\u0029\u0020user_message_bounce\u0020table\u0020in\u0020one\u0020SQL\u0020statement,\u0020and\nnow\u0020get\u0020the\u0020bounce\u0020side\u0020of\u0020that\u0020join\u0020from\u0020Elasticsearch\u0020instead,\u0020merging\u0020in\u0020PHP.",
@@ -10310,6 +10385,46 @@ Search.appendIndex(
             "name": "indexPrefix",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#property_indexPrefix"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReader",
+            "name": "UserMessageBounceReportConfigurableReader",
+            "summary": "Read\u002Dside\u0020half\u0020of\u0020making\u0020Elasticsearch\u0020fully\u0020optional\u0020\u0028see\u0020docs\/ElasticsearchSearch.md\u0020and\nSearchIndexDoctrineListener\u0020for\u0020the\u0020write\u002Dside\u0020half\u0029\u003A\u0020delegates\u0020to\u0020the\u0020Elasticsearch\u002Dbacked\u0020hybrid\nreader\u0020when\u0020elasticsearch.enabled\u0020is\u0020true,\u0020otherwise\u0020to\u0020the\u0020plain\u0020Doctrine\u0020repository.\u0020This\u0020is\u0020what\nUserMessageBounceReportReaderInterface\u0020is\u0020aliased\u0020to\u0020in\u0020config\/services\/repositories.yml,\u0020so\u0020no\nconsumer\u0020\u0028e.g.\u0020phplist\/rest\u002Dapi\u0027s\u0020BounceController\u0029\u0020needs\u0020to\u0020know\u0020which\u0020backend\u0020is\u0020active.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReader.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReader\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReader.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReader\u003A\u003AgetListBounceTotals\u0028\u0029",
+            "name": "getListBounceTotals",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReader.html#method_getListBounceTotals"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReader\u003A\u003AgetCampaignBounceTotals\u0028\u0029",
+            "name": "getCampaignBounceTotals",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReader.html#method_getCampaignBounceTotals"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReader\u003A\u003AactiveReader\u0028\u0029",
+            "name": "activeReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReader.html#method_activeReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReader\u003A\u003A\u0024databaseReader",
+            "name": "databaseReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReader.html#property_databaseReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReader\u003A\u003A\u0024elasticsearchReader",
+            "name": "elasticsearchReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReader.html#property_elasticsearchReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReader\u003A\u003A\u0024elasticsearchEnabled",
+            "name": "elasticsearchEnabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReader.html#property_elasticsearchEnabled"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository",
             "name": "UserMessageBounceRepository",
@@ -16301,6 +16416,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeValueRepository.html#method_findOneBySubscriberAndAttributeName"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReader",
+            "name": "SubscriberHistoryConfigurableReader",
+            "summary": "Read\u002Dside\u0020half\u0020of\u0020making\u0020Elasticsearch\u0020fully\u0020optional\u0020\u0028see\u0020docs\/ElasticsearchSearch.md\u0020and\nSearchIndexDoctrineListener\u0020for\u0020the\u0020write\u002Dside\u0020half\u0029\u003A\u0020delegates\u0020to\u0020the\u0020Elasticsearch\u0020reader\u0020when\nelasticsearch.enabled\u0020is\u0020true,\u0020otherwise\u0020to\u0020the\u0020plain\u0020Doctrine\u0020repository.\u0020This\u0020is\u0020what\nSubscriberHistoryReaderInterface\u0020is\u0020aliased\u0020to\u0020in\u0020config\/services\/repositories.yml,\u0020so\u0020no\u0020consumer\nneeds\u0020to\u0020know\u0020which\u0020backend\u0020is\u0020active.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryConfigurableReader.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReader\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryConfigurableReader.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReader\u003A\u003AgetFilteredAfterId\u0028\u0029",
+            "name": "getFilteredAfterId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryConfigurableReader.html#method_getFilteredAfterId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReader\u003A\u003AgetBySubscriber\u0028\u0029",
+            "name": "getBySubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryConfigurableReader.html#method_getBySubscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReader\u003A\u003AactiveReader\u0028\u0029",
+            "name": "activeReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryConfigurableReader.html#method_activeReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReader\u003A\u003A\u0024databaseReader",
+            "name": "databaseReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryConfigurableReader.html#property_databaseReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReader\u003A\u003A\u0024elasticsearchReader",
+            "name": "elasticsearchReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryConfigurableReader.html#property_elasticsearchReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReader\u003A\u003A\u0024elasticsearchEnabled",
+            "name": "elasticsearchEnabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryConfigurableReader.html#property_elasticsearchEnabled"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReader",
             "name": "SubscriberHistoryElasticsearchReader",
             "summary": "ES\u002Dbacked\u0020counterpart\u0020of\u0020SubscriberHistoryRepository.\u0020Read\u002Donly\u0020\u002D\u0020dual\u002Dwrite\u0020is\u0020handled\u0020entirely\nby\u0020SearchIndexDoctrineListener,\u0020not\u0020by\u0020this\u0020class.\u0020Any\u0020Elasticsearch\u0020failure\u0020surfaces\u0020as\nSearchBackendUnavailableException\u0020\u0028via\u0020ElasticsearchClientInterface\u0029\u0020with\u0020no\u0020fallback\u0020to\u0020the\u0020database.",
@@ -19860,6 +20015,11 @@ Search.appendIndex(
             "name": "testPendingBufferIsClearedAfterDispatch",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SearchIndexDoctrineListenerTest.html#method_testPendingBufferIsClearedAfterDispatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SearchIndexDoctrineListenerTest\u003A\u003AtestDisabledListenerNeverQueuesOrDispatchesAnything\u0028\u0029",
+            "name": "testDisabledListenerNeverQueuesOrDispatchesAnything",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SearchIndexDoctrineListenerTest.html#method_testDisabledListenerNeverQueuesOrDispatchesAnything"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SearchIndexDoctrineListenerTest\u003A\u003A\u0024messageBus",
             "name": "messageBus",
@@ -23671,6 +23831,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-SubscriberListRepositoryTest.html#property_subject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReaderTest",
+            "name": "UserMessageBounceConfigurableReaderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceConfigurableReaderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReaderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceConfigurableReaderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReaderTest\u003A\u003AtestDelegatesToElasticsearchWhenEnabled\u0028\u0029",
+            "name": "testDelegatesToElasticsearchWhenEnabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceConfigurableReaderTest.html#method_testDelegatesToElasticsearchWhenEnabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReaderTest\u003A\u003AtestDelegatesToDatabaseWhenDisabled\u0028\u0029",
+            "name": "testDelegatesToDatabaseWhenDisabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceConfigurableReaderTest.html#method_testDelegatesToDatabaseWhenDisabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReaderTest\u003A\u003AtestExistsByMessageIdAndUserIdDelegatesToActiveReader\u0028\u0029",
+            "name": "testExistsByMessageIdAndUserIdDelegatesToActiveReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceConfigurableReaderTest.html#method_testExistsByMessageIdAndUserIdDelegatesToActiveReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReaderTest\u003A\u003AtestGetByUserIdDelegatesToActiveReader\u0028\u0029",
+            "name": "testGetByUserIdDelegatesToActiveReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceConfigurableReaderTest.html#method_testGetByUserIdDelegatesToActiveReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReaderTest\u003A\u003A\u0024databaseReader",
+            "name": "databaseReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceConfigurableReaderTest.html#property_databaseReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReaderTest\u003A\u003A\u0024elasticsearchReader",
+            "name": "elasticsearchReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceConfigurableReaderTest.html#property_elasticsearchReader"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReaderTest",
             "name": "UserMessageBounceElasticsearchReaderTest",
             "summary": "",
@@ -23730,6 +23930,36 @@ Search.appendIndex(
             "name": "reader",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceElasticsearchReaderTest.html#property_reader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReaderTest",
+            "name": "UserMessageBounceReportConfigurableReaderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReaderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReaderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReaderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReaderTest\u003A\u003AtestGetListBounceTotalsDelegatesToElasticsearchWhenEnabled\u0028\u0029",
+            "name": "testGetListBounceTotalsDelegatesToElasticsearchWhenEnabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReaderTest.html#method_testGetListBounceTotalsDelegatesToElasticsearchWhenEnabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReaderTest\u003A\u003AtestGetCampaignBounceTotalsDelegatesToDatabaseWhenDisabled\u0028\u0029",
+            "name": "testGetCampaignBounceTotalsDelegatesToDatabaseWhenDisabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReaderTest.html#method_testGetCampaignBounceTotalsDelegatesToDatabaseWhenDisabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReaderTest\u003A\u003A\u0024databaseReader",
+            "name": "databaseReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReaderTest.html#property_databaseReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Repository\\UserMessageBounceReportConfigurableReaderTest\u003A\u003A\u0024elasticsearchReader",
+            "name": "elasticsearchReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Repository-UserMessageBounceReportConfigurableReaderTest.html#property_elasticsearchReader"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\AttachmentAdderTest",
             "name": "AttachmentAdderTest",
@@ -27120,6 +27350,36 @@ Search.appendIndex(
             "name": "testFetchSingleOptionNameReturnsNullWhenNotFound",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-DynamicListAttrRepositoryTest.html#method_testFetchSingleOptionNameReturnsNullWhenNotFound"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReaderTest",
+            "name": "SubscriberHistoryConfigurableReaderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryConfigurableReaderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReaderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryConfigurableReaderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReaderTest\u003A\u003AtestDelegatesToElasticsearchWhenEnabled\u0028\u0029",
+            "name": "testDelegatesToElasticsearchWhenEnabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryConfigurableReaderTest.html#method_testDelegatesToElasticsearchWhenEnabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReaderTest\u003A\u003AtestDelegatesToDatabaseWhenDisabled\u0028\u0029",
+            "name": "testDelegatesToDatabaseWhenDisabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryConfigurableReaderTest.html#method_testDelegatesToDatabaseWhenDisabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReaderTest\u003A\u003A\u0024databaseReader",
+            "name": "databaseReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryConfigurableReaderTest.html#property_databaseReader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryConfigurableReaderTest\u003A\u003A\u0024elasticsearchReader",
+            "name": "elasticsearchReader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Repository-SubscriberHistoryConfigurableReaderTest.html#property_elasticsearchReader"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Repository\\SubscriberHistoryElasticsearchReaderTest",
             "name": "SubscriberHistoryElasticsearchReaderTest",

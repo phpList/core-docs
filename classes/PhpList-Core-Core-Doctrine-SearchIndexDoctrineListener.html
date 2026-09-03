@@ -123,7 +123,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -140,6 +140,10 @@ more important guarantee of never indexing/deleting a row that was rolled back.<
 <p>preRemove captures getSearchIndexName()/getSearchDocumentId() before the delete happens: for
 entities with a Doctrine-generated id, UnitOfWork::executeDeletions() nulls the identifier before
 postRemove fires, so reading it there would queue a delete with an empty document id.</p>
+<p>$enabled (elasticsearch.enabled, ELASTICSEARCH_ENABLED) is the write-side half of making
+Elasticsearch fully optional: when false, every event method below is a no-op, so nothing is ever
+queued to the async_search transport - see docs/ElasticsearchSearch.md. The read-side half is each
+entity's *ConfigurableReader falling back to its Doctrine repository.</p>
 </section>
 
 
@@ -212,6 +216,12 @@ postRemove fires, so reading it there would queue a delete with an empty documen
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_enabled">$enabled</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_messageBus">$messageBus</a>
     <span>
@@ -310,6 +320,43 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
             -private
                                                 -read-only                    "
 >
+    <h4 class="phpdocumentor-element__name" id="property_enabled">
+        $enabled
+        <a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_enabled" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">54</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$enabled</span>
+     = <span class="phpdocumentor-signature__default-value">true</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_messageBus">
         $messageBus
         <a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_messageBus" class="headerlink"><i class="fas fa-link"></i></a>
@@ -320,7 +367,7 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 
     </aside>
 
@@ -357,7 +404,7 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
     </aside>
 
@@ -394,7 +441,7 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
@@ -438,14 +485,14 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageBus</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageBus</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$enabled</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -457,6 +504,13 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
                 <span class="phpdocumentor-argument-list__argument__name">$messageBus</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr></span>
                             </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$enabled</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">true</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -482,7 +536,7 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">96</span>
+    <span class="phpdocumentor-element-found-in__line">119</span>
 
     </aside>
 
@@ -526,7 +580,7 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
@@ -570,7 +624,7 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">100</span>
 
     </aside>
 
@@ -614,7 +668,7 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">61</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
@@ -658,7 +712,7 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">86</span>
 
     </aside>
 
@@ -702,7 +756,7 @@ external versioning) can tell a stale retry apart from a newer write.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">134</span>
+    <span class="phpdocumentor-element-found-in__line">157</span>
 
     </aside>
 
@@ -744,7 +798,7 @@ external versioning) can tell a stale retry apart from a newer write.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/SearchIndexDoctrineListener.php"><a href="files/src-core-doctrine-searchindexdoctrinelistener.html"><abbr title="src/Core/Doctrine/SearchIndexDoctrineListener.php">SearchIndexDoctrineListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">110</span>
+    <span class="phpdocumentor-element-found-in__line">133</span>
 
     </aside>
 
@@ -817,6 +871,7 @@ external versioning) can tell a stale retry apart from a newer write.</p>
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_enabled">$enabled</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_messageBus">$messageBus</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_pending">$pending</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_removalKeys">$removalKeys</a></li>
