@@ -381,6 +381,13 @@ campaigns for those subscriber lists.</p>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_historyRecords">$historyRecords</a>
+    <span>
+                        &nbsp;: <abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>&lt;int, <a href="classes/PhpList-Core-Domain-Subscription-Model-SubscriberHistory.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscriberHistory">SubscriberHistory</abbr></a>&gt;            </span>
+</dt>
+<dd>Doctrine-only bookkeeping, not part of the public API (see getHistory()/setHistory() for that).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_htmlEmail">$htmlEmail</a>
     <span>
                         &nbsp;: bool            </span>
@@ -1186,7 +1193,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">127</span>
 
     </aside>
 
@@ -1246,7 +1253,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">119</span>
+    <span class="phpdocumentor-element-found-in__line">131</span>
 
     </aside>
 
@@ -1263,6 +1270,70 @@ campaigns for those subscriber lists.</p>
     
 
         
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_historyRecords">
+        $historyRecords
+        <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_historyRecords" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">106</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Doctrine-only bookkeeping, not part of the public API (see getHistory()/setHistory() for that).</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>&lt;int, <a href="classes/PhpList-Core-Domain-Subscription-Model-SubscriberHistory.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscriberHistory">SubscriberHistory</abbr></a>&gt;</span>
+    <span class="phpdocumentor-signature__name">$historyRecords</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>SubscriberHistory's FK has only a DB-level ON DELETE CASCADE - without this mapped association,
+removing a Subscriber straight through the EntityManager would let the database silently drop its
+SubscriberHistory rows without Doctrine ever loading/removing them individually, so
+SearchIndexDoctrineListener would never fire for those rows and their Elasticsearch documents
+would be orphaned. This cascade makes Doctrine remove them itself instead.</p>
+</section>
+
+    
+    
+
+        
+            <section class="phpdocumentor-attributes">
+            <h5 class="phpdocumentor-elements__header" id="property_historyRecords_attributes">
+                Attributes <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_historyRecords_attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+            </h5>
+                            <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Doctrine\ORM\Mapping\OneToMany">OneToMany</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        $targetEntity: \PhpList\Core\Domain\Subscription\Model\SubscriberHistory::class
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $mappedBy: &#039;subscriber&#039;
+    </dd>
+        <dd class="phpdocumentor-argument-list__entry">
+        $cascade: [&#039;remove&#039;]
+    </dd>
+    </dl>
+                    </section>
         
 
 </article>
@@ -1398,7 +1469,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">97</span>
+    <span class="phpdocumentor-element-found-in__line">109</span>
 
     </aside>
 
@@ -1452,7 +1523,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">109</span>
+    <span class="phpdocumentor-element-found-in__line">121</span>
 
     </aside>
 
@@ -1512,7 +1583,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">112</span>
+    <span class="phpdocumentor-element-found-in__line">124</span>
 
     </aside>
 
@@ -1569,7 +1640,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">106</span>
+    <span class="phpdocumentor-element-found-in__line">118</span>
 
     </aside>
 
@@ -1629,7 +1700,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">115</span>
 
     </aside>
 
@@ -1860,7 +1931,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">100</span>
+    <span class="phpdocumentor-element-found-in__line">112</span>
 
     </aside>
 
@@ -1922,7 +1993,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">121</span>
+    <span class="phpdocumentor-element-found-in__line">133</span>
 
     </aside>
 
@@ -1966,7 +2037,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">296</span>
+    <span class="phpdocumentor-element-found-in__line">309</span>
 
     </aside>
 
@@ -2014,7 +2085,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">271</span>
+    <span class="phpdocumentor-element-found-in__line">284</span>
 
     </aside>
 
@@ -2062,7 +2133,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">189</span>
+    <span class="phpdocumentor-element-found-in__line">202</span>
 
     </aside>
 
@@ -2110,7 +2181,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">208</span>
+    <span class="phpdocumentor-element-found-in__line">221</span>
 
     </aside>
 
@@ -2159,7 +2230,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">291</span>
+    <span class="phpdocumentor-element-found-in__line">304</span>
 
     </aside>
 
@@ -2197,7 +2268,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">177</span>
+    <span class="phpdocumentor-element-found-in__line">190</span>
 
     </aside>
 
@@ -2235,7 +2306,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">136</span>
+    <span class="phpdocumentor-element-found-in__line">149</span>
 
     </aside>
 
@@ -2273,7 +2344,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">215</span>
+    <span class="phpdocumentor-element-found-in__line">228</span>
 
     </aside>
 
@@ -2311,7 +2382,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">251</span>
+    <span class="phpdocumentor-element-found-in__line">264</span>
 
     </aside>
 
@@ -2349,7 +2420,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">371</span>
+    <span class="phpdocumentor-element-found-in__line">384</span>
 
     </aside>
 
@@ -2387,7 +2458,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">384</span>
+    <span class="phpdocumentor-element-found-in__line">397</span>
 
     </aside>
 
@@ -2425,7 +2496,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">131</span>
+    <span class="phpdocumentor-element-found-in__line">144</span>
 
     </aside>
 
@@ -2463,7 +2534,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">351</span>
+    <span class="phpdocumentor-element-found-in__line">364</span>
 
     </aside>
 
@@ -2501,7 +2572,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">361</span>
+    <span class="phpdocumentor-element-found-in__line">374</span>
 
     </aside>
 
@@ -2539,7 +2610,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">341</span>
+    <span class="phpdocumentor-element-found-in__line">354</span>
 
     </aside>
 
@@ -2577,7 +2648,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">281</span>
+    <span class="phpdocumentor-element-found-in__line">294</span>
 
     </aside>
 
@@ -2615,7 +2686,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">331</span>
+    <span class="phpdocumentor-element-found-in__line">344</span>
 
     </aside>
 
@@ -2653,7 +2724,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">266</span>
+    <span class="phpdocumentor-element-found-in__line">279</span>
 
     </aside>
 
@@ -2691,7 +2762,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">196</span>
+    <span class="phpdocumentor-element-found-in__line">209</span>
 
     </aside>
 
@@ -2729,7 +2800,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
+    <span class="phpdocumentor-element-found-in__line">154</span>
 
     </aside>
 
@@ -2767,7 +2838,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">321</span>
+    <span class="phpdocumentor-element-found-in__line">334</span>
 
     </aside>
 
@@ -2805,7 +2876,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">227</span>
+    <span class="phpdocumentor-element-found-in__line">240</span>
 
     </aside>
 
@@ -2843,7 +2914,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">165</span>
+    <span class="phpdocumentor-element-found-in__line">178</span>
 
     </aside>
 
@@ -2881,7 +2952,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">152</span>
+    <span class="phpdocumentor-element-found-in__line">165</span>
 
     </aside>
 
@@ -2919,7 +2990,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">239</span>
+    <span class="phpdocumentor-element-found-in__line">252</span>
 
     </aside>
 
@@ -2957,7 +3028,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">311</span>
+    <span class="phpdocumentor-element-found-in__line">324</span>
 
     </aside>
 
@@ -2995,7 +3066,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">305</span>
+    <span class="phpdocumentor-element-found-in__line">318</span>
 
     </aside>
 
@@ -3043,7 +3114,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">170</span>
+    <span class="phpdocumentor-element-found-in__line">183</span>
 
     </aside>
 
@@ -3091,7 +3162,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">182</span>
+    <span class="phpdocumentor-element-found-in__line">195</span>
 
     </aside>
 
@@ -3139,7 +3210,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">157</span>
+    <span class="phpdocumentor-element-found-in__line">170</span>
 
     </aside>
 
@@ -3187,7 +3258,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">244</span>
+    <span class="phpdocumentor-element-found-in__line">257</span>
 
     </aside>
 
@@ -3235,7 +3306,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">220</span>
+    <span class="phpdocumentor-element-found-in__line">233</span>
 
     </aside>
 
@@ -3283,7 +3354,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">256</span>
+    <span class="phpdocumentor-element-found-in__line">269</span>
 
     </aside>
 
@@ -3331,7 +3402,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">376</span>
+    <span class="phpdocumentor-element-found-in__line">389</span>
 
     </aside>
 
@@ -3375,7 +3446,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">392</span>
+    <span class="phpdocumentor-element-found-in__line">405</span>
 
     </aside>
 
@@ -3419,7 +3490,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">232</span>
+    <span class="phpdocumentor-element-found-in__line">245</span>
 
     </aside>
 
@@ -3467,7 +3538,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">316</span>
+    <span class="phpdocumentor-element-found-in__line">329</span>
 
     </aside>
 
@@ -3511,7 +3582,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">356</span>
+    <span class="phpdocumentor-element-found-in__line">369</span>
 
     </aside>
 
@@ -3555,7 +3626,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">366</span>
+    <span class="phpdocumentor-element-found-in__line">379</span>
 
     </aside>
 
@@ -3599,7 +3670,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">346</span>
+    <span class="phpdocumentor-element-found-in__line">359</span>
 
     </aside>
 
@@ -3643,7 +3714,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">336</span>
+    <span class="phpdocumentor-element-found-in__line">349</span>
 
     </aside>
 
@@ -3687,7 +3758,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">201</span>
+    <span class="phpdocumentor-element-found-in__line">214</span>
 
     </aside>
 
@@ -3735,7 +3806,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">326</span>
+    <span class="phpdocumentor-element-found-in__line">339</span>
 
     </aside>
 
@@ -3779,7 +3850,7 @@ campaigns for those subscriber lists.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Model/Subscriber.php"><a href="files/src-domain-subscription-model-subscriber.html"><abbr title="src/Domain/Subscription/Model/Subscriber.php">Subscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">146</span>
+    <span class="phpdocumentor-element-found-in__line">159</span>
 
     </aside>
 
@@ -3842,6 +3913,7 @@ campaigns for those subscriber lists.</p>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_extraData">$extraData</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_foreignKey">$foreignKey</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_history">$history</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_historyRecords">$historyRecords</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_htmlEmail">$htmlEmail</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_id">$id</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_optedIn">$optedIn</a></li>

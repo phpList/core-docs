@@ -14071,6 +14071,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Search-Command-InitSearchIndicesCommand.html#property_indexer"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand",
+            "name": "PurgeSearchIndexedRowsCommand",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003Aconfigure\u0028\u0029",
+            "name": "configure",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#method_configure"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#method_execute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003ApurgeProvider\u0028\u0029",
+            "name": "purgeProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#method_purgeProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003AconfirmedInElasticsearch\u0028\u0029",
+            "name": "confirmedInElasticsearch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#method_confirmedInElasticsearch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003ADEFAULT_BATCH_SIZE",
+            "name": "DEFAULT_BATCH_SIZE",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#constant_DEFAULT_BATCH_SIZE"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003A\u0024registry",
+            "name": "registry",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#property_registry"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#property_client"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\ReindexSearchCommand",
             "name": "ReindexSearchCommand",
             "summary": "",
@@ -14236,6 +14281,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Search-Model-Interfaces-SearchIndexDefinitionInterface.html#method_getSettings"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Model\\Interfaces\\SearchPurgeProviderInterface",
+            "name": "SearchPurgeProviderInterface",
+            "summary": "Batches\u0020an\u0020entity\u0020type\u0020out\u0020of\u0020the\u0020database\u0020for\u0020deletion\u0020once\u0020rows\u0020are\u0020older\u0020than\u0020a\u0020configured\nretention\u0020period\u0020and\u0020confirmed\u0020to\u0020exist\u0020in\u0020Elasticsearch.\u0020Implementations\u0020are\u0020auto\u002Dtagged\u0020via\nconfig\/services\/elasticsearch.yml\u0020and\u0020picked\u0020up\u0020by\u0020the\u0020\u0060phplist\u003Asearch\u003Apurge\u0060\u0020command.",
+            "url": "classes/PhpList-Core-Domain-Search-Model-Interfaces-SearchPurgeProviderInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Model\\Interfaces\\SearchPurgeProviderInterface\u003A\u003AgetAlias\u0028\u0029",
+            "name": "getAlias",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Model-Interfaces-SearchPurgeProviderInterface.html#method_getAlias"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Model\\Interfaces\\SearchPurgeProviderInterface\u003A\u003AgetRetentionPeriod\u0028\u0029",
+            "name": "getRetentionPeriod",
+            "summary": "Null\u0020means\u0020purge\u0020is\u0020disabled\u0020for\u0020this\u0020entity\u0020\u0028no\u0020retention\u0020period\u0020configured\u0029.",
+            "url": "classes/PhpList-Core-Domain-Search-Model-Interfaces-SearchPurgeProviderInterface.html#method_getRetentionPeriod"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Model\\Interfaces\\SearchPurgeProviderInterface\u003A\u003AgetSearchIndexName\u0028\u0029",
+            "name": "getSearchIndexName",
+            "summary": "Physical\u0020Elasticsearch\u0020index\u0020name\u0020\u0028prefix\u0020included\u0029\u0020to\u0020verify\u0020rows\u0020against\u0020before\u0020deleting.",
+            "url": "classes/PhpList-Core-Domain-Search-Model-Interfaces-SearchPurgeProviderInterface.html#method_getSearchIndexName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Model\\Interfaces\\SearchPurgeProviderInterface\u003A\u003AcountOlderThan\u0028\u0029",
+            "name": "countOlderThan",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Model-Interfaces-SearchPurgeProviderInterface.html#method_countOlderThan"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Model\\Interfaces\\SearchPurgeProviderInterface\u003A\u003AfetchBatchOlderThan\u0028\u0029",
+            "name": "fetchBatchOlderThan",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Model-Interfaces-SearchPurgeProviderInterface.html#method_fetchBatchOlderThan"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Model\\Interfaces\\SearchPurgeProviderInterface\u003A\u003AdeleteByIds\u0028\u0029",
+            "name": "deleteByIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Model-Interfaces-SearchPurgeProviderInterface.html#method_deleteByIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Model\\Interfaces\\SearchReindexProviderInterface",
             "name": "SearchReindexProviderInterface",
             "summary": "Batches\u0020an\u0020entity\u0020type\u0020out\u0020of\u0020the\u0020database\u0020for\u0020backfilling\u0020Elasticsearch.\u0020Implementations\u0020are\nauto\u002Dtagged\u0020via\u0020config\/services\/elasticsearch.yml\u0020and\u0020picked\u0020up\u0020by\u0020the\u0020\u0060phplist\u003Asearch\u003Areindex\u0060\u0020command.",
@@ -14295,6 +14375,31 @@ Search.appendIndex(
             "name": "definitions",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Search-Registry-SearchIndexDefinitionRegistry.html#property_definitions"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Registry\\SearchPurgeProviderRegistry",
+            "name": "SearchPurgeProviderRegistry",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Registry-SearchPurgeProviderRegistry.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Registry\\SearchPurgeProviderRegistry\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Registry-SearchPurgeProviderRegistry.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Registry\\SearchPurgeProviderRegistry\u003A\u003AgetAll\u0028\u0029",
+            "name": "getAll",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Registry-SearchPurgeProviderRegistry.html#method_getAll"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Registry\\SearchPurgeProviderRegistry\u003A\u003Afind\u0028\u0029",
+            "name": "find",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Registry-SearchPurgeProviderRegistry.html#method_find"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Registry\\SearchPurgeProviderRegistry\u003A\u003A\u0024providers",
+            "name": "providers",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Registry-SearchPurgeProviderRegistry.html#property_providers"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Registry\\SearchReindexProviderRegistry",
             "name": "SearchReindexProviderRegistry",
@@ -15541,6 +15646,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_attributes"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003A\u0024historyRecords",
+            "name": "historyRecords",
+            "summary": "Doctrine\u002Donly\u0020bookkeeping,\u0020not\u0020part\u0020of\u0020the\u0020public\u0020API\u0020\u0028see\u0020getHistory\u0028\u0029\/setHistory\u0028\u0029\u0020for\u0020that\u0029.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html#property_historyRecords"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Subscriber\u003A\u003A\u0024optedIn",
             "name": "optedIn",
             "summary": "",
@@ -16520,6 +16630,21 @@ Search.appendIndex(
             "name": "getBySubscriber",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html#method_getBySubscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryRepository\u003A\u003AcountOlderThan\u0028\u0029",
+            "name": "countOlderThan",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html#method_countOlderThan"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryRepository\u003A\u003AfetchBatchOlderThan\u0028\u0029",
+            "name": "fetchBatchOlderThan",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html#method_fetchBatchOlderThan"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberHistoryRepository\u003A\u003AdeleteByIds\u0028\u0029",
+            "name": "deleteByIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberHistoryRepository.html#method_deleteByIds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberListRepository",
             "name": "SubscriberListRepository",
@@ -17610,6 +17735,61 @@ Search.appendIndex(
             "name": "getSettings",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryIndexDefinition.html#method_getSettings"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProvider",
+            "name": "SubscriberHistoryPurgeProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProvider\u003A\u003AgetAlias\u0028\u0029",
+            "name": "getAlias",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProvider.html#method_getAlias"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProvider\u003A\u003AgetRetentionPeriod\u0028\u0029",
+            "name": "getRetentionPeriod",
+            "summary": "Null\u0020means\u0020purge\u0020is\u0020disabled\u0020for\u0020this\u0020entity\u0020\u0028no\u0020retention\u0020period\u0020configured\u0029.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProvider.html#method_getRetentionPeriod"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProvider\u003A\u003AgetSearchIndexName\u0028\u0029",
+            "name": "getSearchIndexName",
+            "summary": "Physical\u0020Elasticsearch\u0020index\u0020name\u0020\u0028prefix\u0020included\u0029\u0020to\u0020verify\u0020rows\u0020against\u0020before\u0020deleting.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProvider.html#method_getSearchIndexName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProvider\u003A\u003AcountOlderThan\u0028\u0029",
+            "name": "countOlderThan",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProvider.html#method_countOlderThan"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProvider\u003A\u003AfetchBatchOlderThan\u0028\u0029",
+            "name": "fetchBatchOlderThan",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProvider.html#method_fetchBatchOlderThan"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProvider\u003A\u003AdeleteByIds\u0028\u0029",
+            "name": "deleteByIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProvider.html#method_deleteByIds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProvider\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProvider.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProvider\u003A\u003A\u0024indexPrefix",
+            "name": "indexPrefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProvider.html#property_indexPrefix"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProvider\u003A\u003A\u0024retentionPeriod",
+            "name": "retentionPeriod",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProvider.html#property_retentionPeriod"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryReindexProvider",
             "name": "SubscriberHistoryReindexProvider",
@@ -19205,6 +19385,61 @@ Search.appendIndex(
             "name": "load",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Fixtures-SubscriptionFixture.html#method_load"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberHistoryRepositoryTest",
+            "name": "SubscriberHistoryRepositoryTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberHistoryRepositoryTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberHistoryRepositoryTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberHistoryRepositoryTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberHistoryRepositoryTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberHistoryRepositoryTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberHistoryRepositoryTest\u003A\u003ApersistHistoryRow\u0028\u0029",
+            "name": "persistHistoryRow",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberHistoryRepositoryTest.html#method_persistHistoryRow"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberHistoryRepositoryTest\u003A\u003AtestCountOlderThanOnlyCountsRowsBeforeCutoff\u0028\u0029",
+            "name": "testCountOlderThanOnlyCountsRowsBeforeCutoff",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberHistoryRepositoryTest.html#method_testCountOlderThanOnlyCountsRowsBeforeCutoff"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberHistoryRepositoryTest\u003A\u003AtestFetchBatchOlderThanReturnsOnlyMatchingRowsInIdOrder\u0028\u0029",
+            "name": "testFetchBatchOlderThanReturnsOnlyMatchingRowsInIdOrder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberHistoryRepositoryTest.html#method_testFetchBatchOlderThanReturnsOnlyMatchingRowsInIdOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberHistoryRepositoryTest\u003A\u003AtestFetchBatchOlderThanRespectsLastIdCursor\u0028\u0029",
+            "name": "testFetchBatchOlderThanRespectsLastIdCursor",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberHistoryRepositoryTest.html#method_testFetchBatchOlderThanRespectsLastIdCursor"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberHistoryRepositoryTest\u003A\u003AtestDeleteByIdsRemovesOnlyGivenRows\u0028\u0029",
+            "name": "testDeleteByIdsRemovesOnlyGivenRows",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberHistoryRepositoryTest.html#method_testDeleteByIdsRemovesOnlyGivenRows"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberHistoryRepositoryTest\u003A\u003AtestDeleteByIdsWithEmptyArrayDeletesNothing\u0028\u0029",
+            "name": "testDeleteByIdsWithEmptyArrayDeletesNothing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberHistoryRepositoryTest.html#method_testDeleteByIdsWithEmptyArrayDeletesNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberHistoryRepositoryTest\u003A\u003AtestRemovingSubscriberCascadeDeletesItsHistoryRecords\u0028\u0029",
+            "name": "testRemovingSubscriberCascadeDeletesItsHistoryRecords",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberHistoryRepositoryTest.html#method_testRemovingSubscriberCascadeDeletesItsHistoryRecords"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberHistoryRepositoryTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberHistoryRepositoryTest.html#property_repository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest",
             "name": "SubscriberRepositoryTest",
@@ -26956,6 +27191,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Validator-TemplateLinkValidatorTest.html#property_validator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommandTest",
+            "name": "PurgeSearchIndexedRowsCommandTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Command-PurgeSearchIndexedRowsCommandTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommandTest\u003A\u003AmakeFakeRow\u0028\u0029",
+            "name": "makeFakeRow",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Command-PurgeSearchIndexedRowsCommandTest.html#method_makeFakeRow"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommandTest\u003A\u003AcommandTesterWithProviders\u0028\u0029",
+            "name": "commandTesterWithProviders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Command-PurgeSearchIndexedRowsCommandTest.html#method_commandTesterWithProviders"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommandTest\u003A\u003AtestDeletesOnlyRowsConfirmedInElasticsearch\u0028\u0029",
+            "name": "testDeletesOnlyRowsConfirmedInElasticsearch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Command-PurgeSearchIndexedRowsCommandTest.html#method_testDeletesOnlyRowsConfirmedInElasticsearch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommandTest\u003A\u003AtestDryRunDoesNotDeleteAnything\u0028\u0029",
+            "name": "testDryRunDoesNotDeleteAnything",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Command-PurgeSearchIndexedRowsCommandTest.html#method_testDryRunDoesNotDeleteAnything"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommandTest\u003A\u003AtestSkipsProvidersWithoutARetentionPeriod\u0028\u0029",
+            "name": "testSkipsProvidersWithoutARetentionPeriod",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Command-PurgeSearchIndexedRowsCommandTest.html#method_testSkipsProvidersWithoutARetentionPeriod"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommandTest\u003A\u003AtestFailsWhenAliasHasNoRetentionPeriodConfigured\u0028\u0029",
+            "name": "testFailsWhenAliasHasNoRetentionPeriodConfigured",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Command-PurgeSearchIndexedRowsCommandTest.html#method_testFailsWhenAliasHasNoRetentionPeriodConfigured"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommandTest\u003A\u003A\u0024client",
+            "name": "client",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Search-Command-PurgeSearchIndexedRowsCommandTest.html#property_client"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake\\InMemoryVersionedElasticsearchClient",
             "name": "InMemoryVersionedElasticsearchClient",
             "summary": "Mirrors\u0020real\u0020Elasticsearch\u0027s\u0020\u0060version_type\u003A\u0020external_gte\u0060\u0020semantics\u0020well\u0020enough\u0020to\u0020test\nrevision\u002Dbased\u0020conflict\u0020rejection\u0020without\u0020a\u0020live\u0020cluster\u003A\u0020index\u0028\u0029\/delete\u0028\u0029\u0020are\u0020no\u002Dops\u0020whenever\n\u0024revision\u0020is\u0020older\u0020than\u0020the\u0020revision\u0020last\u0020accepted\u0020for\u0020that\u0020document.\u0020The\u0020real\u0020vendor\u0020\u0060Client\u0060\u0020is\n\u0060final\u0060,\u0020so\u0020this\u0020is\u0020the\u0020only\u0020way\u0020to\u0020unit\u002Dtest\u0020that\u0020ordering\u0020guarantee.",
@@ -28306,6 +28581,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryIndexDefinitionTest.html#method_testSettingsAreEmptyByDefault"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProviderTest",
+            "name": "SubscriberHistoryPurgeProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProviderTest\u003A\u003AtestAliasMatchesEntitySearchIndexName\u0028\u0029",
+            "name": "testAliasMatchesEntitySearchIndexName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProviderTest.html#method_testAliasMatchesEntitySearchIndexName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProviderTest\u003A\u003AtestGetRetentionPeriodReturnsNullWhenNotConfigured\u0028\u0029",
+            "name": "testGetRetentionPeriodReturnsNullWhenNotConfigured",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProviderTest.html#method_testGetRetentionPeriodReturnsNullWhenNotConfigured"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProviderTest\u003A\u003AtestGetRetentionPeriodParsesConfiguredIsoDuration\u0028\u0029",
+            "name": "testGetRetentionPeriodParsesConfiguredIsoDuration",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProviderTest.html#method_testGetRetentionPeriodParsesConfiguredIsoDuration"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryPurgeProviderTest\u003A\u003AtestGetSearchIndexNameIncludesPrefix\u0028\u0029",
+            "name": "testGetSearchIndexNameIncludesPrefix",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Search-SubscriberHistoryPurgeProviderTest.html#method_testGetSearchIndexNameIncludesPrefix"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryReindexProviderTest",
             "name": "SubscriberHistoryReindexProviderTest",
             "summary": "",
@@ -29521,15 +29821,20 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-messaging-validator.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake",
-            "name": "Fake",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Command",
+            "name": "Command",
             "summary": "",
-            "url": "namespaces/phplist-core-tests-unit-domain-search-fake.html"
+            "url": "namespaces/phplist-core-tests-unit-domain-search-command.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search",
             "name": "Search",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-search.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\Fake",
+            "name": "Fake",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-search-fake.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Search\\MessageHandler",
             "name": "MessageHandler",
