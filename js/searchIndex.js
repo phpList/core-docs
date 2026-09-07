@@ -14096,6 +14096,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#method_purgeProvider"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003ApurgeBatch\u0028\u0029",
+            "name": "purgeBatch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#method_purgeBatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003AreportResults\u0028\u0029",
+            "name": "reportResults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#method_reportResults"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003AconfirmedInElasticsearch\u0028\u0029",
             "name": "confirmedInElasticsearch",
             "summary": "",
