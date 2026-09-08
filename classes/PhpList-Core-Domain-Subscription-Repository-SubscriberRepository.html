@@ -293,10 +293,29 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSendableSubscribersBySubscribedListId">getSendableSubscribersBySubscribedListId()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;    </span>
+</dt>
+<dd>Same as getSubscribersBySubscribedListId(), but restricted to subscribers who are
+confirmed and not disabled - i.e. eligible to receive a campaign. Blacklisting is
+intentionally not filtered here since it&#039;s checked live against UserBlacklistRepository
+at send time instead of the (potentially stale) Subscriber::$blacklisted flag.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSubscribersBySubscribedListId">getSubscribersBySubscribedListId()</a>
     <span>
                                 &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;    </span>
 </dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSubscribersBySubscribedListIds">getSubscribersBySubscribedListIds()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;    </span>
+</dt>
+<dd>Returns all subscribers on any of the given lists, regardless of confirmed/disabled
+status - used to resolve campaign exclude-lists, where membership alone is enough
+to suppress a send.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopDomains">getTopDomains()</a>
@@ -395,7 +414,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">320</span>
+    <span class="phpdocumentor-element-found-in__line">366</span>
 
     </aside>
 
@@ -451,7 +470,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">415</span>
+    <span class="phpdocumentor-element-found-in__line">461</span>
 
     </aside>
 
@@ -490,7 +509,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">292</span>
+    <span class="phpdocumentor-element-found-in__line">338</span>
 
     </aside>
 
@@ -582,7 +601,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">281</span>
+    <span class="phpdocumentor-element-found-in__line">327</span>
 
     </aside>
 
@@ -850,7 +869,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">218</span>
+    <span class="phpdocumentor-element-found-in__line">264</span>
 
     </aside>
 
@@ -898,7 +917,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">333</span>
+    <span class="phpdocumentor-element-found-in__line">379</span>
 
     </aside>
 
@@ -946,7 +965,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">303</span>
+    <span class="phpdocumentor-element-found-in__line">349</span>
 
     </aside>
 
@@ -994,7 +1013,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">375</span>
+    <span class="phpdocumentor-element-found-in__line">421</span>
 
     </aside>
 
@@ -1045,7 +1064,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">128</span>
 
     </aside>
 
@@ -1112,6 +1131,58 @@ following the Law of Demeter.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getSendableSubscribersBySubscribedListId">
+        getSendableSubscribersBySubscribedListId()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSendableSubscribersBySubscribedListId" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">84</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Same as getSubscribersBySubscribedListId(), but restricted to subscribers who are
+confirmed and not disabled - i.e. eligible to receive a campaign. Blacklisting is
+intentionally not filtered here since it&#039;s checked live against UserBlacklistRepository
+at send time instead of the (potentially stale) Subscriber::$blacklisted flag.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getSendableSubscribersBySubscribedListId</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$listId</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getSubscribersBySubscribedListId">
         getSubscribersBySubscribedListId()
         <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSubscribersBySubscribedListId" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1160,6 +1231,57 @@ following the Law of Demeter.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getSubscribersBySubscribedListIds">
+        getSubscribersBySubscribedListIds()
+        <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSubscribersBySubscribedListIds" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">107</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns all subscribers on any of the given lists, regardless of confirmed/disabled
+status - used to resolve campaign exclude-lists, where membership alone is enough
+to suppress a send.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getSubscribersBySubscribedListIds</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$listIds</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$listIds</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, int&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getTopDomains">
         getTopDomains()
         <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopDomains" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1168,7 +1290,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">353</span>
+    <span class="phpdocumentor-element-found-in__line">399</span>
 
     </aside>
 
@@ -1226,7 +1348,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">399</span>
+    <span class="phpdocumentor-element-found-in__line">445</span>
 
     </aside>
 
@@ -1277,7 +1399,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">245</span>
+    <span class="phpdocumentor-element-found-in__line">291</span>
 
     </aside>
 
@@ -1321,7 +1443,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">231</span>
+    <span class="phpdocumentor-element-found-in__line">277</span>
 
     </aside>
 
@@ -1369,7 +1491,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">268</span>
+    <span class="phpdocumentor-element-found-in__line">314</span>
 
     </aside>
 
@@ -1413,7 +1535,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">256</span>
+    <span class="phpdocumentor-element-found-in__line">302</span>
 
     </aside>
 
@@ -1593,7 +1715,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">177</span>
+    <span class="phpdocumentor-element-found-in__line">223</span>
 
     </aside>
 
@@ -1644,7 +1766,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Repository/SubscriberRepository.php"><a href="files/src-domain-subscription-repository-subscriberrepository.html"><abbr title="src/Domain/Subscription/Repository/SubscriberRepository.php">SubscriberRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">198</span>
+    <span class="phpdocumentor-element-found-in__line">244</span>
 
     </aside>
 
@@ -1718,7 +1840,9 @@ following the Law of Demeter.</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getDataById">getDataById()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getDomainConfirmationStatistics">getDomainConfirmationStatistics()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSendableSubscribersBySubscribedListId">getSendableSubscribersBySubscribedListId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSubscribersBySubscribedListId">getSubscribersBySubscribedListId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSubscribersBySubscribedListIds">getSubscribersBySubscribedListIds()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopDomains">getTopDomains()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getTopLocalParts">getTopLocalParts()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_incrementBounceCount">incrementBounceCount()</a></li>

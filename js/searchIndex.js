@@ -6681,6 +6681,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#method___invoke"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\CampaignProcessorMessageHandler\u003A\u003AgetExcludeListIds\u0028\u0029",
+            "name": "getExcludeListIds",
+            "summary": "Exclude\u002Dlist\u0020IDs\u0020are\u0020stored\u0020via\u0020MessageData\u0020as\u0020an\u0020array\u0020keyed\u0020by\u0020list\u0020ID\u0020\u0020e.g.\u0020\u005B3\u0020\u003D\u003E\u00201,\u00207\u0020\u003D\u003E\u00201\u005D.",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#method_getExcludeListIds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\CampaignProcessorMessageHandler\u003A\u003AmarkExcludedSubscribers\u0028\u0029",
+            "name": "markExcludedSubscribers",
+            "summary": "pre\u002Dmarking\u0020of\u0020exclude\u002Dlist\u0020members\u0020as\u0020\u0022excluded\u0022\u0020in\u0020usermessage\u0020before\u0020the\u0020main\u0020send\u0020loop\u0020runs,\nso\u0020there\u0027s\u0020a\u0020persisted\u0020audit\u0020trail\u0020for\u0020why\u0020a\u0020subscriber\u0020wasn\u0027t\u0020sent\u0020to.\u0020Skips\nsubscribers\u0020who\u0020already\u0020have\u0020a\u0020nontodo\u0020UserMessage\u0020for\u0020this\u0020campaign,\u0020so\u0020a\u0020later\u0020run\ncan\u0027t\u0020clobber\u0020an\u0020already\u002Drecorded\u0020Sent\/NotSent\/etc.\u0020status\u0020from\u0020an\u0020earlier\u0020partial\u0020run.",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#method_markExcludedSubscribers"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\CampaignProcessorMessageHandler\u003A\u003AunconfirmSubscriber\u0028\u0029",
             "name": "unconfirmSubscriber",
             "summary": "",
@@ -6811,10 +6821,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_configProvider"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\CampaignProcessorMessageHandler\u003A\u003A\u0024domainRateLimiter",
+            "name": "domainRateLimiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_domainRateLimiter"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\CampaignProcessorMessageHandler\u003A\u003A\u0024bounceEmail",
             "name": "bounceEmail",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_bounceEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\CampaignProcessorMessageHandler\u003A\u003A\u0024useListExclude",
+            "name": "useListExclude",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_useListExclude"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\TestCampaignProcessorMessageHandler",
             "name": "TestCampaignProcessorMessageHandler",
@@ -10116,6 +10136,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_findByIdAndStatus"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AtryClaimForProcessing\u0028\u0029",
+            "name": "tryClaimForProcessing",
+            "summary": "Atomically\u0020claims\u0020a\u0020campaign\u0020for\u0020processing\u0020by\u0020flipping\u0020its\u0020status\u0020from\u0020Submitted\u0020to\nPrepared\u0020in\u0020a\u0020single\u0020UPDATE\u0020...\u0020WHERE\u0020statement,\u0020so\u0020two\u0020concurrent\u0020workers\u0020can\u0027t\u0020both\npass\u0020a\u0020check\u002Dthen\u002Dact\u0020race\u0020and\u0020process\u0020the\u0020same\u0020campaign.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_tryClaimForProcessing"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AgetNonEmptyFields\u0028\u0029",
             "name": "getNonEmptyFields",
             "summary": "",
@@ -11240,6 +11265,56 @@ Search.appendIndex(
             "name": "poweredByPhplist",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Constructor-SystemMailContentBuilder.html#property_poweredByPhplist"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter",
+            "name": "DomainRateLimiter",
+            "summary": "Limits\u0020how\u0020many\u0020sends\u0020go\u0020to\u0020any\u0020single\u0020recipient\u0020domain\u0020within\u0020a\u0020rolling\u0020time\u0020window.\u0020Unlike\nSendRateLimiter,\u0020this\u0020never\u0020sleeps\u003A\u0020it\u0020just\u0020reports\u0020whether\u0020a\u0020domain\u0020is\u0020over\u0020quota\u0020right\nnow,\u0020so\u0020the\u0020caller\u0020can\u0020defer\u0020that\u0020one\u0020recipient\u0020to\u0020a\u0020later\u0020run\u0020instead\u0020of\u0020blocking\u0020the\nwhole\u0020batch\u0020on\u0020one\u0020busy\u0020domain.\u0020State\u0020is\u0020kept\u0020in\u0020memory\u0020only\u0020\u0028not\u0020seeded\u0020from\u0020history\u0029",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003AcanSendTo\u0028\u0029",
+            "name": "canSendTo",
+            "summary": "Call\u0020before\u0020attempting\u0020to\u0020send\u0020to\u0020\u0024email.\u0020Returns\u0020false\u0020if\u0020that\u0020recipient\u0027s\u0020domain\nhas\u0020already\u0020hit\u0020its\u0020quota\u0020for\u0020the\u0020current\u0020window\u0020and\u0020the\u0020send\u0020should\u0020be\u0020deferred.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_canSendTo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003ArecordSend\u0028\u0029",
+            "name": "recordSend",
+            "summary": "Call\u0020once\u0020a\u0020send\u0020to\u0020\u0024email\u0020has\u0020been\u0020attempted,\u0020to\u0020count\u0020it\u0020against\u0020that\u0020domain\u0027s\u0020quota.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_recordSend"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003AcurrentBucket\u0028\u0029",
+            "name": "currentBucket",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_currentBucket"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003AextractDomain\u0028\u0029",
+            "name": "extractDomain",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_extractDomain"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003A\u0024buckets",
+            "name": "buckets",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_buckets"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003A\u0024enabled",
+            "name": "enabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_enabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003A\u0024domainBatchSize",
+            "name": "domainBatchSize",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_domainBatchSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003A\u0024domainBatchPeriod",
+            "name": "domainBatchPeriod",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_domainBatchPeriod"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService",
             "name": "EmailService",
@@ -16771,6 +16846,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSubscribersBySubscribedListId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AgetSendableSubscribersBySubscribedListId\u0028\u0029",
+            "name": "getSendableSubscribersBySubscribedListId",
+            "summary": "Same\u0020as\u0020getSubscribersBySubscribedListId\u0028\u0029,\u0020but\u0020restricted\u0020to\u0020subscribers\u0020who\u0020are\nconfirmed\u0020and\u0020not\u0020disabled\u0020\u002D\u0020i.e.\u0020eligible\u0020to\u0020receive\u0020a\u0020campaign.\u0020Blacklisting\u0020is\nintentionally\u0020not\u0020filtered\u0020here\u0020since\u0020it\u0027s\u0020checked\u0020live\u0020against\u0020UserBlacklistRepository\nat\u0020send\u0020time\u0020instead\u0020of\u0020the\u0020\u0028potentially\u0020stale\u0029\u0020Subscriber\u003A\u003A\u0024blacklisted\u0020flag.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSendableSubscribersBySubscribedListId"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AgetSubscribersBySubscribedListIds\u0028\u0029",
+            "name": "getSubscribersBySubscribedListIds",
+            "summary": "Returns\u0020all\u0020subscribers\u0020on\u0020any\u0020of\u0020the\u0020given\u0020lists,\u0020regardless\u0020of\u0020confirmed\/disabled\nstatus\u0020\u002D\u0020used\u0020to\u0020resolve\u0020campaign\u0020exclude\u002Dlists,\u0020where\u0020membership\u0020alone\u0020is\u0020enough\nto\u0020suppress\u0020a\u0020send.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getSubscribersBySubscribedListIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AgetFilteredAfterId\u0028\u0029",
             "name": "getFilteredAfterId",
             "summary": "",
@@ -17695,6 +17780,11 @@ Search.appendIndex(
             "name": "getSubscribersForMessageOrLists",
             "summary": "Get\u0020subscribers\u0020for\u0020a\u0020message",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method_getSubscribersForMessageOrLists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider\u003A\u003AgetExcludedSubscribers\u0028\u0029",
+            "name": "getExcludedSubscribers",
+            "summary": "Resolves\u0020the\u0020subscribers\u0020on\u0020the\u0020given\u0020exclude\u002Dlists,\u0020regardless\u0020of\u0020confirmed\/disabled\nstatus\u0020\u002D\u0020membership\u0020alone\u0020is\u0020enough\u0020to\u0020suppress\u0020a\u0020send.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method_getExcludedSubscribers"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
@@ -19146,6 +19236,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdDefaultsToAscendingOrder"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestTryClaimForProcessingClaimsSubmittedCampaign\u0028\u0029",
+            "name": "testTryClaimForProcessingClaimsSubmittedCampaign",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingClaimsSubmittedCampaign"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestTryClaimForProcessingReturnsNullWhenNotSubmitted\u0028\u0029",
+            "name": "testTryClaimForProcessingReturnsNullWhenNotSubmitted",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingReturnsNullWhenNotSubmitted"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestTryClaimForProcessingCannotClaimTwice\u0028\u0029",
+            "name": "testTryClaimForProcessingCannotClaimTwice",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingCannotClaimTwice"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestGetFilteredAfterIdSortsDescendingAndCursorsBackward\u0028\u0029",
             "name": "testGetFilteredAfterIdSortsDescendingAndCursorsBackward",
             "summary": "",
@@ -19530,6 +19635,26 @@ Search.appendIndex(
             "name": "testRemoveRemovesModel",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberRepositoryTest.html#method_testRemoveRemovesModel"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest\u003A\u003Asubscribe\u0028\u0029",
+            "name": "subscribe",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberRepositoryTest.html#method_subscribe"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest\u003A\u003AtestGetSendableSubscribersBySubscribedListIdExcludesUnconfirmedAndDisabled\u0028\u0029",
+            "name": "testGetSendableSubscribersBySubscribedListIdExcludesUnconfirmedAndDisabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberRepositoryTest.html#method_testGetSendableSubscribersBySubscribedListIdExcludesUnconfirmedAndDisabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest\u003A\u003AtestGetSubscribersBySubscribedListIdsReturnsMembersOfAnyGivenList\u0028\u0029",
+            "name": "testGetSubscribersBySubscribedListIdsReturnsMembersOfAnyGivenList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberRepositoryTest.html#method_testGetSubscribersBySubscribedListIdsReturnsMembersOfAnyGivenList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest\u003A\u003AtestGetSubscribersBySubscribedListIdsReturnsEmptyArrayForEmptyInput\u0028\u0029",
+            "name": "testGetSubscribersBySubscribedListIdsReturnsEmptyArrayForEmptyInput",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberRepositoryTest.html#method_testGetSubscribersBySubscribedListIdsReturnsEmptyArrayForEmptyInput"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
@@ -23651,6 +23776,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_setUp"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AcreateHandler\u0028\u0029",
+            "name": "createHandler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_createHandler"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeWhenCampaignNotFound\u0028\u0029",
             "name": "testInvokeWhenCampaignNotFound",
             "summary": "",
@@ -23660,6 +23790,26 @@ Search.appendIndex(
             "name": "testInvokeWithNoSubscribers",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithNoSubscribers"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokePassesExcludeListIdsFromMessageDataToSubscriberProviderWhenEnabled\u0028\u0029",
+            "name": "testInvokePassesExcludeListIdsFromMessageDataToSubscriberProviderWhenEnabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokePassesExcludeListIdsFromMessageDataToSubscriberProviderWhenEnabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeIgnoresExcludeListWhenUseListExcludeDisabled\u0028\u0029",
+            "name": "testInvokeIgnoresExcludeListWhenUseListExcludeDisabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeIgnoresExcludeListWhenUseListExcludeDisabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeMarksExcludedSubscribersAsExcludedInUserMessage\u0028\u0029",
+            "name": "testInvokeMarksExcludedSubscribersAsExcludedInUserMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeMarksExcludedSubscribersAsExcludedInUserMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded\u0028\u0029",
+            "name": "testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeWithInvalidSubscriberEmail\u0028\u0029",
             "name": "testInvokeWithInvalidSubscriberEmail",
@@ -23745,6 +23895,21 @@ Search.appendIndex(
             "name": "symfonyMailer",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_symfonyMailer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024timeLimiter",
+            "name": "timeLimiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_timeLimiter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024requeueHandler",
+            "name": "requeueHandler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_requeueHandler"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest",
             "name": "PasswordResetMessageHandlerTest",
@@ -25010,6 +25175,46 @@ Search.appendIndex(
             "name": "placeholderProcessor",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Constructor-CampaignMailContentBuilderTest.html#property_placeholderProcessor"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest",
+            "name": "DomainRateLimiterTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestAllowsSendsWhenDisabled\u0028\u0029",
+            "name": "testAllowsSendsWhenDisabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAllowsSendsWhenDisabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestAllowsSendsWhenBatchSizeOrPeriodIsNotPositive\u0028\u0029",
+            "name": "testAllowsSendsWhenBatchSizeOrPeriodIsNotPositive",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAllowsSendsWhenBatchSizeOrPeriodIsNotPositive"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestBlocksSendsToSameDomainOnceQuotaReached\u0028\u0029",
+            "name": "testBlocksSendsToSameDomainOnceQuotaReached",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testBlocksSendsToSameDomainOnceQuotaReached"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestTracksEachDomainIndependently\u0028\u0029",
+            "name": "testTracksEachDomainIndependently",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testTracksEachDomainIndependently"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestResetsQuotaAfterPeriodElapses\u0028\u0029",
+            "name": "testResetsQuotaAfterPeriodElapses",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testResetsQuotaAfterPeriodElapses"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestTreatsAddressWithoutAtSignAsUnthrottleable\u0028\u0029",
+            "name": "testTreatsAddressWithoutAtSignAsUnthrottleable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testTreatsAddressWithoutAtSignAsUnthrottleable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestDomainMatchingIsCaseInsensitive\u0028\u0029",
+            "name": "testDomainMatchingIsCaseInsensitive",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDomainMatchingIsCaseInsensitive"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest",
             "name": "EmailServiceTest",
@@ -28555,6 +28760,11 @@ Search.appendIndex(
             "name": "testGetSubscribersForMessageWithMultipleListsReturnsUniqueSubscribers",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#method_testGetSubscribersForMessageWithMultipleListsReturnsUniqueSubscribers"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest\u003A\u003AtestGetSubscribersForMessageExcludesSubscribersOnExcludeLists\u0028\u0029",
+            "name": "testGetSubscribersForMessageExcludesSubscribersOnExcludeLists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#method_testGetSubscribersForMessageExcludesSubscribersOnExcludeLists"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Provider\\SubscriberProviderTest\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
