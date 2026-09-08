@@ -148,6 +148,25 @@
 
 
 
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#constant_DEFAULT_REQUEUE_INTERVAL_MINUTES">DEFAULT_REQUEUE_INTERVAL_MINUTES</a>
+    <span>
+        &nbsp;: mixed&nbsp;= 1                            </span>
+</dt>
+<dd>Fallback delay (minutes) used when a campaign stops early (time limit, domain throttle,
+etc.) but has no explicit requeueInterval configured. requeueInterval/requeueUntil control
+*how long* to wait before resuming, not *whether* to resume: a campaign that stopped early
+must always be retried, mirroring phplist3&#039;s unconditional &quot;don&#039;t mark sent while anything
+failed/was throttled&quot; guard - it must never be silently marked Sent with recipients still
+unprocessed. requeueUntil remains a legitimate opt-out (a real deadline).</dd>
+
+    </dl>
 
 
 <h4 id="toc-properties">
@@ -193,6 +212,49 @@
 
 
         
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_DEFAULT_REQUEUE_INTERVAL_MINUTES">
+        DEFAULT_REQUEUE_INTERVAL_MINUTES
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#constant_DEFAULT_REQUEUE_INTERVAL_MINUTES" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/RequeueHandler.php"><a href="files/src-domain-messaging-service-handler-requeuehandler.html"><abbr title="src/Domain/Messaging/Service/Handler/RequeueHandler.php">RequeueHandler.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">25</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Fallback delay (minutes) used when a campaign stops early (time limit, domain throttle,
+etc.) but has no explicit requeueInterval configured. requeueInterval/requeueUntil control
+*how long* to wait before resuming, not *whether* to resume: a campaign that stopped early
+must always be retried, mirroring phplist3&#039;s unconditional &quot;don&#039;t mark sent while anything
+failed/was throttled&quot; guard - it must never be silently marked Sent with recipients still
+unprocessed. requeueUntil remains a legitimate opt-out (a real deadline).</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">DEFAULT_REQUEUE_INTERVAL_MINUTES</span>
+    = <span class="phpdocumentor-signature__default-value">1</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+            </section>
 
         
     <section class="phpdocumentor-properties">
@@ -218,7 +280,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/RequeueHandler.php"><a href="files/src-domain-messaging-service-handler-requeuehandler.html"><abbr title="src/Domain/Messaging/Service/Handler/RequeueHandler.php">RequeueHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -255,7 +317,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/RequeueHandler.php"><a href="files/src-domain-messaging-service-handler-requeuehandler.html"><abbr title="src/Domain/Messaging/Service/Handler/RequeueHandler.php">RequeueHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -297,7 +359,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/RequeueHandler.php"><a href="files/src-domain-messaging-service-handler-requeuehandler.html"><abbr title="src/Domain/Messaging/Service/Handler/RequeueHandler.php">RequeueHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -348,7 +410,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/Handler/RequeueHandler.php"><a href="files/src-domain-messaging-service-handler-requeuehandler.html"><abbr title="src/Domain/Messaging/Service/Handler/RequeueHandler.php">RequeueHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -403,10 +465,17 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#toc-constants">Constants</a></li>
                                                             <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#toc-properties">Properties</a></li>
                                                             <li><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#constant_DEFAULT_REQUEUE_INTERVAL_MINUTES">DEFAULT_REQUEUE_INTERVAL_MINUTES</a></li>
+                                            </ul>
+                </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>

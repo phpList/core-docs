@@ -182,6 +182,12 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testFallsBackToOneMinuteIntervalWhenNoneConfigured">testFallsBackToOneMinuteIntervalWhenNoneConfigured()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testRequeuesFromFutureEmbargoAndSetsSubmittedStatus">testRequeuesFromFutureEmbargoAndSetsSubmittedStatus()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -194,12 +200,6 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testReturnsFalseWhenIntervalIsZeroOrNegative">testReturnsFalseWhenIntervalIsZeroOrNegative()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testReturnsFalseWhenNextEmbargoExceedsUntil">testReturnsFalseWhenNextEmbargoExceedsUntil()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -207,6 +207,12 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testReturnsFalseWhenNowIsAfterRequeueUntil">testReturnsFalseWhenNowIsAfterRequeueUntil()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testStillReturnsFalseWhenNoIntervalConfiguredButRequeueUntilAlreadyPassed">testStillReturnsFalseWhenNoIntervalConfiguredButRequeueUntilAlreadyPassed()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -324,6 +330,40 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_testFallsBackToOneMinuteIntervalWhenNoneConfigured">
+        testFallsBackToOneMinuteIntervalWhenNoneConfigured()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testFallsBackToOneMinuteIntervalWhenNoneConfigured" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php"><a href="files/tests-unit-domain-messaging-service-handler-requeuehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php">RequeueHandlerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">54</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testFallsBackToOneMinuteIntervalWhenNoneConfigured</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_testRequeuesFromFutureEmbargoAndSetsSubmittedStatus">
         testRequeuesFromFutureEmbargoAndSetsSubmittedStatus()
         <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testRequeuesFromFutureEmbargoAndSetsSubmittedStatus" class="headerlink"><i class="fas fa-link"></i></a>
@@ -332,7 +372,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php"><a href="files/tests-unit-domain-messaging-service-handler-requeuehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php">RequeueHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">110</span>
 
     </aside>
 
@@ -366,7 +406,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php"><a href="files/tests-unit-domain-messaging-service-handler-requeuehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php">RequeueHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">103</span>
+    <span class="phpdocumentor-element-found-in__line">131</span>
 
     </aside>
 
@@ -374,40 +414,6 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testRequeuesFromNowWhenEmbargoIsNullOrPast</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testReturnsFalseWhenIntervalIsZeroOrNegative">
-        testReturnsFalseWhenIntervalIsZeroOrNegative()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testReturnsFalseWhenIntervalIsZeroOrNegative" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php"><a href="files/tests-unit-domain-messaging-service-handler-requeuehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php">RequeueHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">54</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testReturnsFalseWhenIntervalIsZeroOrNegative</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -434,7 +440,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php"><a href="files/tests-unit-domain-messaging-service-handler-requeuehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php">RequeueHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">128</span>
+    <span class="phpdocumentor-element-found-in__line">156</span>
 
     </aside>
 
@@ -468,7 +474,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php"><a href="files/tests-unit-domain-messaging-service-handler-requeuehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php">RequeueHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">68</span>
+    <span class="phpdocumentor-element-found-in__line">96</span>
 
     </aside>
 
@@ -476,6 +482,40 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testReturnsFalseWhenNowIsAfterRequeueUntil</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testStillReturnsFalseWhenNoIntervalConfiguredButRequeueUntilAlreadyPassed">
+        testStillReturnsFalseWhenNoIntervalConfiguredButRequeueUntilAlreadyPassed()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testStillReturnsFalseWhenNoIntervalConfiguredButRequeueUntilAlreadyPassed" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php"><a href="files/tests-unit-domain-messaging-service-handler-requeuehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/Handler/RequeueHandlerTest.php">RequeueHandlerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">82</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testStillReturnsFalseWhenNoIntervalConfiguredButRequeueUntilAlreadyPassed</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -614,11 +654,12 @@
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testFallsBackToOneMinuteIntervalWhenNoneConfigured">testFallsBackToOneMinuteIntervalWhenNoneConfigured()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testRequeuesFromFutureEmbargoAndSetsSubmittedStatus">testRequeuesFromFutureEmbargoAndSetsSubmittedStatus()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testRequeuesFromNowWhenEmbargoIsNullOrPast">testRequeuesFromNowWhenEmbargoIsNullOrPast()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testReturnsFalseWhenIntervalIsZeroOrNegative">testReturnsFalseWhenIntervalIsZeroOrNegative()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testReturnsFalseWhenNextEmbargoExceedsUntil">testReturnsFalseWhenNextEmbargoExceedsUntil()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testReturnsFalseWhenNowIsAfterRequeueUntil">testReturnsFalseWhenNowIsAfterRequeueUntil()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testStillReturnsFalseWhenNoIntervalConfiguredButRequeueUntilAlreadyPassed">testStillReturnsFalseWhenNoIntervalConfiguredButRequeueUntilAlreadyPassed()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_setUp">setUp()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_createMessage">createMessage()</a></li>
                                     </ul>

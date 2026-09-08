@@ -121,10 +121,7 @@
 
     </h4>
     <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\DomainRateLimiter">DomainRateLimiter</abbr></a></dt><dd>Limits how many sends go to any single recipient domain within a rolling time window. Unlike
-SendRateLimiter, this never sleeps: it just reports whether a domain is over quota right
-now, so the caller can defer that one recipient to a later run instead of blocking the
-whole batch on one busy domain. State is kept in memory only (not seeded from history)</dd>    </dl>
+                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\DomainRateLimiter">DomainRateLimiter</abbr></a></dt><dd>Limits how many sends go to any single recipient domain within a fixed time window.</dd>    </dl>
 
 
 

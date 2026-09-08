@@ -124,16 +124,19 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Limits how many sends go to any single recipient domain within a rolling time window. Unlike
-SendRateLimiter, this never sleeps: it just reports whether a domain is over quota right
-now, so the caller can defer that one recipient to a later run instead of blocking the
-whole batch on one busy domain. State is kept in memory only (not seeded from history)</p>
+            <p class="phpdocumentor-summary">Limits how many sends go to any single recipient domain within a fixed time window.</p>
 
 
+    <section class="phpdocumentor-description"><p>State is persisted via DomainThrottleStateRepository so the quota is shared across
+concurrent queue-processing workers rather than each keeping its own count. Unlike
+SendRateLimiter, this never blocks the whole batch: it just reports whether a domain
+is over quota right now, so the caller can defer that one recipient to a later run
+instead of stalling on one busy domain.</p>
+</section>
 
 
 
@@ -151,6 +154,22 @@ whole batch on one busy domain. State is kept in memory only (not seeded from hi
 
 
 
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#constant_AUTO_THROTTLE_ATTEMPT_THRESHOLD">AUTO_THROTTLE_ATTEMPT_THRESHOLD</a>
+    <span>
+        &nbsp;: mixed&nbsp;= 25                            </span>
+</dt>
+<dd>Matches phpList3&#039;s threshold for triggering auto-throttle backoff: skip a run of
+blocked attempts before introducing extra delay, so a handful of early blocks
+(normal while a window fills up) don&#039;t immediately trigger backoff.</dd>
+
+    </dl>
 
 
 <h4 id="toc-properties">
@@ -160,9 +179,9 @@ whole batch on one busy domain. State is kept in memory only (not seeded from hi
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_buckets">$buckets</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_autoThrottle">$autoThrottle</a>
     <span>
-                        &nbsp;: array&lt;string, array{start: float, sent: int}&gt;            </span>
+                        &nbsp;: bool            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -183,6 +202,18 @@ whole batch on one busy domain. State is kept in memory only (not seeded from hi
                         &nbsp;: bool            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_logger">$logger</a>
+    <span>
+                        &nbsp;: <abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_repository">$repository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\DomainThrottleStateRepository">DomainThrottleStateRepository</abbr></a>            </span>
+</dt>
+
     </dl>
 
 <h4 id="toc-methods">
@@ -198,24 +229,19 @@ whole batch on one busy domain. State is kept in memory only (not seeded from hi
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_canSendTo">canSendTo()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_attemptSend">attemptSend()</a>
     <span>
-                                &nbsp;: bool    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\DomainThrottleResult">DomainThrottleResult</abbr></a>    </span>
 </dt>
-<dd>Call before attempting to send to $email. Returns false if that recipient&#039;s domain
-has already hit its quota for the current window and the send should be deferred.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_recordSend">recordSend()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Call once a send to $email has been attempted, to count it against that domain&#039;s quota.</dd>
+<dd>Call before sending to $email. Atomically reserves a send slot for that recipient&#039;s
+domain when quota allows; when quota is exhausted, records the blocked attempt and,
+if DOMAIN_AUTO_THROTTLE is enabled and blocked attempts have piled up, sleeps for a
+short backoff before returning.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_currentBucket">currentBucket()</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_applyAutoThrottleIfDue">applyAutoThrottleIfDue()</a>
     <span>
-                                &nbsp;: array{start: float, sent: int}    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\DomainThrottleResult">DomainThrottleResult</abbr></a>    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
@@ -229,6 +255,46 @@ has already hit its quota for the current window and the send should be deferred
 
 
         
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_AUTO_THROTTLE_ATTEMPT_THRESHOLD">
+        AUTO_THROTTLE_ATTEMPT_THRESHOLD
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#constant_AUTO_THROTTLE_ATTEMPT_THRESHOLD" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">26</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Matches phpList3&#039;s threshold for triggering auto-throttle backoff: skip a run of
+blocked attempts before introducing extra delay, so a handful of early blocks
+(normal while a window fills up) don&#039;t immediately trigger backoff.</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">AUTO_THROTTLE_ATTEMPT_THRESHOLD</span>
+    = <span class="phpdocumentor-signature__default-value">25</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+            </section>
 
         
     <section class="phpdocumentor-properties">
@@ -242,19 +308,19 @@ has already hit its quota for the current window and the send should be deferred
             phpdocumentor-element
             -property
             -private
-                                                                    "
+                                                -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_buckets">
-        $buckets
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_buckets" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_autoThrottle">
+        $autoThrottle
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_autoThrottle" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
-                                            </span>
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -262,9 +328,9 @@ has already hit its quota for the current window and the send should be deferred
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type">array&lt;string, array{start: float, sent: int}&gt;</span>
-    <span class="phpdocumentor-signature__name">$buckets</span>
-     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$autoThrottle</span>
+     = <span class="phpdocumentor-signature__default-value">false</span></code>
 
     
     
@@ -291,7 +357,7 @@ has already hit its quota for the current window and the send should be deferred
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -328,7 +394,7 @@ has already hit its quota for the current window and the send should be deferred
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -365,7 +431,7 @@ has already hit its quota for the current window and the send should be deferred
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -376,6 +442,80 @@ has already hit its quota for the current window and the send should be deferred
             <span class="phpdocumentor-signature__type">bool</span>
     <span class="phpdocumentor-signature__name">$enabled</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_logger">
+        $logger
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_logger" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">30</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$logger</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_repository">
+        $repository
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_repository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\DomainThrottleStateRepository">DomainThrottleStateRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$repository</span>
+    </code>
 
     
     
@@ -407,14 +547,14 @@ has already hit its quota for the current window and the send should be deferred
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$enabled</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domainBatchSize</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">1</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domainBatchPeriod</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">120</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\DomainThrottleStateRepository">DomainThrottleStateRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$repository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$enabled</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domainBatchSize</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">1</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domainBatchPeriod</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">120</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$autoThrottle</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -422,6 +562,20 @@ has already hit its quota for the current window and the send should be deferred
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$repository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\DomainThrottleStateRepository">DomainThrottleStateRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$logger</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$enabled</span>
                 : <span class="phpdocumentor-argument-list__argument__type">bool</span>
@@ -443,6 +597,13 @@ has already hit its quota for the current window and the send should be deferred
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$autoThrottle</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -457,24 +618,26 @@ has already hit its quota for the current window and the send should be deferred
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_canSendTo">
-        canSendTo()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_canSendTo" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_attemptSend">
+        attemptSend()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_attemptSend" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Call before attempting to send to $email. Returns false if that recipient&#039;s domain
-has already hit its quota for the current window and the send should be deferred.</p>
+        <p class="phpdocumentor-summary">Call before sending to $email. Atomically reserves a send slot for that recipient&#039;s
+domain when quota allows; when quota is exhausted, records the blocked attempt and,
+if DOMAIN_AUTO_THROTTLE is enabled and blocked attempts have piled up, sleeps for a
+short backoff before returning.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">canSendTo</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+                    <span class="phpdocumentor-signature__name">attemptSend</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\DomainThrottleResult">DomainThrottleResult</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -497,54 +660,9 @@ has already hit its quota for the current window and the send should be deferred
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\DomainThrottleResult">DomainThrottleResult</abbr></a></span>
             </section>
 
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_recordSend">
-        recordSend()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_recordSend" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">46</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Call once a send to $email has been attempted, to count it against that domain&#039;s quota.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">recordSend</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$email</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-    
 </article>
                     <article
         class="phpdocumentor-element
@@ -552,22 +670,22 @@ has already hit its quota for the current window and the send should be deferred
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_currentBucket">
-        currentBucket()
-        <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_currentBucket" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_applyAutoThrottleIfDue">
+        applyAutoThrottleIfDue()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_applyAutoThrottleIfDue" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">currentBucket</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domain</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array{start: float, sent: int}</span></code>
+                    <span class="phpdocumentor-signature__name">applyAutoThrottleIfDue</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domain</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$windowStart</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$blockedAttempts</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\DomainThrottleResult">DomainThrottleResult</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -582,6 +700,20 @@ has already hit its quota for the current window and the send should be deferred
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$windowStart</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$blockedAttempts</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -590,7 +722,7 @@ has already hit its quota for the current window and the send should be deferred
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array{start: float, sent: int}</span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\DomainThrottleResult">DomainThrottleResult</abbr></a></span>
             </section>
 
 </article>
@@ -608,7 +740,7 @@ has already hit its quota for the current window and the send should be deferred
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/DomainRateLimiter.php"><a href="files/src-domain-messaging-service-domainratelimiter.html"><abbr title="src/Domain/Messaging/Service/DomainRateLimiter.php">DomainRateLimiter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">101</span>
 
     </aside>
 
@@ -656,18 +788,27 @@ has already hit its quota for the current window and the send should be deferred
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#toc-constants">Constants</a></li>
                                                             <li><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#toc-properties">Properties</a></li>
                                                             <li><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#constant_AUTO_THROTTLE_ATTEMPT_THRESHOLD">AUTO_THROTTLE_ATTEMPT_THRESHOLD</a></li>
+                                            </ul>
+                </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_buckets">$buckets</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_autoThrottle">$autoThrottle</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_domainBatchPeriod">$domainBatchPeriod</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_domainBatchSize">$domainBatchSize</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_enabled">$enabled</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_logger">$logger</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_repository">$repository</a></li>
                                             </ul>
                 </li>
             
@@ -675,9 +816,8 @@ has already hit its quota for the current window and the send should be deferred
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_canSendTo">canSendTo()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_recordSend">recordSend()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_currentBucket">currentBucket()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_attemptSend">attemptSend()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_applyAutoThrottleIfDue">applyAutoThrottleIfDue()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_extractDomain">extractDomain()</a></li>
                                     </ul>
             </li>

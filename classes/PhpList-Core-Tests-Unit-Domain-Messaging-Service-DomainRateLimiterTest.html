@@ -129,7 +129,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">10</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -154,6 +154,25 @@
 
 
 
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#property_logger">$logger</a>
+    <span>
+                        &nbsp;: <abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#property_repository">$repository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\DomainThrottleStateRepository">DomainThrottleStateRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+    </dl>
 
 <h4 id="toc-methods">
     Methods
@@ -161,6 +180,12 @@
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAllowsSendsWhenAddressHasNoAtSign">testAllowsSendsWhenAddressHasNoAtSign()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAllowsSendsWhenBatchSizeOrPeriodIsNotPositive">testAllowsSendsWhenBatchSizeOrPeriodIsNotPositive()</a>
     <span>
@@ -174,33 +199,45 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testBlocksSendsToSameDomainOnceQuotaReached">testBlocksSendsToSameDomainOnceQuotaReached()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded">testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDomainMatchingIsCaseInsensitive">testDomainMatchingIsCaseInsensitive()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDelegatesReservationToRepositoryUsingLowercasedDomain">testDelegatesReservationToRepositoryUsingLowercasedDomain()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testResetsQuotaAfterPeriodElapses">testResetsQuotaAfterPeriodElapses()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDoesNotBackoffBelowAttemptThreshold">testDoesNotBackoffBelowAttemptThreshold()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testTracksEachDomainIndependently">testTracksEachDomainIndependently()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDoesNotBackoffWhenAutoThrottleDisabled">testDoesNotBackoffWhenAutoThrottleDisabled()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testTreatsAddressWithoutAtSignAsUnthrottleable">testTreatsAddressWithoutAtSignAsUnthrottleable()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testReturnsBlockedResultWithAttemptsWhenQuotaReached">testReturnsBlockedResultWithAttemptsWhenQuotaReached()</a>
     <span>
                                 &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_setUp">setUp()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_createLimiter">createLimiter()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\DomainRateLimiter">DomainRateLimiter</abbr></a>    </span>
 </dt>
 
     </dl>
@@ -210,6 +247,87 @@
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_logger">
+        $logger
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#property_logger" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$logger</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_repository">
+        $repository
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#property_repository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\DomainThrottleStateRepository">DomainThrottleStateRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$repository</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
@@ -217,6 +335,40 @@
             <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testAllowsSendsWhenAddressHasNoAtSign">
+        testAllowsSendsWhenAddressHasNoAtSign()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAllowsSendsWhenAddressHasNoAtSign" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">61</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testAllowsSendsWhenAddressHasNoAtSign</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
                     <article
         class="phpdocumentor-element
             -method
@@ -231,7 +383,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 
     </aside>
 
@@ -265,7 +417,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -291,22 +443,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testBlocksSendsToSameDomainOnceQuotaReached">
-        testBlocksSendsToSameDomainOnceQuotaReached()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testBlocksSendsToSameDomainOnceQuotaReached" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded">
+        testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">125</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testBlocksSendsToSameDomainOnceQuotaReached</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -325,22 +477,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testDomainMatchingIsCaseInsensitive">
-        testDomainMatchingIsCaseInsensitive()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDomainMatchingIsCaseInsensitive" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testDelegatesReservationToRepositoryUsingLowercasedDomain">
+        testDelegatesReservationToRepositoryUsingLowercasedDomain()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDelegatesReservationToRepositoryUsingLowercasedDomain" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">72</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testDomainMatchingIsCaseInsensitive</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testDelegatesReservationToRepositoryUsingLowercasedDomain</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -359,22 +511,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testResetsQuotaAfterPeriodElapses">
-        testResetsQuotaAfterPeriodElapses()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testResetsQuotaAfterPeriodElapses" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testDoesNotBackoffBelowAttemptThreshold">
+        testDoesNotBackoffBelowAttemptThreshold()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDoesNotBackoffBelowAttemptThreshold" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">113</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testResetsQuotaAfterPeriodElapses</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testDoesNotBackoffBelowAttemptThreshold</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -393,22 +545,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testTracksEachDomainIndependently">
-        testTracksEachDomainIndependently()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testTracksEachDomainIndependently" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testDoesNotBackoffWhenAutoThrottleDisabled">
+        testDoesNotBackoffWhenAutoThrottleDisabled()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDoesNotBackoffWhenAutoThrottleDisabled" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">43</span>
+    <span class="phpdocumentor-element-found-in__line">101</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testTracksEachDomainIndependently</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testDoesNotBackoffWhenAutoThrottleDisabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -427,22 +579,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testTreatsAddressWithoutAtSignAsUnthrottleable">
-        testTreatsAddressWithoutAtSignAsUnthrottleable()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testTreatsAddressWithoutAtSignAsUnthrottleable" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testReturnsBlockedResultWithAttemptsWhenQuotaReached">
+        testReturnsBlockedResultWithAttemptsWhenQuotaReached()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testReturnsBlockedResultWithAttemptsWhenQuotaReached" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">84</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testTreatsAddressWithoutAtSignAsUnthrottleable</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testReturnsBlockedResultWithAttemptsWhenQuotaReached</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -454,6 +606,109 @@
         
     
     
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setUp">
+        setUp()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_setUp" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">setUp</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_createLimiter">
+        createLimiter()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_createLimiter" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php"><a href="files/tests-unit-domain-messaging-service-domainratelimitertest.html"><abbr title="tests/Unit/Domain/Messaging/Service/DomainRateLimiterTest.php">DomainRateLimiterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">25</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">createLimiter</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$enabled</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domainBatchSize</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">1</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domainBatchPeriod</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">120</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$autoThrottle</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\DomainRateLimiter">DomainRateLimiter</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$enabled</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$domainBatchSize</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">1</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$domainBatchPeriod</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">120</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$autoThrottle</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\DomainRateLimiter">DomainRateLimiter</abbr></a></span>
+            </section>
+
 </article>
             </section>
 
@@ -469,21 +724,32 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#toc-methods">Methods</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#property_logger">$logger</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#property_repository">$repository</a></li>
+                                            </ul>
+                </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAllowsSendsWhenAddressHasNoAtSign">testAllowsSendsWhenAddressHasNoAtSign()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAllowsSendsWhenBatchSizeOrPeriodIsNotPositive">testAllowsSendsWhenBatchSizeOrPeriodIsNotPositive()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAllowsSendsWhenDisabled">testAllowsSendsWhenDisabled()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testBlocksSendsToSameDomainOnceQuotaReached">testBlocksSendsToSameDomainOnceQuotaReached()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDomainMatchingIsCaseInsensitive">testDomainMatchingIsCaseInsensitive()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testResetsQuotaAfterPeriodElapses">testResetsQuotaAfterPeriodElapses()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testTracksEachDomainIndependently">testTracksEachDomainIndependently()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testTreatsAddressWithoutAtSignAsUnthrottleable">testTreatsAddressWithoutAtSignAsUnthrottleable()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded">testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDelegatesReservationToRepositoryUsingLowercasedDomain">testDelegatesReservationToRepositoryUsingLowercasedDomain()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDoesNotBackoffBelowAttemptThreshold">testDoesNotBackoffBelowAttemptThreshold()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDoesNotBackoffWhenAutoThrottleDisabled">testDoesNotBackoffWhenAutoThrottleDisabled()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testReturnsBlockedResultWithAttemptsWhenQuotaReached">testReturnsBlockedResultWithAttemptsWhenQuotaReached()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_createLimiter">createLimiter()</a></li>
                                     </ul>
             </li>
                     </ul>

@@ -7516,6 +7516,56 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-BounceStatus.html#enumcase_UnidentifiedBounce"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\DomainThrottleState",
+            "name": "DomainThrottleState",
+            "summary": "Per\u002Ddomain\u0020send\u0020counters\u0020for\u0020a\u0020single\u0020fixed\u0020throttle\u0020window,\u0020persisted\u0020so\u0020that\nDomainRateLimiter\u0020enforces\u0020DOMAIN_BATCH_SIZE\/DOMAIN_BATCH_PERIOD\u0020consistently\u0020across\nconcurrent\u0020queue\u002Dprocessing\u0020workers\u0020instead\u0020of\u0020each\u0020worker\u0020keeping\u0020its\u0020own\u0020count.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-DomainThrottleState.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\DomainThrottleState\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-DomainThrottleState.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\DomainThrottleState\u003A\u003AgetDomain\u0028\u0029",
+            "name": "getDomain",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-DomainThrottleState.html#method_getDomain"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\DomainThrottleState\u003A\u003AgetWindowStart\u0028\u0029",
+            "name": "getWindowStart",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-DomainThrottleState.html#method_getWindowStart"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\DomainThrottleState\u003A\u003AgetSentCount\u0028\u0029",
+            "name": "getSentCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-DomainThrottleState.html#method_getSentCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\DomainThrottleState\u003A\u003AgetBlockedCount\u0028\u0029",
+            "name": "getBlockedCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-DomainThrottleState.html#method_getBlockedCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\DomainThrottleState\u003A\u003A\u0024domain",
+            "name": "domain",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-DomainThrottleState.html#property_domain"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\DomainThrottleState\u003A\u003A\u0024windowStart",
+            "name": "windowStart",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-DomainThrottleState.html#property_windowStart"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\DomainThrottleState\u003A\u003A\u0024sentCount",
+            "name": "sentCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-DomainThrottleState.html#property_sentCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\DomainThrottleState\u003A\u003A\u0024blockedCount",
+            "name": "blockedCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-DomainThrottleState.html#property_blockedCount"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\BounceView",
             "name": "BounceView",
             "summary": "",
@@ -7685,6 +7735,61 @@ Search.appendIndex(
             "name": "listOrder",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-CreateTemplateDto.html#property_listOrder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DomainThrottleReservation",
+            "name": "DomainThrottleReservation",
+            "summary": "Outcome\u0020of\u0020an\u0020atomic\u0020slot\u0020reservation\u0020attempt\u0020in\u0020DomainThrottleStateRepository.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleReservation.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DomainThrottleReservation\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleReservation.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DomainThrottleReservation\u003A\u003A\u0024allowed",
+            "name": "allowed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleReservation.html#property_allowed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DomainThrottleReservation\u003A\u003A\u0024blockedAttempts",
+            "name": "blockedAttempts",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleReservation.html#property_blockedAttempts"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DomainThrottleResult",
+            "name": "DomainThrottleResult",
+            "summary": "Outcome\u0020of\u0020DomainRateLimiter\u003A\u003AattemptSend\u0028\u0029\u0020for\u0020a\u0020single\u0020recipient.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DomainThrottleResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DomainThrottleResult\u003A\u003A\u0024allowed",
+            "name": "allowed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html#property_allowed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DomainThrottleResult\u003A\u003A\u0024domain",
+            "name": "domain",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html#property_domain"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DomainThrottleResult\u003A\u003A\u0024blockedAttempts",
+            "name": "blockedAttempts",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html#property_blockedAttempts"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DomainThrottleResult\u003A\u003A\u0024backoffApplied",
+            "name": "backoffApplied",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html#property_backoffApplied"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DomainThrottleResult\u003A\u003A\u0024backoffSeconds",
+            "name": "backoffSeconds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-DomainThrottleResult.html#property_backoffSeconds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\DownloadableAttachment",
             "name": "DownloadableAttachment",
@@ -10006,6 +10111,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getFilteredAfterId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\DomainThrottleStateRepository",
+            "name": "DomainThrottleStateRepository",
+            "summary": "Base\u0020class\u0020for\u0020repositories.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\DomainThrottleStateRepository\u003A\u003AtryReserveSlot\u0028\u0029",
+            "name": "tryReserveSlot",
+            "summary": "Atomically\u0020reserves\u0020one\u0020send\u0020slot\u0020for\u0020\u0024domain\u0020in\u0020the\u0020given\u0020fixed\u0020window,\u0020so\nconcurrent\u0020workers\u0020share\u0020a\u0020single\u0020accurate\u0020per\u002Ddomain\u0020quota\u0020instead\u0020of\u0020each\nkeeping\u0020its\u0020own\u0020count.\u0020Follows\u0020the\u0020same\u0020conditional\u002DUPDATE\u002Dplus\u002Daffected\u002Drows\npattern\u0020as\u0020MessageRepository\u003A\u003AtryClaimForProcessing\u0020so\u0020it\u0020stays\u0020portable\u0020across\nMySQL\/PostgreSQL\/SQLite\u0020\u0028no\u0020vendor\u002Dspecific\u0020upsert\/locking\u0020syntax\u0029.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html#method_tryReserveSlot"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\DomainThrottleStateRepository\u003A\u003AresetBlockedCount\u0028\u0029",
+            "name": "resetBlockedCount",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html#method_resetBlockedCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\DomainThrottleStateRepository\u003A\u003AincrementSentIfAllowed\u0028\u0029",
+            "name": "incrementSentIfAllowed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html#method_incrementSentIfAllowed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\DomainThrottleStateRepository\u003A\u003ArolloverWindow\u0028\u0029",
+            "name": "rolloverWindow",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html#method_rolloverWindow"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\DomainThrottleStateRepository\u003A\u003AinsertFirstRow\u0028\u0029",
+            "name": "insertFirstRow",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html#method_insertFirstRow"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\DomainThrottleStateRepository\u003A\u003AincrementBlocked\u0028\u0029",
+            "name": "incrementBlocked",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html#method_incrementBlocked"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReaderInterface",
             "name": "UserMessageBounceReaderInterface",
             "summary": "Implemented\u0020by\u0020UserMessageBounceRepository\u0020\u0028Doctrine\/DB\u0029\u0020and\u0020UserMessageBounceElasticsearchReader\n\u0028Elasticsearch\u0029.\u0020Consumers\u0020are\u0020aliased\u0020to\u0020whichever\u0020one\u0020reads\u0020are\u0020configured\u0020to\u0020use\u0020\u002D\u0020see\nconfig\/services\/repositories.yml.",
@@ -10140,6 +10280,16 @@ Search.appendIndex(
             "name": "tryClaimForProcessing",
             "summary": "Atomically\u0020claims\u0020a\u0020campaign\u0020for\u0020processing\u0020by\u0020flipping\u0020its\u0020status\u0020from\u0020Submitted\u0020to\nPrepared\u0020in\u0020a\u0020single\u0020UPDATE\u0020...\u0020WHERE\u0020statement,\u0020so\u0020two\u0020concurrent\u0020workers\u0020can\u0027t\u0020both\npass\u0020a\u0020check\u002Dthen\u002Dact\u0020race\u0020and\u0020process\u0020the\u0020same\u0020campaign.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_tryClaimForProcessing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AgetStuckInProcessing\u0028\u0029",
+            "name": "getStuckInProcessing",
+            "summary": "Returns\u0020campaigns\u0020stuck\u0020in\u0020Prepared\/InProcess\u0020whose\u0020row\u0020hasn\u0027t\u0020been\u0020touched\u0020since\n\u0024staleBefore,\u0020i.e.\u0020candidates\u0020for\u0020tryClaimForProcessing\u0027s\u0020stale\u002Dreclaim\u0020path.\u0020Callers\nare\u0020expected\u0020to\u0020re\u002Ddispatch\u0020a\u0020CampaignProcessorMessage\u0020for\u0020each,\u0020since\u0020nothing\u0020else\nautomatically\u0020resumes\u0020a\u0020campaign\u0020that\u0020isn\u0027t\u0020in\u0020Submitted\u0020status.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getStuckInProcessing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AincrementSentCounts\u0028\u0029",
+            "name": "incrementSentCounts",
+            "summary": "Atomically\u0020increments\u0020a\u0020campaign\u0027s\u0020processed\/format\u002Dsent\u0020counters\u0020directly\u0020in\u0020the\ndatabase\u0020\u0028bypassing\u0020the\u0020entity\u0027s\u0020in\u002Dmemory\u0020incrementSentCount\u0028\u0029\u0029,\u0020so\u0020concurrent\nupdates\u0020to\u0020the\u0020same\u0020campaign\u0020can\u0027t\u0020lose\u0020an\u0020update\u0020the\u0020way\u0020a\u0020read\u002Dmodify\u002Dwrite\u0020via\nthe\u0020entity\u0020manager\u0020could.\u0020Also\u0020bumps\u0020\u0060modified\u0060,\u0020since\u0020this\u0020is\u0020the\u0020liveness\u0020signal\ntryClaimForProcessing\u0027s\u0020stale\u002Dreclaim\u0020relies\u0020on.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_incrementSentCounts"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AgetNonEmptyFields\u0028\u0029",
             "name": "getNonEmptyFields",
@@ -11268,7 +11418,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter",
             "name": "DomainRateLimiter",
-            "summary": "Limits\u0020how\u0020many\u0020sends\u0020go\u0020to\u0020any\u0020single\u0020recipient\u0020domain\u0020within\u0020a\u0020rolling\u0020time\u0020window.\u0020Unlike\nSendRateLimiter,\u0020this\u0020never\u0020sleeps\u003A\u0020it\u0020just\u0020reports\u0020whether\u0020a\u0020domain\u0020is\u0020over\u0020quota\u0020right\nnow,\u0020so\u0020the\u0020caller\u0020can\u0020defer\u0020that\u0020one\u0020recipient\u0020to\u0020a\u0020later\u0020run\u0020instead\u0020of\u0020blocking\u0020the\nwhole\u0020batch\u0020on\u0020one\u0020busy\u0020domain.\u0020State\u0020is\u0020kept\u0020in\u0020memory\u0020only\u0020\u0028not\u0020seeded\u0020from\u0020history\u0029",
+            "summary": "Limits\u0020how\u0020many\u0020sends\u0020go\u0020to\u0020any\u0020single\u0020recipient\u0020domain\u0020within\u0020a\u0020fixed\u0020time\u0020window.",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003A__construct\u0028\u0029",
@@ -11276,30 +11426,35 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method___construct"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003AcanSendTo\u0028\u0029",
-            "name": "canSendTo",
-            "summary": "Call\u0020before\u0020attempting\u0020to\u0020send\u0020to\u0020\u0024email.\u0020Returns\u0020false\u0020if\u0020that\u0020recipient\u0027s\u0020domain\nhas\u0020already\u0020hit\u0020its\u0020quota\u0020for\u0020the\u0020current\u0020window\u0020and\u0020the\u0020send\u0020should\u0020be\u0020deferred.",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_canSendTo"
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003AattemptSend\u0028\u0029",
+            "name": "attemptSend",
+            "summary": "Call\u0020before\u0020sending\u0020to\u0020\u0024email.\u0020Atomically\u0020reserves\u0020a\u0020send\u0020slot\u0020for\u0020that\u0020recipient\u0027s\ndomain\u0020when\u0020quota\u0020allows\u003B\u0020when\u0020quota\u0020is\u0020exhausted,\u0020records\u0020the\u0020blocked\u0020attempt\u0020and,\nif\u0020DOMAIN_AUTO_THROTTLE\u0020is\u0020enabled\u0020and\u0020blocked\u0020attempts\u0020have\u0020piled\u0020up,\u0020sleeps\u0020for\u0020a\nshort\u0020backoff\u0020before\u0020returning.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_attemptSend"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003ArecordSend\u0028\u0029",
-            "name": "recordSend",
-            "summary": "Call\u0020once\u0020a\u0020send\u0020to\u0020\u0024email\u0020has\u0020been\u0020attempted,\u0020to\u0020count\u0020it\u0020against\u0020that\u0020domain\u0027s\u0020quota.",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_recordSend"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003AcurrentBucket\u0028\u0029",
-            "name": "currentBucket",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003AapplyAutoThrottleIfDue\u0028\u0029",
+            "name": "applyAutoThrottleIfDue",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_currentBucket"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_applyAutoThrottleIfDue"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003AextractDomain\u0028\u0029",
             "name": "extractDomain",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#method_extractDomain"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003A\u0024buckets",
-            "name": "buckets",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003AAUTO_THROTTLE_ATTEMPT_THRESHOLD",
+            "name": "AUTO_THROTTLE_ATTEMPT_THRESHOLD",
+            "summary": "Matches\u0020phpList3\u0027s\u0020threshold\u0020for\u0020triggering\u0020auto\u002Dthrottle\u0020backoff\u003A\u0020skip\u0020a\u0020run\u0020of\nblocked\u0020attempts\u0020before\u0020introducing\u0020extra\u0020delay,\u0020so\u0020a\u0020handful\u0020of\u0020early\u0020blocks\n\u0028normal\u0020while\u0020a\u0020window\u0020fills\u0020up\u0029\u0020don\u0027t\u0020immediately\u0020trigger\u0020backoff.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#constant_AUTO_THROTTLE_ATTEMPT_THRESHOLD"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003A\u0024repository",
+            "name": "repository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_buckets"
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_logger"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003A\u0024enabled",
             "name": "enabled",
@@ -11315,6 +11470,11 @@ Search.appendIndex(
             "name": "domainBatchPeriod",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_domainBatchPeriod"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\DomainRateLimiter\u003A\u003A\u0024autoThrottle",
+            "name": "autoThrottle",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html#property_autoThrottle"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\EmailService",
             "name": "EmailService",
@@ -11840,6 +12000,11 @@ Search.appendIndex(
             "name": "handle",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#method_handle"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\RequeueHandler\u003A\u003ADEFAULT_REQUEUE_INTERVAL_MINUTES",
+            "name": "DEFAULT_REQUEUE_INTERVAL_MINUTES",
+            "summary": "Fallback\u0020delay\u0020\u0028minutes\u0029\u0020used\u0020when\u0020a\u0020campaign\u0020stops\u0020early\u0020\u0028time\u0020limit,\u0020domain\u0020throttle,\netc.\u0029\u0020but\u0020has\u0020no\u0020explicit\u0020requeueInterval\u0020configured.\u0020requeueInterval\/requeueUntil\u0020control\n\u002Ahow\u0020long\u002A\u0020to\u0020wait\u0020before\u0020resuming,\u0020not\u0020\u002Awhether\u002A\u0020to\u0020resume\u003A\u0020a\u0020campaign\u0020that\u0020stopped\u0020early\nmust\u0020always\u0020be\u0020retried,\u0020mirroring\u0020phplist3\u0027s\u0020unconditional\u0020\u0022don\u0027t\u0020mark\u0020sent\u0020while\u0020anything\nfailed\/was\u0020throttled\u0022\u0020guard\u0020\u002D\u0020it\u0020must\u0020never\u0020be\u0020silently\u0020marked\u0020Sent\u0020with\u0020recipients\u0020still\nunprocessed.\u0020requeueUntil\u0020remains\u0020a\u0020legitimate\u0020opt\u002Dout\u0020\u0028a\u0020real\u0020deadline\u0029.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html#constant_DEFAULT_REQUEUE_INTERVAL_MINUTES"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Handler\\RequeueHandler\u003A\u003A\u0024logger",
             "name": "logger",
@@ -12430,6 +12595,11 @@ Search.appendIndex(
             "name": "getMessagesByOwner",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_getMessagesByOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003AgetStuckCampaigns\u0028\u0029",
+            "name": "getStuckCampaigns",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageManager.html#method_getStuckCampaigns"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageManager\u003A\u003AcanBeSubmitted\u0028\u0029",
             "name": "canBeSubmitted",
@@ -18481,6 +18651,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20260831120000CleanupOrphanedUserAttributeTableNames.html#method_getEnv"
         },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260908130000MySqlCreateDomainThrottleTable",
+            "name": "Version20260908130000MySqlCreateDomainThrottleTable",
+            "summary": "Migrations\u0020only\u0020receive\u0020a\u0020Connection\u0020and\u0020a\u0020Logger\u0020from\u0020Doctrine\u0027s\u0020migration\u0020factory\u0020\u0028no\u0020DI\u0020container\u0020access\u0029,\nso\u0020the\u0020configured\u0020table\u0020prefix\u0020is\u0020read\u0020directly\u0020from\u0020the\u0020environment\u0020here\u0020rather\u0020than\u0020injected.",
+            "url": "classes/PhpList-Core-Migrations-Version20260908130000MySqlCreateDomainThrottleTable.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260908130000MySqlCreateDomainThrottleTable\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260908130000MySqlCreateDomainThrottleTable.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260908130000MySqlCreateDomainThrottleTable\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260908130000MySqlCreateDomainThrottleTable.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260908130000MySqlCreateDomainThrottleTable\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260908130000MySqlCreateDomainThrottleTable.html#method_down"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260908130001PostGreCreateDomainThrottleTable",
+            "name": "Version20260908130001PostGreCreateDomainThrottleTable",
+            "summary": "Migrations\u0020only\u0020receive\u0020a\u0020Connection\u0020and\u0020a\u0020Logger\u0020from\u0020Doctrine\u0027s\u0020migration\u0020factory\u0020\u0028no\u0020DI\u0020container\u0020access\u0029,\nso\u0020the\u0020configured\u0020table\u0020prefix\u0020is\u0020read\u0020directly\u0020from\u0020the\u0020environment\u0020here\u0020rather\u0020than\u0020injected.",
+            "url": "classes/PhpList-Core-Migrations-Version20260908130001PostGreCreateDomainThrottleTable.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260908130001PostGreCreateDomainThrottleTable\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260908130001PostGreCreateDomainThrottleTable.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260908130001PostGreCreateDomainThrottleTable\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260908130001PostGreCreateDomainThrottleTable.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20260908130001PostGreCreateDomainThrottleTable\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20260908130001PostGreCreateDomainThrottleTable.html#method_down"
+        },                {
             "fqsen": "\\PhpList\\Core\\PhpListCoreBundle",
             "name": "PhpListCoreBundle",
             "summary": "",
@@ -19180,6 +19390,51 @@ Search.appendIndex(
             "name": "load",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Fixtures-TemplateFixture.html#method_load"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\DomainThrottleStateRepositoryTest",
+            "name": "DomainThrottleStateRepositoryTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-DomainThrottleStateRepositoryTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\DomainThrottleStateRepositoryTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-DomainThrottleStateRepositoryTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\DomainThrottleStateRepositoryTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-DomainThrottleStateRepositoryTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\DomainThrottleStateRepositoryTest\u003A\u003AtestFirstReservationForNewDomainIsAllowed\u0028\u0029",
+            "name": "testFirstReservationForNewDomainIsAllowed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-DomainThrottleStateRepositoryTest.html#method_testFirstReservationForNewDomainIsAllowed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\DomainThrottleStateRepositoryTest\u003A\u003AtestReservationBlockedOnceQuotaReachedInSameWindow\u0028\u0029",
+            "name": "testReservationBlockedOnceQuotaReachedInSameWindow",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-DomainThrottleStateRepositoryTest.html#method_testReservationBlockedOnceQuotaReachedInSameWindow"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\DomainThrottleStateRepositoryTest\u003A\u003AtestDomainsAreTrackedIndependently\u0028\u0029",
+            "name": "testDomainsAreTrackedIndependently",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-DomainThrottleStateRepositoryTest.html#method_testDomainsAreTrackedIndependently"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\DomainThrottleStateRepositoryTest\u003A\u003AtestReservationAllowedAgainAfterWindowRollsOver\u0028\u0029",
+            "name": "testReservationAllowedAgainAfterWindowRollsOver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-DomainThrottleStateRepositoryTest.html#method_testReservationAllowedAgainAfterWindowRollsOver"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\DomainThrottleStateRepositoryTest\u003A\u003AtestResetBlockedCountClearsCounterForCurrentWindow\u0028\u0029",
+            "name": "testResetBlockedCountClearsCounterForCurrentWindow",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-DomainThrottleStateRepositoryTest.html#method_testResetBlockedCountClearsCounterForCurrentWindow"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\DomainThrottleStateRepositoryTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-DomainThrottleStateRepositoryTest.html#property_repository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest",
             "name": "MessageRepositoryTest",
@@ -23831,6 +24086,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithMultipleSubscribers"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeSkipsDomainThrottledSubscriberWithoutCreatingUserMessage\u0028\u0029",
+            "name": "testInvokeSkipsDomainThrottledSubscriberWithoutCreatingUserMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeSkipsDomainThrottledSubscriberWithoutCreatingUserMessage"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AcreateCampaignMock\u0028\u0029",
             "name": "createCampaignMock",
             "summary": "Creates\u0020a\u0020mock\u0020for\u0020the\u0020Message\u0020class\u0020with\u0020content",
@@ -23910,6 +24170,11 @@ Search.appendIndex(
             "name": "requeueHandler",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_requeueHandler"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003A\u0024domainRateLimiter",
+            "name": "domainRateLimiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_domainRateLimiter"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest",
             "name": "PasswordResetMessageHandlerTest",
@@ -25181,6 +25446,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AcreateLimiter\u0028\u0029",
+            "name": "createLimiter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_createLimiter"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestAllowsSendsWhenDisabled\u0028\u0029",
             "name": "testAllowsSendsWhenDisabled",
             "summary": "",
@@ -25191,30 +25466,45 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAllowsSendsWhenBatchSizeOrPeriodIsNotPositive"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestBlocksSendsToSameDomainOnceQuotaReached\u0028\u0029",
-            "name": "testBlocksSendsToSameDomainOnceQuotaReached",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestAllowsSendsWhenAddressHasNoAtSign\u0028\u0029",
+            "name": "testAllowsSendsWhenAddressHasNoAtSign",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testBlocksSendsToSameDomainOnceQuotaReached"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAllowsSendsWhenAddressHasNoAtSign"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestTracksEachDomainIndependently\u0028\u0029",
-            "name": "testTracksEachDomainIndependently",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestDelegatesReservationToRepositoryUsingLowercasedDomain\u0028\u0029",
+            "name": "testDelegatesReservationToRepositoryUsingLowercasedDomain",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testTracksEachDomainIndependently"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDelegatesReservationToRepositoryUsingLowercasedDomain"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestResetsQuotaAfterPeriodElapses\u0028\u0029",
-            "name": "testResetsQuotaAfterPeriodElapses",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestReturnsBlockedResultWithAttemptsWhenQuotaReached\u0028\u0029",
+            "name": "testReturnsBlockedResultWithAttemptsWhenQuotaReached",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testResetsQuotaAfterPeriodElapses"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testReturnsBlockedResultWithAttemptsWhenQuotaReached"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestTreatsAddressWithoutAtSignAsUnthrottleable\u0028\u0029",
-            "name": "testTreatsAddressWithoutAtSignAsUnthrottleable",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestDoesNotBackoffWhenAutoThrottleDisabled\u0028\u0029",
+            "name": "testDoesNotBackoffWhenAutoThrottleDisabled",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testTreatsAddressWithoutAtSignAsUnthrottleable"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDoesNotBackoffWhenAutoThrottleDisabled"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestDomainMatchingIsCaseInsensitive\u0028\u0029",
-            "name": "testDomainMatchingIsCaseInsensitive",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestDoesNotBackoffBelowAttemptThreshold\u0028\u0029",
+            "name": "testDoesNotBackoffBelowAttemptThreshold",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDomainMatchingIsCaseInsensitive"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDoesNotBackoffBelowAttemptThreshold"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded\u0028\u0029",
+            "name": "testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#property_logger"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\EmailServiceTest",
             "name": "EmailServiceTest",
@@ -25821,10 +26111,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_createMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003AtestReturnsFalseWhenIntervalIsZeroOrNegative\u0028\u0029",
-            "name": "testReturnsFalseWhenIntervalIsZeroOrNegative",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003AtestFallsBackToOneMinuteIntervalWhenNoneConfigured\u0028\u0029",
+            "name": "testFallsBackToOneMinuteIntervalWhenNoneConfigured",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testReturnsFalseWhenIntervalIsZeroOrNegative"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testFallsBackToOneMinuteIntervalWhenNoneConfigured"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003AtestStillReturnsFalseWhenNoIntervalConfiguredButRequeueUntilAlreadyPassed\u0028\u0029",
+            "name": "testStillReturnsFalseWhenNoIntervalConfiguredButRequeueUntilAlreadyPassed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Handler-RequeueHandlerTest.html#method_testStillReturnsFalseWhenNoIntervalConfiguredButRequeueUntilAlreadyPassed"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Handler\\RequeueHandlerTest\u003A\u003AtestReturnsFalseWhenNowIsAfterRequeueUntil\u0028\u0029",
             "name": "testReturnsFalseWhenNowIsAfterRequeueUntil",
@@ -26325,6 +26620,11 @@ Search.appendIndex(
             "name": "testUpdateStatusSetsSubmittedWhenRequiredFieldsAndListArePresent",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageManagerTest.html#method_testUpdateStatusSetsSubmittedWhenRequiredFieldsAndListArePresent"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageManagerTest\u003A\u003AtestGetStuckCampaignsDelegatesToRepository\u0028\u0029",
+            "name": "testGetStuckCampaignsDelegatesToRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageManagerTest.html#method_testGetStuckCampaignsDelegatesToRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\SendProcessManagerTest",
             "name": "SendProcessManagerTest",
