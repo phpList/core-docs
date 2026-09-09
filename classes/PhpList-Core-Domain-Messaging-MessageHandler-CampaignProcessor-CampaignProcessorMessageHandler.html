@@ -278,6 +278,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_stuckCampaignThresholdSeconds">$stuckCampaignThresholdSeconds</a>
+    <span>
+                        &nbsp;: int            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_subscriberHistoryManager">$subscriberHistoryManager</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>            </span>
@@ -987,6 +993,57 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
             -private
                                                 -read-only                    "
 >
+    <h4 class="phpdocumentor-element__name" id="property_stuckCampaignThresholdSeconds">
+        $stuckCampaignThresholdSeconds
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_stuckCampaignThresholdSeconds" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-campaignprocessor-campaignprocessormessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php">CampaignProcessorMessageHandler.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">79</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$stuckCampaignThresholdSeconds</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+        
+            <section class="phpdocumentor-attributes">
+            <h5 class="phpdocumentor-elements__header" id="property_stuckCampaignThresholdSeconds_attributes">
+                Attributes <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_stuckCampaignThresholdSeconds_attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+            </h5>
+                            <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Symfony\Component\DependencyInjection\Attribute\Autowire">Autowire</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        &#039;%messaging.stuck_campaign_threshold%&#039;
+    </dd>
+    </dl>
+                    </section>
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_subscriberHistoryManager">
         $subscriberHistoryManager
         <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_subscriberHistoryManager" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1282,7 +1339,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mailer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\RateLimitedCampaignMailer">RateLimitedCampaignMailer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$rateLimitedCampaignMailer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Provider\SubscriberProvider">SubscriberProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messagePreparator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cache</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MaxProcessTimeLimiter">MaxProcessTimeLimiter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$timeLimiter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Handler\RequeueHandler">RequeueHandler</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requeueHandler</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessagePrecacheService">MessagePrecacheService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$precacheService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageDataLoader">MessageDataLoader</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageDataLoader</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\SystemEmailBuilder">SystemEmailBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$systemEmailBuilder</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\EmailBuilder">EmailBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaignEmailBuilder</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MailSizeChecker.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MailSizeChecker">MailSizeChecker</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mailSizeChecker</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\DomainRateLimiter">DomainRateLimiter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domainRateLimiter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bounceEmail</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useListExclude</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mailer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\RateLimitedCampaignMailer">RateLimitedCampaignMailer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$rateLimitedCampaignMailer</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Provider\SubscriberProvider">SubscriberProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messagePreparator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cache</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MaxProcessTimeLimiter">MaxProcessTimeLimiter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$timeLimiter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Handler\RequeueHandler">RequeueHandler</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requeueHandler</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberHistoryManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberHistoryManager">SubscriberHistoryManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberHistoryManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessagePrecacheService">MessagePrecacheService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$precacheService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageDataLoader">MessageDataLoader</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageDataLoader</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-SystemEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\SystemEmailBuilder">SystemEmailBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$systemEmailBuilder</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-EmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\EmailBuilder">EmailBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaignEmailBuilder</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MailSizeChecker.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MailSizeChecker">MailSizeChecker</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mailSizeChecker</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\DomainRateLimiter">DomainRateLimiter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domainRateLimiter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bounceEmail</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useListExclude</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stuckCampaignThresholdSeconds</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1444,6 +1501,13 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$stuckCampaignThresholdSeconds</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -1466,7 +1530,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-campaignprocessor-campaignprocessormessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php">CampaignProcessorMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">83</span>
 
     </aside>
 
@@ -1510,7 +1574,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-campaignprocessor-campaignprocessormessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php">CampaignProcessorMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">153</span>
+    <span class="phpdocumentor-element-found-in__line">158</span>
 
     </aside>
 
@@ -1559,7 +1623,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-campaignprocessor-campaignprocessormessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php">CampaignProcessorMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">312</span>
+    <span class="phpdocumentor-element-found-in__line">337</span>
 
     </aside>
 
@@ -1617,7 +1681,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-campaignprocessor-campaignprocessormessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php">CampaignProcessorMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">237</span>
+    <span class="phpdocumentor-element-found-in__line">262</span>
 
     </aside>
 
@@ -1682,7 +1746,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-campaignprocessor-campaignprocessormessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php">CampaignProcessorMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">220</span>
+    <span class="phpdocumentor-element-found-in__line">245</span>
 
     </aside>
 
@@ -1740,7 +1804,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-campaignprocessor-campaignprocessormessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php">CampaignProcessorMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">176</span>
+    <span class="phpdocumentor-element-found-in__line">184</span>
 
     </aside>
 
@@ -1751,17 +1815,28 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">markExcludedSubscribers</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaign</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$excludeListIds</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">markExcludedSubscribers</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaign</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\CampaignProcessor\CampaignProcessorMessage">CampaignProcessorMessage</abbr></a>|<a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-SyncCampaignProcessorMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\CampaignProcessor\SyncCampaignProcessorMessage">SyncCampaignProcessorMessage</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$excludeListIds</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
-    
+        <section class="phpdocumentor-description"><p>Only campaign recipients (i.e. subscribers who'd otherwise be sent this campaign) are
+marked, since a subscriber on an exclude list who isn't a campaign recipient anyway
+shouldn't get an exclusion record.</p>
+</section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$campaign</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$data</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-CampaignProcessorMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\CampaignProcessor\CampaignProcessorMessage">CampaignProcessorMessage</abbr></a>|<a href="classes/PhpList-Core-Domain-Messaging-Message-CampaignProcessor-SyncCampaignProcessorMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\CampaignProcessor\SyncCampaignProcessorMessage">SyncCampaignProcessorMessage</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1795,7 +1870,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-campaignprocessor-campaignprocessormessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php">CampaignProcessorMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">357</span>
+    <span class="phpdocumentor-element-found-in__line">382</span>
 
     </aside>
 
@@ -1857,7 +1932,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-campaignprocessor-campaignprocessormessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php">CampaignProcessorMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">194</span>
+    <span class="phpdocumentor-element-found-in__line">219</span>
 
     </aside>
 
@@ -1901,7 +1976,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-campaignprocessor-campaignprocessormessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php">CampaignProcessorMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">202</span>
+    <span class="phpdocumentor-element-found-in__line">227</span>
 
     </aside>
 
@@ -1952,7 +2027,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-campaignprocessor-campaignprocessormessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/CampaignProcessor/CampaignProcessorMessageHandler.php">CampaignProcessorMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">214</span>
+    <span class="phpdocumentor-element-found-in__line">239</span>
 
     </aside>
 
@@ -2026,6 +2101,7 @@ can&#039;t clobber an already-recorded Sent/NotSent/etc. status from an earlier 
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_precacheService">$precacheService</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_rateLimitedCampaignMailer">$rateLimitedCampaignMailer</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_requeueHandler">$requeueHandler</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_stuckCampaignThresholdSeconds">$stuckCampaignThresholdSeconds</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_subscriberHistoryManager">$subscriberHistoryManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_subscriberProvider">$subscriberProvider</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_systemEmailBuilder">$systemEmailBuilder</a></li>

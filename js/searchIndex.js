@@ -6836,6 +6836,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_useListExclude"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\CampaignProcessorMessageHandler\u003A\u003A\u0024stuckCampaignThresholdSeconds",
+            "name": "stuckCampaignThresholdSeconds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html#property_stuckCampaignThresholdSeconds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessor\\TestCampaignProcessorMessageHandler",
             "name": "TestCampaignProcessorMessageHandler",
             "summary": "",
@@ -10123,7 +10128,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\DomainThrottleStateRepository\u003A\u003AresetBlockedCount\u0028\u0029",
             "name": "resetBlockedCount",
-            "summary": "",
+            "summary": "Atomically\u0020claims\u0020the\u0020auto\u002Dthrottle\u0020trigger\u0020for\u0020the\u0020specified\u0020domain\/window.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html#method_resetBlockedCount"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\DomainThrottleStateRepository\u003A\u003AincrementSentIfAllowed\u0028\u0029",
@@ -17951,6 +17956,16 @@ Search.appendIndex(
             "summary": "Get\u0020subscribers\u0020for\u0020a\u0020message",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method_getSubscribersForMessageOrLists"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider\u003A\u003AgetSendableSubscribersForMessageOrLists\u0028\u0029",
+            "name": "getSendableSubscribersForMessageOrLists",
+            "summary": "Resolves\u0020the\u0020campaign\u0027s\u0020sendable\u0020recipients\u0020by\u0020list\u0020membership\u0020\u0028confirmed,\u0020not\u0020disabled\u0029,\nbefore\u0020any\u0020list\u002Dbased\u0020exclusion\u0020is\u0020applied.\u0020Used\u0020to\u0020determine\u0020which\u0020excluded\u0020subscribers\nare\u0020actually\u0020campaign\u0020recipients,\u0020so\u0020exclusion\u0020records\u0020aren\u0027t\u0020created\u0020for\u0020non\u002Drecipients.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method_getSendableSubscribersForMessageOrLists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider\u003A\u003AgetSendableSubscribersByListMembership\u0028\u0029",
+            "name": "getSendableSubscribersByListMembership",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html#method_getSendableSubscribersByListMembership"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Provider\\SubscriberProvider\u003A\u003AgetExcludedSubscribers\u0028\u0029",
             "name": "getExcludedSubscribers",
             "summary": "Resolves\u0020the\u0020subscribers\u0020on\u0020the\u0020given\u0020exclude\u002Dlists,\u0020regardless\u0020of\u0020confirmed\/disabled\nstatus\u0020\u002D\u0020membership\u0020alone\u0020is\u0020enough\u0020to\u0020suppress\u0020a\u0020send.",
@@ -19431,6 +19446,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-DomainThrottleStateRepositoryTest.html#method_testResetBlockedCountClearsCounterForCurrentWindow"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\DomainThrottleStateRepositoryTest\u003A\u003AtestResetBlockedCountDoesNotClaimWhenCountAtOrBelowThreshold\u0028\u0029",
+            "name": "testResetBlockedCountDoesNotClaimWhenCountAtOrBelowThreshold",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-DomainThrottleStateRepositoryTest.html#method_testResetBlockedCountDoesNotClaimWhenCountAtOrBelowThreshold"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\DomainThrottleStateRepositoryTest\u003A\u003A\u0024repository",
             "name": "repository",
             "summary": "",
@@ -19505,6 +19525,26 @@ Search.appendIndex(
             "name": "testTryClaimForProcessingCannotClaimTwice",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingCannotClaimTwice"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestTryClaimForProcessingReclaimsStalePreparedCampaignWhenThresholdGiven\u0028\u0029",
+            "name": "testTryClaimForProcessingReclaimsStalePreparedCampaignWhenThresholdGiven",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingReclaimsStalePreparedCampaignWhenThresholdGiven"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestTryClaimForProcessingDoesNotReclaimRecentlyTouchedPreparedCampaign\u0028\u0029",
+            "name": "testTryClaimForProcessingDoesNotReclaimRecentlyTouchedPreparedCampaign",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingDoesNotReclaimRecentlyTouchedPreparedCampaign"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestTryClaimForProcessingIgnoresStalePreparedCampaignWithoutThreshold\u0028\u0029",
+            "name": "testTryClaimForProcessingIgnoresStalePreparedCampaignWithoutThreshold",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingIgnoresStalePreparedCampaignWithoutThreshold"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AbackdateModified\u0028\u0029",
+            "name": "backdateModified",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_backdateModified"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestGetFilteredAfterIdSortsDescendingAndCursorsBackward\u0028\u0029",
             "name": "testGetFilteredAfterIdSortsDescendingAndCursorsBackward",
@@ -24041,6 +24081,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWhenCampaignNotFound"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokePassesStuckCampaignThresholdToTryClaimForProcessing\u0028\u0029",
+            "name": "testInvokePassesStuckCampaignThresholdToTryClaimForProcessing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokePassesStuckCampaignThresholdToTryClaimForProcessing"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeWithNoSubscribers\u0028\u0029",
             "name": "testInvokeWithNoSubscribers",
             "summary": "",
@@ -24065,6 +24110,11 @@ Search.appendIndex(
             "name": "testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeDoesNotMarkExcludedSubscriberWhoIsNotACampaignRecipient\u0028\u0029",
+            "name": "testInvokeDoesNotMarkExcludedSubscriberWhoIsNotACampaignRecipient",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeDoesNotMarkExcludedSubscriberWhoIsNotACampaignRecipient"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeWithInvalidSubscriberEmail\u0028\u0029",
             "name": "testInvokeWithInvalidSubscriberEmail",
@@ -25495,6 +25545,11 @@ Search.appendIndex(
             "name": "testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testAppliesBackoffAndResetsBlockedCountOnceThresholdExceeded"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003AtestDoesNotBackoffWhenLosingTheResetRaceToAnotherWorker\u0028\u0029",
+            "name": "testDoesNotBackoffWhenLosingTheResetRaceToAnotherWorker",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-DomainRateLimiterTest.html#method_testDoesNotBackoffWhenLosingTheResetRaceToAnotherWorker"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest\u003A\u003A\u0024repository",
             "name": "repository",

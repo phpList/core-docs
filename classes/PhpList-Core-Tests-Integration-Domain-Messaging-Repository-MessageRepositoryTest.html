@@ -256,6 +256,24 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingDoesNotReclaimRecentlyTouchedPreparedCampaign">testTryClaimForProcessingDoesNotReclaimRecentlyTouchedPreparedCampaign()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingIgnoresStalePreparedCampaignWithoutThreshold">testTryClaimForProcessingIgnoresStalePreparedCampaignWithoutThreshold()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingReclaimsStalePreparedCampaignWhenThresholdGiven">testTryClaimForProcessingReclaimsStalePreparedCampaignWhenThresholdGiven()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingReturnsNullWhenNotSubmitted">testTryClaimForProcessingReturnsNullWhenNotSubmitted()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -306,6 +324,12 @@
                                 &nbsp;: void    </span>
 </dt>
 <dd>Asserts that $expected and $actual are similar, i.e., less than than 2 seconds apart.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_backdateModified">backdateModified()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_filterMissingTables">filterMissingTables()</a>
@@ -707,7 +731,7 @@ catalog directly bypasses that filter.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">262</span>
+    <span class="phpdocumentor-element-found-in__line">308</span>
 
     </aside>
 
@@ -851,6 +875,108 @@ catalog directly bypasses that filter.</dd>
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testTryClaimForProcessingClaimsSubmittedCampaign</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testTryClaimForProcessingDoesNotReclaimRecentlyTouchedPreparedCampaign">
+        testTryClaimForProcessingDoesNotReclaimRecentlyTouchedPreparedCampaign()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingDoesNotReclaimRecentlyTouchedPreparedCampaign" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">276</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testTryClaimForProcessingDoesNotReclaimRecentlyTouchedPreparedCampaign</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testTryClaimForProcessingIgnoresStalePreparedCampaignWithoutThreshold">
+        testTryClaimForProcessingIgnoresStalePreparedCampaignWithoutThreshold()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingIgnoresStalePreparedCampaignWithoutThreshold" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">286</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testTryClaimForProcessingIgnoresStalePreparedCampaignWithoutThreshold</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testTryClaimForProcessingReclaimsStalePreparedCampaignWhenThresholdGiven">
+        testTryClaimForProcessingReclaimsStalePreparedCampaignWhenThresholdGiven()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingReclaimsStalePreparedCampaignWhenThresholdGiven" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">262</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testTryClaimForProcessingReclaimsStalePreparedCampaignWhenThresholdGiven</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1170,6 +1296,57 @@ catalog directly bypasses that filter.</dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$actual</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\DateTime">DateTime</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_backdateModified">
+        backdateModified()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_backdateModified" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php"><a href="files/tests-integration-domain-messaging-repository-messagerepositorytest.html"><abbr title="tests/Integration/Domain/Messaging/Repository/MessageRepositoryTest.php">MessageRepositoryTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">297</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">backdateModified</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$secondsAgo</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$id</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$secondsAgo</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1543,6 +1720,9 @@ catalog directly bypasses that filter.</p>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testMessageTimestampsAreSetOnPersist">testMessageTimestampsAreSetOnPersist()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingCannotClaimTwice">testTryClaimForProcessingCannotClaimTwice()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingClaimsSubmittedCampaign">testTryClaimForProcessingClaimsSubmittedCampaign()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingDoesNotReclaimRecentlyTouchedPreparedCampaign">testTryClaimForProcessingDoesNotReclaimRecentlyTouchedPreparedCampaign()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingIgnoresStalePreparedCampaignWithoutThreshold">testTryClaimForProcessingIgnoresStalePreparedCampaignWithoutThreshold()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingReclaimsStalePreparedCampaignWhenThresholdGiven">testTryClaimForProcessingReclaimsStalePreparedCampaignWhenThresholdGiven()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testTryClaimForProcessingReturnsNullWhenNotSubmitted">testTryClaimForProcessingReturnsNullWhenNotSubmitted()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadFixtures">loadFixtures()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_loadSchema">loadSchema()</a></li>
@@ -1551,6 +1731,7 @@ catalog directly bypasses that filter.</p>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_tearDown">tearDown()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_tearDownDatabaseTest">tearDownDatabaseTest()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-SimilarDatesAssertionTrait.html#method_assertSimilarDates">assertSimilarDates()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_backdateModified">backdateModified()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_filterMissingTables">filterMissingTables()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-TestingSupport-Traits-DatabaseTestTrait.html#method_initializeBootstrap">initializeBootstrap()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_persistMessage">persistMessage()</a></li>

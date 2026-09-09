@@ -182,8 +182,9 @@
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-DomainThrottleStateRepository.html#method_resetBlockedCount">resetBlockedCount()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: bool    </span>
 </dt>
+<dd>Atomically claims the auto-throttle trigger for the specified domain/window.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save">save()</a>
@@ -391,19 +392,25 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/DomainThrottleStateRepository.php"><a href="files/src-domain-messaging-repository-domainthrottlestaterepository.html"><abbr title="src/Domain/Messaging/Repository/DomainThrottleStateRepository.php">DomainThrottleStateRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">58</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Atomically claims the auto-throttle trigger for the specified domain/window.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">resetBlockedCount</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domain</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$windowStart</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">resetBlockedCount</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$domain</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$windowStart</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$threshold</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
     
-    
+        <section class="phpdocumentor-description"><p>The row's blocked_count is reset to 0 only if it is still greater than $threshold at the moment
+the UPDATE executes. The worker whose UPDATE successfully performs that reset receives true and is
+considered to have claimed the trigger. Concurrent workers racing to claim the same trigger
+will see no rows updated once the count has already been reset and will receive false.</p>
+</section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -420,13 +427,24 @@ following the Law of Demeter.</p>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$threshold</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
 
         
     
-    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -557,7 +575,7 @@ MySQL/PostgreSQL/SQLite (no vendor-specific upsert/locking syntax).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/DomainThrottleStateRepository.php"><a href="files/src-domain-messaging-repository-domainthrottlestaterepository.html"><abbr title="src/Domain/Messaging/Repository/DomainThrottleStateRepository.php">DomainThrottleStateRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
+    <span class="phpdocumentor-element-found-in__line">129</span>
 
     </aside>
 
@@ -639,7 +657,7 @@ MySQL/PostgreSQL/SQLite (no vendor-specific upsert/locking syntax).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/DomainThrottleStateRepository.php"><a href="files/src-domain-messaging-repository-domainthrottlestaterepository.html"><abbr title="src/Domain/Messaging/Repository/DomainThrottleStateRepository.php">DomainThrottleStateRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">62</span>
+    <span class="phpdocumentor-element-found-in__line">76</span>
 
     </aside>
 
@@ -728,7 +746,7 @@ MySQL/PostgreSQL/SQLite (no vendor-specific upsert/locking syntax).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/DomainThrottleStateRepository.php"><a href="files/src-domain-messaging-repository-domainthrottlestaterepository.html"><abbr title="src/Domain/Messaging/Repository/DomainThrottleStateRepository.php">DomainThrottleStateRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">97</span>
+    <span class="phpdocumentor-element-found-in__line">111</span>
 
     </aside>
 
@@ -810,7 +828,7 @@ MySQL/PostgreSQL/SQLite (no vendor-specific upsert/locking syntax).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/DomainThrottleStateRepository.php"><a href="files/src-domain-messaging-repository-domainthrottlestaterepository.html"><abbr title="src/Domain/Messaging/Repository/DomainThrottleStateRepository.php">DomainThrottleStateRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">96</span>
 
     </aside>
 
