@@ -11336,6 +11336,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-CampaignSendingLoop.html#property_emailSender"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\CampaignSendingLoop\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-CampaignSendingLoop.html#property_logger"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ConsecutiveBounceHandler",
             "name": "ConsecutiveBounceHandler",
             "summary": "",
@@ -13250,6 +13255,11 @@ Search.appendIndex(
             "name": "precacheMessage",
             "summary": "Retrieve\u0020the\u0020base\u0020\u0028unpersonalized\u0029\u0020message\u0020content\u0020for\u0020a\u0020campaign\u0020from\u0020cache,\nor\u0020cache\u0020it\u0020on\u0020first\u0020access.\u0020Handle\u0020\u005BURL\u003A\u005D\u0020token\u0020fetch\u0020and\u0020basic\u0020placeholder\u0020replacements.",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_precacheMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AgetCacheKey\u0028\u0029",
+            "name": "getCacheKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_getCacheKey"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AisHtml\u0028\u0029",
             "name": "isHtml",
@@ -19920,6 +19930,31 @@ Search.appendIndex(
             "name": "repository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageBounceRepositoryTest.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageRepositoryTest",
+            "name": "UserMessageRepositoryTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageRepositoryTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageRepositoryTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageRepositoryTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageRepositoryTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageRepositoryTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageRepositoryTest\u003A\u003AtestCountSentSinceCountsOnlySentMessagesAfterGivenTime\u0028\u0029",
+            "name": "testCountSentSinceCountsOnlySentMessagesAfterGivenTime",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageRepositoryTest.html#method_testCountSentSinceCountsOnlySentMessagesAfterGivenTime"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\UserMessageRepositoryTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-UserMessageRepositoryTest.html#property_repository"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Fixtures\\SubscriberFixture",
             "name": "SubscriberFixture",
