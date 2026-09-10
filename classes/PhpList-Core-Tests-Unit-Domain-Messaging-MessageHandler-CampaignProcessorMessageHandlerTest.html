@@ -129,7 +129,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -161,15 +161,9 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_cache">$cache</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_adminNotifier">$adminNotifier</a>
     <span>
-                        &nbsp;: <abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_domainRateLimiter">$domainRateLimiter</a>
-    <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\DomainRateLimiter">DomainRateLimiter</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-CampaignAdminNotifier.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\CampaignAdminNotifier">CampaignAdminNotifier</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -179,9 +173,15 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_exclusionService">$exclusionService</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-CampaignExclusionService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\CampaignExclusionService">CampaignExclusionService</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_handler">$handler</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\MessageHandler\CampaignProcessor\CampaignProcessorMessageHandler">CampaignProcessorMessageHandler</abbr></a>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\MessageHandler\CampaignProcessorMessageHandler">CampaignProcessorMessageHandler</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -191,21 +191,21 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_mailer">$mailer</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messageDataLoader">$messageDataLoader</a>
     <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\RateLimitedCampaignMailer">RateLimitedCampaignMailer</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messagePreparator">$messagePreparator</a>
-    <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageDataLoader">MessageDataLoader</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messageRepository">$messageRepository</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messageStatusUpdater">$messageStatusUpdater</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-MessageStatusUpdater.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageStatusUpdater">MessageStatusUpdater</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -221,33 +221,21 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_sendingLoop">$sendingLoop</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-CampaignSendingLoop.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\CampaignSendingLoop">CampaignSendingLoop</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_subscriberProvider">$subscriberProvider</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Provider\SubscriberProvider">SubscriberProvider</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_symfonyMailer">$symfonyMailer</a>
-    <span>
-                        &nbsp;: <abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_timeLimiter">$timeLimiter</a>
-    <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MaxProcessTimeLimiter">MaxProcessTimeLimiter</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_translator">$translator</a>
     <span>
                         &nbsp;: <abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_userMessageRepository">$userMessageRepository</a>
-    <span>
-                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
     </dl>
@@ -259,31 +247,7 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeDoesNotMarkExcludedSubscriberWhoIsNotACampaignRecipient">testInvokeDoesNotMarkExcludedSubscriberWhoIsNotACampaignRecipient()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded">testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeIgnoresExcludeListWhenUseListExcludeDisabled">testInvokeIgnoresExcludeListWhenUseListExcludeDisabled()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeMarksExcludedSubscribersAsExcludedInUserMessage">testInvokeMarksExcludedSubscribersAsExcludedInUserMessage()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokePassesExcludeListIdsFromMessageDataToSubscriberProviderWhenEnabled">testInvokePassesExcludeListIdsFromMessageDataToSubscriberProviderWhenEnabled()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeMarksSentWhenStoppedEarlyButRequeueDeclines">testInvokeMarksSentWhenStoppedEarlyButRequeueDeclines()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -295,43 +259,25 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeSkipsDomainThrottledSubscriberWithoutCreatingUserMessage">testInvokeSkipsDomainThrottledSubscriberWithoutCreatingUserMessage()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeRequeuesAndSkipsSentStatusWhenStoppedEarlyAndRequeued">testInvokeRequeuesAndSkipsSentStatusWhenStoppedEarlyAndRequeued()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeRunsFullPipelineAndMarksCampaignSent">testInvokeRunsFullPipelineAndMarksCampaignSent()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeSuspendsCampaignWhenPrecacheFails">testInvokeSuspendsCampaignWhenPrecacheFails()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWhenCampaignNotFound">testInvokeWhenCampaignNotFound()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithInvalidSubscriberEmail">testInvokeWithInvalidSubscriberEmail()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithMailerException">testInvokeWithMailerException()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithMultipleSubscribers">testInvokeWithMultipleSubscribers()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithNoSubscribers">testInvokeWithNoSubscribers()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithValidSubscriberEmail">testInvokeWithValidSubscriberEmail()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -347,18 +293,11 @@
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>    </span>
 </dt>
-<dd>Creates a mock for the Message class with content</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_createContentMock">createContentMock()</a>
-    <span>
-                                &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageContent.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\MessageContent">MessageContent</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>    </span>
-</dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_createHandler">createHandler()</a>
     <span>
-                                &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\MessageHandler\CampaignProcessor\CampaignProcessorMessageHandler">CampaignProcessorMessageHandler</abbr></a>    </span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\MessageHandler\CampaignProcessorMessageHandler">CampaignProcessorMessageHandler</abbr></a>    </span>
 </dt>
 
     </dl>
@@ -381,9 +320,9 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_cache">
-        $cache
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_cache" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_adminNotifier">
+        $adminNotifier
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_adminNotifier" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
@@ -391,7 +330,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -399,45 +338,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$cache</span>
-    </code>
-
-    
-    
-    
-
-        
-        
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_domainRateLimiter">
-        $domainRateLimiter
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_domainRateLimiter" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">61</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-DomainRateLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\DomainRateLimiter">DomainRateLimiter</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$domainRateLimiter</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-CampaignAdminNotifier.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\CampaignAdminNotifier">CampaignAdminNotifier</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$adminNotifier</span>
     </code>
 
     
@@ -465,7 +367,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -475,6 +377,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$entityManager</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_exclusionService">
+        $exclusionService
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_exclusionService" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-CampaignExclusionService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\CampaignExclusionService">CampaignExclusionService</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$exclusionService</span>
     </code>
 
     
@@ -502,7 +441,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -510,7 +449,7 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\MessageHandler\CampaignProcessor\CampaignProcessorMessageHandler">CampaignProcessorMessageHandler</abbr></a></span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\MessageHandler\CampaignProcessorMessageHandler">CampaignProcessorMessageHandler</abbr></a></span>
     <span class="phpdocumentor-signature__name">$handler</span>
     </code>
 
@@ -539,7 +478,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
@@ -566,9 +505,9 @@
             -private
                                                                     "
 >
-    <h4 class="phpdocumentor-element__name" id="property_mailer">
-        $mailer
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_mailer" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_messageDataLoader">
+        $messageDataLoader
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messageDataLoader" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                                             </span>
@@ -576,7 +515,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -584,45 +523,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-RateLimitedCampaignMailer.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\RateLimitedCampaignMailer">RateLimitedCampaignMailer</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$mailer</span>
-    </code>
-
-    
-    
-    
-
-        
-        
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_messagePreparator">
-        $messagePreparator
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messagePreparator" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">50</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageProcessingPreparator">MessageProcessingPreparator</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$messagePreparator</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageDataLoader">MessageDataLoader</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$messageDataLoader</span>
     </code>
 
     
@@ -650,7 +552,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -660,6 +562,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$messageRepository</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_messageStatusUpdater">
+        $messageStatusUpdater
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messageStatusUpdater" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessageStatusUpdater.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessageStatusUpdater">MessageStatusUpdater</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$messageStatusUpdater</span>
     </code>
 
     
@@ -687,7 +626,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -724,7 +663,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">60</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -734,6 +673,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Handler-RequeueHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Handler\RequeueHandler">RequeueHandler</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$requeueHandler</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_sendingLoop">
+        $sendingLoop
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_sendingLoop" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">37</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-CampaignSendingLoop.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\CampaignSendingLoop">CampaignSendingLoop</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$sendingLoop</span>
     </code>
 
     
@@ -761,7 +737,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
@@ -771,80 +747,6 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Provider-SubscriberProvider.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Provider\SubscriberProvider">SubscriberProvider</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$subscriberProvider</span>
-    </code>
-
-    
-    
-    
-
-        
-        
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_symfonyMailer">
-        $symfonyMailer
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_symfonyMailer" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">57</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Mailer\MailerInterface">MailerInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$symfonyMailer</span>
-    </code>
-
-    
-    
-    
-
-        
-        
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_timeLimiter">
-        $timeLimiter
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_timeLimiter" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">59</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MaxProcessTimeLimiter.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MaxProcessTimeLimiter">MaxProcessTimeLimiter</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$timeLimiter</span>
     </code>
 
     
@@ -872,7 +774,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
@@ -882,43 +784,6 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$translator</span>
-    </code>
-
-    
-    
-    
-
-        
-        
-
-</article>
-                    <article
-        class="
-            phpdocumentor-element
-            -property
-            -private
-                                                                    "
->
-    <h4 class="phpdocumentor-element__name" id="property_userMessageRepository">
-        $userMessageRepository
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_userMessageRepository" class="headerlink"><i class="fas fa-link"></i></a>
-
-        <span class="phpdocumentor-element__modifiers">
-                                            </span>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">58</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-        <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-    <span class="phpdocumentor-signature__name">$userMessageRepository</span>
     </code>
 
     
@@ -943,158 +808,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testInvokeDoesNotMarkExcludedSubscriberWhoIsNotACampaignRecipient">
-        testInvokeDoesNotMarkExcludedSubscriberWhoIsNotACampaignRecipient()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeDoesNotMarkExcludedSubscriberWhoIsNotACampaignRecipient" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testInvokeMarksSentWhenStoppedEarlyButRequeueDeclines">
+        testInvokeMarksSentWhenStoppedEarlyButRequeueDeclines()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeMarksSentWhenStoppedEarlyButRequeueDeclines" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">387</span>
+    <span class="phpdocumentor-element-found-in__line">215</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testInvokeDoesNotMarkExcludedSubscriberWhoIsNotACampaignRecipient</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded">
-        testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">327</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testInvokeIgnoresExcludeListWhenUseListExcludeDisabled">
-        testInvokeIgnoresExcludeListWhenUseListExcludeDisabled()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeIgnoresExcludeListWhenUseListExcludeDisabled" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">228</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testInvokeIgnoresExcludeListWhenUseListExcludeDisabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testInvokeMarksExcludedSubscribersAsExcludedInUserMessage">
-        testInvokeMarksExcludedSubscribersAsExcludedInUserMessage()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeMarksExcludedSubscribersAsExcludedInUserMessage" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">265</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testInvokeMarksExcludedSubscribersAsExcludedInUserMessage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testInvokePassesExcludeListIdsFromMessageDataToSubscriberProviderWhenEnabled">
-        testInvokePassesExcludeListIdsFromMessageDataToSubscriberProviderWhenEnabled()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokePassesExcludeListIdsFromMessageDataToSubscriberProviderWhenEnabled" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">191</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testInvokePassesExcludeListIdsFromMessageDataToSubscriberProviderWhenEnabled</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testInvokeMarksSentWhenStoppedEarlyButRequeueDeclines</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1121,7 +850,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
+    <span class="phpdocumentor-element-found-in__line">100</span>
 
     </aside>
 
@@ -1147,22 +876,90 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testInvokeSkipsDomainThrottledSubscriberWithoutCreatingUserMessage">
-        testInvokeSkipsDomainThrottledSubscriberWithoutCreatingUserMessage()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeSkipsDomainThrottledSubscriberWithoutCreatingUserMessage" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testInvokeRequeuesAndSkipsSentStatusWhenStoppedEarlyAndRequeued">
+        testInvokeRequeuesAndSkipsSentStatusWhenStoppedEarlyAndRequeued()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeRequeuesAndSkipsSentStatusWhenStoppedEarlyAndRequeued" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">759</span>
+    <span class="phpdocumentor-element-found-in__line">186</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testInvokeSkipsDomainThrottledSubscriberWithoutCreatingUserMessage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testInvokeRequeuesAndSkipsSentStatusWhenStoppedEarlyAndRequeued</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testInvokeRunsFullPipelineAndMarksCampaignSent">
+        testInvokeRunsFullPipelineAndMarksCampaignSent()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeRunsFullPipelineAndMarksCampaignSent" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">135</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testInvokeRunsFullPipelineAndMarksCampaignSent</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testInvokeSuspendsCampaignWhenPrecacheFails">
+        testInvokeSuspendsCampaignWhenPrecacheFails()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeSuspendsCampaignWhenPrecacheFails" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">114</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testInvokeSuspendsCampaignWhenPrecacheFails</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1189,7 +986,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">123</span>
+    <span class="phpdocumentor-element-found-in__line">82</span>
 
     </aside>
 
@@ -1197,176 +994,6 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testInvokeWhenCampaignNotFound</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testInvokeWithInvalidSubscriberEmail">
-        testInvokeWithInvalidSubscriberEmail()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithInvalidSubscriberEmail" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">443</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testInvokeWithInvalidSubscriberEmail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testInvokeWithMailerException">
-        testInvokeWithMailerException()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithMailerException" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">552</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testInvokeWithMailerException</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testInvokeWithMultipleSubscribers">
-        testInvokeWithMultipleSubscribers()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithMultipleSubscribers" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">625</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testInvokeWithMultipleSubscribers</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testInvokeWithNoSubscribers">
-        testInvokeWithNoSubscribers()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithNoSubscribers" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">157</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testInvokeWithNoSubscribers</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testInvokeWithValidSubscriberEmail">
-        testInvokeWithValidSubscriberEmail()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithValidSubscriberEmail" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">484</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testInvokeWithValidSubscriberEmail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1393,7 +1020,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 
     </aside>
 
@@ -1427,12 +1054,11 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">805</span>
+    <span class="phpdocumentor-element-found-in__line">247</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Creates a mock for the Message class with content</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
                     <span class="phpdocumentor-signature__name">createCampaignMock</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span></code>
@@ -1458,44 +1084,6 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_createContentMock">
-        createContentMock()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_createContentMock" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">814</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">createContentMock</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageContent.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\MessageContent">MessageContent</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message-MessageContent.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message\MessageContent">MessageContent</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_createHandler">
         createHandler()
         <a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_createHandler" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1504,14 +1092,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php"><a href="files/tests-unit-domain-messaging-messagehandler-campaignprocessormessagehandlertest.html"><abbr title="tests/Unit/Domain/Messaging/MessageHandler/CampaignProcessorMessageHandlerTest.php">CampaignProcessorMessageHandlerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">92</span>
+    <span class="phpdocumentor-element-found-in__line">63</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">createHandler</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$useListExclude</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stuckCampaignThresholdSeconds</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\MessageHandler\CampaignProcessor\CampaignProcessorMessageHandler">CampaignProcessorMessageHandler</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">createHandler</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stuckCampaignThresholdSeconds</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\MessageHandler\CampaignProcessorMessageHandler">CampaignProcessorMessageHandler</abbr></a></span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1519,13 +1107,6 @@
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$useListExclude</span>
-                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
-                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$stuckCampaignThresholdSeconds</span>
                 : <span class="phpdocumentor-argument-list__argument__type">int</span>
@@ -1541,7 +1122,7 @@
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessor-CampaignProcessorMessageHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\MessageHandler\CampaignProcessor\CampaignProcessorMessageHandler">CampaignProcessorMessageHandler</abbr></a></span>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandler.html"><abbr title="\PhpList\Core\Domain\Messaging\MessageHandler\CampaignProcessorMessageHandler">CampaignProcessorMessageHandler</abbr></a></span>
             </section>
 
 </article>
@@ -1567,43 +1148,33 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_cache">$cache</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_domainRateLimiter">$domainRateLimiter</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_adminNotifier">$adminNotifier</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_entityManager">$entityManager</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_exclusionService">$exclusionService</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_handler">$handler</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_logger">$logger</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_mailer">$mailer</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messagePreparator">$messagePreparator</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messageDataLoader">$messageDataLoader</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messageRepository">$messageRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_messageStatusUpdater">$messageStatusUpdater</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_precacheService">$precacheService</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_requeueHandler">$requeueHandler</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_sendingLoop">$sendingLoop</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_subscriberProvider">$subscriberProvider</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_symfonyMailer">$symfonyMailer</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_timeLimiter">$timeLimiter</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_translator">$translator</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#property_userMessageRepository">$userMessageRepository</a></li>
                                             </ul>
                 </li>
             
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeDoesNotMarkExcludedSubscriberWhoIsNotACampaignRecipient">testInvokeDoesNotMarkExcludedSubscriberWhoIsNotACampaignRecipient()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded">testInvokeDoesNotOverwriteExistingNonTodoUserMessageWhenMarkingExcluded()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeIgnoresExcludeListWhenUseListExcludeDisabled">testInvokeIgnoresExcludeListWhenUseListExcludeDisabled()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeMarksExcludedSubscribersAsExcludedInUserMessage">testInvokeMarksExcludedSubscribersAsExcludedInUserMessage()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokePassesExcludeListIdsFromMessageDataToSubscriberProviderWhenEnabled">testInvokePassesExcludeListIdsFromMessageDataToSubscriberProviderWhenEnabled()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeMarksSentWhenStoppedEarlyButRequeueDeclines">testInvokeMarksSentWhenStoppedEarlyButRequeueDeclines()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokePassesStuckCampaignThresholdToTryClaimForProcessing">testInvokePassesStuckCampaignThresholdToTryClaimForProcessing()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeSkipsDomainThrottledSubscriberWithoutCreatingUserMessage">testInvokeSkipsDomainThrottledSubscriberWithoutCreatingUserMessage()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeRequeuesAndSkipsSentStatusWhenStoppedEarlyAndRequeued">testInvokeRequeuesAndSkipsSentStatusWhenStoppedEarlyAndRequeued()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeRunsFullPipelineAndMarksCampaignSent">testInvokeRunsFullPipelineAndMarksCampaignSent()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeSuspendsCampaignWhenPrecacheFails">testInvokeSuspendsCampaignWhenPrecacheFails()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWhenCampaignNotFound">testInvokeWhenCampaignNotFound()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithInvalidSubscriberEmail">testInvokeWithInvalidSubscriberEmail()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithMailerException">testInvokeWithMailerException()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithMultipleSubscribers">testInvokeWithMultipleSubscribers()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithNoSubscribers">testInvokeWithNoSubscribers()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeWithValidSubscriberEmail">testInvokeWithValidSubscriberEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_setUp">setUp()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_createCampaignMock">createCampaignMock()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_createContentMock">createContentMock()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_createHandler">createHandler()</a></li>
                                     </ul>
             </li>
