@@ -11166,11 +11166,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-CampaignAdminNotifier.html#property_translator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\CampaignAdminNotifier\u003A\u003A\u0024logger",
-            "name": "logger",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-CampaignAdminNotifier.html#property_logger"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\CampaignEmailSender",
             "name": "CampaignEmailSender",
             "summary": "Sends\u0020a\u0020single\u0020campaign\u0020email\u0020to\u0020a\u0020subscriber\u0020and\u0020records\u0020the\u0020resulting\u0020UserMessage\u0020status,\nincluding\u0020the\u0020side\u0020effects\u0020\u0028suspend\u0020campaign,\u0020notify\u0020admins,\u0020unconfirm\u0020subscriber\u0029\u0020that\nspecific\u0020failure\u0020modes\u0020require.",
@@ -25525,11 +25520,6 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-CampaignAdminNotifierTest.html#property_translator"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\CampaignAdminNotifierTest\u003A\u003A\u0024logger",
-            "name": "logger",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-CampaignAdminNotifierTest.html#property_logger"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\CampaignAdminNotifierTest\u003A\u003A\u0024notifier",
             "name": "notifier",
