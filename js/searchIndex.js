@@ -24291,6 +24291,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeMarksSentWhenStoppedEarlyButRequeueDeclines"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AtestInvokeAbortsWithoutContinuingWhenStartNotifiedMarkerFlushFails\u0028\u0029",
+            "name": "testInvokeAbortsWithoutContinuingWhenStartNotifiedMarkerFlushFails",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-CampaignProcessorMessageHandlerTest.html#method_testInvokeAbortsWithoutContinuingWhenStartNotifiedMarkerFlushFails"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest\u003A\u003AcreateCampaignMock\u0028\u0029",
             "name": "createCampaignMock",
             "summary": "",
