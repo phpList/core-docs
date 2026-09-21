@@ -223,6 +223,12 @@ config/services/repositories.yml.</dd>    </dl>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getCountByMessageIds">getCountByMessageIds()</a>
+    <span>
+                                &nbsp;: array&lt;int, int&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getFilteredAfterId">getFilteredAfterId()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html"><abbr title="\PhpList\Core\Domain\Common\Model\PaginatedResult">PaginatedResult</abbr></a>&lt;string|int, <a href="classes/PhpList-Core-Domain-Messaging-Model-Interfaces-UserMessageBounceRecordInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Interfaces\UserMessageBounceRecordInterface">UserMessageBounceRecordInterface</abbr></a>&gt;    </span>
@@ -400,7 +406,7 @@ config/services/repositories.yml.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchReader.php">UserMessageBounceElasticsearchReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">112</span>
+    <span class="phpdocumentor-element-found-in__line">144</span>
 
     </aside>
 
@@ -455,7 +461,7 @@ config/services/repositories.yml.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchReader.php">UserMessageBounceElasticsearchReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">129</span>
+    <span class="phpdocumentor-element-found-in__line">161</span>
 
     </aside>
 
@@ -598,6 +604,58 @@ config/services/repositories.yml.</dd>    </dl>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getCountByMessageIds">
+        getCountByMessageIds()
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getCountByMessageIds" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchReader.php">UserMessageBounceElasticsearchReader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">116</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getCountByMessageIds</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageIds</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, int&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$messageIds</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, int&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, int&gt;</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>bounce counts keyed by message id</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getFilteredAfterId">
         getFilteredAfterId()
         <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getFilteredAfterId" class="headerlink"><i class="fas fa-link"></i></a>
@@ -654,7 +712,7 @@ config/services/repositories.yml.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchReader.php">UserMessageBounceElasticsearchReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">147</span>
+    <span class="phpdocumentor-element-found-in__line">179</span>
 
     </aside>
 
@@ -702,7 +760,7 @@ config/services/repositories.yml.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchReader.php">UserMessageBounceElasticsearchReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">162</span>
+    <span class="phpdocumentor-element-found-in__line">194</span>
 
     </aside>
 
@@ -761,6 +819,7 @@ config/services/repositories.yml.</dd>    </dl>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_existsByMessageIdAndUserId">existsByMessageIdAndUserId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getByUserId">getByUserId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getCountByMessageId">getCountByMessageId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getCountByMessageIds">getCountByMessageIds()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_hydrate">hydrate()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_resolvePhysicalIndexName">resolvePhysicalIndexName()</a></li>

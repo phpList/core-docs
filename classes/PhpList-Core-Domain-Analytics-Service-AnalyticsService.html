@@ -124,7 +124,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
@@ -147,6 +147,19 @@
 
 
 
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_SUMMARY_STATISTICS_CACHE_KEY">SUMMARY_STATISTICS_CACHE_KEY</a>
+    <span>
+        &nbsp;: mixed&nbsp;= &#039;analytics.summary_statistics&#039;                            </span>
+</dt>
+
+    </dl>
 
 
 <h4 id="toc-properties">
@@ -155,6 +168,12 @@
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_cache">$cache</a>
+    <span>
+                        &nbsp;: <abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>            </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_linkTrackManager">$linkTrackManager</a>
     <span>
@@ -183,6 +202,12 @@
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_subscriberRepository">$subscriberRepository</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_summaryStatisticsTtlSeconds">$summaryStatisticsTtlSeconds</a>
+    <span>
+                        &nbsp;: int|null            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -286,6 +311,12 @@
 <dd>Calculate rate as a percentage.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_computeSummaryStatistics">computeSummaryStatistics()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_formatStat">formatStat()</a>
     <span>
                                 &nbsp;: int|float    </span>
@@ -296,6 +327,43 @@
 
 
         
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_SUMMARY_STATISTICS_CACHE_KEY">
+        SUMMARY_STATISTICS_CACHE_KEY
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_SUMMARY_STATISTICS_CACHE_KEY" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">22</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">SUMMARY_STATISTICS_CACHE_KEY</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;analytics.summary_statistics&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+            </section>
 
         
     <section class="phpdocumentor-properties">
@@ -304,6 +372,43 @@
             <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_cache">
+        $cache
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_cache" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$cache</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
                     <article
         class="
             phpdocumentor-element
@@ -321,7 +426,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
@@ -358,7 +463,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -395,7 +500,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -432,7 +537,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -469,7 +574,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -496,6 +601,43 @@
             -private
                                                 -read-only                    "
 >
+    <h4 class="phpdocumentor-element__name" id="property_summaryStatisticsTtlSeconds">
+        $summaryStatisticsTtlSeconds
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_summaryStatisticsTtlSeconds" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">34</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">int|null</span>
+    <span class="phpdocumentor-signature__name">$summaryStatisticsTtlSeconds</span>
+     = <span class="phpdocumentor-signature__default-value">300</span></code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_userMessageRepository">
         $userMessageRepository
         <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_userMessageRepository" class="headerlink"><i class="fas fa-link"></i></a>
@@ -506,7 +648,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -543,7 +685,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -580,7 +722,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -622,14 +764,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\Manager\LinkTrackManager">LinkTrackManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkTrackManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\Manager\UserMessageViewManager">UserMessageViewManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageViewManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReaderInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\Interfaces\UserMessageBounceReaderInterface">UserMessageBounceReaderInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageBounceReader</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageForwardRepository">UserMessageForwardRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageForwardRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\UserMessageViewRepository">UserMessageViewRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageViewRepository</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\Manager\LinkTrackManager">LinkTrackManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkTrackManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\Manager\UserMessageViewManager">UserMessageViewManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageViewManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReaderInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\Interfaces\UserMessageBounceReaderInterface">UserMessageBounceReaderInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageBounceReader</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageForwardRepository">UserMessageForwardRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageForwardRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\UserMessageViewRepository">UserMessageViewRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageViewRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cache</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$summaryStatisticsTtlSeconds</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">300</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -693,6 +835,20 @@
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$cache</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$summaryStatisticsTtlSeconds</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">300</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -715,7 +871,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">334</span>
+    <span class="phpdocumentor-element-found-in__line">353</span>
 
     </aside>
 
@@ -753,7 +909,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 
     </aside>
 
@@ -825,7 +981,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">258</span>
+    <span class="phpdocumentor-element-found-in__line">277</span>
 
     </aside>
 
@@ -885,7 +1041,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">363</span>
+    <span class="phpdocumentor-element-found-in__line">382</span>
 
     </aside>
 
@@ -934,7 +1090,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">165</span>
+    <span class="phpdocumentor-element-found-in__line">171</span>
 
     </aside>
 
@@ -972,7 +1128,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">150</span>
+    <span class="phpdocumentor-element-found-in__line">156</span>
 
     </aside>
 
@@ -1038,7 +1194,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">313</span>
+    <span class="phpdocumentor-element-found-in__line">332</span>
 
     </aside>
 
@@ -1095,7 +1251,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">110</span>
+    <span class="phpdocumentor-element-found-in__line">111</span>
 
     </aside>
 
@@ -1163,7 +1319,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">236</span>
+    <span class="phpdocumentor-element-found-in__line">255</span>
 
     </aside>
 
@@ -1219,7 +1375,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">220</span>
+    <span class="phpdocumentor-element-found-in__line">239</span>
 
     </aside>
 
@@ -1267,6 +1423,44 @@
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_computeSummaryStatistics">
+        computeSummaryStatistics()
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_computeSummaryStatistics" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">184</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">computeSummaryStatistics</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_formatStat">
         formatStat()
         <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_formatStat" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1275,7 +1469,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsService.php"><a href="files/src-domain-analytics-service-analyticsservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsService.php">AnalyticsService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">295</span>
+    <span class="phpdocumentor-element-found-in__line">314</span>
 
     </aside>
 
@@ -1330,19 +1524,28 @@
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#toc-constants">Constants</a></li>
                                                             <li><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#toc-properties">Properties</a></li>
                                                             <li><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_SUMMARY_STATISTICS_CACHE_KEY">SUMMARY_STATISTICS_CACHE_KEY</a></li>
+                                            </ul>
+                </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_cache">$cache</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_linkTrackManager">$linkTrackManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_messageBounceReader">$messageBounceReader</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_messageForwardRepository">$messageForwardRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_messageRepository">$messageRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_subscriberRepository">$subscriberRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_summaryStatisticsTtlSeconds">$summaryStatisticsTtlSeconds</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_userMessageRepository">$userMessageRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_userMessageViewManager">$userMessageViewManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_userMessageViewRepository">$userMessageViewRepository</a></li>
@@ -1363,6 +1566,7 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getViewOpensStatistics">getViewOpensStatistics()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_calculateChange">calculateChange()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_calculateRate">calculateRate()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_computeSummaryStatistics">computeSummaryStatistics()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_formatStat">formatStat()</a></li>
                                     </ul>
             </li>

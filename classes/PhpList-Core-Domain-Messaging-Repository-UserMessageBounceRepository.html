@@ -224,6 +224,12 @@ see config/services/repositories.yml.</dd>    </dl>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCountByMessageIds">getCountByMessageIds()</a>
+    <span>
+                                &nbsp;: array&lt;int, int&gt;    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getFilteredAfterId">getFilteredAfterId()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html"><abbr title="\PhpList\Core\Domain\Common\Model\PaginatedResult">PaginatedResult</abbr></a>&lt;string|int, <a href="classes/PhpList-Core-Domain-Messaging-Model-UserMessageBounce.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\UserMessageBounce">UserMessageBounce</abbr></a>&gt;    </span>
@@ -295,7 +301,7 @@ see config/services/repositories.yml.</dd>    </dl>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">197</span>
+    <span class="phpdocumentor-element-found-in__line">222</span>
 
     </aside>
 
@@ -399,7 +405,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">209</span>
+    <span class="phpdocumentor-element-found-in__line">234</span>
 
     </aside>
 
@@ -561,7 +567,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">161</span>
+    <span class="phpdocumentor-element-found-in__line">186</span>
 
     </aside>
 
@@ -652,6 +658,58 @@ following the Law of Demeter.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getCountByMessageIds">
+        getCountByMessageIds()
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCountByMessageIds" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">114</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getCountByMessageIds</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageIds</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, int&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$messageIds</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, int&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, int&gt;</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>bounce counts keyed by message id</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getFilteredAfterId">
         getFilteredAfterId()
         <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getFilteredAfterId" class="headerlink"><i class="fas fa-link"></i></a>
@@ -722,7 +780,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">122</span>
+    <span class="phpdocumentor-element-found-in__line">147</span>
 
     </aside>
 
@@ -773,7 +831,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">225</span>
+    <span class="phpdocumentor-element-found-in__line">250</span>
 
     </aside>
 
@@ -828,7 +886,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php"><a href="files/src-domain-messaging-repository-usermessagebouncerepository.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceRepository.php">UserMessageBounceRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">247</span>
+    <span class="phpdocumentor-element-found-in__line">272</span>
 
     </aside>
 
@@ -1027,6 +1085,7 @@ following the Law of Demeter.</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getByUserId">getByUserId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCampaignBounceTotals">getCampaignBounceTotals()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCountByMessageId">getCountByMessageId()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCountByMessageIds">getCountByMessageIds()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getListBounceTotals">getListBounceTotals()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getPaginatedWithJoinNoRelation">getPaginatedWithJoinNoRelation()</a></li>

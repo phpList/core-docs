@@ -1456,6 +1456,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html#method_countUniqueClickersByMessageIds"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\LinkTrackRepository\u003A\u003AsumClicksByMessageIds\u0028\u0029",
+            "name": "sumClicksByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html#method_sumClicksByMessageIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\LinkTrackUmlClickRepository",
             "name": "LinkTrackUmlClickRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -1496,6 +1501,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html#method_countByMessageIds"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\UserMessageViewRepository\u003A\u003AcountUniqueByMessageIds\u0028\u0029",
+            "name": "countUniqueByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Repository-UserMessageViewRepository.html#method_countUniqueByMessageIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Repository\\UserStatsRepository",
             "name": "UserStatsRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -1531,6 +1541,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getSummaryStatistics"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AcomputeSummaryStatistics\u0028\u0029",
+            "name": "computeSummaryStatistics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_computeSummaryStatistics"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AcalculateRate\u0028\u0029",
             "name": "calculateRate",
             "summary": "Calculate\u0020rate\u0020as\u0020a\u0020percentage.",
@@ -1565,6 +1580,11 @@ Search.appendIndex(
             "name": "getRecentCampaigns",
             "summary": "Get\u0020recent\u0020campaigns\u0020with\u0020their\u0020performance\u0020rates",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getRecentCampaigns"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003ASUMMARY_STATISTICS_CACHE_KEY",
+            "name": "SUMMARY_STATISTICS_CACHE_KEY",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_SUMMARY_STATISTICS_CACHE_KEY"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024linkTrackManager",
             "name": "linkTrackManager",
@@ -1605,6 +1625,16 @@ Search.appendIndex(
             "name": "userMessageViewRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_userMessageViewRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_cache"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024summaryStatisticsTtlSeconds",
+            "name": "summaryStatisticsTtlSeconds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_summaryStatisticsTtlSeconds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService",
             "name": "LinkTrackService",
@@ -1681,6 +1711,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html#method_countUniqueClickersByMessageIds"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager\u003A\u003AsumClicksByMessageIds\u0028\u0029",
+            "name": "sumClicksByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-LinkTrackManager.html#method_sumClicksByMessageIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager\u003A\u003A\u0024linkTrackRepository",
             "name": "linkTrackRepository",
             "summary": "",
@@ -1720,6 +1755,11 @@ Search.appendIndex(
             "name": "countViewsByMessageIds",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#method_countViewsByMessageIds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003AcountUniqueViewsByMessageIds\u0028\u0029",
+            "name": "countUniqueViewsByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#method_countUniqueViewsByMessageIds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\UserMessageViewManager\u003A\u003A\u0024userMessageViewRepository",
             "name": "userMessageViewRepository",
@@ -10076,6 +10116,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReaderInterface.html#method_getCountByMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReaderInterface\u003A\u003AgetCountByMessageIds\u0028\u0029",
+            "name": "getCountByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-Interfaces-UserMessageBounceReaderInterface.html#method_getCountByMessageIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\Interfaces\\UserMessageBounceReaderInterface\u003A\u003AcountBetween\u0028\u0029",
             "name": "countBetween",
             "summary": "",
@@ -10311,6 +10356,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#method_getCountByMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003AgetCountByMessageIds\u0028\u0029",
+            "name": "getCountByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceConfigurableReader.html#method_getCountByMessageIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceConfigurableReader\u003A\u003AcountBetween\u0028\u0029",
             "name": "countBetween",
             "summary": "",
@@ -10446,6 +10496,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getCountByMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003AgetCountByMessageIds\u0028\u0029",
+            "name": "getCountByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchReader.html#method_getCountByMessageIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader\u003A\u003AcountBetween\u0028\u0029",
             "name": "countBetween",
             "summary": "",
@@ -10536,6 +10591,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCountByMessageId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AgetCountByMessageIds\u0028\u0029",
+            "name": "getCountByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceRepository.html#method_getCountByMessageIds"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceRepository\u003A\u003AgetListBounceTotals\u0028\u0029",
             "name": "getListBounceTotals",
             "summary": "Returns\u0020bounce\u0020totals\u0020per\u0020subscriber\u0020for\u0020a\u0020specific\u0020list.",
@@ -10585,6 +10645,11 @@ Search.appendIndex(
             "name": "findByEmailAndMessage",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_findByEmailAndMessage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageForwardRepository\u003A\u003AgetCountByMessageIds\u0028\u0029",
+            "name": "getCountByMessageIds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageForwardRepository.html#method_getCountByMessageIds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository",
             "name": "UserMessageRepository",
@@ -20971,6 +21036,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetSummaryStatistics"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetSummaryStatisticsReturnsCachedValueWithoutRecomputing\u0028\u0029",
+            "name": "testGetSummaryStatisticsReturnsCachedValueWithoutRecomputing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetSummaryStatisticsReturnsCachedValueWithoutRecomputing"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetCampaignPerformance\u0028\u0029",
             "name": "testGetCampaignPerformance",
             "summary": "",
@@ -21025,6 +21095,11 @@ Search.appendIndex(
             "name": "userMessageViewRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_userMessageViewRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003A\u0024cache",
+            "name": "cache",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_cache"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest",
             "name": "LinkTrackServiceTest",
