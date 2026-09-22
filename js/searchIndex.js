@@ -1526,15 +1526,30 @@ Search.appendIndex(
             "summary": "Get\u0020campaign\u0020statistics",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getCampaignStatistics"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AcomputeCampaignStatistics\u0028\u0029",
+            "name": "computeCampaignStatistics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_computeCampaignStatistics"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetViewOpensStatistics\u0028\u0029",
             "name": "getViewOpensStatistics",
             "summary": "Get\u0020view\u0020opens\u0020statistics",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getViewOpensStatistics"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AcomputeViewOpensStatistics\u0028\u0029",
+            "name": "computeViewOpensStatistics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_computeViewOpensStatistics"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetTopDomains\u0028\u0029",
             "name": "getTopDomains",
             "summary": "Get\u0020top\u0020domains\u0020with\u0020more\u0020than\u00205\u0020subscribers",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getTopDomains"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AcomputeTopDomains\u0028\u0029",
+            "name": "computeTopDomains",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_computeTopDomains"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetSummaryStatistics\u0028\u0029",
             "name": "getSummaryStatistics",
@@ -1561,6 +1576,16 @@ Search.appendIndex(
             "summary": "Get\u0020domains\u0020with\u0020most\u0020unconfirmed\u0020subscribers",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getDomainConfirmationStatistics"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AcomputeDomainConfirmationStatistics\u0028\u0029",
+            "name": "computeDomainConfirmationStatistics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_computeDomainConfirmationStatistics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003Aremember\u0028\u0029",
+            "name": "remember",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_remember"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AformatStat\u0028\u0029",
             "name": "formatStat",
             "summary": "",
@@ -1571,20 +1596,75 @@ Search.appendIndex(
             "summary": "Get\u0020top\u0020local\u002Dparts\u0020of\u0020email\u0020addresses",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getTopLocalParts"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AcomputeTopLocalParts\u0028\u0029",
+            "name": "computeTopLocalParts",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_computeTopLocalParts"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetCampaignPerformance\u0028\u0029",
             "name": "getCampaignPerformance",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getCampaignPerformance"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AcomputeCampaignPerformance\u0028\u0029",
+            "name": "computeCampaignPerformance",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_computeCampaignPerformance"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AgetRecentCampaigns\u0028\u0029",
             "name": "getRecentCampaigns",
             "summary": "Get\u0020recent\u0020campaigns\u0020with\u0020their\u0020performance\u0020rates",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_getRecentCampaigns"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AcomputeRecentCampaigns\u0028\u0029",
+            "name": "computeRecentCampaigns",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#method_computeRecentCampaigns"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003ASUMMARY_STATISTICS_CACHE_KEY",
             "name": "SUMMARY_STATISTICS_CACHE_KEY",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_SUMMARY_STATISTICS_CACHE_KEY"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003ACAMPAIGN_STATISTICS_CACHE_KEY",
+            "name": "CAMPAIGN_STATISTICS_CACHE_KEY",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_CAMPAIGN_STATISTICS_CACHE_KEY"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003AVIEW_OPEN_STATISTICS_CACHE_KEY",
+            "name": "VIEW_OPEN_STATISTICS_CACHE_KEY",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_VIEW_OPEN_STATISTICS_CACHE_KEY"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003ATOP_DOMAIN_STATISTICS_CACHE_KEY",
+            "name": "TOP_DOMAIN_STATISTICS_CACHE_KEY",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_TOP_DOMAIN_STATISTICS_CACHE_KEY"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003ADOMAIN_CONFIRMATION_STATISTICS_CACHE_KEY",
+            "name": "DOMAIN_CONFIRMATION_STATISTICS_CACHE_KEY",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_DOMAIN_CONFIRMATION_STATISTICS_CACHE_KEY"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003ATOP_LOCAL_PARTS_CACHE_KEY",
+            "name": "TOP_LOCAL_PARTS_CACHE_KEY",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_TOP_LOCAL_PARTS_CACHE_KEY"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003ACAMPAIGN_PERFORMANCE_CACHE_KEY",
+            "name": "CAMPAIGN_PERFORMANCE_CACHE_KEY",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_CAMPAIGN_PERFORMANCE_CACHE_KEY"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003ARECENT_CAMPAIGNS_CACHE_KEY",
+            "name": "RECENT_CAMPAIGNS_CACHE_KEY",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_RECENT_CAMPAIGNS_CACHE_KEY"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003ASTATISTICS_TTL_SECONDS",
+            "name": "STATISTICS_TTL_SECONDS",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#constant_STATISTICS_TTL_SECONDS"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024linkTrackManager",
             "name": "linkTrackManager",
@@ -1630,11 +1710,6 @@ Search.appendIndex(
             "name": "cache",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_cache"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsService\u003A\u003A\u0024summaryStatisticsTtlSeconds",
-            "name": "summaryStatisticsTtlSeconds",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_summaryStatisticsTtlSeconds"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService",
             "name": "LinkTrackService",
@@ -20201,6 +20276,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberRepositoryTest.html#method_testGetSubscribersBySubscribedListIdsReturnsEmptyArrayForEmptyInput"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest\u003A\u003AtestGetFilteredAfterIdWithoutListFilterReturnsAllSubscribersOnce\u0028\u0029",
+            "name": "testGetFilteredAfterIdWithoutListFilterReturnsAllSubscribersOnce",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberRepositoryTest.html#method_testGetFilteredAfterIdWithoutListFilterReturnsAllSubscribersOnce"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest\u003A\u003AtestGetFilteredAfterIdWithListFilterOnlyReturnsMembersOfThatList\u0028\u0029",
+            "name": "testGetFilteredAfterIdWithListFilterOnlyReturnsMembersOfThatList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberRepositoryTest.html#method_testGetFilteredAfterIdWithListFilterOnlyReturnsMembersOfThatList"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
             "summary": "",
@@ -21030,6 +21115,41 @@ Search.appendIndex(
             "name": "testGetTopLocalParts",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetTopLocalParts"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetCampaignStatisticsReturnsCachedValueWithoutRecomputing\u0028\u0029",
+            "name": "testGetCampaignStatisticsReturnsCachedValueWithoutRecomputing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetCampaignStatisticsReturnsCachedValueWithoutRecomputing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetViewOpensStatisticsReturnsCachedValueWithoutRecomputing\u0028\u0029",
+            "name": "testGetViewOpensStatisticsReturnsCachedValueWithoutRecomputing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetViewOpensStatisticsReturnsCachedValueWithoutRecomputing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetTopDomainsReturnsCachedValueWithoutRecomputing\u0028\u0029",
+            "name": "testGetTopDomainsReturnsCachedValueWithoutRecomputing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetTopDomainsReturnsCachedValueWithoutRecomputing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetDomainConfirmationStatisticsReturnsCachedValueWithoutRecomputing\u0028\u0029",
+            "name": "testGetDomainConfirmationStatisticsReturnsCachedValueWithoutRecomputing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetDomainConfirmationStatisticsReturnsCachedValueWithoutRecomputing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetTopLocalPartsReturnsCachedValueWithoutRecomputing\u0028\u0029",
+            "name": "testGetTopLocalPartsReturnsCachedValueWithoutRecomputing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetTopLocalPartsReturnsCachedValueWithoutRecomputing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetCampaignPerformanceReturnsCachedValueWithoutRecomputing\u0028\u0029",
+            "name": "testGetCampaignPerformanceReturnsCachedValueWithoutRecomputing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetCampaignPerformanceReturnsCachedValueWithoutRecomputing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetRecentCampaignsReturnsCachedValueWithoutRecomputing\u0028\u0029",
+            "name": "testGetRecentCampaignsReturnsCachedValueWithoutRecomputing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#method_testGetRecentCampaignsReturnsCachedValueWithoutRecomputing"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsServiceTest\u003A\u003AtestGetSummaryStatistics\u0028\u0029",
             "name": "testGetSummaryStatistics",
