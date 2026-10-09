@@ -6096,6 +6096,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canCreate"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AcanList\u0028\u0029",
+            "name": "canList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AcanView\u0028\u0029",
+            "name": "canView",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canView"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AcanEdit\u0028\u0029",
+            "name": "canEdit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canEdit"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AcanDelete\u0028\u0029",
+            "name": "canDelete",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canDelete"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AresolveRequiredPrivilegeForClass\u0028\u0029",
             "name": "resolveRequiredPrivilegeForClass",
             "summary": "",
