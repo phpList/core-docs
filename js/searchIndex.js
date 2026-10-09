@@ -19511,10 +19511,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Repository-AdministratorRepositoryTest.html#method_incorrectLoginCredentialsDataProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Repository\\AdministratorRepositoryTest\u003A\u003AtestFindOneByLoginCredentialsIgnoresNonSuperUser\u0028\u0029",
-            "name": "testFindOneByLoginCredentialsIgnoresNonSuperUser",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Repository\\AdministratorRepositoryTest\u003A\u003AtestFindOneByLoginCredentialsDoesNotIgnoreNonSuperUser\u0028\u0029",
+            "name": "testFindOneByLoginCredentialsDoesNotIgnoreNonSuperUser",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Repository-AdministratorRepositoryTest.html#method_testFindOneByLoginCredentialsIgnoresNonSuperUser"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Repository-AdministratorRepositoryTest.html#method_testFindOneByLoginCredentialsDoesNotIgnoreNonSuperUser"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Repository\\AdministratorRepositoryTest\u003A\u003AtestSavePersistsAndFlushesModel\u0028\u0029",
             "name": "testSavePersistsAndFlushesModel",
