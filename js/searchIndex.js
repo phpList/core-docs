@@ -6091,10 +6091,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canManage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AresolveRequiredPrivilege\u0028\u0029",
-            "name": "resolveRequiredPrivilege",
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AcanCreate\u0028\u0029",
+            "name": "canCreate",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_resolveRequiredPrivilege"
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canCreate"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AresolveRequiredPrivilegeForClass\u0028\u0029",
+            "name": "resolveRequiredPrivilegeForClass",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_resolveRequiredPrivilegeForClass"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AresolveRelatedEntity\u0028\u0029",
             "name": "resolveRelatedEntity",
@@ -19680,6 +19685,36 @@ Search.appendIndex(
             "name": "testSuperUserCanManageAnyResource",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testSuperUserCanManageAnyResource"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestSuperUserCanCreateAnyResource\u0028\u0029",
+            "name": "testSuperUserCanCreateAnyResource",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testSuperUserCanCreateAnyResource"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestNonSuperUserCanCreateSubscriberWithSubscribersPrivilege\u0028\u0029",
+            "name": "testNonSuperUserCanCreateSubscriberWithSubscribersPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testNonSuperUserCanCreateSubscriberWithSubscribersPrivilege"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestNonSuperUserCannotCreateSubscriberWithoutSubscribersPrivilege\u0028\u0029",
+            "name": "testNonSuperUserCannotCreateSubscriberWithoutSubscribersPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testNonSuperUserCannotCreateSubscriberWithoutSubscribersPrivilege"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestNonSuperUserCanCreateMessageWithCampaignsPrivilege\u0028\u0029",
+            "name": "testNonSuperUserCanCreateMessageWithCampaignsPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testNonSuperUserCanCreateMessageWithCampaignsPrivilege"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestNonSuperUserCannotCreateMessageWithoutCampaignsPrivilege\u0028\u0029",
+            "name": "testNonSuperUserCannotCreateMessageWithoutCampaignsPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testNonSuperUserCannotCreateMessageWithoutCampaignsPrivilege"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestNonSuperUserCanCreateResourceWithNoRequiredPrivilege\u0028\u0029",
+            "name": "testNonSuperUserCanCreateResourceWithNoRequiredPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testNonSuperUserCanCreateResourceWithNoRequiredPrivilege"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003A\u0024checker",
             "name": "checker",
