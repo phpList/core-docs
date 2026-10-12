@@ -19646,15 +19646,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyAndDisabledAdministratorReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull\u0028\u0029",
-            "name": "testAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyForDisabledAdministratorReturnsNull\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyForDisabledAdministratorReturnsNull",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyForInexistentAdministratorReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyForDisabledAdministratorReturnsNull"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull\u0028\u0029",
-            "name": "testAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003AtestAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsAdministrator\u0028\u0029",
+            "name": "testAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsAdministrator",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsNull"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-AuthenticationTest.html#method_testAuthenticateByApiKeyWithValidApiKeyForNonSuperUserAdministratorReturnsAdministrator"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\AuthenticationTest\u003A\u003A\u0024subject",
             "name": "subject",
