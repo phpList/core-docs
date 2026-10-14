@@ -276,6 +276,11 @@ Search.appendIndex(
             "summary": "Loads\u0020the\u0020container\u0020configuration.",
             "url": "classes/PhpList-Core-Core-ApplicationKernel.html#method_registerContainerConfiguration"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\ApplicationKernel\u003A\u003AloadMessengerConfiguration\u0028\u0029",
+            "name": "loadMessengerConfiguration",
+            "summary": "Loads\u0020the\u0020core\u002Dprovided\u0020Messenger\u0020configuration\u0020\u0028the\u0020shared\u0020transport\u0020and\u0020routing\u0020definitions\u0029,\nand\u0020additionally\u0020applies\u0020the\u0020application\u0027s\u0020own\u0020packages\/messenger.yaml\u0020if\u0020it\u0020provides\u0020one,\u0020so\u0020an\napplication\u0020can\u0020override\u0020or\u0020extend\u0020the\u0020defaults\u0020without\u0020having\u0020to\u0020duplicate\u0020them.",
+            "url": "classes/PhpList-Core-Core-ApplicationKernel.html#method_loadMessengerConfiguration"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\ApplicationKernel\u003A\u003AbundlesFromConfiguration\u0028\u0029",
             "name": "bundlesFromConfiguration",
             "summary": "Reads\u0020the\u0020bundles\u0020from\u0020the\u0020bundle\u0020configuration\u0020file\u0020and\u0020instantiates\u0020them.",

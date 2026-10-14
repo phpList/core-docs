@@ -252,6 +252,15 @@
 <dd>Returns the absolute path to the application root.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Core-ApplicationKernel.html#method_loadMessengerConfiguration">loadMessengerConfiguration()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Loads the core-provided Messenger configuration (the shared transport and routing definitions),
+and additionally applies the application&#039;s own packages/messenger.yaml if it provides one, so an
+application can override or extend the defaults without having to duplicate them.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Core-ApplicationKernel.html#method_readBundleConfiguration">readBundleConfiguration()</a>
     <span>
                                 &nbsp;: array&lt;string|int, array&lt;string|int, string&gt;&gt;    </span>
@@ -629,7 +638,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/ApplicationKernel.php"><a href="files/src-core-applicationkernel.html"><abbr title="src/Core/ApplicationKernel.php">ApplicationKernel.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">143</span>
+    <span class="phpdocumentor-element-found-in__line">162</span>
 
     </aside>
 
@@ -746,6 +755,53 @@ this method will be the phpList4-core package path.</p>
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_loadMessengerConfiguration">
+        loadMessengerConfiguration()
+        <a href="classes/PhpList-Core-Core-ApplicationKernel.html#method_loadMessengerConfiguration" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Core/ApplicationKernel.php"><a href="files/src-core-applicationkernel.html"><abbr title="src/Core/ApplicationKernel.php">ApplicationKernel.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">144</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Loads the core-provided Messenger configuration (the shared transport and routing definitions),
+and additionally applies the application&#039;s own packages/messenger.yaml if it provides one, so an
+application can override or extend the defaults without having to duplicate them.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">loadMessengerConfiguration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\Config\Loader\LoaderInterface">LoaderInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$loader</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$loader</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\Config\Loader\LoaderInterface">LoaderInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_readBundleConfiguration">
         readBundleConfiguration()
         <a href="classes/PhpList-Core-Core-ApplicationKernel.html#method_readBundleConfiguration" class="headerlink"><i class="fas fa-link"></i></a>
@@ -754,7 +810,7 @@ this method will be the phpList4-core package path.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/ApplicationKernel.php"><a href="files/src-core-applicationkernel.html"><abbr title="src/Core/ApplicationKernel.php">ApplicationKernel.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">167</span>
+    <span class="phpdocumentor-element-found-in__line">186</span>
 
     </aside>
 
@@ -836,6 +892,7 @@ this method will be the phpList4-core package path.</p>
                                             <li class=""><a href="classes/PhpList-Core-Core-ApplicationKernel.html#method_bundlesFromConfiguration">bundlesFromConfiguration()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Core-ApplicationKernel.html#method_getAndCreateApplicationStructure">getAndCreateApplicationStructure()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Core-ApplicationKernel.html#method_getApplicationDir">getApplicationDir()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-ApplicationKernel.html#method_loadMessengerConfiguration">loadMessengerConfiguration()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Core-ApplicationKernel.html#method_readBundleConfiguration">readBundleConfiguration()</a></li>
                                     </ul>
             </li>
