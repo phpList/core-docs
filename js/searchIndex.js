@@ -27666,6 +27666,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageDataLoaderTest.html#method_testLoadsMessageDataMergesAndParses"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageDataLoaderTest\u003A\u003AtestParsesFromFieldIntoNameAndEmail\u0028\u0029",
+            "name": "testParsesFromFieldIntoNameAndEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageDataLoaderTest.html#method_testParsesFromFieldIntoNameAndEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageDataLoaderTest\u003A\u003AfromFieldProvider\u0028\u0029",
+            "name": "fromFieldProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageDataLoaderTest.html#method_fromFieldProvider"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageDataLoaderTest\u003A\u003A\u0024config",
             "name": "config",
             "summary": "",
