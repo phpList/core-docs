@@ -10166,6 +10166,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_getFilteredAfterId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\BounceRepository\u003A\u003AfindByIdsIndexedById\u0028\u0029",
+            "name": "findByIdsIndexedById",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html#method_findByIdsIndexedById"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\DomainThrottleStateRepository",
             "name": "DomainThrottleStateRepository",
             "summary": "Base\u0020class\u0020for\u0020repositories.",
@@ -10356,6 +10361,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getNonEmptyFields"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AgetSubjectsForBounceReport\u0028\u0029",
+            "name": "getSubjectsForBounceReport",
+            "summary": "Campaign\u0020ids\u0020and\u0020subjects\u0020for\u0020bounce\u0020reports,\u0020without\u0020any\u0020bounce\u0020counts.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getSubjectsForBounceReport"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AcountActiveBetween\u0028\u0029",
             "name": "countActiveBetween",
             "summary": "Counts\u0020active\u0020campaigns\u0020between\u0020two\u0020dates.",
@@ -10541,11 +10551,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_bounceIdsUsedIn"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003AfindBouncesByIdIndexedById\u0028\u0029",
-            "name": "findBouncesByIdIndexedById",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_findBouncesByIdIndexedById"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003Ahydrate\u0028\u0029",
             "name": "hydrate",
             "summary": "",
@@ -10571,10 +10576,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_indexPrefix"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003A\u0024entityManager",
-            "name": "entityManager",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_entityManager"
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003A\u0024userMessageRepository",
+            "name": "userMessageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_userMessageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchHybridReader\u003A\u003A\u0024bounceRepository",
+            "name": "bounceRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_bounceRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageBounceElasticsearchReader",
             "name": "UserMessageBounceElasticsearchReader",
@@ -10770,6 +10790,11 @@ Search.appendIndex(
             "name": "countSentBetween",
             "summary": "Counts\u0020how\u0020many\u0020user\u0020messages\u0020have\u0020status\u0020\u0022sent\u0022\u0020between\u0020the\u0020given\u0020dates.",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_countSentBetween"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository\u003A\u003AfindSentByUserId\u0028\u0029",
+            "name": "findSentByUserId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html#method_findSentByUserId"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\UserMessageRepository\u003A\u003AcountSentSince\u0028\u0029",
             "name": "countSentSince",
@@ -17381,6 +17406,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_findSubscriberWithSubscriptions"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AgetBounceReportRowsByListId\u0028\u0029",
+            "name": "getBounceReportRowsByListId",
+            "summary": "Subscribers\u0020of\u0020a\u0020list\u0020with\u0020the\u0020data\u0020needed\u0020for\u0020bounce\u0020reports,\u0020without\u0020any\u0020bounce\u0020counts.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getBounceReportRowsByListId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AisEmailBlacklisted\u0028\u0029",
             "name": "isEmailBlacklisted",
             "summary": "",
@@ -21465,6 +21495,16 @@ Search.appendIndex(
             "name": "testWriteFileToDirectoryCreatesFileWithExtensionAndContents",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testWriteFileToDirectoryCreatesFileWithExtensionAndContents"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\FileHelperTest\u003A\u003AtestWriteFileToDirectoryLeavesNoOrphanedTempFile\u0028\u0029",
+            "name": "testWriteFileToDirectoryLeavesNoOrphanedTempFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testWriteFileToDirectoryLeavesNoOrphanedTempFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\FileHelperTest\u003A\u003AtestWriteFileToDirectoryReturnsNullWhenDirectoryIsMissing\u0028\u0029",
+            "name": "testWriteFileToDirectoryReturnsNullWhenDirectoryIsMissing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-FileHelperTest.html#method_testWriteFileToDirectoryReturnsNullWhenDirectoryIsMissing"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\FileHelperTest\u003A\u003AtestWriteFileToDirectoryUsesDefaultNameWhenMissing\u0028\u0029",
             "name": "testWriteFileToDirectoryUsesDefaultNameWhenMissing",
@@ -27455,6 +27495,21 @@ Search.appendIndex(
             "name": "testCreateImagesFromImagePathsStoresImageDataAndReplacesExistingImage",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_testCreateImagesFromImagePathsStoresImageDataAndReplacesExistingImage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AtestCreateCachedLogoImageStoresResizedLogoAsPng\u0028\u0029",
+            "name": "testCreateCachedLogoImageStoresResizedLogoAsPng",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_testCreateCachedLogoImageStoresResizedLogoAsPng"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AtestCreateCachedLogoImageKeepsOriginalMimeTypeWhenNotResized\u0028\u0029",
+            "name": "testCreateCachedLogoImageKeepsOriginalMimeTypeWhenNotResized",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_testCreateCachedLogoImageKeepsOriginalMimeTypeWhenNotResized"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AcreateCachedLogoImageFromJpeg\u0028\u0029",
+            "name": "createCachedLogoImageFromJpeg",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-TemplateImageManagerTest.html#method_createCachedLogoImageFromJpeg"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\TemplateImageManagerTest\u003A\u003AtestGuessMimeType\u0028\u0029",
             "name": "testGuessMimeType",

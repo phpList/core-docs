@@ -243,6 +243,13 @@ are expected to re-dispatch a CampaignProcessorMessage for each, since nothing e
 automatically resumes a campaign that isn&#039;t in Submitted status.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getSubjectsForBounceReport">getSubjectsForBounceReport()</a>
+    <span>
+                                &nbsp;: array&lt;int, array{messageId: string|int, subject: string}&gt;    </span>
+</dt>
+<dd>Campaign ids and subjects for bounce reports, without any bounce counts.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_incrementBounceCount">incrementBounceCount()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -315,7 +322,7 @@ pass a check-then-act race and process the same campaign.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">285</span>
+    <span class="phpdocumentor-element-found-in__line">306</span>
 
     </aside>
 
@@ -873,6 +880,57 @@ automatically resumes a campaign that isn&#039;t in Submitted status.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getSubjectsForBounceReport">
+        getSubjectsForBounceReport()
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getSubjectsForBounceReport" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">283</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Campaign ids and subjects for bounce reports, without any bounce counts.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getSubjectsForBounceReport</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ownerId</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, array{messageId: string|int, subject: string}&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$ownerId</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Limit results to campaigns owned by this admin when provided.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;int, array{messageId: string|int, subject: string}&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_incrementBounceCount">
         incrementBounceCount()
         <a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_incrementBounceCount" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1201,6 +1259,7 @@ be claimed out from under itself by a second, concurrent dispatch.</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getMessagesByList">getMessagesByList()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getNonEmptyFields">getNonEmptyFields()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getStuckInProcessing">getStuckInProcessing()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getSubjectsForBounceReport">getSubjectsForBounceReport()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_incrementBounceCount">incrementBounceCount()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_incrementSentCounts">incrementSentCounts()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_persist">persist()</a></li>

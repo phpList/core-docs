@@ -127,7 +127,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -181,21 +181,39 @@ see config/services/repositories.yml.</dd>    </dl>
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_bounceRepository">$bounceRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\BounceRepository">BounceRepository</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_client">$client</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientInterface.html"><abbr title="\PhpList\Core\Domain\Search\Client\ElasticsearchClientInterface">ElasticsearchClientInterface</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_entityManager">$entityManager</a>
-    <span>
-                        &nbsp;: <abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_indexPrefix">$indexPrefix</a>
     <span>
                         &nbsp;: string            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_messageRepository">$messageRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_subscriberRepository">$subscriberRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_userMessageRepository">$userMessageRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a>            </span>
 </dt>
 
     </dl>
@@ -258,12 +276,6 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_findBouncesByIdIndexedById">findBouncesByIdIndexedById()</a>
-    <span>
-                                &nbsp;: array&lt;int, <a href="classes/PhpList-Core-Domain-Messaging-Model-Bounce.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Bounce">Bounce</abbr></a>&gt;    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_groupByMessageId">groupByMessageId()</a>
     <span>
                                 &nbsp;: array&lt;int, array&lt;string|int, <a href="classes/PhpList-Core-Domain-Messaging-Model-Interfaces-UserMessageBounceRecordInterface.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Interfaces\UserMessageBounceRecordInterface">UserMessageBounceRecordInterface</abbr></a>&gt;&gt;    </span>
@@ -301,9 +313,9 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
             -private
                                                 -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_client">
-        $client
-        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_client" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_bounceRepository">
+        $bounceRepository
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_bounceRepository" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
@@ -311,7 +323,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
@@ -319,8 +331,8 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientInterface.html"><abbr title="\PhpList\Core\Domain\Search\Client\ElasticsearchClientInterface">ElasticsearchClientInterface</abbr></a></span>
-    <span class="phpdocumentor-signature__name">$client</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\BounceRepository">BounceRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$bounceRepository</span>
     </code>
 
     
@@ -338,9 +350,9 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
             -private
                                                 -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_entityManager">
-        $entityManager
-        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_entityManager" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_client">
+        $client
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_client" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
@@ -348,7 +360,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
@@ -356,8 +368,8 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
-    <span class="phpdocumentor-signature__name">$entityManager</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientInterface.html"><abbr title="\PhpList\Core\Domain\Search\Client\ElasticsearchClientInterface">ElasticsearchClientInterface</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$client</span>
     </code>
 
     
@@ -385,7 +397,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
@@ -395,6 +407,117 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type">string</span>
     <span class="phpdocumentor-signature__name">$indexPrefix</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_messageRepository">
+        $messageRepository
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_messageRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">38</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$messageRepository</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_subscriberRepository">
+        $subscriberRepository
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_subscriberRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">37</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$subscriberRepository</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_userMessageRepository">
+        $userMessageRepository
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_userMessageRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">39</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$userMessageRepository</span>
     </code>
 
     
@@ -427,14 +550,14 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientInterface.html"><abbr title="\PhpList\Core\Domain\Search\Client\ElasticsearchClientInterface">ElasticsearchClientInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$client</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indexPrefix</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$entityManager</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Search-Client-ElasticsearchClientInterface.html"><abbr title="\PhpList\Core\Domain\Search\Client\ElasticsearchClientInterface">ElasticsearchClientInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$client</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$indexPrefix</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userMessageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\BounceRepository">BounceRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bounceRepository</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -457,8 +580,29 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$entityManager</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Doctrine\ORM\EntityManagerInterface">EntityManagerInterface</abbr></span>
+                <span class="phpdocumentor-argument-list__argument__name">$subscriberRepository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$messageRepository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$userMessageRepository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\UserMessageRepository">UserMessageRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$bounceRepository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-BounceRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\BounceRepository">BounceRepository</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -485,7 +629,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">100</span>
+    <span class="phpdocumentor-element-found-in__line">86</span>
 
     </aside>
 
@@ -581,7 +725,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">143</span>
+    <span class="phpdocumentor-element-found-in__line">117</span>
 
     </aside>
 
@@ -636,7 +780,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">188</span>
+    <span class="phpdocumentor-element-found-in__line">162</span>
 
     </aside>
 
@@ -684,7 +828,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">265</span>
+    <span class="phpdocumentor-element-found-in__line">229</span>
 
     </aside>
 
@@ -732,7 +876,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">320</span>
+    <span class="phpdocumentor-element-found-in__line">265</span>
 
     </aside>
 
@@ -794,7 +938,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">231</span>
+    <span class="phpdocumentor-element-found-in__line">195</span>
 
     </aside>
 
@@ -834,54 +978,6 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_findBouncesByIdIndexedById">
-        findBouncesByIdIndexedById()
-        <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_findBouncesByIdIndexedById" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">281</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">findBouncesByIdIndexedById</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, int&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bounceIds</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/PhpList-Core-Domain-Messaging-Model-Bounce.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Bounce">Bounce</abbr></a>&gt;</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$bounceIds</span>
-                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, int&gt;</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/PhpList-Core-Domain-Messaging-Model-Bounce.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Bounce">Bounce</abbr></a>&gt;</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_groupByMessageId">
         groupByMessageId()
         <a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_groupByMessageId" class="headerlink"><i class="fas fa-link"></i></a>
@@ -890,7 +986,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">251</span>
+    <span class="phpdocumentor-element-found-in__line">215</span>
 
     </aside>
 
@@ -938,7 +1034,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">297</span>
+    <span class="phpdocumentor-element-found-in__line">242</span>
 
     </aside>
 
@@ -986,7 +1082,7 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php"><a href="files/src-domain-messaging-repository-usermessagebounceelasticsearchhybridreader.html"><abbr title="src/Domain/Messaging/Repository/UserMessageBounceElasticsearchHybridReader.php">UserMessageBounceElasticsearchHybridReader.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">347</span>
+    <span class="phpdocumentor-element-found-in__line">292</span>
 
     </aside>
 
@@ -1032,9 +1128,12 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_bounceRepository">$bounceRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_client">$client</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_entityManager">$entityManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_indexPrefix">$indexPrefix</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_messageRepository">$messageRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_subscriberRepository">$subscriberRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#property_userMessageRepository">$userMessageRepository</a></li>
                                             </ul>
                 </li>
             
@@ -1049,7 +1148,6 @@ correlate bounce counts (Elasticsearch) with rows from a small, non-&quot;big ta
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_bounceIdsUsedIn">bounceIdsUsedIn()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_countsByTermsField">countsByTermsField()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_fetchDocsByUserId">fetchDocsByUserId()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_findBouncesByIdIndexedById">findBouncesByIdIndexedById()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_groupByMessageId">groupByMessageId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_hydrate">hydrate()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Repository-UserMessageBounceElasticsearchHybridReader.html#method_resolvePhysicalIndexName">resolvePhysicalIndexName()</a></li>
