@@ -1996,6 +1996,16 @@ Search.appendIndex(
             "summary": "Returns\u0020null\u0020for\u0020malformed\u0020tokens\u0020and,\u0020when\u0020signing\u0020is\u0020enabled,\u0020for\u0020missing\u0020or\u0020wrong\u0020signatures.",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_parse"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackTokenService\u003A\u003AhasValidSignature\u0028\u0029",
+            "name": "hasValidSignature",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_hasValidSignature"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackTokenService\u003A\u003AareValidUuids\u0028\u0029",
+            "name": "areValidUuids",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_areValidUuids"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackTokenService\u003A\u003AisSigningEnabled\u0028\u0029",
             "name": "isSigningEnabled",
             "summary": "",
@@ -2250,6 +2260,11 @@ Search.appendIndex(
             "name": "writeFileToDirectory",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-FileHelper.html#method_writeFileToDirectory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\FileHelper\u003A\u003AresolveTrustedDirectory\u0028\u0029",
+            "name": "resolveTrustedDirectory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-FileHelper.html#method_resolveTrustedDirectory"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Html2Text",
             "name": "Html2Text",
@@ -13546,6 +13561,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#constant_AS_FORMAT_FIELDS"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003ALIST_FIELDS",
+            "name": "LIST_FIELDS",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageDataLoader.html#constant_LIST_FIELDS"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageDataLoader\u003A\u003ASCHEDULE_FIELDS",
             "name": "SCHEDULE_FIELDS",
             "summary": "",
@@ -21681,6 +21701,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#method_testPersonalisedLinkGetsTheSubscribersUid"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003AtestPersonalisedLinkPutsTheUidBeforeTheFragment\u0028\u0029",
+            "name": "testPersonalisedLinkPutsTheUidBeforeTheFragment",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#method_testPersonalisedLinkPutsTheUidBeforeTheFragment"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003AtestPersonalisedLinkWithOnlyAFragmentStartsTheQueryBeforeIt\u0028\u0029",
+            "name": "testPersonalisedLinkWithOnlyAFragmentStartsTheQueryBeforeIt",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#method_testPersonalisedLinkWithOnlyAFragmentStartsTheQueryBeforeIt"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003AtestPersonalisedLinkIsRefusedForSubscribersThatNeverGotTheCampaign\u0028\u0029",
             "name": "testPersonalisedLinkIsRefusedForSubscribersThatNeverGotTheCampaign",
             "summary": "",
@@ -28270,6 +28300,11 @@ Search.appendIndex(
             "name": "testStoredSerializedDataWithNonStringValuesAndNullDataDoNotBreakLoading",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageDataLoaderTest.html#method_testStoredSerializedDataWithNonStringValuesAndNullDataDoNotBreakLoading"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageDataLoaderTest\u003A\u003AtestNullTargetAndExcludeListDataKeepArrayDefaults\u0028\u0029",
+            "name": "testNullTargetAndExcludeListDataKeepArrayDefaults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageDataLoaderTest.html#method_testNullTargetAndExcludeListDataKeepArrayDefaults"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageDataLoaderTest\u003A\u003AfromFieldProvider\u0028\u0029",
             "name": "fromFieldProvider",

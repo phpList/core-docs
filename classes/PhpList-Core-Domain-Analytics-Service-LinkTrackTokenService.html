@@ -221,6 +221,18 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
 <dd>Returns null for malformed tokens and, when signing is enabled, for missing or wrong signatures.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_areValidUuids">areValidUuids()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_hasValidSignature">hasValidSignature()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_isSigningEnabled">isSigningEnabled()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -597,6 +609,109 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_areValidUuids">
+        areValidUuids()
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_areValidUuids" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">81</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">areValidUuids</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uuids</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$uuids</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, string&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_hasValidSignature">
+        hasValidSignature()
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_hasValidSignature" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">71</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">hasValidSignature</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tid</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$signature</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$tid</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$signature</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_isSigningEnabled">
         isSigningEnabled()
         <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_isSigningEnabled" class="headerlink"><i class="fas fa-link"></i></a>
@@ -605,7 +720,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">76</span>
+    <span class="phpdocumentor-element-found-in__line">92</span>
 
     </aside>
 
@@ -643,7 +758,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">97</span>
 
     </aside>
 
@@ -718,6 +833,8 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_createUrl">createUrl()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_parse">parse()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_areValidUuids">areValidUuids()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_hasValidSignature">hasValidSignature()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_isSigningEnabled">isSigningEnabled()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_sign">sign()</a></li>
                                     </ul>
