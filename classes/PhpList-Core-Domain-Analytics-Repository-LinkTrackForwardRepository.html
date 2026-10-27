@@ -133,7 +133,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php"><a href="files/src-domain-analytics-repository-linktrackforwardrepository.html"><abbr title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php">LinkTrackForwardRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -181,6 +181,28 @@
 <dd>Removes $model and flushes the entity manager change list.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_findOneByUrlHash">findOneByUrlHash()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Analytics-Model-LinkTrackForward.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\LinkTrackForward">LinkTrackForward</abbr></a>|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_findOneByUuid">findOneByUuid()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Analytics-Model-LinkTrackForward.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\LinkTrackForward">LinkTrackForward</abbr></a>|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_findOrCreateByUrl">findOrCreateByUrl()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Analytics-Model-LinkTrackForward.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\LinkTrackForward">LinkTrackForward</abbr></a>    </span>
+</dt>
+<dd>Returns the forward for a (cleaned) URL, creating it when it does not exist yet. Creation uses a plain
+insert, so two workers racing on the same URL end up with the one row enforced by the urlhash unique key
+instead of a closed entity manager - this is an exception of the usual workflow of creating entities in manager
+classes.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a>
     <span>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Common-Model-PaginatedResult.html"><abbr title="\PhpList\Core\Domain\Common\Model\PaginatedResult">PaginatedResult</abbr></a>    </span>
@@ -210,6 +232,18 @@
                                 &nbsp;: void    </span>
 </dt>
 <dd>Persists $model and flushes the entity manager change list.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_generateUuid">generateUuid()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_insert">insert()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
 
     </dl>
 
@@ -272,6 +306,161 @@ following the Law of Demeter.</p>
         
     
     
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_findOneByUrlHash">
+        findOneByUrlHash()
+        <a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_findOneByUrlHash" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php"><a href="files/src-domain-analytics-repository-linktrackforwardrepository.html"><abbr title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php">LinkTrackForwardRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">23</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">findOneByUrlHash</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$urlHash</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Analytics-Model-LinkTrackForward.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\LinkTrackForward">LinkTrackForward</abbr></a>|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$urlHash</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Analytics-Model-LinkTrackForward.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\LinkTrackForward">LinkTrackForward</abbr></a>|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_findOneByUuid">
+        findOneByUuid()
+        <a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_findOneByUuid" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php"><a href="files/src-domain-analytics-repository-linktrackforwardrepository.html"><abbr title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php">LinkTrackForwardRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">findOneByUuid</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$uuid</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Analytics-Model-LinkTrackForward.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\LinkTrackForward">LinkTrackForward</abbr></a>|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$uuid</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Analytics-Model-LinkTrackForward.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\LinkTrackForward">LinkTrackForward</abbr></a>|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_findOrCreateByUrl">
+        findOrCreateByUrl()
+        <a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_findOrCreateByUrl" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php"><a href="files/src-domain-analytics-repository-linktrackforwardrepository.html"><abbr title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php">LinkTrackForwardRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">34</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the forward for a (cleaned) URL, creating it when it does not exist yet. Creation uses a plain
+insert, so two workers racing on the same URL end up with the one row enforced by the urlhash unique key
+instead of a closed entity manager - this is an exception of the usual workflow of creating entities in manager
+classes.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">findOrCreateByUrl</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$url</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$personalise</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Analytics-Model-LinkTrackForward.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\LinkTrackForward">LinkTrackForward</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$url</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$personalise</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Analytics-Model-LinkTrackForward.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\LinkTrackForward">LinkTrackForward</abbr></a></span>
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -516,6 +705,106 @@ following the Law of Demeter.</p>
     
     
 </article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_generateUuid">
+        generateUuid()
+        <a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_generateUuid" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php"><a href="files/src-domain-analytics-repository-linktrackforwardrepository.html"><abbr title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php">LinkTrackForwardRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">74</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">generateUuid</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_insert">
+        insert()
+        <a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_insert" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php"><a href="files/src-domain-analytics-repository-linktrackforwardrepository.html"><abbr title="src/Domain/Analytics/Repository/LinkTrackForwardRepository.php">LinkTrackForwardRepository.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">53</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">insert</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$url</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$urlHash</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$personalise</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$url</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$urlHash</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$personalise</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
             </section>
 
         
@@ -539,11 +828,16 @@ following the Law of Demeter.</p>
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_delete">delete()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_findOneByUrlHash">findOneByUrlHash()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_findOneByUuid">findOneByUuid()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_findOrCreateByUrl">findOrCreateByUrl()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getAfterId">getAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-CursorPaginationTrait.html#method_getFilteredAfterId">getFilteredAfterId()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_persist">persist()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_remove">remove()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Common-Repository-AbstractRepository.html#method_save">save()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_generateUuid">generateUuid()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html#method_insert">insert()</a></li>
                                     </ul>
             </li>
                     </ul>

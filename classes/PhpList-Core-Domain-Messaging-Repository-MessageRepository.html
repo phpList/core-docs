@@ -229,8 +229,11 @@
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getNonEmptyFields">getNonEmptyFields()</a>
     <span>
-                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                                &nbsp;: array&lt;string, mixed&gt;    </span>
 </dt>
+<dd>Non-empty columns of the message row keyed by their database column names (subject, fromfield,
+message, status, ...), like the legacy `select * from message`. Entity hydration is not used on
+purpose: it would key embedded values as `content.subject` etc.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getStuckInProcessing">getStuckInProcessing()</a>
@@ -322,7 +325,7 @@ pass a check-then-act race and process the same campaign.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">306</span>
+    <span class="phpdocumentor-element-found-in__line">329</span>
 
     </aside>
 
@@ -788,14 +791,17 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">260</span>
+    <span class="phpdocumentor-element-found-in__line">283</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Non-empty columns of the message row keyed by their database column names (subject, fromfield,
+message, status, ...), like the legacy `select * from message`. Entity hydration is not used on
+purpose: it would key embedded values as `content.subject` etc.</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getNonEmptyFields</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getNonEmptyFields</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -813,12 +819,26 @@ following the Law of Demeter.</p>
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="method_getNonEmptyFields_tags">
+        Tags
+        <a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_getNonEmptyFields_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">throws</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\Doctrine\DBAL\Exception">Exception</abbr></span>
+                                                                                    
+                                    </dd>
+                        </dl>
 
         
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+        <span class="phpdocumentor-signature__response_type">array&lt;string, mixed&gt;</span>
             </section>
 
 </article>
@@ -836,7 +856,7 @@ following the Law of Demeter.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">217</span>
+    <span class="phpdocumentor-element-found-in__line">232</span>
 
     </aside>
 
@@ -888,7 +908,7 @@ automatically resumes a campaign that isn&#039;t in Submitted status.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">283</span>
+    <span class="phpdocumentor-element-found-in__line">306</span>
 
     </aside>
 
@@ -983,7 +1003,7 @@ automatically resumes a campaign that isn&#039;t in Submitted status.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Repository/MessageRepository.php"><a href="files/src-domain-messaging-repository-messagerepository.html"><abbr title="src/Domain/Messaging/Repository/MessageRepository.php">MessageRepository.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">238</span>
+    <span class="phpdocumentor-element-found-in__line">253</span>
 
     </aside>
 
