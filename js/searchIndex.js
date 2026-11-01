@@ -5001,6 +5001,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProvider\u003A\u003A\u0024website",
+            "name": "website",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-DefaultConfigProvider.html#property_website"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\UserPersonalizer",
             "name": "UserPersonalizer",
             "summary": "",
@@ -18871,6 +18876,11 @@ Search.appendIndex(
             "summary": "Configure\u0020the\u0020response\u0020for\u0020CSV\u0020download.",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_configureResponse"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AisBlacklisted\u0028\u0029",
+            "name": "isBlacklisted",
+            "summary": "re\u002Dverify\u0020the\u0020flag\u0020against\u0020the\u0020blacklist\u0020table\u0020so\u0020stale\u0020flags\u0020are\u0020not\u0020exported.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_isBlacklisted"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AnormalizerSubscriberData\u0028\u0029",
             "name": "normalizerSubscriberData",
             "summary": "",
@@ -18905,6 +18915,11 @@ Search.appendIndex(
             "name": "logger",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003A\u0024blacklistRepository",
+            "name": "blacklistRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_blacklistRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter",
             "name": "SubscriberCsvImporter",
@@ -19005,6 +19020,11 @@ Search.appendIndex(
             "name": "subscriberHistoryManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_subscriberHistoryManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024blacklistRepository",
+            "name": "blacklistRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_blacklistRepository"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService",
             "name": "SubscriberDeletionService",
@@ -23780,6 +23800,11 @@ Search.appendIndex(
             "name": "setUp",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestWebsiteAndDomainDefaultsComeFromConfiguredWebsite\u0028\u0029",
+            "name": "testWebsiteAndDomainDefaultsComeFromConfiguredWebsite",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-DefaultConfigProviderTest.html#method_testWebsiteAndDomainDefaultsComeFromConfiguredWebsite"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\DefaultConfigProviderTest\u003A\u003AtestHasReturnsTrueForKnownKey\u0028\u0029",
             "name": "testHasReturnsTrueForKnownKey",
@@ -30771,6 +30796,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportCreatesNewWhenNeitherEmailNorForeignKeyFound"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003AtestImportCountsSubscriberWhoseEmailIsInBlacklistTable\u0028\u0029",
+            "name": "testImportCountsSubscriberWhoseEmailIsInBlacklistTable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportCountsSubscriberWhoseEmailIsInBlacklistTable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003AtestImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable\u0028\u0029",
+            "name": "testImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subscriberManagerMock",
             "name": "subscriberManagerMock",
             "summary": "",
@@ -30795,6 +30830,21 @@ Search.appendIndex(
             "name": "attributeDefinitionRepositoryMock",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_attributeDefinitionRepositoryMock"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024blacklistRepositoryMock",
+            "name": "blacklistRepositoryMock",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_blacklistRepositoryMock"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subscriptionManagerMock",
+            "name": "subscriptionManagerMock",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subscriptionManagerMock"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024messageBusMock",
+            "name": "messageBusMock",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_messageBusMock"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subject",
             "name": "subject",

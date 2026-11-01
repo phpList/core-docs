@@ -129,7 +129,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -173,9 +173,21 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_blacklistRepositoryMock">$blacklistRepositoryMock</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\UserBlacklistRepository">UserBlacklistRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_csvImporterMock">$csvImporterMock</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\CsvToDtoImporter">CsvToDtoImporter</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_messageBusMock">$messageBusMock</a>
+    <span>
+                        &nbsp;: <abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -196,6 +208,12 @@
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subscriptionManagerMock">$subscriptionManagerMock</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriptionManager">SubscriptionManager</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
     </dl>
 
 <h4 id="toc-methods">
@@ -206,6 +224,12 @@
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportConflictWhenEmailAndForeignKeyReferToDifferentSubscribers">testImportConflictWhenEmailAndForeignKeyReferToDifferentSubscribers()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportCountsSubscriberWhoseEmailIsInBlacklistTable">testImportCountsSubscriberWhoseEmailIsInBlacklistTable()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -224,6 +248,12 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportFromCsvUpdatesExistingSubscribers">testImportFromCsvUpdatesExistingSubscribers()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable">testImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -276,7 +306,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -313,7 +343,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -323,6 +353,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberAttributeManager">SubscriberAttributeManager</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$attributeManagerMock</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_blacklistRepositoryMock">
+        $blacklistRepositoryMock
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_blacklistRepositoryMock" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\UserBlacklistRepository">UserBlacklistRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$blacklistRepositoryMock</span>
     </code>
 
     
@@ -350,7 +417,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -360,6 +427,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\CsvToDtoImporter">CsvToDtoImporter</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$csvImporterMock</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_messageBusMock">
+        $messageBusMock
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_messageBusMock" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">37</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\Messenger\MessageBusInterface">MessageBusInterface</abbr>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$messageBusMock</span>
     </code>
 
     
@@ -387,7 +491,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -424,7 +528,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -461,7 +565,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -471,6 +575,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$subscriberRepositoryMock</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_subscriptionManagerMock">
+        $subscriptionManagerMock
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subscriptionManagerMock" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriptionManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriptionManager">SubscriptionManager</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$subscriptionManagerMock</span>
     </code>
 
     
@@ -503,7 +644,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">315</span>
+    <span class="phpdocumentor-element-found-in__line">322</span>
 
     </aside>
 
@@ -511,6 +652,40 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testImportConflictWhenEmailAndForeignKeyReferToDifferentSubscribers</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testImportCountsSubscriberWhoseEmailIsInBlacklistTable">
+        testImportCountsSubscriberWhoseEmailIsInBlacklistTable()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportCountsSubscriberWhoseEmailIsInBlacklistTable" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">510</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testImportCountsSubscriberWhoseEmailIsInBlacklistTable</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -537,7 +712,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">440</span>
+    <span class="phpdocumentor-element-found-in__line">447</span>
 
     </aside>
 
@@ -571,7 +746,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
+    <span class="phpdocumentor-element-found-in__line">66</span>
 
     </aside>
 
@@ -605,7 +780,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">181</span>
+    <span class="phpdocumentor-element-found-in__line">188</span>
 
     </aside>
 
@@ -613,6 +788,40 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testImportFromCsvUpdatesExistingSubscribers</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable">
+        testImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">555</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -639,7 +848,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">377</span>
+    <span class="phpdocumentor-element-found-in__line">384</span>
 
     </aside>
 
@@ -673,7 +882,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">252</span>
+    <span class="phpdocumentor-element-found-in__line">259</span>
 
     </aside>
 
@@ -707,7 +916,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php"><a href="files/tests-unit-domain-subscription-service-subscribercsvimportertest.html"><abbr title="tests/Unit/Domain/Subscription/Service/SubscriberCsvImporterTest.php">SubscriberCsvImporterTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 
     </aside>
 
@@ -751,10 +960,13 @@
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_attributeDefinitionRepositoryMock">$attributeDefinitionRepositoryMock</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_attributeManagerMock">$attributeManagerMock</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_blacklistRepositoryMock">$blacklistRepositoryMock</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_csvImporterMock">$csvImporterMock</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_messageBusMock">$messageBusMock</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subject">$subject</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subscriberManagerMock">$subscriberManagerMock</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subscriberRepositoryMock">$subscriberRepositoryMock</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_subscriptionManagerMock">$subscriptionManagerMock</a></li>
                                             </ul>
                 </li>
             
@@ -762,9 +974,11 @@
             <li>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportConflictWhenEmailAndForeignKeyReferToDifferentSubscribers">testImportConflictWhenEmailAndForeignKeyReferToDifferentSubscribers()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportCountsSubscriberWhoseEmailIsInBlacklistTable">testImportCountsSubscriberWhoseEmailIsInBlacklistTable()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportCreatesNewWhenNeitherEmailNorForeignKeyFound">testImportCreatesNewWhenNeitherEmailNorForeignKeyFound()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportFromCsvCreatesNewSubscribers">testImportFromCsvCreatesNewSubscribers()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportFromCsvUpdatesExistingSubscribers">testImportFromCsvUpdatesExistingSubscribers()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable">testImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportResolvesByEmailWhenForeignKeyNotFound">testImportResolvesByEmailWhenForeignKeyNotFound()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportResolvesByForeignKeyWhenProvidedAndMatches">testImportResolvesByForeignKeyWhenProvidedAndMatches()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_setUp">setUp()</a></li>

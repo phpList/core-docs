@@ -124,7 +124,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -166,6 +166,12 @@
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_attributeValueResolver">$attributeValueResolver</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Resolver\AttributeValueResolver">AttributeValueResolver</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_blacklistRepository">$blacklistRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\UserBlacklistRepository">UserBlacklistRepository</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -243,6 +249,13 @@
 <dd>Get a row of data for a subscriber.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_isBlacklisted">isBlacklisted()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>re-verify the flag against the blacklist table so stale flags are not exported.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_normalizeNullable">normalizeNullable()</a>
     <span>
                                 &nbsp;: string    </span>
@@ -284,7 +297,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -321,7 +334,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -331,6 +344,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Resolver\AttributeValueResolver">AttributeValueResolver</abbr></a></span>
     <span class="phpdocumentor-signature__name">$attributeValueResolver</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_blacklistRepository">
+        $blacklistRepository
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_blacklistRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\UserBlacklistRepository">UserBlacklistRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$blacklistRepository</span>
     </code>
 
     
@@ -358,7 +408,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -395,7 +445,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -432,7 +482,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -474,14 +524,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberAttributeManager">SubscriberAttributeManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Resolver\AttributeValueResolver">AttributeValueResolver</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeValueResolver</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberAttributeDefinitionRepository">SubscriberAttributeDefinitionRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$definitionRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Manager-SubscriberAttributeManager.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Manager\SubscriberAttributeManager">SubscriberAttributeManager</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeManager</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Resolver\AttributeValueResolver">AttributeValueResolver</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeValueResolver</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberAttributeDefinitionRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberAttributeDefinitionRepository">SubscriberAttributeDefinitionRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$definitionRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\UserBlacklistRepository">UserBlacklistRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$blacklistRepository</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -524,6 +574,13 @@
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$blacklistRepository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\UserBlacklistRepository">UserBlacklistRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -546,7 +603,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -610,7 +667,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">243</span>
+    <span class="phpdocumentor-element-found-in__line">245</span>
 
     </aside>
 
@@ -665,7 +722,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">146</span>
+    <span class="phpdocumentor-element-found-in__line">148</span>
 
     </aside>
 
@@ -746,7 +803,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
+    <span class="phpdocumentor-element-found-in__line">82</span>
 
     </aside>
 
@@ -818,7 +875,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">110</span>
+    <span class="phpdocumentor-element-found-in__line">112</span>
 
     </aside>
 
@@ -880,7 +937,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">214</span>
+    <span class="phpdocumentor-element-found-in__line">216</span>
 
     </aside>
 
@@ -943,6 +1000,55 @@
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_isBlacklisted">
+        isBlacklisted()
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_isBlacklisted" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">261</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">re-verify the flag against the blacklist table so stale flags are not exported.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">isBlacklisted</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$subscriber</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_normalizeNullable">
         normalizeNullable()
         <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_normalizeNullable" class="headerlink"><i class="fas fa-link"></i></a>
@@ -951,7 +1057,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">276</span>
+    <span class="phpdocumentor-element-found-in__line">286</span>
 
     </aside>
 
@@ -999,7 +1105,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">257</span>
+    <span class="phpdocumentor-element-found-in__line">267</span>
 
     </aside>
 
@@ -1072,6 +1178,7 @@
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_attributeManager">$attributeManager</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_attributeValueResolver">$attributeValueResolver</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_blacklistRepository">$blacklistRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_definitionRepository">$definitionRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_logger">$logger</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#property_subscriberRepository">$subscriberRepository</a></li>
@@ -1088,6 +1195,7 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_generateCsvContent">generateCsvContent()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_getExportHeaders">getExportHeaders()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_getSubscriberRow">getSubscriberRow()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_isBlacklisted">isBlacklisted()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_normalizeNullable">normalizeNullable()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_normalizerSubscriberData">normalizerSubscriberData()</a></li>
                                     </ul>
