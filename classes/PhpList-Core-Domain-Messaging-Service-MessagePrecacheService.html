@@ -314,6 +314,14 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_extractAnalyticsParameters">extractAnalyticsParameters()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>The analytics settings of the campaign: the Google (utm_*) and Matomo (pk_*) parameters it has set, and its
+subject, which is their default campaign name.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_isHtml">isHtml()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -1062,7 +1070,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">107</span>
+    <span class="phpdocumentor-element-found-in__line">108</span>
 
     </aside>
 
@@ -1195,7 +1203,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">223</span>
+    <span class="phpdocumentor-element-found-in__line">224</span>
 
     </aside>
 
@@ -1246,7 +1254,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">194</span>
+    <span class="phpdocumentor-element-found-in__line">195</span>
 
     </aside>
 
@@ -1301,7 +1309,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">182</span>
+    <span class="phpdocumentor-element-found-in__line">183</span>
 
     </aside>
 
@@ -1344,6 +1352,56 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_extractAnalyticsParameters">
+        extractAnalyticsParameters()
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_extractAnalyticsParameters" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">266</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">The analytics settings of the campaign: the Google (utm_*) and Matomo (pk_*) parameters it has set, and its
+subject, which is their default campaign name.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">extractAnalyticsParameters</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$loadedMessageData</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$loadedMessageData</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_isHtml">
         isHtml()
         <a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_isHtml" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1352,7 +1410,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">117</span>
+    <span class="phpdocumentor-element-found-in__line">118</span>
 
     </aside>
 
@@ -1400,7 +1458,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">238</span>
+    <span class="phpdocumentor-element-found-in__line">239</span>
 
     </aside>
 
@@ -1451,7 +1509,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">147</span>
+    <span class="phpdocumentor-element-found-in__line">148</span>
 
     </aside>
 
@@ -1509,7 +1567,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/MessagePrecacheService.php"><a href="files/src-domain-messaging-service-messageprecacheservice.html"><abbr title="src/Domain/Messaging/Service/MessagePrecacheService.php">MessagePrecacheService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">122</span>
+    <span class="phpdocumentor-element-found-in__line">123</span>
 
     </aside>
 
@@ -1608,6 +1666,7 @@ or cache it on first access. Handle [URL:] token fetch and basic placeholder rep
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_applyBasicReplacements">applyBasicReplacements()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_applyRemoteContentIfPresent">applyRemoteContentIfPresent()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_applyTemplate">applyTemplate()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_extractAnalyticsParameters">extractAnalyticsParameters()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_isHtml">isHtml()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_populateAdminAttributes">populateAdminAttributes()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_populateBasicFields">populateBasicFields()</a></li>

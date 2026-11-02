@@ -1816,6 +1816,66 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html#property_cache"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService",
+            "name": "AnalyticsTrackingService",
+            "summary": "Adds\u0020the\u0020analytics\u0020query\u0020parameters\u0020\u0028Google\u0020Analytics\u0020utm_\u002A,\u0020Matomo\u0020pk_\u002A\u0029\u0020to\u0020the\u0020links\u0020of\u0020a\u0020campaign\u0020that\u0020has\n\u0022add\u0020analytics\u0020tracking\u0020code\u0022\u0020set,\u0020like\u0020phplist3\u0027s\u0020analytics.php.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003AaddToClickedUrl\u0028\u0029",
+            "name": "addToClickedUrl",
+            "summary": "For\u0020a\u0020link\u0020that\u0020is\u0020followed\u003A\u0020the\u0020campaign\u0027s\u0020own\u0020settings\u0020decide\u0020whether\u0020parameters\u0020are\u0020added.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_addToClickedUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003AaddToBodies\u0028\u0029",
+            "name": "addToBodies",
+            "summary": "For\u0020a\u0020message\u0020that\u0020is\u0020sent\u0020without\u0020click\u0020tracking\u003A\u0020adds\u0020the\u0020parameters\u0020to\u0020all\u0020links.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_addToBodies"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003AaddToUrl\u0028\u0029",
+            "name": "addToUrl",
+            "summary": "Only\u0020http\u0020and\u0020https\u0020urls\u0020get\u0020parameters.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_addToUrl"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003AwithParameters\u0028\u0029",
+            "name": "withParameters",
+            "summary": "Adds\u0020the\u0020parameters\u0020to\u0020the\u0020url,\u0020taking\u0020off\u0020tracking\u0020parameters\u0020that\u0020are\u0020already\u0020on\u0020it.\u0020Empty\u0020parameters\u0020are\nnot\u0020added.\u0020A\u0020fragment\u0020stays\u0020at\u0020the\u0020end.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_withParameters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003AgetQuery\u0028\u0029",
+            "name": "getQuery",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_getQuery"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003AFORMAT_HTML",
+            "name": "FORMAT_HTML",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#constant_FORMAT_HTML"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003AFORMAT_TEXT",
+            "name": "FORMAT_TEXT",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#constant_FORMAT_TEXT"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003A\u0024messageDataLoader",
+            "name": "messageDataLoader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#property_messageDataLoader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003A\u0024linkRewriter",
+            "name": "linkRewriter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#property_linkRewriter"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkClickService",
             "name": "LinkClickService",
             "summary": "Handles\u0020a\u0020click\u0020on\u0020a\u0020tracked\u0020link,\u0020like\u0020phplist3\u0027s\u0020lt.php\u003A\u0020validates\u0020the\u0020token,\u0020counts\u0020the\u0020click\u0020and\u0020returns\nthe\u0020url\u0020to\u0020redirect\u0020to.",
@@ -1876,6 +1936,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkClickService.html#property_userMessageService"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkClickService\u003A\u003A\u0024analyticsTrackingService",
+            "name": "analyticsTrackingService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkClickService.html#property_analyticsTrackingService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkRewriter",
+            "name": "LinkRewriter",
+            "summary": "Finds\u0020the\u0020links\u0020in\u0020an\u0020HTML\u0020or\u0020text\u0020body\u0020and\u0020replaces\u0020them\u0020with\u0020the\u0020result\u0020of\u0020a\u0020callback.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkRewriter.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkRewriter\u003A\u003ArewriteHtml\u0028\u0029",
+            "name": "rewriteHtml",
+            "summary": "Rewrites\u0020the\u0020href\u0020of\u0020every\u0020anchor.\u0020Anchors\u0020whose\u0020visible\u0020text\u0020itself\u0020contains\u0020a\u0020URL\u0020are\u0020left\u0020alone,\u0020as\npointing\u0020them\u0020elsewhere\u0020would\u0020look\u0020like\u0020phishing.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkRewriter.html#method_rewriteHtml"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkRewriter\u003A\u003ArewriteText\u0028\u0029",
+            "name": "rewriteText",
+            "summary": "Rewrites\u0020every\u0020http\u0028s\u0029\u0020URL\u0020in\u0020the\u0020text,\u0020leaving\u0020a\u0020trailing\u0020dot\u0020\u0028the\u0020end\u0020of\u0020a\u0020sentence\u0029\u0020where\u0020it\u0020is.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkRewriter.html#method_rewriteText"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkRewriter\u003A\u003AHTML_ANCHOR_PATTERN",
+            "name": "HTML_ANCHOR_PATTERN",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkRewriter.html#constant_HTML_ANCHOR_PATTERN"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkRewriter\u003A\u003ATEXT_URL_PATTERN",
+            "name": "TEXT_URL_PATTERN",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkRewriter.html#constant_TEXT_URL_PATTERN"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService",
             "name": "LinkTrackService",
             "summary": "Replaces\u0020the\u0020links\u0020of\u0020a\u0020campaign\u0020email\u0020with\u0020click\u002Dtracking\u0020links,\u0020like\u0020phplist3\u0027s\u0020sendemaillib.php.",
@@ -1898,18 +1988,8 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003AtrackLinks\u0028\u0029",
             "name": "trackLinks",
-            "summary": "Returns\u0020a\u0020copy\u0020of\u0020the\u0020content\u0020in\u0020which\u0020the\u0020links\u0020of\u0020the\u0020HTML\u0020parts\u0020\u0028content,\u0020HTML\u0020footer\u0029\u0020and\u0020of\u0020the\u0020text\nparts\u0020\u0028text\u0020content,\u0020text\u0020footer\u0029\u0020point\u0020to\u0020the\u0020click\u002Dtracking\u0020endpoint\u0020for\u0020this\u0020subscriber.",
+            "summary": "Replaces\u0020the\u0020links\u0020of\u0020the\u0020final\u0020HTML\u0020and\u0020text\u0020bodies\u0020with\u0020click\u002Dtracking\u0020links\u0020for\u0020this\u0020subscriber.\u0020It\u0020has\u0020to\nrun\u0020once\u0020all\u0020placeholders\u0020are\u0020expanded,\u0020so\u0020that\u0020template\u0020links\u0020and\u0020links\u0020coming\u0020from\u0020placeholders\u0020\u0028unsubscribe,\npreferences,\u0020...\u0029\u0020are\u0020tracked\u0020too,\u0020like\u0020phplist3\u0020does.",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_trackLinks"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003ArewriteHtml\u0028\u0029",
-            "name": "rewriteHtml",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_rewriteHtml"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003ArewriteText\u0028\u0029",
-            "name": "rewriteText",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_rewriteText"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003AcreateTrackingUrl\u0028\u0029",
             "name": "createTrackingUrl",
@@ -1930,16 +2010,6 @@ Search.appendIndex(
             "name": "MAX_URL_LENGTH",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_MAX_URL_LENGTH"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003AHTML_ANCHOR_PATTERN",
-            "name": "HTML_ANCHOR_PATTERN",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_HTML_ANCHOR_PATTERN"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003ATEXT_URL_PATTERN",
-            "name": "TEXT_URL_PATTERN",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_TEXT_URL_PATTERN"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003APLACEHOLDER_PATTERN",
             "name": "PLACEHOLDER_PATTERN",
@@ -1966,6 +2036,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkTrackMlRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_messageRepository"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003A\u0024tokenService",
             "name": "tokenService",
             "summary": "",
@@ -1975,6 +2050,16 @@ Search.appendIndex(
             "name": "paramProvider",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_paramProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003A\u0024linkRewriter",
+            "name": "linkRewriter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkRewriter"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackService\u003A\u003A\u0024analyticsTrackingService",
+            "name": "analyticsTrackingService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_analyticsTrackingService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackTokenService",
             "name": "LinkTrackTokenService",
@@ -2120,6 +2205,66 @@ Search.appendIndex(
             "name": "userMessageViewRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-Manager-UserMessageViewManager.html#property_userMessageViewRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\AnalyticsQueryInterface",
+            "name": "AnalyticsQueryInterface",
+            "summary": "The\u0020query\u0020parameters\u0020an\u0020analytics\u0020tool\u0020\u0028Google\u0020Analytics,\u0020Matomo\u0029\u0020needs\u0020on\u0020the\u0020links\u0020of\u0020a\u0020campaign,\nlike\u0020phplist3\u0027s\u0020AnalyticsQuery.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-AnalyticsQueryInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\AnalyticsQueryInterface\u003A\u003AtrackingParameters\u0028\u0029",
+            "name": "trackingParameters",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-AnalyticsQueryInterface.html#method_trackingParameters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\AnalyticsQueryInterface\u003A\u003AeditableParameters\u0028\u0029",
+            "name": "editableParameters",
+            "summary": "The\u0020parameters\u0020a\u0020campaign\u0020can\u0020set,\u0020with\u0020the\u0020values\u0020to\u0020use\u0020when\u0020it\u0020has\u0020not\u0020set\u0020them.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-AnalyticsQueryInterface.html#method_editableParameters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\AnalyticsQueryInterface\u003A\u003Aprefix\u0028\u0029",
+            "name": "prefix",
+            "summary": "Prefix\u0020shared\u0020by\u0020the\u0020parameter\u0020names,\u0020used\u0020to\u0020take\u0020off\u0020tracking\u0020parameters\u0020that\u0020are\u0020already\u0020on\u0020a\u0020link.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-AnalyticsQueryInterface.html#method_prefix"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\GoogleAnalyticsQuery",
+            "name": "GoogleAnalyticsQuery",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-GoogleAnalyticsQuery.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\GoogleAnalyticsQuery\u003A\u003AtrackingParameters\u0028\u0029",
+            "name": "trackingParameters",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-GoogleAnalyticsQuery.html#method_trackingParameters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\GoogleAnalyticsQuery\u003A\u003AeditableParameters\u0028\u0029",
+            "name": "editableParameters",
+            "summary": "The\u0020parameters\u0020a\u0020campaign\u0020can\u0020set,\u0020with\u0020the\u0020values\u0020to\u0020use\u0020when\u0020it\u0020has\u0020not\u0020set\u0020them.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-GoogleAnalyticsQuery.html#method_editableParameters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\GoogleAnalyticsQuery\u003A\u003Aprefix\u0028\u0029",
+            "name": "prefix",
+            "summary": "Prefix\u0020shared\u0020by\u0020the\u0020parameter\u0020names,\u0020used\u0020to\u0020take\u0020off\u0020tracking\u0020parameters\u0020that\u0020are\u0020already\u0020on\u0020a\u0020link.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-GoogleAnalyticsQuery.html#method_prefix"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\MatomoAnalyticsQuery",
+            "name": "MatomoAnalyticsQuery",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-MatomoAnalyticsQuery.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\MatomoAnalyticsQuery\u003A\u003AtrackingParameters\u0028\u0029",
+            "name": "trackingParameters",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-MatomoAnalyticsQuery.html#method_trackingParameters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\MatomoAnalyticsQuery\u003A\u003AeditableParameters\u0028\u0029",
+            "name": "editableParameters",
+            "summary": "The\u0020parameters\u0020a\u0020campaign\u0020can\u0020set,\u0020with\u0020the\u0020values\u0020to\u0020use\u0020when\u0020it\u0020has\u0020not\u0020set\u0020them.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-MatomoAnalyticsQuery.html#method_editableParameters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query\\MatomoAnalyticsQuery\u003A\u003Aprefix\u0028\u0029",
+            "name": "prefix",
+            "summary": "Prefix\u0020shared\u0020by\u0020the\u0020parameter\u0020names,\u0020used\u0020to\u0020take\u0020off\u0020tracking\u0020parameters\u0020that\u0020are\u0020already\u0020on\u0020a\u0020link.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-Query-MatomoAnalyticsQuery.html#method_prefix"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\UserMessageService",
             "name": "UserMessageService",
@@ -3585,6 +3730,11 @@ Search.appendIndex(
             "name": "AlwaysAddGoogleTracking",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_AlwaysAddGoogleTracking"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AAnalyticTracker",
+            "name": "AnalyticTracker",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_AnalyticTracker"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AAdminAddress",
             "name": "AdminAddress",
@@ -7211,11 +7361,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorTestMessageHandler.html#property_subscriberProvider"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorTestMessageHandler\u003A\u003A\u0024messagePreparator",
-            "name": "messagePreparator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-CampaignProcessorTestMessageHandler.html#property_messagePreparator"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\CampaignProcessorTestMessageHandler\u003A\u003A\u0024logger",
             "name": "logger",
             "summary": "",
@@ -8555,6 +8700,11 @@ Search.appendIndex(
             "name": "googleTrack",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_googleTrack"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024analyticsParameters",
+            "name": "analyticsParameters",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html#property_analyticsParameters"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Model\\Dto\\MessagePrecacheDto\u003A\u003A\u0024adminAttributes",
             "name": "adminAttributes",
@@ -11691,11 +11841,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-CampaignEmailSender.html#property_mailSizeChecker"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\CampaignEmailSender\u003A\u003A\u0024messagePreparator",
-            "name": "messagePreparator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-CampaignEmailSender.html#property_messagePreparator"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\CampaignEmailSender\u003A\u003A\u0024messageRepository",
             "name": "messageRepository",
             "summary": "",
@@ -11901,6 +12046,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Constructor-CampaignMailContentBuilder.html#method___invoke"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilder\u003A\u003AtrackLinks\u0028\u0029",
+            "name": "trackLinks",
+            "summary": "As\u0020in\u0020phplist3,\u0020links\u0020are\u0020tracked\u0020once\u0020all\u0020placeholders\u0020are\u0020expanded.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Constructor-CampaignMailContentBuilder.html#method_trackLinks"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilder\u003A\u003AreplaceUserSpecificRemoteContent\u0028\u0029",
             "name": "replaceUserSpecificRemoteContent",
             "summary": "",
@@ -11950,6 +12100,11 @@ Search.appendIndex(
             "name": "placeholderProcessor",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Constructor-CampaignMailContentBuilder.html#property_placeholderProcessor"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilder\u003A\u003A\u0024linkTrackService",
+            "name": "linkTrackService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Constructor-CampaignMailContentBuilder.html#property_linkTrackService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilder\u003A\u003A\u0024forwardPersonalNoteSize",
             "name": "forwardPersonalNoteSize",
@@ -13771,6 +13926,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_populateAdminAttributes"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AextractAnalyticsParameters\u0028\u0029",
+            "name": "extractAnalyticsParameters",
+            "summary": "The\u0020analytics\u0020settings\u0020of\u0020the\u0020campaign\u003A\u0020the\u0020Google\u0020\u0028utm_\u002A\u0029\u0020and\u0020Matomo\u0020\u0028pk_\u002A\u0029\u0020parameters\u0020it\u0020has\u0020set,\u0020and\u0020its\nsubject,\u0020which\u0020is\u0020their\u0020default\u0020campaign\u0020name.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html#method_extractAnalyticsParameters"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessagePrecacheService\u003A\u003AREPLACE_KEYS",
             "name": "REPLACE_KEYS",
             "summary": "",
@@ -13866,11 +14026,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#method_ensureCampaignsHaveUuid"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003AprocessMessageLinks\u0028\u0029",
-            "name": "processMessageLinks",
-            "summary": "Replaces\u0020the\u0020links\u0020of\u0020the\u0020cached\u0020message\u0020content\u0020with\u0020click\u002Dtracking\u0020links\u0020for\u0020this\u0020subscriber.",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#method_processMessageLinks"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
             "summary": "",
@@ -13880,11 +14035,6 @@ Search.appendIndex(
             "name": "messageRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_messageRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003A\u0024linkTrackService",
-            "name": "linkTrackService",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageProcessingPreparator.html#property_linkTrackService"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageProcessingPreparator\u003A\u003A\u0024translator",
             "name": "translator",
@@ -21676,6 +21826,86 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsServiceTest.html#property_cache"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest",
+            "name": "AnalyticsTrackingServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AuseTracker\u0028\u0029",
+            "name": "useTracker",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_useTracker"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestGoogleParametersAreAddedWithTheEmailFormat\u0028\u0029",
+            "name": "testGoogleParametersAreAddedWithTheEmailFormat",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testGoogleParametersAreAddedWithTheEmailFormat"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestMatomoParametersAreUsedWhenConfigured\u0028\u0029",
+            "name": "testMatomoParametersAreUsedWhenConfigured",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testMatomoParametersAreUsedWhenConfigured"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestCampaignWithoutOwnValuesGetsTheDefaults\u0028\u0029",
+            "name": "testCampaignWithoutOwnValuesGetsTheDefaults",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testCampaignWithoutOwnValuesGetsTheDefaults"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestParameterSetToEmptyIsLeftOutInsteadOfGettingItsDefault\u0028\u0029",
+            "name": "testParameterSetToEmptyIsLeftOutInsteadOfGettingItsDefault",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testParameterSetToEmptyIsLeftOutInsteadOfGettingItsDefault"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestUnknownTrackerFallsBackToGoogle\u0028\u0029",
+            "name": "testUnknownTrackerFallsBackToGoogle",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testUnknownTrackerFallsBackToGoogle"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestOnlyHttpUrlsGetParameters\u0028\u0029",
+            "name": "testOnlyHttpUrlsGetParameters",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testOnlyHttpUrlsGetParameters"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestExistingTrackingParametersAreReplacedAndTheFragmentStaysLast\u0028\u0029",
+            "name": "testExistingTrackingParametersAreReplacedAndTheFragmentStaysLast",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testExistingTrackingParametersAreReplacedAndTheFragmentStaysLast"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestEmptyParametersAreLeftOut\u0028\u0029",
+            "name": "testEmptyParametersAreLeftOut",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testEmptyParametersAreLeftOut"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestBodiesGetParametersOnHtmlLinksAndTextUrls\u0028\u0029",
+            "name": "testBodiesGetParametersOnHtmlLinksAndTextUrls",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testBodiesGetParametersOnHtmlLinksAndTextUrls"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestClickedUrlGetsParametersOnlyWhenTheCampaignTracksAnalytics\u0028\u0029",
+            "name": "testClickedUrlGetsParametersOnlyWhenTheCampaignTracksAnalytics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testClickedUrlGetsParametersOnlyWhenTheCampaignTracksAnalytics"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#property_configProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003A\u0024messageDataLoader",
+            "name": "messageDataLoader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#property_messageDataLoader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003A\u0024service",
+            "name": "service",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#property_service"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest",
             "name": "LinkClickServiceTest",
             "summary": "",
@@ -21705,6 +21935,11 @@ Search.appendIndex(
             "name": "testRedirectsToTheStoredUrlAndCountsTheClick",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#method_testRedirectsToTheStoredUrlAndCountsTheClick"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003AtestAnalyticsParametersAreAddedToTheRedirectUrl\u0028\u0029",
+            "name": "testAnalyticsParametersAreAddedToTheRedirectUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#method_testAnalyticsParametersAreAddedToTheRedirectUrl"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003AtestTextClicksAreCountedAsText\u0028\u0029",
             "name": "testTextClicksAreCountedAsText",
@@ -21796,6 +22031,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#property_userMessageService"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003A\u0024analyticsTrackingService",
+            "name": "analyticsTrackingService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#property_analyticsTrackingService"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003A\u0024tokenService",
             "name": "tokenService",
             "summary": "",
@@ -21881,20 +22121,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testTextUrlsAreReplacedWithTextTokens"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestFootersAreTrackedToo\u0028\u0029",
-            "name": "testFootersAreTrackedToo",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestLinksFromExpandedPlaceholdersAreTracked\u0028\u0029",
+            "name": "testLinksFromExpandedPlaceholdersAreTracked",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testFootersAreTrackedToo"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testLinksFromExpandedPlaceholdersAreTracked"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestTotalIsIncrementedOncePerDistinctLinkOfTheEmail\u0028\u0029",
             "name": "testTotalIsIncrementedOncePerDistinctLinkOfTheEmail",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testTotalIsIncrementedOncePerDistinctLinkOfTheEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestTheGivenContentIsNotModified\u0028\u0029",
-            "name": "testTheGivenContentIsNotModified",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestAnalyticsParametersAreAddedStraightToTheLinksWithoutClickTracking\u0028\u0029",
+            "name": "testAnalyticsParametersAreAddedStraightToTheLinksWithoutClickTracking",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testTheGivenContentIsNotModified"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testAnalyticsParametersAreAddedStraightToTheLinksWithoutClickTracking"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestAnalyticsParametersAreNotAddedByTheSendWhenClickTrackingIsOn\u0028\u0029",
+            "name": "testAnalyticsParametersAreNotAddedByTheSendWhenClickTrackingIsOn",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testAnalyticsParametersAreNotAddedByTheSendWhenClickTrackingIsOn"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003AtestForwardedMessagesAreNotClickTracked\u0028\u0029",
+            "name": "testForwardedMessagesAreNotClickTracked",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testForwardedMessagesAreNotClickTracked"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003A\u0024forwardRepository",
             "name": "forwardRepository",
@@ -21905,6 +22155,16 @@ Search.appendIndex(
             "name": "mlRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_mlRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003A\u0024analyticsTrackingService",
+            "name": "analyticsTrackingService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_analyticsTrackingService"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest\u003A\u003A\u0024tokenService",
             "name": "tokenService",
@@ -26486,11 +26746,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-CampaignEmailSenderTest.html#property_mailSizeChecker"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\CampaignEmailSenderTest\u003A\u003A\u0024messagePreparator",
-            "name": "messagePreparator",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-CampaignEmailSenderTest.html#property_messagePreparator"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\CampaignEmailSenderTest\u003A\u003A\u0024messageRepository",
             "name": "messageRepository",
             "summary": "",
@@ -26801,6 +27056,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Constructor-CampaignMailContentBuilderTest.html#method_testTemplatePreventsDefaultStyleInjection"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilderTest\u003A\u003AmakeSubscriber\u0028\u0029",
+            "name": "makeSubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Constructor-CampaignMailContentBuilderTest.html#method_makeSubscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilderTest\u003A\u003AtestLinksAreTrackedAfterPlaceholdersAreExpanded\u0028\u0029",
+            "name": "testLinksAreTrackedAfterPlaceholdersAreExpanded",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Constructor-CampaignMailContentBuilderTest.html#method_testLinksAreTrackedAfterPlaceholdersAreExpanded"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilderTest\u003A\u003AtestForwardedMessagesAreMarkedAsForwardedForLinkTracking\u0028\u0029",
+            "name": "testForwardedMessagesAreMarkedAsForwardedForLinkTracking",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Constructor-CampaignMailContentBuilderTest.html#method_testForwardedMessagesAreMarkedAsForwardedForLinkTracking"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilderTest\u003A\u003AtestAnalyticsParametersAreHandedOverWhenTheCampaignTracksAnalytics\u0028\u0029",
+            "name": "testAnalyticsParametersAreHandedOverWhenTheCampaignTracksAnalytics",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Constructor-CampaignMailContentBuilderTest.html#method_testAnalyticsParametersAreHandedOverWhenTheCampaignTracksAnalytics"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilderTest\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
             "summary": "",
@@ -26835,6 +27110,11 @@ Search.appendIndex(
             "name": "placeholderProcessor",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Constructor-CampaignMailContentBuilderTest.html#property_placeholderProcessor"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Constructor\\CampaignMailContentBuilderTest\u003A\u003A\u0024linkTrackService",
+            "name": "linkTrackService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Constructor-CampaignMailContentBuilderTest.html#property_linkTrackService"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\DomainRateLimiterTest",
             "name": "DomainRateLimiterTest",
@@ -28526,21 +28806,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#method_testEnsureCampaignsHaveUuidWithCampaigns"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003AtestProcessMessageLinksWhenClickTrackingIsDisabled\u0028\u0029",
-            "name": "testProcessMessageLinksWhenClickTrackingIsDisabled",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#method_testProcessMessageLinksWhenClickTrackingIsDisabled"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003AtestProcessMessageLinksWhenCampaignIsUnknown\u0028\u0029",
-            "name": "testProcessMessageLinksWhenCampaignIsUnknown",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#method_testProcessMessageLinksWhenCampaignIsUnknown"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003AtestProcessMessageLinksReturnsTheContentWithTrackedLinks\u0028\u0029",
-            "name": "testProcessMessageLinksReturnsTheContentWithTrackedLinks",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#method_testProcessMessageLinksReturnsTheContentWithTrackedLinks"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024subscriberRepository",
             "name": "subscriberRepository",
             "summary": "",
@@ -28550,11 +28815,6 @@ Search.appendIndex(
             "name": "messageRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#property_messageRepository"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024linkTrackService",
-            "name": "linkTrackService",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-MessageProcessingPreparatorTest.html#property_linkTrackService"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\MessageProcessingPreparatorTest\u003A\u003A\u0024output",
             "name": "output",
@@ -31095,6 +31355,11 @@ Search.appendIndex(
             "name": "Manager",
             "summary": "",
             "url": "namespaces/phplist-core-domain-analytics-service-manager.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Query",
+            "name": "Query",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-analytics-service-query.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common",
             "name": "Common",

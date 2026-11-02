@@ -124,7 +124,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -158,12 +158,6 @@ the forward, the campaign and the subscriber (see LinkTrackTokenService); LinkCl
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_HTML_ANCHOR_PATTERN">HTML_ANCHOR_PATTERN</a>
-    <span>
-        &nbsp;: mixed&nbsp;= &#039;/(&lt;a\s(?:[^&gt;]*?[\s&quot;\&#039;])?)href=([&quot;\&#039;])(.*?)\2([...                            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_MAX_URL_LENGTH">MAX_URL_LENGTH</a>
     <span>
         &nbsp;: mixed&nbsp;= 255                            </span>
@@ -173,12 +167,6 @@ the forward, the campaign and the subscriber (see LinkTrackTokenService); LinkCl
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_PLACEHOLDER_PATTERN">PLACEHOLDER_PATTERN</a>
     <span>
         &nbsp;: mixed&nbsp;= &#039;/\[[A-Z][A-Z0-9_]*(?::[^\]]*)?\]/&#039;                            </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
-    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_TEXT_URL_PATTERN">TEXT_URL_PATTERN</a>
-    <span>
-        &nbsp;: mixed&nbsp;= &#039;#https?://[^\s&lt;&gt;},]+#i&#039;                            </span>
 </dt>
 
     </dl>
@@ -191,9 +179,21 @@ the forward, the campaign and the subscriber (see LinkTrackTokenService); LinkCl
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_analyticsTrackingService">$analyticsTrackingService</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\AnalyticsTrackingService">AnalyticsTrackingService</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_forwards">$forwards</a>
     <span>
                         &nbsp;: array&lt;string, array{id: int, uuid: string}&gt;            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkRewriter">$linkRewriter</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkRewriter.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\LinkRewriter">LinkRewriter</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -212,6 +212,12 @@ the forward, the campaign and the subscriber (see LinkTrackTokenService); LinkCl
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkTrackRepository">$linkTrackRepository</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\LinkTrackRepository">LinkTrackRepository</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_messageRepository">$messageRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -255,10 +261,11 @@ the forward, the campaign and the subscriber (see LinkTrackTokenService); LinkCl
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_trackLinks">trackLinks()</a>
     <span>
-                                &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a>    </span>
+                                &nbsp;: array{0: string, 1: string}    </span>
 </dt>
-<dd>Returns a copy of the content in which the links of the HTML parts (content, HTML footer) and of the text
-parts (text content, text footer) point to the click-tracking endpoint for this subscriber.</dd>
+<dd>Replaces the links of the final HTML and text bodies with click-tracking links for this subscriber. It has to
+run once all placeholders are expanded, so that template links and links coming from placeholders (unsubscribe,
+preferences, ...) are tracked too, like phplist3 does.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_cleanUrl">cleanUrl()</a>
@@ -279,18 +286,6 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
                                 &nbsp;: array{id: int, uuid: string}    </span>
 </dt>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_rewriteHtml">rewriteHtml()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_rewriteText">rewriteText()</a>
-    <span>
-                                &nbsp;: string    </span>
-</dt>
-
     </dl>
 
 
@@ -303,36 +298,6 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
 
         </h3>
                     <article class="phpdocumentor-element -constant -private ">
-    <h4 class="phpdocumentor-element__name" id="constant_HTML_ANCHOR_PATTERN">
-        HTML_ANCHOR_PATTERN
-        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_HTML_ANCHOR_PATTERN" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">25</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">HTML_ANCHOR_PATTERN</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;/(&lt;a\s(?:[^&gt;]*?[\s&quot;\&#039;])?)href=([&quot;\&#039;])(.*?)\2([^&gt;]*&gt;)(.*?)&lt;\/a&gt;/is&#039;</span>
-</code>
-
-
-    
-    
-    
-
-        
-    </article>
-                    <article class="phpdocumentor-element -constant -private ">
     <h4 class="phpdocumentor-element__name" id="constant_MAX_URL_LENGTH">
         MAX_URL_LENGTH
         <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_MAX_URL_LENGTH" class="headerlink"><i class="fas fa-link"></i></a>
@@ -342,7 +307,7 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -372,7 +337,7 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -383,36 +348,6 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
         <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">PLACEHOLDER_PATTERN</span>
     = <span class="phpdocumentor-signature__default-value">&#039;/\[[A-Z][A-Z0-9_]*(?::[^\]]*)?\]/&#039;</span>
-</code>
-
-
-    
-    
-    
-
-        
-    </article>
-                    <article class="phpdocumentor-element -constant -private ">
-    <h4 class="phpdocumentor-element__name" id="constant_TEXT_URL_PATTERN">
-        TEXT_URL_PATTERN
-        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_TEXT_URL_PATTERN" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">26</span>
-
-    </aside>
-
-    
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-        <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">TEXT_URL_PATTERN</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;#https?://[^\s&lt;&gt;},]+#i&#039;</span>
 </code>
 
 
@@ -436,6 +371,43 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
             phpdocumentor-element
             -property
             -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_analyticsTrackingService">
+        $analyticsTrackingService
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_analyticsTrackingService" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">37</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\AnalyticsTrackingService">AnalyticsTrackingService</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$analyticsTrackingService</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
                                                                     "
 >
     <h4 class="phpdocumentor-element__name" id="property_forwards">
@@ -448,7 +420,7 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -477,6 +449,43 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
             -private
                                                 -read-only                    "
 >
+    <h4 class="phpdocumentor-element__name" id="property_linkRewriter">
+        $linkRewriter
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkRewriter" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkRewriter.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\LinkRewriter">LinkRewriter</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$linkRewriter</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_linkTrackForwardRepository">
         $linkTrackForwardRepository
         <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkTrackForwardRepository" class="headerlink"><i class="fas fa-link"></i></a>
@@ -487,7 +496,7 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
@@ -524,7 +533,7 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">35</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -561,7 +570,7 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -571,6 +580,43 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\LinkTrackRepository">LinkTrackRepository</abbr></a></span>
     <span class="phpdocumentor-signature__name">$linkTrackRepository</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_messageRepository">
+        $messageRepository
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_messageRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$messageRepository</span>
     </code>
 
     
@@ -598,7 +644,7 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
@@ -635,7 +681,7 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -677,14 +723,14 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\LinkTrackRepository">LinkTrackRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkTrackRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\LinkTrackForwardRepository">LinkTrackForwardRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkTrackForwardRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackMlRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\LinkTrackMlRepository">LinkTrackMlRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkTrackMlRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\LinkTrackTokenService">LinkTrackTokenService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tokenService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Core-ParameterProvider.html"><abbr title="\PhpList\Core\Core\ParameterProvider">ParameterProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$paramProvider</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\LinkTrackRepository">LinkTrackRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkTrackRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\LinkTrackForwardRepository">LinkTrackForwardRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkTrackForwardRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackMlRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\LinkTrackMlRepository">LinkTrackMlRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkTrackMlRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$messageRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\LinkTrackTokenService">LinkTrackTokenService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tokenService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Core-ParameterProvider.html"><abbr title="\PhpList\Core\Core\ParameterProvider">ParameterProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$paramProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkRewriter.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\LinkRewriter">LinkRewriter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$linkRewriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\AnalyticsTrackingService">AnalyticsTrackingService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$analyticsTrackingService</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -714,6 +760,13 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$messageRepository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$tokenService</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\LinkTrackTokenService">LinkTrackTokenService</abbr></a></span>
                             </dt>
@@ -723,6 +776,20 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$paramProvider</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Core-ParameterProvider.html"><abbr title="\PhpList\Core\Core\ParameterProvider">ParameterProvider</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$linkRewriter</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkRewriter.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\LinkRewriter">LinkRewriter</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$analyticsTrackingService</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\AnalyticsTrackingService">AnalyticsTrackingService</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -835,16 +902,17 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">60</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Returns a copy of the content in which the links of the HTML parts (content, HTML footer) and of the text
-parts (text content, text footer) point to the click-tracking endpoint for this subscriber.</p>
+        <p class="phpdocumentor-summary">Replaces the links of the final HTML and text bodies with click-tracking links for this subscriber. It has to
+run once all placeholders are expanded, so that template links and links coming from placeholders (unsubscribe,
+preferences, ...) are tracked too, like phplist3 does.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">trackLinks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$content</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaign</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a></span></code>
+                    <span class="phpdocumentor-signature__name">trackLinks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$text</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$campaignId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string, mixed&gt;|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$analyticsParameters</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwarded</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array{0: string, 1: string}</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -852,20 +920,30 @@ parts (text content, text footer) point to the click-tracking endpoint for this 
         <section class="phpdocumentor-description"><p>Links are left alone when they are not http(s)/ftp, are longer than the forward url column, still contain
 placeholders (the redirect could not expand them), or are shown as text that itself contains a URL (the
 rewrite would look like phishing).</p>
+<p>Without click tracking, the analytics parameters (when given) are added straight onto the links instead, like
+phplist3 does. With click tracking they are added when the link is followed, see LinkClickService.</p>
+<p>Forwarded messages are not click tracked, as their receivers are not necessarily subscribers.</p>
 </section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$content</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$html</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$campaign</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a></span>
+                <span class="phpdocumentor-argument-list__argument__name">$text</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$campaignId</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -877,6 +955,23 @@ rewrite would look like phishing).</p>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$analyticsParameters</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string, mixed&gt;|null</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>the campaign's analytics settings, null when it has
+no analytics tracking</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$forwarded</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -885,7 +980,11 @@ rewrite would look like phishing).</p>
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Messaging-Model-Dto-MessagePrecacheDto.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Dto\MessagePrecacheDto">MessagePrecacheDto</abbr></a></span>
+        <span class="phpdocumentor-signature__response_type">array{0: string, 1: string}</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>the tracked HTML and text</p>
+</section>
+
             </section>
 
 </article>
@@ -903,7 +1002,7 @@ rewrite would look like phishing).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">182</span>
+    <span class="phpdocumentor-element-found-in__line">159</span>
 
     </aside>
 
@@ -961,7 +1060,7 @@ rewrite would look like phishing).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">140</span>
+    <span class="phpdocumentor-element-found-in__line">117</span>
 
     </aside>
 
@@ -1039,7 +1138,7 @@ rewrite would look like phishing).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">167</span>
+    <span class="phpdocumentor-element-found-in__line">144</span>
 
     </aside>
 
@@ -1080,116 +1179,6 @@ rewrite would look like phishing).</p>
             </section>
 
 </article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_rewriteHtml">
-        rewriteHtml()
-        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_rewriteHtml" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">92</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">rewriteHtml</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$html</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">callable(string, string): Array&nbsp;</span><span class="phpdocumentor-signature__argument__name">$trackUrl</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$html</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$trackUrl</span>
-                : <span class="phpdocumentor-argument-list__argument__type">callable(string, string): Array</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_rewriteText">
-        rewriteText()
-        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_rewriteText" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackService.php"><a href="files/src-domain-analytics-service-linktrackservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackService.php">LinkTrackService.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">120</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">rewriteText</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$text</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">callable(string, string): Array&nbsp;</span><span class="phpdocumentor-signature__argument__name">$trackUrl</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$text</span>
-                : <span class="phpdocumentor-argument-list__argument__type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$trackUrl</span>
-                : <span class="phpdocumentor-argument-list__argument__type">callable(string, string): Array</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">string</span>
-            </section>
-
-</article>
             </section>
 
         
@@ -1212,20 +1201,21 @@ rewrite would look like phishing).</p>
                             <li class="phpdocumentor-on-this-page-section__title">Constants</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_HTML_ANCHOR_PATTERN">HTML_ANCHOR_PATTERN</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_MAX_URL_LENGTH">MAX_URL_LENGTH</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_PLACEHOLDER_PATTERN">PLACEHOLDER_PATTERN</a></li>
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#constant_TEXT_URL_PATTERN">TEXT_URL_PATTERN</a></li>
                                             </ul>
                 </li>
             
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_analyticsTrackingService">$analyticsTrackingService</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_forwards">$forwards</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkRewriter">$linkRewriter</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkTrackForwardRepository">$linkTrackForwardRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkTrackMlRepository">$linkTrackMlRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_linkTrackRepository">$linkTrackRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_messageRepository">$messageRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_paramProvider">$paramProvider</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#property_tokenService">$tokenService</a></li>
                                             </ul>
@@ -1241,8 +1231,6 @@ rewrite would look like phishing).</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_cleanUrl">cleanUrl()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_createTrackingUrl">createTrackingUrl()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_getForward">getForward()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_rewriteHtml">rewriteHtml()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackService.html#method_rewriteText">rewriteText()</a></li>
                                     </ul>
             </li>
                     </ul>

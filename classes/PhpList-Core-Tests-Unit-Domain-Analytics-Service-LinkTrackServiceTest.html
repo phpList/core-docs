@@ -129,7 +129,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -161,6 +161,12 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_analyticsTrackingService">$analyticsTrackingService</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\AnalyticsTrackingService">AnalyticsTrackingService</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_campaign">$campaign</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Model-Message.html"><abbr title="\PhpList\Core\Domain\Messaging\Model\Message">Message</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
@@ -176,6 +182,12 @@
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_forwardRepository">$forwardRepository</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\LinkTrackForwardRepository">LinkTrackForwardRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_messageRepository">$messageRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr>            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
@@ -205,6 +217,18 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testAnalyticsParametersAreAddedStraightToTheLinksWithoutClickTracking">testAnalyticsParametersAreAddedStraightToTheLinksWithoutClickTracking()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testAnalyticsParametersAreNotAddedByTheSendWhenClickTrackingIsOn">testAnalyticsParametersAreNotAddedByTheSendWhenClickTrackingIsOn()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testContentIsReturnedUntouchedWhenCampaignHasNoUuid">testContentIsReturnedUntouchedWhenCampaignHasNoUuid()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -217,7 +241,7 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testFootersAreTrackedToo">testFootersAreTrackedToo()</a>
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testForwardedMessagesAreNotClickTracked">testForwardedMessagesAreNotClickTracked()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -230,6 +254,12 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testIsClickTrackingEnabledFollowsTheParameter">testIsClickTrackingEnabledFollowsTheParameter()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testLinksFromExpandedPlaceholdersAreTracked">testLinksFromExpandedPlaceholdersAreTracked()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -248,12 +278,6 @@
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testTextUrlsAreReplacedWithTextTokens">testTextUrlsAreReplacedWithTextTokens()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testTheGivenContentIsNotModified">testTheGivenContentIsNotModified()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
@@ -314,6 +338,43 @@
             -private
                                                                     "
 >
+    <h4 class="phpdocumentor-element__name" id="property_analyticsTrackingService">
+        $analyticsTrackingService
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_analyticsTrackingService" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">27</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\AnalyticsTrackingService">AnalyticsTrackingService</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$analyticsTrackingService</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_campaign">
         $campaign
         <a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_campaign" class="headerlink"><i class="fas fa-link"></i></a>
@@ -324,7 +385,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -361,7 +422,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -398,7 +459,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -408,6 +469,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Analytics-Repository-LinkTrackForwardRepository.html"><abbr title="\PhpList\Core\Domain\Analytics\Repository\LinkTrackForwardRepository">LinkTrackForwardRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
     <span class="phpdocumentor-signature__name">$forwardRepository</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_messageRepository">
+        $messageRepository
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_messageRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">26</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html"><abbr title="\PhpList\Core\Domain\Messaging\Repository\MessageRepository">MessageRepository</abbr></a>|<abbr title="\PHPUnit\Framework\MockObject\MockObject">MockObject</abbr></span>
+    <span class="phpdocumentor-signature__name">$messageRepository</span>
     </code>
 
     
@@ -435,7 +533,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
@@ -472,7 +570,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -509,7 +607,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -543,6 +641,74 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_testAnalyticsParametersAreAddedStraightToTheLinksWithoutClickTracking">
+        testAnalyticsParametersAreAddedStraightToTheLinksWithoutClickTracking()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testAnalyticsParametersAreAddedStraightToTheLinksWithoutClickTracking" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">249</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testAnalyticsParametersAreAddedStraightToTheLinksWithoutClickTracking</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testAnalyticsParametersAreNotAddedByTheSendWhenClickTrackingIsOn">
+        testAnalyticsParametersAreNotAddedByTheSendWhenClickTrackingIsOn()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testAnalyticsParametersAreNotAddedByTheSendWhenClickTrackingIsOn" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">268</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testAnalyticsParametersAreNotAddedByTheSendWhenClickTrackingIsOn</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_testContentIsReturnedUntouchedWhenCampaignHasNoUuid">
         testContentIsReturnedUntouchedWhenCampaignHasNoUuid()
         <a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testContentIsReturnedUntouchedWhenCampaignHasNoUuid" class="headerlink"><i class="fas fa-link"></i></a>
@@ -551,7 +717,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">107</span>
+    <span class="phpdocumentor-element-found-in__line">116</span>
 
     </aside>
 
@@ -585,7 +751,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">95</span>
+    <span class="phpdocumentor-element-found-in__line">105</span>
 
     </aside>
 
@@ -611,22 +777,22 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_testFootersAreTrackedToo">
-        testFootersAreTrackedToo()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testFootersAreTrackedToo" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_testForwardedMessagesAreNotClickTracked">
+        testForwardedMessagesAreNotClickTracked()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testForwardedMessagesAreNotClickTracked" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">207</span>
+    <span class="phpdocumentor-element-found-in__line">275</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testFootersAreTrackedToo</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">testForwardedMessagesAreNotClickTracked</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -653,7 +819,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">117</span>
+    <span class="phpdocumentor-element-found-in__line">137</span>
 
     </aside>
 
@@ -687,7 +853,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">89</span>
+    <span class="phpdocumentor-element-found-in__line">99</span>
 
     </aside>
 
@@ -695,6 +861,40 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testIsClickTrackingEnabledFollowsTheParameter</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testLinksFromExpandedPlaceholdersAreTracked">
+        testLinksFromExpandedPlaceholdersAreTracked()
+        <a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testLinksFromExpandedPlaceholdersAreTracked" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">223</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testLinksFromExpandedPlaceholdersAreTracked</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -721,7 +921,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">149</span>
+    <span class="phpdocumentor-element-found-in__line">170</span>
 
     </aside>
 
@@ -755,7 +955,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">172</span>
+    <span class="phpdocumentor-element-found-in__line">191</span>
 
     </aside>
 
@@ -789,7 +989,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">185</span>
+    <span class="phpdocumentor-element-found-in__line">206</span>
 
     </aside>
 
@@ -797,40 +997,6 @@
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                     <span class="phpdocumentor-signature__name">testTextUrlsAreReplacedWithTextTokens</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-    
-    
-
-        
-    
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_testTheGivenContentIsNotModified">
-        testTheGivenContentIsNotModified()
-        <a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testTheGivenContentIsNotModified" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">236</span>
-
-    </aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">testTheGivenContentIsNotModified</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -857,7 +1023,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">217</span>
+    <span class="phpdocumentor-element-found-in__line">232</span>
 
     </aside>
 
@@ -891,7 +1057,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">133</span>
+    <span class="phpdocumentor-element-found-in__line">152</span>
 
     </aside>
 
@@ -925,7 +1091,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -959,7 +1125,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 
     </aside>
 
@@ -1014,7 +1180,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">74</span>
 
     </aside>
 
@@ -1062,7 +1228,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php"><a href="files/tests-unit-domain-analytics-service-linktrackservicetest.html"><abbr title="tests/Unit/Domain/Analytics/Service/LinkTrackServiceTest.php">LinkTrackServiceTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">79</span>
+    <span class="phpdocumentor-element-found-in__line">89</span>
 
     </aside>
 
@@ -1122,9 +1288,11 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_analyticsTrackingService">$analyticsTrackingService</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_campaign">$campaign</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_createdForwards">$createdForwards</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_forwardRepository">$forwardRepository</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_messageRepository">$messageRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_mlRepository">$mlRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_subscriber">$subscriber</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#property_tokenService">$tokenService</a></li>
@@ -1134,15 +1302,17 @@
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testAnalyticsParametersAreAddedStraightToTheLinksWithoutClickTracking">testAnalyticsParametersAreAddedStraightToTheLinksWithoutClickTracking()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testAnalyticsParametersAreNotAddedByTheSendWhenClickTrackingIsOn">testAnalyticsParametersAreNotAddedByTheSendWhenClickTrackingIsOn()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testContentIsReturnedUntouchedWhenCampaignHasNoUuid">testContentIsReturnedUntouchedWhenCampaignHasNoUuid()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testContentIsReturnedUntouchedWhenClickTrackingIsDisabled">testContentIsReturnedUntouchedWhenClickTrackingIsDisabled()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testFootersAreTrackedToo">testFootersAreTrackedToo()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testForwardedMessagesAreNotClickTracked">testForwardedMessagesAreNotClickTracked()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testHtmlLinksAreReplacedWithTrackingLinks">testHtmlLinksAreReplacedWithTrackingLinks()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testIsClickTrackingEnabledFollowsTheParameter">testIsClickTrackingEnabledFollowsTheParameter()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testLinksFromExpandedPlaceholdersAreTracked">testLinksFromExpandedPlaceholdersAreTracked()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testLinksThatMustNotBeTrackedAreLeftAlone">testLinksThatMustNotBeTrackedAreLeftAlone()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testPersonalUidAndSessionParametersAreStrippedAndMarkTheForwardPersonal">testPersonalUidAndSessionParametersAreStrippedAndMarkTheForwardPersonal()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testTextUrlsAreReplacedWithTextTokens">testTextUrlsAreReplacedWithTextTokens()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testTheGivenContentIsNotModified">testTheGivenContentIsNotModified()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testTotalIsIncrementedOncePerDistinctLinkOfTheEmail">testTotalIsIncrementedOncePerDistinctLinkOfTheEmail()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_testTrackingLinkIdentifiesForwardCampaignAndSubscriber">testTrackingLinkIdentifiesForwardCampaignAndSubscriber()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackServiceTest.html#method_setUp">setUp()</a></li>
