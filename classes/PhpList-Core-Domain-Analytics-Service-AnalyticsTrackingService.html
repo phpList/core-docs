@@ -243,6 +243,14 @@ not added. A fragment stays at the end.</dd>
                                 &nbsp;: <a href="classes/PhpList-Core-Domain-Analytics-Service-Query-AnalyticsQueryInterface.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\Query\AnalyticsQueryInterface">AnalyticsQueryInterface</abbr></a>    </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_withoutPrefixedParameters">withoutPrefixedParameters()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Takes off the query parameters whose name starts with the prefix, leaving the path and the other parameters
+as they are. The url is left untouched when nothing is removed.</dd>
+
     </dl>
 
 
@@ -773,7 +781,7 @@ not added. A fragment stays at the end.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsTrackingService.php"><a href="files/src-domain-analytics-service-analyticstrackingservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsTrackingService.php">AnalyticsTrackingService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">122</span>
+    <span class="phpdocumentor-element-found-in__line">144</span>
 
     </aside>
 
@@ -794,6 +802,63 @@ not added. A fragment stays at the end.</p>
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
         <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Analytics-Service-Query-AnalyticsQueryInterface.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\Query\AnalyticsQueryInterface">AnalyticsQueryInterface</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_withoutPrefixedParameters">
+        withoutPrefixedParameters()
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_withoutPrefixedParameters" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/AnalyticsTrackingService.php"><a href="files/src-domain-analytics-service-analyticstrackingservice.html"><abbr title="src/Domain/Analytics/Service/AnalyticsTrackingService.php">AnalyticsTrackingService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">122</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Takes off the query parameters whose name starts with the prefix, leaving the path and the other parameters
+as they are. The url is left untouched when nothing is removed.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">withoutPrefixedParameters</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$url</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$prefix</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$url</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$prefix</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
             </section>
 
 </article>
@@ -842,6 +907,7 @@ not added. A fragment stays at the end.</p>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_addToUrl">addToUrl()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_withParameters">withParameters()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_getQuery">getQuery()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_withoutPrefixedParameters">withoutPrefixedParameters()</a></li>
                                     </ul>
             </li>
                     </ul>

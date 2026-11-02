@@ -228,6 +228,13 @@
 <dd>Export subscribers in batches.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_findBlacklistedEmails">findBlacklistedEmails()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, string&gt;    </span>
+</dt>
+<dd>Re-verifies the flag against the blacklist table with one query per batch, so stale flags are not exported.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_generateCsvContent">generateCsvContent()</a>
     <span>
                                 &nbsp;: void    </span>
@@ -247,13 +254,6 @@
                                 &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
 <dd>Get a row of data for a subscriber.</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -private">
-    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_isBlacklisted">isBlacklisted()</a>
-    <span>
-                                &nbsp;: bool    </span>
-</dt>
-<dd>re-verify the flag against the blacklist table so stale flags are not exported.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_normalizeNullable">normalizeNullable()</a>
@@ -667,7 +667,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">245</span>
+    <span class="phpdocumentor-element-found-in__line">255</span>
 
     </aside>
 
@@ -788,6 +788,61 @@
         
     
     
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_findBlacklistedEmails">
+        findBlacklistedEmails()
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_findBlacklistedEmails" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">275</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Re-verifies the flag against the blacklist table with one query per batch, so stale flags are not exported.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">findBlacklistedEmails</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscribers</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, string&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Subscribers whose stored flag is already set are not looked up.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$subscribers</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, string&gt;</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>lowercased blacklisted emails</p>
+</section>
+
+            </section>
+
 </article>
                     <article
         class="phpdocumentor-element
@@ -937,7 +992,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">216</span>
+    <span class="phpdocumentor-element-found-in__line">222</span>
 
     </aside>
 
@@ -945,7 +1000,7 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">getSubscriberRow</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-SubscriberAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscriberAttributeDefinition">SubscriberAttributeDefinition</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeDefinitions</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$headers</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">getSubscriberRow</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, <a href="classes/PhpList-Core-Domain-Subscription-Model-SubscriberAttributeDefinition.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\SubscriberAttributeDefinition">SubscriberAttributeDefinition</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$attributeDefinitions</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$headers</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, string&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$blacklistedEmails</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -978,6 +1033,15 @@
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$blacklistedEmails</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, string&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Lowercased emails of the batch found in the blacklist table</p>
+</section>
+
+            </dd>
             </dl>
 
     
@@ -1000,55 +1064,6 @@
             -private
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_isBlacklisted">
-        isBlacklisted()
-        <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_isBlacklisted" class="headerlink"><i class="fas fa-link"></i></a>
-
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">261</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">re-verify the flag against the blacklist table so stale flags are not exported.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">isBlacklisted</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
-
-    <div class="phpdocumentor-label-line">
-        </div>
-    
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$subscriber</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        
-    
-            <section>
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type">bool</span>
-            </section>
-
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -private
-                                                        "
->
     <h4 class="phpdocumentor-element__name" id="method_normalizeNullable">
         normalizeNullable()
         <a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_normalizeNullable" class="headerlink"><i class="fas fa-link"></i></a>
@@ -1057,7 +1072,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">286</span>
+    <span class="phpdocumentor-element-found-in__line">308</span>
 
     </aside>
 
@@ -1105,14 +1120,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/SubscriberCsvExporter.php"><a href="files/src-domain-subscription-service-subscribercsvexporter.html"><abbr title="src/Domain/Subscription/Service/SubscriberCsvExporter.php">SubscriberCsvExporter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">267</span>
+    <span class="phpdocumentor-element-found-in__line">288</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-                    <span class="phpdocumentor-signature__name">normalizerSubscriberData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                    <span class="phpdocumentor-signature__name">normalizerSubscriberData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$blacklistedEmails</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -1123,6 +1138,13 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$subscriber</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$blacklistedEmails</span>
+                : <span class="phpdocumentor-argument-list__argument__type">array&lt;string|int, mixed&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1192,10 +1214,10 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_exportToCsv">exportToCsv()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_configureResponse">configureResponse()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_exportSubscribers">exportSubscribers()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_findBlacklistedEmails">findBlacklistedEmails()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_generateCsvContent">generateCsvContent()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_getExportHeaders">getExportHeaders()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_getSubscriberRow">getSubscriberRow()</a></li>
-                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_isBlacklisted">isBlacklisted()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_normalizeNullable">normalizeNullable()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_normalizerSubscriberData">normalizerSubscriberData()</a></li>
                                     </ul>

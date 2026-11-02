@@ -1846,6 +1846,11 @@ Search.appendIndex(
             "summary": "Adds\u0020the\u0020parameters\u0020to\u0020the\u0020url,\u0020taking\u0020off\u0020tracking\u0020parameters\u0020that\u0020are\u0020already\u0020on\u0020it.\u0020Empty\u0020parameters\u0020are\nnot\u0020added.\u0020A\u0020fragment\u0020stays\u0020at\u0020the\u0020end.",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_withParameters"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003AwithoutPrefixedParameters\u0028\u0029",
+            "name": "withoutPrefixedParameters",
+            "summary": "Takes\u0020off\u0020the\u0020query\u0020parameters\u0020whose\u0020name\u0020starts\u0020with\u0020the\u0020prefix,\u0020leaving\u0020the\u0020path\u0020and\u0020the\u0020other\u0020parameters\nas\u0020they\u0020are.\u0020The\u0020url\u0020is\u0020left\u0020untouched\u0020when\u0020nothing\u0020is\u0020removed.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-AnalyticsTrackingService.html#method_withoutPrefixedParameters"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\AnalyticsTrackingService\u003A\u003AgetQuery\u0028\u0029",
             "name": "getQuery",
             "summary": "",
@@ -5005,11 +5010,6 @@ Search.appendIndex(
             "name": "__invoke",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Placeholder-UserTrackValueResolver.html#method___invoke"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Placeholder\\UserTrackValueResolver\u003A\u003A\u0024config",
-            "name": "config",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Configuration-Service-Placeholder-UserTrackValueResolver.html#property_config"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Placeholder\\UserTrackValueResolver\u003A\u003A\u0024restApiBaseUrl",
             "name": "restApiBaseUrl",
@@ -15851,11 +15851,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_confirmed"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024blacklisted",
-            "name": "blacklisted",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-ImportSubscriberDto.html#property_blacklisted"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\ImportSubscriberDto\u003A\u003A\u0024htmlEmail",
             "name": "htmlEmail",
             "summary": "",
@@ -17836,6 +17831,11 @@ Search.appendIndex(
             "summary": "Subscribers\u0020of\u0020a\u0020list\u0020with\u0020the\u0020data\u0020needed\u0020for\u0020bounce\u0020reports,\u0020without\u0020any\u0020bounce\u0020counts.",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_getBounceReportRowsByListId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AapplyBlacklistedFilter\u0028\u0029",
+            "name": "applyBlacklistedFilter",
+            "summary": "Matches\u0020the\u0020live\u0020blacklist\u0020status\u0020\u0028stored\u0020flag\u0020or\u0020an\u0020entry\u0020in\u0020the\u0020blacklist\u0020table\u0029,\u0020the\u0020same\u0020status\u0020the\u0020CSV\nexport\u0020writes,\u0020so\u0020a\u0020stale\u0020stored\u0020flag\u0020does\u0020not\u0020make\u0020the\u0020filter\u0020and\u0020the\u0020exported\u0020value\u0020disagree.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html#method_applyBlacklistedFilter"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\SubscriberRepository\u003A\u003AisEmailBlacklisted\u0028\u0029",
             "name": "isEmailBlacklisted",
             "summary": "",
@@ -17950,6 +17950,11 @@ Search.appendIndex(
             "name": "isEmailBlacklisted",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html#method_isEmailBlacklisted"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\UserBlacklistRepository\u003A\u003AfindBlacklistedEmails\u0028\u0029",
+            "name": "findBlacklistedEmails",
+            "summary": "Batch\u0020variant\u0020of\u0020isEmailBlacklisted\u0028\u0029\u003A\u0020returns\u0020the\u0020given\u0020emails\u0020\u0028lowercased\u0029\u0020that\u0020are\u0020blacklisted.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Repository-UserBlacklistRepository.html#method_findBlacklistedEmails"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Repository\\UserBlacklistRepository\u003A\u003A\u0024blacklistGraceTime",
             "name": "blacklistGraceTime",
@@ -19026,10 +19031,10 @@ Search.appendIndex(
             "summary": "Configure\u0020the\u0020response\u0020for\u0020CSV\u0020download.",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_configureResponse"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AisBlacklisted\u0028\u0029",
-            "name": "isBlacklisted",
-            "summary": "re\u002Dverify\u0020the\u0020flag\u0020against\u0020the\u0020blacklist\u0020table\u0020so\u0020stale\u0020flags\u0020are\u0020not\u0020exported.",
-            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_isBlacklisted"
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AfindBlacklistedEmails\u0028\u0029",
+            "name": "findBlacklistedEmails",
+            "summary": "Re\u002Dverifies\u0020the\u0020flag\u0020against\u0020the\u0020blacklist\u0020table\u0020with\u0020one\u0020query\u0020per\u0020batch,\u0020so\u0020stale\u0020flags\u0020are\u0020not\u0020exported.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvExporter.html#method_findBlacklistedEmails"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvExporter\u003A\u003AnormalizerSubscriberData\u0028\u0029",
             "name": "normalizerSubscriberData",
@@ -20881,6 +20886,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberRepositoryTest.html#method_testGetSubscribersBySubscribedListIdsReturnsEmptyArrayForEmptyInput"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest\u003A\u003AtestGetFilteredAfterIdBlacklistedFilterUsesLiveBlacklistStatus\u0028\u0029",
+            "name": "testGetFilteredAfterIdBlacklistedFilterUsesLiveBlacklistStatus",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Subscription-Repository-SubscriberRepositoryTest.html#method_testGetFilteredAfterIdBlacklistedFilterUsesLiveBlacklistStatus"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Subscription\\Repository\\SubscriberRepositoryTest\u003A\u003AtestGetFilteredAfterIdWithoutListFilterReturnsAllSubscribersOnce\u0028\u0029",
             "name": "testGetFilteredAfterIdWithoutListFilterReturnsAllSubscribersOnce",
             "summary": "",
@@ -21876,6 +21886,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testExistingTrackingParametersAreReplacedAndTheFragmentStaysLast"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestOnlyQueryParametersStartingWithThePrefixAreRemoved\u0028\u0029",
+            "name": "testOnlyQueryParametersStartingWithThePrefixAreRemoved",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-AnalyticsTrackingServiceTest.html#method_testOnlyQueryParametersStartingWithThePrefixAreRemoved"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\AnalyticsTrackingServiceTest\u003A\u003AtestEmptyParametersAreLeftOut\u0028\u0029",
             "name": "testEmptyParametersAreLeftOut",
             "summary": "",
@@ -22055,6 +22070,41 @@ Search.appendIndex(
             "name": "subscriber",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#property_subscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkRewriterTest",
+            "name": "LinkRewriterTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkRewriterTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkRewriterTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkRewriterTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkRewriterTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkRewriterTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkRewriterTest\u003A\u003AtestHtmlIsRewritten\u0028\u0029",
+            "name": "testHtmlIsRewritten",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkRewriterTest.html#method_testHtmlIsRewritten"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkRewriterTest\u003A\u003AtestHtmlIsKeptWhenThePatternFailsWithAPcreError\u0028\u0029",
+            "name": "testHtmlIsKeptWhenThePatternFailsWithAPcreError",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkRewriterTest.html#method_testHtmlIsKeptWhenThePatternFailsWithAPcreError"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkRewriterTest\u003A\u003AtestTextIsRewritten\u0028\u0029",
+            "name": "testTextIsRewritten",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkRewriterTest.html#method_testTextIsRewritten"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkRewriterTest\u003A\u003A\u0024backtrackLimit",
+            "name": "backtrackLimit",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkRewriterTest.html#property_backtrackLimit"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackServiceTest",
             "name": "LinkTrackServiceTest",
@@ -23891,11 +23941,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-UserTrackValueResolverTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Placeholder\\UserTrackValueResolverTest\u003A\u003AsetUp\u0028\u0029",
-            "name": "setUp",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-UserTrackValueResolverTest.html#method_setUp"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Placeholder\\UserTrackValueResolverTest\u003A\u003AmakeUser\u0028\u0029",
             "name": "makeUser",
             "summary": "",
@@ -23911,20 +23956,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-UserTrackValueResolverTest.html#method_testReturnsEmptyForTextFormat"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Placeholder\\UserTrackValueResolverTest\u003A\u003AtestHtmlUsesConfigDomainWhenAvailable\u0028\u0029",
-            "name": "testHtmlUsesConfigDomainWhenAvailable",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Placeholder\\UserTrackValueResolverTest\u003A\u003AtestHtmlUsesAbsoluteRestApiBaseUrl\u0028\u0029",
+            "name": "testHtmlUsesAbsoluteRestApiBaseUrl",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-UserTrackValueResolverTest.html#method_testHtmlUsesConfigDomainWhenAvailable"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Placeholder\\UserTrackValueResolverTest\u003A\u003AtestHtmlFallsBackToRestApiDomainWhenConfigMissing\u0028\u0029",
-            "name": "testHtmlFallsBackToRestApiDomainWhenConfigMissing",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-UserTrackValueResolverTest.html#method_testHtmlFallsBackToRestApiDomainWhenConfigMissing"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Placeholder\\UserTrackValueResolverTest\u003A\u003A\u0024config",
-            "name": "config",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-UserTrackValueResolverTest.html#property_config"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Placeholder-UserTrackValueResolverTest.html#method_testHtmlUsesAbsoluteRestApiBaseUrl"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\PlaceholderResolverTest",
             "name": "PlaceholderResolverTest",
