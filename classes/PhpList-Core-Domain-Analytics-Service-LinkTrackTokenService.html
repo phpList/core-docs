@@ -124,7 +124,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -136,6 +136,10 @@ phplist3&#039;s lt.php links.</p>
 random, so a token cannot be guessed. With the <code class="prettyprint">click_track_sign_with_hmac</code> parameter enabled the token is
 additionally signed (<code class="prettyprint">hm</code>) with the application secret, so a request can be rejected before touching the
 database. Keep it off if the secret may be rotated, as that would invalidate the links of sent campaigns.</p>
+<p>Tokens of links in campaigns sent by phplist3 can be parsed as well, so that those links keep working when
+lt.php is served by this application. Their HTML tokens are masked with the <code class="prettyprint">xormask</code> setting, which is shared
+through the config table; their text tokens are the three uuids packed as binary. phplist3 signs its links with
+a hash of the whole url, which cannot be checked here, so with signing enabled they are refused.</p>
 </section>
 
 
@@ -175,6 +179,12 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#property_configProvider">$configProvider</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>            </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#property_parameterProvider">$parameterProvider</a>
     <span>
@@ -239,10 +249,37 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_parseOwnFormat">parseOwnFormat()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Analytics-Model-Dto-LinkTrackToken.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\Dto\LinkTrackToken">LinkTrackToken</abbr></a>|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_parsePhplist3Format">parsePhplist3Format()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Analytics-Model-Dto-LinkTrackToken.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\Dto\LinkTrackToken">LinkTrackToken</abbr></a>|null    </span>
+</dt>
+<dd>The tokens of phplist3&#039;s lt.php, see its sendemaillib.php.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_sign">sign()</a>
     <span>
                                 &nbsp;: string    </span>
 </dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_unmaskPhplist3HtmlToken">unmaskPhplist3HtmlToken()</a>
+    <span>
+                                &nbsp;: string|null    </span>
+</dt>
+<dd>HTML links carry `H|forward|message|subscriber` XOR-ed with the repeated xormask setting.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_unpackPhplist3TextToken">unpackPhplist3TextToken()</a>
+    <span>
+                                &nbsp;: string|null    </span>
+</dt>
+<dd>Text links carry the forward, message and subscriber uuids as 48 binary bytes.</dd>
 
     </dl>
 
@@ -265,7 +302,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
@@ -301,6 +338,43 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
             -private
                                                 -read-only                    "
 >
+    <h4 class="phpdocumentor-element__name" id="property_configProvider">
+        $configProvider
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#property_configProvider" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$configProvider</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_parameterProvider">
         $parameterProvider
         <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#property_parameterProvider" class="headerlink"><i class="fas fa-link"></i></a>
@@ -311,7 +385,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -348,7 +422,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
@@ -399,7 +473,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -455,14 +529,14 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Core-ParameterProvider.html"><abbr title="\PhpList\Core\Core\ParameterProvider">ParameterProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$parameterProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$restApiBaseUrl</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$secret</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Core-ParameterProvider.html"><abbr title="\PhpList\Core\Core\ParameterProvider">ParameterProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$parameterProvider</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$restApiBaseUrl</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$secret</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$configProvider</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -491,6 +565,13 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$configProvider</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html"><abbr title="\PhpList\Core\Domain\Configuration\Service\Provider\ConfigProvider">ConfigProvider</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
@@ -513,7 +594,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 
     </aside>
 
@@ -561,7 +642,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">49</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
     </aside>
 
@@ -617,7 +698,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">81</span>
+    <span class="phpdocumentor-element-found-in__line">147</span>
 
     </aside>
 
@@ -665,7 +746,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">71</span>
+    <span class="phpdocumentor-element-found-in__line">137</span>
 
     </aside>
 
@@ -720,7 +801,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">92</span>
+    <span class="phpdocumentor-element-found-in__line">158</span>
 
     </aside>
 
@@ -750,6 +831,103 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_parseOwnFormat">
+        parseOwnFormat()
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_parseOwnFormat" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">66</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">parseOwnFormat</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tid</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Analytics-Model-Dto-LinkTrackToken.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\Dto\LinkTrackToken">LinkTrackToken</abbr></a>|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$tid</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Analytics-Model-Dto-LinkTrackToken.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\Dto\LinkTrackToken">LinkTrackToken</abbr></a>|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_parsePhplist3Format">
+        parsePhplist3Format()
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_parsePhplist3Format" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">85</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">The tokens of phplist3&#039;s lt.php, see its sendemaillib.php.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">parsePhplist3Format</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tid</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Analytics-Model-Dto-LinkTrackToken.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\Dto\LinkTrackToken">LinkTrackToken</abbr></a>|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$tid</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Analytics-Model-Dto-LinkTrackToken.html"><abbr title="\PhpList\Core\Domain\Analytics\Model\Dto\LinkTrackToken">LinkTrackToken</abbr></a>|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_sign">
         sign()
         <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_sign" class="headerlink"><i class="fas fa-link"></i></a>
@@ -758,7 +936,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">97</span>
+    <span class="phpdocumentor-element-found-in__line">163</span>
 
     </aside>
 
@@ -792,6 +970,104 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
             </section>
 
 </article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_unmaskPhplist3HtmlToken">
+        unmaskPhplist3HtmlToken()
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_unmaskPhplist3HtmlToken" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">126</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">HTML links carry `H|forward|message|subscriber` XOR-ed with the repeated xormask setting.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">unmaskPhplist3HtmlToken</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tid</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$tid</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_unpackPhplist3TextToken">
+        unpackPhplist3TextToken()
+        <a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_unpackPhplist3TextToken" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Analytics/Service/LinkTrackTokenService.php"><a href="files/src-domain-analytics-service-linktracktokenservice.html"><abbr title="src/Domain/Analytics/Service/LinkTrackTokenService.php">LinkTrackTokenService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">106</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Text links carry the forward, message and subscriber uuids as 48 binary bytes.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">unpackPhplist3TextToken</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$tid</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$tid</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+            </section>
+
+</article>
             </section>
 
         
@@ -821,6 +1097,7 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#property_configProvider">$configProvider</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#property_parameterProvider">$parameterProvider</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#property_restApiBaseUrl">$restApiBaseUrl</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#property_secret">$secret</a></li>
@@ -836,7 +1113,11 @@ database. Keep it off if the secret may be rotated, as that would invalidate the
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_areValidUuids">areValidUuids()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_hasValidSignature">hasValidSignature()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_isSigningEnabled">isSigningEnabled()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_parseOwnFormat">parseOwnFormat()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_parsePhplist3Format">parsePhplist3Format()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_sign">sign()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_unmaskPhplist3HtmlToken">unmaskPhplist3HtmlToken()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_unpackPhplist3TextToken">unpackPhplist3TextToken()</a></li>
                                     </ul>
             </li>
                     </ul>

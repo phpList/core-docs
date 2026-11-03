@@ -2086,6 +2086,26 @@ Search.appendIndex(
             "summary": "Returns\u0020null\u0020for\u0020malformed\u0020tokens\u0020and,\u0020when\u0020signing\u0020is\u0020enabled,\u0020for\u0020missing\u0020or\u0020wrong\u0020signatures.",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_parse"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackTokenService\u003A\u003AparseOwnFormat\u0028\u0029",
+            "name": "parseOwnFormat",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_parseOwnFormat"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackTokenService\u003A\u003AparsePhplist3Format\u0028\u0029",
+            "name": "parsePhplist3Format",
+            "summary": "The\u0020tokens\u0020of\u0020phplist3\u0027s\u0020lt.php,\u0020see\u0020its\u0020sendemaillib.php.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_parsePhplist3Format"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackTokenService\u003A\u003AunpackPhplist3TextToken\u0028\u0029",
+            "name": "unpackPhplist3TextToken",
+            "summary": "Text\u0020links\u0020carry\u0020the\u0020forward,\u0020message\u0020and\u0020subscriber\u0020uuids\u0020as\u002048\u0020binary\u0020bytes.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_unpackPhplist3TextToken"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackTokenService\u003A\u003AunmaskPhplist3HtmlToken\u0028\u0029",
+            "name": "unmaskPhplist3HtmlToken",
+            "summary": "HTML\u0020links\u0020carry\u0020\u0060H\u007Cforward\u007Cmessage\u007Csubscriber\u0060\u0020XOR\u002Ded\u0020with\u0020the\u0020repeated\u0020xormask\u0020setting.",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#method_unmaskPhplist3HtmlToken"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackTokenService\u003A\u003AhasValidSignature\u0028\u0029",
             "name": "hasValidSignature",
             "summary": "",
@@ -2125,6 +2145,11 @@ Search.appendIndex(
             "name": "secret",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#property_secret"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\LinkTrackTokenService\u003A\u003A\u0024configProvider",
+            "name": "configProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Analytics-Service-LinkTrackTokenService.html#property_configProvider"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Analytics\\Service\\Manager\\LinkTrackManager",
             "name": "LinkTrackManager",
@@ -3860,6 +3885,11 @@ Search.appendIndex(
             "name": "NotifyAdminLogin",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_NotifyAdminLogin"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AXorMask",
+            "name": "XorMask",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_XorMask"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Dto\\CreateConfigDto",
             "name": "CreateConfigDto",
@@ -13271,6 +13301,11 @@ Search.appendIndex(
             "summary": "Mirrors\u0020the\u0020legacy\u0020setMessageData\u0020behavior\u0020with\u0020safe\u0020sanitization\u0020and\u0020persistence.",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_setMessageData"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003AstoreMessageData\u0028\u0029",
+            "name": "storeMessageData",
+            "summary": "Stores\u0020a\u0020set\u0020of\u0020campaign\u0020settings\u0020the\u0020way\u0020phplist3\u0027s\u0020storemessage.php\u0020does\u0020for\u0020the\u0020campaign\u0020form.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_storeMessageData"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003AnormalizeValueByName\u0028\u0029",
             "name": "normalizeValueByName",
             "summary": "",
@@ -13280,6 +13315,11 @@ Search.appendIndex(
             "name": "getOrCreateMessageDataEntity",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#method_getOrCreateMessageDataEntity"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003AWRITABLE_SETTINGS",
+            "name": "WRITABLE_SETTINGS",
+            "summary": "The\u0020only\u0020settings\u0020storeMessageData\u0028\u0029\u0020accepts.\u0020Everything\u0020else\u0020in\u0020messagedata\u0020is\u0020either\u0020kept\u0020on\u0020the\u0020message\nitself\u0020\u0028subject,\u0020from\u0020field,\u0020schedule,\u0020...\u0029\u0020or\u0020maintained\u0020by\u0020the\u0020system\u0020\u0028status,\u0020sizes,\u0020ETA,\u0020statistics,\n...\u0029\u0020and\u0020must\u0020not\u0020be\u0020overwritten\u0020by\u0020a\u0020caller\u002Dsupplied\u0020value.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-MessageDataManager.html#constant_WRITABLE_SETTINGS"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\MessageDataManager\u003A\u003A\u0024messageDataRepository",
             "name": "messageDataRepository",
@@ -21981,15 +22021,15 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#method_testPersonalisedLinkWithOnlyAFragmentStartsTheQueryBeforeIt"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003AtestPersonalisedLinkIsRefusedForSubscribersThatNeverGotTheCampaign\u0028\u0029",
-            "name": "testPersonalisedLinkIsRefusedForSubscribersThatNeverGotTheCampaign",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003AtestPersonalisedLinkWorksForSubscribersWithoutRecordOfTheCampaign\u0028\u0029",
+            "name": "testPersonalisedLinkWorksForSubscribersWithoutRecordOfTheCampaign",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#method_testPersonalisedLinkIsRefusedForSubscribersThatNeverGotTheCampaign"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#method_testPersonalisedLinkWorksForSubscribersWithoutRecordOfTheCampaign"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003AtestNonPersonalisedLinkWorksWithoutUserMessage\u0028\u0029",
-            "name": "testNonPersonalisedLinkWorksWithoutUserMessage",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003AtestNonPersonalisedLinkWorksWithoutUserMessageAndCountsEveryClickAsView\u0028\u0029",
+            "name": "testNonPersonalisedLinkWorksWithoutUserMessageAndCountsEveryClickAsView",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#method_testNonPersonalisedLinkWorksWithoutUserMessage"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkClickServiceTest.html#method_testNonPersonalisedLinkWorksWithoutUserMessageAndCountsEveryClickAsView"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkClickServiceTest\u003A\u003AtestInvalidTokenIsRejected\u0028\u0029",
             "name": "testInvalidTokenIsRejected",
@@ -22246,6 +22286,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#method_createService"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003Aphplist3HtmlToken\u0028\u0029",
+            "name": "phplist3HtmlToken",
+            "summary": "What\u0020phplist3\u0027s\u0020sendemaillib.php\u0020puts\u0020in\u0020the\u0020link\u0020of\u0020an\u0020HTML\u0020email.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#method_phplist3HtmlToken"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003Aphplist3TextToken\u0028\u0029",
+            "name": "phplist3TextToken",
+            "summary": "What\u0020phplist3\u0027s\u0020sendemaillib.php\u0020puts\u0020in\u0020the\u0020link\u0020of\u0020a\u0020text\u0020email.",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#method_phplist3TextToken"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003AqueryOf\u0028\u0029",
             "name": "queryOf",
             "summary": "",
@@ -22281,6 +22331,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#method_testUnsignedUrlsHaveNoSignature"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003AtestParsesTheHtmlTokensOfPhplist3\u0028\u0029",
+            "name": "testParsesTheHtmlTokensOfPhplist3",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#method_testParsesTheHtmlTokensOfPhplist3"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003AtestParsesTheHtmlTokensOfPhplist3AfterAQueryStringTurnedPlusIntoSpace\u0028\u0029",
+            "name": "testParsesTheHtmlTokensOfPhplist3AfterAQueryStringTurnedPlusIntoSpace",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#method_testParsesTheHtmlTokensOfPhplist3AfterAQueryStringTurnedPlusIntoSpace"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003AtestParsesTheTextTokensOfPhplist3\u0028\u0029",
+            "name": "testParsesTheTextTokensOfPhplist3",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#method_testParsesTheTextTokensOfPhplist3"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003AtestPhplist3HtmlTokensNeedTheSameXorMask\u0028\u0029",
+            "name": "testPhplist3HtmlTokensNeedTheSameXorMask",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#method_testPhplist3HtmlTokensNeedTheSameXorMask"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003AtestPhplist3TokensCannotBeVerifiedWhenSigningIsEnabled\u0028\u0029",
+            "name": "testPhplist3TokensCannotBeVerifiedWhenSigningIsEnabled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#method_testPhplist3TokensCannotBeVerifiedWhenSigningIsEnabled"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003AXOR_MASK",
+            "name": "XOR_MASK",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#constant_XOR_MASK"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003AFORWARD_UUID",
+            "name": "FORWARD_UUID",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#constant_FORWARD_UUID"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003AMESSAGE_UUID",
+            "name": "MESSAGE_UUID",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#constant_MESSAGE_UUID"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\LinkTrackTokenServiceTest\u003A\u003ASUBSCRIBER_UUID",
+            "name": "SUBSCRIBER_UUID",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-LinkTrackTokenServiceTest.html#constant_SUBSCRIBER_UUID"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest",
             "name": "UserMessageServiceTest",
             "summary": "",
@@ -22301,10 +22396,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#method_testReturnsEarlyWhenMessageNotFound"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003AtestReturnsEarlyWhenUserMessageNotFound\u0028\u0029",
-            "name": "testReturnsEarlyWhenUserMessageNotFound",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003AtestViewIsCountedEvenWhenTheCampaignWasNeverSentToTheSubscriber\u0028\u0029",
+            "name": "testViewIsCountedEvenWhenTheCampaignWasNeverSentToTheSubscriber",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#method_testReturnsEarlyWhenUserMessageNotFound"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Analytics-Service-UserMessageServiceTest.html#method_testViewIsCountedEvenWhenTheCampaignWasNeverSentToTheSubscriber"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Analytics\\Service\\UserMessageServiceTest\u003A\u003AtestHappyPathPersistsUserMessageViewAndMarksViewed\u0028\u0029",
             "name": "testHappyPathPersistsUserMessageViewAndMarksViewed",
@@ -28300,6 +28395,71 @@ Search.appendIndex(
             "name": "manager",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-ListMessageManagerTest.html#property_manager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest",
+            "name": "MessageDataManagerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003AstoredValues\u0028\u0029",
+            "name": "storedValues",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#method_storedValues"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003AtestEveryEntryIsStoredUnderItsOwnName\u0028\u0029",
+            "name": "testEveryEntryIsStoredUnderItsOwnName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#method_testEveryEntryIsStoredUnderItsOwnName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003AtestBooleansAreStoredAsOneAndZero\u0028\u0029",
+            "name": "testBooleansAreStoredAsOneAndZero",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#method_testBooleansAreStoredAsOneAndZero"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003AtestCheckboxesAreResetBeforeTheSubmittedValuesAreStored\u0028\u0029",
+            "name": "testCheckboxesAreResetBeforeTheSubmittedValuesAreStored",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#method_testCheckboxesAreResetBeforeTheSubmittedValuesAreStored"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003AtestExistingValuesAreOverwritten\u0028\u0029",
+            "name": "testExistingValuesAreOverwritten",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#method_testExistingValuesAreOverwritten"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003AnotWritableProvider\u0028\u0029",
+            "name": "notWritableProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#method_notWritableProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003AtestNothingIsStoredWhenAnyNameIsNotWritable\u0028\u0029",
+            "name": "testNothingIsStoredWhenAnyNameIsNotWritable",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#method_testNothingIsStoredWhenAnyNameIsNotWritable"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003A\u0024manager",
+            "name": "manager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#property_manager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003A\u0024campaign",
+            "name": "campaign",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#property_campaign"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageDataManagerTest\u003A\u003A\u0024stored",
+            "name": "stored",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Manager-MessageDataManagerTest.html#property_stored"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Manager\\MessageManagerTest",
             "name": "MessageManagerTest",
