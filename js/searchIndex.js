@@ -5331,6 +5331,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Exception-AdminAttributeCreationException.html#property_statusCode"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AccessLevel",
+            "name": "AccessLevel",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-AccessLevel.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AccessLevel\u003A\u003AAll",
+            "name": "All",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-AccessLevel.html#enumcase_All"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AccessLevel\u003A\u003AOwner",
+            "name": "Owner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-AccessLevel.html#enumcase_Owner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AccessLevel\u003A\u003ANone",
+            "name": "None",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-AccessLevel.html#enumcase_None"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\AdminAttributeDefinition",
             "name": "AdminAttributeDefinition",
             "summary": "",
@@ -6556,6 +6576,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AaccessLevel\u0028\u0029",
+            "name": "accessLevel",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_accessLevel"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AcanManage\u0028\u0029",
             "name": "canManage",
             "summary": "",
@@ -6585,6 +6610,11 @@ Search.appendIndex(
             "name": "canDelete",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canDelete"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AownsResource\u0028\u0029",
+            "name": "ownsResource",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_ownsResource"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker\u003A\u003AresolveRequiredPrivilegeForClass\u0028\u0029",
             "name": "resolveRequiredPrivilegeForClass",
@@ -20321,6 +20351,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testNonSuperUserCanCreateResourceWithNoRequiredPrivilege"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestAccessLevelIsAllForSuperUser\u0028\u0029",
+            "name": "testAccessLevelIsAllForSuperUser",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsAllForSuperUser"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestAccessLevelIsNoneWithoutRequiredPrivilege\u0028\u0029",
+            "name": "testAccessLevelIsNoneWithoutRequiredPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsNoneWithoutRequiredPrivilege"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestAccessLevelIsOwnerWithRequiredPrivilege\u0028\u0029",
+            "name": "testAccessLevelIsOwnerWithRequiredPrivilege",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsOwnerWithRequiredPrivilege"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestCannotManageListWithoutPrivilegeEvenIfOwner\u0028\u0029",
+            "name": "testCannotManageListWithoutPrivilegeEvenIfOwner",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testCannotManageListWithoutPrivilegeEvenIfOwner"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AtestCanManageOwnedListButNotForeignOrOwnerlessList\u0028\u0029",
+            "name": "testCanManageOwnedListButNotForeignOrOwnerlessList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testCanManageOwnedListButNotForeignOrOwnerlessList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003AadminWithId\u0028\u0029",
+            "name": "adminWithId",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_adminWithId"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Identity\\Service\\PermissionCheckerTest\u003A\u003A\u0024checker",
             "name": "checker",
             "summary": "",
@@ -20431,10 +20491,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_persistMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestGetFilteredAfterIdIncludesOwnerlessMessagesForAnyAdmin\u0028\u0029",
-            "name": "testGetFilteredAfterIdIncludesOwnerlessMessagesForAnyAdmin",
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestGetFilteredAfterIdExcludesOwnerlessAndForeignMessagesForOwnerFilter\u0028\u0029",
+            "name": "testGetFilteredAfterIdExcludesOwnerlessAndForeignMessagesForOwnerFilter",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdIncludesOwnerlessMessagesForAnyAdmin"
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-MessageRepositoryTest.html#method_testGetFilteredAfterIdExcludesOwnerlessAndForeignMessagesForOwnerFilter"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\MessageRepositoryTest\u003A\u003AtestGetFilteredAfterIdFiltersBySingleStatus\u0028\u0029",
             "name": "testGetFilteredAfterIdFiltersBySingleStatus",
@@ -20540,6 +20600,11 @@ Search.appendIndex(
             "name": "testSavePersistsAndFlushesModel",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-SubscriberListRepositoryTest.html#method_testSavePersistsAndFlushesModel"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\SubscriberListRepositoryTest\u003A\u003AtestGetFilteredAfterIdReturnsOnlyOwnedListsForOwnerFilter\u0028\u0029",
+            "name": "testGetFilteredAfterIdReturnsOnlyOwnedListsForOwnerFilter",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Integration-Domain-Messaging-Repository-SubscriberListRepositoryTest.html#method_testGetFilteredAfterIdReturnsOnlyOwnedListsForOwnerFilter"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Integration\\Domain\\Messaging\\Repository\\SubscriberListRepositoryTest\u003A\u003AtestFindByOwnerFindsSubscriberListWithTheGivenOwner\u0028\u0029",
             "name": "testFindByOwnerFindsSubscriberListWithTheGivenOwner",

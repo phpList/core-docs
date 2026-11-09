@@ -124,7 +124,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
@@ -176,6 +176,12 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_accessLevel">accessLevel()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Identity-Model-AccessLevel.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AccessLevel">AccessLevel</abbr></a>    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canCreate">canCreate()</a>
     <span>
                                 &nbsp;: bool    </span>
@@ -218,6 +224,12 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_ownsResource">ownsResource()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
     <a class="" href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_resolveRelatedEntity">resolveRelatedEntity()</a>
     <span>
                                 &nbsp;: array&lt;string|int, <a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-OwnableInterface.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\OwnableInterface">OwnableInterface</abbr></a>&gt;    </span>
@@ -250,7 +262,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
@@ -280,7 +292,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -316,6 +328,61 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_accessLevel">
+        accessLevel()
+        <a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_accessLevel" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">accessLevel</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$actor</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">class-string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$resourceClass</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Identity-Model-AccessLevel.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AccessLevel">AccessLevel</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$actor</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$resourceClass</span>
+                : <span class="phpdocumentor-argument-list__argument__type">class-string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Identity-Model-AccessLevel.html"><abbr title="\PhpList\Core\Domain\Identity\Model\AccessLevel">AccessLevel</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_canCreate">
         canCreate()
         <a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canCreate" class="headerlink"><i class="fas fa-link"></i></a>
@@ -324,7 +391,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">57</span>
 
     </aside>
 
@@ -379,7 +446,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">77</span>
 
     </aside>
 
@@ -434,7 +501,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 
     </aside>
 
@@ -489,7 +556,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">62</span>
 
     </aside>
 
@@ -544,7 +611,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">47</span>
 
     </aside>
 
@@ -599,7 +666,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">72</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 
     </aside>
 
@@ -654,7 +721,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">113</span>
+    <span class="phpdocumentor-element-found-in__line">123</span>
 
     </aside>
 
@@ -701,6 +768,61 @@
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_ownsResource">
+        ownsResource()
+        <a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_ownsResource" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">82</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">ownsResource</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$actor</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$resource</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$actor</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$resource</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Common-Model-Interfaces-DomainModel.html"><abbr title="\PhpList\Core\Domain\Common\Model\Interfaces\DomainModel">DomainModel</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_resolveRelatedEntity">
         resolveRelatedEntity()
         <a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_resolveRelatedEntity" class="headerlink"><i class="fas fa-link"></i></a>
@@ -709,7 +831,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">100</span>
+    <span class="phpdocumentor-element-found-in__line">110</span>
 
     </aside>
 
@@ -764,7 +886,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Service/PermissionChecker.php"><a href="files/src-domain-identity-service-permissionchecker.html"><abbr title="src/Domain/Identity/Service/PermissionChecker.php">PermissionChecker.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">88</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 
     </aside>
 
@@ -828,6 +950,7 @@
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_accessLevel">accessLevel()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canCreate">canCreate()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canDelete">canDelete()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canEdit">canEdit()</a></li>
@@ -835,6 +958,7 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canManage">canManage()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_canView">canView()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_checkRelatedResources">checkRelatedResources()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_ownsResource">ownsResource()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_resolveRelatedEntity">resolveRelatedEntity()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Identity-Service-PermissionChecker.html#method_resolveRequiredPrivilegeForClass">resolveRequiredPrivilegeForClass()</a></li>
                                     </ul>

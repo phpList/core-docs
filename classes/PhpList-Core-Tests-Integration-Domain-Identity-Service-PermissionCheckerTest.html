@@ -131,7 +131,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 
     </aside>
 
@@ -176,6 +176,36 @@
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsAllForSuperUser">testAccessLevelIsAllForSuperUser()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsNoneWithoutRequiredPrivilege">testAccessLevelIsNoneWithoutRequiredPrivilege()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsOwnerWithRequiredPrivilege">testAccessLevelIsOwnerWithRequiredPrivilege()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testCanManageOwnedListButNotForeignOrOwnerlessList">testCanManageOwnedListButNotForeignOrOwnerlessList()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testCannotManageListWithoutPrivilegeEvenIfOwner">testCannotManageListWithoutPrivilegeEvenIfOwner()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testNonSuperUserCanCreateMessageWithCampaignsPrivilege">testNonSuperUserCanCreateMessageWithCampaignsPrivilege()</a>
     <span>
@@ -230,6 +260,12 @@
                                 &nbsp;: void    </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_adminWithId">adminWithId()</a>
+    <span>
+                                &nbsp;: <a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a>    </span>
+</dt>
+
     </dl>
 
 
@@ -260,7 +296,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
@@ -294,6 +330,176 @@
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_testAccessLevelIsAllForSuperUser">
+        testAccessLevelIsAllForSuperUser()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsAllForSuperUser" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">94</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testAccessLevelIsAllForSuperUser</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testAccessLevelIsNoneWithoutRequiredPrivilege">
+        testAccessLevelIsNoneWithoutRequiredPrivilege()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsNoneWithoutRequiredPrivilege" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">101</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testAccessLevelIsNoneWithoutRequiredPrivilege</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testAccessLevelIsOwnerWithRequiredPrivilege">
+        testAccessLevelIsOwnerWithRequiredPrivilege()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsOwnerWithRequiredPrivilege" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">108</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testAccessLevelIsOwnerWithRequiredPrivilege</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testCanManageOwnedListButNotForeignOrOwnerlessList">
+        testCanManageOwnedListButNotForeignOrOwnerlessList()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testCanManageOwnedListButNotForeignOrOwnerlessList" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">123</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testCanManageOwnedListButNotForeignOrOwnerlessList</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_testCannotManageListWithoutPrivilegeEvenIfOwner">
+        testCannotManageListWithoutPrivilegeEvenIfOwner()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testCannotManageListWithoutPrivilegeEvenIfOwner" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">115</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">testCannotManageListWithoutPrivilegeEvenIfOwner</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_testNonSuperUserCanCreateMessageWithCampaignsPrivilege">
         testNonSuperUserCanCreateMessageWithCampaignsPrivilege()
         <a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testNonSuperUserCanCreateMessageWithCampaignsPrivilege" class="headerlink"><i class="fas fa-link"></i></a>
@@ -302,7 +508,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
+    <span class="phpdocumentor-element-found-in__line">70</span>
 
     </aside>
 
@@ -336,7 +542,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">85</span>
+    <span class="phpdocumentor-element-found-in__line">86</span>
 
     </aside>
 
@@ -370,7 +576,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
+    <span class="phpdocumentor-element-found-in__line">52</span>
 
     </aside>
 
@@ -404,7 +610,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">78</span>
 
     </aside>
 
@@ -438,7 +644,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">60</span>
+    <span class="phpdocumentor-element-found-in__line">61</span>
 
     </aside>
 
@@ -472,7 +678,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -506,7 +712,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
+    <span class="phpdocumentor-element-found-in__line">42</span>
 
     </aside>
 
@@ -540,7 +746,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -574,7 +780,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -593,6 +799,61 @@
         
     
     
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_adminWithId">
+        adminWithId()
+        <a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_adminWithId" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php"><a href="files/tests-integration-domain-identity-service-permissioncheckertest.html"><abbr title="tests/Integration/Domain/Identity/Service/PermissionCheckerTest.php">PermissionCheckerTest.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">133</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">adminWithId</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Identity-Model-Privileges.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Privileges">Privileges</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$privileges</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$id</span>
+                : <span class="phpdocumentor-argument-list__argument__type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$privileges</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Identity-Model-Privileges.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Privileges">Privileges</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PhpList-Core-Domain-Identity-Model-Administrator.html"><abbr title="\PhpList\Core\Domain\Identity\Model\Administrator">Administrator</abbr></a></span>
+            </section>
+
 </article>
             </section>
 
@@ -623,6 +884,11 @@
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsAllForSuperUser">testAccessLevelIsAllForSuperUser()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsNoneWithoutRequiredPrivilege">testAccessLevelIsNoneWithoutRequiredPrivilege()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testAccessLevelIsOwnerWithRequiredPrivilege">testAccessLevelIsOwnerWithRequiredPrivilege()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testCanManageOwnedListButNotForeignOrOwnerlessList">testCanManageOwnedListButNotForeignOrOwnerlessList()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testCannotManageListWithoutPrivilegeEvenIfOwner">testCannotManageListWithoutPrivilegeEvenIfOwner()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testNonSuperUserCanCreateMessageWithCampaignsPrivilege">testNonSuperUserCanCreateMessageWithCampaignsPrivilege()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testNonSuperUserCanCreateResourceWithNoRequiredPrivilege">testNonSuperUserCanCreateResourceWithNoRequiredPrivilege()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testNonSuperUserCanCreateSubscriberWithSubscribersPrivilege">testNonSuperUserCanCreateSubscriberWithSubscribersPrivilege()</a></li>
@@ -632,6 +898,7 @@
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testSuperUserCanCreateAnyResource">testSuperUserCanCreateAnyResource()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_testSuperUserCanManageAnyResource">testSuperUserCanManageAnyResource()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_setUp">setUp()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Tests-Integration-Domain-Identity-Service-PermissionCheckerTest.html#method_adminWithId">adminWithId()</a></li>
                                     </ul>
             </li>
                     </ul>
