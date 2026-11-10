@@ -5966,6 +5966,51 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminAttributeDefinitionDto.html#property_required"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminNotification",
+            "name": "AdminNotification",
+            "summary": "An\u0020in\u002Dapp\u0020notification\u0020for\u0020an\u0020administrator\u0020\u0028the\u0020phplist3\u0020Info\/Warn\/Error\u0020banners\u0029.",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminNotification.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminNotification\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminNotification.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminNotification\u003A\u003ALEVEL_INFO",
+            "name": "LEVEL_INFO",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminNotification.html#constant_LEVEL_INFO"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminNotification\u003A\u003ALEVEL_WARNING",
+            "name": "LEVEL_WARNING",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminNotification.html#constant_LEVEL_WARNING"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminNotification\u003A\u003ALEVEL_ERROR",
+            "name": "LEVEL_ERROR",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminNotification.html#constant_LEVEL_ERROR"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminNotification\u003A\u003A\u0024code",
+            "name": "code",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminNotification.html#property_code"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminNotification\u003A\u003A\u0024level",
+            "name": "level",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminNotification.html#property_level"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminNotification\u003A\u003A\u0024message",
+            "name": "message",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminNotification.html#property_message"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\AdminNotification\u003A\u003A\u0024context",
+            "name": "context",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Model-Dto-AdminNotification.html#property_context"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Model\\Dto\\CreateAdministratorDto",
             "name": "CreateAdministratorDto",
             "summary": "",
@@ -6570,6 +6615,86 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-Manager-SessionManager.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AdminNotificationCollector",
+            "name": "AdminNotificationCollector",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AdminNotificationCollector.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AdminNotificationCollector\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AdminNotificationCollector.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AdminNotificationCollector\u003A\u003Acollect\u0028\u0029",
+            "name": "collect",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AdminNotificationCollector.html#method_collect"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AdminNotificationCollector\u003A\u003A\u0024providers",
+            "name": "providers",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AdminNotificationCollector.html#property_providers"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AdminNotificationProviderInterface",
+            "name": "AdminNotificationProviderInterface",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AdminNotificationProviderInterface.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AdminNotificationProviderInterface\u003A\u003AgetNotifications\u0028\u0029",
+            "name": "getNotifications",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AdminNotificationProviderInterface.html#method_getNotifications"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProvider",
+            "name": "AttachmentRepositoryNotificationProvider",
+            "summary": "phplist3\u0020\u0028index.php\u0029\u003A\u0020warns\u0020when\u0020the\u0020attachment\u0020repository\u0020is\u0020missing\u0020or\u0020not\u0020writable.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProvider\u003A\u003AgetNotifications\u0028\u0029",
+            "name": "getNotifications",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProvider.html#method_getNotifications"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProvider\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProvider.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProvider\u003A\u003A\u0024attachmentRepositoryPath",
+            "name": "attachmentRepositoryPath",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProvider.html#property_attachmentRepositoryPath"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProvider",
+            "name": "QueuedCampaignsNotificationProvider",
+            "summary": "phplist3\u0020\u0028index.php\u0029\u003A\u0020superusers\u0020are\u0020told\u0020how\u0020many\u0020campaigns\u0020are\u0020waiting\u0020in\u0020the\u0020queue.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProvider\u003A\u003AgetNotifications\u0028\u0029",
+            "name": "getNotifications",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProvider.html#method_getNotifications"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProvider\u003A\u003A\u0024messageRepository",
+            "name": "messageRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProvider.html#property_messageRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProvider\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProvider.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\PermissionChecker",
             "name": "PermissionChecker",
@@ -10825,6 +10950,11 @@ Search.appendIndex(
             "name": "incrementBounceCount",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_incrementBounceCount"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AcountQueued\u0028\u0029",
+            "name": "countQueued",
+            "summary": "Campaigns\u0020that\u0020are\u0020submitted\u0020or\u0020in\u0020process\u0020and\u0020whose\u0020embargo\u0020has\u0020passed.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Repository-MessageRepository.html#method_countQueued"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Repository\\MessageRepository\u003A\u003AgetByStatusAndEmbargo\u0028\u0029",
             "name": "getByStatusAndEmbargo",
@@ -25246,6 +25376,86 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-HashGeneratorTest.html#property_subject"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\AdminNotificationCollectorTest",
+            "name": "AdminNotificationCollectorTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-AdminNotificationCollectorTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\AdminNotificationCollectorTest\u003A\u003AtestCollectMergesAllProviders\u0028\u0029",
+            "name": "testCollectMergesAllProviders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-AdminNotificationCollectorTest.html#method_testCollectMergesAllProviders"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProviderTest",
+            "name": "AttachmentRepositoryNotificationProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProviderTest\u003A\u003Aprovider\u0028\u0029",
+            "name": "provider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProviderTest.html#method_provider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProviderTest\u003A\u003Aadmin\u0028\u0029",
+            "name": "admin",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProviderTest.html#method_admin"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProviderTest\u003A\u003AtestWritableDirectoryProducesNothing\u0028\u0029",
+            "name": "testWritableDirectoryProducesNothing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProviderTest.html#method_testWritableDirectoryProducesNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProviderTest\u003A\u003AtestMissingDirectoryProducesWarning\u0028\u0029",
+            "name": "testMissingDirectoryProducesWarning",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProviderTest.html#method_testMissingDirectoryProducesWarning"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProviderTest\u003A\u003AtestNonSuperUserGetsNothing\u0028\u0029",
+            "name": "testNonSuperUserGetsNothing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProviderTest.html#method_testNonSuperUserGetsNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProviderTest",
+            "name": "QueuedCampaignsNotificationProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProviderTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProviderTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProviderTest\u003A\u003Aadmin\u0028\u0029",
+            "name": "admin",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProviderTest.html#method_admin"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProviderTest\u003A\u003AtestNonSuperUserGetsNothing\u0028\u0029",
+            "name": "testNonSuperUserGetsNothing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProviderTest.html#method_testNonSuperUserGetsNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProviderTest\u003A\u003AtestEmptyQueueGetsNothing\u0028\u0029",
+            "name": "testEmptyQueueGetsNothing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProviderTest.html#method_testEmptyQueueGetsNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProviderTest\u003A\u003AtestQueuedCampaignsProduceInfoNotification\u0028\u0029",
+            "name": "testQueuedCampaignsProduceInfoNotification",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProviderTest.html#method_testQueuedCampaignsProduceInfoNotification"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProviderTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProviderTest.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProviderTest\u003A\u003A\u0024subject",
+            "name": "subject",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProviderTest.html#property_subject"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest",
             "name": "PasswordManagerTest",
             "summary": "",
@@ -31776,6 +31986,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-identity-service-manager.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification",
+            "name": "Notification",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-identity-service-notification.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Validator",
             "name": "Validator",
             "summary": "",
@@ -32325,6 +32540,11 @@ Search.appendIndex(
             "name": "Service",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-identity-service.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification",
+            "name": "Notification",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-identity-service-notification.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Command",
             "name": "Command",
