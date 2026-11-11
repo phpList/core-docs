@@ -561,6 +561,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-SearchIndexDoctrineListener.html#property_enabled"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\SkippedMigrationRecorder",
+            "name": "SkippedMigrationRecorder",
+            "summary": "Doctrine\u0020Migrations\u0020does\u0020not\u0020record\u0020a\u0020migration\u0020that\u0020skipped\u0020itself\u0020\u0028skipIf\u0028\u0029\u0029\u0020in\u0020the\u0020versions\u0020table,\u0020so\nplatform\u0020specific\u0020migrations\u0020\u0028e.g.\u0020the\u0020PostgreSQL\u0020ones\u0020on\u0020MySQL\u0029\u0020and\u0020\u0022schema\u0020already\u0020exists\u0022\u0020skips\u0020would\nstay\u0020\u0022not\u0020migrated\u0022\u0020forever,\u0020and\u0020be\u0020reported\u0020as\u0020pending\u0020on\u0020every\u0020run.",
+            "url": "classes/PhpList-Core-Core-Doctrine-SkippedMigrationRecorder.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\SkippedMigrationRecorder\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-SkippedMigrationRecorder.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\SkippedMigrationRecorder\u003A\u003AonMigrationsVersionSkipped\u0028\u0029",
+            "name": "onMigrationsVersionSkipped",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-SkippedMigrationRecorder.html#method_onMigrationsVersionSkipped"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\SkippedMigrationRecorder\u003A\u003A\u0024dependencyFactory",
+            "name": "dependencyFactory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-SkippedMigrationRecorder.html#property_dependencyFactory"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener",
             "name": "TablePrefixListener",
             "summary": "",
@@ -6670,6 +6690,36 @@ Search.appendIndex(
             "name": "attachmentRepositoryPath",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProvider.html#property_attachmentRepositoryPath"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProvider",
+            "name": "PendingMigrationsNotificationProvider",
+            "summary": "Tells\u0020superusers\u0020when\u0020the\u0020database\u0020schema\u0020is\u0020behind\u0020the\u0020code,\u0020i.e.\u0020there\u0020are\u0020migrations\u0020that\u0020have\u0020not\u0020been\u0020run.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-PendingMigrationsNotificationProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-PendingMigrationsNotificationProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProvider\u003A\u003AgetNotifications\u0028\u0029",
+            "name": "getNotifications",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-PendingMigrationsNotificationProvider.html#method_getNotifications"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProvider\u003A\u003A\u0024dependencyFactory",
+            "name": "dependencyFactory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-PendingMigrationsNotificationProvider.html#property_dependencyFactory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProvider\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-PendingMigrationsNotificationProvider.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProvider\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-PendingMigrationsNotificationProvider.html#property_logger"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProvider",
             "name": "QueuedCampaignsNotificationProvider",
@@ -21906,6 +21956,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SearchIndexDoctrineListenerTest.html#property_listener"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SkippedMigrationRecorderTest",
+            "name": "SkippedMigrationRecorderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SkippedMigrationRecorderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SkippedMigrationRecorderTest\u003A\u003Aargs\u0028\u0029",
+            "name": "args",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SkippedMigrationRecorderTest.html#method_args"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SkippedMigrationRecorderTest\u003A\u003Arecorder\u0028\u0029",
+            "name": "recorder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SkippedMigrationRecorderTest.html#method_recorder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SkippedMigrationRecorderTest\u003A\u003AtestRecordsSkippedUpMigration\u0028\u0029",
+            "name": "testRecordsSkippedUpMigration",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SkippedMigrationRecorderTest.html#method_testRecordsSkippedUpMigration"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SkippedMigrationRecorderTest\u003A\u003AtestDoesNotRecordOnDryRun\u0028\u0029",
+            "name": "testDoesNotRecordOnDryRun",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SkippedMigrationRecorderTest.html#method_testDoesNotRecordOnDryRun"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SkippedMigrationRecorderTest\u003A\u003AtestDoesNotRecordSkippedDownMigration\u0028\u0029",
+            "name": "testDoesNotRecordSkippedDownMigration",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SkippedMigrationRecorderTest.html#method_testDoesNotRecordSkippedDownMigration"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SkippedMigrationRecorderTest\u003A\u003AtestDoesNothingWithoutResult\u0028\u0029",
+            "name": "testDoesNothingWithoutResult",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SkippedMigrationRecorderTest.html#method_testDoesNothingWithoutResult"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\EnvironmentTest",
             "name": "EnvironmentTest",
             "summary": "Testcase.",
@@ -25415,6 +25500,46 @@ Search.appendIndex(
             "name": "testNonSuperUserGetsNothing",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProviderTest.html#method_testNonSuperUserGetsNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProviderTest",
+            "name": "PendingMigrationsNotificationProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-PendingMigrationsNotificationProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProviderTest\u003A\u003Aprovider\u0028\u0029",
+            "name": "provider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-PendingMigrationsNotificationProviderTest.html#method_provider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProviderTest\u003A\u003Acalculator\u0028\u0029",
+            "name": "calculator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-PendingMigrationsNotificationProviderTest.html#method_calculator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProviderTest\u003A\u003Aadmin\u0028\u0029",
+            "name": "admin",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-PendingMigrationsNotificationProviderTest.html#method_admin"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProviderTest\u003A\u003AtestNoPendingMigrationsProducesNothing\u0028\u0029",
+            "name": "testNoPendingMigrationsProducesNothing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-PendingMigrationsNotificationProviderTest.html#method_testNoPendingMigrationsProducesNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProviderTest\u003A\u003AtestPendingMigrationsProduceWarning\u0028\u0029",
+            "name": "testPendingMigrationsProduceWarning",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-PendingMigrationsNotificationProviderTest.html#method_testPendingMigrationsProduceWarning"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProviderTest\u003A\u003AtestNonSuperUserGetsNothing\u0028\u0029",
+            "name": "testNonSuperUserGetsNothing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-PendingMigrationsNotificationProviderTest.html#method_testNonSuperUserGetsNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProviderTest\u003A\u003AtestFailureIsSwallowed\u0028\u0029",
+            "name": "testFailureIsSwallowed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-PendingMigrationsNotificationProviderTest.html#method_testFailureIsSwallowed"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProviderTest",
             "name": "QueuedCampaignsNotificationProviderTest",
