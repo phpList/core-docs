@@ -124,7 +124,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -162,9 +162,21 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardAlternativeContent">$forwardAlternativeContent</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardEmailBuilder">$forwardEmailBuilder</a>
     <span>
                         &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\ForwardEmailBuilder">ForwardEmailBuilder</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_precacheService">$precacheService</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessagePrecacheService">MessagePrecacheService</abbr></a>            </span>
 </dt>
 
     </dl>
@@ -217,7 +229,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
@@ -244,6 +256,57 @@
             -private
                                                 -read-only                    "
 >
+    <h4 class="phpdocumentor-element__name" id="property_forwardAlternativeContent">
+        $forwardAlternativeContent
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardAlternativeContent" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">25</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$forwardAlternativeContent</span>
+     = <span class="phpdocumentor-signature__default-value">false</span></code>
+
+    
+    
+    
+
+        
+            <section class="phpdocumentor-attributes">
+            <h5 class="phpdocumentor-elements__header" id="property_forwardAlternativeContent_attributes">
+                Attributes <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardAlternativeContent_attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+            </h5>
+                            <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Symfony\Component\DependencyInjection\Attribute\Autowire">Autowire</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        &#039;%messaging.forward_alternative_content%&#039;
+    </dd>
+    </dl>
+                    </section>
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
     <h4 class="phpdocumentor-element__name" id="property_forwardEmailBuilder">
         $forwardEmailBuilder
         <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardEmailBuilder" class="headerlink"><i class="fas fa-link"></i></a>
@@ -254,7 +317,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -264,6 +327,43 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\ForwardEmailBuilder">ForwardEmailBuilder</abbr></a></span>
     <span class="phpdocumentor-signature__name">$forwardEmailBuilder</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_precacheService">
+        $precacheService
+        <a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_precacheService" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessagePrecacheService">MessagePrecacheService</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$precacheService</span>
     </code>
 
     
@@ -296,14 +396,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cache</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\ForwardEmailBuilder">ForwardEmailBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardEmailBuilder</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Psr\SimpleCache\CacheInterface">CacheInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cache</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\ForwardEmailBuilder">ForwardEmailBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardEmailBuilder</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessagePrecacheService">MessagePrecacheService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$precacheService</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$forwardAlternativeContent</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -322,6 +422,20 @@
                 <span class="phpdocumentor-argument-list__argument__name">$forwardEmailBuilder</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\ForwardEmailBuilder">ForwardEmailBuilder</abbr></a></span>
                             </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$precacheService</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-MessagePrecacheService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\MessagePrecacheService">MessagePrecacheService</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$forwardAlternativeContent</span>
+                : <span class="phpdocumentor-argument-list__argument__type">bool</span>
+                 = <span class="phpdocumentor-argument-list__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -347,7 +461,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/Service/ForwardContentService.php"><a href="files/src-domain-messaging-service-forwardcontentservice.html"><abbr title="src/Domain/Messaging/Service/ForwardContentService.php">ForwardContentService.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 
     </aside>
 
@@ -441,7 +555,9 @@
                 <li>
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_cache">$cache</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardAlternativeContent">$forwardAlternativeContent</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardEmailBuilder">$forwardEmailBuilder</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_precacheService">$precacheService</a></li>
                                             </ul>
                 </li>
             

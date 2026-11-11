@@ -121,7 +121,9 @@
 
     </h4>
     <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html"><abbr title="\PhpList\Core\Domain\Messaging\EventSubscriber\InjectedByHeaderSubscriber">InjectedByHeaderSubscriber</abbr></a></dt>    </dl>
+                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html"><abbr title="\PhpList\Core\Domain\Messaging\EventSubscriber\InjectedByHeaderSubscriber">InjectedByHeaderSubscriber</abbr></a></dt><dd>When the email is generated from a web request, add a &quot;Received&quot; line to identify the origin
+(same as phplist3&#039;s PHPlistMailer::add_timestamp()). Mails sent from the CLI or by async
+workers have no request, so they are not stamped.</dd>    </dl>
 
 
 

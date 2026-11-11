@@ -5136,6 +5136,11 @@ Search.appendIndex(
             "summary": "Get\u0020configuration\u0020value\u0020by\u0020its\u0020key,\u0020from\u0020settings\u0020or\u0020default\u0020configs\u0020or\u0020default\u0020value\u0020\u0028if\u0020provided\u0029",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#method_getValue"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003AreplaceBuiltInPlaceholders\u0028\u0029",
+            "name": "replaceBuiltInPlaceholders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#method_replaceBuiltInPlaceholders"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003AgetValueWithNamespace\u0028\u0029",
             "name": "getValueWithNamespace",
             "summary": "",
@@ -7038,7 +7043,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriber",
             "name": "InjectedByHeaderSubscriber",
-            "summary": "",
+            "summary": "When\u0020the\u0020email\u0020is\u0020generated\u0020from\u0020a\u0020web\u0020request,\u0020add\u0020a\u0020\u0022Received\u0022\u0020line\u0020to\u0020identify\u0020the\u0020origin\n\u0028same\u0020as\u0020phplist3\u0027s\u0020PHPlistMailer\u003A\u003Aadd_timestamp\u0028\u0029\u0029.\u0020Mails\u0020sent\u0020from\u0020the\u0020CLI\u0020or\u0020by\u0020async\nworkers\u0020have\u0020no\u0020request,\u0020so\u0020they\u0020are\u0020not\u0020stamped.",
             "url": "classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriber\u003A\u003A__construct\u0028\u0029",
@@ -7056,10 +7061,10 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#method_onMessage"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriber\u003A\u003A\u0024requestStack",
-            "name": "requestStack",
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriber\u003A\u003A\u0024stampBuilder",
+            "name": "stampBuilder",
             "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#property_requestStack"
+            "url": "classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#property_stampBuilder"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Exception\\AttachmentCopyException",
             "name": "AttachmentCopyException",
@@ -11896,16 +11901,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#method_buildForwardEmail"
         },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\ForwardEmailBuilder\u003A\u003AapplyCampaignHeaders\u0028\u0029",
-            "name": "applyCampaignHeaders",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#method_applyCampaignHeaders"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\ForwardEmailBuilder\u003A\u003A\u0024httpReceivedStampBuilder",
-            "name": "httpReceivedStampBuilder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-ForwardEmailBuilder.html#property_httpReceivedStampBuilder"
-        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\HttpReceivedStampBuilder",
             "name": "HttpReceivedStampBuilder",
             "summary": "",
@@ -11930,11 +11925,6 @@ Search.appendIndex(
             "name": "requestStack",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_requestStack"
-        },                {
-            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\HttpReceivedStampBuilder\u003A\u003A\u0024restApiBaseUrl",
-            "name": "restApiBaseUrl",
-            "summary": "",
-            "url": "classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html#property_restApiBaseUrl"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Builder\\MessageBuilder",
             "name": "MessageBuilder",
@@ -12595,6 +12585,16 @@ Search.appendIndex(
             "name": "forwardEmailBuilder",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardEmailBuilder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardContentService\u003A\u003A\u0024precacheService",
+            "name": "precacheService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_precacheService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardContentService\u003A\u003A\u0024forwardAlternativeContent",
+            "name": "forwardAlternativeContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-ForwardContentService.html#property_forwardAlternativeContent"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\ForwardDeliveryService",
             "name": "ForwardDeliveryService",
@@ -14130,6 +14130,11 @@ Search.appendIndex(
             "name": "forwardingStatsService",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_forwardingStatsService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageForwardService\u003A\u003A\u0024forwardAlternativeContent",
+            "name": "forwardAlternativeContent",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-MessageForwardService.html#property_forwardAlternativeContent"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\MessageParser",
             "name": "MessageParser",
@@ -24501,6 +24506,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueWithNamespaceSupportsStringNamespacedKey"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003AtestGetValueReplacesWebsiteAndDomainPlaceholders\u0028\u0029",
+            "name": "testGetValueReplacesWebsiteAndDomainPlaceholders",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Configuration-Service-Provider-ConfigProviderTest.html#method_testGetValueReplacesWebsiteAndDomainPlaceholders"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Configuration\\Service\\Provider\\ConfigProviderTest\u003A\u003A\u0024repo",
             "name": "repo",
             "summary": "",
@@ -26036,20 +26046,40 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003AtestNoHeaderWhenNoCurrentRequest\u0028\u0029",
-            "name": "testNoHeaderWhenNoCurrentRequest",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_testNoHeaderWhenNoCurrentRequest"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_setUp"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003AtestNoHeaderWhenMessageIsNotEmail\u0028\u0029",
-            "name": "testNoHeaderWhenMessageIsNotEmail",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003Aemail\u0028\u0029",
+            "name": "email",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_testNoHeaderWhenMessageIsNotEmail"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_email"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003AtestNoHeaderWhenRunningInCliEvenWithRequestAndEmail\u0028\u0029",
-            "name": "testNoHeaderWhenRunningInCliEvenWithRequestAndEmail",
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003AtestNoHeaderWhenNoStamp\u0028\u0029",
+            "name": "testNoHeaderWhenNoStamp",
             "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_testNoHeaderWhenRunningInCliEvenWithRequestAndEmail"
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_testNoHeaderWhenNoStamp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003AtestIgnoresNonEmailMessages\u0028\u0029",
+            "name": "testIgnoresNonEmailMessages",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_testIgnoresNonEmailMessages"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003AtestAddsReceivedHeader\u0028\u0029",
+            "name": "testAddsReceivedHeader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_testAddsReceivedHeader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003AtestReplacesExistingReceivedHeader\u0028\u0029",
+            "name": "testReplacesExistingReceivedHeader",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#method_testReplacesExistingReceivedHeader"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\EventSubscriber\\InjectedByHeaderSubscriberTest\u003A\u003A\u0024stampBuilder",
+            "name": "stampBuilder",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriberTest.html#property_stampBuilder"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Message\\SubscriberConfirmationMessageTest",
             "name": "SubscriberConfirmationMessageTest",
@@ -27031,11 +27061,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-ForwardEmailBuilderTest.html#property_translator"
         },                {
-            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\ForwardEmailBuilderTest\u003A\u003A\u0024httpReceivedStampBuilder",
-            "name": "httpReceivedStampBuilder",
-            "summary": "",
-            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-Builder-ForwardEmailBuilderTest.html#property_httpReceivedStampBuilder"
-        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\Builder\\HttpReceivedStampBuilderTest",
             "name": "HttpReceivedStampBuilderTest",
             "summary": "",
@@ -27975,6 +28000,11 @@ Search.appendIndex(
             "name": "builder",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ForwardContentServiceTest.html#property_builder"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ForwardContentServiceTest\u003A\u003A\u0024precacheService",
+            "name": "precacheService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Service-ForwardContentServiceTest.html#property_precacheService"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Service\\ForwardDeliveryServiceTest",
             "name": "ForwardDeliveryServiceTest",

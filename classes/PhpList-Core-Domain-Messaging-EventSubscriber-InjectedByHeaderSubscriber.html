@@ -127,11 +127,14 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/EventSubscriber/InjectedByHeaderSubscriber.php"><a href="files/src-domain-messaging-eventsubscriber-injectedbyheadersubscriber.html"><abbr title="src/Domain/Messaging/EventSubscriber/InjectedByHeaderSubscriber.php">InjectedByHeaderSubscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
-        
+            <p class="phpdocumentor-summary">When the email is generated from a web request, add a &quot;Received&quot; line to identify the origin
+(same as phplist3&#039;s PHPlistMailer::add_timestamp()). Mails sent from the CLI or by async
+workers have no request, so they are not stamped.</p>
+
 
 
 
@@ -166,9 +169,9 @@
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a class="" href="classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#property_requestStack">$requestStack</a>
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#property_stampBuilder">$stampBuilder</a>
     <span>
-                        &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>            </span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\HttpReceivedStampBuilder">HttpReceivedStampBuilder</abbr></a>            </span>
 </dt>
 
     </dl>
@@ -217,9 +220,9 @@
             -private
                                                 -read-only                    "
 >
-    <h4 class="phpdocumentor-element__name" id="property_requestStack">
-        $requestStack
-        <a href="classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#property_requestStack" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="property_stampBuilder">
+        $stampBuilder
+        <a href="classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#property_stampBuilder" class="headerlink"><i class="fas fa-link"></i></a>
 
         <span class="phpdocumentor-element__modifiers">
                         <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
@@ -227,7 +230,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/EventSubscriber/InjectedByHeaderSubscriber.php"><a href="files/src-domain-messaging-eventsubscriber-injectedbyheadersubscriber.html"><abbr title="src/Domain/Messaging/EventSubscriber/InjectedByHeaderSubscriber.php">InjectedByHeaderSubscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -235,8 +238,8 @@
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
         <span class="phpdocumentor-signature__visibility">private</span>
-            <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span>
-    <span class="phpdocumentor-signature__name">$requestStack</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\HttpReceivedStampBuilder">HttpReceivedStampBuilder</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$stampBuilder</span>
     </code>
 
     
@@ -269,14 +272,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/EventSubscriber/InjectedByHeaderSubscriber.php"><a href="files/src-domain-messaging-eventsubscriber-injectedbyheadersubscriber.html"><abbr title="src/Domain/Messaging/EventSubscriber/InjectedByHeaderSubscriber.php">InjectedByHeaderSubscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">14</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestStack</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\HttpReceivedStampBuilder">HttpReceivedStampBuilder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stampBuilder</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -285,8 +288,8 @@
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$requestStack</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span>
+                <span class="phpdocumentor-argument-list__argument__name">$stampBuilder</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-Builder-HttpReceivedStampBuilder.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\Builder\HttpReceivedStampBuilder">HttpReceivedStampBuilder</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -313,7 +316,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/EventSubscriber/InjectedByHeaderSubscriber.php"><a href="files/src-domain-messaging-eventsubscriber-injectedbyheadersubscriber.html"><abbr title="src/Domain/Messaging/EventSubscriber/InjectedByHeaderSubscriber.php">InjectedByHeaderSubscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -351,7 +354,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/EventSubscriber/InjectedByHeaderSubscriber.php"><a href="files/src-domain-messaging-eventsubscriber-injectedbyheadersubscriber.html"><abbr title="src/Domain/Messaging/EventSubscriber/InjectedByHeaderSubscriber.php">InjectedByHeaderSubscriber.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">28</span>
 
     </aside>
 
@@ -403,7 +406,7 @@
                             <li class="phpdocumentor-on-this-page-section__title">Properties</li>
                 <li>
                     <ul class="phpdocumentor-list -clean">
-                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#property_requestStack">$requestStack</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-EventSubscriber-InjectedByHeaderSubscriber.html#property_stampBuilder">$stampBuilder</a></li>
                                             </ul>
                 </li>
             
