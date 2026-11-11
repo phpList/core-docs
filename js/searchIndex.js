@@ -6668,7 +6668,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProvider",
             "name": "AttachmentRepositoryNotificationProvider",
-            "summary": "phplist3\u0020\u0028index.php\u0029\u003A\u0020warns\u0020when\u0020the\u0020attachment\u0020repository\u0020is\u0020missing\u0020or\u0020not\u0020writable.",
+            "summary": "warns\u0020when\u0020the\u0020attachment\u0020repository\u0020is\u0020missing\u0020or\u0020not\u0020writable.",
             "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProvider.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\AttachmentRepositoryNotificationProvider\u003A\u003A__construct\u0028\u0029",
@@ -6690,6 +6690,66 @@ Search.appendIndex(
             "name": "attachmentRepositoryPath",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProvider.html#property_attachmentRepositoryPath"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProvider",
+            "name": "DevModeNotificationProvider",
+            "summary": "in\u0020a\u0020DEV\u0020version\u0020every\u0020email\u0020is\u0020redirected\u0020to\u0020the\u0020developer\u0020address.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-DevModeNotificationProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-DevModeNotificationProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProvider\u003A\u003AgetNotifications\u0028\u0029",
+            "name": "getNotifications",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-DevModeNotificationProvider.html#method_getNotifications"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProvider\u003A\u003A\u0024devVersion",
+            "name": "devVersion",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-DevModeNotificationProvider.html#property_devVersion"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProvider\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-DevModeNotificationProvider.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProvider\u003A\u003A\u0024devEmail",
+            "name": "devEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-DevModeNotificationProvider.html#property_devEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProvider",
+            "name": "MailerDisabledNotificationProvider",
+            "summary": "\u0022Running\u0020in\u0020testmode,\u0020no\u0020emails\u0020will\u0020be\u0020sent\u0022.\u0020There\u0020is\u0020no\u0020TEST\u0020constant\u0020here\u003B\nthe\u0020equivalent\u0020is\u0020a\u0020MAILER_DSN\u0020using\u0020the\u0020\u0022null\u0022\u0020transport,\u0020which\u0020silently\u0020discards\u0020every\u0020message.",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-MailerDisabledNotificationProvider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProvider\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-MailerDisabledNotificationProvider.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProvider\u003A\u003AgetNotifications\u0028\u0029",
+            "name": "getNotifications",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-MailerDisabledNotificationProvider.html#method_getNotifications"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProvider\u003A\u003AusesNullTransport\u0028\u0029",
+            "name": "usesNullTransport",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-MailerDisabledNotificationProvider.html#method_usesNullTransport"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProvider\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-MailerDisabledNotificationProvider.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProvider\u003A\u003A\u0024mailerDsn",
+            "name": "mailerDsn",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-MailerDisabledNotificationProvider.html#property_mailerDsn"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProvider",
             "name": "PendingMigrationsNotificationProvider",
@@ -6723,7 +6783,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProvider",
             "name": "QueuedCampaignsNotificationProvider",
-            "summary": "phplist3\u0020\u0028index.php\u0029\u003A\u0020superusers\u0020are\u0020told\u0020how\u0020many\u0020campaigns\u0020are\u0020waiting\u0020in\u0020the\u0020queue.",
+            "summary": "superusers\u0020are\u0020told\u0020how\u0020many\u0020campaigns\u0020are\u0020waiting\u0020in\u0020the\u0020queue.",
             "url": "classes/PhpList-Core-Domain-Identity-Service-Notification-QueuedCampaignsNotificationProvider.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Notification\\QueuedCampaignsNotificationProvider\u003A\u003A__construct\u0028\u0029",
@@ -25500,6 +25560,81 @@ Search.appendIndex(
             "name": "testNonSuperUserGetsNothing",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-AttachmentRepositoryNotificationProviderTest.html#method_testNonSuperUserGetsNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProviderTest",
+            "name": "DevModeNotificationProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-DevModeNotificationProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProviderTest\u003A\u003Aprovider\u0028\u0029",
+            "name": "provider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-DevModeNotificationProviderTest.html#method_provider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProviderTest\u003A\u003Aadmin\u0028\u0029",
+            "name": "admin",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-DevModeNotificationProviderTest.html#method_admin"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProviderTest\u003A\u003AtestDisabledProducesNothing\u0028\u0029",
+            "name": "testDisabledProducesNothing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-DevModeNotificationProviderTest.html#method_testDisabledProducesNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProviderTest\u003A\u003AtestEnabledShowsRedirectEmail\u0028\u0029",
+            "name": "testEnabledShowsRedirectEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-DevModeNotificationProviderTest.html#method_testEnabledShowsRedirectEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProviderTest\u003A\u003AtestEnabledWithoutEmail\u0028\u0029",
+            "name": "testEnabledWithoutEmail",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-DevModeNotificationProviderTest.html#method_testEnabledWithoutEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\DevModeNotificationProviderTest\u003A\u003AtestNonSuperUserGetsNothing\u0028\u0029",
+            "name": "testNonSuperUserGetsNothing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-DevModeNotificationProviderTest.html#method_testNonSuperUserGetsNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProviderTest",
+            "name": "MailerDisabledNotificationProviderTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-MailerDisabledNotificationProviderTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProviderTest\u003A\u003Aprovider\u0028\u0029",
+            "name": "provider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-MailerDisabledNotificationProviderTest.html#method_provider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProviderTest\u003A\u003Aadmin\u0028\u0029",
+            "name": "admin",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-MailerDisabledNotificationProviderTest.html#method_admin"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProviderTest\u003A\u003AtestNullTransportProducesWarning\u0028\u0029",
+            "name": "testNullTransportProducesWarning",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-MailerDisabledNotificationProviderTest.html#method_testNullTransportProducesWarning"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProviderTest\u003A\u003AnullDsns\u0028\u0029",
+            "name": "nullDsns",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-MailerDisabledNotificationProviderTest.html#method_nullDsns"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProviderTest\u003A\u003AtestRealTransportProducesNothing\u0028\u0029",
+            "name": "testRealTransportProducesNothing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-MailerDisabledNotificationProviderTest.html#method_testRealTransportProducesNothing"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProviderTest\u003A\u003ArealDsns\u0028\u0029",
+            "name": "realDsns",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-MailerDisabledNotificationProviderTest.html#method_realDsns"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\MailerDisabledNotificationProviderTest\u003A\u003AtestNonSuperUserGetsNothing\u0028\u0029",
+            "name": "testNonSuperUserGetsNothing",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-Notification-MailerDisabledNotificationProviderTest.html#method_testNonSuperUserGetsNothing"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\Notification\\PendingMigrationsNotificationProviderTest",
             "name": "PendingMigrationsNotificationProviderTest",
