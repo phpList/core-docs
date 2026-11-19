@@ -3426,6 +3426,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Service-UploadService.html#property_uploadDirectory"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\UploadService\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Service-UploadService.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Storage\\LocalUploadStorage",
             "name": "LocalUploadStorage",
             "summary": "",
@@ -3450,6 +3455,11 @@ Search.appendIndex(
             "name": "uploadDirectory",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Storage-LocalUploadStorage.html#property_uploadDirectory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Storage\\LocalUploadStorage\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Storage-LocalUploadStorage.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Storage\\UploadStorageInterface",
             "name": "UploadStorageInterface",
@@ -3556,6 +3566,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Validator-UploadDirectoryValidator.html#property_publicPath"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadDirectoryValidator\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadDirectoryValidator.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator",
             "name": "UploadValidator",
             "summary": "",
@@ -3610,6 +3625,11 @@ Search.appendIndex(
             "name": "maxSize",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#property_maxSize"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\UploadValidator\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Validator-UploadValidator.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Validator\\ValidatorInterface",
             "name": "ValidatorInterface",
@@ -5336,6 +5356,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html#property_entityManager"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CreateAdminCommand\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Exception\\AdminAttributeCreationException",
             "name": "AdminAttributeCreationException",
             "summary": "",
@@ -6505,6 +6530,11 @@ Search.appendIndex(
             "name": "attributeRepository",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Identity-Service-Manager-AdminAttributeManager.html#property_attributeRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Manager\\AdminAttributeManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Manager-AdminAttributeManager.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Manager\\AdministratorManager",
             "name": "AdministratorManager",
@@ -11666,6 +11696,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#property_subscriberRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AttachmentDownloadService\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-AttachmentDownloadService.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\AttachmentDownloadService\u003A\u003A\u0024attachmentRepositoryPath",
             "name": "attachmentRepositoryPath",
             "summary": "",
@@ -13410,6 +13445,11 @@ Search.appendIndex(
             "name": "entityManager",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRegexManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Service-Manager-BounceRegexManager.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Service\\Manager\\BounceRuleManager",
             "name": "BounceRuleManager",
@@ -15416,6 +15456,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Search-Command-InitSearchIndicesCommand.html#property_indexer"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\InitSearchIndicesCommand\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-InitSearchIndicesCommand.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand",
             "name": "PurgeSearchIndexedRowsCommand",
             "summary": "",
@@ -15471,6 +15516,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#property_client"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\PurgeSearchIndexedRowsCommand\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-PurgeSearchIndexedRowsCommand.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\ReindexSearchCommand",
             "name": "ReindexSearchCommand",
             "summary": "",
@@ -15510,6 +15560,11 @@ Search.appendIndex(
             "name": "indexer",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Search-Command-ReindexSearchCommand.html#property_indexer"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Search\\Command\\ReindexSearchCommand\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Search-Command-ReindexSearchCommand.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Search\\Exception\\SearchBackendUnavailableException",
             "name": "SearchBackendUnavailableException",
@@ -18445,6 +18500,11 @@ Search.appendIndex(
             "name": "attributeValueRepo",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_attributeValueRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrManager\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Manager-DynamicListAttrManager.html#property_translator"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\DynamicListAttrTablesManager",
             "name": "DynamicListAttrTablesManager",
