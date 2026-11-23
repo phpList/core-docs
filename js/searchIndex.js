@@ -596,6 +596,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_loadClassMetadata"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener\u003A\u003AprefixSequence\u0028\u0029",
+            "name": "prefixSequence",
+            "summary": "On\u0020platforms\u0020that\u0020use\u0020sequences\u0020\u0028PostgreSQL\u0029\u0020the\u0020ORM\u0020derives\u0020the\u0020default\u0020sequence\u0020name\n\u0028\u007Btable\u007D_\u007Bcolumn\u007D_seq\u0029\u0020from\u0020the\u0020unprefixed\u0020table\u0020name\u0020and\u0020builds\u0020the\u0020id\u0020generator\u0020before\u0020this\nevent,\u0020so\u0020both\u0020have\u0020to\u0020be\u0020prefixed\u0020here\u0020as\u0020well,\u0020or\u0020inserts\u0020would\u0020use\u0020a\u0020sequence\u0020that\u0020doesn\u0027t\u0020exist.",
+            "url": "classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_prefixSequence"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\TablePrefixListener\u003A\u003APREFIXED_NAMESPACES",
             "name": "PREFIXED_NAMESPACES",
             "summary": "Namespace\u0020prefixes\u0020of\u0020entities\u0020that\u0020should\u0020be\u0020prefixed\u0020with\u0020the\u0020app\u0027s\u0020table\u0020prefix.\u0020Bundles\u0020that\u0020ship\ntheir\u0020own\u0020entities\u0020\u0028e.g.\u0020TatevikGr\\RssFeedBundle\u0029\u0020don\u0027t\u0020know\u0020about\u0020this\u0020convention\u0020on\u0020their\u0020own,\u0020so\ntheir\u0020namespace\u0020has\u0020to\u0020be\u0020opted\u0020in\u0020here\u0020explicitly.",
@@ -19663,8 +19668,28 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003ArenameOrCreateIndex\u0028\u0029",
             "name": "renameOrCreateIndex",
-            "summary": "Legacy\u0020phpList\u0020dumps\u0020don\u0027t\u0020all\u0020carry\u0020the\u0020same\u0020set\u0020of\u0020index\u0020names\u0020\u0028older\u0020exports\u0020predate\nsome\u0020indexes\u0020entirely\u0029,\u0020so\u0020a\u0020hardcoded\u0020RENAME\u0020INDEX\u0020can\u0020fail\u0020against\u0020a\u0020given\u0020dump.\u0020This\nrenames\u0020whichever\u0020of\u0020the\u0020candidate\u0020legacy\u0020names\u0020is\u0020actually\u0020present,\u0020or\u0020creates\u0020the\u0020target\nindex\u0020fresh\u0020if\u0020none\u0020of\u0020them\u0020are.",
+            "summary": "Renames\u0020whichever\u0020of\u0020the\u0020candidate\u0020legacy\u0020index\u0020names\u0020is\u0020present\u0020to\u0020\u0024newIndexName,\u0020or\u0020creates\u0020the\ntarget\u0020index\u0020if\u0020none\u0020of\u0020them\u0020is.\u0020Does\u0020nothing\u0020if\u0020the\u0020target\u0020index\u0020already\u0020exists.",
             "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_renameOrCreateIndex"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003AensureIndex\u0028\u0029",
+            "name": "ensureIndex",
+            "summary": "Makes\u0020sure\u0020\u0024indexName\u0020exists\u0020with\u0020the\u0020given\u0020columns\u0020and\u0020uniqueness,\u0020re\u002Dcreating\u0020it\u0020if\u0020it\u0020differs.",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_ensureIndex"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003AdropIndexIfExists\u0028\u0029",
+            "name": "dropIndexIfExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_dropIndexIfExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003AindexExists\u0028\u0029",
+            "name": "indexExists",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_indexExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003AhasPrimaryKey\u0028\u0029",
+            "name": "hasPrimaryKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_hasPrimaryKey"
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003AgetPrefixedTableName\u0028\u0029",
             "name": "getPrefixedTableName",
@@ -19676,6 +19701,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_getTablePrefix"
         },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003ArenameIndex\u0028\u0029",
+            "name": "renameIndex",
+            "summary": "RENAME\u0020INDEX\u0020only\u0020changes\u0020metadata,\u0020so\u0020it\u0020is\u0020used\u0020where\u0020available.\u0020MariaDB\u0020supports\u0020it\u0020from\u002010.5.2\u0020on\u003B\nolder\u0020MariaDB\u0020servers\u0020\u0028common\u0020on\u0020phpList\u00203\u0020installs\u0029\u0020get\u0020the\u0020index\u0020dropped\u0020and\u0020re\u002Dcreated\u0020instead.",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#method_renameIndex"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003A\u0024supportsRenameIndex",
+            "name": "supportsRenameIndex",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-AbstractPrefixedMigration.html#property_supportsRenameIndex"
+        },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\AbstractPrefixedMigration\u003A\u003ADEFAULT_PREFIX",
             "name": "DEFAULT_PREFIX",
             "summary": "",
@@ -19683,7 +19718,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySqlInit",
             "name": "Version20251028092901MySqlInit",
-            "summary": "Manual\u0020Migration",
+            "summary": "Creates\u0020the\u0020phpList3\u0020schema\u0020on\u0020an\u0020empty\u0020MySQL\u0020database.\u0020On\u0020an\u0020existing\u0020phpList\u00203\u0020database\u0020it\u0020is\u0020skipped,\nand\u0020the\u0020migrations\u0020after\u0020it\u0020bring\u0020the\u0020legacy\u0020schema\u0020up\u0020to\u0020date.",
             "url": "classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySqlInit\u003A\u003AgetDescription\u0028\u0029",
@@ -19695,6 +19730,21 @@ Search.appendIndex(
             "name": "up",
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySqlInit\u003A\u003AtableExists\u0028\u0029",
+            "name": "tableExists",
+            "summary": "Uses\u0020information_schema\u0020rather\u0020than\u0020the\u0020schema\u0020manager\u003A\u0020OnlyOrmTablesFilter\u0020hides\u0020tables\u0020that\u0020are\u0020not\nmapped\u0020by\u0020the\u0020ORM\u0020\u0028phplist_i18n,\u0020phplist_listattr_\u002A,\u0020...\u0029.",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_tableExists"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySqlInit\u003A\u003AfindExistingTables\u0028\u0029",
+            "name": "findExistingTables",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_findExistingTables"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092901MySqlInit\u003A\u003AsplitStatements\u0028\u0029",
+            "name": "splitStatements",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092901MySqlInit.html#method_splitStatements"
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlEngineUpdate",
             "name": "Version20251028092902MySqlEngineUpdate",
@@ -19718,7 +19768,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate",
             "name": "Version20251028092902MySqlUpdate",
-            "summary": "Migrations\u0020only\u0020receive\u0020a\u0020Connection\u0020and\u0020a\u0020Logger\u0020from\u0020Doctrine\u0027s\u0020migration\u0020factory\u0020\u0028no\u0020DI\u0020container\u0020access\u0029,\nso\u0020the\u0020configured\u0020table\u0020prefix\u0020is\u0020read\u0020directly\u0020from\u0020the\u0020environment\u0020here\u0020rather\u0020than\u0020injected.",
+            "summary": "Brings\u0020the\u0020phpList3\u0020MySQL\u0020schema\u0020\u0028fresh\u0020from\u0020initial_schema.sql,\u0020or\u0020an\u0020existing\u0020phpList\u00203\u0020database\u0029\nin\u0020line\u0020with\u0020the\u0020phpList\u00204\u0020mapping\u003A\u0020column\u0020types,\u0020index\u0020names,\u0020primary\u0020keys\u0020and\u0020foreign\u0020keys.",
             "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate\u003A\u003AgetDescription\u0028\u0029",
@@ -19730,6 +19780,11 @@ Search.appendIndex(
             "name": "up",
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate\u003A\u003AaddUserClickPrimaryKey\u0028\u0029",
+            "name": "addUserClickPrimaryKey",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20251028092902MySqlUpdate.html#method_addUserClickPrimaryKey"
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20251028092902MySqlUpdate\u003A\u003Adown\u0028\u0029",
             "name": "down",
@@ -19798,7 +19853,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20260827065637",
             "name": "Version20260827065637",
-            "summary": "\u26A0\uFE0F\u0020Wizard\u0020warning\u003A\nDoctrine\u0020will\u0020\u0060helpfully\u0060\u0020remove\u0020url\u0028255\u0029\u0020prefixes\u0020and\u0020add\u0020collations\u00205.7\u0020can\u2019t\u0020read.",
+            "summary": "Second\u0020pass\u0020of\u0020aligning\u0020the\u0020phpList\u00203\u0020MySQL\u0020schema\u0020with\u0020the\u0020phpList\u00204\u0020mapping\u0020\u0028NOT\u0020NULL\u0020columns,\nunique\u0020login\u0020names,\u0020removal\u0020of\u0020redundant\u0020legacy\u0020indexes\u0029.",
             "url": "classes/PhpList-Core-Migrations-Version20260827065637.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Migrations\\Version20260827065637\u003A\u003AgetDescription\u0028\u0029",
@@ -19885,6 +19940,26 @@ Search.appendIndex(
             "name": "down",
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20260908130001PostGreCreateDomainThrottleTable.html#method_down"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20261123120001PostGreAlignSchema",
+            "name": "Version20261123120001PostGreAlignSchema",
+            "summary": "PostgreSQL\u0020counterpart\u0020of\u0020the\u0020mapping\u0020changes\u0020Version20260827065637\u0020made\u0020on\u0020MySQL\u0020only.",
+            "url": "classes/PhpList-Core-Migrations-Version20261123120001PostGreAlignSchema.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20261123120001PostGreAlignSchema\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20261123120001PostGreAlignSchema.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20261123120001PostGreAlignSchema\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20261123120001PostGreAlignSchema.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20261123120001PostGreAlignSchema\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20261123120001PostGreAlignSchema.html#method_down"
         },                {
             "fqsen": "\\PhpList\\Core\\PhpListCoreBundle",
             "name": "PhpListCoreBundle",
@@ -22115,6 +22190,46 @@ Search.appendIndex(
             "name": "testDoesNothingWithoutResult",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-SkippedMigrationRecorderTest.html#method_testDoesNothingWithoutResult"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\TablePrefixListenerTest",
+            "name": "TablePrefixListenerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-TablePrefixListenerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\TablePrefixListenerTest\u003A\u003Ametadata\u0028\u0029",
+            "name": "metadata",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-TablePrefixListenerTest.html#method_metadata"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\TablePrefixListenerTest\u003A\u003Adispatch\u0028\u0029",
+            "name": "dispatch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-TablePrefixListenerTest.html#method_dispatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\TablePrefixListenerTest\u003A\u003AtestPrefixesTableName\u0028\u0029",
+            "name": "testPrefixesTableName",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-TablePrefixListenerTest.html#method_testPrefixesTableName"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\TablePrefixListenerTest\u003A\u003AtestLeavesTablesOfOtherNamespacesAlone\u0028\u0029",
+            "name": "testLeavesTablesOfOtherNamespacesAlone",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-TablePrefixListenerTest.html#method_testLeavesTablesOfOtherNamespacesAlone"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\TablePrefixListenerTest\u003A\u003AtestPrefixesDefaultSequenceAndIdGenerator\u0028\u0029",
+            "name": "testPrefixesDefaultSequenceAndIdGenerator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-TablePrefixListenerTest.html#method_testPrefixesDefaultSequenceAndIdGenerator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\TablePrefixListenerTest\u003A\u003AtestDoesNotPrefixSequenceTwice\u0028\u0029",
+            "name": "testDoesNotPrefixSequenceTwice",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-TablePrefixListenerTest.html#method_testDoesNotPrefixSequenceTwice"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\TablePrefixListenerTest\u003A\u003AtestIgnoresIdentityGenerators\u0028\u0029",
+            "name": "testIgnoresIdentityGenerators",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-TablePrefixListenerTest.html#method_testIgnoresIdentityGenerators"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\EnvironmentTest",
             "name": "EnvironmentTest",

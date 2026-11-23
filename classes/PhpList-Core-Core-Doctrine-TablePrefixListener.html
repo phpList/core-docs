@@ -123,7 +123,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/TablePrefixListener.php"><a href="files/src-core-doctrine-tableprefixlistener.html"><abbr title="src/Core/Doctrine/TablePrefixListener.php">TablePrefixListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
 
     </aside>
 
@@ -210,6 +210,15 @@ their namespace has to be opted in here explicitly.</dd>
                                 &nbsp;: void    </span>
 </dt>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_prefixSequence">prefixSequence()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>On platforms that use sequences (PostgreSQL) the ORM derives the default sequence name
+({table}_{column}_seq) from the unprefixed table name and builds the id generator before this
+event, so both have to be prefixed here as well, or inserts would use a sequence that doesn&#039;t exist.</dd>
+
     </dl>
 
 
@@ -231,7 +240,7 @@ their namespace has to be opted in here explicitly.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/TablePrefixListener.php"><a href="files/src-core-doctrine-tableprefixlistener.html"><abbr title="src/Core/Doctrine/TablePrefixListener.php">TablePrefixListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 
     </aside>
 
@@ -280,7 +289,7 @@ their namespace has to be opted in here explicitly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/TablePrefixListener.php"><a href="files/src-core-doctrine-tableprefixlistener.html"><abbr title="src/Core/Doctrine/TablePrefixListener.php">TablePrefixListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -322,7 +331,7 @@ their namespace has to be opted in here explicitly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/TablePrefixListener.php"><a href="files/src-core-doctrine-tableprefixlistener.html"><abbr title="src/Core/Doctrine/TablePrefixListener.php">TablePrefixListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
@@ -366,7 +375,7 @@ their namespace has to be opted in here explicitly.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/TablePrefixListener.php"><a href="files/src-core-doctrine-tableprefixlistener.html"><abbr title="src/Core/Doctrine/TablePrefixListener.php">TablePrefixListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 
     </aside>
 
@@ -384,6 +393,53 @@ their namespace has to be opted in here explicitly.</p>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$eventArgs</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Doctrine\ORM\Event\LoadClassMetadataEventArgs">LoadClassMetadataEventArgs</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_prefixSequence">
+        prefixSequence()
+        <a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_prefixSequence" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Core/Doctrine/TablePrefixListener.php"><a href="files/src-core-doctrine-tableprefixlistener.html"><abbr title="src/Core/Doctrine/TablePrefixListener.php">TablePrefixListener.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">62</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">On platforms that use sequences (PostgreSQL) the ORM derives the default sequence name
+({table}_{column}_seq) from the unprefixed table name and builds the id generator before this
+event, so both have to be prefixed here as well, or inserts would use a sequence that doesn&#039;t exist.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">prefixSequence</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><abbr title="\Doctrine\ORM\Mapping\ClassMetadata">ClassMetadata</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$metadata</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$metadata</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Doctrine\ORM\Mapping\ClassMetadata">ClassMetadata</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -434,6 +490,7 @@ their namespace has to be opted in here explicitly.</p>
                 <ul class="phpdocumentor-list -clean">
                                             <li class=""><a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_loadClassMetadata">loadClassMetadata()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Core-Doctrine-TablePrefixListener.html#method_prefixSequence">prefixSequence()</a></li>
                                     </ul>
             </li>
                     </ul>
