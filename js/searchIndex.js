@@ -451,6 +451,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Core-BounceProcessorPass.html#method_process"
         },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\IndexPrefixLengthListener",
+            "name": "IndexPrefixLengthListener",
+            "summary": "Some\u0020phpList3\u0020indexes\u0020cover\u0020only\u0020a\u0020prefix\u0020of\u0020a\u0020long\u0020column\u0020\u0028e.g.\u0020url\u0028255\u0029\u0020on\u0020VARCHAR\u00282083\u0029\u0020columns\u0029,\nwhich\u0020entities\u0020declare\u0020with\u0020the\u0020index\u0020option\u0020\u0022lengths\u0022.\u0020Only\u0020MySQL\u0020knows\u0020prefix\u0020indexes\u003A\u0020on\u0020other\nplatforms\u0020the\u0020option\u0020is\u0020ignored\u0020when\u0020creating\u0020the\u0020index,\u0020but\u0020DBAL\u0020still\u0020compares\u0020it,\u0020so\u0020schema\u0020diffs\nwould\u0020never\u0020come\u0020out\u0020clean.\u0020This\u0020drops\u0020the\u0020option\u0020from\u0020the\u0020schema\u0020generated\u0020from\u0020the\u0020mapping\u0020on\nplatforms\u0020other\u0020than\u0020MySQL.",
+            "url": "classes/PhpList-Core-Core-Doctrine-IndexPrefixLengthListener.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\IndexPrefixLengthListener\u003A\u003ApostGenerateSchema\u0028\u0029",
+            "name": "postGenerateSchema",
+            "summary": "",
+            "url": "classes/PhpList-Core-Core-Doctrine-IndexPrefixLengthListener.html#method_postGenerateSchema"
+        },                {
             "fqsen": "\\PhpList\\Core\\Core\\Doctrine\\OnlyOrmTablesFilter",
             "name": "OnlyOrmTablesFilter",
             "summary": "",
@@ -19961,6 +19971,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Migrations-Version20261123120001PostGreAlignSchema.html#method_down"
         },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20261123130000MySqlAlignUrlAndMessageDataColumns",
+            "name": "Version20261123130000MySqlAlignUrlAndMessageDataColumns",
+            "summary": "\u002D\u0020phplist_urlcache.url\u003A\u0020phpList\u00203\u0027s\u00203.3.4\u0020upgrade\u0020widened\u0020it\u0020with\u0020\u0022modify\u0020url\u0020varchar\u00282083\u0029\u0022,\u0020which\u0020also\n\u0020\u0020made\u0020it\u0020nullable\u0020on\u0020upgraded\u0020installs.\u0020A\u0020cache\u0020row\u0020without\u0020a\u0020URL\u0020is\u0020useless,\u0020so\u0020those\u0020are\u0020removed.",
+            "url": "classes/PhpList-Core-Migrations-Version20261123130000MySqlAlignUrlAndMessageDataColumns.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20261123130000MySqlAlignUrlAndMessageDataColumns\u003A\u003AgetDescription\u0028\u0029",
+            "name": "getDescription",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20261123130000MySqlAlignUrlAndMessageDataColumns.html#method_getDescription"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20261123130000MySqlAlignUrlAndMessageDataColumns\u003A\u003Aup\u0028\u0029",
+            "name": "up",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20261123130000MySqlAlignUrlAndMessageDataColumns.html#method_up"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Migrations\\Version20261123130000MySqlAlignUrlAndMessageDataColumns\u003A\u003Adown\u0028\u0029",
+            "name": "down",
+            "summary": "",
+            "url": "classes/PhpList-Core-Migrations-Version20261123130000MySqlAlignUrlAndMessageDataColumns.html#method_down"
+        },                {
             "fqsen": "\\PhpList\\Core\\PhpListCoreBundle",
             "name": "PhpListCoreBundle",
             "summary": "",
@@ -22080,6 +22110,31 @@ Search.appendIndex(
             "name": "subject",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Core-BootstrapTest.html#property_subject"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\IndexPrefixLengthListenerTest",
+            "name": "IndexPrefixLengthListenerTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-IndexPrefixLengthListenerTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\IndexPrefixLengthListenerTest\u003A\u003Aschema\u0028\u0029",
+            "name": "schema",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-IndexPrefixLengthListenerTest.html#method_schema"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\IndexPrefixLengthListenerTest\u003A\u003Adispatch\u0028\u0029",
+            "name": "dispatch",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-IndexPrefixLengthListenerTest.html#method_dispatch"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\IndexPrefixLengthListenerTest\u003A\u003AtestKeepsPrefixLengthsOnMySql\u0028\u0029",
+            "name": "testKeepsPrefixLengthsOnMySql",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-IndexPrefixLengthListenerTest.html#method_testKeepsPrefixLengthsOnMySql"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\IndexPrefixLengthListenerTest\u003A\u003AtestDropsPrefixLengthsOnOtherPlatforms\u0028\u0029",
+            "name": "testDropsPrefixLengthsOnOtherPlatforms",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Core-Doctrine-IndexPrefixLengthListenerTest.html#method_testDropsPrefixLengthsOnOtherPlatforms"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Core\\Doctrine\\SearchIndexDoctrineListenerTest",
             "name": "SearchIndexDoctrineListenerTest",
