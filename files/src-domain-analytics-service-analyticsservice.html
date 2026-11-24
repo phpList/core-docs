@@ -121,7 +121,17 @@
 
     </h4>
     <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\AnalyticsService">AnalyticsService</abbr></a></dt>    </dl>
+                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Analytics-Service-AnalyticsService.html"><abbr title="\PhpList\Core\Domain\Analytics\Service\AnalyticsService">AnalyticsService</abbr></a></dt><dd>TODO: add the monthly/yearly time-series statistics that phplist3&#039;s systemstats page provides and that are
+ missing here (legacy: public_html/lists/admin/systemstats.php). Write them with DBAL/DQL date functions that
+ work on both MySQL and PostgreSQL (the legacy queries use MySQL-only year()/month()/information_schema):
+ - new subscribers per month, and running total of subscribers
+ - sent campaigns per month and per year
+ - opened messages per month
+ - bounces per month
+ - blacklist additions per month, and spam complaints per month
+   (blacklist reason &quot;blacklisted due to spam complaints&quot;)
+ - subscribers who clicked per month, and unsubscribe-link clicks per month
+ Expose them through the REST API (phplist/rest-api), not a console command.</dd>    </dl>
 
 
 
