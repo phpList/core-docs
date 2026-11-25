@@ -119,7 +119,17 @@
 
     </h4>
     <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html"><abbr title="\PhpList\Core\Domain\Identity\Command\CleanUpOldSessionTokens">CleanUpOldSessionTokens</abbr></a></dt>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html"><abbr title="\PhpList\Core\Domain\Identity\Command\CreateAdminCommand">CreateAdminCommand</abbr></a></dt>    </dl>
+                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html"><abbr title="\PhpList\Core\Domain\Identity\Command\CleanUpOldSessionTokens">CleanUpOldSessionTokens</abbr></a></dt><dd>TODO: housekeeping. This is the only cleanup command in core; phplist3 does other housekeeping inside web
+ pages, and core has no command for it yet. Decide for each whether it is needed, then add commands (or one
+ `phplist:housekeeping` command that runs them all, so a single cron entry is enough):
+ - eventlog rows older than a retention period (legacy: the &quot;delete entries older than 2 months&quot; action on
+   the eventlog page, eventlog.php; EventLogManager can only delete single entries)
+ - unidentified bounces older than 2 months (legacy: bounces.php); not checked whether bounce processing
+   here already prunes them
+ - other expired tokens, if any (e.g. password reset tokens); not checked whether they are cleaned up
+   elsewhere in core
+ user_message_view rows: legacy only deletes them together with their message or subscriber (lib.php,
+ inc/userlib.php) and never prunes them by age, so an age based cleanup would be new behaviour, not a port.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/PhpList-Core-Domain-Identity-Command-CreateAdminCommand.html"><abbr title="\PhpList\Core\Domain\Identity\Command\CreateAdminCommand">CreateAdminCommand</abbr></a></dt>    </dl>
 
 
 

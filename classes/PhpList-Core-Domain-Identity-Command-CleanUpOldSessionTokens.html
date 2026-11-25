@@ -127,12 +127,25 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php"><a href="files/src-domain-identity-command-cleanupoldsessiontokens.html"><abbr title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php">CleanUpOldSessionTokens.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">15</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 
     </aside>
 
-        
+            <p class="phpdocumentor-summary">TODO: housekeeping. This is the only cleanup command in core; phplist3 does other housekeeping inside web
+ pages, and core has no command for it yet. Decide for each whether it is needed, then add commands (or one
+ `phplist:housekeeping` command that runs them all, so a single cron entry is enough):
+ - eventlog rows older than a retention period (legacy: the &quot;delete entries older than 2 months&quot; action on
+   the eventlog page, eventlog.php; EventLogManager can only delete single entries)
+ - unidentified bounces older than 2 months (legacy: bounces.php); not checked whether bounce processing
+   here already prunes them
+ - other expired tokens, if any (e.g. password reset tokens); not checked whether they are cleaned up
+   elsewhere in core
+ user_message_view rows: legacy only deletes them together with their message or subscriber (lib.php,
+ inc/userlib.php) and never prunes them by age, so an age based cleanup would be new behaviour, not a port.</p>
 
+
+    <section class="phpdocumentor-description"><p>Also add the new commands to the scheduling TODO on ProcessQueueCommand.</p>
+</section>
 
 
 
@@ -237,7 +250,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php"><a href="files/src-domain-identity-command-cleanupoldsessiontokens.html"><abbr title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php">CleanUpOldSessionTokens.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 
     </aside>
 
@@ -274,7 +287,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php"><a href="files/src-domain-identity-command-cleanupoldsessiontokens.html"><abbr title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php">CleanUpOldSessionTokens.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 
     </aside>
 
@@ -316,7 +329,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php"><a href="files/src-domain-identity-command-cleanupoldsessiontokens.html"><abbr title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php">CleanUpOldSessionTokens.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 
     </aside>
 
@@ -367,7 +380,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php"><a href="files/src-domain-identity-command-cleanupoldsessiontokens.html"><abbr title="src/Domain/Identity/Command/CleanUpOldSessionTokens.php">CleanUpOldSessionTokens.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 
     </aside>
 

@@ -3946,6 +3946,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_XorMask"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003AInternetTlds",
+            "name": "InternetTlds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_InternetTlds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\ConfigOption\u003A\u003ATldLastSync",
+            "name": "TldLastSync",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Configuration-Model-ConfigOption.html#enumcase_TldLastSync"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Model\\Dto\\CreateConfigDto",
             "name": "CreateConfigDto",
             "summary": "",
@@ -5303,7 +5313,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CleanUpOldSessionTokens",
             "name": "CleanUpOldSessionTokens",
-            "summary": "",
+            "summary": "TODO\u003A\u0020housekeeping.\u0020This\u0020is\u0020the\u0020only\u0020cleanup\u0020command\u0020in\u0020core\u003B\u0020phplist3\u0020does\u0020other\u0020housekeeping\u0020inside\u0020web\n\u0020pages,\u0020and\u0020core\u0020has\u0020no\u0020command\u0020for\u0020it\u0020yet.\u0020Decide\u0020for\u0020each\u0020whether\u0020it\u0020is\u0020needed,\u0020then\u0020add\u0020commands\u0020\u0028or\u0020one\n\u0020\u0060phplist\u003Ahousekeeping\u0060\u0020command\u0020that\u0020runs\u0020them\u0020all,\u0020so\u0020a\u0020single\u0020cron\u0020entry\u0020is\u0020enough\u0029\u003A\n\u0020\u002D\u0020eventlog\u0020rows\u0020older\u0020than\u0020a\u0020retention\u0020period\u0020\u0028legacy\u003A\u0020the\u0020\u0022delete\u0020entries\u0020older\u0020than\u00202\u0020months\u0022\u0020action\u0020on\n\u0020\u0020\u0020the\u0020eventlog\u0020page,\u0020eventlog.php\u003B\u0020EventLogManager\u0020can\u0020only\u0020delete\u0020single\u0020entries\u0029\n\u0020\u002D\u0020unidentified\u0020bounces\u0020older\u0020than\u00202\u0020months\u0020\u0028legacy\u003A\u0020bounces.php\u0029\u003B\u0020not\u0020checked\u0020whether\u0020bounce\u0020processing\n\u0020\u0020\u0020here\u0020already\u0020prunes\u0020them\n\u0020\u002D\u0020other\u0020expired\u0020tokens,\u0020if\u0020any\u0020\u0028e.g.\u0020password\u0020reset\u0020tokens\u0029\u003B\u0020not\u0020checked\u0020whether\u0020they\u0020are\u0020cleaned\u0020up\n\u0020\u0020\u0020elsewhere\u0020in\u0020core\n\u0020user_message_view\u0020rows\u003A\u0020legacy\u0020only\u0020deletes\u0020them\u0020together\u0020with\u0020their\u0020message\u0020or\u0020subscriber\u0020\u0028lib.php,\n\u0020inc\/userlib.php\u0029\u0020and\u0020never\u0020prunes\u0020them\u0020by\u0020age,\u0020so\u0020an\u0020age\u0020based\u0020cleanup\u0020would\u0020be\u0020new\u0020behaviour,\u0020not\u0020a\u0020port.",
             "url": "classes/PhpList-Core-Domain-Identity-Command-CleanUpOldSessionTokens.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Command\\CleanUpOldSessionTokens\u003A\u003A__construct\u0028\u0029",
@@ -7008,7 +7018,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand",
             "name": "ProcessQueueCommand",
-            "summary": "",
+            "summary": "TODO\u003A\u0020scheduling.\u0020phplist3\u0020documents\u0020putting\u0020processqueue\u0020and\u0020processbounces\u0020in\u0020the\u0020system\u0020cron,\u0020and\u0020core\u0020has\n\u0020no\u0020schedule\u0020definition,\u0020so\u0020users\u0020have\u0020to\u0020write\u0020the\u0020crontab\u0020themselves.\u0020Close\u0020this\u0020with\u0020either\u003A\n\u0020\u002D\u0020a\u0020documented\u0020crontab\u0020example\u0020\u0028e.g.\u0020in\u0020docs\/\u0029,\u0020or\n\u0020\u002D\u0020a\u0020Symfony\u0020Scheduler\u0020schedule\u0020\u0028symfony\/scheduler\u0020is\u0020not\u0020installed\u0020yet\u0029\u0020covering\u0020the\u0020recurring\u0020commands\u003A\n\u0020\u0020\u0020phplist\u003Aprocess\u002Dqueue,\u0020phplist\u003Abounces\u003Aprocess,\u0020phplist\u003Aupdate\u002Dtlds\u0020\u0028monthly\u0029\u0020and\u0020the\u0020cleanup\u0020commands\u0020such\n\u0020\u0020\u0020as\u0020phplist\u003Aclean\u002Dup\u002Dold\u002Dsession\u002Dtokens.",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A__construct\u0028\u0029",
@@ -16246,6 +16256,36 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Command-ImportSubscribersCommand.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Command\\UpdateTldsCommand",
+            "name": "UpdateTldsCommand",
+            "summary": "Equivalent\u0020of\u0020phplist3\u0027s\u0020\u0060phplist\u0020\u002Dp\u0020updatetlds\u0020\u005B\u002Df\u005D\u0060\u003A\u0020refreshes\u0020the\u0020list\u0020of\u0020top\u0020level\u0020domains\u0020used\nto\u0020validate\u0020email\u0020addresses\u0020\u0028for\u0020example\u0020when\u0020importing\u0020subscribers\u0029.\u0020Meant\u0020for\u0020a\u0020monthly\u0020cron\u0020job.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Command-UpdateTldsCommand.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Command\\UpdateTldsCommand\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Command-UpdateTldsCommand.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Command\\UpdateTldsCommand\u003A\u003Aconfigure\u0028\u0029",
+            "name": "configure",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Command-UpdateTldsCommand.html#method_configure"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Command\\UpdateTldsCommand\u003A\u003Aexecute\u0028\u0029",
+            "name": "execute",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Command-UpdateTldsCommand.html#method_execute"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Command\\UpdateTldsCommand\u003A\u003A\u0024tldListService",
+            "name": "tldListService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Command-UpdateTldsCommand.html#property_tldListService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Command\\UpdateTldsCommand\u003A\u003A\u0024translator",
+            "name": "translator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Command-UpdateTldsCommand.html#property_translator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Exception\\AttributeNotAllowedException",
             "name": "AttributeNotAllowedException",
             "summary": "",
@@ -16630,6 +16670,51 @@ Search.appendIndex(
             "name": "notify",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-SubscriberImportOptions.html#property_notify"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\TldRefreshResult",
+            "name": "TldRefreshResult",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-TldRefreshResult.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\TldRefreshResult\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-TldRefreshResult.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\TldRefreshResult\u003A\u003AremoteFailed\u0028\u0029",
+            "name": "remoteFailed",
+            "summary": "True\u0020when\u0020the\u0020download\u0020failed,\u0020whether\u0020or\u0020not\u0020an\u0020older\u0020or\u0020bundled\u0020list\u0020is\u0020still\u0020in\u0020use.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-TldRefreshResult.html#method_remoteFailed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\TldRefreshResult\u003A\u003ASOURCE_REMOTE",
+            "name": "SOURCE_REMOTE",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-TldRefreshResult.html#constant_SOURCE_REMOTE"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\TldRefreshResult\u003A\u003ASOURCE_BUNDLED",
+            "name": "SOURCE_BUNDLED",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-TldRefreshResult.html#constant_SOURCE_BUNDLED"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\TldRefreshResult\u003A\u003ASOURCE_KEPT",
+            "name": "SOURCE_KEPT",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-TldRefreshResult.html#constant_SOURCE_KEPT"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\TldRefreshResult\u003A\u003ASOURCE_SKIPPED",
+            "name": "SOURCE_SKIPPED",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-TldRefreshResult.html#constant_SOURCE_SKIPPED"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\TldRefreshResult\u003A\u003A\u0024count",
+            "name": "count",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-TldRefreshResult.html#property_count"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\TldRefreshResult\u003A\u003A\u0024source",
+            "name": "source",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Model-Dto-TldRefreshResult.html#property_source"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Model\\Dto\\UpdateSubscriberDto",
             "name": "UpdateSubscriberDto",
@@ -18741,6 +18826,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-CsvToDtoImporter.html#property_translator"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\EmailTldValidator",
+            "name": "EmailTldValidator",
+            "summary": "Checks\u0020that\u0020the\u0020top\u0020level\u0020domain\u0020of\u0020an\u0020email\u0020address\u0020is\u0020a\u0020delegated\u0020TLD,\u0020as\u0020phplist3\u0027s\u0020is_email\u0028\u0029\u0020did\nwith\u0020the\u0020\u0060internet_tlds\u0060\u0020list.\u0020It\u0020does\u0020not\u0020check\u0020anything\u0020else\u0020about\u0020the\u0020address,\u0020use\u0020filter_var\u0020for\u0020that.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-EmailTldValidator.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\EmailTldValidator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-EmailTldValidator.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\EmailTldValidator\u003A\u003AhasKnownTld\u0028\u0029",
+            "name": "hasKnownTld",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-EmailTldValidator.html#method_hasKnownTld"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\EmailTldValidator\u003A\u003A\u0024tldListService",
+            "name": "tldListService",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-EmailTldValidator.html#property_tldListService"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManager",
             "name": "AttributeDefinitionManager",
             "summary": "",
@@ -19911,6 +20016,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_blacklistRepository"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberCsvImporter\u003A\u003A\u0024emailTldValidator",
+            "name": "emailTldValidator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberCsvImporter.html#property_emailTldValidator"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\SubscriberDeletionService",
             "name": "SubscriberDeletionService",
             "summary": "",
@@ -19975,6 +20085,111 @@ Search.appendIndex(
             "name": "subscriptionRepo",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-SubscriberDeletionService.html#property_subscriptionRepo"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService",
+            "name": "TldListService",
+            "summary": "Keeps\u0020the\u0020list\u0020of\u0020valid\u0020top\u0020level\u0020domains\u0020\u0028IANA\u0027s\u0020tlds\u002Dalpha\u002Dby\u002Ddomain.txt\u0029\u0020in\u0020the\u0020\u0060internet_tlds\u0060\nconfig\u0020item,\u0020like\u0020phplist3\u0027s\u0020refreshTlds\u0028\u0029,\u0020and\u0020answers\u0020whether\u0020a\u0020TLD\u0020is\u0020on\u0020it.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003Arefresh\u0028\u0029",
+            "name": "refresh",
+            "summary": "Downloads\u0020the\u0020list\u0020unless\u0020it\u0020was\u0020refreshed\u0020in\u0020the\u0020last\u002030\u0020days\u0020\u0028or\u0020\u0024force\u0020is\u0020set\u0029.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#method_refresh"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003AgetTlds\u0028\u0029",
+            "name": "getTlds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#method_getTlds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003AisKnownTld\u0028\u0029",
+            "name": "isKnownTld",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#method_isKnownTld"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003AparseList\u0028\u0029",
+            "name": "parseList",
+            "summary": "Parses\u0020IANA\u0027s\u0020file\u0020format\u003A\u0020\u0022\u0023\u0020comment\u0022\u0020header\u0020line,\u0020then\u0020one\u0020TLD\u0020per\u0020line.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#method_parseList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003AfetchRemote\u0028\u0029",
+            "name": "fetchRemote",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#method_fetchRemote"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003AbundledTlds\u0028\u0029",
+            "name": "bundledTlds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#method_bundledTlds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003AstoredTlds\u0028\u0029",
+            "name": "storedTlds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#method_storedTlds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003AstoreList\u0028\u0029",
+            "name": "storeList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#method_storeList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003AsaveConfig\u0028\u0029",
+            "name": "saveConfig",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#method_saveConfig"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003ASOURCE_URL",
+            "name": "SOURCE_URL",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#constant_SOURCE_URL"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003AREFETCH_TIMEOUT_SECONDS",
+            "name": "REFETCH_TIMEOUT_SECONDS",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#constant_REFETCH_TIMEOUT_SECONDS"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003AMIN_PLAUSIBLE_TLDS",
+            "name": "MIN_PLAUSIBLE_TLDS",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#constant_MIN_PLAUSIBLE_TLDS"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003A\u0024knownTlds",
+            "name": "knownTlds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#property_knownTlds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003A\u0024httpClient",
+            "name": "httpClient",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#property_httpClient"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003A\u0024configRepository",
+            "name": "configRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#property_configRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#property_logger"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003A\u0024bundledListPath",
+            "name": "bundledListPath",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#property_bundledListPath"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\TldListService\u003A\u003A\u0024sourceUrl",
+            "name": "sourceUrl",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-TldListService.html#property_sourceUrl"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Validator\\AttributeTypeValidator",
             "name": "AttributeTypeValidator",
@@ -31391,6 +31606,41 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Command-ImportSubscribersCommandTest.html#property_csv"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Command\\UpdateTldsCommandTest",
+            "name": "UpdateTldsCommandTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Command-UpdateTldsCommandTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Command\\UpdateTldsCommandTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Command-UpdateTldsCommandTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Command\\UpdateTldsCommandTest\u003A\u003AtestReportsCountOnSuccess\u0028\u0029",
+            "name": "testReportsCountOnSuccess",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Command-UpdateTldsCommandTest.html#method_testReportsCountOnSuccess"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Command\\UpdateTldsCommandTest\u003A\u003AtestForceOptionIsPassedOn\u0028\u0029",
+            "name": "testForceOptionIsPassedOn",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Command-UpdateTldsCommandTest.html#method_testForceOptionIsPassedOn"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Command\\UpdateTldsCommandTest\u003A\u003AtestFailsWhenDownloadFailed\u0028\u0029",
+            "name": "testFailsWhenDownloadFailed",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Command-UpdateTldsCommandTest.html#method_testFailsWhenDownloadFailed"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Command\\UpdateTldsCommandTest\u003A\u003A\u0024service",
+            "name": "service",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Command-UpdateTldsCommandTest.html#property_service"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Command\\UpdateTldsCommandTest\u003A\u003A\u0024tester",
+            "name": "tester",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Command-UpdateTldsCommandTest.html#property_tester"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\MessageHandler\\DynamicTableMessageHandlerTest",
             "name": "DynamicTableMessageHandlerTest",
             "summary": "",
@@ -31780,6 +32030,36 @@ Search.appendIndex(
             "name": "testResolveHonorsProviderOrderFirstMatchWins",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-AttributeValueResolverTest.html#method_testResolveHonorsProviderOrderFirstMatchWins"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\EmailTldValidatorTest",
+            "name": "EmailTldValidatorTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-EmailTldValidatorTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\EmailTldValidatorTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-EmailTldValidatorTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\EmailTldValidatorTest\u003A\u003AtestHasKnownTld\u0028\u0029",
+            "name": "testHasKnownTld",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-EmailTldValidatorTest.html#method_testHasKnownTld"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\EmailTldValidatorTest\u003A\u003Aprovider\u0028\u0029",
+            "name": "provider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-EmailTldValidatorTest.html#method_provider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\EmailTldValidatorTest\u003A\u003A\u0024tlds",
+            "name": "tlds",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-EmailTldValidatorTest.html#property_tlds"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\EmailTldValidatorTest\u003A\u003A\u0024validator",
+            "name": "validator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-EmailTldValidatorTest.html#property_validator"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Manager\\AttributeDefinitionManagerTest",
             "name": "AttributeDefinitionManagerTest",
@@ -32791,6 +33071,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportIgnoresBlacklistedFlagWhenEmailIsNotInBlacklistTable"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003AtestImportSkipsEmailWithUnknownTopLevelDomain\u0028\u0029",
+            "name": "testImportSkipsEmailWithUnknownTopLevelDomain",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportSkipsEmailWithUnknownTopLevelDomain"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003AtestImportKeepsUnknownTopLevelDomainEmailWithInvalidPrefixWhenNotSkipping\u0028\u0029",
+            "name": "testImportKeepsUnknownTopLevelDomainEmailWithInvalidPrefixWhenNotSkipping",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_testImportKeepsUnknownTopLevelDomainEmailWithInvalidPrefixWhenNotSkipping"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003AsubjectWith\u0028\u0029",
+            "name": "subjectWith",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#method_subjectWith"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subscriberManagerMock",
             "name": "subscriberManagerMock",
             "summary": "",
@@ -32830,6 +33125,11 @@ Search.appendIndex(
             "name": "messageBusMock",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_messageBusMock"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024emailTldValidatorMock",
+            "name": "emailTldValidatorMock",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberCsvImporterTest.html#property_emailTldValidatorMock"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\SubscriberCsvImporterTest\u003A\u003A\u0024subject",
             "name": "subject",
@@ -32905,6 +33205,106 @@ Search.appendIndex(
             "name": "service",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-SubscriberDeletionServiceTest.html#property_service"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest",
+            "name": "TldListServiceTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AtearDown\u0028\u0029",
+            "name": "tearDown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_tearDown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003Aservice\u0028\u0029",
+            "name": "service",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_service"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AremoteList\u0028\u0029",
+            "name": "remoteList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_remoteList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003Aconfig\u0028\u0029",
+            "name": "config",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_config"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003Astored\u0028\u0029",
+            "name": "stored",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_stored"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AtestParseListSkipsCommentsBlankAndInvalidLinesAndKeepsPunycode\u0028\u0029",
+            "name": "testParseListSkipsCommentsBlankAndInvalidLinesAndKeepsPunycode",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_testParseListSkipsCommentsBlankAndInvalidLinesAndKeepsPunycode"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AtestGetTldsFallsBackToBundledListWhenNothingStored\u0028\u0029",
+            "name": "testGetTldsFallsBackToBundledListWhenNothingStored",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_testGetTldsFallsBackToBundledListWhenNothingStored"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AtestRefreshStoresDownloadedList\u0028\u0029",
+            "name": "testRefreshStoresDownloadedList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_testRefreshStoresDownloadedList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AtestRefreshIsSkippedWhenDoneRecentlyUnlessForced\u0028\u0029",
+            "name": "testRefreshIsSkippedWhenDoneRecentlyUnlessForced",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_testRefreshIsSkippedWhenDoneRecentlyUnlessForced"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AtestRefreshIsDueAgainAfterThirtyDays\u0028\u0029",
+            "name": "testRefreshIsDueAgainAfterThirtyDays",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_testRefreshIsDueAgainAfterThirtyDays"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AtestFailedDownloadSeedsBundledListWhenNothingStored\u0028\u0029",
+            "name": "testFailedDownloadSeedsBundledListWhenNothingStored",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_testFailedDownloadSeedsBundledListWhenNothingStored"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AtestFailedDownloadKeepsExistingList\u0028\u0029",
+            "name": "testFailedDownloadKeepsExistingList",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_testFailedDownloadKeepsExistingList"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AtestImplausiblyShortDownloadIsIgnored\u0028\u0029",
+            "name": "testImplausiblyShortDownloadIsIgnored",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_testImplausiblyShortDownloadIsIgnored"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003AtestSyncTimeIsStoredEvenWhenDownloadFails\u0028\u0029",
+            "name": "testSyncTimeIsStoredEvenWhenDownloadFails",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#method_testSyncTimeIsStoredEvenWhenDownloadFails"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003A\u0024configRepository",
+            "name": "configRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#property_configRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003A\u0024entityManager",
+            "name": "entityManager",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#property_entityManager"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003A\u0024configs",
+            "name": "configs",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#property_configs"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\TldListServiceTest\u003A\u003A\u0024bundled",
+            "name": "bundled",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-TldListServiceTest.html#property_bundled"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Validator\\AttributeTypeValidatorTest",
             "name": "AttributeTypeValidatorTest",
