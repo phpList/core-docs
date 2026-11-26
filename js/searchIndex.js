@@ -3276,6 +3276,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Common-Repository-Interfaces-PaginatableRepositoryInterface.html#method_getFilteredAfterId"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Schedule\\PhpListSchedule",
+            "name": "PhpListSchedule",
+            "summary": "Recurring\u0020console\u0020commands,\u0020consumed\u0020by\u0020\u0060bin\/console\u0020messenger\u003Aconsume\u0020scheduler_default\u0060.",
+            "url": "classes/PhpList-Core-Domain-Common-Schedule-PhpListSchedule.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Schedule\\PhpListSchedule\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Schedule-PhpListSchedule.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Schedule\\PhpListSchedule\u003A\u003AgetSchedule\u0028\u0029",
+            "name": "getSchedule",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Schedule-PhpListSchedule.html#method_getSchedule"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Schedule\\PhpListSchedule\u003A\u003A\u0024lockFactory",
+            "name": "lockFactory",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Schedule-PhpListSchedule.html#property_lockFactory"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Schedule\\PhpListSchedule\u003A\u003A\u0024queueInterval",
+            "name": "queueInterval",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Schedule-PhpListSchedule.html#property_queueInterval"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Schedule\\PhpListSchedule\u003A\u003A\u0024bounceInterval",
+            "name": "bounceInterval",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Schedule-PhpListSchedule.html#property_bounceInterval"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Schedule\\PhpListSchedule\u003A\u003A\u0024tldInterval",
+            "name": "tldInterval",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Schedule-PhpListSchedule.html#property_tldInterval"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Schedule\\PhpListSchedule\u003A\u003A\u0024cleanupInterval",
+            "name": "cleanupInterval",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Common-Schedule-PhpListSchedule.html#property_cleanupInterval"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service\\DirectoryListingService",
             "name": "DirectoryListingService",
             "summary": "",
@@ -7018,7 +7058,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand",
             "name": "ProcessQueueCommand",
-            "summary": "TODO\u003A\u0020scheduling.\u0020phplist3\u0020documents\u0020putting\u0020processqueue\u0020and\u0020processbounces\u0020in\u0020the\u0020system\u0020cron,\u0020and\u0020core\u0020has\n\u0020no\u0020schedule\u0020definition,\u0020so\u0020users\u0020have\u0020to\u0020write\u0020the\u0020crontab\u0020themselves.\u0020Close\u0020this\u0020with\u0020either\u003A\n\u0020\u002D\u0020a\u0020documented\u0020crontab\u0020example\u0020\u0028e.g.\u0020in\u0020docs\/\u0029,\u0020or\n\u0020\u002D\u0020a\u0020Symfony\u0020Scheduler\u0020schedule\u0020\u0028symfony\/scheduler\u0020is\u0020not\u0020installed\u0020yet\u0029\u0020covering\u0020the\u0020recurring\u0020commands\u003A\n\u0020\u0020\u0020phplist\u003Aprocess\u002Dqueue,\u0020phplist\u003Abounces\u003Aprocess,\u0020phplist\u003Aupdate\u002Dtlds\u0020\u0028monthly\u0029\u0020and\u0020the\u0020cleanup\u0020commands\u0020such\n\u0020\u0020\u0020as\u0020phplist\u003Aclean\u002Dup\u002Dold\u002Dsession\u002Dtokens.",
+            "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Command-ProcessQueueCommand.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Command\\ProcessQueueCommand\u003A\u003A__construct\u0028\u0029",
@@ -23871,6 +23911,26 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Repository-DummyRepository.html#property_queryBuilder"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Schedule\\PhpListScheduleTest",
+            "name": "PhpListScheduleTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Schedule-PhpListScheduleTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Schedule\\PhpListScheduleTest\u003A\u003Acommands\u0028\u0029",
+            "name": "commands",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Schedule-PhpListScheduleTest.html#method_commands"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Schedule\\PhpListScheduleTest\u003A\u003AtestDefaultScheduleContainsAllRecurringCommands\u0028\u0029",
+            "name": "testDefaultScheduleContainsAllRecurringCommands",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Schedule-PhpListScheduleTest.html#method_testDefaultScheduleContainsAllRecurringCommands"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Schedule\\PhpListScheduleTest\u003A\u003AtestEmptyIntervalDisablesEntry\u0028\u0029",
+            "name": "testEmptyIntervalDisablesEntry",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Common-Schedule-PhpListScheduleTest.html#method_testEmptyIntervalDisablesEntry"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service\\DirectoryListingServiceTest",
             "name": "DirectoryListingServiceTest",
             "summary": "",
@@ -33531,6 +33591,11 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/phplist-core-domain-common-repository-interfaces.html"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Common\\Schedule",
+            "name": "Schedule",
+            "summary": "",
+            "url": "namespaces/phplist-core-domain-common-schedule.html"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Common\\Service",
             "name": "Service",
             "summary": "",
@@ -34130,6 +34195,11 @@ Search.appendIndex(
             "name": "Repository",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-common-repository.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Schedule",
+            "name": "Schedule",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-common-schedule.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Common\\Service",
             "name": "Service",
