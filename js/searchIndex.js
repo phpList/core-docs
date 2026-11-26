@@ -5226,6 +5226,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#method_replaceBuiltInPlaceholders"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003AcacheKey\u0028\u0029",
+            "name": "cacheKey",
+            "summary": "PSR\u002D6\/PSR\u002D16\u0020reserve\u0020the\u0020characters\u0020\u007B\u007D\u0028\u0029\/\\\u0040\u003A\u0020in\u0020cache\u0020keys,\u0020but\u0020config\u0020keys\u0020may\u0020contain\u0020them\n\u0028e.g.\u0020\u0022subscribemessage\u003A1\u0022\u0029,\u0020so\u0020they\u0020are\u0020replaced.",
+            "url": "classes/PhpList-Core-Domain-Configuration-Service-Provider-ConfigProvider.html#method_cacheKey"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Configuration\\Service\\Provider\\ConfigProvider\u003A\u003AgetValueWithNamespace\u0028\u0029",
             "name": "getValueWithNamespace",
             "summary": "",
