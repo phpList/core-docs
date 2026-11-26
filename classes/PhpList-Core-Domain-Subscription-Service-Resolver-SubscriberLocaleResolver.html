@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>phpList/Core Docs</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">phpList/Core Docs</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -namespaces">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/phplist.html" class="">PhpList</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/phplist-core.html" class="">Core</a>
+                
+            </li>
+            </ul>
+
+                        </section>
+                <section class="phpdocumentor-sidebar__category -packages">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category -reports">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category -indices">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist.html">PhpList</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core.html">Core</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain.html">Domain</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription.html">Subscription</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription-service.html">Service</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phplist-core-domain-subscription-service-resolver.html">Resolver</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    SubscriberLocaleResolver
+
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php"><a href="files/src-domain-subscription-service-resolver-subscriberlocaleresolver.html"><abbr title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php">SubscriberLocaleResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+
+    </aside>
+
+            <p class="phpdocumentor-summary">Resolves the locale used for emails sent to a subscriber.</p>
+
+
+    <section class="phpdocumentor-description"><p>phplist3 has no language per subscriber or list. The language is a setting of the subscribe page
+(<code class="prettyprint">language_file</code> in subscribepage_data, e.g. &quot;german.inc&quot;), and the subscriber keeps the page they used in
+<code class="prettyprint">subscribepage</code>. This resolver maps that legacy language file to an ISO locale and falls back to the default.</p>
+</section>
+
+
+
+    
+    
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#constant_LANGUAGE_FILE_KEY">LANGUAGE_FILE_KEY</a>
+    <span>
+        &nbsp;: mixed&nbsp;= &#039;language_file&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#constant_LANGUAGE_FILE_LOCALES">LANGUAGE_FILE_LOCALES</a>
+    <span>
+        &nbsp;: mixed&nbsp;= [&#039;afrikaans&#039; =&gt; &#039;af&#039;, &#039;albanian&#039; =&gt; &#039;sq&#039;, &#039;arab...                            </span>
+</dt>
+<dd>Legacy phplist3 language file (without &quot;.inc&quot;) =&gt; locale.</dd>
+
+    </dl>
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#property_defaultLocale">$defaultLocale</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#property_pageDataRepository">$pageDataRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageDataRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberPageDataRepository">SubscriberPageDataRepository</abbr></a>            </span>
+</dt>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method___construct">__construct()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method_localeFromLanguageFile">localeFromLanguageFile()</a>
+    <span>
+                                &nbsp;: string|null    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method_resolve">resolve()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+
+    </dl>
+
+
+
+        
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_LANGUAGE_FILE_KEY">
+        LANGUAGE_FILE_KEY
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#constant_LANGUAGE_FILE_KEY" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php"><a href="files/src-domain-subscription-service-resolver-subscriberlocaleresolver.html"><abbr title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php">SubscriberLocaleResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">LANGUAGE_FILE_KEY</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;language_file&#039;</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+                    <article class="phpdocumentor-element -constant -private ">
+    <h4 class="phpdocumentor-element__name" id="constant_LANGUAGE_FILE_LOCALES">
+        LANGUAGE_FILE_LOCALES
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#constant_LANGUAGE_FILE_LOCALES" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php"><a href="files/src-domain-subscription-service-resolver-subscriberlocaleresolver.html"><abbr title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php">SubscriberLocaleResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">23</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Legacy phplist3 language file (without &quot;.inc&quot;) =&gt; locale.</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">LANGUAGE_FILE_LOCALES</span>
+    = <span class="phpdocumentor-signature__default-value">[&#039;afrikaans&#039; =&gt; &#039;af&#039;, &#039;albanian&#039; =&gt; &#039;sq&#039;, &#039;arabic&#039; =&gt; &#039;ar&#039;, &#039;belgianflemish&#039; =&gt; &#039;nl_BE&#039;, &#039;bosnian&#039; =&gt; &#039;bs&#039;, &#039;bulgarian&#039; =&gt; &#039;bg&#039;, &#039;catalan&#039; =&gt; &#039;ca&#039;, &#039;croatian&#039; =&gt; &#039;hr&#039;, &#039;czech&#039; =&gt; &#039;cs&#039;, &#039;danish&#039; =&gt; &#039;da&#039;, &#039;dutch&#039; =&gt; &#039;nl&#039;, &#039;english&#039; =&gt; &#039;en&#039;, &#039;english-gaelic&#039; =&gt; &#039;ga&#039;, &#039;english-usa&#039; =&gt; &#039;en_US&#039;, &#039;usa&#039; =&gt; &#039;en_US&#039;, &#039;estonian&#039; =&gt; &#039;et&#039;, &#039;finnish&#039; =&gt; &#039;fi&#039;, &#039;french&#039; =&gt; &#039;fr&#039;, &#039;german&#039; =&gt; &#039;de&#039;, &#039;greek&#039; =&gt; &#039;el&#039;, &#039;hebrew&#039; =&gt; &#039;he&#039;, &#039;hungarian&#039; =&gt; &#039;hu&#039;, &#039;indonesian&#039; =&gt; &#039;id&#039;, &#039;italian&#039; =&gt; &#039;it&#039;, &#039;japanese&#039; =&gt; &#039;ja&#039;, &#039;latinamerican&#039; =&gt; &#039;es_419&#039;, &#039;norwegian&#039; =&gt; &#039;nb&#039;, &#039;persian&#039; =&gt; &#039;fa&#039;, &#039;polish&#039; =&gt; &#039;pl&#039;, &#039;portuguese&#039; =&gt; &#039;pt_BR&#039;, &#039;portuguese_pt&#039; =&gt; &#039;pt_PT&#039;, &#039;romanian&#039; =&gt; &#039;ro&#039;, &#039;russian&#039; =&gt; &#039;ru&#039;, &#039;serbian&#039; =&gt; &#039;sr&#039;, &#039;slovenian&#039; =&gt; &#039;sl&#039;, &#039;spanish&#039; =&gt; &#039;es&#039;, &#039;swedish&#039; =&gt; &#039;sv&#039;, &#039;swissgerman&#039; =&gt; &#039;de_CH&#039;, &#039;tchinese&#039; =&gt; &#039;zh_TW&#039;, &#039;turkish&#039; =&gt; &#039;tr&#039;, &#039;ukrainian&#039; =&gt; &#039;uk&#039;, &#039;vietnamese&#039; =&gt; &#039;vi&#039;]</span>
+</code>
+
+
+    
+    
+    
+
+        
+    </article>
+            </section>
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_defaultLocale">
+        $defaultLocale
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#property_defaultLocale" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php"><a href="files/src-domain-subscription-service-resolver-subscriberlocaleresolver.html"><abbr title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php">SubscriberLocaleResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">70</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$defaultLocale</span>
+    </code>
+
+    
+    
+    
+
+        
+            <section class="phpdocumentor-attributes">
+            <h5 class="phpdocumentor-elements__header" id="property_defaultLocale_attributes">
+                Attributes <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#property_defaultLocale_attributes" class="headerlink"><i class="fas fa-link"></i></a>
+
+            </h5>
+                            <dl class="phpdocumentor-argument-list">
+    <dt class="phpdocumentor-argument-list__entry">
+        #[<abbr title="\Symfony\Component\DependencyInjection\Attribute\Autowire">Autowire</abbr>]
+    </dt>
+        <dd class="phpdocumentor-argument-list__entry">
+        &#039;%locale%&#039;
+    </dd>
+    </dl>
+                    </section>
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_pageDataRepository">
+        $pageDataRepository
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#property_pageDataRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php"><a href="files/src-domain-subscription-service-resolver-subscriberlocaleresolver.html"><abbr title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php">SubscriberLocaleResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">69</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageDataRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberPageDataRepository">SubscriberPageDataRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$pageDataRepository</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php"><a href="files/src-domain-subscription-service-resolver-subscriberlocaleresolver.html"><abbr title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php">SubscriberLocaleResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">68</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageDataRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberPageDataRepository">SubscriberPageDataRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pageDataRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$defaultLocale</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$pageDataRepository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberPageDataRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberPageDataRepository">SubscriberPageDataRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$defaultLocale</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_localeFromLanguageFile">
+        localeFromLanguageFile()
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method_localeFromLanguageFile" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php"><a href="files/src-domain-subscription-service-resolver-subscriberlocaleresolver.html"><abbr title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php">SubscriberLocaleResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">86</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">localeFromLanguageFile</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$languageFile</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$languageFile</span>
+                : <span class="phpdocumentor-argument-list__argument__type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_resolve">
+        resolve()
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method_resolve" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php"><a href="files/src-domain-subscription-service-resolver-subscriberlocaleresolver.html"><abbr title="src/Domain/Subscription/Service/Resolver/SubscriberLocaleResolver.php">SubscriberLocaleResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">74</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">resolve</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriber</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$subscriber</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Model-Subscriber.html"><abbr title="\PhpList\Core\Domain\Subscription\Model\Subscriber">Subscriber</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+            </section>
+
+        
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#toc-constants">Constants</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#constant_LANGUAGE_FILE_KEY">LANGUAGE_FILE_KEY</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#constant_LANGUAGE_FILE_LOCALES">LANGUAGE_FILE_LOCALES</a></li>
+                                            </ul>
+                </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#property_defaultLocale">$defaultLocale</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#property_pageDataRepository">$pageDataRepository</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method_localeFromLanguageFile">localeFromLanguageFile()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method_resolve">resolve()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>

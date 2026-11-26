@@ -124,7 +124,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">19</span>
 
     </aside>
 
@@ -180,6 +180,18 @@
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_localeResolver">$localeResolver</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Resolver\SubscriberLocaleResolver">SubscriberLocaleResolver</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_subscriberRepository">$subscriberRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_translator">$translator</a>
     <span>
                         &nbsp;: <abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>            </span>
@@ -213,6 +225,13 @@
 </dt>
 <dd>Generate a confirmation link for the subscriber</dd>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method_resolveLocale">resolveLocale()</a>
+    <span>
+                                &nbsp;: string|null    </span>
+</dt>
+<dd>phplist3 has no per-subscriber language: it uses the language of the subscribe page the subscriber used.</dd>
+
     </dl>
 
 
@@ -243,7 +262,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 
     </aside>
 
@@ -294,7 +313,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">21</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
@@ -304,6 +323,80 @@
         <span class="phpdocumentor-signature__visibility">private</span>
             <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-EmailService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\EmailService">EmailService</abbr></a></span>
     <span class="phpdocumentor-signature__name">$emailService</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_localeResolver">
+        $localeResolver
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_localeResolver" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">26</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Resolver\SubscriberLocaleResolver">SubscriberLocaleResolver</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$localeResolver</span>
+    </code>
+
+    
+    
+    
+
+        
+        
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                -read-only                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_subscriberRepository">
+        $subscriberRepository
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_subscriberRepository" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                        <small class="phpdocumentor-element__modifier">read-only</small>                    </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">25</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$subscriberRepository</span>
     </code>
 
     
@@ -331,7 +424,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
@@ -373,14 +466,14 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">22</span>
 
     </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-EmailService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\EmailService">EmailService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$emailService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$confirmationUrl</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Service-EmailService.html"><abbr title="\PhpList\Core\Domain\Messaging\Service\EmailService">EmailService</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$emailService</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$translator</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$subscriberRepository</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Resolver\SubscriberLocaleResolver">SubscriberLocaleResolver</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$localeResolver</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$confirmationUrl</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -398,6 +491,20 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-argument-list__argument__name">$translator</span>
                 : <span class="phpdocumentor-argument-list__argument__type"><abbr title="\Symfony\Contracts\Translation\TranslatorInterface">TranslatorInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$subscriberRepository</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Repository-SubscriberRepository.html"><abbr title="\PhpList\Core\Domain\Subscription\Repository\SubscriberRepository">SubscriberRepository</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$localeResolver</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html"><abbr title="\PhpList\Core\Domain\Subscription\Service\Resolver\SubscriberLocaleResolver">SubscriberLocaleResolver</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -431,7 +538,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 
     </aside>
 
@@ -476,7 +583,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
+    <span class="phpdocumentor-element-found-in__line">100</span>
 
     </aside>
 
@@ -511,6 +618,58 @@
             </section>
 
 </article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_resolveLocale">
+        resolveLocale()
+        <a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method_resolveLocale" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php"><a href="files/src-domain-messaging-messagehandler-subscriberconfirmationmessagehandler.html"><abbr title="src/Domain/Messaging/MessageHandler/SubscriberConfirmationMessageHandler.php">SubscriberConfirmationMessageHandler.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">86</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">phplist3 has no per-subscriber language: it uses the language of the subscribe page the subscriber used.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">resolveLocale</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\SubscriberConfirmationMessage">SubscriberConfirmationMessage</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$message</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>A locale set explicitly on the message wins, otherwise it is resolved from that page (default locale as
+fallback), since the request locale is not available in a queue worker.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-argument-list__argument__name">$message</span>
+                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html"><abbr title="\PhpList\Core\Domain\Messaging\Message\SubscriberConfirmationMessage">SubscriberConfirmationMessage</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+            </section>
+
+</article>
             </section>
 
         
@@ -535,6 +694,8 @@
                     <ul class="phpdocumentor-list -clean">
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_confirmationUrl">$confirmationUrl</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_emailService">$emailService</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_localeResolver">$localeResolver</a></li>
+                                                    <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_subscriberRepository">$subscriberRepository</a></li>
                                                     <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_translator">$translator</a></li>
                                             </ul>
                 </li>
@@ -545,6 +706,7 @@
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method___construct">__construct()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method___invoke">__invoke()</a></li>
                                             <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method_generateConfirmationLink">generateConfirmationLink()</a></li>
+                                            <li class=""><a href="classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method_resolveLocale">resolveLocale()</a></li>
                                     </ul>
             </li>
                     </ul>

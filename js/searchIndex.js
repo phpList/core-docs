@@ -6671,6 +6671,11 @@ Search.appendIndex(
             "summary": "Cleans\u0020up\u0020expired\u0020password\u0020reset\u0020requests.",
             "url": "classes/PhpList-Core-Domain-Identity-Service-Manager-PasswordManager.html#method_cleanupExpiredTokens"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Manager\\PasswordManager\u003A\u003ArequestLocale\u0028\u0029",
+            "name": "requestLocale",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Identity-Service-Manager-PasswordManager.html#method_requestLocale"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Identity\\Service\\Manager\\PasswordManager\u003A\u003ATOKEN_EXPIRY",
             "name": "TOKEN_EXPIRY",
             "summary": "",
@@ -7641,6 +7646,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-PasswordResetMessage.html#method_getToken"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\PasswordResetMessage\u003A\u003AgetLocale\u0028\u0029",
+            "name": "getLocale",
+            "summary": "Locale\u0020of\u0020the\u0020request\u0020that\u0020asked\u0020for\u0020the\u0020reset\u003B\u0020null\u0020means\u0020the\u0020default\u0020locale.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-PasswordResetMessage.html#method_getLocale"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\PasswordResetMessage\u003A\u003A\u0024email",
             "name": "email",
             "summary": "",
@@ -7650,6 +7660,11 @@ Search.appendIndex(
             "name": "token",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-PasswordResetMessage.html#property_token"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\PasswordResetMessage\u003A\u003A\u0024locale",
+            "name": "locale",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-PasswordResetMessage.html#property_locale"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage",
             "name": "SubscriberConfirmationMessage",
@@ -7676,6 +7691,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_hasHtmlEmail"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage\u003A\u003AgetLocale\u0028\u0029",
+            "name": "getLocale",
+            "summary": "Explicit\u0020email\u0020locale\u003B\u0020when\u0020null\u0020the\u0020handler\u0020resolves\u0020it\u0020from\u0020the\u0020subscriber\u0027s\u0020subscribe\u0020page.",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#method_getLocale"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage\u003A\u003A\u0024email",
             "name": "email",
             "summary": "",
@@ -7690,6 +7710,11 @@ Search.appendIndex(
             "name": "htmlEmail",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_htmlEmail"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriberConfirmationMessage\u003A\u003A\u0024locale",
+            "name": "locale",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-Message-SubscriberConfirmationMessage.html#property_locale"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\Message\\SubscriptionConfirmationMessage",
             "name": "SubscriptionConfirmationMessage",
@@ -7943,7 +7968,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler\u003A\u003A__invoke\u0028\u0029",
             "name": "__invoke",
-            "summary": "Process\u0020a\u0020subscriber\u0020confirmation\u0020message\u0020by\u0020sending\u0020the\u0020confirmation\u0020email",
+            "summary": "Process\u0020a\u0020password\u0020reset\u0020message\u0020by\u0020sending\u0020the\u0020reset\u0020email",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-PasswordResetMessageHandler.html#method___invoke"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandler\u003A\u003AgenerateLink\u0028\u0029",
@@ -7981,6 +8006,11 @@ Search.appendIndex(
             "summary": "Process\u0020a\u0020subscriber\u0020confirmation\u0020message\u0020by\u0020sending\u0020the\u0020confirmation\u0020email",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method___invoke"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003AresolveLocale\u0028\u0029",
+            "name": "resolveLocale",
+            "summary": "phplist3\u0020has\u0020no\u0020per\u002Dsubscriber\u0020language\u003A\u0020it\u0020uses\u0020the\u0020language\u0020of\u0020the\u0020subscribe\u0020page\u0020the\u0020subscriber\u0020used.",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#method_resolveLocale"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003AgenerateConfirmationLink\u0028\u0029",
             "name": "generateConfirmationLink",
             "summary": "Generate\u0020a\u0020confirmation\u0020link\u0020for\u0020the\u0020subscriber",
@@ -7995,6 +8025,16 @@ Search.appendIndex(
             "name": "translator",
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_translator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A\u0024localeResolver",
+            "name": "localeResolver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandler.html#property_localeResolver"
         },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandler\u003A\u003A\u0024confirmationUrl",
             "name": "confirmationUrl",
@@ -19671,6 +19711,46 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-AttributeValueResolver.html#property_providers"
         },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolver",
+            "name": "SubscriberLocaleResolver",
+            "summary": "Resolves\u0020the\u0020locale\u0020used\u0020for\u0020emails\u0020sent\u0020to\u0020a\u0020subscriber.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolver\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method___construct"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolver\u003A\u003Aresolve\u0028\u0029",
+            "name": "resolve",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method_resolve"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolver\u003A\u003AlocaleFromLanguageFile\u0028\u0029",
+            "name": "localeFromLanguageFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#method_localeFromLanguageFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolver\u003A\u003ALANGUAGE_FILE_KEY",
+            "name": "LANGUAGE_FILE_KEY",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#constant_LANGUAGE_FILE_KEY"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolver\u003A\u003ALANGUAGE_FILE_LOCALES",
+            "name": "LANGUAGE_FILE_LOCALES",
+            "summary": "Legacy\u0020phplist3\u0020language\u0020file\u0020\u0028without\u0020\u0022.inc\u0022\u0029\u0020\u003D\u003E\u0020locale.",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#constant_LANGUAGE_FILE_LOCALES"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolver\u003A\u003A\u0024pageDataRepository",
+            "name": "pageDataRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#property_pageDataRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolver\u003A\u003A\u0024defaultLocale",
+            "name": "defaultLocale",
+            "summary": "",
+            "url": "classes/PhpList-Core-Domain-Subscription-Service-Resolver-SubscriberLocaleResolver.html#property_defaultLocale"
+        },                {
             "fqsen": "\\PhpList\\Core\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryIndexDefinition",
             "name": "SubscriberHistoryIndexDefinition",
             "summary": "",
@@ -26596,6 +26676,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#method_testGeneratePasswordResetTokenCleansUpExistingRequests"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003AtestGeneratePasswordResetTokenCapturesRequestLocale\u0028\u0029",
+            "name": "testGeneratePasswordResetTokenCapturesRequestLocale",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Identity-Service-PasswordManagerTest.html#method_testGeneratePasswordResetTokenCapturesRequestLocale"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Identity\\Service\\PasswordManagerTest\u003A\u003AtestValidatePasswordResetTokenReturnsNullIfTokenNotFound\u0028\u0029",
             "name": "testValidatePasswordResetTokenReturnsNullIfTokenNotFound",
             "summary": "",
@@ -27066,6 +27151,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Message-SubscriberConfirmationMessageTest.html#method_testDefaultHtmlEmailIsFalse"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\Message\\SubscriberConfirmationMessageTest\u003A\u003AtestLocaleDefaultsToNullAndCanBeSet\u0028\u0029",
+            "name": "testLocaleDefaultsToNullAndCanBeSet",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-Message-SubscriberConfirmationMessageTest.html#method_testLocaleDefaultsToNullAndCanBeSet"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\CampaignProcessorMessageHandlerTest",
             "name": "CampaignProcessorMessageHandlerTest",
             "summary": "",
@@ -27201,6 +27291,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-PasswordResetMessageHandlerTest.html#method_testInvoke"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest\u003A\u003AtestInvokeUsesLocaleOfMessage\u0028\u0029",
+            "name": "testInvokeUsesLocaleOfMessage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-PasswordResetMessageHandlerTest.html#method_testInvokeUsesLocaleOfMessage"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\PasswordResetMessageHandlerTest\u003A\u003AgetEmailAddresses\u0028\u0029",
             "name": "getEmailAddresses",
             "summary": "Helper\u0020method\u0020to\u0020extract\u0020email\u0020addresses\u0020from\u0020Address\u0020objects",
@@ -27231,6 +27326,31 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#method_setUp"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003AcreateHandler\u0028\u0029",
+            "name": "createHandler",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#method_createHandler"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003AgermanTranslator\u0028\u0029",
+            "name": "germanTranslator",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#method_germanTranslator"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003AtestSubjectUsesLocaleResolvedFromSubscriber\u0028\u0029",
+            "name": "testSubjectUsesLocaleResolvedFromSubscriber",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#method_testSubjectUsesLocaleResolvedFromSubscriber"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003AtestExplicitMessageLocaleWinsOverResolver\u0028\u0029",
+            "name": "testExplicitMessageLocaleWinsOverResolver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#method_testExplicitMessageLocaleWinsOverResolver"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003AtestUnknownSubscriberUsesDefaultLocale\u0028\u0029",
+            "name": "testUnknownSubscriberUsesDefaultLocale",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#method_testUnknownSubscriberUsesDefaultLocale"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003AtestInvokeWithTextEmail\u0028\u0029",
             "name": "testInvokeWithTextEmail",
             "summary": "",
@@ -27255,6 +27375,16 @@ Search.appendIndex(
             "name": "emailService",
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#property_emailService"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003A\u0024subscriberRepository",
+            "name": "subscriberRepository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#property_subscriberRepository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003A\u0024localeResolver",
+            "name": "localeResolver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Messaging-MessageHandler-SubscriberConfirmationMessageHandlerTest.html#property_localeResolver"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Messaging\\MessageHandler\\SubscriberConfirmationMessageHandlerTest\u003A\u003A\u0024confirmationUrl",
             "name": "confirmationUrl",
@@ -32916,6 +33046,61 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Provider-SubscriberProviderTest.html#property_subscriberProvider"
         },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolverTest",
+            "name": "SubscriberLocaleResolverTest",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Resolver-SubscriberLocaleResolverTest.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolverTest\u003A\u003AsetUp\u0028\u0029",
+            "name": "setUp",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Resolver-SubscriberLocaleResolverTest.html#method_setUp"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolverTest\u003A\u003AsubscriberWithPage\u0028\u0029",
+            "name": "subscriberWithPage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Resolver-SubscriberLocaleResolverTest.html#method_subscriberWithPage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolverTest\u003A\u003AtestMapsLanguageFileOfSubscribePage\u0028\u0029",
+            "name": "testMapsLanguageFileOfSubscribePage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Resolver-SubscriberLocaleResolverTest.html#method_testMapsLanguageFileOfSubscribePage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolverTest\u003A\u003AtestDefaultsWhenSubscriberHasNoPage\u0028\u0029",
+            "name": "testDefaultsWhenSubscriberHasNoPage",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Resolver-SubscriberLocaleResolverTest.html#method_testDefaultsWhenSubscriberHasNoPage"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolverTest\u003A\u003AtestDefaultsWhenPageHasNoLanguageFile\u0028\u0029",
+            "name": "testDefaultsWhenPageHasNoLanguageFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Resolver-SubscriberLocaleResolverTest.html#method_testDefaultsWhenPageHasNoLanguageFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolverTest\u003A\u003AtestDefaultsWhenLanguageFileIsEmptyOrUnknown\u0028\u0029",
+            "name": "testDefaultsWhenLanguageFileIsEmptyOrUnknown",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Resolver-SubscriberLocaleResolverTest.html#method_testDefaultsWhenLanguageFileIsEmptyOrUnknown"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolverTest\u003A\u003AtestLocaleFromLanguageFile\u0028\u0029",
+            "name": "testLocaleFromLanguageFile",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Resolver-SubscriberLocaleResolverTest.html#method_testLocaleFromLanguageFile"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolverTest\u003A\u003AlanguageFileProvider\u0028\u0029",
+            "name": "languageFileProvider",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Resolver-SubscriberLocaleResolverTest.html#method_languageFileProvider"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolverTest\u003A\u003A\u0024repository",
+            "name": "repository",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Resolver-SubscriberLocaleResolverTest.html#property_repository"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver\\SubscriberLocaleResolverTest\u003A\u003A\u0024resolver",
+            "name": "resolver",
+            "summary": "",
+            "url": "classes/PhpList-Core-Tests-Unit-Domain-Subscription-Service-Resolver-SubscriberLocaleResolverTest.html#property_resolver"
+        },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search\\SubscriberHistoryIndexDefinitionTest",
             "name": "SubscriberHistoryIndexDefinitionTest",
             "summary": "",
@@ -34425,6 +34610,11 @@ Search.appendIndex(
             "name": "Provider",
             "summary": "",
             "url": "namespaces/phplist-core-tests-unit-domain-subscription-service-provider.html"
+        },                {
+            "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Resolver",
+            "name": "Resolver",
+            "summary": "",
+            "url": "namespaces/phplist-core-tests-unit-domain-subscription-service-resolver.html"
         },                {
             "fqsen": "\\PhpList\\Core\\Tests\\Unit\\Domain\\Subscription\\Service\\Search",
             "name": "Search",
